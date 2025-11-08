@@ -1,0 +1,38 @@
+{
+	"tasks": {
+		"dev": "deno run -A --watch=static/,src/ npm:vite dev",
+		"build": "deno run -A npm:vite build",
+		"preview": "deno run -A npm:vite preview",
+		"check": "deno run -A npm:svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "deno run -A npm:svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "deno run -A npm:eslint .",
+		"lint:fix": "deno run -A npm:eslint . --fix",
+		"format": "deno run -A npm:prettier --write .",
+		"format:check": "deno run -A npm:prettier --check ."
+	},
+	"imports": {
+		"@sveltejs/kit": "npm:@sveltejs/kit",
+		"@sveltejs/vite-plugin-svelte": "npm:@sveltejs/vite-plugin-svelte",
+		"svelte": "npm:svelte",
+		"vite": "npm:vite"
+	},
+	"compilerOptions": {
+		"lib": ["dom", "dom.asynciterable", "es6"],
+    "checkJs": true,
+		"strict": true
+	},
+	"fmt": {
+		"useTabs": false,
+		"lineWidth": 80,
+		"indentWidth": 2,
+		"semiColons": true,
+		"singleQuote": false,
+		"proseWrap": "preserve"
+	},
+	"lint": {
+		"rules": {
+			"tags": ["recommended"]
+		}
+	},
+	"unstable": ["fmt-component"]
+}
