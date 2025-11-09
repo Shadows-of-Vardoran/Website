@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Changed from master to main
+      - main # Changed from master to main
   workflow_dispatch:
 
 permissions:
@@ -18,16 +18,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          deno-version: v2.x
+          node-version: '20'
 
       - name: Install dependencies
-        run: deno install
+        run: yarn install --frozen-lockfile
 
       - name: Build static site
-        run: deno task build
+        run: |
+          yarn build
         env:
           GITHUB_PAGES: true
           # VITE_DISCORD_CLIENT_ID: ${{ secrets.VITE_DISCORD_CLIENT_ID }}

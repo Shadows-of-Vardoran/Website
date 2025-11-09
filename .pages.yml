@@ -1,8 +1,22 @@
 media:
   input: src/lib/media
   output: /media
+
 content:
-  - name: home
-    label: Home
+  - name: rules
+    label: Rules Page
     type: file
-    path: src/routes/home.md
+    path: src/routes/rules.md
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: body
+        label: Body
+        type: rich-text
+        required: true
+
+settings:
+  content:
+    merge: true

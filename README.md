@@ -5,33 +5,32 @@ Website for Shadows of Vardoran built with SvelteKit and Tailwind CSS.
 ## Setup
 
 ### Prerequisites
-- [Deno](https://deno.land/) 2.0+
+- [Node.js](https://nodejs.org/) 18+
+- [Yarn](https://yarnpkg.com/) 1.x
 
 ### Install Dependencies
 ```bash
-deno install
+yarn install
 ```
 
 ## Development
 
 ### Start Dev Server
 ```bash
-deno task dev
+yarn dev
 ```
 
 Server runs at `http://localhost:5173`
 
 ### Available Commands
-- `deno task dev` - Start development server
-- `deno task build` - Build for production
-- `deno task preview` - Preview production build
-- `deno task check` - Type checking
-- `deno task lint` - Run ESLint
-- `deno task format` - Format code
+- `yarn dev` - Start development server
+- `yarn build` - Build for production
+- `yarn preview` - Preview production build
+- `yarn check` - Type checking (if script exists)
+- `yarn format` - Format code (if script exists)
 
 ## Tech Stack
 - SvelteKit
 - TypeScript
 - Tailwind CSS v4
 - Vite
-- Deno

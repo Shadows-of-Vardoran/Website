@@ -1,1 +1,31 @@
 @import "tailwindcss";
+@config "../tailwind.config.ts";
+@layer base {}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--color-background-0);
+  color: var(--color-tsecondary-50);
+}
+
+h1 {
+  color: var(--color-tprimary-50);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--color-tprimary-50);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  color: var(--color-tsecondary-50);
+  font-size: 1rem;
+  font-weight: 400;
+}
