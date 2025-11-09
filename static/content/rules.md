@@ -28,3 +28,18 @@ Treat others as you would want to be treated. Violation of this **non-exhaustive
 - Do not bring up real-world politics using the in-character or out-of-character channels in the SoV Discord. If you wish to discuss real-world politics, take it to DMs.
 - Do not discuss fetishes or other heavily sexual topics without explicit consent in-character or out-of-character. Light sexual banter, like a quick joke, is fine. 
 - Do not share the V Rising server and password information outside the SoV Discord.
+
+# 2. RP GUIDELINES
+
+## A. *Characters*
+
+You are not allowed to play any character unless staff has approved a whitelist application for the character. You must make a separate whitelist application for every character you intend to play, even if you have whitelisted a character in a previous or the current season. Once staff whitelists your character, change your Discord display name for the server to your character’s name. In the case of a second character played concurrently with another character by the same player, put both characters’ names in your Discord display name. A second character played concurrently with another character requires a second copy of V Rising.
+
+- With limited exceptions, players are expected to be fully in-character while in-game.
+- Characters must be 18+ in chronological age, appearance, and mentality. 
+- Characters must appear primarily humanoid. Small horns, wings, tails, and non-human skin tones are allowed. 
+- Characters’ backgrounds, abilities/skills, and knowledge must follow the magic and technology guidelines for the season. Characters are also expected to abide by the mechanical limitations of the game, such as power levels aligning with the game’s mechanics, requiring blood, and being hurt from sunlight. 
+- Characters may not access holy magic. 
+- Players are encouraged to use in-game weapons and magic that fit with their character’s background, abilities/skills, and knowledge. 
+- A second character played concurrently with another character does not share the in-character/story knowledge and connections with the other character belonging to the same player. Players must develop these with the second character as if entering the story for the first time.
+- Characters should exhibit [Fear RP](https://discord.com/channels/1309473331501600769/1309480895471812649/1378908288644812801) and [Value of Life RP](https://discord.com/channels/1309473331501600769/1309480895471812649/1378911195913912380).
