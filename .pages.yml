@@ -8,12 +8,8 @@ content:
     type: file
     path: static/content/rules.md
     fields:
-      - name: title
-        label: Title
-        type: string
-        required: true
-      - name: body
-        label: Body
+      - name: content
+        label: Page Content
         type: rich-text
         required: true
 
