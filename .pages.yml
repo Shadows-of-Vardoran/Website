@@ -6,12 +6,7 @@ content:
   - name: rules
     label: Rules Page
     type: file
-    path: static/content/rules.yaml
-    fields:
-      - name: content
-        label: Page Content
-        type: rich-text
-        required: true
+    path: static/content/rules.md
 
 settings:
   content:
