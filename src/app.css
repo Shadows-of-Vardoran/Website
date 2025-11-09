@@ -28,4 +28,13 @@ p {
   color: var(--color-tsecondary-50);
   font-size: 1rem;
   font-weight: 400;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
