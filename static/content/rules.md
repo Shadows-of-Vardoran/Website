@@ -15,3 +15,16 @@ SoV is a collaborative storytelling space. By becoming a part of this community,
 - Remember that all staff here are volunteers who give their time and effort to facilitate story aspects and steward the community. Please respect staff boundaries as you are expected to respect the boundaries of every player.
 
 Going against the spirit of the Golden Rule of RP is a violation of the Community Harm Rule. The Community Harm Rule is enforced by the Disciplinary Team. The Community Harm Rule is not a vessel to force players to abide by your preferences, nor is it a means to stifle others’ RP.
+
+## B. *Behavioral Expectations*:
+
+Treat others as you would want to be treated. Violation of this **non-exhaustive** list of behavioral expectations is subject to disciplinary action up to and including a temporary or permanent ban from both our Discord and our community V Rising server under the Community Harm Rule. **The Disciplinary Team has discretion to determine whether any player behavior violates the Community Harm Rule and reserves the right to temporarily or permanently remove players from our Discord and/or our community V Rising server to ensure that the space remains safe and enjoyable for everyone.** Participation in this community is a privilege, not a right, and we take protecting this community seriously.
+
+- You must be 18+ to participate in SoV. 
+- We do not tolerate harassment or bigotry of any kind, including but not limited to racism, homophobia, transphobia, sexual harassment, intimidation, bullying, and/or disrespect of another player’s stated boundaries.
+- Do not engage in actions motivated by [Bleed](https://discord.com/channels/1309473331501600769/1309480895471812649/1378907033449009173), whether conscious or unconscious. If you have concerns about Bleed, whether for yourself or another player, please open a ticket with staff.
+- Do not engage in continuous, repeated, and/or sustained exclusionary behavior. Remember we are here to tell stories together.
+- Do not discuss overly graphic, violent, or traumatic topics in-character or out-of-character.
+- Do not bring up real-world politics using the in-character or out-of-character channels in the SoV Discord. If you wish to discuss real-world politics, take it to DMs.
+- Do not discuss fetishes or other heavily sexual topics without explicit consent in-character or out-of-character. Light sexual banter, like a quick joke, is fine. 
+- Do not share the V Rising server and password information outside the SoV Discord.
