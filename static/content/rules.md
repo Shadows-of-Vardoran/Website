@@ -1,4 +1,4 @@
-# A Google doc version of the rules with more spaced-out formatting can be found here:
+#### A Google doc version of the rules with more spaced-out formatting can be found here:
 
 https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/edit?usp=sharing
 
