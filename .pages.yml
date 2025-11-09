@@ -6,7 +6,7 @@ content:
   - name: rules
     label: Rules Page
     type: file
-    path: src/routes/rules.md
+    path: static/content/rules.md
     fields:
       - name: title
         label: Title
