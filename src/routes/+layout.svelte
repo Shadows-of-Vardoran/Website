@@ -17,7 +17,7 @@
 
 <div class="h-screen w-screen flex overflow-hidden relative">
   <div class="absolute inset-0 bg-black-gradient -z-10"></div>
-  <img src={darkCastle} alt="Dark Castle" class="absolute top-0 left-0 object-cover w-full h-full -z-20 -scale-x-100" />
+  <img src={darkCastle} alt="Dark Castle" class="absolute top-0 left-0 object-cover w-full h-full z-0 -scale-x-100" />
   <!-- <img src={moon} alt="Moon" class="absolute top-0 right-0 object-cover w-48 min-w-48 max-w-48 mt-4 mr-6 black-to-red" /> -->
 
   <div class="flex flex-col items-center">
