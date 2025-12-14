@@ -4,18 +4,17 @@ import { useColors } from './src/lib/useColors.ts';
 const { generateBackgroundColors, generateColors } = useColors();
 
 const pitchBlack = '#0D0D0D'; // almost black
-const baseBackgroundColor = '#0D0B09'; // very dark brown
+const baseBackgroundColor = '#0D0D0D'; // dark gray
 
-const basePrimaryColor = '#2b2621'; // dark brown
-const baseSecondaryColor = '#1f2523'; // dark grayish green
+const basePrimaryColor = '#FF0000'; // bright red
+const baseSecondaryColor = '#8B0000'; // dark red
 
-const errorColor = '#7a4438'; // dried blood red
-const successColor = '#5a6847'; // sickly muted green
-const infoColor = '#4a6662'; // muted teal
+const errorColor = '#CC4400'; // vibrant orange
+const successColor = '#FFBF00'; // bright gold
+const infoColor = '#4682B4 '; // steel blue
 
-// const textPrimaryColor = '#c9b35f'; // muted gold, original glowy yellow color
-const textPrimaryColor = '#9bb5c4'; // muted light gold
-const textSecondaryColor = '#b2a490'; // muted light cream
+const textPrimaryColor = '#E8E8E8'; // light gray
+const textSecondaryColor = '#9E9E9E '; // medium gray
 
 const primaryOverlayOpacity = 0.8;
 const secondaryOverlayOpacity = 0.3;

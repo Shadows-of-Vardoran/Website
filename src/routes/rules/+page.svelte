@@ -1,9 +1,12 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { marked } from 'marked';
+  import brBorderDecoration2 from '$lib/assets/br_border_decoration_2.png';
+  import ScrollIndicator from '$lib/components/ScrollIndicator.svelte';
 
   let html: string | Promise<string> = '';
   let headings: { text: string; id: string; level: number }[] = [];
+  let scrollElement: HTMLElement | null = null;
 
   function slugify(text: string) {
     return text
@@ -44,18 +47,42 @@
   });
 </script>
 
-<div class="flex h-full">
-  <aside class="p-4 min-w-[220px]">
-    <nav>
+<div class="flex h-full bg-background-900/50">
+  <main class="flex flex-col relative">
+    {#if scrollElement}
+      <ScrollIndicator {scrollElement} direction="up" />
+    {/if}
+    <div bind:this={scrollElement} class="flex flex-col overflow-y-auto p-8 scrollbar-hidden marked">
+      {@html html}
+    </div>
+    {#if scrollElement}
+      <ScrollIndicator {scrollElement} direction="down" />
+    {/if}
+  </main>
+
+  <aside class="min-w-60 z-40 relative mt-5 mr-5 mb-5 border-b-2 border-l-2 border-testing">
+    <nav class="h-full p-4 rounded-lg bg-background-0/10 z-10">
       {#each headings as h}
         <div style="margin-left: {(h.level - 1) * 12}px;">
-          <a href={'#' + h.id} class="block py-1 hover:text-tprimary">{h.text}</a>
+          <a href={'#' + h.id} class="block py-1 text-tprimary-800 hover:text-tprimary">{h.text}</a>
         </div>
       {/each}
     </nav>
-  </aside>
 
-  <main class="flex flex-col p-8 overflow-y-auto">
-    {@html html}
-  </main>
+    <img
+      src={brBorderDecoration2}
+      alt="Bottom Right Border Decoration"
+      class="absolute bottom-0 left-0 w-26 border-decoration-color -scale-x-100 -translate-x-[4px] translate-y-[5px] pointer-events-none z-0"
+    />
+  </aside>
 </div>
+
+<style>
+  .border-decoration-color {
+    filter: invert(70%); /* sepia(83%) saturate(7463%) hue-rotate(356deg) brightness(91%) contrast(101%); */
+  }
+
+  .border-testing {
+    border-image: linear-gradient(50deg, transparent 6%, var(--color-tprimary-900) 7%, transparent 75%) 1;
+  }
+</style>
