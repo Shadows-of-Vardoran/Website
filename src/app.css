@@ -115,6 +115,10 @@ body {
   font-style: italic;
 }
 
+.font-cinzel {
+  font-family: "Cinzel", serif;
+}
+
 @font-face {
   font-family: 'Othelie';
   src: url('/fonts/Othelie.otf') format('opentype');
