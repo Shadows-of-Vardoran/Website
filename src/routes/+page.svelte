@@ -49,7 +49,7 @@
       </div>
     </div>
 
-    <div class="flex flex-col text-center w-full text-lg pt-5 mt-5 px-2 fade-background-down relative">
+    <div class="flex flex-col text-center w-full text-lg pt-5 mt-8 px-2 fade-background-down relative">
       <div class="mb-6">
         Join Now, Before the Shadows Fall... Whether you're a seasoned roleplayer or new to the dark gift, our staff and community will help you sink your fangs in quickly.
       </div>
