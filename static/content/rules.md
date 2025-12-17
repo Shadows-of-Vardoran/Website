@@ -228,7 +228,7 @@ As a community, we have developed a number of euphemisms for common IRL terms fo
 
 ## F. Combat and Conflict
 
-<details open><summary>Click to expand rules on Combat and Conflict</summary>
+<details open><summary>Click to expand/collapse rules on Combat and Conflict</summary>
 
 Conflict in SoV takes many forms, including traditional PvP, thievery and looting, and formal declarations of conflict which we call warbats.
 
