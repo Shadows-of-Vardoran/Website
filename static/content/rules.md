@@ -246,13 +246,13 @@ SoV is an open-world PvP server. **PvP encounters, including the build-up to PvP
 
 ### 2. Thievery and Looting Rules
 
-- **Looting Players**
+**Looting Players**
   - You may take up to three (3) unique stacks of items from a player at one time (e.g. a stack of rugged hide, a stack of copper coins, and a stack of wood). If the player being robbed chooses to resist/fight back, the party that wins the fight may take up to five (5) unique stacks of items (e.g. a stack of rugged hide, a stack of copper coins, a stack of wood, a stack of plant fiber, and a stack of stone) from the loser. In the instance a player being robbed chooses to fight back, the [PvP Rules](https://discord.com/channels/1309473331501600769/1309480895471812649/1378899204612554823) apply. Note that weapons or gear may only be taken from another player via a warbat. Warbats are explained in [Warbat Rules](https://discord.com/channels/1309473331501600769/1309480895471812649/1378901533789393077).
   - You cannot kill a player and then rob them. You must choose one or the other.  However, if you were brought into someone’s castle and stole something while there, you may defend yourself against the castle owner and break out.
   - If shards are in use during a season, they may be taken from a player’s bag.
   - Players that lost items to robbery are exempt from another robbery from the robber and the robber’s clan for two (2) IRL days. If the robbery victim resists, they are only exempt from another robbery from the robber and the robber’s clan for one (1) IRL day.
 
-- **Looting/Raiding Castles**: 
+**Looting/Raiding Castles**: 
 
 The only situation in which you may raid and loot a castle (i.e. break in and steal or destroy items) without a [warbat](https://discord.com/channels/1309473331501600769/1309480895471812649/1378901533789393077) is if the castle is in decay or if someone leaves their castle open. Offline raiding is not allowed. Intentionally damaging another player’s castle, such as by destroying a garden or using a golem to attack their castle without arranging to do so via warbat is not allowed. Intentionally damaging someone’s castle or attacking it without a warbat in place first is subject to a temporary or permanent ban without lesser disciplinary action.
 
