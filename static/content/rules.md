@@ -6,8 +6,8 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 <div style="font-size: 1.25rem; line-height: 1.7;">
 
-# **1. GENERAL CONDUCT** <details><summary>Click to expand General Conduct Rules</summary>
-
+# **1. GENERAL CONDUCT**
+<details><summary>Click to expand General Conduct Rules</summary>
 ## A. The Golden Rule and Community Harm
 
 > [!NOTE]
