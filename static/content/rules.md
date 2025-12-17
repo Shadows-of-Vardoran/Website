@@ -350,7 +350,12 @@ Constructing a scenario in a way that heavily weighs the outcomes in your favor,
 A player engaging in PvP without proper IC motivation and without declaring intent. Characters must have a genuine IC, RP-justified reason to want to engage in PvP with another character and must clearly declare that intent before engaging. Our server is RP first, with the involvement of PvP. Note that players do not need consent to begin a fight, they just need to initiate PvP through RP and allow a reasonable window for a response from the other player. Ignoring the aggressor is not an appropriate response. See [PvP Rules](https://discord.com/channels/1309473331501600769/1309480895471812649/1378899204612554823).
 
 ## Value of Life RP
-Characters valuing their life as if it were real. Players know OOC that they can respawn at a coffin or waygate, but IC should not treat respawning as an inevitability. Treat each death as if it could be your last while IC.
+Characters valuing their life as if it were real. Players know OOC that they can respawn at a coffin or waygate, but IC should not treat respawning as an inevitability. Treat each death as if it could be your last while IC, deaths to the world, npcs or any other means should be considered with the levity that it could be your last. 
+
+- An example of not committing to Value of Life RP is rushing into and repeatedly dying to a Boss or to a powerful NPC
+
+## FOIC
+A common turn of phrase in discord. Literally means to "Find out in character" 
 
 </details>
 
