@@ -4,12 +4,13 @@
   // import fancyBorderRight from '$lib/assets/fancy_border_right.png';
   import verticalSeparator1 from '$lib/assets/vertical_separator_1.png';
   import teethLogo from '$lib/assets/teeth_logo.png';
+  import buttonImage from '$lib/assets/button_image.png';
 </script>
 
-<div class="flex flex-col items-center justify-center w-full h-full">
-  <div class="flex flex-col items-center justify-center w-4/5 h-full">
-    <div class="text-5xl text-tprimary font-cinzel">Shadows of Vardoran</div>
-    <div class="text-2xl text-tsecondary font-cinzel">In the darkness, we rise</div>
+<div class="flex flex-col items-center w-full h-full overflow-y-auto scrollbar-hidden">
+  <div class="flex flex-col items-center justify-center max-lg:justify-start mt-10 w-4/5 h-fit pb-10">
+    <div class="text-5xl text-tprimary font-cinzel text-center">Shadows of Vardoran</div>
+    <div class="text-2xl text-tsecondary font-cinzel text-center">In the darkness, we rise</div>
 
     <div class="text-center w-full text-lg pb-5 pt-16 px-2 fade-background-up relative">
       Step into the shadows and stake your claim in Shadows of Vardoran, an immersive Roleplay server set in the world of V Rising! Whether you're a noble vampire lord, rogue
@@ -23,7 +24,7 @@
     </div>
 
     <div class="grid grid-cols-[2fr_240px_2fr] max-lg:flex max-lg:flex-col w-full mt-10">
-      <div class="flex flex-col fade-background-left py-2 px-3 -ml-20 pl-20">
+      <div class="flex flex-col fade-background-left py-2 px-3 -ml-20 pl-20 max-lg:border-r-2 max-lg:border-tprimary-0">
         <div class="text-3xl text-tprimary font-cinzel mb-4">Server Features</div>
         <div class="flex flex-col gap-1 text-lg text-tsecondary">
           <div>- Dark Fantasy RP | Lore-Driven Worldbuilding</div>
@@ -42,28 +43,31 @@
         <img src={verticalSeparator1} alt="Separator" class="right-vertical-separator" />
       </div>
 
-      <div class="flex justify-center fade-background-right py-2 px-3 -mr-20 pr-20">
+      <div class="flex justify-center fade-background-right py-2 px-3 -mr-20 pr-20 max-lg:border-l-2 max-lg:border-tprimary-0 max-lg:mt-6">
         Imagine something cool here
         <!-- <img src={communityImage} alt="Community Image" class="rounded-lg shadow-lg max-w-full h-auto" /> -->
       </div>
     </div>
 
-    <div class="text-center w-full text-lg pt-5 mt-5 pb-16 px-2 fade-background-down relative">
-      Join Now, Before the Shadows Fall... Whether you're a seasoned roleplayer or new to the dark gift, our staff and community will help you sink your fangs in quickly.
+    <div class="flex flex-col text-center w-full text-lg pt-5 mt-5 px-2 fade-background-down relative">
+      <div class="mb-6">
+        Join Now, Before the Shadows Fall... Whether you're a seasoned roleplayer or new to the dark gift, our staff and community will help you sink your fangs in quickly.
+      </div>
+
+      <div>
+        <a href="https://discord.gg/shadowsofvardoran" target="_blank" rel="noopener noreferrer">
+          <button class="relative bg-transparent border-0 p-0 cursor-pointer discord-button">
+            <img src={buttonImage} alt="Join Discord Button" class="w-80 h-auto button-image" />
+            <span class="absolute inset-0 flex items-center justify-center text-tprimary font-cinzel text-xl pointer-events-none"> Join Discord </span>
+          </button>
+        </a>
+      </div>
 
       <div class="fancy-top-border">
         <div class="border-left"></div>
         <div class="border-middle"></div>
         <div class="border-right"></div>
       </div>
-    </div>
-
-    <div class="mt-8">
-      <a href="https://discord.gg/shadowsofvardoran" target="_blank" rel="noopener noreferrer">
-        <button class="cursor-pointer bg-red-900 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg text-xl shadow-lg hover:shadow-xl transition duration-200">
-          Join Our Discord
-        </button>
-      </a>
     </div>
   </div>
 </div>
@@ -163,5 +167,21 @@
     width: auto;
     object-fit: contain;
     display: block;
+  }
+
+  .button-image {
+    filter: invert(80%);
+  }
+
+  .discord-button span {
+    font-family: 'Cinzel', serif;
+    transition:
+      filter 0.3s,
+      color 0.3s;
+    filter: drop-shadow(0px 0px -0px var(--color-red-900)) drop-shadow(0px 0px 0px var(--color-red-900));
+  }
+
+  .discord-button:hover span {
+    filter: drop-shadow(0px 0px 16px var(--color-red-500)) drop-shadow(0px 0px 16px var(--color-red-900));
   }
 </style>

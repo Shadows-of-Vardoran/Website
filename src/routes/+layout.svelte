@@ -53,8 +53,8 @@
     <div class="grow"></div>
 
     <div class="flex flex-col items-center mb-6">
-      <div class="flex gap-2 mb-1">
-        <a href="https://www.youtube.com/@ShadowsOfVardoran" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150">
+      <div class="flex items-center gap-2 mb-1">
+        <a href="https://www.youtube.com/@ShadowsOfVardoran" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150 h-7">
           <i class="mdi mdi-youtube text-2xl" aria-hidden="true"></i>
           <span class="sr-only">Youtube</span>
         </a>
@@ -79,7 +79,7 @@
     </div>
   </div>
 
-  <div class="flex grow h-full overflow-hidden z-3">
+  <div class="flex grow h-full overflow-hidden max-md:h-0 z-3">
     <slot />
   </div>
 </div>
