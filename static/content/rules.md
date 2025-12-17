@@ -4,21 +4,6 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 <div class="text-3xl text-success-0 mt-3">Failure to abide by our community rules is subject to disciplinary action up to and including a permanent ban from both our Discord and community V Rising server.</div>
 
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]
-> Crucial information necessary for users to succeed.
-
-> [!WARNING]
-> Critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
 # **1. GENERAL CONDUCT**
 
 ## A. The Golden Rule and Community Harm
@@ -96,7 +81,12 @@ The following topics require explicit consent from the other player(s):
 - Imprisonment: Players do not need consent to imprison a player for the first 40 minutes of imprisonment. At that point, unless a player consents to a longer time, you must let them free after 40 minutes. Imprisoned players may attack castle doors, and only castle doors, to escape. This is not an opportunity to siege the jailer’s castle. For siege rules, see [Warbats](https://discord.com/channels/1309473331501600769/1309480895471812649/1378901533789393077).
 - Do not use another player’s custom artwork, document templates, or other creations without consent. 
 
-Consent is arranged via Discord or by a quick out-of-character check-in using the in-game local chat, which is indicated by putting the check-in message in parentheses. An example of an in-game check-in is: (Can I slip a poison into your wine?) (Yes, but I will DM you terms in Discord). Failure to respect another player’s stated boundaries is a violation of the Community Harm Rule.
+Consent is arranged via Discord or by a quick out-of-character check-in using the in-game local chat, which is indicated by putting the check-in message in parentheses. An example of an in-game check-in is:
+<br>(Can I slip a poison into your wine?)
+<br>(Yes, but I will DM you terms in Discord).
+
+> ![WARNING]
+> Failure to respect another player’s stated boundaries is a violation of the Community Harm Rule.
 
 ## D. *In-Game Mechanics* 
 
@@ -311,3 +301,19 @@ Acts of Bleed, Fail RP, Godmodding, Metagaming, Powergaming, RDM, and/or not res
 ***Random Death Match (RDM)***: A player engaging in PvP without proper IC motivation and without declaring intent. Characters must have a genuine IC, RP-justified reason to want to engage in PvP with another character and must clearly declare that intent before engaging. Our server is RP first, with the involvement of PvP. Note that players do not need consent to begin a fight, they just need to initiate PvP through RP and allow a reasonable window for a response from the other player. Ignoring the aggressor is not an appropriate response. See [PvP Rules](https://discord.com/channels/1309473331501600769/1309480895471812649/1378899204612554823).
 
 ***Value of Life RP***: Characters valuing their life as if it were real. Players know OOC that they can respawn at a coffin or waygate, but IC should not treat respawning as an inevitability. Treat each death as if it could be your last while IC.
+
+Temporary styling fiddling below. Ignore.
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
