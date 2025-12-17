@@ -25,6 +25,7 @@ He emptied Mortium of its mortal population,some devoured in service of his grow
 What was once a land of cold graves and quiet strength became a monument to conquest, a frozen throne for the Immortal King to rule from. Now, long after his defeat, Mortium lies silent once more--its ruins buried beneath centuries of frost and forgotten glory. But even in death, the land remembers.
 
 And something stirs in the cold again. 
+
 </details>
 
 # The Northern Wood
