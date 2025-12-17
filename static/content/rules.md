@@ -31,7 +31,10 @@ SoV is a collaborative storytelling space. By becoming a part of this community,
 - Strive to solve issues via communication with your fellow players. Where communication cannot resolve an issue, open a ticket with staff.
 - Remember that all staff here are volunteers who give their time and effort to facilitate story aspects and steward the community. Please respect staff boundaries as you are expected to respect the boundaries of every player.
 
-Going against the spirit of the Golden Rule of RP is a violation of the Community Harm Rule. The Community Harm Rule is enforced by the Disciplinary Team. The Community Harm Rule is not a vessel to force players to abide by your preferences, nor is it a means to stifle others’ RP.
+> [!IMPORTANT]
+> Going against the spirit of the Golden Rule of RP is a violation of the Community Harm Rule. The Community Harm Rule is enforced by the Disciplinary Team. 
+> The Community Harm Rule is not a vessel to force players to abide by your preferences, nor is it a means to stifle others’ RP.
+
 
 ## B. Behavioral Expectations
 
