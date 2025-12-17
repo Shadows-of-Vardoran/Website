@@ -25,7 +25,7 @@ What was once a land of cold graves and quiet strength became a monument to conq
 
 And something stirs in the cold again. 
 
-# The Northern Wood - The First Victims of Dracula’s Conquest
+# The Northern Wood
 
 The Oakveil Woods once stretched across all of Northern Vardoran. A lush forest of green ferns and plentiful trees. One of Vardoran’s main sources of wood and sap, as well as fertile hunting grounds for all walks of life.
 
