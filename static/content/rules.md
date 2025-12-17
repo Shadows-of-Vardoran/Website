@@ -46,7 +46,7 @@ Treat others as you would want to be treated. Violation of this **non-exhaustive
 
 You must make a separate whitelist application for every character you intend to play, even if you have whitelisted a character in a previous or the current season. Once staff whitelists your character, change your Discord display name for the server to your character’s name. 
 <br><br>
-In the case of a second character played concurrently with another character by the same player, put both characters’ names in your Discord display name. A second character played concurrently with another character requires a second copy of V Rising.
+This Season we do not allow a second active character until your first is perma'd or has left vardoran for this season.
 
 - With limited exceptions, players are expected to be fully in-character while in-game.
 - Characters must be 18+ in chronological age, appearance, and mentality. 
@@ -85,7 +85,7 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 <br>(Can I slip a poison into your wine?)
 <br>(Yes, but I will DM you terms in Discord).
 
-> ![WARNING]
+> [!WARNING]
 > Failure to respect another player’s stated boundaries is a violation of the Community Harm Rule.
 
 ## D. *In-Game Mechanics* 
@@ -96,7 +96,7 @@ Players must observe the following rules pertaining to in-game mechanics:
 - Players get one horse. If you are searching for a horse, name horses you do not want to keep “Kill” or “Glue.” This signals players to kill the horse to reduce server lag. If you see a horse named “Kill” or “Glue,” please kill it. Unless the horse is named “Kill” or “Glue,” do not attack, steal, or otherwise interact with a named horse.
 - Waygates are locked for fast-traveling until they are unlocked by community-wide RP. Until the waygates are unlocked through RP, you may only use them to respawn.
 - Lights and flowers cause major lag on the server. Use them sparingly when decorating your castle.
-- Do not hit castles to get another player’s attention. Knock or use a doorbell. If no one answers the door, ping the player you’re looking for in https://discord.com/channels/1309473331501600769/1378736381529952436.
+- Do not hit castles to get another player’s attention. Knock or use a doorbell. If no one answers the door, ping the player you’re looking for in *#documents-dice-doorbells*.
 - Do not use bat form to escape a closed room.
 - Leave other players' bags in the open world alone. If you accidentally pick someone’s things up, such as when when many players are in one place, do your best to return the items to their owner. Robbery RP is covered in [Looting Players and Castles](https://discord.com/channels/1309473331501600769/1309480895471812649/1378899940977414146).
 - Do not use wolf jump, frog form, the horse dismount, horse jump, veils, or any other in-game abilities to bypass barriers to get into another player’s castle without explicit permission. 
