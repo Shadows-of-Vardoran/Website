@@ -7,7 +7,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 <div style="font-size: 1.25rem; line-height: 1.7;">
 
 # **1. GENERAL CONDUCT**
-<details><summary>Click to expand General Conduct Rules</summary>
+<details open><summary>Click to expand General Conduct Rules</summary>
   
 ## A. The Golden Rule and Community Harm
 
@@ -46,7 +46,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 </details>
 
 # 2. RP GUIDELINES
-<details><summary>Click to expand RP Guidlines</summary>
+<details open><summary>Click to expand RP Guidlines</summary>
   
 ## A. *Characters*
 
@@ -69,7 +69,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 </details>
 
 ## B. *Prohibited Topics* 
-<details><summary>Click to expand rules on Prohibited Topics</summary>
+<details open><summary>Click to expand rules on Prohibited Topics</summary>
   
 > [!NOTE]
 > We do not allow RP of:
