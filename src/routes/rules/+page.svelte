@@ -47,11 +47,13 @@
     };
 
     // we want to replace bullet points with a custom icon
-    renderer.listitem = (text) => {
+    renderer.listitem = (token) => {
+      // Render the tokens as HTML
+      const html = Array.isArray(token.tokens) ? marked.parser(token.tokens) : String(token.text || '');
       return `<li class="list-none flex items-start mb-2">
-                <span class="inline-block w-3 h-3 mt-[0.4rem] mr-2 bg-tprimary-500 rounded-xs flex-shrink-0"></span>
-                <span class="flex-grow">${text.text}</span>
-              </li>`;
+            <span class="inline-block w-3 h-3 mt-[0.4rem] mr-2 bg-tprimary-500 rounded-xs flex-shrink-0"></span>
+            <span class="flex-grow">${html}</span>
+          </li>`;
     };
 
     html = marked(md, { renderer });

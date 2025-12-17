@@ -53,8 +53,14 @@ body {
     margin-bottom: 0.25rem;
   }
 
-  a:hover {
+  a {
+    color: var(--color-info-0);
     text-decoration: underline;
+    transition: color 0.2s;
+  }
+
+  a:hover {
+    text-decoration: underline dotted;
     color: var(--color-info-100);
   }
 
