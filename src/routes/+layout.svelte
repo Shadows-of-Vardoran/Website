@@ -21,7 +21,7 @@
 
   <!-- <img src={moon} alt="Moon" class="absolute top-0 right-0 object-cover w-48 min-w-48 max-w-48 mt-4 mr-6 black-to-red" /> -->
 
-  <div class="hidden max-md:flex z-2">placeholder</div>
+  <div class="hidden max-md:flex items-center justify-center mt-2 z-2"> I KNOW IM SORRY MOBILE NAV IS IN PROGRESS </div>
 
   <div class="flex flex-col items-center z-2 max-md:hidden">
     <div class="min-w-38 h-fit border-testing flex flex-col gap-4 pt-10 pb-12 px-5 relative ml-5 mt-6 mr-5">
