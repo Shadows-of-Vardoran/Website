@@ -4,6 +4,21 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 <div class="text-3xl text-success-0 mt-3">Failure to abide by our community rules is subject to disciplinary action up to and including a permanent ban from both our Discord and community V Rising server.</div>
 
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
 # **1. GENERAL CONDUCT**
 
 ## A. The Golden Rule and Community Harm
