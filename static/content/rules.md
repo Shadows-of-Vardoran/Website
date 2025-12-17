@@ -12,7 +12,6 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 > [!NOTE]
 > SoV is a collaborative storytelling space.
->
 > By becoming a part of this community, you acknowledge the existence of and agree to act in line with the responsibilities inherent to being part of a collaborative storytelling community, collectively referred to as the Golden Rule of RP. The Golden Rule of RP includes but is not limited to:
 
 - Respect the separation between character and player. Character actions do not reflect player attitudes or beliefs.
@@ -50,8 +49,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 > [!NOTE]
 > You must make a separate whitelist application for every character you intend to play, even if you have whitelisted a character in a previous or the current season. Once staff whitelists your character, change your Discord display name for the server to your character’s name. 
 <br><br>
-This Season we do not allow a second active character until your first is perma'd or has left vardoran for this season.
-
+- This Season we do not allow a second active character until your first is perma'd or has left vardoran for this season.
 - With limited exceptions, players are expected to be fully in-character while in-game.
 - Characters must be 18+ in chronological age, appearance, and mentality. 
 - Characters must appear primarily humanoid. Small horns, wings, tails, and non-human skin tones are allowed. 
