@@ -61,7 +61,7 @@
   }
 </script>
 
-<div class="flex flex-col h-full w-full font-aelfa">
+<div class="flex flex-col h-full w-full bg-background-900/50 font-aelfa">
   <!-- Tab Navigation -->
   <div class="relative px-8 mt-3">
     <div class="flex gap-4 mb-4 px-10">
