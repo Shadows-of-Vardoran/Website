@@ -43,6 +43,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 > The Disciplinary Team has discretion to determine whether any player behavior violates the Community Harm Rule and reserves the right to temporarily or permanently remove players from our Discord and/or our community V Rising server to ensure that the space remains safe and enjoyable for everyone.
 
 </details>
+
 # 2. RP GUIDELINES
 <details><summary>Click to expand RP Guidlines</summary>
 ## A. *Characters*
