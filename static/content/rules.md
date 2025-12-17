@@ -212,6 +212,7 @@ As a community, we have developed a number of euphemisms for common IRL terms fo
 - You may be in the “In Game” Discord voice chat while in game. Do not discuss current plots your character is involved with in this channel. You may discuss plot events that are no longer relevant. 
 - If you are going to play music in-game or via a voice channel or link music for players to listen to in-character, such as for an event, the music must fit the time period, environment, and atmosphere. We encourage players to limit use of music in-game to events.
 - We have a channel with a dice roll bot (https://discord.com/channels/1309473331501600769/1378736381529952436) where players may roll for RP that involves skill checks. You may ask other players for a dice roll using a quick out-of-character check-in or ping them on Discord. Monitor the dice roll bot for results.
+
 </details>
 
 ## F. Combat and Conflict
