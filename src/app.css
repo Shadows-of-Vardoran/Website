@@ -24,6 +24,28 @@ body {
   outline: none;
 }
 
+
+.font-aelfa {
+  font-family: "Aelfa" !important;
+  font-size: 1.5rem;
+
+  .marked h1,
+  .marked h2,
+  .marked h3,
+  .marked h4 {
+    font-family: "Aelfa", serif;
+  }
+
+  .marked p,
+  .marked li,
+  .marked a {
+    font-family: "Aelfa", serif;
+    font-size: 1.5rem !important;
+  }
+}
+
+
+
 .marked {
   h1 {
     color: var(--color-tprimary-50);
@@ -225,6 +247,13 @@ body {
 
 .font-cinzel {
   font-family: "Cinzel", serif;
+}
+
+@font-face {
+  font-family: 'Aelfa';
+  src: url('/fonts/aelfa.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {

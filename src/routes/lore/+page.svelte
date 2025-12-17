@@ -8,9 +8,6 @@
   import { useMarked } from '$lib/useMarked';
   const { parse, slugify } = useMarked();
 
-  // Toggle this to enable/disable obfuscation
-  let obfuscateLore = true;
-
   // Static import of tab definitions (replace with dynamic import if needed)
   // If you have a helper to load YAML, use that instead.
   const loreTabs = [
@@ -36,16 +33,6 @@
   let headings: { text: string; id: string; level: number }[] = [];
   let scrollElement: HTMLElement | null = null;
 
-  function obfuscateText(text: string): string {
-    // Replace each letter with a random letter, preserve whitespace and punctuation
-    return text.replace(/[a-zA-Z]/g, (char) => {
-      const isUpper = char === char.toUpperCase();
-      const code = Math.floor(Math.random() * 26) + 97;
-      const letter = String.fromCharCode(code);
-      return isUpper ? letter.toUpperCase() : letter;
-    });
-  }
-
   async function loadContent(tab: any) {
     const res = await fetch(tab.path);
     let md = await res.text();
@@ -61,9 +48,6 @@
       headings.push({ text, id, level });
     }
 
-    // Obfuscate the markdown content before parsing
-    // md = obfuscateText(md);
-
     content = await parse(md);
   }
 
@@ -77,7 +61,7 @@
   }
 </script>
 
-<div class="flex flex-col h-full w-full">
+<div class="flex flex-col h-full w-full font-aelfa">
   <!-- Tab Navigation -->
   <div class="relative px-8 mt-3">
     <div class="flex gap-4 mb-4 px-10">
@@ -87,7 +71,7 @@
           class:selected={tab === selectedTab}
           on:click={() => selectTab(tab)}
         >
-          {obfuscateLore ? obfuscateText(tab.label) : tab.label}
+          {tab.label}
         </button>
       {/each}
     </div>
@@ -116,7 +100,7 @@
         {#each headings as h}
           <div style="margin-left: {(h.level - 1) * 12}px;">
             <a href={'#' + h.id} class="block py-1 text-tprimary-800 hover:text-tprimary {h.level == 3 ? 'text-md' : ''}">
-              {obfuscateLore ? obfuscateText(h.text) : h.text}
+              {h.text}
             </a>
           </div>
         {/each}
