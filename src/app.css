@@ -79,6 +79,31 @@ body {
   display: none; /* Safari and Chrome */
 }
 
+/* language: css */
+::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-red-900);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-red-800);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
 .crimson-text-regular {
   font-family: "Crimson Text", serif;
   font-weight: 400;

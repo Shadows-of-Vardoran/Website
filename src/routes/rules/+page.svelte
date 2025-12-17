@@ -47,7 +47,7 @@
   });
 </script>
 
-<div class="flex h-full bg-background-900/50">
+<div class="flex w-full h-full bg-background-900/50">
   <main class="flex flex-col relative">
     {#if scrollElement}
       <ScrollIndicator {scrollElement} direction="up" />
@@ -61,18 +61,18 @@
   </main>
 
   <aside class="min-w-60 z-40 relative mt-5 mr-5 mb-5 border-b-2 border-l-2 border-testing">
-    <nav class="h-full p-4 rounded-lg bg-background-0/10 z-10">
+    <nav class="scrollbar-left h-full p-4 pb-24 rounded-lg bg-background-0/10 z-10 overflow-y-auto relative">
       {#each headings as h}
         <div style="margin-left: {(h.level - 1) * 12}px;">
-          <a href={'#' + h.id} class="block py-1 text-tprimary-800 hover:text-tprimary">{h.text}</a>
+          <a href={'#' + h.id} class="block py-1 text-tprimary-800 hover:text-tprimary {h.level == 3 ? 'text-md' : ''}">{h.text}</a>
         </div>
       {/each}
     </nav>
-
+    <div class="pointer-events-none absolute left-0 right-0 bottom-0 h-26 z-20 fade-bottom"></div>
     <img
       src={brBorderDecoration2}
       alt="Bottom Right Border Decoration"
-      class="absolute bottom-0 left-0 w-26 border-decoration-color -scale-x-100 -translate-x-[4px] translate-y-[5px] pointer-events-none z-0"
+      class="absolute bottom-0 left-0 w-26 border-decoration-color -scale-x-100 -translate-x-[4px] translate-y-[5px] pointer-events-none z-30"
     />
   </aside>
 </div>
@@ -84,5 +84,19 @@
 
   .border-testing {
     border-image: linear-gradient(50deg, transparent 6%, var(--color-tprimary-900) 7%, transparent 75%) 1;
+  }
+
+  /* language: css */
+  .scrollbar-left {
+    direction: rtl;
+  }
+
+  .scrollbar-left > * {
+    direction: ltr;
+    text-align: left;
+  }
+
+  .fade-bottom {
+    background: linear-gradient(to bottom, transparent, black); /* adjust color to match bg */
   }
 </style>
