@@ -287,7 +287,7 @@ Warbats are formal declarations of conflict between character(s). To initiate a 
 </details>
 
 ## H. Interacting with Stories and Events
-<details open><summary>Click to expand rules on Stories and Events</summary>
+<details open><summary>Click to expand/collapse rules on Stories and Events</summary>
   
 Players can interact with stories on the server or create their own a number of ways besides interacting with each other in-game.
 
