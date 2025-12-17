@@ -85,7 +85,7 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 <br>(Can I slip a poison into your wine?)
 <br>(Yes, but I will DM you terms in Discord).
 
-> ![WARNING]
+> [!WARNING]
 > Failure to respect another player’s stated boundaries is a violation of the Community Harm Rule.
 
 ## D. *In-Game Mechanics* 
