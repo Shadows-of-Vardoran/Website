@@ -329,7 +329,6 @@ Communications or interactions with and between characters in the game world and
 Use of out-of-character knowledge to influence in-character decisions or actions, usually in an unfair way such as by manipulating the rules to shield your character from the consequences of their actions. The following are considered meta knowledge in-character:
 
 - Your character does not have knowledge of all the things you can see on the HUD.
-- You may hear what people are saying through walls and windows IC and use information you hear that way IC.
 - You may not act IC on any conversation you hear while in bat form, even though we allow hearing through walls. 
 - You must learn characters’ names, what clan they belong to, and where they live through IC interactions. You may not read the names on a castle and know that a character lives there. 
 - Wolf form, bear form, human form, and rat form conceal visual identity. You may know the animal is a vampire, and you may recognize their voice if they speak, including through text RP.
