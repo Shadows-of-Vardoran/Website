@@ -59,7 +59,9 @@ Treat others as you would want to be treated. Violation of this **non-exhaustive
 > [!CAUTION]
 > You are not allowed to play any character unless staff has approved a whitelist application for the character.
 
-You must make a separate whitelist application for every character you intend to play, even if you have whitelisted a character in a previous or the current season. Once staff whitelists your character, change your Discord display name for the server to your character’s name. <br>In the case of a second character played concurrently with another character by the same player, put both characters’ names in your Discord display name. A second character played concurrently with another character requires a second copy of V Rising.
+You must make a separate whitelist application for every character you intend to play, even if you have whitelisted a character in a previous or the current season. Once staff whitelists your character, change your Discord display name for the server to your character’s name. 
+<br><br>
+In the case of a second character played concurrently with another character by the same player, put both characters’ names in your Discord display name. A second character played concurrently with another character requires a second copy of V Rising.
 
 - With limited exceptions, players are expected to be fully in-character while in-game.
 - Characters must be 18+ in chronological age, appearance, and mentality. 
