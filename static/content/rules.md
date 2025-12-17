@@ -282,7 +282,6 @@ Warbats are formal declarations of conflict between character(s). To initiate a 
 <details open><summary>Click to expand rules on Death and Injury</summary>
 
 - Perma Death: Players cannot force one another to permanently kill their characters. Perma Deaths are entirely up to the character’s player. However, we do not allow characters to do “fake-outs” on Perma Deaths. If you take actions which indicate your character is dead, including but not limited to sending out a last will and testimony; explicitly stating your character is dead; RP’ing that the character’s soul has left and their body remains ashes; or any other similar action, your character will be considered perma’d. Characters that have perma’d or whose player has undertaken an action that indicates the character is dead under this rule are dead and may not be resurrected.
- 
 - Lingering Wound RP: If you wish for your character to have a near-death experience or have lasting damage, you may engage in Lingering Wound RP. Examples of Lingering Wound RP include long-lasting afflictions or sicknesses; loss of limbs; your character’s soul being trapped between realms but having a chance to return to their still-intact body; and large wounds that take significant time to heal. If you choose to undertake Lingering Wound RP, your wound or condition must have a cure. Treatment of lingering wounds must follow the magic and technological settings of the season and should never include modern medical practices. Healing of wounds and conditions must be consensual; you cannot force a wounded player to accept your specific cure even if wounds and afflictions must have a cure.
 
 </details>
@@ -311,17 +310,23 @@ Players can interact with stories on the server or create their own a number of 
   
 Acts of Bleed, Fail RP, Godmodding, Metagaming, Powergaming, RDM, and/or not respecting Fear RP or Value of Life RP may subject you to disciplinary action up to and including a permanent ban from the server. The application word is rotate. Do not share this word with other players once you have found it.
 
-***Bleed***: When emotions and/or motivations “bleed over” between IC and OOC. Bleed is a normal and understandable part of RP, but can also be detrimental to peoples’ RP experience. Separating your emotions and motivations between IC and OOC is crucial for everyone’s wellbeing, and it is equally important to recognize bleed when it happens. Common IC interactions that may cause bleed include conflict (e.g. PvP, war, tense arguments), romance, or missing out on events. OOC struggles may also cause bleed. For example, if you have issues with another player and those issues impact your IC opinion of their character, this is bleed (as well as Fail RP). Please put in a support ticket if you think you or someone else is experiencing bleed. Staff is always happy to do what we can to help.
+## Bleed 
+When emotions and/or motivations “bleed over” between IC and OOC. Bleed is a normal and understandable part of RP, but can also be detrimental to peoples’ RP experience. Separating your emotions and motivations between IC and OOC is crucial for everyone’s wellbeing, and it is equally important to recognize bleed when it happens. Common IC interactions that may cause bleed include conflict (e.g. PvP, war, tense arguments), romance, or missing out on events. OOC struggles may also cause bleed. For example, if you have issues with another player and those issues impact your IC opinion of their character, this is bleed (as well as Fail RP). Please put in a support ticket if you think you or someone else is experiencing bleed. Staff is always happy to do what we can to help.
 
-***Fail RP***: Roleplaying in a way that is unfaithful to the in-game setting or these rules. An example is breaking character in an overt way such as using modern slang or game-speak (e.g. “I’m out here grinding for wood, fam” instead of “I’m harvesting this forest for all it’s worth”) instead of being in-character while in-game. Fail RP also includes powergaming, godmodding, and not respecting Fear RP or Value of Life RP. Breaking the server rules while RPing is also considered Fail RP.
+## Fail RP
+Roleplaying in a way that is unfaithful to the in-game setting or these rules. An example is breaking character in an overt way such as using modern slang or game-speak (e.g. “I’m out here grinding for wood, fam” instead of “I’m harvesting this forest for all it’s worth”) instead of being in-character while in-game. Fail RP also includes powergaming, godmodding, and not respecting Fear RP or Value of Life RP. Breaking the server rules while RPing is also considered Fail RP.
 
-***Fear RP***: A character having genuine concern for their safety. Characters need to behave as though they do not have knowledge of the OOC mechanics of the game such as respawning at a coffin. Characters do not know that their life is “not real” because they are a video game character. An example of good Fear RP is being afraid when surrounded by other characters with hostile intent. Ignoring Fear RP includes a character being dismissive in the face of genuine danger when it doesn’t suit the character’s personality simply because the player knows OOC that there is no genuine danger because it is a video game.
+## Fear RP
+A character having genuine concern for their safety. Characters need to behave as though they do not have knowledge of the OOC mechanics of the game such as respawning at a coffin. Characters do not know that their life is “not real” because they are a video game character. An example of good Fear RP is being afraid when surrounded by other characters with hostile intent. Ignoring Fear RP includes a character being dismissive in the face of genuine danger when it doesn’t suit the character’s personality simply because the player knows OOC that there is no genuine danger because it is a video game.
 
-***Godmoding***: Creating your character to be so powerful that they are outside of fair RP. Your character cannot be untouchable, unkillable, or akin to a god. Examples of godmodding include your character not fearing for their life because they know that they can never be killed, stating your character is so powerful they can kill someone else with one punch and expecting others to abide by that, or being able to perform powerful magic without RP justification because they’re innately powerful.
+## Godmoding
+Creating your character to be so powerful that they are outside of fair RP. Your character cannot be untouchable, unkillable, or akin to a god. Examples of godmodding include your character not fearing for their life because they know that they can never be killed, stating your character is so powerful they can kill someone else with one punch and expecting others to abide by that, or being able to perform powerful magic without RP justification because they’re innately powerful.
 
-***In-Character (IC)***: Communications or interactions with and between characters in the game world and how we behave as characters. IC interactions include the IC SoV Discord channels.
+## In-Character (IC)
+Communications or interactions with and between characters in the game world and how we behave as characters. IC interactions include the IC SoV Discord channels.
 
-***Metagaming***: Use of out-of-character knowledge to influence in-character decisions or actions, usually in an unfair way such as by manipulating the rules to shield your character from the consequences of their actions. The following are considered meta knowledge in-character:
+## Metagaming
+Use of out-of-character knowledge to influence in-character decisions or actions, usually in an unfair way such as by manipulating the rules to shield your character from the consequences of their actions. The following are considered meta knowledge in-character:
 
 - Your character does not have knowledge of all the things you can see on the HUD.
 - You may hear what people are saying through walls and windows IC and use information you hear that way IC.
@@ -332,15 +337,20 @@ Acts of Bleed, Fail RP, Godmodding, Metagaming, Powergaming, RDM, and/or not res
 - Permanent clanmates will know the names, locations, and identities of their clanmates even in animal form, as well as whether their clanmates are injured or logged off (asleep).
 - Characters joining a clan as a guest will not know the names of characters within the clan they have not met IC.
 
-***Out-of Character (OOC)***: Communications or interactions involving the player in real life rather than the character they play or the game world.
+## Out-of Character (OOC)
+Communications or interactions involving the player in real life rather than the character they play or the game world.
 
-***Physical Representation (PhysRep)***: An in-game item used to convey concepts beyond in-game mechanics. Examples include using Blood Roses to represent tobacco, using Sculptured Wood to represent a magical totem, or arranging Alchemy Tables around a Vermin Nest and a Fabricator to represent a massive scientific contraption.
+## Physical Representation (PhysRep)
+An in-game item used to convey concepts beyond in-game mechanics. Examples include using Blood Roses to represent tobacco, using Sculptured Wood to represent a magical totem, or arranging Alchemy Tables around a Vermin Nest and a Fabricator to represent a massive scientific contraption.
 
-***Powergaming/Powerplaying***: Constructing a scenario in a way that heavily weighs the outcomes in your favor, typically in an unfair way, such as by manipulating the rules to shield your character or a group of characters from the consequences of their actions. Examples of powergaming include using the “unstuck” command to escape from a hostile encounter or using mechanics you’ve invented for your character (e.g. mind reading or mind control without OOC consent) to force other players into unfair scenarios.
+## Powergaming/Powerplaying
+Constructing a scenario in a way that heavily weighs the outcomes in your favor, typically in an unfair way, such as by manipulating the rules to shield your character or a group of characters from the consequences of their actions. Examples of powergaming include using the “unstuck” command to escape from a hostile encounter or using mechanics you’ve invented for your character (e.g. mind reading or mind control without OOC consent) to force other players into unfair scenarios.
 
-***Random Death Match (RDM)***: A player engaging in PvP without proper IC motivation and without declaring intent. Characters must have a genuine IC, RP-justified reason to want to engage in PvP with another character and must clearly declare that intent before engaging. Our server is RP first, with the involvement of PvP. Note that players do not need consent to begin a fight, they just need to initiate PvP through RP and allow a reasonable window for a response from the other player. Ignoring the aggressor is not an appropriate response. See [PvP Rules](https://discord.com/channels/1309473331501600769/1309480895471812649/1378899204612554823).
+## Random Death Match (RDM)
+A player engaging in PvP without proper IC motivation and without declaring intent. Characters must have a genuine IC, RP-justified reason to want to engage in PvP with another character and must clearly declare that intent before engaging. Our server is RP first, with the involvement of PvP. Note that players do not need consent to begin a fight, they just need to initiate PvP through RP and allow a reasonable window for a response from the other player. Ignoring the aggressor is not an appropriate response. See [PvP Rules](https://discord.com/channels/1309473331501600769/1309480895471812649/1378899204612554823).
 
-***Value of Life RP***: Characters valuing their life as if it were real. Players know OOC that they can respawn at a coffin or waygate, but IC should not treat respawning as an inevitability. Treat each death as if it could be your last while IC.
+## Value of Life RP
+Characters valuing their life as if it were real. Players know OOC that they can respawn at a coffin or waygate, but IC should not treat respawning as an inevitability. Treat each death as if it could be your last while IC.
 
 </details>
 
