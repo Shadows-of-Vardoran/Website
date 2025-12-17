@@ -9,7 +9,9 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 ## A. The Golden Rule and Community Harm
 
 > [!NOTE]
-> SoV is a collaborative storytelling space. By becoming a part of this community, you acknowledge the existence of and agree to act in line with the responsibilities inherent to being part of a collaborative storytelling community, collectively referred to as the Golden Rule of RP. The Golden Rule of RP includes but is not limited to:
+> SoV is a collaborative storytelling space.
+>
+> By becoming a part of this community, you acknowledge the existence of and agree to act in line with the responsibilities inherent to being part of a collaborative storytelling community, collectively referred to as the Golden Rule of RP. The Golden Rule of RP includes but is not limited to:
 
 - Respect the separation between character and player. Character actions do not reflect player attitudes or beliefs.
 - Storytelling is not a competition; there is no “winning” or “losing” in RP. We are all here to engage with each other in good faith. 
