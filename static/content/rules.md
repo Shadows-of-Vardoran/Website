@@ -88,7 +88,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 > [!NOTE]
 > The following topics require explicit consent from the other player(s):
 
-- Erotic Roleplay (ERP): While we allow players to engage in ERP, ERP is **not allowed** to take place in the SoV Discord or in-game, including in clan chats and whispers. **Staff can see all in-game chat logs, including clan chat and whispers.** If you are going to ERP with your character, it MUST take place in private DM’s.
+- Erotic Roleplay (ERP): ERP is **not allowed** to take place in the SoV Discord or in-game, including in clan chats and whispers. **Staff can see all in-game chat logs, including clan chat and whispers.** If you are going to ERP with your character, it MUST take place in private DM’s.
 - Torture: Have the intended victim character indicate their comfort level with gore before engaging in torture RP.
 - Drug-related RP: Use of truth serums, mind control drugs, lethal drugs, aphrodisiacs, and poisons. If you intend to use a truth serum, please open a ticket with staff first.
 - Magical Interactions: Putting someone under the influence of a spell, curse, or magic item.
