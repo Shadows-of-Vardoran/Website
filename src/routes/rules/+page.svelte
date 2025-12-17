@@ -46,6 +46,14 @@
       return `<h${depth} id="${id}">${safeText}</h${depth}>`;
     };
 
+    // we want to replace bullet points with a custom icon
+    renderer.listitem = (text) => {
+      return `<li class="list-none flex items-start mb-2">
+                <span class="inline-block w-3 h-3 mt-[0.4rem] mr-2 bg-tprimary-500 rounded-xs flex-shrink-0"></span>
+                <span class="flex-grow">${text.text}</span>
+              </li>`;
+    };
+
     html = marked(md, { renderer });
   });
 </script>

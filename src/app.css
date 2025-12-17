@@ -48,7 +48,7 @@ body {
 
   ul {
     list-style-type: disc;
-    margin-left: 1.5rem;
+    margin-left: 0.5rem;
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
   }
@@ -91,11 +91,11 @@ body {
 
   .markdown-alert-important {
     .markdown-alert-title {
-      background: color-mix(in srgb, var(--color-success-500), black 40%);
+      background: color-mix(in srgb, var(--color-success-500), black 50%);
     }
 
     p {
-      background: color-mix(in srgb, var(--color-success-900), black 50%);
+      background: color-mix(in srgb, var(--color-success-900), black 70%);
     }
   }
 
