@@ -2,7 +2,8 @@
   // import fancyBorderLeft from '$lib/assets/fancy_border_left.png';
   // import fancyBorderMiddle from '$lib/assets/fancy_border_middle.png';
   // import fancyBorderRight from '$lib/assets/fancy_border_right.png';
-  import separator2 from '$lib/assets/separator_2.png';
+  import verticalSeparator1 from '$lib/assets/vertical_separator_1.png';
+  import teethLogo from '$lib/assets/teeth_logo.png';
 </script>
 
 <div class="flex flex-col items-center justify-center w-full h-full">
@@ -21,8 +22,8 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-2 w-full mt-10 gap-4">
-      <div class="flex flex-col border-r-2 border-tprimary-0 bg-background-0/50 py-2 px-3">
+    <div class="grid grid-cols-[2fr_240px_2fr] max-lg:flex max-lg:flex-col w-full mt-10">
+      <div class="flex flex-col fade-background-left py-2 px-3 -ml-20 pl-20">
         <div class="text-3xl text-tprimary font-cinzel mb-4">Server Features</div>
         <div class="flex flex-col gap-1 text-lg text-tsecondary">
           <div>- Dark Fantasy RP | Lore-Driven Worldbuilding</div>
@@ -33,11 +34,15 @@
         </div>
       </div>
 
-      <div>
-        <img src={separator2} alt="Separator" class="left-vertical-separator" />
+      <div class="flex items-center max-lg:hidden" style="contain: size;">
+        <img src={verticalSeparator1} alt="Separator" class="left-vertical-separator" />
+        <div class="grow">
+          <img src={teethLogo} alt="Teeth Logo" class="mx-auto w-48 h-48 object-contain" />
+        </div>
+        <img src={verticalSeparator1} alt="Separator" class="right-vertical-separator" />
       </div>
 
-      <div class="flex justify-center border-l-2 border-tprimary-0 bg-background-0/50 py-2 px-3">
+      <div class="flex justify-center fade-background-right py-2 px-3 -mr-20 pr-20">
         Imagine something cool here
         <!-- <img src={communityImage} alt="Community Image" class="rounded-lg shadow-lg max-w-full h-auto" /> -->
       </div>
@@ -127,5 +132,36 @@
   .fade-background-down {
     background: linear-gradient(to bottom, var(--color-background-900), transparent 100%);
     border-radius: 20px;
+  }
+
+  .fade-background-right {
+    background: linear-gradient(to right, var(--color-background-900), transparent 100%);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .fade-background-left {
+    background: linear-gradient(to left, var(--color-background-900), transparent 100%);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  .left-vertical-separator {
+    filter: invert(90%);
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    transform: rotate(180deg);
+  }
+
+  .right-vertical-separator {
+    filter: invert(90%);
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+    display: block;
   }
 </style>
