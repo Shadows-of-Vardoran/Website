@@ -114,7 +114,7 @@ Bats is the term for letters sent between characters in the in-character bats ch
 
 ### 2. Waygates
 [Waygates Discord Channel](https://discord.com/channels/1309473331501600769/1378737329392586842)
-Waygates serve as a public notice board. Anything posted in the waygates channel is public knowledge that any character which has seen the waygate may know. Waygates are split into two channels, https://discord.com/channels/1309473331501600769/1378737329392586842 and https://discord.com/channels/1309473331501600769/1378737361667620985:
+Waygates serve as a public notice board. Anything posted in the waygates channel is public knowledge that any character which has seen the waygate may know. Waygates are split into two channels, [#s1-waygates](https://discord.com/channels/1309473331501600769/1378737329392586842) and [#s1-event-waygates](https://discord.com/channels/1309473331501600769/1378737361667620985):
 
 - Waygates should be formatted similarly to bats, beginning with a brief description of the magic or familiar used to place the message on the waygates, followed by the body of the waygate message, and concluding with a signature (or, if the posting is anonymous, indicate that the posting is unsigned). 
 - Do not use the waygates channel to send brief, text-message-like exchanges. Waygate messages do not have to be long, but waygates are not intended for back-and-forth exchanges or replies to waygate postings. For instances where you may need to pass a quick note to a character you are in the same location with, see [Documents Channel Rules](https://discord.com/channels/1309473331501600769/1309480895471812649/1378890780265156758). 
