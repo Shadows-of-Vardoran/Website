@@ -96,7 +96,7 @@ Players must observe the following rules pertaining to in-game mechanics:
 - Players get one horse. If you are searching for a horse, name horses you do not want to keep “Kill” or “Glue.” This signals players to kill the horse to reduce server lag. If you see a horse named “Kill” or “Glue,” please kill it. Unless the horse is named “Kill” or “Glue,” do not attack, steal, or otherwise interact with a named horse.
 - Waygates are locked for fast-traveling until they are unlocked by community-wide RP. Until the waygates are unlocked through RP, you may only use them to respawn.
 - Lights and flowers cause major lag on the server. Use them sparingly when decorating your castle.
-- Do not hit castles to get another player’s attention. Knock or use a doorbell. If no one answers the door, ping the player you’re looking for in https://discord.com/channels/1309473331501600769/1378736381529952436.
+- Do not hit castles to get another player’s attention. Knock or use a doorbell. If no one answers the door, ping the player you’re looking for in *#documents-dice-doorbells*.
 - Do not use bat form to escape a closed room.
 - Leave other players' bags in the open world alone. If you accidentally pick someone’s things up, such as when when many players are in one place, do your best to return the items to their owner. Robbery RP is covered in [Looting Players and Castles](https://discord.com/channels/1309473331501600769/1309480895471812649/1378899940977414146).
 - Do not use wolf jump, frog form, the horse dismount, horse jump, veils, or any other in-game abilities to bypass barriers to get into another player’s castle without explicit permission. 
