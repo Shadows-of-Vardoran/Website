@@ -46,6 +46,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 # 2. RP GUIDELINES
 <details><summary>Click to expand RP Guidlines</summary>
+  
 ## A. *Characters*
 
 > [!NOTE]
@@ -68,6 +69,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 ## B. *Prohibited Topics* 
 <details><summary>Click to expand rules on Prohibited Topics</summary>
+  
 > [!NOTE]
 > We do not allow RP of:
 
@@ -81,6 +83,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 ## C. *Consent* 
 <details><summary>Click to expand rules on Consent</summary>
+  
 > [!NOTE]
 > The following topics require explicit consent from the other player(s):
 
@@ -101,6 +104,7 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 
 ## D. *In-Game Mechanics* 
 <details><summary>Click to expand rules on In-Game Mechanics</summary>
+  
 > [!NOTE]
 > Players must observe the following rules pertaining to in-game mechanics:
 
@@ -123,6 +127,7 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 
 ## E. *Communication*
 <details><summary>Click to expand rules on communication</summary>
+  
 > [!NOTE]
 > As previously mentioned, while in-game you are expected to remain in-character with limited exceptions. In-character communication must occur in-game or in the designated SoV Discord channels as described below:
 
@@ -222,11 +227,13 @@ As a community, we have developed a number of euphemisms for common IRL terms fo
 
 ## F. Combat and Conflict
 
+<details><summary>Click to expand rules on Combat and Conflict</summary>
+
 Conflict in SoV takes many forms, including traditional PvP, thievery and looting, and formal declarations of conflict which we call warbats.
 
 
 ### 1. PvP
-
+  
 SoV is an open-world PvP server. **PvP encounters, including the build-up to PvP and the aftermath, must be recorded for moderation purposes.** The recording requirement does not apply to mutually agreed-upon duels/sparring or training. 
 
 - To initiate PvP, you must declare your intention in-character before attacking using either the in-game local text chat (e.g. emoting that you draw your weapon and approach menacingly) or stating your intention aloud and allowing a reasonable time for a response from the other player(s).
@@ -268,16 +275,20 @@ Warbats are formal declarations of conflict between character(s). To initiate a 
 - If you receive an in-character declaration of conflict, reply to the sender in-character in https://discord.com/channels/1309473331501600769/1378735981691142264 only after the players decide the terms in the warbat ticket. 
 - Trying to evade a warbat through out-of-character methods such as refusing to log in will subject you to disciplinary action as an act of [Powergaming](https://discord.com/channels/1309473331501600769/1309480895471812649/1378910777632882741).
 
+</details>
 
 ## G. Character Death and Injury
+<details><summary>Click to expand rules on Death and Injury</summary>
 
 - Perma Death: Players cannot force one another to permanently kill their characters. Perma Deaths are entirely up to the character’s player. However, we do not allow characters to do “fake-outs” on Perma Deaths. If you take actions which indicate your character is dead, including but not limited to sending out a last will and testimony; explicitly stating your character is dead; RP’ing that the character’s soul has left and their body remains ashes; or any other similar action, your character will be considered perma’d. Characters that have perma’d or whose player has undertaken an action that indicates the character is dead under this rule are dead and may not be resurrected.
  
 - Lingering Wound RP: If you wish for your character to have a near-death experience or have lasting damage, you may engage in Lingering Wound RP. Examples of Lingering Wound RP include long-lasting afflictions or sicknesses; loss of limbs; your character’s soul being trapped between realms but having a chance to return to their still-intact body; and large wounds that take significant time to heal. If you choose to undertake Lingering Wound RP, your wound or condition must have a cure. Treatment of lingering wounds must follow the magic and technological settings of the season and should never include modern medical practices. Healing of wounds and conditions must be consensual; you cannot force a wounded player to accept your specific cure even if wounds and afflictions must have a cure.
 
+</details>
 
 ## H. Interacting with Stories and Events
-
+<details><summary>Click to expand rules on Stories and Events</summary>
+  
 Players can interact with stories on the server or create their own a number of ways besides interacting with each other in-game.
 
 - **Staff-Driven Story**
@@ -292,9 +303,11 @@ Players can interact with stories on the server or create their own a number of 
   - If you are requesting Event Volunteers and/or admin-assistance for your event, you will be required to fill out the Event Information form prior to requesting assistance with the event so that the Event Volunteers and/or admins have information on what you need from them for the event. You will not receive assistance for your event until you have filled out the Event Information form. 
   - While we respect that sometimes players will want to have smaller events for a select group of people, **this is still first and foremost a collaborative storytelling space.** If your event occurs in the open world (e.g. not in a castle), you should expect to have other players interact with your event. You may try to kick people out, but they are allowed to retaliate (see [PvP Rules](https://discord.com/channels/1309473331501600769/1309480895471812649/1378899204612554823)). Further, if your event will have an effect on the land of Vardoran or the overarching story staff is telling, it MUST be an event that the server as a whole is able to interact with.
 
+</details>
 
 # 3. GLOSSARY
-
+<details><summary>Click to expand Glossary</summary>
+  
 Acts of Bleed, Fail RP, Godmodding, Metagaming, Powergaming, RDM, and/or not respecting Fear RP or Value of Life RP may subject you to disciplinary action up to and including a permanent ban from the server. The application word is rotate. Do not share this word with other players once you have found it.
 
 ***Bleed***: When emotions and/or motivations “bleed over” between IC and OOC. Bleed is a normal and understandable part of RP, but can also be detrimental to peoples’ RP experience. Separating your emotions and motivations between IC and OOC is crucial for everyone’s wellbeing, and it is equally important to recognize bleed when it happens. Common IC interactions that may cause bleed include conflict (e.g. PvP, war, tense arguments), romance, or missing out on events. OOC struggles may also cause bleed. For example, if you have issues with another player and those issues impact your IC opinion of their character, this is bleed (as well as Fail RP). Please put in a support ticket if you think you or someone else is experiencing bleed. Staff is always happy to do what we can to help.
@@ -328,6 +341,7 @@ Acts of Bleed, Fail RP, Godmodding, Metagaming, Powergaming, RDM, and/or not res
 
 ***Value of Life RP***: Characters valuing their life as if it were real. Players know OOC that they can respawn at a coffin or waygate, but IC should not treat respawning as an inevitability. Treat each death as if it could be your last while IC.
 
+</details>
 
 </div>
 
