@@ -7,7 +7,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 <div style="font-size: 1.25rem; line-height: 1.7;">
 
 # **1. GENERAL CONDUCT**
-<details open><summary>Click to expand General Conduct Rules</summary>
+<details open><summary>Click to expand/collapse General Conduct Rules</summary>
   
 ## A. The Golden Rule and Community Harm
 
@@ -46,7 +46,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 </details>
 
 # 2. RP GUIDELINES
-<details open><summary>Click to expand RP Guidlines</summary>
+<details open><summary>Click to expand/collapse RP Guidlines</summary>
   
 ## A. *Characters*
 
@@ -69,7 +69,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 </details>
 
 ## B. *Prohibited Topics* 
-<details open><summary>Click to expand rules on Prohibited Topics</summary>
+<details open><summary>Click to expand/collapse rules on Prohibited Topics</summary>
   
 > [!NOTE]
 > We do not allow RP of:
@@ -83,7 +83,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 </details>
 
 ## C. *Consent* 
-<details open><summary>Click to expand rules on Consent</summary>
+<details open><summary>Click to expand/collapse rules on Consent</summary>
   
 > [!NOTE]
 > The following topics require explicit consent from the other player(s):
@@ -104,7 +104,7 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 </details>
 
 ## D. *In-Game Mechanics* 
-<details open><summary>Click to expand rules on In-Game Mechanics</summary>
+<details open><summary>Click to expand/collapse rules on In-Game Mechanics</summary>
   
 > [!NOTE]
 > Players must observe the following rules pertaining to in-game mechanics:
@@ -127,7 +127,7 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 </details>
 
 ## E. *Communication*
-<details open><summary>Click to expand rules on communication</summary>
+<details open><summary>Click to expand/collapse rules on communication</summary>
   
 > [!NOTE]
 > As previously mentioned, while in-game you are expected to remain in-character with limited exceptions. In-character communication must occur in-game or in the designated SoV Discord channels as described below:
