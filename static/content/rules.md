@@ -353,6 +353,7 @@ A player engaging in PvP without proper IC motivation and without declaring inte
 Characters valuing their life as if it were real. Players know OOC that they can respawn at a coffin or waygate, but IC should not treat respawning as an inevitability. Treat each death as if it could be your last while IC, deaths to the world, npcs or any other means should be considered with the levity that it could be your last. 
 
 - An example of not committing to Value of Life RP is rushing into and repeatedly dying to a Boss or to a powerful NPC, or not "sustaining" some kinda of injury for your efforts
+- Treating those who die like they are always going to come back/reconstituten. Every death you deliver or that is delivered unto you might be the last
 
 ## FOIC
 A common turn of phrase in discord. Literally means to "Find out in character" 
