@@ -16,6 +16,8 @@ body {
   font-family: 'Crimson Text', serif;
   letter-spacing: 0.02em;
   font-size: 18px;
+  font-size: 1.25rem;
+  line-height: 1.7;
 }
 
 .marked {
