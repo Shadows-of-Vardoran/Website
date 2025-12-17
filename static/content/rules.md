@@ -38,7 +38,10 @@ SoV is a collaborative storytelling space. By becoming a part of this community,
 
 ## B. Behavioral Expectations
 
-Treat others as you would want to be treated. Violation of this **non-exhaustive** list of behavioral expectations is subject to disciplinary action up to and including a temporary or permanent ban from both our Discord and our community V Rising server under the Community Harm Rule. **The Disciplinary Team has discretion to determine whether any player behavior violates the Community Harm Rule and reserves the right to temporarily or permanently remove players from our Discord and/or our community V Rising server to ensure that the space remains safe and enjoyable for everyone.** Participation in this community is a privilege, not a right, and we take protecting this community seriously.
+Treat others as you would want to be treated. Violation of this **non-exhaustive** list of behavioral expectations is subject to disciplinary action up to and including a temporary or permanent ban from both our Discord and our community V Rising server under the Community Harm Rule. Participation in this community is a privilege, not a right, and we take protecting this community seriously.
+
+> [!IMPORTANT]
+> The Disciplinary Team has discretion to determine whether any player behavior violates the Community Harm Rule and reserves the right to temporarily or permanently remove players from our Discord and/or our community V Rising server to ensure that the space remains safe and enjoyable for everyone.
 
 - You must be 18+ to participate in SoV. 
 - We do not tolerate harassment or bigotry of any kind, including but not limited to racism, homophobia, transphobia, sexual harassment, intimidation, bullying, and/or disrespect of another player’s stated boundaries.
@@ -53,7 +56,10 @@ Treat others as you would want to be treated. Violation of this **non-exhaustive
 
 ## A. *Characters*
 
-You are not allowed to play any character unless staff has approved a whitelist application for the character. You must make a separate whitelist application for every character you intend to play, even if you have whitelisted a character in a previous or the current season. Once staff whitelists your character, change your Discord display name for the server to your character’s name. In the case of a second character played concurrently with another character by the same player, put both characters’ names in your Discord display name. A second character played concurrently with another character requires a second copy of V Rising.
+> [!CAUTION]
+> You are not allowed to play any character unless staff has approved a whitelist application for the character.
+
+You must make a separate whitelist application for every character you intend to play, even if you have whitelisted a character in a previous or the current season. Once staff whitelists your character, change your Discord display name for the server to your character’s name. <br>In the case of a second character played concurrently with another character by the same player, put both characters’ names in your Discord display name. A second character played concurrently with another character requires a second copy of V Rising.
 
 - With limited exceptions, players are expected to be fully in-character while in-game.
 - Characters must be 18+ in chronological age, appearance, and mentality. 
