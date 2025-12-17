@@ -4,7 +4,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 # **1. GENERAL CONDUCT**
 
-## A. *The Golden Rule and Community Harm*: 
+## A. The Golden Rule and Community Harm
 
 SoV is a collaborative storytelling space. By becoming a part of this community, you acknowledge the existence of and agree to act in line with the responsibilities inherent to being part of a collaborative storytelling community, collectively referred to as the Golden Rule of RP. The Golden Rule of RP includes but is not limited to:
 
@@ -16,7 +16,7 @@ SoV is a collaborative storytelling space. By becoming a part of this community,
 
 Going against the spirit of the Golden Rule of RP is a violation of the Community Harm Rule. The Community Harm Rule is enforced by the Disciplinary Team. The Community Harm Rule is not a vessel to force players to abide by your preferences, nor is it a means to stifle others’ RP.
 
-## B. *Behavioral Expectations*:
+## B. Behavioral Expectations
 
 Treat others as you would want to be treated. Violation of this **non-exhaustive** list of behavioral expectations is subject to disciplinary action up to and including a temporary or permanent ban from both our Discord and our community V Rising server under the Community Harm Rule. **The Disciplinary Team has discretion to determine whether any player behavior violates the Community Harm Rule and reserves the right to temporarily or permanently remove players from our Discord and/or our community V Rising server to ensure that the space remains safe and enjoyable for everyone.** Participation in this community is a privilege, not a right, and we take protecting this community seriously.
 
@@ -94,8 +94,8 @@ Players must observe the following rules pertaining to in-game mechanics:
 
 As previously mentioned, while in-game you are expected to remain in-character with limited exceptions. In-character communication must occur in-game or in the designated SoV Discord channels as described below:
 
-### 1. Bats (https://discord.com/channels/1309473331501600769/1378735981691142264): 
-
+### 1. Bats
+[Bats Discord Channel](https://discord.com/channels/1309473331501600769/1378735981691142264)
 Bats is the term for letters sent between characters in the in-character bats channel. Bats use the following rules:
 
 - Characters send bats to each other using magic or familiars.
@@ -110,8 +110,8 @@ Bats is the term for letters sent between characters in the in-character bats ch
 - Bats may not contain emojis, with the exception of ☆ ♤ ♡ ◇ ♧ ○.
 - **Do not bother other players OOC about responding to bats. IRL always comes first.** Players have lives and obligations outside the server and may be busy. Characters may intentionally ignore each other as part of RP, but do not RP someone being busy IRL as their character ignoring you. This is [Fail RP](https://discord.com/channels/1309473331501600769/1309480895471812649/1378908194272706560).
 
-### 2. Waygates (https://discord.com/channels/1309473331501600769/1378737329392586842)
-
+### 2. Waygates
+[Waygates Discord Channel](https://discord.com/channels/1309473331501600769/1378737329392586842)
 Waygates serve as a public notice board. Anything posted in the waygates channel is public knowledge that any character which has seen the waygate may know. Waygates are split into two channels, https://discord.com/channels/1309473331501600769/1378737329392586842 and https://discord.com/channels/1309473331501600769/1378737361667620985:
 
 - Waygates should be formatted similarly to bats, beginning with a brief description of the magic or familiar used to place the message on the waygates, followed by the body of the waygate message, and concluding with a signature (or, if the posting is anonymous, indicate that the posting is unsigned). 
@@ -119,12 +119,12 @@ Waygates serve as a public notice board. Anything posted in the waygates channel
 - Because the waygates channel is a public notice board, we like to keep it free of spam in the form of things like repeated short messages and back-and-forth exchanges. Players that put spam in the waygates channel will be timed out from posting. Repeated instances of putting spam in the waygates channel will subject the player to losing the ability to post there or other disciplinary action at the discretion of the Disciplinary Team. 
 - If you wish to reply to a waygate, send a bat to the character that signed the waygate. If the waygate was anonymous, you may send a bat to the player that posted the waygate, but you must flavor it as being posted underneath the player’s original posting for the anonymous character to see. Any responses back and forth must be flavored in the same way while identities are obscured.
 
-### 3. Event Waygates (https://discord.com/channels/1309473331501600769/1378737361667620985)
-
+### 3. Event Waygates
+[Event Waygates Discord Channel](https://discord.com/channels/1309473331501600769/1378737361667620985)
 - The event waygates channel follows the same rules as the standard waygates channel, but is limited to posting public notices about in-character events to ensure dates and times are easily accessible. If you are holding an event, please post the information about the event, including the date and time, in both the waygates and event waygates channel.
 
-### 4. Documents Channel (https://discord.com/channels/1309473331501600769/1378736381529952436)
-
+### 4. Documents Channel
+[Documents Discord Channel](https://discord.com/channels/1309473331501600769/1378736381529952436)
 This channel is used to pass brief in-character notes between characters in the same location that need to convey private information quickly, to share in-character documents between players, or to share other in-character messages with another character (e.g. if you want to show another character a bat you received).
 
 - First, emote in the in-game local chat that you pass the intended recipient(s) a note or document by describing your action between two asterisks: * Passes Vlad a scrap of paper * or * Places the flyer on the table for everyone present to see *
@@ -132,19 +132,19 @@ This channel is used to pass brief in-character notes between characters in the 
 - In the case of simply trying to get a player’s attention to see if they are home, ping them in this channel with a short message like, “Someone is knocking at your door.”
 - Only the sender and recipient(s) (those the sender pinged in the channel) know the contents of what was shared in the Documents Channel. Use of knowledge from something shared in the Documents Channel that was not addressed to or shared with your character will subject you to disciplinary action as an act of [Metagaming](https://discord.com/channels/1309473331501600769/1309480895471812649/1378910384869605409).
 
-### 5. *Rumors Channel* (https://discord.com/channels/1309473331501600769/1378737461236203520)
-
+### 5. Rumors Channel
+[Rumors Discord Channel](https://discord.com/channels/1309473331501600769/1378737461236203520)
 The rumors channel is used to post in-character RP hooks for people who are in-game. **Only post in the rumors channel if you are in-game and what you are posting about can be presently interacted with or investigated by other characters RPing with you** (e.g. “There are strange noises coming from the bear cave” to indicate your character is presently doing something at the bear cave other characters can come check out). Once you are no longer in-game or are no longer RPing with the hook you posted, post another rumor to indicate the hook may no longer be interacted with (e.g “The strange noises coming from the bear cave have subsided” to indicate you have logged off or are no longer RPing at the bear cave).
 
-### 6. *Character Stories* (https://discord.com/channels/1309473331501600769/1378736314261704784)
-
+### 6. Character Stories
+[Character Stories Discord Channel](https://discord.com/channels/1309473331501600769/1378736314261704784)
 This channel is used for players to keep personal in-character journals and/or to engage in in-character collaborative text RP scenes outside of the game.
 
 - Journals: Each character may have one personal journal thread. Information written in a personal journal is not known in-character to any other character unless the journal owner shares part or all of the journal. Use of information from a character journal in-character without having been shown the journal by its owner will subject you to disciplinary action as an act of [Metagaming](https://discord.com/channels/1309473331501600769/1309480895471812649/1378910384869605409).
 
 - Character Stories: Players may open a character story thread to engage in collaborative text RP with other players outside the game. To do so, create a thread in the character stories channel and ping the relevant players in the character story thread, and then you may start sending in-character replies to each other in the thread. Once the scene has ended, add an out-of-character message to indicate such. Only the creator of the thread and the players pinged in the thread may participate in it, and only those players have in-character knowledge of its contents. Use of information from a character stories thread you did not create or were not pinged in while in-character will subject you to disciplinary action as an act of [Metagaming](https://discord.com/channels/1309473331501600769/1309480895471812649/1378910384869605409).
 
-### 7. *In-Character Communication Terms*
+### 7. In-Character Communication Terms
 
 As a community, we have developed a number of euphemisms for common IRL terms for players to use in-character to maintain immersion. **Use of these specific terms is not mandatory and you are free to come up with your own terms to describe IRL phenomena! We are just providing this list as a guide to commonly-used in-character terms in the community:**
 
@@ -174,7 +174,7 @@ As a community, we have developed a number of euphemisms for common IRL terms fo
 - Valere Blood: V Blood.
 - Witching Hour: Scheduled server restart.
 
-### 8. *Miscellaneous Communication Rules*
+### 8. Miscellaneous Communication Rules
 
 - Do not use the whispers chat function in-game. Use of the clan chat function is acceptable for quick out-of-character uses such as an out-of-character check-in or a quick request to have an item brought to you by a clan member. 
 - If someone is not in a clan with you, you may use the local chat for brief out-of-character check-ins (e.g. seeking consent for RP topics which require it, wellness check-ins for dark or intense scenes, or asking for a dice roll where applicable) or to convey urgent out-of-character information such as something that requires you to leave your keyboard right away. 
@@ -182,11 +182,11 @@ As a community, we have developed a number of euphemisms for common IRL terms fo
 - If you are going to play music in-game or via a voice channel or link music for players to listen to in-character, such as for an event, the music must fit the time period, environment, and atmosphere. We encourage players to limit use of music in-game to events.
 - We have a channel with a dice roll bot (https://discord.com/channels/1309473331501600769/1378736381529952436) where players may roll for RP that involves skill checks. You may ask other players for a dice roll using a quick out-of-character check-in or ping them on Discord. Monitor the dice roll bot for results.
 
-## F. *Combat and Conflict*
+## F. Combat and Conflict
 
 Conflict in SoV takes many forms, including traditional PvP, thievery and looting, and formal declarations of conflict which we call warbats.
 
-### 1. *PvP*
+### 1. PvP
 
 SoV is an open-world PvP server. **PvP encounters, including the build-up to PvP and the aftermath, must be recorded for moderation purposes.** The recording requirement does not apply to mutually agreed-upon duels/sparring or training. 
 
@@ -196,7 +196,7 @@ SoV is an open-world PvP server. **PvP encounters, including the build-up to PvP
 - If you are killed by another player during PvP, **you must wait 10 minutes before returning to the location of your death, including to retrieve your dropped items.** This restriction does not apply to deaths that occur during mutually agreed-upon duels/sparring, combat training, standard PvE, or during PvE events where staff are playing NPCs.
 - Outside the arena mechanic, PvP **may not** be initiated with players that are 15 or more lower GS difference than you (e.g if you are GS 60 and another player is GS 45 or lower, you may not initiate PvP with that player outside an arena). This rule does not apply to NPCs initiating combat.
 
-### 2. *Thievery and Looting Rules*
+### 2. Thievery and Looting Rules
 
 - **Looting Players**
   - You may take up to three (3) unique stacks of items from a player at one time (e.g. a stack of rugged hide, a stack of copper coins, and a stack of wood). If the player being robbed chooses to resist/fight back, the party that wins the fight may take up to five (5) unique stacks of items (e.g. a stack of rugged hide, a stack of copper coins, a stack of wood, a stack of plant fiber, and a stack of stone) from the loser. In the instance a player being robbed chooses to fight back, the [PvP Rules](https://discord.com/channels/1309473331501600769/1309480895471812649/1378899204612554823) apply. Note that weapons or gear may only be taken from another player via a warbat. Warbats are explained in [Warbat Rules](https://discord.com/channels/1309473331501600769/1309480895471812649/1378901533789393077).
@@ -215,7 +215,7 @@ For looting castles in decay or left open:
 - You may not interact with the decaying or open castle’s castle heart, kill offline occupants (if occupants are online, see [PvP Rules](https://discord.com/channels/1309473331501600769/1309480895471812649/1378899204612554823)), or steal their horses.
 - If you loot a decaying or open castle, you must leave an in-character hint in https://discord.com/channels/1309473331501600769/1378736381529952436 (if you are not actively committing the robbery) or https://discord.com/channels/1309473331501600769/1378737461236203520 (if you are actively committing the robbery) for the castle owner to follow up on to attempt to get their items back.
 
-### 3. *Warbats*
+### 3. Warbats
 
 Warbats are formal declarations of conflict between character(s). To initiate a warbat, you must send the intended recipient(s) an in-character declaration of conflict in https://discord.com/channels/1309473331501600769/1378736065212579891 that follows the [Bat Rules](https://discord.com/channels/1309473331501600769/1309480895471812649/1378884727150215269) and open a warbat ticket with staff in which the players involved will discuss terms (e.g. time, place, method, time span, number of participating characters on each side, what each character gets if they win, etc.). Warbats do not have to be resolved with traditional PvP or siege combat. We encourage players to get creative with their conflict and resolutions, but we also ask players to reserve warbats for serious or large-scale conflicts. If you would like to issue a silly challenge that does not require admin oversight, please use a normal bat.
 
@@ -227,13 +227,13 @@ Warbats are formal declarations of conflict between character(s). To initiate a 
 - If you receive an in-character declaration of conflict, reply to the sender in-character in https://discord.com/channels/1309473331501600769/1378735981691142264 only after the players decide the terms in the warbat ticket. 
 - Trying to evade a warbat through out-of-character methods such as refusing to log in will subject you to disciplinary action as an act of [Powergaming](https://discord.com/channels/1309473331501600769/1309480895471812649/1378910777632882741).
 
-## G. *Character Death and Injury*
+## G. Character Death and Injury
 
 - Perma Death: Players cannot force one another to permanently kill their characters. Perma Deaths are entirely up to the character’s player. However, we do not allow characters to do “fake-outs” on Perma Deaths. If you take actions which indicate your character is dead, including but not limited to sending out a last will and testimony; explicitly stating your character is dead; RP’ing that the character’s soul has left and their body remains ashes; or any other similar action, your character will be considered perma’d. Characters that have perma’d or whose player has undertaken an action that indicates the character is dead under this rule are dead and may not be resurrected.
  
 - Lingering Wound RP: If you wish for your character to have a near-death experience or have lasting damage, you may engage in Lingering Wound RP. Examples of Lingering Wound RP include long-lasting afflictions or sicknesses; loss of limbs; your character’s soul being trapped between realms but having a chance to return to their still-intact body; and large wounds that take significant time to heal. If you choose to undertake Lingering Wound RP, your wound or condition must have a cure. Treatment of lingering wounds must follow the magic and technological settings of the season and should never include modern medical practices. Healing of wounds and conditions must be consensual; you cannot force a wounded player to accept your specific cure even if wounds and afflictions must have a cure.
 
-## H. *Interacting with Stories and Events*:
+## H. Interacting with Stories and Events
 
 Players can interact with stories on the server or create their own a number of ways besides interacting with each other in-game.
 
