@@ -162,6 +162,9 @@ const config = {
 
       addComponents(buttonClasses);
     },
+    function ({ addVariant }) {
+      addVariant('max-md', '@media (max-width: 768px)');
+    },
   ],
 };
 

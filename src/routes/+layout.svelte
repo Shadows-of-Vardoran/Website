@@ -15,13 +15,15 @@
   <!-- <link rel="icon" href={dwLogoWhite} /> -->
 </svelte:head>
 
-<div class="h-screen w-screen flex overflow-hidden relative">
+<div class="h-screen w-screen flex overflow-hidden relative max-md:flex-col">
   <img src={darkCastle} alt="Dark Castle" class="absolute top-0 left-0 object-cover w-full h-full z-0 -scale-x-100" />
   <div class="absolute inset-0 bg-black-gradient z-0"></div>
 
   <!-- <img src={moon} alt="Moon" class="absolute top-0 right-0 object-cover w-48 min-w-48 max-w-48 mt-4 mr-6 black-to-red" /> -->
 
-  <div class="flex flex-col items-center z-2">
+  <div class="hidden max-md:flex z-2">placeholder</div>
+
+  <div class="flex flex-col items-center z-2 max-md:hidden">
     <div class="min-w-38 h-fit border-testing flex flex-col gap-4 pt-10 pb-12 px-5 relative ml-5 mt-6 mr-5">
       <!-- <img src={tower} alt="Tower" class="w-full -translate-x-4" /> -->
       <div class="absolute inset-0 background-fade pointer-events-none"></div>

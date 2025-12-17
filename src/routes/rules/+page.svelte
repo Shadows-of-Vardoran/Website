@@ -60,8 +60,8 @@
   });
 </script>
 
-<div class="flex w-full h-full bg-background-900/50">
-  <main class="flex flex-col relative">
+<div class="flex w-full h-full bg-background-900/50 overflow-hidden">
+  <main class="flex flex-col relative w-full">
     {#if scrollElement}
       <ScrollIndicator {scrollElement} direction="up" />
     {/if}
@@ -73,7 +73,7 @@
     {/if}
   </main>
 
-  <aside class="min-w-60 z-40 relative mt-5 mr-5 mb-5 border-b-2 border-l-2 border-testing">
+  <aside class="min-w-60 z-40 relative mt-5 mr-5 mb-5 border-b-2 border-l-2 border-testing right-nav">
     <nav class="scrollbar-left h-full p-4 pb-24 rounded-lg bg-background-0/10 z-10 overflow-y-auto relative">
       {#each headings as h}
         <div style="margin-left: {(h.level - 1) * 12}px;">
@@ -111,5 +111,11 @@
 
   .fade-bottom {
     background: linear-gradient(to bottom, transparent, black); /* adjust color to match bg */
+  }
+
+  @media (max-width: 1340px) {
+    .right-nav {
+      display: none;
+    }
   }
 </style>
