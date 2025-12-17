@@ -33,7 +33,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 - You must be 18+ to participate in SoV. 
 - We do not tolerate harassment or bigotry of any kind, including but not limited to racism, homophobia, transphobia, sexual harassment, intimidation, bullying, and/or disrespect of another player’s stated boundaries.
-- Do not engage in actions motivated by [Bleed](https://discord.com/channels/1309473331501600769/1309480895471812649/1378907033449009173), whether conscious or unconscious. If you have concerns about Bleed, whether for yourself or another player, please open a ticket with staff.
+- Do not engage in actions motivated by [Bleed](https://vardoran.com/rules#bleed), whether conscious or unconscious. If you have concerns about Bleed, whether for yourself or another player, please open a ticket with staff.
 - Do not engage in continuous, repeated, and/or sustained exclusionary behavior. Remember we are here to tell stories together.
 - Do not discuss overly graphic, violent, or traumatic topics in-character or out-of-character.
 - Do not bring up real-world politics using the in-character or out-of-character channels in the SoV Discord. If you wish to discuss real-world politics, take it to DMs.
@@ -60,7 +60,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 - Characters’ backgrounds, abilities/skills, and knowledge must follow the magic and technology guidelines for the season. Characters are also expected to abide by the mechanical limitations of the game, such as power levels aligning with the game’s mechanics, requiring blood, and being hurt from sunlight. 
 - Players cannot whitelist with holy magic. 
 - Players are encouraged to use in-game weapons and magic that fit with their character’s background, abilities/skills, and knowledge. 
-- Characters should exhibit [Fear RP](https://discord.com/channels/1309473331501600769/1309480895471812649/1378908288644812801) and [Value of Life RP](https://discord.com/channels/1309473331501600769/1309480895471812649/1378911195913912380).
+- Characters should exhibit [Fear RP](https://vardoran.com/rules#fear-rp) and [Value of Life RP](https://vardoran.com/rules#value-of-life-rp).
 - Players may only seek a character name change from staff if an RP development justifies a name change (e.g. your character has completed a difficult spiritual trial or gotten married).
 - To avoid issues with copyright infringement, we do not allow players to take aspects of their character, lore, symbolism, or any other concept directly from other media. An example would be giving your character the last name Skywalker or giving your character a backstory that he grew up in a desert and gained his skills training in a swamp under the tutelage of a small green man. If a character, lore, symbol, or other concept pulls something directly from other media without changes, staff will have to ask you to change that aspect for legal reasons. You may pull inspiration from other media, but please do not use 1:1 recreations of other media in our server.
 
@@ -92,7 +92,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 - Torture: Have the intended victim character indicate their comfort level with gore before engaging in torture RP.
 - Drug-related RP: Use of truth serums, mind control drugs, lethal drugs, aphrodisiacs, and poisons. If you intend to use a truth serum, please open a ticket with staff first.
 - Magical Interactions: Putting someone under the influence of a spell, curse, or magic item.
-- Imprisonment: Players do not need consent to imprison a player for the first 40 minutes of imprisonment. At that point, unless a player consents to a longer time, you must let them free after 40 minutes. Imprisoned players may attack castle doors, and only castle doors, to escape. This is not an opportunity to siege the jailer’s castle. For siege rules, see [Warbats](https://discord.com/channels/1309473331501600769/1309480895471812649/1378901533789393077).
+- Imprisonment: Players do not need consent to imprison a player for the first 40 minutes of imprisonment. At that point, unless a player consents to a longer time, you must let them free after 40 minutes. Imprisoned players may attack castle doors, and only castle doors, to escape. This is not an opportunity to siege the jailer’s castle. For siege rules, see [Warbats](https://vardoran.com/rules#3-warbats).
 - Do not use another player’s custom artwork, document templates, or other creations without consent. 
 
 Consent is arranged via Discord or by a quick out-of-character check-in using the in-game local chat, which is indicated by putting the check-in message in parentheses. An example of an in-game check-in is:
@@ -115,7 +115,7 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 - Lights and flowers cause major lag on the server. Use them sparingly when decorating your castle.
 - Do not hit castles to get another player’s attention. Knock or use a doorbell. If no one answers the door, ping the player you’re looking for in *#documents-dice-doorbells*.
 - Do not use bat form to escape a closed room.
-- Leave other players' bags in the open world alone. If you accidentally pick someone’s things up, such as when when many players are in one place, do your best to return the items to their owner. Robbery RP is covered in [Looting Players and Castles](https://discord.com/channels/1309473331501600769/1309480895471812649/1378899940977414146).
+- Leave other players' bags in the open world alone. If you accidentally pick someone’s things up, such as when when many players are in one place, do your best to return the items to their owner. Robbery RP is covered in [Looting Players and Castles](https://vardoran.com/rules#2-thievery-and-looting-rules).
 - Do not use wolf jump, frog form, the horse dismount, horse jump, veils, or any other in-game abilities to bypass barriers to get into another player’s castle without explicit permission. 
 - Break all nodes, including stone, when you are in a mine or quarry. Ore nodes have a chance of spawning as stone, and if the stone isn’t cleared out, the mine or quarry will eventually become entirely stone.
 - Clear out all containers/chests in the overworld. If you don’t want something, just drag it out of the container and into the screen to drop the item in the overworld. This ensures the containers will refresh with full loot for the next player to come across it.
