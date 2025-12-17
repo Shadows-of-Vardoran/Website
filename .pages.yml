@@ -7,16 +7,18 @@ content:
     label: Rules Page
     type: file
     path: static/content/rules.md
-
-lore:
-  - name: origins
-    label: Origins
+  - name: history-of-vardoran
+    label: Lore - History of Vardoran
     type: file
-    path: static/content/lore-origins.md
-  - name: factions
-    label: Factions
+    path: static/content/lore-history-of-vardoran.md
+  - name: species
+    label: Lore - Species
     type: file
-    path: static/content/lore-factions.md
+    path: static/content/lore-species.md
+  - name: beyond-vardoran
+    label: Lore - Beyond Vardoran
+    type: file
+    path: static/content/lore-beyond-vardoran.md
 
 settings:
   content:
