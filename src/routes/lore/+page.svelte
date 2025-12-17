@@ -1,1 +1,1 @@
-<div class="w-full flex items-center justify-center text-6xl font-cinzel">LORE TODO</div>
+<div class="w-full flex items-center justify-center text-6xl font-cinzel">Lore Coming Soon</div>

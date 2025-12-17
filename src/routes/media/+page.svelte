@@ -1,1 +1,1 @@
-<div class="w-full flex items-center justify-center text-6xl font-cinzel">MEDIA TODO</div>
+<div class="w-full flex items-center justify-center text-6xl font-cinzel">Media Coming Soon</div>
