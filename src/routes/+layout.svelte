@@ -70,7 +70,7 @@
           <i class="fa-solid fa-medal text-xl" aria-hidden="true"></i>
           <span class="sr-only">Medal</span>
         </a>
-        <a href="https://discord.gg/mQ4KXpJH83" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150 mt-1">
+        <a href="https://discord.gg/shadowsofvardoran" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150 mt-1">
           <i class="fa-brands fa-discord text-xl" aria-hidden="true"></i>
           <span class="sr-only">Discord</span>
         </a>
