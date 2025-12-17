@@ -332,7 +332,6 @@ Use of out-of-character knowledge to influence in-character decisions or actions
 - Your character does not have knowledge of all the things you can see on the HUD.
 - You may not act IC on any conversation you hear while in bat form, even though we allow hearing through walls. 
 - You must learn characters’ names, what clan they belong to, and where they live through IC interactions. You may not read the names on a castle and know that a character lives there. 
-- Wolf form, bear form, human form, and rat form conceal visual identity. You may know the animal is a vampire, and you may recognize their voice if they speak, including through text RP.
 - If a character is sneaking around in rat form, you need visual confirmation of the rat to take action against the rat. There must be some sort of RP warning before striking a character in rat form, similar to the RP notice that must be given to characters before engaging in PvP. 
 - Permanent clanmates will know the names, locations, and identities of their clanmates even in animal form, as well as whether their clanmates are injured or logged off (asleep).
 - Characters joining a clan as a guest will not know the names of characters within the clan they have not met IC.
