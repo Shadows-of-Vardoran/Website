@@ -6,16 +6,12 @@
   import brBorderDecoration2 from '$lib/assets/br_border_decoration_2.png';
   import ScrollIndicator from '$lib/components/ScrollIndicator.svelte';
 
+  import { useMarked } from '$lib/useMarked';
+  const { parse, slugify } = useMarked();
+
   let html: string | Promise<string> = '';
   let headings: { text: string; id: string; level: number }[] = [];
   let scrollElement: HTMLElement | null = null;
-
-  function slugify(text: string) {
-    return text
-      .toLowerCase()
-      .replace(/[^\w]+/g, '-')
-      .replace(/^-+|-+$/g, '');
-  }
 
   onMount(async () => {
     const res = await fetch('/content/rules.md');
@@ -32,56 +28,7 @@
       headings.push({ text, id, level });
     }
 
-    // Custom renderer to add IDs to headings
-    marked.use(markedAlert());
-    const renderer = new marked.Renderer();
-    renderer.heading = ({ tokens, depth }) => {
-      // tokens is an array of inline tokens; join their raw text
-      const safeText = tokens
-        .map((t) => t.raw || '')
-        .join('')
-        .replace(/\*\*|\*/g, '')
-        .trim();
-      const id = slugify(safeText);
-      return `<h${depth} id="${id}">${safeText}</h${depth}>`;
-    };
-
-    // we want to replace bullet points with a custom icon
-    // renderer.listitem = (token) => {
-    //   // Render the tokens as HTML
-    //   const html = Array.isArray(token.tokens) ? marked.parser(token.tokens) : String(token.text || '');
-    //   return `<li class="list-none flex items-start mb-2">
-    //         <span class="inline-block w-3 h-3 mt-[0.6rem] mr-2 bg-tprimary-500 rounded-xs flex-shrink-0"></span>
-    //         <span class="flex-grow">${html}</span>
-    //       </li>`;
-    // };
-    let depth = 0;
-
-    renderer.list = function (token) {
-      depth++;
-      const tag = token.ordered ? 'ol' : 'ul';
-      const items = token.items.map((item) => renderer.listitem(item)).join('');
-      const html = `<${tag} class="">${items}</${tag}>`;
-      depth--;
-      return html;
-    };
-
-    renderer.listitem = function (token) {
-      const html = Array.isArray(token.tokens) ? marked.parser(token.tokens, { renderer }) : String(token.text || '');
-      let dot;
-      if (depth === 1) {
-        dot = `<span class="inline-block w-3 h-3 mt-[0.6rem] mr-2 bg-tprimary-500 rounded-xs flex-shrink-0"></span>`;
-      } else {
-        dot = `<span class="inline-block w-3 h-3 mt-[0.5rem] mr-2 flex-shrink-0" style="background: none;">
-          <svg width="16" height="16" viewBox="0 0 16 16">
-            <polygon points="8,2 14,8 8,14 2,8" fill="#A855F7"/>
-          </svg>
-        </span>`;
-      }
-      return `<li class="list-none flex items-start mb-2">${dot}<span class="flex-grow">${html}</span></li>`;
-    };
-
-    html = marked(md, { renderer });
+    html = parse(md);
   });
 </script>
 
