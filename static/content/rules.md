@@ -58,7 +58,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 - Characters must be 18+ in chronological age, appearance, and mentality. 
 - Characters must appear primarily humanoid. Small horns, wings, tails, and non-human skin tones are allowed. 
 - Characters’ backgrounds, abilities/skills, and knowledge must follow the magic and technology guidelines for the season. Characters are also expected to abide by the mechanical limitations of the game, such as power levels aligning with the game’s mechanics, requiring blood, and being hurt from sunlight. 
-- Characters may not access holy magic. 
+- Players cannot whitelist with holy magic. 
 - Players are encouraged to use in-game weapons and magic that fit with their character’s background, abilities/skills, and knowledge. 
 - Characters should exhibit [Fear RP](https://discord.com/channels/1309473331501600769/1309480895471812649/1378908288644812801) and [Value of Life RP](https://discord.com/channels/1309473331501600769/1309480895471812649/1378911195913912380).
 - Players may only seek a character name change from staff if an RP development justifies a name change (e.g. your character has completed a difficult spiritual trial or gotten married).
