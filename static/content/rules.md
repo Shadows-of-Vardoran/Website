@@ -4,9 +4,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 <div class="text-3xl text-success-0 mt-3">Failure to abide by our community rules is subject to disciplinary action up to and including a permanent ban from both our Discord and community V Rising server.</div>
 
-<div class="text-9xl rainbow-unicorns">
-  If this were real CSS, this would be HUGE
-</div>
+<div style="font-size: 1.25rem; line-height: 1.7;">
 
 # **1. GENERAL CONDUCT**
 
@@ -327,6 +325,9 @@ Acts of Bleed, Fail RP, Godmodding, Metagaming, Powergaming, RDM, and/or not res
 
 ***Value of Life RP***: Characters valuing their life as if it were real. Players know OOC that they can respawn at a coffin or waygate, but IC should not treat respawning as an inevitability. Treat each death as if it could be your last while IC.
 
+
+</div>
+
 Temporary styling fiddling below. Ignore.
 > [!NOTE]
 > Highlights information that users should take into account, even when skimming.
@@ -342,3 +343,6 @@ Temporary styling fiddling below. Ignore.
 
 > [!CAUTION]
 > Negative potential consequences of an action.
+>
+
+</div>
