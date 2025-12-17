@@ -2,7 +2,8 @@
 (Pre-S1 lore)
 
 ## Mortium Before Dracula’s Reign
-
+<details open><summary>Click to expand/collapse Before Dracula's Reign</summary>
+  
 The Land of Cold Graves
 
 Before the rise of Dracula and the blackening of the sky, Mortium was already a land touched by hardship and death. A frigid frontier in the northeastern reaches of Vardoran, it was a place of wind-scoured hills, iron-gray skies, and winters that could gnaw the marrow from a man’s bones. The people who lived here were few but fierce--hardened clans of mortal folk who carved a tough life from the frozen earth, building hearths against the darkness and whispering prayers into the wind.
@@ -24,6 +25,7 @@ He emptied Mortium of its mortal population,some devoured in service of his grow
 What was once a land of cold graves and quiet strength became a monument to conquest, a frozen throne for the Immortal King to rule from. Now, long after his defeat, Mortium lies silent once more--its ruins buried beneath centuries of frost and forgotten glory. But even in death, the land remembers.
 
 And something stirs in the cold again. 
+</details>
 
 # The Northern Wood
 
