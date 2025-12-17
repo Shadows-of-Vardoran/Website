@@ -29,6 +29,7 @@ And something stirs in the cold again.
 </details>
 
 # The Northern Wood
+<details open><summary>Click to expand/collapse The Northern Wood</summary>
 
 The Oakveil Woods once stretched across all of Northern Vardoran. A lush forest of green ferns and plentiful trees. One of Vardoran’s main sources of wood and sap, as well as fertile hunting grounds for all walks of life.
 
@@ -48,7 +49,10 @@ As the Great Darkness seeped back it left a sickening curse upon the land, reviv
 
 With the borders closed and heavily enforced by an army of the twisted forest denizens, none could enter the region safely. But, to this day, people traversing nearby roads swear they hear the wailing and a singular detached voice draped in sorrow crying out every night.
 
+</details>
+
 # Dracula’s Conquest
+<details open><summary>Click to expand/collapse Dracula's Conquest</summary>
 
 One Thousand Years ago, Dracula began his Conquest. As the ruler of Mortium, he sought to expand beyond the borders of his frigid home, and beyond Vardoran as a whole. He sought to be king of everything he could touch– and more, in realms yet unseen.
 
@@ -63,3 +67,5 @@ The tales say that each step of the Conquest drove him a little madder. With eve
 It was the Luminance, in the end, who put an end to the slaughter. Dracula returned to Vardoran once more, keen on continuing his Conquest anew. He found, in the shadow of his homeland, a threat far brighter than he was prepared to face. In a rare opportunity, weakened by battle and the rising sun, the Great Blade of Luminance ran him through; tearing apart his physical body in an explosion of colliding holy and blood magic so powerful it left a permanent scar upon the land.
 
 Without their king, Noctum floundered. Those conscripted unwillingly retreated to their ravaged homes. Vampire betrayed vampire, and none could hold Dracula’s empty throne long enough to secure a new rule. The Legion faced a schism: splitting into smaller factions that met karmic slaughter themselves or get lost in the wind. A century after his 'death', the most loyal returned home, to Mortium, where they still wait for the return of their Dark Lord...
+
+</details>
