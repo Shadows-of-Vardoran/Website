@@ -83,7 +83,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 </details>
 
 ## C. *Consent* 
-<details><summary>Click to expand rules on Consent</summary>
+<details open><summary>Click to expand rules on Consent</summary>
   
 > [!NOTE]
 > The following topics require explicit consent from the other player(s):
@@ -104,7 +104,7 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 </details>
 
 ## D. *In-Game Mechanics* 
-<details><summary>Click to expand rules on In-Game Mechanics</summary>
+<details open><summary>Click to expand rules on In-Game Mechanics</summary>
   
 > [!NOTE]
 > Players must observe the following rules pertaining to in-game mechanics:
@@ -127,7 +127,7 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 </details>
 
 ## E. *Communication*
-<details><summary>Click to expand rules on communication</summary>
+<details open><summary>Click to expand rules on communication</summary>
   
 > [!NOTE]
 > As previously mentioned, while in-game you are expected to remain in-character with limited exceptions. In-character communication must occur in-game or in the designated SoV Discord channels as described below:
@@ -228,7 +228,7 @@ As a community, we have developed a number of euphemisms for common IRL terms fo
 
 ## F. Combat and Conflict
 
-<details><summary>Click to expand rules on Combat and Conflict</summary>
+<details open><summary>Click to expand rules on Combat and Conflict</summary>
 
 Conflict in SoV takes many forms, including traditional PvP, thievery and looting, and formal declarations of conflict which we call warbats.
 
@@ -279,7 +279,7 @@ Warbats are formal declarations of conflict between character(s). To initiate a 
 </details>
 
 ## G. Character Death and Injury
-<details><summary>Click to expand rules on Death and Injury</summary>
+<details open><summary>Click to expand rules on Death and Injury</summary>
 
 - Perma Death: Players cannot force one another to permanently kill their characters. Perma Deaths are entirely up to the character’s player. However, we do not allow characters to do “fake-outs” on Perma Deaths. If you take actions which indicate your character is dead, including but not limited to sending out a last will and testimony; explicitly stating your character is dead; RP’ing that the character’s soul has left and their body remains ashes; or any other similar action, your character will be considered perma’d. Characters that have perma’d or whose player has undertaken an action that indicates the character is dead under this rule are dead and may not be resurrected.
  
@@ -288,7 +288,7 @@ Warbats are formal declarations of conflict between character(s). To initiate a 
 </details>
 
 ## H. Interacting with Stories and Events
-<details><summary>Click to expand rules on Stories and Events</summary>
+<details open><summary>Click to expand rules on Stories and Events</summary>
   
 Players can interact with stories on the server or create their own a number of ways besides interacting with each other in-game.
 
@@ -307,7 +307,7 @@ Players can interact with stories on the server or create their own a number of 
 </details>
 
 # 3. GLOSSARY
-<details><summary>Click to expand Glossary</summary>
+<details open><summary>Click to expand Glossary</summary>
   
 Acts of Bleed, Fail RP, Godmodding, Metagaming, Powergaming, RDM, and/or not respecting Fear RP or Value of Life RP may subject you to disciplinary action up to and including a permanent ban from the server. The application word is rotate. Do not share this word with other players once you have found it.
 
