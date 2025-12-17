@@ -118,6 +118,24 @@ body {
       background: color-mix(in srgb, var(--color-error-900), black 50%);
     }
   }
+
+  summary {
+    background: var(--color-background-800);
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    padding: 0rem 0.5rem;
+    margin-left: -0.5rem;
+    outline: none;
+    cursor: pointer;
+  }
+
+  details {
+    padding-left: 0.5rem;
+    border-left: 2px solid var(--color-background-700);
+    border-bottom: 2px solid var(--color-background-700);
+    border-bottom-left-radius: 0.5rem;
+    overflow: hidden;
+  }
 }
 
 .nav-tower-button {
