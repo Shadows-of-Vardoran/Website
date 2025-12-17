@@ -6,7 +6,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 <div style="font-size: 1.25rem; line-height: 1.7;">
 
-# **1. GENERAL CONDUCT**
+# **1. GENERAL CONDUCT** <details><summary>Click to expand General Conduct Rules</summary>
 
 ## A. The Golden Rule and Community Harm
 
@@ -42,8 +42,9 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 > [!IMPORTANT]
 > The Disciplinary Team has discretion to determine whether any player behavior violates the Community Harm Rule and reserves the right to temporarily or permanently remove players from our Discord and/or our community V Rising server to ensure that the space remains safe and enjoyable for everyone.
 
+</details>
 # 2. RP GUIDELINES
-
+<details><summary>Click to expand RP Guidlines</summary>
 ## A. *Characters*
 
 > [!NOTE]
@@ -62,9 +63,10 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 > [!CAUTION]
 > You are not allowed to play any character unless staff has approved a whitelist application for the character.
-  
-## B. *Prohibited Topics* 
+</details>
 
+## B. *Prohibited Topics* 
+<details><summary>Click to expand rules on Prohibited Topics</summary>
 > [!NOTE]
 > We do not allow RP of:
 
@@ -74,9 +76,10 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 - Multiple or split personalities
   - You may RP possession, but ONLY if the entity possessing your character is entirely separate from your character with its own mind, personality, and motivations. Players are expected to disclose and describe the possessing entity in their whitelist application.
 - Real-world politics, real-world religions, or current events
+</details>
 
 ## C. *Consent* 
-
+<details><summary>Click to expand rules on Consent</summary>
 > [!NOTE]
 > The following topics require explicit consent from the other player(s):
 
@@ -93,9 +96,10 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 
 > [!WARNING]
 > Failure to respect another player’s stated boundaries is a violation of the Community Harm Rule.
+</details>
 
 ## D. *In-Game Mechanics* 
-
+<details><summary>Click to expand rules on In-Game Mechanics</summary>
 > [!NOTE]
 > Players must observe the following rules pertaining to in-game mechanics:
 
@@ -114,14 +118,14 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 - If you are fighting a V Blood with other players, **wait until everyone is ready to drink the V Blood at the end of the fight.** Sometimes people have to respawn and return. It’s rude to not wait for every player that helped with the fight to be ready to drink.
 - Be courteous when items drop from a boss. Do not rush in and snatch everything up. 
 - Switch to text RP in the in-game chat if you are engaging in a side conversation in a room full of other players.
+</details>
 
 ## E. *Communication*
-
+<details><summary>Click to expand rules on communication</summary>
 > [!NOTE]
 > As previously mentioned, while in-game you are expected to remain in-character with limited exceptions. In-character communication must occur in-game or in the designated SoV Discord channels as described below:
 
 ### 1. Bats
-<details><summary>Click to expand</summary>
 *#bats* discord channel
 Bats is the term for letters sent between characters in the in-character bats channel. Bats use the following rules:
 
