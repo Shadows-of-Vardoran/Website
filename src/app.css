@@ -57,6 +57,57 @@ body {
     text-decoration: underline;
     color: var(--color-info-100);
   }
+
+  .markdown-alert-title {
+    font-family: "Cinzel", serif;
+    @apply flex items-center gap-2 text-white font-bold text-2xl;
+  }
+
+  .octicon {
+    fill: white;
+    height: 1.3rem;
+    width: 1.3rem;
+  }
+
+  .markdown-alert-note {
+    .markdown-alert-title {
+      background: var(--color-info-800);
+    }
+
+    p {
+      background: var(--color-info-900);
+    }
+  }
+
+  .markdown-alert-tip {
+    .markdown-alert-title {
+      background: var(--color-info-800);
+    }
+
+    p {
+      background: var(--color-info-900);
+    }
+  }
+
+  .markdown-alert-important {
+    .markdown-alert-title {
+      background: color-mix(in srgb, var(--color-success-500), black 40%);
+    }
+
+    p {
+      background: color-mix(in srgb, var(--color-success-900), black 50%);
+    }
+  }
+
+  .markdown-alert-warning, .markdown-alert-caution {
+    .markdown-alert-title {
+      background: color-mix(in srgb, var(--color-error-500), black 40%);
+    }
+
+    p {
+      background: color-mix(in srgb, var(--color-error-900), black 50%);
+    }
+  }
 }
 
 .nav-tower-button {

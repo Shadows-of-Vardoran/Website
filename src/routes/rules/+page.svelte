@@ -1,6 +1,8 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { marked } from 'marked';
+  import markedAlert from 'marked-alert';
+
   import brBorderDecoration2 from '$lib/assets/br_border_decoration_2.png';
   import ScrollIndicator from '$lib/components/ScrollIndicator.svelte';
 
@@ -31,6 +33,7 @@
     }
 
     // Custom renderer to add IDs to headings
+    marked.use(markedAlert());
     const renderer = new marked.Renderer();
     renderer.heading = ({ tokens, depth }) => {
       // tokens is an array of inline tokens; join their raw text
