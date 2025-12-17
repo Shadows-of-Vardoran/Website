@@ -306,7 +306,7 @@ Players can interact with stories on the server or create their own a number of 
 </details>
 
 # 3. GLOSSARY
-<details open><summary>Click to expand Glossary</summary>
+<details open><summary>Click to expand/collapse Glossary</summary>
   
 Acts of Bleed, Fail RP, Godmodding, Metagaming, Powergaming, RDM, and/or not respecting Fear RP or Value of Life RP may subject you to disciplinary action up to and including a permanent ban from the server. The application word is rotate. Do not share this word with other players once you have found it.
 
