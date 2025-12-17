@@ -2,6 +2,8 @@
 
 https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/edit?usp=sharing
 
+<div class="text-3xl text-success-0">Failure to abide by our community rules is subject to disciplinary action up to and including a permanent ban from both our Discord and community V Rising server.</div>
+
 # **1. GENERAL CONDUCT**
 
 ## A. The Golden Rule and Community Harm
@@ -283,5 +285,3 @@ Acts of Bleed, Fail RP, Godmodding, Metagaming, Powergaming, RDM, and/or not res
 ***Random Death Match (RDM)***: A player engaging in PvP without proper IC motivation and without declaring intent. Characters must have a genuine IC, RP-justified reason to want to engage in PvP with another character and must clearly declare that intent before engaging. Our server is RP first, with the involvement of PvP. Note that players do not need consent to begin a fight, they just need to initiate PvP through RP and allow a reasonable window for a response from the other player. Ignoring the aggressor is not an appropriate response. See [PvP Rules](https://discord.com/channels/1309473331501600769/1309480895471812649/1378899204612554823).
 
 ***Value of Life RP***: Characters valuing their life as if it were real. Players know OOC that they can respawn at a coffin or waygate, but IC should not treat respawning as an inevitability. Treat each death as if it could be your last while IC.
-
-# **Failure to abide by our community rules is subject to disciplinary action up to and including a permanent ban from both our Discord and community V Rising server.**
