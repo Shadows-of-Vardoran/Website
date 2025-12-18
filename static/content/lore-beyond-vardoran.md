@@ -50,7 +50,7 @@ They tell stories of monsters in the forest in which they must be quick-witted t
 Anyone who has met the hooded and visited the forested marsh of Balaton have said there is a constant feeling of being watched permeating from both.  An air of old magic and being that of prey.  Some have claimed that when they thought an animal was about to interact with them the animal had been spooked off and all noise around them stopped only for it to feel like something bigger was then hungerly, eagerly watching.  Almost all who have come back with this tale say they were hidden by a group of The Hooded who were performing some type of sacrifice or ritual involving the skin of a large beast and that they could tell this gaze that was following them was then more focused on something else.
 
 # Sahraan
-## The Civil War and the Twilight Court
+## The Civil War & Twilight Court
 <img src="/media/sahraan_map.jpg" alt="Sahraan Map" class="w-2/5 max-md:w-full float-right" />
 
 Sahraan was not spared from the unrest that came in on the magic flowing from Vardoran. The simmering tensions between the Sun Courts and the Moon Shrines erupted into civil war. The Sun Courts, with the backing of noble gold, were able to hire mercenaries from the world over. Outfitting them with the finest weapons and armor money could buy, the Sun Courts marched their legions of mercenaries from the cities to raze the villages and scholarly towers of the Moon Shrines and claim that land for Sham’Yara. However, in confidence borne of their faith in the protection of Sham’Yara’s solar light, the Sun Courts’ generals did not count on vampires becoming their biggest obstacle. Though it had long been whispered that vampires conducted dark rituals at The Hollow Eclipse, the march of the Sun Courts confirmed it. 
@@ -69,7 +69,7 @@ In the centuries since the civil war, the Twilight Court has had to maintain vig
 
 The dual gods Sham’Yara and Nakri’el are still worshipped in Sahrann, but no longer as opposing forces. Instead, they are viewed by the Twilight Court as two sides of one coin. The currency has changed from gold to electrum, an alloy of gold and silver, to represent the reunion of day and night. The coins are stamped with the faces of the Twilight Court’s elected delegates at the time they were minted. Supporters of the Sun Courts and the Moon Shrines as they existed prior to the civil war still exist, and keep secret enclaves where they practice the old traditions.
 
-## The Return of Simmering Tensions
+## Return of Simmering Tensions
 
 The tensions in Sahraan have changed from being between the Sun Courts and the Moon Shrines to being between the Twilight Court and the descendants of the disenfranchised nobility and those that still practice the old beliefs, collectively referred to as the Traditionalists. The Traditionalists periodically engage in skirmishes and uprisings across the country, trying to reestablish a foothold. The Twilight Court swiftly destroys Traditionalist enclaves whenever they are found, but despite its best efforts it has not been able to stamp out the Traditionalists. It is only a matter of time before Sahraan experiences another civil war. 
 
@@ -134,7 +134,7 @@ The villages at the edges of the Deadlands remain, despite the Lich King’s inc
 
 Those who dare to venture beyond the borders are the Scavengers. They seek treasure, magic, and items from a history long buried. Some seek a way to kill the Lich King, while others simply seek to understand its true nature.
 
-## Processions and the Cult of the Necrotic Leviathan
+## Processions & the Cult of the Necrotic Leviathan
 Others live within rolling villages– called Processions– and move daily, making them difficult to locate. They brave the heart of the Deadlands itself, relying on the Necromancy Leviathan to avoid the Lich King’s path. They boast rolling huts and ramshackle landships. The Bound of the Necrotic Leviathan decorate their buildings with corpses and rocks to better blend in with the desolate landscape they call home. You may not see them coming until they are upon you.
 
 Processions raid border villages for sacrifices to feed to the Lich King, ensuring that their master is fed in-turn, and they remain in the Leviathan’s Favor. Processions have been known to capture unlucky refugees from the holy war in Frankleburg. Crossing the Deadlands is more dangerous than ever before, as travelers must be wary of both the Lich King and the Leviathan in its shadow, *and* their fanatical followers.
