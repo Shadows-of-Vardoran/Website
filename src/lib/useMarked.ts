@@ -73,9 +73,9 @@ export const useMarked = () => {
         let textWithoutClass = token.text.replace(/class="[^"]*"/, '');
         return `
           <div class="marked-image ${classMatch ? classMatch[1] : ''}">
-            <img src="src/lib/assets/image_tl_corner.png" alt="" class="tl-corner" />
+            <img src="media/image_tl_corner.png" alt="" class="tl-corner" />
             ${textWithoutClass}
-            <img src="src/lib/assets/image_br_corner.png" alt="" class="br-corner" />
+            <img src="media/image_br_corner.png" alt="" class="br-corner" />
           </div>
         `;
       }
