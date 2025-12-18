@@ -3,7 +3,7 @@
 
 ## Mortium Before Dracula’s Reign
 <details open><summary>Click to expand/collapse Before Dracula's Reign</summary>
-  
+<div>  
 The Land of Cold Graves
 
 Before the rise of Dracula and the blackening of the sky, Mortium was already a land touched by hardship and death. A frigid frontier in the northeastern reaches of Vardoran, it was a place of wind-scoured hills, iron-gray skies, and winters that could gnaw the marrow from a man’s bones. The people who lived here were few but fierce--hardened clans of mortal folk who carved a tough life from the frozen earth, building hearths against the darkness and whispering prayers into the wind.
@@ -25,12 +25,12 @@ He emptied Mortium of its mortal population,some devoured in service of his grow
 What was once a land of cold graves and quiet strength became a monument to conquest, a frozen throne for the Immortal King to rule from. Now, long after his defeat, Mortium lies silent once more--its ruins buried beneath centuries of frost and forgotten glory. But even in death, the land remembers.
 
 And something stirs in the cold again. 
-
+</div>
 </details>
 
 # The Northern Wood - The First Victims of Dracula’s Conquest
 <details open><summary>Click to expand/collapse The Northern Wood</summary>
-
+<div>
 The Oakveil Woods once stretched across all of Northern Vardoran. A lush forest of green ferns and plentiful trees. One of Vardoran’s main sources of wood and sap, as well as fertile hunting grounds for all walks of life.
 
 One thousand years ago, during Dracula’s Conquest, the Eastern side of Oakveil was the first place to fall to the Vampire King’s army.
@@ -48,12 +48,12 @@ Soldiers, both of the Legion and of the forest, were warped and turned into grot
 As the Great Darkness seeped back it left a sickening curse upon the land, reviving the dead and placing an eternal mist upon the land so that none may leave its domain. As a parting gift the Great Darkness granted the witches a curse of their own, turning them into shadows of themselves. Their intelligence removed, allowing just base instincts to persevere in the form of their illusion magic, they were turned into sickly wicked creatures who used their magic for their own vile whims. 
 
 With the borders closed and heavily enforced by an army of the twisted forest denizens, none could enter the region safely. But, to this day, people traversing nearby roads swear they hear the wailing and a singular detached voice draped in sorrow crying out every night.
-
+</div>
 </details>
 
 # Dracula’s Conquest
 <details open><summary>Click to expand/collapse Dracula's Conquest</summary>
-
+<div>
 One Thousand Years ago, Dracula began his Conquest. As the ruler of Mortium, he sought to expand beyond the borders of his frigid home, and beyond Vardoran as a whole. He sought to be king of everything he could touch– and more, in realms yet unseen.
 
 Backed by the Legion of Noctum, Dracula first set his sights upon the forest north of his domain: Oakveil. The brutal battle and the slaughter of the witches that followed corrupted the land itself. Matka and her sisters fell against a tide of desperate darkness.
@@ -67,13 +67,13 @@ The tales say that each step of the Conquest drove him a little madder. With eve
 It was the Luminance, in the end, who put an end to the slaughter. Dracula returned to Vardoran once more, keen on continuing his Conquest anew. He found, in the shadow of his homeland, a threat far brighter than he was prepared to face. In a rare opportunity, weakened by battle and the rising sun, the Great Blade of Luminance ran him through; tearing apart his physical body in an explosion of colliding holy and blood magic so powerful it left a permanent scar upon the land.
 
 Without their king, Noctum floundered. Those conscripted unwillingly retreated to their ravaged homes. Vampire betrayed vampire, and none could hold Dracula’s empty throne long enough to secure a new rule. The Legion faced a schism: splitting into smaller factions that met karmic slaughter themselves or get lost in the wind. A century after his 'death', the most loyal returned home, to Mortium, where they still wait for the return of their Dark Lord…
-
+</div>
 </details>
 
 # ***The Recent Past***
 <details open><summary>Click to expand/collapse The Recent Past</summary>
 (S1 and the 200 year timeskip that followed.)
-
+<div>
 
 ***The Era of Entropy***
 The Cycle of Magic is a persistent, constant force. It is as unchanging and unstoppable as the tides. Magic has a natural ebb and flow, and highs and lows. There are ages long past where gods walked among men, and nothing was impossible. When realmwalking was as easy as breathing and the stars were so close you could touch them. But, as with all things, that era came to an end.
@@ -118,5 +118,5 @@ The Cult of the Damned has grown without the heavy presence of Luminance in the 
 Megara’s Venomblades spent the last two centuries focused on one thing, and one thing alone: the resurrection of their Serpent Queen. Their ships skirmish with refugees from Velgrath with increasing regularity.
 
 The Cursed Forest’s curse has shifted. Changed. The spirits of the Oaksingers have been released from their torment; free with the end of the last era. But the curse? It has grown new, viscous *teeth*.
-
+</div>
 </details>
