@@ -19,6 +19,14 @@ content:
     label: Lore - Beyond Vardoran
     type: file
     path: static/content/lore-beyond-vardoran.md
+  - name: religions
+    label: Lore - Religions
+    type: file
+    path: static/content/lore-religions.md
+  - name: realms
+    label: Lore - Realms
+    type: file
+    path: static/content/lore-realms.md
 
 settings:
   content:

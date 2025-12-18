@@ -13,24 +13,22 @@ function obfuscateText(text) {
   const ignorePatterns = [
     /\[\![^\]]*\]/g, // [!TEXT]
     /!\[[^\]]*\]\([^\)]*\)/g, // ![alt](src)
-    /<img\b[^>]*?>/gi // <img ... />
+    /<img\b[^>]*?>/gi, // <img ... />
   ];
   const ignored = [];
   let i = 0;
 
   // Replace all ignore patterns with placeholders in order of appearance
-  let combinedPattern = new RegExp(
-    ignorePatterns.map(r => r.source).join('|'),
-    'g'
-  );
+  let combinedPattern = new RegExp(ignorePatterns.map((r) => r.source).join('|'), 'g');
   text = text.replace(combinedPattern, (match) => {
     ignored.push(match);
     return `<<OBFUSCATE_IGNORE_${i++}>>`;
   });
 
   // Obfuscate only outside placeholders
-  text = text.split(/(<<OBFUSCATE_IGNORE_\d+>>)/g)
-    .map(segment => {
+  text = text
+    .split(/(<<OBFUSCATE_IGNORE_\d+>>)/g)
+    .map((segment) => {
       if (/^<<OBFUSCATE_IGNORE_\d+>>$/.test(segment)) {
         return segment;
       }
@@ -50,9 +48,10 @@ function obfuscateText(text) {
 }
 
 function obfuscateMarkdownFiles(dir) {
+  const ignoreFiles = ['lore-history-of-vardoran.md'];
   const files = fs.readdirSync(dir);
   files.forEach((file) => {
-    if (file.startsWith('lore-') && file.endsWith('.md')) {
+    if (file.startsWith('lore-') && file.endsWith('.md') && !ignoreFiles.includes(file)) {
       const filePath = path.join(dir, file);
       const original = fs.readFileSync(filePath, 'utf8');
       const obfuscated = obfuscateText(original);

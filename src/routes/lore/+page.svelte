@@ -15,16 +15,31 @@
       name: 'history-of-vardoran',
       label: 'History of Vardoran',
       path: '/content/lore-history-of-vardoran.md',
+      scrambled: false,
     },
     {
       name: 'species',
       label: 'Species',
       path: '/content/lore-species.md',
+      scrambled: true,
     },
     {
       name: 'beyond-vardoran',
       label: 'Beyond Vardoran',
       path: '/content/lore-beyond-vardoran.md',
+      scrambled: true,
+    },
+    {
+      name: 'religions',
+      label: 'Religions',
+      path: '/content/lore-religions.md',
+      scrambled: true,
+    },
+    {
+      name: 'realms',
+      label: 'Realms',
+      path: '/content/lore-realms.md',
+      scrambled: true,
     },
   ];
 
@@ -32,6 +47,7 @@
   let content = '';
   let headings: { text: string; id: string; level: number }[] = [];
   let scrollElement: HTMLElement | null = null;
+  let scrambled = false; // Set to true to apply 'font-aelfa' class
 
   async function loadContent(tab: any) {
     const res = await fetch(tab.path);
@@ -49,6 +65,7 @@
     }
 
     content = await parse(md);
+    scrambled = tab.scrambled;
   }
 
   onMount(() => {
@@ -61,13 +78,13 @@
   }
 </script>
 
-<div class="flex flex-col h-full w-full bg-background-900/50 font-aelfa">
+<div class="flex flex-col h-full w-full bg-background-900/50">
   <!-- Tab Navigation -->
   <div class="relative px-8 mt-3">
     <div class="flex gap-4 mb-4 px-10">
       {#each loreTabs as tab}
         <button
-          class="px-4 font-semibold rounded-t bg-gray-800 text-white hover:bg-gray-700 transition-colors cursor-pointer"
+          class="px-4 font-semibold rounded-t bg-gray-800 text-white hover:bg-gray-700 transition-colors cursor-pointer {tab.scrambled ? 'font-aelfa' : ''}"
           class:selected={tab === selectedTab}
           on:click={() => selectTab(tab)}
         >
@@ -82,7 +99,7 @@
   </div>
 
   <div class="flex flex-1 overflow-hidden">
-    <div class="flex flex-col relative w-full">
+    <div class="flex flex-col relative w-full {scrambled ? 'font-aelfa' : ''}">
       {#if scrollElement}
         <ScrollIndicator {scrollElement} direction="up" />
       {/if}
@@ -95,7 +112,7 @@
     </div>
 
     <!-- Right Nav Bar -->
-    <aside class="min-w-60 z-40 relative mt-5 mr-5 mb-5 border-b-2 border-l-2 border-testing right-nav">
+    <aside class="min-w-60 z-40 relative mt-5 mr-5 mb-5 border-b-2 border-l-2 border-testing right-nav {scrambled ? 'font-aelfa' : ''}">
       <nav class="scrollbar-left h-full p-4 pb-24 rounded-lg bg-background-0/10 z-10 overflow-y-auto relative">
         {#each headings as h}
           <div style="margin-left: {(h.level - 1) * 12}px;">
