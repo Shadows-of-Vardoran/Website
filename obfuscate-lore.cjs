@@ -48,7 +48,7 @@ function obfuscateText(text) {
 }
 
 function obfuscateMarkdownFiles(dir) {
-  const ignoreFiles = ['lore-history-of-vardoran.md'];
+  const ignoreFiles = ['lore-history-of-vardoran.md', 'lore-beyond-vardoran.md'];
   const files = fs.readdirSync(dir);
   files.forEach((file) => {
     if (file.startsWith('lore-') && file.endsWith('.md') && !ignoreFiles.includes(file)) {

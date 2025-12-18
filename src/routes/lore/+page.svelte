@@ -27,7 +27,7 @@
       name: 'beyond-vardoran',
       label: 'Beyond Vardoran',
       path: '/content/lore-beyond-vardoran.md',
-      scrambled: true,
+      scrambled: false,
     },
     {
       name: 'religions',
