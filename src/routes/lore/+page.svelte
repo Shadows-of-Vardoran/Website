@@ -33,13 +33,13 @@
       name: 'religions',
       label: 'Religions',
       path: '/content/lore-religions.md',
-      scrambled: true,
+      scrambled: false,
     },
     {
       name: 'realms',
       label: 'Realms',
       path: '/content/lore-realms.md',
-      scrambled: true,
+      scrambled: false,
     },
   ];
 

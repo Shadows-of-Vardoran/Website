@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Obfuscate lore markdown files
-        run: node obfuscate-lore.cjs
+      # - name: Obfuscate lore markdown files
+      #   run: node obfuscate-lore.cjs
 
       - name: Build static site
         run: |
