@@ -86,7 +86,7 @@
       {#if scrollElement}
         <ScrollIndicator {scrollElement} direction="up" />
       {/if}
-      <div bind:this={scrollElement} class="flex flex-col overflow-y-auto p-8 scrollbar-hidden marked">
+      <div bind:this={scrollElement} class="overflow-y-auto p-8 scrollbar-hidden marked">
         {@html content}
       </div>
       {#if scrollElement}
