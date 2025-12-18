@@ -9,25 +9,41 @@ const CONTENT_DIR = path.join(__dirname, 'static', 'content');
 
 // Obfuscate all letters except those inside [!TEXT] patterns
 function obfuscateText(text) {
-  // Find all [!TEXT] patterns and replace with placeholders
-  const ignorePattern = /\[\![^\]]*\]/g;
+  // Collect all ignore patterns in the order they appear in the text
+  const ignorePatterns = [
+    /\[\![^\]]*\]/g, // [!TEXT]
+    /!\[[^\]]*\]\([^\)]*\)/g // ![alt](src)
+  ];
   const ignored = [];
   let i = 0;
-  text = text.replace(ignorePattern, (match) => {
+
+  // Replace all ignore patterns with placeholders in order of appearance
+  let combinedPattern = new RegExp(
+    ignorePatterns.map(r => r.source).join('|'),
+    'g'
+  );
+  text = text.replace(combinedPattern, (match) => {
     ignored.push(match);
-    return `__OBFUSCATE_IGNORE_${i++}__`;
+    return `<<OBFUSCATE_IGNORE_${i++}>>`;
   });
 
-  // Obfuscate the rest
-  text = text.replace(/[a-zA-Z]/g, (char) => {
-    const isUpper = char === char.toUpperCase();
-    const code = Math.floor(Math.random() * 26) + 97;
-    const letter = String.fromCharCode(code);
-    return isUpper ? letter.toUpperCase() : letter;
-  });
+  // Obfuscate only outside placeholders
+  text = text.split(/(<<OBFUSCATE_IGNORE_\d+>>)/g)
+    .map(segment => {
+      if (/^<<OBFUSCATE_IGNORE_\d+>>$/.test(segment)) {
+        return segment;
+      }
+      return segment.replace(/[a-zA-Z]/g, (char) => {
+        const isUpper = char === char.toUpperCase();
+        const code = Math.floor(Math.random() * 26) + 97;
+        const letter = String.fromCharCode(code);
+        return isUpper ? letter.toUpperCase() : letter;
+      });
+    })
+    .join('');
 
   // Restore ignored patterns
-  text = text.replace(/__OBFUSCATE_IGNORE_(\d+)__/g, (_, idx) => ignored[idx]);
+  text = text.replace(/<<OBFUSCATE_IGNORE_(\d+)>>/g, (_, idx) => ignored[idx]);
 
   return text;
 }
