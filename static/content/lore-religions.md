@@ -36,7 +36,7 @@ No corpse lies still in the presence of a Daemon, after all.
 **Worshipped in:** <div>The East (Brightmoor), especially in the Gleaming Ward</div>
 
   
-**Overview:**<div>
+**Overview:** <div>
 Ignariel is the radiant deity of fire, birth, and unyielding vitality. Once one half of a balanced divine pair, he became ascendant through the fervent devotion of mortals who feared death. With each prayer and temple raised in his name, his pride swelled. He promised eternal life through flame and faith, seeking to banish death as a flaw in creation. His followers are warriors, zealots, and preservers of the flesh—clad in gold and ivory, devoted to order, and opposed to the decay of mortality.
 </div>
 <div>
