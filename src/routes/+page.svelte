@@ -25,13 +25,13 @@
 
     <div class="grid grid-cols-[2fr_240px_2fr] max-lg:flex max-lg:flex-col w-full mt-10">
       <div class="flex flex-col fade-background-left py-2 px-3 -ml-20 pl-20 max-lg:border-r-2 max-lg:border-tprimary-0">
-        <div class="text-3xl text-tprimary font-cinzel mb-4">Server Features</div>
-        <div class="flex flex-col gap-1 text-lg text-tsecondary">
-          <div>- Dark Fantasy RP | Lore-Driven Worldbuilding</div>
-          <div>- Fully RP-Enforced Environment</div>
-          <div>- Handpicked Mods for Immersion & Balance</div>
-          <div>- PvP-Enabled with Political Intrigue</div>
-          <div>- Community Events, Storylines, and Seasonal Play</div>
+        <div class="text-3xl text-tprimary text-right font-cinzel mb-4">Server Features</div>
+        <div class="flex flex-col gap-1 text-lg text-tsecondary text-right">
+          <div>Dark Fantasy RP | Lore-Driven Worldbuilding -</div>
+          <div>Fully RP-Enforced Environment -</div>
+          <div>Handpicked Mods for Immersion & Balance -</div>
+          <div>PvP-Enabled with Political Intrigue -</div>
+          <div>Community Events, Storylines, and Seasonal Play -</div>
         </div>
       </div>
 
@@ -45,7 +45,7 @@
 
       <div class="flex flex-col justify-center fade-background-right py-2 px-3 -mr-20 pr-20 max-lg:border-l-2 max-lg:border-tprimary-0 max-lg:mt-6">
         <div class="text-3xl text-tprimary font-cinzel mb-4">Server Settings</div>
-        <div class="grid grid-cols-2 gap-2 w-full">
+        <div class="flex gap-10 w-full">
           <div class="flex flex-col gap-1 text-lg text-tsecondary">
             <div>- Brutal-Light Mode</div>
             <div>- 450 Max Castle Tiles</div>
