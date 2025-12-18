@@ -19,9 +19,9 @@
     },
     {
       name: 'species',
-      label: 'Species',
+      label: 'Playable Species',
       path: '/content/lore-species.md',
-      scrambled: true,
+      scrambled: false,
     },
     {
       name: 'beyond-vardoran',
