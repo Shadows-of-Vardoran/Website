@@ -33,7 +33,6 @@ Experienced summoners and mages often can tell how talented a new summoner will 
 <div><em>No corpse lies still in the presence of a Daemon.</em></div>
 </details>
 
----
 
 ## Ignariel
 
@@ -63,7 +62,6 @@ Led the faithful into conflict with the Brotherhood of Nymeris. A crusade he ins
 </div>
 </details>
 
----
 
 ## Sham'Yara
 
@@ -81,7 +79,6 @@ Led the faithful into conflict with the Brotherhood of Nymeris. A crusade he ins
 </div>
 </details>
 
----
 
 ## Nakir’el
 
@@ -110,7 +107,6 @@ Consumed by rage, the Moon God created creatures of the night—vampires—to be
 </div>
 </details>
 
----
 
 ## Pingus & Bwandwith'th
 
@@ -125,8 +121,6 @@ Twins born from a stutter in the cosmos, delighting in the manipulation of time,
 Warriors of Pingus find their strikes misaligned and their spells reversed. Scholars of Bwandwith’th forget words mid-sentence or entire purposes upon entering a room.
 </div>
 </details>
-
----
 
 ## The Green Mother
 
