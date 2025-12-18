@@ -12,7 +12,8 @@ function obfuscateText(text) {
   // Collect all ignore patterns in the order they appear in the text
   const ignorePatterns = [
     /\[\![^\]]*\]/g, // [!TEXT]
-    /!\[[^\]]*\]\([^\)]*\)/g // ![alt](src)
+    /!\[[^\]]*\]\([^\)]*\)/g, // ![alt](src)
+    /<img\b[^>]*?>/gi // <img ... />
   ];
   const ignored = [];
   let i = 0;
