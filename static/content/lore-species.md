@@ -2,33 +2,46 @@
 <details open>
 <summary>Read more</summary>
 
+<div>
 The kindred undead are one of the most varied species in the world. Some are born from curses, while others are born from a virus. There are vampires who hail from long, complex sire lines-- and others who simply manifest; a bloodline all of their own. Some claim that vampires are the children of dead, fallen gods. Other claim they are a blight cursed upon the world by demonic forces.
-
 None can say for sure the origin of all vampire-kind. The *true* source of vampirism is a secret long lost to time.
-
 Vampires share common traits: an allergy to the sun, garlic, silver, the dark desire to consume blood, and a habit of sleeping in coffins.
-
+</div>
+<div>
+  
 ## **Magic-Touched Vampires**
 Some, though not all vampires, are touched by a particlar strain of magic. These vampires excel with their strengths, and have a few common characteristics. 
-
+</div>
+<div>
+  
 **Blood-touched**  
 Pointier than the average vampire. Naturally hardy and grounded. Gifted with blood magic, secondary storm magic. Problems with illusion and chaos.
-
+</div>
+<div>
+  
 **Chaos-touched**  
 High variance in appearance. Restless free spirits. Master chaos, secondary unholy. Struggle with blood and frost.
-
+</div>
+<div>
+  
 **Unholy-touched**  
 Corpse-toned, patient, morose. Necromantic powerhouses with cold affinity. Struggle with blood and storm.
-
+</div>
+<div>
+  
 **Illusion-touched**  
 Lithe, bright, mutable. Masters of illusion with storm affinity. Struggle with chaos and cold.
-
+</div>
+<div>
+  
 **Frost-touched**  
 Pale, angular, logical. Masters of cold. Struggle with illusion and chaos.
-
+</div>
+<div>
+  
 **Storm-touched**  
 Athletic, volatile, emotional. Storm incarnate. Struggle with frost and unholy.
-
+</div>
 </details>
 
 
