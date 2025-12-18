@@ -1,5 +1,7 @@
 import { marked } from 'marked';
 import markedAlert from 'marked-alert';
+import imageTlCorner from './assets/image_tl_corner.png';
+import imageBrCorner from './assets/image_br_corner.png';
 
 export const useMarked = () => {
   const slugify = (text: string) => {
