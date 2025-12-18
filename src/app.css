@@ -163,8 +163,30 @@ body {
     overflow: hidden;
   }
 
-  .image-right-wrap {
-    float: right;
+  .marked-image {
+    position: relative;
+    overflow: visible;
+    border: 3px solid;
+    border-image: linear-gradient(to bottom right, transparent 5%, var(--color-red-900) 6%, var(--color-red-900) 94%, transparent 95%) 1;
+    margin: 15px;
+
+    .tl-corner {
+      position: absolute;
+      width: 120px;
+      top: -9px;
+      left: -9px;
+      /* filter: invert(10%) sepia(79%) saturate(4316%) hue-rotate(347deg) brightness(104%) contrast(107%); */
+      filter: invert(8%) sepia(46%) saturate(7352%) hue-rotate(350deg) brightness(110%) contrast(90%);
+    }
+
+    .br-corner {
+      position: absolute;
+      width: 120px;
+      bottom: -9px;
+      right: -9px;
+      /* filter: invert(10%) sepia(79%) saturate(4316%) hue-rotate(347deg) brightness(104%) contrast(107%); */
+      filter: invert(8%) sepia(46%) saturate(7352%) hue-rotate(350deg) brightness(110%) contrast(90%);
+    }
   }
 }
 
