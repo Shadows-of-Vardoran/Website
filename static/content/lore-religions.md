@@ -31,7 +31,7 @@ No corpse lies still in the presence of a Daemon, after all.
   
 **The Undying Flame**
 
-**Domain:** <div>Life, Light, Order, Purity</div>
+<div> **Domain:** </div> <div>Life, Light, Order, Purity</div>
 **Symbol:** <div>A haloed flame within a sunburst</div>
 **Worshipped in:** <div>The East (Brightmoor), especially in the Gleaming Ward</div>
 
