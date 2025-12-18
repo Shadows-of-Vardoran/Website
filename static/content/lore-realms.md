@@ -1,61 +1,64 @@
 # Realms
 
-## The Hall of Mirrors - The Plane of Glass
-<details open><summary>Click to expand/collapse The Hall of Mirrors</summary>
+## The Hall of Mirrors – The Plane of Glass
+
+<details open>
+<summary>Click to expand/collapse The Hall of Mirrors</summary>
 
 <div>
-This place is perceived as a passage lined with reflective surfaces. Usually this means a hall with mirrors. However those who have been there say it came change. Maybe it will be a long garden path lined with reflective puddles, another time perhaps it will be a tunnel with shiny reflective geodes spaced along it's span. Sometimes those who stay long enough report it can also become something of a confusing maze rather then just a long passage.
+This place is perceived as a passage lined with reflective surfaces. Usually this means a hall with mirrors. However, those who have been there say it can change. Sometimes it is a long garden path lined with reflective puddles; other times, a tunnel with shining geodes set along its span. Those who linger too long report it may become a confusing maze rather than a simple passage.
 </div>
 
 <div>
-What one sees in this place are other realities. Might have been from their past, present or future. Typically one can not find this place unless they were trying to understand a question. And the other realities they see will in some way try to help them learn an answer.
+What one sees here are other realities—glimpses of past, present, or future. Most cannot find this place unless seeking an answer, and the reflections they witness attempt, in their own way, to teach it.
 </div>
 
 <div>
-Not everyone does. And some are said to become lost, to step into those reflections. Never to return to their "true" existence again. Though if a place like this exists at all, it raises the question which reflection really is reality at all?
+Not everyone learns. Some are said to become lost, stepping into the reflections and never returning to their “true” existence. If such a place exists at all, it raises the question of which reflection is reality.
 </div>
 
 <div>
-And a very few, said something stalked them in that place. Regret on six paws it was once described as. Another said the hallow despair of choices unmade scuttling along the ceiling. Makes you wonder if it's true, is it something waiting, or something they brought in there with them to this plane of mirrors?
+A rare few claim something stalked them there. Regret on six paws, one described it. Another spoke of the hollow despair of unmade choices skittering along the ceiling. If true, is it something waiting—or something brought with them into the mirrors?
 </div>
 
 <div>
-  
-**Do not use this as a tool to reincorporate past seasons pre-wipe, please.**
-</div>
-
-</details>
-
----
-
-## The Realm of Dreams - The Plane of Fog
-<details open><summary>Click to expand/collapse The Realm of Dreams</summary>
-
-<div>
-The Realm of Dreams is a shifting mound of a thousand perspectives and varied reality. Unreality and a twisting fog become as real as the skin of your hands. All who dream visit the Realm while sleeping. Some, the Dreamwalkers, have gained the ability to visit at will, and remember the things that they have seen there.
-</div>
-
-<div>
-The legends state that if you die in the Realm of Dreams, your physical form will simply never wake back up.
-</div>
-
-<div>
-Scholarly depictions of the Realm of Dreams vary greatly. Some call it the Dreamlands, while others call it the Great Fog. Others still refer to it only as the Slumbering Place.
+<strong>Do not use this as a tool to reincorporate past seasons pre-wipe.</strong>
 </div>
 
 </details>
 
----
 
-## The Shade - The Plane of Darkness
-<details open><summary>Click to expand/collapse The Shade</summary>
+## The Realm of Dreams – The Plane of Fog
+
+<details open>
+<summary>Click to expand/collapse The Realm of Dreams</summary>
 
 <div>
-The Shade is a realm of darkness. A place of hunger and a maw of cavernous ache.
+The Realm of Dreams is a shifting mound of perspectives and fractured reality. Unreality and twisting fog feel as tangible as skin. All who dream visit this realm in sleep; some, known as Dreamwalkers, may enter at will and remember what they witness.
 </div>
 
 <div>
-Little is known about The Shade beyond the fact that it exists. Some believe it to be the origin of the daemon and demon-kind. Some claim it is nothing more than the sorrowful shadow of our realm.
+Legends claim that to die in the Realm of Dreams is to never awaken in the waking world.
+</div>
+
+<div>
+Scholars differ in naming this place. Some call it the Dreamlands, others the Great Fog, and some speak of it only as the Slumbering Place.
+</div>
+
+</details>
+
+
+## The Shade – The Plane of Darkness
+
+<details open>
+<summary>Click to expand/collapse The Shade</summary>
+
+<div>
+The Shade is a realm of darkness, a place of hunger and cavernous ache.
+</div>
+
+<div>
+Little is known beyond its existence. Some believe it to be the origin of daemon and demon-kind; others claim it is the sorrowful shadow of the mortal realm.
 </div>
 
 <div>
@@ -63,38 +66,39 @@ Those who venture into it never return.
 </div>
 
 <div>
-To gaze into the darkness for too long is to accept madness.
+To gaze into the darkness too long is to accept madness.
 </div>
 
 <div>
-To embrace the shadows is to completely lose oneself.
+To embrace the shadows is to lose oneself entirely.
 </div>
 
 <div>
-Its true nature is still unknown.
+Its true nature remains unknown.
 </div>
 
 </details>
 
----
 
-## Artificial Divinity's Birthing place; Thyl Myrith
-<details open><summary>Click to expand/collapse Thyl Myrith</summary>
+## Artificial Divinity’s Birthing Place – Thyl Myrith
+
+<details open>
+<summary>Click to expand/collapse Thyl Myrith</summary>
 
 <div>
 Thyl Myrith was never meant to exist.
 </div>
 
 <div>
-It was not born from nature, nor gifted by gods, nor shaped by the weeping dreams of the mortal world. It was forged-- a counterfeit paradise conceived in a fever dream of perfection by a cabal of ancient vampires who had grown weary of their cursed shells.
+It was not born of nature, nor gifted by gods, nor shaped by mortal dreams. It was forged—a counterfeit paradise conceived by ancient vampires who had grown weary of their cursed forms.
 </div>
 
 <div>
-The architects of Thyl Myrith did not seek redemption. They sought transcendence. Through forbidden blood-rites millennia of harvested essence, they unraveled their own monstrous forms and rewrote their beings within a sandbox reality. A sealed, artificial world wrapped in layers of glamours, symbology, and lawless magic.
+They sought not redemption, but transcendence. Through forbidden blood-rites and millennia of harvested essence, they unraveled their monstrous shells and rewrote themselves within a sealed, artificial reality layered in glamour and lawless magic.
 </div>
 
 <div>
-There, death was banished. Pain made theatrical. Magic obeyed the will of the interesting. And time bent to amusement.
+There, death was banished. Pain became theatrical. Magic obeyed whim. Time bent to amusement.
 </div>
 
 <div>
@@ -102,75 +106,71 @@ The vampires became Fae.
 </div>
 
 <div>
-**Thyl Myrith's society**
+<strong>Thyl Myrith’s Society</strong>
 </div>
 
 <div>
-Thyl Myrith was not an actual place, it was an illusion made manifest. Trees bloomed with songs. Mountains turned to honey. Castles floated in the air, and every face was both mask and mirror.
+Thyl Myrith was illusion made manifest. Trees bloomed with song. Mountains turned to honey. Castles floated, and every face was both mask and mirror.
 </div>
 
 <div>
-Faekind sculpted their identities anew, layer by layer, forgetting the rot they had escaped. Fangs were traded for charm. Hunger for whim. Morality for novelty. It was the ultimate reinvention.
+Faekind reshaped themselves layer by layer. Fangs were traded for charm, hunger for whim, morality for novelty. It was reinvention perfected.
 </div>
 
 <div>
-But deep beneath the shimmer of Thyl Myrith, the first shadows remained. Beneath each jest lay panic. Beneath each riddle, despair. And still they danced, because the only crime in Thyl Myrith was boredom.
+Yet beneath the shimmer, the first shadows endured. Beneath each jest lay panic; beneath each riddle, despair. They danced on, for the only crime in Thyl Myrith was boredom.
 </div>
 
 <div>
-**Collapse of Magic and Aftermath**
+<strong>Collapse of Magic and Aftermath</strong>
 </div>
 
 <div>
-When the Collapse of Magic surged through the world, Thyl Myrith cracked.
+When the Collapse of Magic swept the world, Thyl Myrith cracked.
 </div>
 
 <div>
-The realm, once held aloft by infinite sorcery, began to stagnate. Where once rivers whispered hot gossip, now they stood still. Where cities hovered in fragmented moons, they now groaned and crumbled under impossible geometry.
+Rivers fell silent. Floating cities groaned and collapsed under impossible geometry. Illusion began to fail.
 </div>
 
 <div>
-Worse still, illusion began to fail.
+For beings defined by misdirection, the loss of illusion was not inconvenience but annihilation. Their paradise crumbled.
 </div>
 
 <div>
-For creatures defined by this mass mis-direction, the loss of illusion was not mere inconvenience-- it was obliteration. Their endless amusement was coming to an end and the world that would listen to their every command started to crumble.
+So they fled.
 </div>
 
 <div>
-So, they fled.
+In convoys of broken light and lies disguised as storms, they poured into the material world. Thyl Myrith rotted behind them, and death became real once more.
 </div>
 
 <div>
-In great hidden convoys, in petals of broken light, in lies disguised as storms and strangers-- they poured into the material world. Thyl Myrith, their synthetic Heaven, rotted behind them. And they were forced once again to live where death was real.
+Thyl Myrith still exists—in theory.
 </div>
 
 <div>
-Thyl Myrith still exists....in theory.
+Some say it lingers as a shattered reflection in dying ley lines. Others claim it may be reached through ritual madness, a portal carved into one’s own identity.
 </div>
 
 <div>
-Some say it lingers as a shattered reflection in dying ley lines, half-mad and hungry for magic. Others say it can be reached through ritual madness, a portal carved into one’s own identity.
+What remains is memory alone, decayed into nothing over centuries.
 </div>
 
 <div>
-What remains of Thyl Myrith is naught but a memory, as it has decayed into nothingness over the centuries.
+<strong>Known Traits of Thyl Myrith (when it stood)</strong>
 </div>
 
 <div>
-**Known Traits of Thyl Myrith (when it stood):**
+<strong>Mutable Geography:</strong> Terrain shifted daily according to whim. No map remained accurate for long.
 </div>
 
 <div>
-Mutable Geography: The terrain shifted daily, often according to the whims of its residents. No map remained valid for more than a week.
+<strong>Sun That Does Not Burn:</strong> A false, singing light crafted so vampires-turned-fae could bask without pain.
 </div>
 
 <div>
-Sun That Does Not Burn: The light above was false, a radiant illusion crafted so vampires-turned-fae could bask in it without pain. This “sun” was said to sing, not shine.
-</div>
-
-<div>
-Emotion-Driven Flora: Plants bloomed based on the emotional states of those nearby, joy created vibrant colors, while grief bred black petals that whispered curses—something every Fae innately feared.
+<strong>Emotion-Driven Flora:</strong> Plants bloomed from nearby emotions—joy birthed vibrant color, grief black petals that whispered curses.
 </div>
 
 </details>
