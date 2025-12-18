@@ -1,6 +1,8 @@
 # Religions
 
 ## Qariel
+<details open><summary>Click to expand/collapse Qariel</summary>
+  
 **The Flame that Feeds Itself - They who shape desire.**
 
 Qariel is not the god of any one domain. Qariel is the god of more. More blood. More devotion. More harvest. More steel, flesh, sound, hunger, gold, fire, purpose. To worship Qariel is to never stop, to never be satisfied, to sacrifice selfhood in the pursuit of perfection or indulgence--until that very pursuit devours the soul, leaving behind only a hollow echo that screams “again.”
@@ -18,8 +20,11 @@ Experienced summoners and mages often can tell how talented a new summoner will 
 
 No corpse lies still in the presence of a Daemon, after all.
 
+</details>
 
 ## Ignariel 
+<details open><summary>Click to expand/collapse Ignariel</summary>
+  
 **The Undying Flame**
 
 **Domain:** Life, Light, Order, Purity
@@ -38,18 +43,27 @@ Magic is dangerous when left unchecked by divine order.
 **Legacy:**
 Led the faithful into conflict with the Brotherhood of Nymeris. A crusade he inspired ended in the mysterious Silence beneath the Necropolis, and his prophet, Saint Velariun, was never seen again.
 
+</details>
 
-
-# Sham'Yara (The Sun Goddess):
-**Title: **The Dawnmother, Light of Life, Giver of Honor
+# Sham'Yara
+<details open><summary>Click to expand/collapse Sham'Yara</summary>
+  
+**The Sun Goddess**
+  
+**Title:** The Dawnmother, Light of Life, Giver of Honor
 **Domains:** Light, truth, growth, protection
 **Symbols:** A radiant golden disk, lotus flame, eagles
-**Sacred Color: **Gold & White
+**Sacred Color:** Gold & White
 **Devotees:** The Shamari, her clergy, are known for their golden robes, mirrored jewelry, and their role as oathkeepers.
-**Ritual: **At sunrise, her followers kneel facing east, whispering “Yara rise, and may truth rise with you.”
+**Ritual:** At sunrise, her followers kneel facing east, whispering “Yara rise, and may truth rise with you.”
 
+</details>
 
-# Nakir’el (The Moon God):
+# Nakir’el 
+<details open><summary>Click to expand/collapse Nakir'el</summary>
+  
+**The Moon God**
+  
 **Title:** The Sleepless One, Shadowbinder, Keeper of Secrets
 **Domains:** Darkness, lies, dreams, vengeance
 **Symbols:** a dark crescent, a black hole, owls
@@ -65,7 +79,10 @@ To steal her power, he caused an eclipse. Mortals grew scared at the lack of sun
 
 In a fit of rage and jealousy, the Moon God who now hated the mortals that banished him, decided to create night creatures - Vampires, to be humanity's worst enemy. 
 
+</details>
+
 ## Pingus & Bwandwith'th
+<details open><summary>Click to expand/collapse Nakir'el</summary>
 
 Twins who find mischievous joy in the acceleration and slowing of time, the addition and removal of languages to beings whomst had never spoken them before. 
 
@@ -77,9 +94,11 @@ Warriors of Pingus may find their sword swinging through their foe, their spells
 
 Scholars of Bwandwith’th often find their speech distorted, their words spliced in half, and worst of all the effect of walking into the room and forgetting what they were doing.
 
-
+</details>
 
 ## The Green Mother
+<details open><summary>Click to expand/collapse The Green Mother</summary>
+  
 **Goddess of the Natural**
 
 Worshiped primarily by druids, fey-touched, and witches of the green hand path. The Green Mother is a goddess whose worship transcends borders and nationalities. Shrines are found on the edge of farms, within dense forests, and along mountain paths. All who venture frequently into the cradle of the natural world leave her offerings for a safe journey.
@@ -90,3 +109,4 @@ Names: The Green Mother
     The Mother
     The Green Lady
     The Lady Mother
+</details>
