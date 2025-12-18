@@ -435,3 +435,12 @@ The Empire has been recouping it's strength and zeal after the major loss at the
   alt="Shadows of Vardoran"
   style="max-width: 600px; width: 100%;"
 />
+
+<img
+  class="hero-image"
+  src="https://raw.githubusercontent.com/shadows-of-vardoran/website/main/src/lib/media/1_S1_Shadows_of_Vardoran_1.3.jpg"
+  alt="Shadows of Vardoran"
+/>
+
+
+
