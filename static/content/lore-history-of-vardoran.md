@@ -6,9 +6,7 @@
 ## Mortium Before Dracula’s Reign
 <details open><summary>Click to expand/collapse Before Dracula's Reign</summary>
 
-<div>
 The Land of Cold Graves
-</div>
 
 <div>
 Before the rise of Dracula and the blackening of the sky, Mortium was already a land touched by hardship and death. A frigid frontier in the northeastern reaches of Vardoran, it was a place of wind-scoured hills, iron-gray skies, and winters that could gnaw the marrow from a man’s bones. The people who lived here were few but fierce--hardened clans of mortal folk who carved a tough life from the frozen earth, building hearths against the darkness and whispering prayers into the wind.
@@ -26,9 +24,7 @@ The name Mortium itself came to symbolize the union of beauty and bleakness, a l
 Within this grim place, only the most resilient could survive, and it was tradition among the Tepes to test their young by sending them into the mountains. Those who returned were counted among the worthy--potential kin, chosen by fang and snow. It was a sacred rite, and few emerged unchanged.
 </div>
 
-<div>
 But then came Dracula.
-</div>
 
 <div>
 He was not born the mightiest of the Tepes, but his hunger was unmatched. Not hunger for blood but for power, for command, for legacy. He broke with the ancient rites and ventured farther east than any before, deep into the lands that nature itself seemed to shun. There, in a place where the stars were dim and the frost burned like fire, he found something waiting: a presence--an ancient force that had long hungered for a champion to herald it's age.
@@ -46,9 +42,8 @@ He emptied Mortium of its mortal population, some devoured in service of his gro
 What was once a land of cold graves and quiet strength became a monument to conquest, a frozen throne for the Immortal King to rule from. Now, long after his defeat, Mortium lies silent once more--its ruins buried beneath centuries of frost and forgotten glory. But even in death, the land remembers.
 </div>
 
-<div>
 And something stirs in the cold again.
-</div>
+
 
 </details>
 
