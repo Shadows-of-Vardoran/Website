@@ -29,8 +29,9 @@ And something stirs in the cold again.
 </details>
 
 # The Northern Wood - The First Victims of Dracula’s Conquest
-<details open><summary>Click to expand/collapse The Northern Wood</summary>
 <div>
+<details open><summary>Click to expand/collapse The Northern Wood</summary>
+
 The Oakveil Woods once stretched across all of Northern Vardoran. A lush forest of green ferns and plentiful trees. One of Vardoran’s main sources of wood and sap, as well as fertile hunting grounds for all walks of life.
 
 One thousand years ago, during Dracula’s Conquest, the Eastern side of Oakveil was the first place to fall to the Vampire King’s army.
@@ -48,8 +49,8 @@ Soldiers, both of the Legion and of the forest, were warped and turned into grot
 As the Great Darkness seeped back it left a sickening curse upon the land, reviving the dead and placing an eternal mist upon the land so that none may leave its domain. As a parting gift the Great Darkness granted the witches a curse of their own, turning them into shadows of themselves. Their intelligence removed, allowing just base instincts to persevere in the form of their illusion magic, they were turned into sickly wicked creatures who used their magic for their own vile whims. 
 
 With the borders closed and heavily enforced by an army of the twisted forest denizens, none could enter the region safely. But, to this day, people traversing nearby roads swear they hear the wailing and a singular detached voice draped in sorrow crying out every night.
-</div>
 </details>
+</div>
 
 # Dracula’s Conquest
 <details open><summary>Click to expand/collapse Dracula's Conquest</summary>
