@@ -50,7 +50,9 @@ And something stirs in the cold again.
 
 # The Northern Wood 
 <details open><summary>Click to expand/collapse The Northern Wood</summary>
+  
 The First Victims of Dracula’s Conquest
+
 <div>
 The Oakveil Woods once stretched across all of Northern Vardoran. A lush forest of green ferns and plentiful trees. One of Vardoran’s main sources of wood and sap, as well as fertile hunting grounds for all walks of life.
 </div>
