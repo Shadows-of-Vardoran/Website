@@ -1,6 +1,6 @@
 media:
-  input: src/lib/media
-  output: /media
+  input: static/media
+  output: static/media
 
 content:
   - name: rules
