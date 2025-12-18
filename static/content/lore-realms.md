@@ -20,7 +20,8 @@ And a very few, said something stalked them in that place. Regret on six paws it
 </div>
 
 <div>
-***[Do not use this as a tool to reincorporate past seasons pre-wipe, please.]***
+  
+**Do not use this as a tool to reincorporate past seasons pre-wipe, please.**
 </div>
 
 </details>
