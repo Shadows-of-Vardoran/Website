@@ -106,7 +106,7 @@ In a fit of rage and jealousy, the Moon God who now hated the mortals that banis
 </details>
 
 ## Pingus & Bwandwith'th
-<details open><summary>Click to expand/collapse Nakir'el</summary>
+<details open><summary>Click to expand/collapse Pingus & Bwandwith'th</summary>
 
 <div>
 Twins who find mischievous joy in the acceleration and slowing of time, the addition and removal of languages to beings whomst had never spoken them before. 
