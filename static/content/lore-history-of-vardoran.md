@@ -204,7 +204,7 @@ The lands were unable to hold castle magics, and sigils could not stay together.
 </div>
 
 <div>
-The Legions of Noctum have retreated back into their stronghold to the east. Their numbers, and their strength, grow with every day that passes. Their influence has encroached southward, and the Hollowed Mountains have fallen under their control.
+The Legions of Noctum have retreated back into their stronghold to the east. Their numbers, and their strength, grow with every day that passes. Their influence has encroached southward, and the Hallowed Mountains have fallen under their control.
 </div>
 
 <div>
