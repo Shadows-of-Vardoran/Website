@@ -28,7 +28,7 @@ And something stirs in the cold again.
 
 </details>
 
-# The Northern Wood
+# The Northern Wood - The First Victims of Dracula’s Conquest
 <details open><summary>Click to expand/collapse The Northern Wood</summary>
 
 The Oakveil Woods once stretched across all of Northern Vardoran. A lush forest of green ferns and plentiful trees. One of Vardoran’s main sources of wood and sap, as well as fertile hunting grounds for all walks of life.
@@ -66,6 +66,57 @@ The tales say that each step of the Conquest drove him a little madder. With eve
 
 It was the Luminance, in the end, who put an end to the slaughter. Dracula returned to Vardoran once more, keen on continuing his Conquest anew. He found, in the shadow of his homeland, a threat far brighter than he was prepared to face. In a rare opportunity, weakened by battle and the rising sun, the Great Blade of Luminance ran him through; tearing apart his physical body in an explosion of colliding holy and blood magic so powerful it left a permanent scar upon the land.
 
-Without their king, Noctum floundered. Those conscripted unwillingly retreated to their ravaged homes. Vampire betrayed vampire, and none could hold Dracula’s empty throne long enough to secure a new rule. The Legion faced a schism: splitting into smaller factions that met karmic slaughter themselves or get lost in the wind. A century after his 'death', the most loyal returned home, to Mortium, where they still wait for the return of their Dark Lord...
+Without their king, Noctum floundered. Those conscripted unwillingly retreated to their ravaged homes. Vampire betrayed vampire, and none could hold Dracula’s empty throne long enough to secure a new rule. The Legion faced a schism: splitting into smaller factions that met karmic slaughter themselves or get lost in the wind. A century after his 'death', the most loyal returned home, to Mortium, where they still wait for the return of their Dark Lord…
+
+</details>
+
+# ***The Recent Past***
+<details open><summary>Click to expand/collapse The Recent Past</summary>
+(S1 and the 200 year timeskip that followed.)
+
+
+***The Era of Entropy***
+The Cycle of Magic is a persistent, constant force. It is as unchanging and unstoppable as the tides. Magic has a natural ebb and flow, and highs and lows. There are ages long past where gods walked among men, and nothing was impossible. When realmwalking was as easy as breathing and the stars were so close you could touch them. But, as with all things, that era came to an end.
+
+For the last 1,000 years, the world’s magic has been in a state of decay. Slowly, but surely, magic lessened around the globe as the Cycle petered on.
+
+Normally, once it reached its final low tide, the Magic Cycle would have drawn to a close, and the magic would have begun its slow movement in the other direction. The Magic Cycle was supposed to wither, die, and be born anew.
+
+However, Dracula’s greatest legacy– his Waygate network– captured the last vestiges of the world’s magic within their grasp. The Waygates prevented the magic from returning to nothingness; and prevented the Cycle from drawing to a close. As a result, the state of the world’s magic became increasingly dire. Magic continued to grow scarcer and scarcer, until there wasn’t any left anywhere except for the Waygate hub itself: Vardoran.
+
+At the height of this final era, a group of a new type of undead appeared. The first rotlings, who named themselves *The Scions of Entropy*.
+
+Determined to bring an end to the Cycle, the Scions sought to bring an end to the Cycle of Magic by force. Their ultimate aim was to destroy the Waygates of Vardoran by utilizing powerful, forgotten relics and literally sending those Waygates sky-high.
+
+No matter the cost, they were determined to turn the wheel; and see the Cycle of Magic close so life could be breathed into the world anew.
+
+However, the Scions’ methods were not without cost. Many were pulled into their clusters, creating new rotlings en masse. Too many met final deaths at the Scions’ hands. No sacrifice was too great to see their plans through.
+
+In the end, all of Vardoran came together to fight against their violent battle for progress. But, by the time they gathered their strength, there was too much entropic magic gathered within the ley to simply *undo* the Scions’ work. Kindred of the land came together with a daring, last-ditch plan:
+
+Gather the remaining ancient relics, four ancient weapons, and pour them into the fonts of ley power scattered across Vardoran. And then? Set that magic aflame. Their goal was to burn away the entropic chokehold on the ley, and disrupt the leylines violently enough to end the Cycle of Magic in one fell swoop.
+
+It was a dangerous plan, one that could have gone wrong at any turn. The Scions emerged from within their Oasis in greater numbers than ever before.
+
+The battle was long, and hard-fought, but the Scions were defeated, and the world set ablaze. The ley was freed from the Scions’ influence, and the Magic freed from the confines of its cage.
+
+The Cycle came to an end, and brought an end to the Age of Entropy with it.
+
+***The Last 200 Years***
+Following the end of the Age of Entropy, Vardoran has been a place with next to no magic. While it enjoyed more magic at the end of the age, the land had to pay for Dracula’s greed. Vardoran has seen a vast, magical drought for the last 200 years.
+
+The lands were unable to hold castle magics, and sigils could not stay together. Vampires, and the rest of their undead fellows, retreated beyond the borders that once promised safety and  magic to them just six years before.
+
+The Legions of Nocum have retreated back into their stronghold to the west. Their numbers, and their strength, grow with every day that passes. Their influence has encroached southward, and the Hollowed Mountains have fallen under their control.
+
+Luminance has abandoned Brighthaven, and most of Vardoran as a whole, looking south and moving their capital to the Holy Queendom of Lumira.
+
+Transcendum relished in the lack of magic, making an attempt to conquer their neighbors while they were weakened. However, they lost control of their experiments and were ultimately beaten back to the north, where they remain to this day.
+
+The Cult of the Damned has grown without the heavy presence of Luminance in the land. There are whispers that they perform fanatical rituals in the heart of Dunely without fear.
+
+Megara’s Venomblades spent the last two centuries focused on one thing, and one thing alone: the resurrection of their Serpent Queen. Their ships skirmish with refugees from Velgrath with increasing regularity.
+
+The Cursed Forest’s curse has shifted. Changed. The spirits of the Oaksingers have been released from their torment; free with the end of the last era. But the curse? It has grown new, viscous *teeth*.
 
 </details>
