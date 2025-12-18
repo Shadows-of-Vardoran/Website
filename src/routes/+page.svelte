@@ -43,9 +43,23 @@
         <img src={verticalSeparator1} alt="Separator" class="right-vertical-separator" />
       </div>
 
-      <div class="flex justify-center fade-background-right py-2 px-3 -mr-20 pr-20 max-lg:border-l-2 max-lg:border-tprimary-0 max-lg:mt-6">
-        Imagine something cool here
-        <!-- <img src={communityImage} alt="Community Image" class="rounded-lg shadow-lg max-w-full h-auto" /> -->
+      <div class="flex flex-col justify-center fade-background-right py-2 px-3 -mr-20 pr-20 max-lg:border-l-2 max-lg:border-tprimary-0 max-lg:mt-6">
+        <div class="text-3xl text-tprimary font-cinzel mb-4">Server Settings</div>
+        <div class="grid grid-cols-2 gap-2 w-full">
+          <div class="flex flex-col gap-1 text-lg text-tsecondary">
+            <div>- Brutal-Light Mode</div>
+            <div>- 450 Max Castle Tiles</div>
+            <div>- 5 Castle Floors</div>
+            <div>- 20m Days/40m Nights</div>
+            <div>- Unique Soul Shards</div>
+          </div>
+          <div class="flex flex-col gap-1 text-lg text-tsecondary">
+            <div>- 4 Spells while Unarmed</div>
+            <div>- PVP Enabled</div>
+            <div>- Clan/Sigil Size of 12</div>
+            <div>- 2 Home, 1 Business Heart per Clan/Sigil</div>
+          </div>
+        </div>
       </div>
     </div>
 
