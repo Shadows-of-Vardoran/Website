@@ -60,6 +60,27 @@ export const useMarked = () => {
       return `<li class="list-none flex items-start mb-2">${dot}<span class="flex-grow">${html}</span></li>`;
     };
 
+    renderer.html = (token) => {
+      let text = token.text;
+
+      if (token.text.includes('<img')) {
+        // pull out the classes
+        const classMatch = token.text.match(/class="([^"]*)"/);
+
+        // remove the class from the original img tag
+        let textWithoutClass = token.text.replace(/class="[^"]*"/, '');
+        return `
+          <div class="marked-image ${classMatch ? classMatch[1] : ''}">
+            <img src="src/lib/assets/image_tl_corner.png" alt="" class="tl-corner" />
+            ${textWithoutClass}
+            <img src="src/lib/assets/image_br_corner.png" alt="" class="br-corner" />
+          </div>
+        `;
+      }
+
+      return text;
+    };
+
     const html = marked(markdown, { renderer });
 
     return html;
