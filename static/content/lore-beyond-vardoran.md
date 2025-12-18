@@ -429,3 +429,21 @@ Yet behind the spectacle lies fragility. The Empress grows increasingly paranoid
 Her wars have not yet broken the Empire, but neither have they crowned it victorious. Every pyre she lights burns another piece of herself.
 
 The Empire has been recouping it's strength and zeal after the major loss at the last Great War within Nexarcan grounds. Though the Empress does not wish for her army *nor* the enemy to rest, assassination attempts and consistent scouting parties into Nexarcan territory never stopped.
+
+<img
+  src="https://raw.githubusercontent.com/shadows-of-vardoran/website/main/src/lib/media/1_S1_Shadows_of_Vardoran_1.3.jpg"
+  alt="Shadows of Vardoran"
+  style="max-width: 600px; width: 100%;"
+/>
+
+<img
+  class="hero-image"
+  src="https://raw.githubusercontent.com/shadows-of-vardoran/website/main/src/lib/media/1_S1_Shadows_of_Vardoran_1.3.jpg"
+  alt="Shadows of Vardoran"
+/>
+
+
+![Shadows of Vardoran](/src/lib/media/1_S1_Shadows_of_Vardoran_1.3.jpg)
+
+![Shadows of Vardoran](https://raw.githubusercontent.com/shadows-of-vardoran/website/main/src/lib/media/1_S1_Shadows_of_Vardoran_1.3.jpg)
+
