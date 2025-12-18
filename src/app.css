@@ -162,6 +162,10 @@ body {
     border-bottom-left-radius: 0.5rem;
     overflow: hidden;
   }
+
+  .image-right-wrap {
+    float: right;
+  }
 }
 
 .nav-tower-button {

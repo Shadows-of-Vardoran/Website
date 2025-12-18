@@ -1,6 +1,19 @@
+# Beyond Vardoran
+
+## The Return of Magic
+<img src="/media/1_S1_Shadows_of_Vardoran_1.3.jpg" alt="World Map" class="w-2/5 max-md:w-full float-right pr-1 pl-2 pb-1 pt-2" />
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<br>
+
 # The Ruins of Balaton
 
 ## The Cursed Legend of Balaton
+<img src="/media/balaton_map.jpg" alt="Balaton Map" class="w-3/5 max-md:w-full float-right pr-1 pl-2 pb-1 pt-2" />
+
 Legend says the ancient coven of the cursed forest were living adjacent with the Kingdom of Balaton for many years.  Slowly unrest grew within Balaton over the Coven.  Albert, the duke of Balaton who coveted coin and land incited fear over the covens of the forest, greed within his eyes.  The king slowly outlawed the old ways, ostracizing the coven more and more.  When a witch was met by towns folk word spread fast.  Every action watched with bated breath, fear.  One thing was thought to be said by the witch.  One thing perhaps misunderstood, a set of words seen as a curse.  Blame was hurled at the coven yet the coven claimed no one left the forest.  Now convinced with the help of Albert, the old king of Balaton would suffer these forest folk no more.  So the burning commenced, battle took place betwixt the massive old trees.  Spells and swords are said to have flown through the air as flames tempered both forces in blood, char and ash.  The great tree of old which many in the forest coveted was toppled.  In a rage blinded effort to protect what was left of her coven and forest, one of the great Coven leaders, Matka, cast a spell which doomed both sides into oblivion for all eternity.
 
 Some say the witch's curse permeated not just the Cursed Forest but all the land of Balaton too.  Others say Balaton was cursed land before that.  That the king and duke were altered of mind, driven mad by such a dreadful thing.  Either way you look at it the Cursed Forest and the Ruins of Balaton feel connected in the worst ways imaginable.  Rumors say the old king Dracula once attempted to march on the forest and Balaton.  No one knows what happened to the platoon but do you see influence from the dark king there?.
@@ -38,6 +51,7 @@ Anyone who has met the hooded and visited the forested marsh of Balaton have sai
 
 # Sahraan
 ## The Civil War and the Twilight Court
+<img src="/media/sahraan_map.jpg" alt="Sahraan Map" class="w-2/5 max-md:w-full float-right pl-2 pr-1 pb-1 pt-2" />
 
 Sahraan was not spared from the unrest that came in on the magic flowing from Vardoran. The simmering tensions between the Sun Courts and the Moon Shrines erupted into civil war. The Sun Courts, with the backing of noble gold, were able to hire mercenaries from the world over. Outfitting them with the finest weapons and armor money could buy, the Sun Courts marched their legions of mercenaries from the cities to raze the villages and scholarly towers of the Moon Shrines and claim that land for Sham’Yara. However, in confidence borne of their faith in the protection of Sham’Yara’s solar light, the Sun Courts’ generals did not count on vampires becoming their biggest obstacle. Though it had long been whispered that vampires conducted dark rituals at The Hollow Eclipse, the march of the Sun Courts confirmed it. 
 
@@ -89,6 +103,7 @@ Most call it a hoax however there have been several accounts of short undergroun
 
 # VELGRATH
 ## Northern Asylum
+<img src="/media/velgrath_map.jpg" alt="Velgrath Map" class="w-2/5 max-md:w-full float-right pr-1 pl-2 pb-1 pt-2" />
 
 Given its relative isolation in the north and the necessity of mutual reliance for survival in the cold climate, Velgrath was spared from much of the upheaval that affected the other countries of the world as magic spread from Vardoran. Even with some level of magic returning to the land, life in Velgrath continued as it had been. Velgrath became a destination for refugees desperate enough to brave the rough northern seas in search of safety from the widespread unrest wrought by the return of magic. The tribes of Velgrath accepted those that made it to Velgrath's shores with open arms, integrating them into their villages, and honoring those the refugees lost in the journey. 
 
@@ -99,6 +114,8 @@ With the refugees also came mining and smelting knowledge, with which the tribes
 # The Deadlands
 
 ## End of the Era of Entropy
+<img src="/media/deadlands_map.jpg" alt="Deadlands Map" class="w-2/7 float-right pl-2 pr-1 pb-1 pt-2" />
+
 The Deadlands, just like the rest of the globe, felt the effects of the end of the last era. The influx of magic fed the Lich King; revitalizing the storm of necromancy and the vicious cycle of undeath that holds the Deadlands in its grasp. The land became even more inhospitable. The dead rose more frequently, and in greater numbers than before. No longer devoid of magic, the Lich King’s movements have become frenzied, faster, and far less predictable.
 
 
@@ -122,6 +139,7 @@ Processions raid border villages for sacrifices to feed to the Lich King, ensuri
 
 # Veltraxis
 ## The Ashfall of Veltraxis
+<img src="/media/veltraxis_map.jpg" alt="Veltraxis Map" class="w-2/5 max-md:w-full float-right pr-1 pl-2 pb-1 pt-2" />
 
 When the dormant veins of magic awoke once more, Veltraxis, once the jewel of the western Lands, barely had time to raise its banners before they were drowned in flame.
 The return of magic did not herald an age of wonder.  It heralded conquest.
@@ -176,6 +194,7 @@ Prince Roderic Dreughardt, current ''ruler'' of the protectorate, rules suffocat
 
 # Nexarca
 ## Magic Returning
+<img src="/media/nexarca_map.jpg" alt="Nexarca Map" class="w-2/5 max-md:w-full float-right pr-1 pl-2 pb-1 pt-2" />
 
 When magic began to stir once more across the fractured continents, the Dominion did not celebrate. It _mobilized._
 
@@ -298,6 +317,7 @@ By the end of the decade, Nexarca had reclaimed most of its lost provinces. Its 
 
 # Empire of Dreughardt
 ## Empress Vanessa’s remaining rule
+<img src="/media/dreughardt_map.jpg" alt="Dreughardt Map" class="w-2/5 max-md:w-full float-right pr-1 pl-2 pb-1 pt-2" />
 
 With the long-dormant currents of magic returning to the world, the Dreughardt Empire struck before their rivals could regain their former might. Their first target was **Veltraxis**, a neighbour known for its gifted arcanists and rebellious republics. Within four days of magic’s resurgence, the Empire’s banners darkened the horizon, the cleansing had begun.
 
@@ -429,21 +449,3 @@ Yet behind the spectacle lies fragility. The Empress grows increasingly paranoid
 Her wars have not yet broken the Empire, but neither have they crowned it victorious. Every pyre she lights burns another piece of herself.
 
 The Empire has been recouping it's strength and zeal after the major loss at the last Great War within Nexarcan grounds. Though the Empress does not wish for her army *nor* the enemy to rest, assassination attempts and consistent scouting parties into Nexarcan territory never stopped.
-
-<img
-  src="https://raw.githubusercontent.com/shadows-of-vardoran/website/main/media/1_S1_Shadows_of_Vardoran_1.3.jpg"
-  alt="Shadows of Vardoran"
-  style="max-width: 600px; width: 100%;"
-/>
-
-<img
-  class="hero-image"
-  src="https://raw.githubusercontent.com/shadows-of-vardoran/website/main/media/1_S1_Shadows_of_Vardoran_1.3.jpg"
-  alt="Shadows of Vardoran"
-/>
-
-
-![Shadows of Vardoran](media/1_S1_Shadows_of_Vardoran_1.3.jpg)
-
-![Shadows of Vardoran](https://raw.githubusercontent.com/shadows-of-vardoran/website/main/media/1_S1_Shadows_of_Vardoran_1.3.jpg)
-
