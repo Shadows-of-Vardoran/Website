@@ -40,7 +40,7 @@ content:
         type: text
       - name: content
         label: Content
-        type: text
+        type: rich-text
 
 settings:
   content:
