@@ -66,7 +66,7 @@
       >
         <button on:click={() => expandGuide(i)} class="absolute cursor-pointer inset-0 animate opacity-100 {expandedGuide === i ? 'opacity-0! px-3 py-6' : ''}">
           <div class="flex flex-col bg-background-900/60 hover:bg-background-800/30 h-full px-3 py-4 card-border border-2">
-            <div class="text-2xl font-cinzel">{guide.title}</div>
+            <div class="text-2xl font-cinzel card-title">{guide.title}</div>
             <div class="text-lg grow mt-6 text-left">{guide.description}</div>
             <img
               src={brBorderDecoration2}
@@ -134,7 +134,14 @@
       border-image 0.3s ease-in-out;
   }
 
+  .card-title {
+    transition: color 0.3s ease-in-out;
+  }
+
   .card-border:hover {
+    .card-title {
+      color: var(--color-red-500);
+    }
     /* border-image: linear-gradient(-45deg, transparent 10%, var(--color-red-900) 14%, transparent 75%) 1; */
 
     /* .border-decoration-color {
