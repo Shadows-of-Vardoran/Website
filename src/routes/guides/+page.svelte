@@ -64,9 +64,9 @@
           ? 'opacity-0!'
           : ''}"
       >
-        <button on:click={() => expandGuide(i)} class="absolute inset-0 animate opacity-100 {expandedGuide === i ? 'opacity-0! px-3 py-6' : ''}">
-          <div class="flex flex-col bg-background-900/60 h-full px-3 py-4 card-border border-2">
-            <div class="text-2xl">{guide.title}</div>
+        <button on:click={() => expandGuide(i)} class="absolute cursor-pointer inset-0 animate opacity-100 {expandedGuide === i ? 'opacity-0! px-3 py-6' : ''}">
+          <div class="flex flex-col bg-background-900/60 hover:bg-background-800/30 h-full px-3 py-4 card-border border-2">
+            <div class="text-2xl font-cinzel">{guide.title}</div>
             <div class="text-lg grow mt-6 text-left">{guide.description}</div>
             <img
               src={brBorderDecoration2}
@@ -81,8 +81,8 @@
             class="flex flex-col w-full h-full relative px-4 py-3 content-border border-2 bg-linear-330 from-3% from-transparent via-4% via-background-900/95 to-transparent to-300%"
           >
             <div class="flex justify-between items-center border-b-2 border-background-200 pb-2">
-              <h2 class="text-2xl font-bold text-white">{guide.title}</h2>
-              <button on:click={closeGuide} class="text-white text-2xl z-10">close</button>
+              <h2 class="text-2xl font-bold text-white font-cinzel">{guide.title}</h2>
+              <button on:click={closeGuide} class="text-white text-2xl z-10 cursor-pointer font-cinzel hover:text-red-500/90 transition-colors duration-300">Close</button>
             </div>
             <div class="overflow-y-auto scrollbar-hidden marked pt-2">{@html guide.content}</div>
             <img
@@ -124,10 +124,22 @@
 
   .border-decoration-color {
     filter: invert(70%);
+    transition: filter 0.3s ease-in-out;
   }
 
   .card-border {
     border-image: linear-gradient(-45deg, transparent 10%, var(--color-tprimary-900) 14%, transparent 75%) 1;
+    transition:
+      background 0.3s ease-in-out,
+      border-image 0.3s ease-in-out;
+  }
+
+  .card-border:hover {
+    /* border-image: linear-gradient(-45deg, transparent 10%, var(--color-red-900) 14%, transparent 75%) 1; */
+
+    /* .border-decoration-color {
+      filter: invert(10%) sepia(79%) saturate(4316%) hue-rotate(347deg) brightness(104%) contrast(107%);
+    } */
   }
 
   .content-border {
