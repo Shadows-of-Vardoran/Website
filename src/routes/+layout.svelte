@@ -39,6 +39,7 @@
         <img src={teethLogo} alt="Logo" class="w-24 mx-auto logo-drop-shadow" />
       </button>
       <button on:click={() => goto(resolve('/rules'))} class="nav-tower-button">Rules</button>
+      <button on:click={() => goto(resolve('/guides'))} class="nav-tower-button">Guides</button>
       <button on:click={() => goto(resolve('/lore'))} class="nav-tower-button">Lore</button>
       <button on:click={() => goto(resolve('/media'))} class="nav-tower-button">Media</button>
       <!-- </div> -->

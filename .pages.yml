@@ -27,6 +27,10 @@ content:
     label: Lore - Realms
     type: file
     path: static/content/lore-realms.md
+  - name: guides
+    label: Guides Page
+    type: collection
+    path: static/content/guides
 
 settings:
   content:
