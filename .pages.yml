@@ -33,6 +33,7 @@ content:
     path: static/content/guides
     format: json
     filename: '{primary}.json'
+    exclude: [ 'guides-index.json']
     fields:
       - name: title
         label: Title
@@ -43,6 +44,10 @@ content:
       - name: content
         label: Content
         type: rich-text
+  - name: guides-index
+    label: Guides Index Page
+    type: file
+    path: static/content/guides/guides-index.json
 
 settings:
   content:
