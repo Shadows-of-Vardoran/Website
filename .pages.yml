@@ -32,6 +32,7 @@ content:
     type: collection
     path: static/content/guides
     format: json
+    filename: '{primary}.json'
     fields:
       - name: title
         label: Title
