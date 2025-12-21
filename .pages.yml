@@ -47,6 +47,7 @@ content:
   - name: guides-index
     label: Guides Index Page
     type: file
+    format: json
     path: static/content/guides/guides-index.json
 
 settings:
