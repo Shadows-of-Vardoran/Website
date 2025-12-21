@@ -31,7 +31,7 @@ content:
     label: Guides Page
     type: collection
     path: static/content/guides
-    fiels:
+    fields:
       - name: title
         label: Title
         type: string
