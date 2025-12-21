@@ -31,6 +31,7 @@ content:
     label: Guides Page
     type: collection
     path: static/content/guides
+    format: json
     fields:
       - name: title
         label: Title
