@@ -31,6 +31,16 @@ content:
     label: Guides Page
     type: collection
     path: static/content/guides
+    fiels:
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: text
+      - name: content
+        label: Content
+        type: text
 
 settings:
   content:
