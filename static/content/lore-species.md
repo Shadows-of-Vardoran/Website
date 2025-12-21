@@ -1,141 +1,213 @@
-# ***Vampires***
+# <em>Vampires</em>
+
 <details open>
 <summary>Read more</summary>
 
-The kindred undead are one of the most varied species in the world. Some are born from curses, while others are born from a virus. There are vampires who hail from long, complex sire lines-- and others who simply manifest; a bloodline all of their own. Some claim that vampires are the children of dead, fallen gods. Other claim they are a blight cursed upon the world by demonic forces.
+<div>
+The kindred undead are one of the most varied species in the world. Some are born from curses, others from virulent afflictions. Some trace long and complex sire lines, while others manifest alone, a bloodline unto themselves. Some claim vampires are the children of fallen gods; others that they are a blight inflicted by demonic forces.
+</div>
 
-None can say for sure the origin of all vampire-kind. The *true* source of vampirism is a secret long lost to time.
+<div>
+None can say for certain the origin of all vampire-kind. The <em>true</em> source of vampirism is a secret long lost to time.
+</div>
 
-Vampires share common traits: an allergy to the sun, garlic, silver, the dark desire to consume blood, and a habit of sleeping in coffins.
+<div>
+Vampires share common traits: vulnerability to the sun, garlic, and silver; an innate desire to consume blood; and the tradition of resting within coffins.
+</div>
 
-## **Magic-Touched Vampires**
-Some, though not all vampires, are touched by a particlar strain of magic. These vampires excel with their strengths, and have a few common characteristics. 
+<div>
+<strong>Magic-Touched Vampires</strong>
+</div>
 
-**Blood-touched**  
-Pointier than the average vampire. Naturally hardy and grounded. Gifted with blood magic, secondary storm magic. Problems with illusion and chaos.
+<div>
+Some vampires are altered by specific strains of magic. These individuals excel intensely in their aligned disciplines and struggle greatly outside them.
+</div>
 
-**Chaos-touched**  
-High variance in appearance. Restless free spirits. Master chaos, secondary unholy. Struggle with blood and frost.
+<div>
+<strong>Blood-touched</strong><br>
+Physically sharper and hardier than average. Naturally grounded. Adept in blood magic with secondary storm affinity. Struggle with illusion and chaos.
+</div>
 
-**Unholy-touched**  
-Corpse-toned, patient, morose. Necromantic powerhouses with cold affinity. Struggle with blood and storm.
+<div>
+<strong>Chaos-touched</strong><br>
+Highly variable in appearance. Restless free spirits. Masters of chaos with secondary unholy magic. Struggle with blood and frost.
+</div>
 
-**Illusion-touched**  
-Lithe, bright, mutable. Masters of illusion with storm affinity. Struggle with chaos and cold.
+<div>
+<strong>Unholy-touched</strong><br>
+Corpse-toned, patient, and morose. Necromantic powerhouses with cold affinity. Struggle with blood and storm.
+</div>
 
-**Frost-touched**  
-Pale, angular, logical. Masters of cold. Struggle with illusion and chaos.
+<div>
+<strong>Illusion-touched</strong><br>
+Lithe and mutable. Masters of illusion with storm affinity. Struggle with chaos and cold.
+</div>
 
-**Storm-touched**  
-Athletic, volatile, emotional. Storm incarnate. Struggle with frost and unholy.
+<div>
+<strong>Frost-touched</strong><br>
+Pale, angular, and logical. Masters of cold. Struggle with illusion and chaos.
+</div>
+
+<div>
+<strong>Storm-touched</strong><br>
+Athletic, volatile, and emotional. Storm incarnate. Struggle with frost and unholy.
+</div>
 
 </details>
 
 
-# ***Entropic Humans***
+# <em>Entropic Humans</em>
+
 <details open>
 <summary>Read more</summary>
 
-**Known Origins:**  
-During the decline of magic known as the age of entropy, a strange phenomena began to occur. Humans ceased to be recognized as human and gained access to powerful magic.
+<div>
+<strong>Known Origins</strong><br>
+During the decline of magic known as the Age of Entropy, a strange phenomenon emerged. Some humans ceased to be recognized as human and gained access to powerful magic.
+</div>
 
-In tolerant regions this caused confusion. In hostile ones, exile or death.
+<div>
+In tolerant regions this caused confusion. In hostile lands, exile or execution followed.
+</div>
 
-At death, some would rise as undead—glowing purple and called to others like themselves.
+<div>
+At death, some rose again as undead—glowing with violet light and drawn instinctively to others like themselves.
+</div>
 
-**A New Era**  
+<div>
+<strong>A New Era</strong><br>
 Entropic humans are now recognized as a subspecies. Their adaptation lies dormant until exposed to sufficient entropic magic.
+</div>
 
-Awakened individuals trigger an uncanny valley response based on energy, not physicality. The only physical difference is a small divot in the heart.
+<div>
+Awakened individuals trigger an uncanny valley response rooted in energy rather than appearance. The sole physical marker is a small divot in the heart.
+</div>
 
-They make up less than 1% of the human population.
+<div>
+They comprise less than one percent of the human population.
+</div>
 
-**Outside Looking In**  
-Entropic humans look physically identical to before awakening. Myths of changelings arise from the cognitive dissonance others experience.
+<div>
+<strong>Outside Looking In</strong><br>
+Entropic humans appear unchanged. Myths of changelings arise from the dissonance others experience.
+</div>
 
-Education significantly reduces violence once the phenomenon is understood.
+<div>
+Education greatly reduces violence once the condition is understood.
+</div>
 
-**Death or Undeath**  
-Death does not guarantee rebirth as a rotling. No ritual ensures an outcome.
+<div>
+<strong>Death or Undeath</strong><br>
+Death does not guarantee rebirth as a rotling. No ritual ensures the outcome.
+</div>
 
+<div>
 For many, rising as a rotling provides comfort through shared bonds.
+</div>
 
-## **Sub Categories:**
-Rotlings come in two forms:
+<div>
+<strong>Subcategories</strong>
+</div>
 
-*Vampiric*  
-*Daemonic*
-
-***Vampiric Rotlings***  
+<div>
+<strong>Vampiric Rotlings</strong><br>
 Born from corpses or turning. Exhibit classic vampiric traits.
+</div>
 
-***Daemonic Rotlings***  
+<div>
+<strong>Daemonic Rotlings</strong><br>
 Born from excess entropic magic. Must feed on magic and inhabit corpses.
+</div>
 
-Regardless of subset, all Rotlings:
-- Drink blood  
-- Sleep in coffins  
-- Are weak to garlic, sun, and silver  
-- Are undead first  
+<div>
+Regardless of subset, all rotlings drink blood, sleep in coffins, are weak to garlic, sun, and silver, and are undead first.
+</div>
 
-***Culture***  
-Rotlings form tight-knit clusters, sharing pain and joy. Highly social and protective.
+<div>
+<strong>Culture</strong><br>
+Rotlings form tight-knit communities, sharing pain and joy. They are highly social and fiercely protective.
+</div>
 
-Some hear whispers calling them back to Vardoran…
-
-</details>
-
-
-# ***Daemonkind***
-<details open>
-<summary>Read more</summary>
-
-Daemons are beings of pure magical essence shaped by mortal will, ritual, or catastrophe—not hell.
-
-They require magical saturation to survive and must inhabit corpses, mimicking vampirism.
-
-## **Subspecies of Daemons**
-Each Daemon is tied to a magical school.
-
-**Blood Daemons** — Obsessive ritualists  
-**Frost Daemons** — Stoic elder planners  
-**Chaos Daemons** — Volatile and joyful  
-**Necromantic Daemons** — Grave-bound scholars  
-**Illusion Daemons** — Performers and identity thieves  
-**Storm Daemons** — Weather-shaping wrath
-
-**On Decay and Dependency**  
-Without magic, Daemons fragment, lose coherence, or fall dormant.
-
-Binding to corpses is survival, not preference.
+<div>
+Some hear whispers calling them back to Vardoran.
+</div>
 
 </details>
 
 
-# ***Faekind***
+# <em>Daemonkind</em>
+
 <details open>
 <summary>Read more</summary>
 
-**Origins of the Fae:**  
+<div>
+Daemons are beings of pure magical essence shaped by mortal will, ritual, or catastrophe. They are not infernal by nature.
+</div>
+
+<div>
+They require magical saturation to persist and must inhabit corpses to survive, mimicking vampirism as necessity rather than desire.
+</div>
+
+<div>
+<strong>Subspecies of Daemons</strong><br>
+Each daemon is bound to a school of magic.
+</div>
+
+<div>
+<strong>Blood Daemons</strong> — Obsessive ritualists<br>
+<strong>Frost Daemons</strong> — Stoic elder planners<br>
+<strong>Chaos Daemons</strong> — Volatile and joyful<br>
+<strong>Necromantic Daemons</strong> — Grave-bound scholars<br>
+<strong>Illusion Daemons</strong> — Performers and identity thieves<br>
+<strong>Storm Daemons</strong> — Weather-shaping wrath
+</div>
+
+<div>
+<strong>On Decay and Dependency</strong><br>
+Without magic, daemons fragment, lose coherence, or fall dormant. Binding to corpses is survival, not preference.
+</div>
+
+</details>
+
+
+# <em>Faekind</em>
+
+<details open>
+<summary>Read more</summary>
+
+<div>
+<strong>Origins of the Fae</strong><br>
 Ancient vampires abandoned undeath and created Thyl Myrith, becoming the Fae.
+</div>
 
-**Aftermath of the Collapse**  
+<div>
+<strong>Aftermath of the Collapse</strong><br>
 When magic failed, Thyl Myrith rotted. The Fae fled back to the mortal world, rediscovering weakness and mortality.
+</div>
 
-**The Fading Line**  
-Distinction between Fae and vampires has nearly vanished.
+<div>
+<strong>The Fading Line</strong><br>
+The distinction between Fae and vampires has nearly vanished.
+</div>
 
-**The Quieting**  
+<div>
+<strong>The Quieting</strong><br>
 Acceptance replaces illusion. Contentment replaces hunger.
+</div>
 
-**The World’s Forgetting**  
-The modern age dismisses the Fae as myths. This anonymity saves them.
+<div>
+<strong>The World’s Forgetting</strong><br>
+The modern age dismisses the Fae as myth. Their anonymity is survival.
+</div>
 
-**The Glimmer**  
+<div>
+<strong>The Glimmer</strong><br>
 Rare dreams of impossible color still surface—brief, beautiful, and gone.
+</div>
 
-**IMPORTANT NOTE:**  
-All Fae must have existed in this world for **at least 200 years**.  
-Please include what they have been doing during that time in your whitelist.
+<div>
+<strong>IMPORTANT NOTE</strong><br>
+All Fae must have existed in this world for <strong>at least 200 years</strong>. Please include what they have been doing during that time in your whitelist.
+</div>
 
 </details>
