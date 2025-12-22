@@ -1,4 +1,4 @@
-# <em>Vampires</em>
+# Vampires
 
 <details open>
 <summary>Read more</summary>
@@ -56,7 +56,7 @@ Athletic, volatile, and emotional. Storm incarnate. Struggle with frost and unho
 </details>
 
 
-# <em>Entropic Humans</em>
+# Entropic Humans
 
 <details open>
 <summary>Read more</summary>
@@ -135,7 +135,7 @@ Some hear whispers calling them back to Vardoran.
 </details>
 
 
-# <em>Daemonkind</em>
+# Daemonkind
 
 <details open>
 <summary>Read more</summary>
@@ -170,7 +170,7 @@ Without magic, daemons fragment, lose coherence, or fall dormant. Binding to cor
 </details>
 
 
-# <em>Faekind</em>
+# Faekind
 
 <details open>
 <summary>Read more</summary>
