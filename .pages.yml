@@ -43,7 +43,7 @@ content:
         type: text
       - name: content
         label: Content
-        type: rich-text
+        type: text
   - name: guides-index
     label: Guides Index Page
     type: file
