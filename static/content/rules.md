@@ -116,7 +116,7 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 - Do not hit castles to get another player’s attention. Knock or use a doorbell. If no one answers the door, ping the player you’re looking for in *#documents-dice-doorbells*.
 - Do not use bat form to escape a closed room.
 - Leave other players' bags in the open world alone. If you accidentally pick someone’s things up, such as when when many players are in one place, do your best to return the items to their owner. Robbery RP is covered in [Looting Players and Castles](https://vardoran.com/rules#2-thievery-and-looting-rules).
-- Do are allowed to use wolf jump, frog form, the horse dismount, horse jump, veils, or any other in-game abilities to bypass barriers to get into another player’s castle without explicit permission. Be a ninja.
+- You are allowed to use wolf jump, frog form, the horse dismount, horse jump, veils, or any other in-game abilities to bypass barriers to get into another player’s castle without explicit permission. Be a ninja.
 - Break all nodes, including stone, when you are in a mine or quarry. Ore nodes have a chance of spawning as stone, and if the stone isn’t cleared out, the mine or quarry will eventually become entirely stone.
 - Clear out all containers/chests in the overworld. If you don’t want something, just drag it out of the container and into the screen to drop the item in the overworld. This ensures the containers will refresh with full loot for the next player to come across it.
 - Kill mobs that spawn from prisoner carts and caravans as well as the bulls that pull them. Carts can act buggy if this is not done, and leftover Draculin units can be problematic for a lower-leveled player that stumbles across a pilfered caravan. 
