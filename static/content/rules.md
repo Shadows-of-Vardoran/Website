@@ -90,7 +90,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 - Erotic Roleplay (ERP): ERP is **not allowed** to take place in the SoV Discord or in-game, including in clan chats and whispers. **Staff can see all in-game chat logs, including clan chat and whispers.** If you are going to ERP with your character, it MUST take place in private DM’s.
 - Torture: Have the intended victim character indicate their comfort level with gore before engaging in torture RP.
-- Drug-related RP: Use of truth serums, mind control drugs, lethal drugs, aphrodisiacs, and poisons. If you intend to use a truth serum, please open a ticket with staff first.
+- Drug-related RP: Use of truth serums, mind control drugs, lethal drugs, aphrodisiacs, and poisons. If you intend to use a truth serum, please open a ticket with staff first. The player receiving the truth serum gets to decide whether it works or not.
 - Magical Interactions: Putting someone under the influence of a spell, curse, or magic item.
 - Imprisonment: Players do not need consent to imprison a player for the first 40 minutes of imprisonment. At that point, unless a player consents to a longer time, you must let them free after 40 minutes. Imprisoned players may attack castle doors, and only castle doors, to escape. This is not an opportunity to siege the jailer’s castle. For siege rules, see [Warbats](https://vardoran.com/rules#3-warbats).
 - Do not use another player’s custom artwork, document templates, or other creations without consent. 
