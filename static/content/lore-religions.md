@@ -13,7 +13,7 @@ Qariel is not the god of any one domain. Qariel is the god of more. More blood. 
 
 <div>
 A wailing choir of flayed monks, carving prayers into themselves with bone needles.<br>
-A demon forged of molten teeth and gold, laughing as it eats warhorses and its riders.<br>
+A daemon forged of molten teeth and gold, laughing as it eats warhorses and its riders.<br>
 A perfectly silent potter, who remakes the same clay bowl ten thousand times in a dark cell.<br>
 A king who never stops building, whose city is a spiral of towers too tall for light to reach.
 </div>
@@ -23,7 +23,7 @@ Worship is not tied to what is done. Only that it is done again, and again, and 
 </div>
 
 <div>
-The god's true cult is fractured, a collection of the obsessed and the devoted, all pursuing excess in different forms. The Daemons however remain the most prevalent. Demon summoning is as much a talent as it is a teachable skill.
+The god's true cult is fractured, a collection of the obsessed and the devoted, all pursuing excess in different forms. The Daemons however remain the most prevalent.
 </div>
 
 <div>
