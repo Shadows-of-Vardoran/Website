@@ -124,7 +124,7 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 - If you are fighting a V Blood with other players, **wait until everyone is ready to drink the V Blood at the end of the fight.** Sometimes people have to respawn and return. It’s rude to not wait for every player that helped with the fight to be ready to drink.
 - Be courteous when items drop from a boss. Do not rush in and snatch everything up. 
 - Switch to text RP in the in-game chat if you are engaging in a side conversation in a room full of other players.
-- Razer Hoods and all Shapeshifts will hide a player's nameplate from others. This can be used to act anonymously out in the world. If you are incapacitated, players may forcibly remove your hood to reveal your face. You can also use the ".sov reveal" command to display your name while wearing a Razer Hood
+- You may not intentionally ash (clicking the button to respawn while on your knees) while wearing a hood or otherwise concealing your identity. You MUST let the revive timer time out or be finished off by another player.
 </details>
 
 ## E. *Communication*
