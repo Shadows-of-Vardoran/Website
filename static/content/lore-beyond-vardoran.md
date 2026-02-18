@@ -455,7 +455,7 @@ Her wars have not yet broken the Empire, but neither have they crowned it victor
 The Empire has been recouping it's strength and zeal after the major loss at the last Great War within Nexarcan grounds. Though the Empress does not wish for her army *nor* the enemy to rest, assassination attempts and consistent scouting parties into Nexarcan territory never stopped.
 
 ## Blightmoor
-<img src="/media/blightmoor_map.jpg" alt="Dreughardt Map" class="w-2/5 max-md:w-full float-right" />
+<img src="/media/blightmore_map.jpg" alt="blightmore_map" class="w-2/5 max-md:w-full float-right" />
 
 Before the river had a name, before the first stones of the Necropolis were carved, the world was not ruled by gods, but by cycles. Heat and cold. Birth and rot. The great turning wheel of existence. But from the wheel’s eternal motion came two divine sparks; one seeking to illuminate, the other to understand the dark between the spokes.
 
