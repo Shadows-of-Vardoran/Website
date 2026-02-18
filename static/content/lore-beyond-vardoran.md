@@ -455,6 +455,7 @@ Her wars have not yet broken the Empire, but neither have they crowned it victor
 The Empire has been recouping it's strength and zeal after the major loss at the last Great War within Nexarcan grounds. Though the Empress does not wish for her army *nor* the enemy to rest, assassination attempts and consistent scouting parties into Nexarcan territory never stopped.
 
 ## Blightmoor
+<img src="/media/blightmoor_map.jpg" alt="Dreughardt Map" class="w-2/5 max-md:w-full float-right" />
 
 Before the river had a name, before the first stones of the Necropolis were carved, the world was not ruled by gods, but by cycles. Heat and cold. Birth and rot. The great turning wheel of existence. But from the wheel’s eternal motion came two divine sparks; one seeking to illuminate, the other to understand the dark between the spokes.
 
@@ -469,3 +470,83 @@ In silence, she retreated to the Veil Beyond, taking with her the secrets of res
 It is said that Blightmoor began as a gift of reconciliation.
 The ancient city that would become Blightmoor was founded upon a pact: the Brotherhood of Nymeris, necromancers and memory-keepers, would build a sanctuary where death was preserved, not destroyed, and where the divine balance between light and night could be honored once more.
 Ignariel agreed, reluctantly. His priests built sunlit sanctuaries above, even as the Brotherhood hollowed out chambers deep within the Twinkeep Mountains. The Solar Basilica and the Necropolis of Nymeris were constructed simultaneously, each tethered to the same spiritual heart, but facing in opposite directions.; Above, life was celebrated.
+
+Below, death was perfected. In the middle, the river flowed--Sorrow’s Vein, a lifeblood dividing one world from the next.
+For a time, it worked. But faith is never simple. And the gods were watching.
+
+When the Brotherhood of Nymeris began growing in power and magical mastery, it is said Ignariel grew furious. **His** followers were not as magically attuned, they were warriors at heart and the human body has physical limits to growth. To him, it was an affront to the purity of his flame.
+A prophet of Ignariel, Saint Velariun, led a crusade from the eastern banks to “purge the inhumanity beneath the mountain.” The Brotherhood resisted. Magic collided with flame. The mountain itself trembled.
+And then… the Silence. No one knows what happened beneath the city that night. Only that the screams from below echoed for hours, that Sorrow’s Vein ran black with ash, and that the doors to the Necropolis sealed shut, refusing to open even to those who once called it home as magic's influence slowly died out.
+
+Saint Velariun was never seen again. The Sun Priests said Ignariel had claimed him as a martyr. The faithful of Nymeris whispered a different truth--that their goddess had awakened, and in her sorrow, had hidden her chosen in death’s embrace, away from the sun’s judgment. That she took away the art of the Brotherhood *and* their mastery into her fold, to ensure that Ignariel could never get his hands on such a volatile weapon.
+
+From that day forward, the city was split-- Blightmoor in name, Brightmoor in pretense.
+
+In the East, Ignariel is worshipped with radiant splendor. His faithful are clad in gold and ivory, their temples filled with flame and song. His doctrines preach order, virtue, purity, and the rejection of death’s finality. His symbol, a haloed flame within a sunburst, hangs over every archway in the Gleaming Ward.
+To his most devoted, death is an imperfection to be purged, a thing to be overcome through divine light, not accepted.
+
+In the West, Nymeris is not officially worshipped. But her signs linger-- etched into grave markers, whispered over the dead, sewn into the hems of mourning veils. Her few remaining adherents tend to the forgotten dead in Blightroot’s Nook. They offer coin to crows, speak prayers in a long forgotten language, and leave silver masks at the Chapel of the Withered Veil.
+
+Her symbol, a black petal within a crescent moon, is carved in places no Sun Priest dares look.
+
+Though divided, the gods are not dead. Their presence can still be felt:
+When a child is born with glowing eyes, untouched by illness: Ignariel’s gaze.
+When a mourner dreams of their departed loved one speaking clearly in moonlight: Nymeris’ whisper.
+When the river runs high and the bridge hums with unseen voices: both gods, remembering.
+
+Ignariel burns to preserve the living.
+Nymeris waits to preserve what was lost. And Blightmoor is the wound where they meet.
+
+### **After magic's return**
+
+The river dried up. The gods turned their faces. The city learned to live without balance. In the first decades, Blightmoor fractured into two nations born of one wound.
+
+The **Eastern Dominion** of Ignariel, called Brightmoor by its own decree, became a theocracy of unbroken daylight. The Sun Priests declared the Silence a divine victory. Proof that Ignariel had purged corruption and darkness from beneath the mountain. His temples spread like wildfire across the plains. The people rejoiced at first, for the light brought warmth, protection, and a promise of immortality through faith.
+
+
+But it was a costly faith.
+
+The priests demanded unreasonable amounts of wood, gold, and labor. The great fires of the temples needed fuel, and the rivers that once cooled them boiled and fully dried up.. The soil that was long bathed in sunlight cracked and hardened. The crops still grew, but without sufficient watering they withered too soon. Wild fires were a common thing in these scorched times, leading to a foodshortage In time. Food became rationed, and the Sun Priests decreed fasting as a holy act.
+
+
+Across the Vein the Western Reaches of Nymeris, known in whispers as Blightmoor proper, fell into ruin and quiet. The Necropolis sealed itself with nature over time, those who remained lived among graves and ash. Yet life there endured in stillness, the soil shaded and damp became fertile. Life started to sprout once more. The westerners buried their dead in shallow graves, believing their goddess would one day wake and lift them from decay. They developed medicine from decay and fungi, learning to preserve life not through light, but through patience.
+
+Trade faltered. Bridges across the Sorrow’s Vein collapsed or were destroyed by decree as nothing but a dried up streak remained. For a century, east and west did not speak. But both watched the river with worry and fear for sometimes, at dusk, it murmured with voices that sounded like prayers from the other side.
+
+### 160 years after the Silence. 
+
+Ignariel’s light became eternal and began to eat its own reflection and life.
+
+The eastern Dominion perfected the art of the Solar Forge, a union of alchemy and prayer that allowed flames to burn even brighter. With them came prosperity, war and pride. The Dominions expanded, founding rural towns where sunlight could be channelled through mirrored towers.
+
+But the miracle turned cruel. The everlasting brightness scorched the land. The very air shimmered with heat. Skin burned, crops failed entirely, and the Sun Priests preached that those who died of thirst were being "Refined by the flame." Those who protested vanished into their prisons. 
+
+Out of desperation, the lower classes, miners, builders, and the dusk-born who could endure less light rebelled. The Ember Rebellion lasted twelve years and was crushed beneath Ignariel’s golden banners. Yet in defeat, the rebels brought down half of the burning mirrors, and the Eternal Sun dimmed for the first time since the Silence. The weather stabilised, a swift breeze blessing the population from time to time.
+
+As an aftermath of rebellion the population was allowed to *dream* once more, a potential future they never imagined before. Multiple statements were made of Nymeris's influence being felt, a faith reborn to some and to others heresy. Due to this in the west small settlements grew into the Mourning holds, places where people could come and live out their lives, understanding, embrace and faith brought some together, flickers of balance could be seen and felt.
+
+### **Current Blightmoor, 200 years after the Silence**
+
+Harmony returned slowly. The river resumed its course, light softened.
+
+By the second century, the Dominion’s sunfire began to fail. The sky faded to a pale, sickly hue, and the priests could no longer summon Ignariel’s blessing with certainty. Plagues returned, their origin of exhaustion instead of sickness. The so-called ageless withered overnight, their immortality unraveling like ash in the wind.
+
+When the Sorrow’s Vein flowed backward one spring carrying the ashes of the eastern lands westward, and the cold mists of the west into the east, panic spread across the realm. The Sun Priests proclaimed it the end of days. The western Holds named it the Waking of the Shroud.
+
+Then the Necropolis opened.
+
+From its gates came no army, no conquering horde. Instead, a quiet wind of remembrance swept forth, heavy with solitude. Pilgrims emerged clad in gray and silver, bearing torches that burned with a pale, gentle light. They carried scrolls of memories, histories written and preserved by generations of the dead.
+
+Crossing the river, they knelt before the dying Basilica and spoke only a single truth:
+
+*“The light must rest.”*
+
+In the chaos that followed, the last High Priest fell to his knees before the altar of Ignariel. For three days the sacred fire burned, straining against its own fading strength. When it finally died, it did not return. The great brazier crumbled to ash.
+
+From that ash grew a single white-blossomed tree, its petals darkened at the edges, touched by shadow and soot.
+
+The people took this as a sign.
+
+What remained of the two faiths reconciled as survivors. The east learned humility. The west learned to share its silence.
+
+Within a decade, Blightmoor stood as one. The old divisions dissolved, and rule passed not to flame or grave, but to balance. One seat lay beneath the open sky, the other within the mountain’s heart. Together, they forged laws that honoured both life and death.
