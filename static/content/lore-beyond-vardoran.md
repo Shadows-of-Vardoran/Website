@@ -453,3 +453,19 @@ Yet behind the spectacle lies fragility. The Empress grows increasingly paranoid
 Her wars have not yet broken the Empire, but neither have they crowned it victorious. Every pyre she lights burns another piece of herself.
 
 The Empire has been recouping it's strength and zeal after the major loss at the last Great War within Nexarcan grounds. Though the Empress does not wish for her army *nor* the enemy to rest, assassination attempts and consistent scouting parties into Nexarcan territory never stopped.
+
+## Blightmoor
+
+Before the river had a name, before the first stones of the Necropolis were carved, the world was not ruled by gods, but by cycles. Heat and cold. Birth and rot. The great turning wheel of existence. But from the wheel’s eternal motion came two divine sparks; one seeking to illuminate, the other to understand the dark between the spokes.
+
+Thus were born Ignariel and Nymeris. They were not enemies, but reflections. Siblings, according to some cults. Lovers, according to older scrolls. Two deific forces who together maintained the cycle of life and death: Ignariel kindled the flame of birth, Nymeris folded it into silence when its time had come.
+For uncounted ages, there was peace. But mortals, as they often do, broke the balance.
+
+As empires rose and fell upon the bones of forgotten ages, humanity began to fear death, rather than embrace it. They worshipped the sun, begged it to hold back the night. In time, Ignariel’s radiance grew stronger through devotion, and with it, his pride.
+Nymeris was not hated--at first. She was still revered in funeral rites and whispers, her name etched onto tombstones and sung in lullabies. But she was not loved as her brother was. Her temples faded. Her statues were buried. And slowly, she withdrew from the waking world.
+Ignariel, seeing the adoration he received, sought to burn away what remained of her domain. He commanded temples be raised in his name. He promised eternal life through faith, a flame that would never go out. To many, it was salvation. To Nymeris, it was betrayal.
+In silence, she retreated to the Veil Beyond, taking with her the secrets of rest, of peace, of dreams without waking. Where once the gods had walked as twin keepers of a cycle, now they stood apart--sun and shadow, divided by flame.
+
+It is said that Blightmoor began as a gift of reconciliation.
+The ancient city that would become Blightmoor was founded upon a pact: the Brotherhood of Nymeris, necromancers and memory-keepers, would build a sanctuary where death was preserved, not destroyed, and where the divine balance between light and night could be honored once more.
+Ignariel agreed, reluctantly. His priests built sunlit sanctuaries above, even as the Brotherhood hollowed out chambers deep within the Twinkeep Mountains. The Solar Basilica and the Necropolis of Nymeris were constructed simultaneously, each tethered to the same spiritual heart, but facing in opposite directions.; Above, life was celebrated.
