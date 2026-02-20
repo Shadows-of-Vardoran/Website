@@ -39,6 +39,9 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 - Do not bring up real-world politics using the in-character or out-of-character channels in the SoV Discord. If you wish to discuss real-world politics, take it to DMs.
 - Do not discuss fetishes or other heavily sexual topics without explicit consent in-character or out-of-character. Light sexual banter, like a quick joke, is fine. 
 - Do not share the V Rising server and password information outside the SoV Discord.
+- SoV is an 18+ mature roleplay environment. Expect dark and heavy themes including but not limited to war, violence, death, imprisonment, torture, and morally complex situations. Players engage at their own discretion and are responsible for managing their own boundaries.
+
+That being said, we do have a number of [prohibited topics](https://vardoran.com/rules#b-prohibited-topics). Be sure you are aware of them
 
 > [!IMPORTANT]
 > The Disciplinary Team has discretion to determine whether any player behavior violates the Community Harm Rule and reserves the right to temporarily or permanently remove players from our Discord and/or our community V Rising server to ensure that the space remains safe and enjoyable for everyone.
