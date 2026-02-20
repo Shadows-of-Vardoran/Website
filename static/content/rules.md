@@ -128,6 +128,7 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 - Be courteous when items drop from a boss. Do not rush in and snatch everything up. 
 - Switch to text RP in the in-game chat if you are engaging in a side conversation in a room full of other players.
 - You may not intentionally ash (clicking the button to respawn while on your knees) while wearing a hood or otherwise concealing your identity. You MUST let the revive timer time out or be finished off by another player.
+- Changing your appearance with a mirror is not valid for hiding or concealing your identity. If you wish to change your appearance to a point where you can't be recognized, then you must open a ticket to discuss the process and a name change.
 </details>
 
 ## E. *Communication*
