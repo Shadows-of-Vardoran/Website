@@ -249,6 +249,7 @@ SoV is an open-world PvP server. **PvP encounters, including the build-up to PvP
 - If you are killed by another player during PvP, **you must wait 10 minutes before returning to the location of your death, including to retrieve your dropped items.** This restriction does not apply to deaths that occur during mutually agreed-upon duels/sparring, combat training, standard PvE, or during PvE events where staff are playing NPCs.
 - Outside the arena mechanic, PvP **may not** be initiated with players that are 15 or more lower GS difference than you (e.g if you are GS 60 and another player is GS 45 or lower, you may not initiate PvP with that player outside an arena). This rule does not apply to NPCs initiating combat.
 - When participating in a duel or tournament, players are expected to remove their Razor Hood if requested.
+- Kill On Sight (KOS) arrangements including but not limited to persistent KOS wars, active targeted hunts, and hiring a bounty hunter REQUIRE a Conflict Discussion ticket for documented mutual consent.
 
 
 ### 2. Thievery and Looting Rules
