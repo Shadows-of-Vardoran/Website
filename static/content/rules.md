@@ -39,6 +39,9 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 - Do not bring up real-world politics using the in-character or out-of-character channels in the SoV Discord. If you wish to discuss real-world politics, take it to DMs.
 - Do not discuss fetishes or other heavily sexual topics without explicit consent in-character or out-of-character. Light sexual banter, like a quick joke, is fine. 
 - Do not share the V Rising server and password information outside the SoV Discord.
+- SoV is an 18+ mature roleplay environment. Expect dark and heavy themes including but not limited to war, violence, death, imprisonment, torture, and morally complex situations. Players engage at their own discretion and are responsible for managing their own boundaries.
+
+That being said, we do have a number of [prohibited topics](https://vardoran.com/rules#b-prohibited-topics). Be sure you are aware of them
 
 > [!IMPORTANT]
 > The Disciplinary Team has discretion to determine whether any player behavior violates the Community Harm Rule and reserves the right to temporarily or permanently remove players from our Discord and/or our community V Rising server to ensure that the space remains safe and enjoyable for everyone.
@@ -90,7 +93,7 @@ https://docs.google.com/document/d/1Jzr5pbTDbtSad9O0IHdR9YC22bvgn6pjGWYxVuYMaVc/
 
 - Erotic Roleplay (ERP): ERP is **not allowed** to take place in the SoV Discord or in-game, including in clan chats and whispers. **Staff can see all in-game chat logs, including clan chat and whispers.** If you are going to ERP with your character, it MUST take place in private DM’s.
 - Torture: Have the intended victim character indicate their comfort level with gore before engaging in torture RP.
-- Drug-related RP: Use of truth serums, mind control drugs, lethal drugs, aphrodisiacs, and poisons. If you intend to use a truth serum, please open a ticket with staff first.
+- Drug-related RP: Use of truth serums, mind control drugs, lethal drugs, aphrodisiacs, and poisons. If you intend to use a truth serum, please open a ticket with staff first. The player receiving the truth serum gets to decide whether it works or not.
 - Magical Interactions: Putting someone under the influence of a spell, curse, or magic item.
 - Imprisonment: Players do not need consent to imprison a player for the first 40 minutes of imprisonment. At that point, unless a player consents to a longer time, you must let them free after 40 minutes. Imprisoned players may attack castle doors, and only castle doors, to escape. This is not an opportunity to siege the jailer’s castle. For siege rules, see [Warbats](https://vardoran.com/rules#3-warbats).
 - Do not use another player’s custom artwork, document templates, or other creations without consent. 
@@ -116,7 +119,7 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 - Do not hit castles to get another player’s attention. Knock or use a doorbell. If no one answers the door, ping the player you’re looking for in *#documents-dice-doorbells*.
 - Do not use bat form to escape a closed room.
 - Leave other players' bags in the open world alone. If you accidentally pick someone’s things up, such as when when many players are in one place, do your best to return the items to their owner. Robbery RP is covered in [Looting Players and Castles](https://vardoran.com/rules#2-thievery-and-looting-rules).
-- Do are allowed to use wolf jump, frog form, the horse dismount, horse jump, veils, or any other in-game abilities to bypass barriers to get into another player’s castle without explicit permission. Be a ninja.
+- You are allowed to use wolf jump, frog form, the horse dismount, horse jump, veils, or any other in-game abilities to bypass barriers to get into another player’s castle without explicit permission. Be a ninja.
 - Break all nodes, including stone, when you are in a mine or quarry. Ore nodes have a chance of spawning as stone, and if the stone isn’t cleared out, the mine or quarry will eventually become entirely stone.
 - Clear out all containers/chests in the overworld. If you don’t want something, just drag it out of the container and into the screen to drop the item in the overworld. This ensures the containers will refresh with full loot for the next player to come across it.
 - Kill mobs that spawn from prisoner carts and caravans as well as the bulls that pull them. Carts can act buggy if this is not done, and leftover Draculin units can be problematic for a lower-leveled player that stumbles across a pilfered caravan. 
@@ -124,6 +127,8 @@ Consent is arranged via Discord or by a quick out-of-character check-in using th
 - If you are fighting a V Blood with other players, **wait until everyone is ready to drink the V Blood at the end of the fight.** Sometimes people have to respawn and return. It’s rude to not wait for every player that helped with the fight to be ready to drink.
 - Be courteous when items drop from a boss. Do not rush in and snatch everything up. 
 - Switch to text RP in the in-game chat if you are engaging in a side conversation in a room full of other players.
+- You may not intentionally ash (clicking the button to respawn while on your knees) while wearing a hood or otherwise concealing your identity. You MUST let the revive timer time out or be finished off by another player.
+- Changing your appearance with a mirror is not valid for hiding or concealing your identity. If you wish to change your appearance to a point where you can't be recognized, then you must open a ticket to discuss the process and a name change.
 </details>
 
 ## E. *Communication*
@@ -243,6 +248,8 @@ SoV is an open-world PvP server. **PvP encounters, including the build-up to PvP
 - We do not allow combat logging. You must stay online for at least 15 minutes after the PvP encounter finishes. You may spend this time in a castle.
 - If you are killed by another player during PvP, **you must wait 10 minutes before returning to the location of your death, including to retrieve your dropped items.** This restriction does not apply to deaths that occur during mutually agreed-upon duels/sparring, combat training, standard PvE, or during PvE events where staff are playing NPCs.
 - Outside the arena mechanic, PvP **may not** be initiated with players that are 15 or more lower GS difference than you (e.g if you are GS 60 and another player is GS 45 or lower, you may not initiate PvP with that player outside an arena). This rule does not apply to NPCs initiating combat.
+- When participating in a duel or tournament, players are expected to remove their Razor Hood if requested.
+- Kill On Sight (KOS) arrangements including but not limited to persistent KOS wars, active targeted hunts, and hiring a bounty hunter REQUIRE a Conflict Discussion ticket for documented mutual consent.
 
 
 ### 2. Thievery and Looting Rules

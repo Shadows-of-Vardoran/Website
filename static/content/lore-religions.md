@@ -13,7 +13,7 @@ Qariel is not the god of any one domain. Qariel is the god of more. More blood. 
 
 <div>
 A wailing choir of flayed monks, carving prayers into themselves with bone needles.<br>
-A demon forged of molten teeth and gold, laughing as it eats warhorses and its riders.<br>
+A daemon forged of molten teeth and gold, laughing as it eats warhorses and its riders.<br>
 A perfectly silent potter, who remakes the same clay bowl ten thousand times in a dark cell.<br>
 A king who never stops building, whose city is a spiral of towers too tall for light to reach.
 </div>
@@ -23,7 +23,7 @@ Worship is not tied to what is done. Only that it is done again, and again, and 
 </div>
 
 <div>
-The god's true cult is fractured, a collection of the obsessed and the devoted, all pursuing excess in different forms. The Daemons however remain the most prevalent. Demon summoning is as much a talent as it is a teachable skill.
+The god's true cult is fractured, a collection of the obsessed and the devoted, all pursuing excess in different forms. The Daemons however remain the most prevalent.
 </div>
 
 <div>
@@ -62,6 +62,33 @@ Led the faithful into conflict with the Brotherhood of Nymeris. A crusade he ins
 </div>
 </details>
 
+## Nymeris
+
+<details open>
+<summary>Click to expand/collapse Nymeris</summary>
+
+<div><strong>The Veiled One</strong></div>
+
+<div><strong>Domain:</strong> Death, Dreams, Memory, Mystery</div>
+<div><strong>Symbol:</strong> A black petal within a crescent moon</div>
+<div><strong>Remembered in:</strong> The West (Blightmoor), particularly in Blightroot’s Nook</div>
+
+<div><strong>Overview:</strong><br>
+Nymeris is the silent deity of death, endings, and remembrance. Once the other half of a balanced divine pair, she stood beside Ignariel as guardian of the sacred cycle, guiding souls gently into the Veil Beyond. As mortals turned from death in fear and longing for eternity, her temples fell to ruin and her name faded to whispers. In sorrow, she withdrew from the waking world, taking with her the deeper secrets of necromancy and the sacred rites of peaceful passing. Her few remaining adherents serve as caretakers of memory and mourners of forgotten truths.
+</div>
+
+<div><strong>Doctrine:</strong></div>
+<ul>
+<li>Death is not to be feared, but honored.</li>
+<li>Dreams are a doorway to remembrance.</li>
+<li>The dead deserve dignity, silence, and mystery.</li>
+<li>True power lies in the cycle, not in defiance of it.</li>
+</ul>
+
+<div><strong>Legacy:</strong><br>
+Nymeris gifted the world the Brotherhood—necromancers and memory-keepers devoted to preserving the sanctity of death. When the Sun Priests sought their destruction, she cloaked them in the Silence, preserving her faithful and the sacred knowledge of death’s art from Ignariel’s consuming flame.
+</div>
+</details>
 
 ## Sham'Yara
 
