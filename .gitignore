@@ -23,3 +23,6 @@ vite.config.ts.timestamp-*
 
 # Deno
 deno.lock
+
+# AI Stuff
+AGENTS.md

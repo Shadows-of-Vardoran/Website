@@ -1,5 +1,202 @@
+<div class="text-2xl text-success-0 mt-3">Failure to abide by our community standards and rules is subject to disciplinary action up to and including a permanent ban from both our Discord and community V Rising server.</div>
+
+<div style="font-size: 1.25rem; line-height: 1.7;">
+
+# COMMUNITY CONDUCT RULES
+
+> [!IMPORTANT] The following rules apply to all members at all times, regardless of in-character or out-of-character context. They are the baseline behavioral standards for participating in this community.
+
+- You must be 18 or older to participate in SoV. SoV is an 18+ mature roleplay environment. Expect dark and heavy themes including but not limited to war, violence, death, imprisonment, torture, and morally complex situations. Players engage at their own discretion and are responsible for managing their own boundaries.
+- We do not tolerate harassment or bigotry of any kind, including but not limited to racism, homophobia, transphobia, sexual harassment, intimidation, bullying, and/or disrespect of another player's stated boundaries.
+- Do not discuss real-world politics in any SoV Discord channel. If you wish to discuss real-world politics, take it to DMs.
+- No NSFW content in SoV Discord channels. This includes but is not limited to explicit images, sexual content, and fetish discussion.
+- Do not share the V Rising server address or password information outside the SoV Discord.
+- Do not dox, threaten, or encourage harm against any person, whether a member of this community or not. Do not share or distribute another player's personal information without their explicit consent.
+- Do not impersonate staff, other players, or any individual.
+- Do not exploit, cheat, or use unauthorized third-party tools in the V Rising server.
+- Do not use another player's custom artwork, document templates, or other creations without their consent.
+- Respect staff. All staff here are volunteers who give their time and effort to steward this community. Disrespect toward staff carrying out their duties will not be tolerated.
+- The Disciplinary Team has discretion to determine whether any player behavior violates these rules and reserves the right to temporarily or permanently remove players from our Discord and/or our community V Rising server to ensure that the space remains safe and enjoyable for everyone.
+
+---
+
 # COMMUNITY STANDARDS
 
-> [!NOTE] Community standards content coming soon.
+## 1. Cornerstones
 
-Place your community standards markdown content here.
+<div class="marked-block-info">Every section below is an application of three underlying principles. Understanding them makes everything else easier to follow.</div>
+
+- <span class="text-accent">**There is always another player on the other end.**</span> You are never just playing your character. You are playing with a person who has their own experience of every interaction you initiate, every conflict you start, and every consequence you deliver. Keeping that in mind is not optional. It is the foundation of what makes a roleplay community work.
+- <span class="text-accent">**Communication is a shared responsibility.**</span> Nobody is exempt from it. If you initiate conflict, check in afterward. If something made you uncomfortable, speak up. If you want to pursue a dynamic that affects another player's experience, get on the same page first. Voicing discomfort is not an attack, silence is not acceptance, and the expectation to communicate runs in both directions.
+- <span class="text-accent">**Freedom to act comes with accountability for consequences.**</span> You can insult, antagonize, pursue, and escalate... but you own what comes back. Out of character preferences do not cancel in character accountability when you are the one who started it. If you are not prepared for a consequence, consider whether you are prepared to take the action.
+
+## 2. Playing With Others
+
+<details open><summary>Click to expand/collapse Playing With Others</summary>
+
+Roleplay is collaborative, which means your responsibility does not end with your own character's story. It extends to the experience of every player you engage with. <span class="text-accent">**You are not just here to play. You are here to play in a way that makes the space better for the people around you.**</span> That is a standard we hold you to as a player, not your character. A difficult character is a creative choice. A player who worsens the experience for the people around them is a community concern, and *those are not the same thing*.
+
+This is something this community actively evaluates. <span class="text-warm">**Avoiding rule violations is the floor, not the ceiling.**</span> Players who contribute positively to the experience of others, who bring flexibility, awareness, and genuine interest in what the people around them are getting out of a scene, are the foundation of what makes a server like this work.
+
+That awareness shows up in small things. Checking in after an intense scene. Reaching out OOCly when you sense friction building rather than waiting for it to compound. Being willing to hear that something is not landing, and changing course if needed. Noticing when something is not working and being willing to examine your own role in it. <span class="text-warm">**None of these are rules with consequences attached.**</span> They are <span class="text-soft">habits of a good RP partner</span>, and they make a tangible difference to whether the people around you are having a good time.
+
+Part of that responsibility is inclusion. <span class="text-accent">**Established players carry extra weight here.**</span> Being open to others entering your storylines, sharing the spotlight, and treating newer members with patience rather than dismissal are not optional. They are part of what makes this community worth joining in the first place.
+
+</details>
+
+## 3. IC/OOC Awareness
+
+<details open><summary>Click to expand/collapse IC/OOC Awareness</summary>
+
+<span class="text-accent">**Roleplay involves real emotions.**</span> Characters argue, betray, and wound each other, and sometimes those experiences land harder than expected. That is normal. What matters is what you do with it.
+
+Bleed is what happens when emotions from in-character experiences start shaping how you feel about the player behind another character, or when real feelings about a player start shaping how your character behaves toward theirs. <span class="text-accent">**A character who wronged yours is not a personal attack from the player behind them.**</span> A player you have OOC tension with should not be the reason your character behaves differently toward theirs. These are not always easy lines to hold, and nobody expects perfection. What is expected is that you notice when the line is blurring and take responsibility for it.
+
+If you find your feelings about a scene starting to follow you out of character, that is worth pausing on. It is not something to be ashamed of, but it is yours to manage. <span class="text-warm">**Routing unexamined bleed through in-character actions, complaints, or community spaces shifts the weight onto other people without addressing the actual source.**</span> If you think bleed is affecting you or another player, a support ticket is the right place to bring it.
+
+> [!EXAMPLE] Your character was just killed in a conflict that felt unfair and you are frustrated with the player who did it. Before acting on that frustration in character or out, ask whether what you are feeling is about the scene or about the person.
+
+</details>
+
+## 4. Communication
+
+<details open><summary>Click to expand/collapse Communication</summary>
+
+<span class="text-accent">**Direct player-to-player communication is the expected first step when something goes wrong in a scene or a dynamic.**</span> Not a ticket, not venting in a shared space. If something landed badly or friction is building, reach out to the other player first.
+
+Direct communication works better when it is timely. Letting discomfort sit and grow makes the conversation harder for everyone, and is not fair to a player who cannot address something they do not know about. <span class="text-warm">**Saying that a scene went somewhere unexpected is not an accusation. It is what this community expects of its members.**</span>
+
+<span class="text-accent">**Receiving that kind of message is part of the standard too.**</span> Defensiveness shuts down communication that is meant to improve things for both people. You do not have to agree with every concern raised, but you are expected to hear it.
+
+Tickets exist for situations where direct communication has not worked, where it is not safe to attempt, or where an issue genuinely requires admin involvement. <span class="text-warm">**The admin team are volunteers, not a first-line dispute resolution service.**</span> We expect members to attempt direct communication before escalating to a ticket. Skipping that step entirely is strongly discouraged.
+
+If you are unable to reach someone directly, such as when their DMs are closed or their Discord profile asks you to ping them first, you may ping them in general chat to ask if you can DM them. If that attempt also fails and you cannot get a hold of the person, that is a viable reason to open a player support ticket.
+
+> [!EXAMPLE] Another player's character publicly humiliates yours in a way that crosses a line for you. Before opening a ticket, send the player a message. Most situations resolve faster and better with one direct conversation than with formal intervention.
+
+</details>
+
+## 5. Conflict
+
+<details open><summary>Click to expand/collapse Conflict</summary>
+
+<span class="text-accent">**The best conflict roleplay is conflict both parties are invested in.**</span> When players have aligned on stakes, tone, and direction before things start, the story is usually richer and the friction lower. If you have the opportunity to set that foundation before conflict begins, take it.
+
+That said, organic conflict is part of what makes a living world feel real. Not every tense encounter can or should be preceded by an OOC planning session. <span class="text-accent">**Spontaneous conflict is welcome, but it comes with a responsibility.**</span> If you initiate conflict without prior agreement, check in with the other player afterward. A simple message asking whether the scene landed well goes a long way. It is not an apology. It is an acknowledgment that you played in their space.
+
+<span class="text-accent">**The responsibility to communicate runs both directions.**</span> If something in a conflict made you uncomfortable, say so. The other player cannot address what they do not know about, and letting it sit does not make it smaller.
+
+Conflict does not begin when someone throws a punch. An insult is conflict. A whispered rumor is conflict. A deliberate provocation made in public is conflict. <span class="text-warm">**If your character takes an action intended to create friction with another character, you have initiated, regardless of whether anything physical follows.**</span>
+
+<span class="text-warm">**If you start it, you own what comes back.**</span> Retaliation is legitimate and you do not get to dictate its form. A character who talks loudly and carries a small stick should not be surprised when someone picks up a bigger one. Being averse to PvP out of character does not exempt your character from IC consequences when your character is the source of the friction.
+
+Before starting conflict, and before responding to it, ask yourself one question. <span class="text-accent">**What is the player on the other end going to get out of this?**</span> The goal is to play with each other, not at each other.
+
+For the specific rules governing PvP, warbats, and looting, see [RP Rules, Combat and Conflict](https://vardoran.com/rules#f-combat-and-conflict).
+
+</details>
+
+## 6. Kill on Sight
+
+<details open><summary>Click to expand/collapse Kill on Sight</summary>
+
+Most conflict between characters is episodic. Two people clash, something is resolved or left unresolved, and the encounter ends. <span class="text-accent">**Kill on sight conflict is different. It is a persistent state of hostility where one or both characters actively seek out the other to engage, creating an ongoing threat that does not reset when you log off.**</span>
+
+For players who enjoy it, that persistent tension is part of the appeal. The stakes are real, the world feels dangerous, and every encounter carries weight. <span class="text-soft">**For players on the receiving end who did not choose it, that same tension can make the game genuinely unpleasant.**</span> The threat of being hunted at any moment, without knowing when or where it will happen, changes the texture of the entire experience in ways that a single spontaneous fight does not.
+
+<span class="text-accent">**That asymmetry is why this type of conflict requires a Conflict Discussion Ticket rather than a post-encounter check-in.**</span> The ticket is not a complicated process. It is essentially a conversation between the players involved, with admins in the room. If both parties are genuinely on board with the dynamic, that gets documented and you are free to run with it. The record exists so that the conflict has a clear foundation, both players' consent is on file, and there is no ambiguity later about what was agreed to.
+
+<span class="text-accent">**KOS arrangements should ideally have a pre-defined end point.**</span> They should not be perpetual. If a player wishes to end or modify a KOS arrangement, they should raise it in the already-open Conflict Discussion Ticket so all parties and admins can discuss the wind-down together.
+
+<span class="text-warm">**If you want to pursue this kind of conflict with another player, open a Conflict Discussion Ticket first.**</span> The story will be better for it.
+
+</details>
+
+## 7. Consent and Sensitive RP
+
+<details open><summary>Click to expand/collapse Consent and Sensitive RP</summary>
+
+Some roleplay ventures into heavy territory. Torture, coercion, psychological manipulation, and other dark content can produce compelling stories, but they require extra care when other players are involved. For specific consent requirements (ERP, torture, drugs, magical interactions, imprisonment), see [RP Rules, Consent and Sensitive RP](https://vardoran.com/rules#c-consent-and-sensitive-rp).
+
+<span class="text-accent">**Check in before or during scenes that venture into sensitive territory, not only after.**</span> A quick out-of-character message before a scene escalates is a small thing that can matter considerably to the person on the other end. If you are already in a scene and it starts moving somewhere heavier than expected, pause and check in. <span class="text-warm">**Silence is not the same as comfort.**</span>
+
+<span class="text-accent">**Fading to black is always available.**</span> If a scene has reached a point where you are not comfortable continuing, you can say so. That is not a rejection of the story or the player. It is a boundary, and it should be received as one. <span class="text-warm">**Responding to a fade-to-black with pressure or frustration is not good faith engagement.**</span>
+
+This goes both directions. If you are running a scene with heavy content and the other player seems to pull back, take that as a signal and check in.
+
+> [!EXAMPLE] You are in the middle of an interrogation scene and the other player goes quieter than usual. Before escalating further, check in. Asking whether they are still comfortable with where things are going takes five seconds and might matter considerably more than that.
+
+</details>
+
+---
+
+# GLOSSARY
+
+<details open><summary>Click to expand/collapse Glossary</summary>
+
+> [!WARNING] Committing Mini-Modding, Fail RP, Godmoding, Metagaming, Powergaming, RDM, or disregarding Fear RP or Value of Life RP can lead to disciplinary action, up to a permanent ban from the server.
+
+## Mini-Modding
+
+Mini-Modding is when a player who is not staff attempts to enforce rules, investigate potential rulebreaks, or hand out consequences. If you see a rulebreak or someone is disrespecting your boundaries OOC, open a ticket. Do not try to handle it yourself. We will take care of it.
+
+## Fail RP
+
+Fail RP is when you play in a way that breaks the setting or the RP rules. This includes breaking character with modern slang or game speak, powergaming, godmoding, ignoring Fear RP or Value of Life RP, or breaking server rules while RPing.
+
+## Godmoding
+
+Godmoding is when you make a character so powerful that fair RP breaks down. Your character cannot be untouchable, unkillable, or godlike. This includes never fearing death because you know you cannot be killed, claiming one-punch kills, or performing powerful magic without RP justification.
+
+## Powergaming/Powerplaying
+
+Powergaming is when you stack a situation so the outcome is unfairly in your favor, typically to avoid consequences. Examples include using the unstuck command to escape a hostile encounter, or inventing mechanics like mind reading or mind control without OOC consent to force others into unfair scenarios.
+
+## Metagaming
+
+Metagaming is when you use OOC knowledge to influence IC decisions, usually to shield your character from consequences. The following are considered meta knowledge IC:
+
+- Your character does not know what is on your HUD.
+- You may not act IC on conversations you hear while in bat form, even though we allow hearing through walls.
+- You must learn character names, clan affiliations, and where someone lives through IC interactions. Reading a name on a castle does not count.
+- If a character is sneaking in rat form, you need visual confirmation before taking action. You must give an RP warning before striking a character in rat form, same as the RP notice required before PvP.
+- Permanent clanmates know the names, locations, and identities of their clanmates even in animal form, and can tell whether a clanmate is injured or logged off.
+- Guests joining a clan do not automatically know the names of characters they have not met IC.
+
+## Random Death Match (RDM)
+
+RDM is when you attack another player without IC motivation and without declaring intent. You need a genuine RP reason to fight, and you must declare that intent before engaging. Players do not need consent to start a fight, but they do need to initiate through RP and allow a reasonable window for response. Ignoring an aggressor is not an appropriate response. See [PvP Rules](https://vardoran.com/rules#1-pvp).
+
+## Bleed
+
+Bleed is when emotions spill between IC and OOC. This is not always a bad thing. Enjoying a scene so much that you feel great OOC is bleed. The community appreciation channel is full of positive bleed. The problem is negative bleed. That is when you feel anger, resentment, or romantic attachment toward a player because of what happened in character, and then act on it. It is fine to dislike how a scene went. It is fine to want to avoid RP with someone. It is not fine to treat a player poorly OOC because their character wronged yours, or to expect OOC romance because your characters are involved.
+
+If you think bleed is affecting you or someone else, open a support ticket. See [IC/OOC Awareness](https://vardoran.com/conduct#3-icooc-awareness) for the community standards around this. Staff is always happy to help.
+
+## Fear RP
+
+Fear RP is when your character acts as if their life genuinely matters. They do not know they can respawn. They do not know it is a video game. When surrounded by hostile characters, a reasonable response is fear. Dismissing danger just because you the player know there is no real risk is not Fear RP.
+
+## Value of Life RP
+
+Value of Life RP is when your character treats their life as if it is real. You know OOC that you can respawn. Your character does not. Every death should carry weight, whether to a player or to the world. Rushing into a boss fight and dying repeatedly without consequence is not Value of Life RP. Treating other characters' deaths as temporary is not either. Every death you deliver or receive might be the last.
+
+## In-Character (IC)
+
+IC is anything your character says or does in the game world, including IC Discord channels.
+
+## Out-of-Character (OOC)
+
+OOC is anything involving you the player, not your character.
+
+## Physical Representation (PhysRep)
+
+A PhysRep is when you use an in-game item to represent something the mechanics do not cover. Blood Roses for tobacco. Sculptured Wood for a magical totem. Arranging crafting stations to represent a scientific machine.
+
+## FOIC
+
+Find out in character. A common phrase meaning you should learn something through RP, not through OOC knowledge.
+
+</details>
+
+</div>

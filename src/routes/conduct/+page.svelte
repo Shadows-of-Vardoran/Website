@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
+  import { browser } from '$app/environment';
   import { marked } from 'marked';
   import markedAlert from 'marked-alert';
 
@@ -28,6 +29,18 @@
     }
 
     html = parse(md);
+
+    if (browser) {
+      const hash = window.location.hash.slice(1);
+      if (hash) {
+        requestAnimationFrame(() => {
+          const target = document.getElementById(hash);
+          if (target && scrollElement) {
+            scrollElement.scrollTop = target.offsetTop - scrollElement.offsetTop;
+          }
+        });
+      }
+    }
   });
 </script>
 

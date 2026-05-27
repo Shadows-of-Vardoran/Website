@@ -49,7 +49,7 @@ body {
     font-family: 'Cinzel', serif;
     font-size: 2rem;
     font-weight: 700;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 
   h2 {
@@ -57,16 +57,23 @@ body {
     font-family: 'Cinzel', serif;
     font-size: 1.5rem;
     font-weight: 600;
-    margin-top: 0.75rem;
+    margin-top: 1.75rem;
+  }
+
+  h3 {
+    color: var(--color-tprimary-100);
+    font-family: 'Cinzel', serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 3rem;
   }
 
   p {
     color: var(--color-tprimary-600);
     font-size: 1.2rem;
     font-weight: 400;
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
-    background: var(--color-background-800);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     padding: 0.1rem 0.5rem;
     border-radius: 0.25rem;
   }
@@ -89,6 +96,14 @@ body {
   a:hover {
     text-decoration: underline dotted;
     color: var(--color-info-100);
+  }
+
+  code {
+    color: #d97706;
+    font-size: 0.85em;
+    background: var(--color-background-800);
+    padding: 0.1rem 0.35rem;
+    border-radius: 0.2rem;
   }
 
   .markdown-alert-title {
@@ -143,6 +158,17 @@ body {
     }
   }
 
+  .markdown-alert-example {
+    .markdown-alert-title {
+      background: var(--color-background-700);
+    }
+
+    p {
+      background: var(--color-background-800);
+      color: var(--color-tprimary-300);
+    }
+  }
+
   summary {
     background: var(--color-background-800);
     border-top-right-radius: 0.25rem;
@@ -186,6 +212,88 @@ body {
       /* filter: invert(8%) sepia(46%) saturate(7352%) hue-rotate(350deg) brightness(110%) contrast(90%); */
     }
   }
+}
+
+.marked .marked-ol {
+  counter-reset: marked-ol-counter;
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+.marked .marked-ol li {
+  counter-increment: marked-ol-counter;
+}
+
+.marked .marked-ol .marked-ol-num::before {
+  content: counter(marked-ol-counter) ".";
+}
+
+.marked .marked-block-muted {
+  background: var(--color-background-800);
+  color: var(--color-tprimary-600);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.marked .marked-block-info {
+  background: var(--color-info-900);
+  color: var(--color-tprimary-600);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.marked .marked-block-warning {
+  background: color-mix(in srgb, var(--color-error-900), black 50%);
+  color: var(--color-tprimary-600);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.marked .marked-block-success {
+  background: color-mix(in srgb, var(--color-success-900), black 70%);
+  color: var(--color-tprimary-600);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.marked .text-accent {
+  color: #5da0d2;
+}
+
+.marked .text-warm {
+  color: #d97706;
+}
+
+.marked .text-soft {
+  color: var(--color-tprimary-200);
+}
+
+.marked .marked-block-example {
+  background: var(--color-background-800);
+  color: var(--color-tprimary-300);
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.25rem;
+  font-style: italic;
 }
 
 .nav-tower-button {

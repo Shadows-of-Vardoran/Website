@@ -6,3 +6,8 @@ yarn.lock
 app/pnpm-lock.yaml
 app/package-lock.json
 app/yarn.lock
+
+# Content markdown files — prettier normalizes emphasis to underscores
+# which conflicts with our style preference for asterisks
+static/content/*.md
+static/content/**/*.md
