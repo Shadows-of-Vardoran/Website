@@ -29,7 +29,7 @@
         <div class="flex flex-col items-end gap-1 text-lg text-tsecondary text-right">
           <div class="border-b border-red-900 w-fit">Dark Fantasy RP | Lore-Driven Worldbuilding</div>
           <div class="border-b border-red-900 w-fit">Fully RP-Enforced Environment</div>
-          <div class="border-b border-red-900 w-fit">Handpicked Mods for Immersion & Balance</div>
+          <div class="border-b border-red-900 w-fit">Custom Mods for Immersion & Balance</div>
           <div class="border-b border-red-900 w-fit">PvP-Enabled with Political Intrigue</div>
           <div class="border-b border-red-900 w-fit">Community Events, Storylines, and Seasonal Play</div>
         </div>
@@ -67,6 +67,8 @@
     <div class="flex flex-col text-center w-full text-lg pt-5 mt-8 px-2 fade-background-down relative">
       <div class="mb-6">
         Join Now, Before the Shadows Fall... Whether you're a seasoned roleplayer or new to the dark gift, our staff and community will help you sink your fangs in quickly.
+        <br /><br />
+        Before joining, please read our <a href="/conduct" class="text-red-500 hover:text-red-400 underline">Community Standards</a>.
       </div>
 
       <div>

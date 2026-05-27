@@ -4,9 +4,13 @@ media:
 
 content:
   - name: rules
-    label: Rules Page
+    label: RP Rules Page
     type: file
     path: static/content/rules.md
+  - name: conduct
+    label: Community Standards Page
+    type: file
+    path: static/content/conduct.md
   - name: history-of-vardoran
     label: Lore - History of Vardoran
     type: file
@@ -33,7 +37,7 @@ content:
     path: static/content/guides
     format: json
     filename: '{primary}.json'
-    exclude: [ 'guides-index.json']
+    exclude: ['guides-index.json']
     fields:
       - name: title
         label: Title

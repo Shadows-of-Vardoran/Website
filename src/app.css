@@ -1,9 +1,9 @@
-
-@import "tailwindcss";
-@import "@mdi/font/css/materialdesignicons.min.css";
+@import 'tailwindcss';
+@import '@mdi/font/css/materialdesignicons.min.css';
 @import '@fortawesome/fontawesome-free/css/all.css';
 @config "../tailwind.config.ts";
-@layer base {}
+@layer base {
+}
 
 html {
   overflow: hidden;
@@ -24,27 +24,24 @@ body {
   outline: none;
 }
 
-
 .font-aelfa {
-  font-family: "Aelfa" !important;
+  font-family: 'Aelfa' !important;
   font-size: 1.5rem;
 
   .marked h1,
   .marked h2,
   .marked h3,
   .marked h4 {
-    font-family: "Aelfa", serif;
+    font-family: 'Aelfa', serif;
   }
 
   .marked p,
   .marked li,
   .marked a {
-    font-family: "Aelfa", serif;
+    font-family: 'Aelfa', serif;
     font-size: 1.5rem !important;
   }
 }
-
-
 
 .marked {
   h1 {
@@ -95,7 +92,7 @@ body {
   }
 
   .markdown-alert-title {
-    font-family: "Cinzel", serif;
+    font-family: 'Cinzel', serif;
     @apply flex items-center gap-2 text-white font-bold text-2xl;
   }
 
@@ -135,7 +132,8 @@ body {
     }
   }
 
-  .markdown-alert-warning, .markdown-alert-caution {
+  .markdown-alert-warning,
+  .markdown-alert-caution {
     .markdown-alert-title {
       background: color-mix(in srgb, var(--color-error-500), black 40%);
     }
@@ -193,7 +191,9 @@ body {
 .nav-tower-button {
   font-family: 'Cinzel', serif;
   @apply text-2xl text-tprimary hover:text-primary cursor-pointer transition-all duration-100;
-  transition: filter 0.3s, color 0.3s;
+  transition:
+    filter 0.3s,
+    color 0.3s;
   filter: drop-shadow(0px 0px -0px var(--color-red-900)) drop-shadow(0px 0px 0px var(--color-red-900));
 }
 
@@ -203,7 +203,7 @@ body {
 
 .scrollbar-hidden {
   scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
 }
 
 .scrollbar-hidden::-webkit-scrollbar {
@@ -236,43 +236,43 @@ body {
 }
 
 .crimson-text-regular {
-  font-family: "Crimson Text", serif;
+  font-family: 'Crimson Text', serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .crimson-text-semibold {
-  font-family: "Crimson Text", serif;
+  font-family: 'Crimson Text', serif;
   font-weight: 600;
   font-style: normal;
 }
 
 .crimson-text-bold {
-  font-family: "Crimson Text", serif;
+  font-family: 'Crimson Text', serif;
   font-weight: 700;
   font-style: normal;
 }
 
 .crimson-text-regular-italic {
-  font-family: "Crimson Text", serif;
+  font-family: 'Crimson Text', serif;
   font-weight: 400;
   font-style: italic;
 }
 
 .crimson-text-semibold-italic {
-  font-family: "Crimson Text", serif;
+  font-family: 'Crimson Text', serif;
   font-weight: 600;
   font-style: italic;
 }
 
 .crimson-text-bold-italic {
-  font-family: "Crimson Text", serif;
+  font-family: 'Crimson Text', serif;
   font-weight: 700;
   font-style: italic;
 }
 
 .font-cinzel {
-  font-family: "Cinzel", serif;
+  font-family: 'Cinzel', serif;
 }
 
 @font-face {
