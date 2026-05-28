@@ -225,7 +225,7 @@ body {
 }
 
 .marked .marked-ol .marked-ol-num::before {
-  content: counter(marked-ol-counter) ".";
+  content: counter(marked-ol-counter) '.';
 }
 
 .marked .marked-block-muted {

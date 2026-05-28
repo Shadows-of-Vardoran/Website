@@ -1,6 +1,13 @@
 media:
-  input: static/media
-  output: static/media
+  - name: assets
+    label: Assets
+    input: static/assets
+    output: /assets
+  - name: gallery
+    label: Gallery
+    input: static/media
+    output: /media
+    categories: [image, video]
 
 content:
   - name: rules
@@ -53,6 +60,36 @@ content:
     type: file
     format: json
     path: static/content/guides/guides-index.json
+  - name: media-gallery
+    label: Media Gallery
+    type: collection
+    path: static/content/media
+    format: json
+    filename: '{primary}.json'
+    exclude: ['media-index.json']
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: src
+        label: Image
+        type: image
+        options:
+          media: gallery
+      - name: type
+        label: Type
+        type: string
+      - name: alt
+        label: Alt text
+        type: string
+      - name: caption
+        label: Caption
+        type: string
+  - name: media-index
+    label: Media Index
+    type: file
+    format: json
+    path: static/content/media/media-index.json
 
 settings:
   content:
