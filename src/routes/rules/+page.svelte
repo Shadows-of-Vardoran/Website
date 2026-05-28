@@ -58,7 +58,7 @@
     {/if}
   </main>
 
-  <aside class="min-w-60 z-40 relative mt-5 mr-5 mb-5 border-b-2 border-l-2 border-testing right-nav">
+  <aside class="min-w-60 z-40 relative mt-5 mb-5 border-b-2 border-l-2 border-testing right-nav">
     <nav class="scrollbar-left h-full p-4 pb-24 rounded-lg bg-background-0/10 z-10 overflow-y-auto relative">
       {#each headings as h}
         <div style="margin-left: {(h.level - 1) * 12}px;">

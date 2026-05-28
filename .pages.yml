@@ -18,6 +18,10 @@ content:
     label: Community Standards Page
     type: file
     path: static/content/conduct.md
+  - name: glossary
+    label: Glossary Page
+    type: file
+    path: static/content/glossary.md
   - name: history-of-vardoran
     label: Lore - History of Vardoran
     type: file

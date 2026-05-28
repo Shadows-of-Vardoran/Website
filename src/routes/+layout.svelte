@@ -40,6 +40,7 @@
       </button>
       <button on:click={() => goto(resolve('/conduct'))} class="nav-tower-button">Conduct</button>
       <button on:click={() => goto(resolve('/rules'))} class="nav-tower-button">RP Rules</button>
+      <button on:click={() => goto(resolve('/glossary'))} class="nav-tower-button">Glossary</button>
       <button on:click={() => goto(resolve('/guides'))} class="nav-tower-button">Guides</button>
       <button on:click={() => goto(resolve('/lore'))} class="nav-tower-button">Lore</button>
       <button on:click={() => goto(resolve('/media'))} class="nav-tower-button">Media</button>

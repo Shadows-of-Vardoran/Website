@@ -15,7 +15,7 @@
   let scrollElement: HTMLElement | null = null;
 
   onMount(async () => {
-    const res = await fetch('/content/conduct.md');
+    const res = await fetch('/content/glossary.md');
     const md = await res.text();
 
     headings = [];
