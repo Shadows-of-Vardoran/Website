@@ -223,7 +223,7 @@ As a community, we have developed euphemisms for common IRL terms to maintain im
 
 - You may take up to three unique stacks of items from a player at one time. If the player being robbed chooses to fight back, the winner may take up to five unique stacks from the loser. If the robbery victim fights back, the [PvP Rules](https://vardoran.com/rules#1-pvp) apply. Weapons and gear may only be taken from another player via a warbat. See [Warbat Rules](https://vardoran.com/rules#3-warbats).
 - You cannot kill a player and then rob them. You must choose one or the other. If you were brought into someone's castle and stole something while there, you may defend yourself against the castle owner and break out.
-- If shards are in use during a season, they may be taken from a player's bag.
+- If shards are in use during a season, they may be taken from a player's bag, but not an NPC's bag without express admin permission.
 - Players who lost items to robbery are exempt from another robbery by the same robber and their clan for two IRL days. If the robbery victim resisted, they are only exempt for one IRL day.
 
 **Looting/Raiding Castles**
