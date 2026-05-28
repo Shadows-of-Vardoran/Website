@@ -58,8 +58,8 @@
     {/if}
   </main>
 
-  <aside class="min-w-60 z-40 relative mt-5 mb-5 border-b-2 border-l-2 border-testing right-nav">
-    <nav class="scrollbar-left h-full p-4 pb-24 rounded-lg bg-background-0/10 z-10 overflow-y-auto relative">
+  <aside class="min-w-64 z-40 relative mt-5 mb-5 border-b-2 border-l-2 border-testing right-nav">
+    <nav class="scrollbar-left h-full p-4 pr-6 pb-24 rounded-lg bg-background-0/10 z-10 overflow-y-auto relative">
       {#each headings as h}
         <div style="margin-left: {(h.level - 1) * 12}px;">
           <a href={'#' + h.id} class="block py-1 text-tprimary-800 hover:text-tprimary {h.level == 3 ? 'text-md' : ''}">{h.text}</a>

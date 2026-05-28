@@ -67,4 +67,80 @@ A PhysRep is when you use an in-game item to represent something the mechanics d
 
 Find out in character. A common phrase meaning you should learn something through RP, not through OOC knowledge.
 
+---
+
+# IN-CHARACTER TERMS
+
+<div class="marked-block-info">As a community, we have developed euphemisms for common IRL terms to maintain immersion. Use of these terms is not mandatory. You are free to come up with your own. This list is a guide to commonly-used terms in the community.</div>
+
+## Combat Hex
+
+The combat debuff that appears when in combat in-game.
+
+## Fuzzy Memory
+
+Used to explain not being able to RP events or effects from unfinished or ongoing character stories threads in real-time.
+
+## Mosquito or Muscle Spasm
+
+Accidental misclicks, especially when a misclicked ability hits another player or something in their castle.
+
+## Muscles
+
+Keys on a keyboard or mouse clicks. "Training your muscles" means rebinding your keys.
+
+## Reconstitution
+
+The respawn mechanic when you have died in PvP or PvE and need to respawn at a waygate or coffin.
+
+## Sigil
+
+In-game clans.
+
+## Sigil Magic
+
+Being in a clan is "having the sigil magic" of that clan. Being protected from friendly fire by being in a clan is "having the protection of sigil magic." Sigil magic is the magic that binds characters to a sigil.
+
+## Stars
+
+A player's "stars" is their time zone. "It's late in my stars" means it is late at night for you. "If our stars align" means "if we can make our IRL schedules work." Common time zones include EST as Eastern Stars, CST as Central Stars, PST as Pacific Stars, and OST as Oceanic Stars.
+
+## Speaking Quietly/Softly
+
+Using text chat to RP instead of voice chat. If many players are in one place, someone may ask everyone to "speak softly," meaning everyone switches to the local in-game chat to avoid speaking over each other.
+
+## Spirits
+
+IRL occurrences or obligations. "I need to be with spirits" means you are going AFK. Spirits also refers to computer issues. "Spirits have affected my ears" means audio issues. "Spirits have taken my voice" means mic issues. "Spirits of labor" means employment obligations.
+
+## Telling Time
+
+We use the following terms for time. Beyond a week, we use normal IRL time units like years, decades, and centuries.
+
+- Tick: An IRL minute
+- Turn: An IRL hour
+- Cycle: An IRL day
+- Days of the Week: Moons Day (Monday), Tombs Day (Tuesday), Woods Day (Wednesday), Thralls Day or Thorns Day (Thursday), Fangs Day (Friday), Sanguines Day or Saturns Day (Saturday), Suns Day (Sunday)
+- Septurn: An IRL week
+
+## Taking a Nap
+
+Relogging, usually to fix connection issues or glitches.
+
+## Throat Rip
+
+Executing another player that has been downed. Saying someone was throat ripped means they were killed by another character rather than by PvE.
+
+## Torpor
+
+Logging off or being offline. "I need to go to torpor" means you need to log off. "I'm currently in torpor but I'll be awake later" means you are offline but will be on later.
+
+## Empowered Being
+
+V Blood.
+
+## Witching Hour
+
+Scheduled server restart.
+
 </div>

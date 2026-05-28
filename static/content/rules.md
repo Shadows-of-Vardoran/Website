@@ -24,7 +24,7 @@
 
 <div class="marked-block-info">The following topics require explicit consent from the other player(s):</div>
 
-- Erotic Roleplay (ERP): ERP is **not allowed** in the SoV Discord or in-game. This includes clan chats and whispers. **Staff can see all in-game chat logs, including clan chat and whispers.** If you ERP, it MUST take place in private DMs.
+- Erotic Roleplay (ERP): ERP is <span class="text-warm">**not allowed**</span> in the SoV Discord or in-game. This includes clan chats and whispers. <span class="text-warm">**Staff can see all in-game chat logs, including clan chat and whispers.**</span> If you ERP, it MUST take place in private DMs.
 - Torture: The intended victim must indicate their comfort level with gore before you engage in torture RP.
 - Drug-related RP: This includes truth serums, mind control drugs, lethal drugs, aphrodisiacs, and poisons. If you intend to use a truth serum, open a ticket with staff first. The player receiving the truth serum decides whether it works.
 - Magical Interactions: Putting someone under the influence of a spell, curse, or magic item.
@@ -49,7 +49,7 @@ You arrange consent via Discord or by a quick out-of-character check-in using th
 - Your character must exhibit [Fear RP](https://vardoran.com/conduct#fear-rp) and [Value of Life RP](https://vardoran.com/conduct#value-of-life-rp).
 - You are encouraged to use in-game weapons and magic that fit your character's background, abilities, skills, and knowledge.
 - All character name changes require admin approval. Open a player support ticket to request one.
-- We want this world to feel original. Do not bring 1:1 copies of existing media or real-world concepts into it. This applies to character names, backstories, lore, symbolism, religions, politics, or any other concept pulled directly from existing media or the real world. For example, do not give your character the last name Skywalker. Do not give your character a backstory that copies another media verbatim. Do not import real-world political movements or real-world religions into your RP unchanged. If staff determines a concept is a direct copy, you will be asked to change it. Pull inspiration freely, but make it your own.
+- <span class="text-warm">**We want this world to feel original. Do not bring 1:1 copies of existing media or real-world concepts into it.**</span> This applies to character names, backstories, lore, symbolism, religions, politics, or any other concept pulled directly from existing media or the real world. For example, do not give your character the last name Skywalker. Do not give your character a backstory that copies another media verbatim. Do not import real-world political movements or real-world religions into your RP unchanged. If staff determines a concept is a direct copy, you will be asked to change it. Pull inspiration freely, but make it your own.
 
 > [!CAUTION] You may not play any character unless staff has approved a whitelist application for it.
 
@@ -80,11 +80,9 @@ You arrange consent via Discord or by a quick out-of-character check-in using th
 
 <details open><summary>Click to expand/collapse Communication</summary>
 
-<div class="marked-block-info">In-character communication must occur in-game or in the designated SoV Discord channels described below.</div>
-
 ### 1. Bats
 
-Bats are letters sent between characters in the `#bats` Discord channel.
+<div class="marked-block-info">Bats are letters sent between characters in the <code>#bats</code> Discord channel.</div>
 
 - Bats are the community's method of characters sending letters to each other. They may be delivered by magic, familiars, mundane couriers, or any other in-character means. Bats are not telepathic.
 - Format bats like a letter. Start with a brief description of the delivery method, then the recipient's name, then the body, then a signature. If the letter is anonymous, indicate it is unsigned. The pinned comment in `#bats` has examples.
@@ -97,11 +95,11 @@ Bats are letters sent between characters in the `#bats` Discord channel.
 - Wax seal and familiar images at the end of a bat must be no bigger than 225x225. Images of stationery with the letter text on them are the exception.
 - Aside from wax seals and familiars, the only photographic images you may attach to bats are in-game map screenshots showing a location. You may draw things to include or describe drawings.
 - Bats may not contain emojis, with the exception of ☆ ♤ ♡ ◇ ♧ ○.
-- **Do not bother other players OOC about responding to bats. IRL always comes first.** Characters may intentionally ignore each other as part of RP. Do not RP someone being busy IRL as their character ignoring you. This is [Fail RP](https://vardoran.com/conduct#fail-rp).
+- <span class="text-warm">**Do not bother other players OOC about responding to bats. IRL always comes first.**</span> Characters may intentionally ignore each other as part of RP. Do not RP someone being busy IRL as their character ignoring you. This is [Fail RP](https://vardoran.com/conduct#fail-rp).
 
 ### 2. Waygates & Event Waygates
 
-Waygates in the `#waygates` Discord channel serve as a public notice board. Anything posted there is public knowledge. Any character who has seen a waygate may know its contents.
+<div class="marked-block-info">Waygates in the <code>#waygates</code> Discord channel serve as a public notice board. Anything posted there is public knowledge. Any character who has seen a waygate may know its contents.</div>
 
 - Format waygates like bats. Start with a brief description of the delivery method, then the body, then a signature. If the posting is anonymous, indicate it is unsigned.
 - Do not use `#waygates` for brief, text-message-like exchanges or back-and-forth replies. Use the `#documents-doorbells` channel to pass a quick note instead.
@@ -111,7 +109,7 @@ Waygates in the `#waygates` Discord channel serve as a public notice board. Anyt
 
 ### 3. Documents Channel
 
-The `#documents` channel is used to pass brief in-character notes between characters in the same location, share in-character documents, or share other in-character messages.
+<div class="marked-block-info">The <code>#documents</code> channel is used to pass brief in-character notes between characters in the same location, share in-character documents, or share other in-character messages.</div>
 
 - Emote in the in-game local chat that you pass the recipient a note or document. Describe your action between two asterisks, like `*Passes Vlad a scrap of paper*` or `*Places the flyer on the table for everyone present to see*`.
 - Tag the player in `#documents-doorbells` along with the text of the note, the document you want to share, or a link to the in-character Discord message you want them to see.
@@ -120,40 +118,20 @@ The `#documents` channel is used to pass brief in-character notes between charac
 
 ### 4. Live RP Hooks
 
-The `#live-rp-hooks` channel is used to post in-character RP hooks for people who are in-game. **Only post in `#live-rp-hooks` if you are in-game and what you are posting about can be presently interacted with or investigated by other characters.** For example, "There are strange noises coming from the bear cave" indicates your character is at the bear cave and others can come check it out. When you are no longer in-game or no longer RPing with the hook, post another message to indicate the hook is no longer active.
+<div class="marked-block-info">The <code>#live-rp-hooks</code> channel is used to post in-character RP hooks for people who are in-game.</div>
+
+<span class="text-warm">**Only post in `#live-rp-hooks` if you are in-game and what you are posting about can be presently interacted with or investigated by other characters.**</span> For example, "There are strange noises coming from the bear cave" indicates your character is at the bear cave and others can come check it out. When you are no longer in-game or no longer RPing with the hook, post another message to indicate the hook is no longer active.
 
 ### 5. Journals & Stories
 
-The `#journals-and-stories` channel is used for personal in-character journals and collaborative text RP scenes outside the game. When creating a thread, add relevant tags that match the type of journal or story you are making.
+<div class="marked-block-info">The <code>#journals-and-stories</code> channel is used for personal in-character journals and collaborative text RP scenes outside the game. When creating a thread, add relevant tags that match the type of journal or story you are making.</div>
 
 - Information in a personal journal is not known in-character to any other character unless the journal owner shares it. Using information from a character journal in-character without being shown it by its owner is [Metagaming](https://vardoran.com/conduct#metagaming).
 - You may open a character story thread to engage in collaborative text RP with other players outside the game. Create a thread and ping the relevant players. Once the scene ends, add an out-of-character message to indicate it is finished. Only the thread creator and pinged players may participate, and only those players have in-character knowledge of the contents. Using information from a character stories thread you did not create or were not pinged in is [Metagaming](https://vardoran.com/conduct#metagaming).
 
 ### 6. In-Character Communication Terms
 
-As a community, we have developed euphemisms for common IRL terms to maintain immersion. **Use of these terms is not mandatory. You are free to come up with your own.** This list is a guide to commonly-used terms in the community.
-
-- Combat Hex: The combat debuff that appears when in combat in-game.
-- Fuzzy Memory: Used to explain not being able to RP events or effects from unfinished or ongoing character stories threads in real-time.
-- Mosquito or Muscle Spasm: Accidental misclicks, especially when a misclicked ability hits another player or something in their castle.
-- Muscles: Keys on a keyboard or mouse clicks. "Training your muscles" means rebinding your keys.
-- Reconstitution: The respawn mechanic when you have died in PvP or PvE and need to respawn at a waygate or coffin.
-- Sigil: In-game clans.
-- Sigil Magic: Being in a clan is "having the sigil magic" of that clan. Being protected from friendly fire by being in a clan is "having the protection of sigil magic." Sigil magic is the magic that binds characters to a sigil.
-- Stars: A player's "stars" is their time zone. "It's late in my stars" means it is late at night for you. "If our stars align" means "if we can make our IRL schedules work." Common time zones include EST as Eastern Stars, CST as Central Stars, PST as Pacific Stars, and OST as Oceanic Stars.
-- Speaking Quietly/Softly: Using text chat to RP instead of voice chat. If many players are in one place, someone may ask everyone to "speak softly," meaning everyone switches to the local in-game chat to avoid speaking over each other.
-- Spirits: IRL occurrences or obligations. "I need to be with spirits" means you are going AFK. Spirits also refers to computer issues. "Spirits have affected my ears" means audio issues. "Spirits have taken my voice" means mic issues. "Spirits of labor" means employment obligations.
-- Telling Time. We use the following terms for time. Beyond a week, we use normal IRL time units like years, decades, and centuries.
-  - Tick: An IRL minute
-  - Turn: An IRL hour
-  - Cycle: An IRL day
-  - Days of the Week: Moons Day (Monday), Tombs Day (Tuesday), Woods Day (Wednesday), Thralls Day or Thorns Day (Thursday), Fangs Day (Friday), Sanguines Day or Saturns Day (Saturday), Suns Day (Sunday)
-  - Septurn: An IRL week
-- Taking a Nap: Relogging, usually to fix connection issues or glitches.
-- Throat Rip: Executing another player that has been downed. Saying someone was throat ripped means they were killed by another character rather than by PvE.
-- Torpor: Logging off or being offline. "I need to go to torpor" means you need to log off. "I'm currently in torpor but I'll be awake later" means you are offline but will be on later.
-- Empowered Being: V Blood.
-- Witching Hour: Scheduled server restart.
+For commonly used in-character terms and their meanings, see the [Glossary](https://vardoran.com/glossary#in-character-terms).
 
 ### 7. Miscellaneous Communication Rules
 
@@ -172,7 +150,7 @@ As a community, we have developed euphemisms for common IRL terms to maintain im
 <div class="marked-block-info">You must observe the following rules for in-game mechanics:</div>
 
 - You must remain fully in-character while in-game. The only exceptions are consent requests and check-ins.
-- You may not intentionally ash while wearing a hood or otherwise concealing your identity. Ashing means clicking the button to respawn while on your knees. You MUST let the revive timer time out or be finished off by another player.
+- You may not intentionally ash while wearing a hood or otherwise concealing your identity. Ashing means clicking the button to respawn while on your knees. <span class="text-warm">**You MUST let the revive timer time out or be finished off by another player.**</span>
 - Changing your appearance with a mirror is not valid for hiding or concealing your identity. If you want to change your appearance enough that you cannot be recognized, open a ticket to discuss the process and a name change.
 - Switch to text RP in the in-game chat if you are engaging in a side conversation in a room full of other players.
 - Do not hit castles to get another player's attention. Knock or use a doorbell. If no one answers the door, ping the player you are looking for in `#dice`.
@@ -180,20 +158,20 @@ As a community, we have developed euphemisms for common IRL terms to maintain im
 - Leave other players' bags in the open world alone. If you accidentally pick someone's things up, do your best to return the items to their owner. Robbery RP is covered in [Looting Players and Castles](https://vardoran.com/rules#2-thievery-and-looting-rules).
 - Do not search for a perfect horse. With stables, they no longer exist in the wild. Do not attack, steal, or otherwise interact with a named horse that belongs to another player.
 - Ask before joining an in-progress V-Blood fight. Most V-Bloods scale with player involvement. Hopping in unexpectedly can make the fight significantly harder.
-- If you are fighting a V Blood with other players, **wait until everyone is ready to drink the V Blood at the end of the fight.** Sometimes people have to respawn and return. Do not drink before every player who helped is ready.
+- If you are fighting a V Blood with other players, <span class="text-accent">**wait until everyone is ready to drink the V Blood at the end of the fight.**</span> Sometimes people have to respawn and return. Do not drink before every player who helped is ready.
 - Be courteous when items drop from a boss. Do not rush in and snatch everything up.
 - Break all nodes, including stone, when you are in a mine or quarry. Ore nodes have a chance of spawning as stone. If the stone is not cleared out, the mine or quarry will eventually become entirely stone.
 - Clear out all containers and chests in the overworld. If you do not want something, drag it out of the container to drop it in the overworld. This ensures the containers will refresh with full loot for the next player.
 - Kill mobs that spawn from prisoner carts and caravans, and kill the bulls that pull them. Carts can act buggy if this is not done. Leftover Draculin units can be problematic for a lower-leveled player that stumbles across a pilfered caravan.
-- Lights and flowers cause major lag on the server. We set separate limits for lights and flowers. The totals are independent of each other. A player with a 100-tile castle can have up to 40 lights **and** 40 flowers. Limits scale by heart tier:
+- Lights and flowers cause major lag on the server. We set separate limits for lights and flowers. The totals are independent of each other. A player with a 100-tile castle can have up to 40 lights <span class="text-accent">**and**</span> 40 flowers. Limits scale by heart tier:
   - T1 Heart (100 max floors). 40 lights / 40 flowers
   - T2 Heart (200 max floors). 80 lights / 80 flowers
   - T3 Heart (300 max floors). 120 lights / 120 flowers
   - T4 Heart (400 max floors). 160 lights / 160 flowers
   - T5 Heart (500 max floors). 200 lights / 200 flowers
-- One sigil may have two **house** hearts and one **business** heart. Solo players are not considered a sigil and may only have one **house** heart and one **business** heart.
-  - **House** hearts are castles where players actually live. They function as your base.
-  - **Business** hearts are castles where no players live. They serve an RP-first function.
+- One sigil may have two <span class="text-accent">**house**</span> hearts and one <span class="text-accent">**business**</span> heart. Solo players are not considered a sigil and may only have one <span class="text-accent">**house**</span> heart and one <span class="text-accent">**business**</span> heart.
+  - <span class="text-accent">**House**</span> hearts are castles where players actually live. They function as your base.
+  - <span class="text-accent">**Business**</span> hearts are castles where no players live. They serve an RP-first function.
 - You may use wolf jump, frog form, the horse dismount, horse jump, veils, or any other in-game abilities to bypass barriers and enter another player's castle without explicit permission.
 </details>
 
@@ -205,12 +183,12 @@ As a community, we have developed euphemisms for common IRL terms to maintain im
 
 ### 1. PvP
 
-> [!IMPORTANT] SoV is an open-world PvP server. **PvP encounters, including the build-up and the aftermath, must be recorded for moderation purposes. The onus to record is on the initiator.** The recording requirement does not apply to mutually agreed-upon duels, sparring, or training.
+> [!IMPORTANT] SoV is an open-world PvP server. <span class="text-warm">**PvP encounters, including the build-up and the aftermath, must be recorded for moderation purposes. The onus to record is on the initiator.**</span> The recording requirement does not apply to mutually agreed-upon duels, sparring, or training.
 
 - To initiate PvP, declare your intention in-character before attacking. You can emote in the in-game local text chat, like drawing your weapon and approaching menacingly, or state your intention aloud and allow a reasonable time for a response.
 - PvP encounters are limited to three weapons. Unarmed counts as a weapon. You may use as many weapons as you like in PvE, or in mutually agreed-upon duels, sparring, or training if all players agree.
 - Combat logging is not allowed. You must stay online for at least 15 minutes after the PvP encounter finishes. You may spend this time in a castle.
-- If you are killed by another player during PvP, **you must wait 10 minutes before returning to the location of your death, including to retrieve your dropped items.** This does not apply to deaths during mutually agreed-upon duels, sparring, combat training, standard PvE, or PvE events where staff are playing NPCs.
+- If you are killed by another player during PvP, <span class="text-warm">**you must wait 10 minutes before returning to the location of your death, including to retrieve your dropped items.**</span> This does not apply to deaths during mutually agreed-upon duels, sparring, combat training, standard PvE, or PvE events where staff are playing NPCs.
 - Outside the arena mechanic, you may not initiate PvP with a player who is 15 or more GS lower than you. For example, if you are GS 60, you may not initiate PvP with a player who is GS 45 or lower. This rule does not apply to NPCs initiating combat.
 - When participating in a duel or tournament, remove your Razor Hood if requested.
 - Kill On Sight (KOS) arrangements, such as persistent KOS wars, targeted hunts, or hiring a bounty hunter, require a Conflict Discussion Ticket for documented mutual consent. See [Kill on Sight](https://vardoran.com/conduct#6-kill-on-sight) for the community standards around this type of conflict.
@@ -275,6 +253,6 @@ As a community, we have developed euphemisms for common IRL terms to maintain im
 - To use your admin-assisted event, open an Event ticket. Indicate whether it is your personal event or a donated event. If donated, say who you received it from.
 - We have a team of Event Volunteer staff available to play NPCs in your events, whether player-run or admin-assisted. If you want Event Volunteers, open an Event ticket, even if you are not requesting admin assistance.
 - If you are requesting Event Volunteers or admin assistance, you must fill out the Event Information form before we can help you. We will not provide assistance until the form is completed.
-- **This is first and foremost a collaborative storytelling space.** If your event is in the open world, expect other players to interact with it. You may try to kick people out, but they are allowed to retaliate. See [PvP Rules](https://vardoran.com/rules#1-pvp). If your event will affect the land of Vardoran or the overarching staff story, it must be an event the server as a whole can interact with.
+- <span class="text-accent">**This is first and foremost a collaborative storytelling space.**</span> If your event is in the open world, expect other players to interact with it. You may try to kick people out, but they are allowed to retaliate. See [PvP Rules](https://vardoran.com/rules#1-pvp). If your event will affect the land of Vardoran or the overarching staff story, it must be an event the server as a whole can interact with.
 
 </details>
