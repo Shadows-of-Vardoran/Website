@@ -80,6 +80,8 @@ You arrange consent via Discord or by a quick out-of-character check-in using th
 
 <details open><summary>Click to expand/collapse Communication</summary>
 
+<div class="marked-block-info">In-character communication must occur in-game or in the designated SoV Discord channels described below.</div>
+
 ### 1. Bats
 
 <div class="marked-block-info">Bats are letters sent between characters in the <code>#bats</code> Discord channel.</div>
