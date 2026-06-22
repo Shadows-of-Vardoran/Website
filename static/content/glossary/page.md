@@ -1,3 +1,4 @@
+<!-- section:content -->
 <div class="text-2xl text-success-0 mt-3">Common RP and community terminology used across Shadows of Vardoran.</div>
 
 <div style="font-size: 1.25rem; line-height: 1.7;">

@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { useMarked } from '$lib/useMarked';
+  import { splitSections, reconstructContent } from '$lib/split-sections';
   import EditableSection from '$lib/components/EditableSection.svelte';
   import { getCmsPat } from '$lib/stores/admin.svelte';
   import { saveContent, buildCommitMessage } from '$lib/github-save';
@@ -19,36 +20,6 @@
   let saveError = $state('');
 
   const FILE_PATH = 'static/content/home/page.md';
-
-  function splitSections(md: string): Record<string, string> {
-    const result: Record<string, string> = {};
-    const lines = md.split('\n');
-    let currentKey = 'hero';
-    let currentLines: string[] = [];
-
-    for (const line of lines) {
-      const m = line.match(/^## (.+)$/);
-      if (m) {
-        result[currentKey] = currentLines.join('\n').trim();
-        currentKey = m[1].toLowerCase().replace(/\s+/g, '-');
-        currentLines = [];
-      } else {
-        currentLines.push(line);
-      }
-    }
-    result[currentKey] = currentLines.join('\n').trim();
-
-    return result;
-  }
-
-  function reconstructContent(secs: Record<string, string>): string {
-    const parts: string[] = [];
-    if (secs.hero) parts.push(secs.hero);
-    if (secs.features) parts.push('## Features\n' + secs.features);
-    if (secs.settings) parts.push('## Settings\n' + secs.settings);
-    if (secs.join) parts.push('## Join\n' + secs.join);
-    return parts.join('\n\n');
-  }
 
   async function renderSections(secs: Record<string, string>) {
     if (secs.hero) heroHtml = await parse(secs.hero);
@@ -76,7 +47,7 @@
     sections[key] = md;
     await renderSection(key, md);
 
-    const full = reconstructContent(sections);
+    const full = reconstructContent(sections, ['hero', 'features', 'settings', 'join']);
 
     if (import.meta.env.DEV) {
       await fetch('/__cms-save', {

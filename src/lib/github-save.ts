@@ -1,3 +1,5 @@
+import { dev } from '$app/environment';
+
 const OWNER = 'Shadows-of-Vardoran';
 const REPO = 'Website';
 const API_BASE = `https://api.github.com/repos/${OWNER}/${REPO}`;
@@ -17,6 +19,20 @@ async function getFileSha(path: string, pat: string): Promise<string | null> {
 }
 
 export async function saveContent(filePath: string, content: string, commitMessage: string, pat: string): Promise<{ ok: boolean; error?: string }> {
+  if (dev) {
+    try {
+      const res = await fetch('/__cms-save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ filePath, content }),
+      });
+      const result = await res.json();
+      return result;
+    } catch (e) {
+      return { ok: false, error: String(e) };
+    }
+  }
+
   try {
     const sha = await getFileSha(filePath, pat);
 

@@ -67,7 +67,7 @@
 {/if}
 
 {#if getIsAdmin()}
-  <div class="fixed bottom-4 right-4 z-40 flex items-center gap-2 px-3 py-1.5 bg-background-800/80 border border-tprimary-700 rounded">
+  <div class="fixed bottom-4 right-4 z-40 flex items-center gap-2 px-3 py-1.5 bg-background-800/80 rounded">
     <span class="text-xs text-tprimary-600 font-cinzel">Admin</span>
     <button onclick={handleLogout} class="px-2 py-0.5 text-xs bg-error-900 hover:bg-error-800 text-white font-cinzel rounded cursor-pointer border border-error-700">Lock</button>
   </div>

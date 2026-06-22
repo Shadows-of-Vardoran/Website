@@ -44,26 +44,8 @@ content:
     path: static/content/lore-realms.md
   - name: guides
     label: Guides Page
-    type: collection
-    path: static/content/guides
-    format: json
-    filename: '{primary}.json'
-    exclude: ['guides-index.json']
-    fields:
-      - name: title
-        label: Title
-        type: string
-      - name: description
-        label: Description
-        type: text
-      - name: content
-        label: Content
-        type: text
-  - name: guides-index
-    label: Guides Index Page
     type: file
-    format: json
-    path: static/content/guides/guides-index.json
+    path: static/content/guides/page.md
   - name: media-gallery
     label: Media Gallery
     type: collection

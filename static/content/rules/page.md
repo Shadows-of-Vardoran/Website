@@ -1,3 +1,4 @@
+<!-- section:content -->
 <div class="text-2xl text-success-0 mt-3">Failure to abide by our community rules is subject to disciplinary action up to and including a permanent ban from both our Discord and community V Rising server.</div>
 
 <div style="font-size: 1.25rem; line-height: 1.7;">
@@ -258,3 +259,5 @@ For commonly used in-character terms and their meanings, see the [Glossary](http
 - <span class="text-accent">**This is first and foremost a collaborative storytelling space.**</span> If your event is in the open world, expect other players to interact with it. You may try to kick people out, but they are allowed to retaliate. See [PvP Rules](https://vardoran.com/rules#1-pvp). If your event will affect the land of Vardoran or the overarching staff story, it must be an event the server as a whole can interact with.
 
 </details>
+
+</div>

@@ -1,15 +1,16 @@
+<!-- section:hero -->
 <div class="text-center text-lg">
 Step into the shadows and stake your claim in Shadows of Vardoran, an immersive Roleplay server set in the world of V Rising! Whether you're a noble vampire lord, rogue bloodmage, or exiled alchemist, your story begins here.
 </div>
 
-## Features
+<!-- section:features -->
 <div class="mb-1 text-lg text-tsecondary text-right border-b border-red-900 w-fit ml-auto">Dark Fantasy RP | Lore-Driven Worldbuilding</div>
 <div class="mb-1 text-lg text-tsecondary text-right border-b border-red-900 w-fit ml-auto">Fully RP-Enforced Environment</div>
 <div class="mb-1 text-lg text-tsecondary text-right border-b border-red-900 w-fit ml-auto">Custom Mods for Immersion & Balance</div>
 <div class="mb-1 text-lg text-tsecondary text-right border-b border-red-900 w-fit ml-auto">PvP-Enabled with Political Intrigue</div>
 <div class="text-lg text-tsecondary text-right border-b border-red-900 w-fit ml-auto">Community Events, Storylines, and Seasonal Play</div>
 
-## Settings
+<!-- section:settings -->
 <div class="flex gap-8 w-full max-xl:flex-col max-xl:gap-2">
 <div class="flex flex-col gap-1 text-lg text-tsecondary whitespace-nowrap">
 <div class="border-b border-red-900 w-fit">Brutal-Light Mode</div>
@@ -27,7 +28,7 @@ Step into the shadows and stake your claim in Shadows of Vardoran, an immersive 
 </div>
 </div>
 
-## Join
+<!-- section:join -->
 <div class="text-center text-lg">
 Join Now, Before the Shadows Fall... Whether you're a seasoned roleplayer or new to the dark gift, our staff and community will help you sink your fangs in quickly.
 </div>

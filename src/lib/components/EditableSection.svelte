@@ -25,7 +25,11 @@
   let editorEl: HTMLDivElement | undefined = $state();
   let editorView: EditorView | null = null;
 
-  let isAdmin = $derived(getIsAdmin());
+  let isAdmin = $state(false);
+
+  $effect(() => {
+    isAdmin = getIsAdmin();
+  });
 
   function openEditor() {
     editContent = rawContent;
@@ -72,15 +76,6 @@
 </script>
 
 <div class="relative group w-full">
-  {#if isAdmin && !editing}
-    <button
-      onclick={openEditor}
-      class="absolute top-2 right-2 z-10 px-2 py-1 bg-background-800/80 hover:bg-info-800 text-tprimary text-xs font-cinzel rounded opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer"
-    >
-      <i class="mdi mdi-pencil mr-1"></i>Edit
-    </button>
-  {/if}
-
   {#if editing}
     <div class="flex flex-col gap-2 w-full">
       <div bind:this={editorEl} class="border border-tprimary-700 rounded overflow-hidden"></div>
@@ -92,15 +87,19 @@
       </div>
     </div>
   {:else}
+    {#if isAdmin}
+      <button
+        onclick={openEditor}
+        class="absolute top-2 right-2 z-10 px-2 py-1 bg-background-800/80 hover:bg-info-800 text-tprimary text-xs font-cinzel rounded opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer"
+      >
+        <i class="mdi mdi-pencil mr-1"></i>Edit
+      </button>
+    {/if}
     {@render children()}
   {/if}
 </div>
 
 <style>
-  :global(.cm-editor) {
-    max-height: 70vh;
-  }
-
   :global(.cm-editor .cm-scroller) {
     font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
     font-size: 13px;
