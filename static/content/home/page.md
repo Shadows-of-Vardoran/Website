@@ -1,5 +1,5 @@
 <div class="text-center text-lg">
-Step into the shadows and stake your claim in Shadows of Vardoran, an immersive Roleplay server set in the world of V Rising! Whether you're a noble vampire lord, rogue bloodmage, or exiled alchemist, your story begins here. no one will ever believe you
+Step into the shadows and stake your claim in Shadows of Vardoran, an immersive Roleplay server set in the world of V Rising! Whether you're a noble vampire lord, rogue bloodmage, or exiled alchemist, your story begins here.
 </div>
 
 ## Features
