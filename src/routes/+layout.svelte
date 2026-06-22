@@ -9,6 +9,13 @@
   import separator1 from '$lib/assets/separator_1.png';
   import { goto } from '$app/navigation';
   import { resolve } from '$app/paths';
+  import { onMount } from 'svelte';
+  import { restoreSession } from '$lib/stores/admin.svelte';
+  import AdminUnlock from '$lib/components/AdminUnlock.svelte';
+
+  onMount(() => {
+    restoreSession();
+  });
 </script>
 
 <svelte:head>
@@ -85,6 +92,8 @@
   <div class="flex grow h-full overflow-hidden max-md:h-0 z-3">
     <slot />
   </div>
+
+  <AdminUnlock />
 </div>
 
 <style>

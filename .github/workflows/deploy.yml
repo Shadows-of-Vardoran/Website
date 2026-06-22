@@ -34,9 +34,8 @@ jobs:
           yarn build
         env:
           GITHUB_PAGES: true
-          # VITE_DISCORD_CLIENT_ID: ${{ secrets.VITE_DISCORD_CLIENT_ID }}
-          # VITE_DISCORD_REDIRECT_URI: ${{ secrets.VITE_DISCORD_REDIRECT_URI }}
-          # VITE_BACKEND_URL: ${{ secrets.VITE_BACKEND_URL }}
+          VITE_CMS_PAT: ${{ secrets.CMS_PAT }}
+          VITE_CMS_PASSWORD_HASH: ${{ secrets.CMS_PASSWORD_HASH }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

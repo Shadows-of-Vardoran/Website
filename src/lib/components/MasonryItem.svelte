@@ -22,15 +22,7 @@
 {#if item.type === 'video'}
   <div class="masonry-item relative overflow-visible cursor-pointer group">
     <div class="masonry-media-wrap">
-      <video
-        src={item.src}
-        poster={item.poster}
-        muted
-        loop
-        playsinline
-        class="w-full h-full object-cover"
-        use:observeVideo
-      ></video>
+      <video src={item.src} poster={item.poster} muted loop playsinline class="w-full h-full object-cover" use:observeVideo></video>
     </div>
     <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
       <i class="mdi mdi-play-circle-outline text-4xl text-white/70"></i>
@@ -38,9 +30,7 @@
     <img src="/assets/image_tl_corner.png" alt="" class="masonry-corner-tl pointer-events-none" />
     <img src="/assets/image_br_corner.png" alt="" class="masonry-corner-br pointer-events-none" />
     {#if item.caption}
-      <div
-        class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-300 flex items-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none"
-      >
+      <div class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-300 flex items-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none">
         <span class="text-tprimary-50 text-sm font-cinzel">{item.caption}</span>
       </div>
     {/if}
@@ -53,9 +43,7 @@
     <img src="/assets/image_tl_corner.png" alt="" class="masonry-corner-tl pointer-events-none" />
     <img src="/assets/image_br_corner.png" alt="" class="masonry-corner-br pointer-events-none" />
     {#if item.caption}
-      <div
-        class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-300 flex items-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none"
-      >
+      <div class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-300 flex items-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none">
         <span class="text-tprimary-50 text-sm font-cinzel">{item.caption}</span>
       </div>
     {/if}

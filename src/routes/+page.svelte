@@ -1,10 +1,110 @@
-<script>
-  // import fancyBorderLeft from '$lib/assets/fancy_border_left.png';
-  // import fancyBorderMiddle from '$lib/assets/fancy_border_middle.png';
-  // import fancyBorderRight from '$lib/assets/fancy_border_right.png';
+<script lang="ts">
+  import { onMount } from 'svelte';
+  import { useMarked } from '$lib/useMarked';
+  import EditableSection from '$lib/components/EditableSection.svelte';
+  import { getCmsPat } from '$lib/stores/admin.svelte';
+  import { saveContent, buildCommitMessage } from '$lib/github-save';
   import verticalSeparator1 from '$lib/assets/vertical_separator_1.png';
   import teethLogo from '$lib/assets/teeth_logo.png';
   import buttonImage from '$lib/assets/button_image.png';
+
+  const { parse } = useMarked();
+
+  let sections = $state<Record<string, string>>({});
+  let heroHtml = $state('');
+  let featuresHtml = $state('');
+  let settingsHtml = $state('');
+  let joinHtml = $state('');
+
+  let saveError = $state('');
+
+  const FILE_PATH = 'static/content/home/page.md';
+
+  function splitSections(md: string): Record<string, string> {
+    const result: Record<string, string> = {};
+    const lines = md.split('\n');
+    let currentKey = 'hero';
+    let currentLines: string[] = [];
+
+    for (const line of lines) {
+      const m = line.match(/^## (.+)$/);
+      if (m) {
+        result[currentKey] = currentLines.join('\n').trim();
+        currentKey = m[1].toLowerCase().replace(/\s+/g, '-');
+        currentLines = [];
+      } else {
+        currentLines.push(line);
+      }
+    }
+    result[currentKey] = currentLines.join('\n').trim();
+
+    return result;
+  }
+
+  function reconstructContent(secs: Record<string, string>): string {
+    const parts: string[] = [];
+    if (secs.hero) parts.push(secs.hero);
+    if (secs.features) parts.push('## Features\n' + secs.features);
+    if (secs.settings) parts.push('## Settings\n' + secs.settings);
+    if (secs.join) parts.push('## Join\n' + secs.join);
+    return parts.join('\n\n');
+  }
+
+  async function renderSections(secs: Record<string, string>) {
+    if (secs.hero) heroHtml = await parse(secs.hero);
+    if (secs.features) featuresHtml = await parse(secs.features);
+    if (secs.settings) settingsHtml = await parse(secs.settings);
+    if (secs.join) joinHtml = await parse(secs.join);
+  }
+
+  async function renderSection(key: string, md: string) {
+    if (key === 'hero') heroHtml = await parse(md);
+    else if (key === 'features') featuresHtml = await parse(md);
+    else if (key === 'settings') settingsHtml = await parse(md);
+    else if (key === 'join') joinHtml = await parse(md);
+  }
+
+  async function loadContent() {
+    const res = await fetch('/content/home/page.md');
+    if (!res.ok) return;
+    const raw = await res.text();
+    sections = splitSections(raw);
+    await renderSections(sections);
+  }
+
+  async function onSectionSave(key: string, md: string) {
+    sections[key] = md;
+    await renderSection(key, md);
+
+    const full = reconstructContent(sections);
+
+    if (import.meta.env.DEV) {
+      await fetch('/__cms-save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ filePath: FILE_PATH, content: full }),
+      });
+      return;
+    }
+
+    const pat = getCmsPat();
+    if (pat) {
+      const msg = buildCommitMessage(FILE_PATH);
+      const result = await saveContent(FILE_PATH, full, msg, pat);
+      if (result.ok) {
+        saveError = '';
+      } else {
+        saveError = result.error || 'Save failed';
+        setTimeout(() => {
+          saveError = '';
+        }, 6000);
+      }
+    }
+  }
+
+  onMount(() => {
+    loadContent();
+  });
 </script>
 
 <div class="flex flex-col items-center w-full h-full overflow-y-auto scrollbar-hidden">
@@ -12,9 +112,12 @@
     <div class="text-5xl text-tprimary font-cinzel text-center">Shadows of Vardoran</div>
     <div class="text-2xl text-tsecondary font-cinzel text-center">In the darkness, we rise</div>
 
-    <div class="text-center w-full text-lg pb-5 pt-16 px-2 fade-background-up relative">
-      Step into the shadows and stake your claim in Shadows of Vardoran, an immersive Roleplay server set in the world of V Rising! Whether you're a noble vampire lord, rogue
-      bloodmage, or exiled alchemist, your story begins here.
+    <div class="w-full pb-5 pt-16 px-2 fade-background-up relative marked">
+      <EditableSection filePath={FILE_PATH} sectionKey="hero" rawContent={sections.hero || ''} onsave={onSectionSave}>
+        {#if heroHtml}
+          {@html heroHtml}
+        {/if}
+      </EditableSection>
 
       <div class="fancy-bottom-border">
         <div class="border-left"></div>
@@ -26,13 +129,11 @@
     <div class="grid grid-cols-[2fr_240px_2fr] max-lg:flex max-lg:flex-col w-full mt-10">
       <div class="flex flex-col fade-background-left py-2 px-3 -ml-20 pl-20 max-lg:border-r-2 max-lg:border-tprimary-0">
         <div class="text-3xl text-tprimary text-right font-cinzel mb-4">Server Features</div>
-        <div class="flex flex-col items-end gap-1 text-lg text-tsecondary text-right">
-          <div class="border-b border-red-900 w-fit">Dark Fantasy RP | Lore-Driven Worldbuilding</div>
-          <div class="border-b border-red-900 w-fit">Fully RP-Enforced Environment</div>
-          <div class="border-b border-red-900 w-fit">Custom Mods for Immersion & Balance</div>
-          <div class="border-b border-red-900 w-fit">PvP-Enabled with Political Intrigue</div>
-          <div class="border-b border-red-900 w-fit">Community Events, Storylines, and Seasonal Play</div>
-        </div>
+        <EditableSection filePath={FILE_PATH} sectionKey="features" rawContent={sections.features || ''} onsave={onSectionSave}>
+          {#if featuresHtml}
+            {@html featuresHtml}
+          {/if}
+        </EditableSection>
       </div>
 
       <div class="flex items-center max-lg:hidden" style="contain: size;">
@@ -45,30 +146,21 @@
 
       <div class="flex flex-col justify-center fade-background-right py-2 px-3 -mr-20 pr-20 max-lg:border-l-2 max-lg:border-tprimary-0 max-lg:mt-6">
         <div class="text-3xl text-tprimary font-cinzel mb-4">Server Settings</div>
-        <div class="flex gap-8 w-full max-xl:flex-col max-xl:gap-2">
-          <div class="flex flex-col gap-1 text-lg text-tsecondary whitespace-nowrap">
-            <div class="border-b border-red-900 w-fit">Brutal-Light Mode</div>
-            <div class="border-b border-red-900 w-fit">500 Max Castle Tiles</div>
-            <div class="border-b border-red-900 w-fit">5 Castle Floors</div>
-            <div class="border-b border-red-900 w-fit">20m Days/40m Nights</div>
-            <div class="border-b border-red-900 w-fit">Unique Soul Shards</div>
-          </div>
-          <div class="flex flex-col gap-1 text-lg text-tsecondary">
-            <div class="border-b border-red-900 w-fit">4 Spells while Unarmed</div>
-            <div class="border-b border-red-900 w-fit">PVP Enabled</div>
-            <div class="border-b border-red-900 w-fit">Clan/Sigil Size of 12</div>
-            <div class="border-b border-red-900 w-fit">3 Hearts per Clan/Sigil...</div>
-            <div class="border-b border-red-900 w-fit">2 Home, 1 Business Heart</div>
-          </div>
-        </div>
+        <EditableSection filePath={FILE_PATH} sectionKey="settings" rawContent={sections.settings || ''} onsave={onSectionSave}>
+          {#if settingsHtml}
+            {@html settingsHtml}
+          {/if}
+        </EditableSection>
       </div>
     </div>
 
-    <div class="flex flex-col text-center w-full text-lg pt-5 mt-8 px-2 fade-background-down relative">
-      <div class="mb-6">
-        Join Now, Before the Shadows Fall... Whether you're a seasoned roleplayer or new to the dark gift, our staff and community will help you sink your fangs in quickly.
-        <br /><br />
-        Before joining, please read our <a href="/conduct" class="text-red-500 hover:text-red-400 underline">Community Standards</a>.
+    <div class="flex flex-col items-center w-full pt-5 mt-8 px-2 fade-background-down relative">
+      <div class="mb-6 marked">
+        <EditableSection filePath={FILE_PATH} sectionKey="join" rawContent={sections.join || ''} onsave={onSectionSave}>
+          {#if joinHtml}
+            {@html joinHtml}
+          {/if}
+        </EditableSection>
       </div>
 
       <div>
@@ -88,6 +180,12 @@
     </div>
   </div>
 </div>
+
+{#if saveError}
+  <div class="fixed bottom-20 right-4 z-50 px-4 py-2 bg-error-900 text-white text-sm rounded shadow-lg border border-error-700 max-w-sm">
+    <i class="mdi mdi-alert-circle mr-1"></i>Save failed: {saveError}
+  </div>
+{/if}
 
 <style>
   .fancy-bottom-border {
