@@ -71,6 +71,52 @@ export async function saveContent(filePath: string, content: string, commitMessa
   }
 }
 
+export async function uploadFile(filePath: string, base64Content: string, commitMessage: string, pat: string): Promise<{ ok: boolean; error?: string }> {
+  if (dev) {
+    try {
+      const res = await fetch('/__cms-upload', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ filePath, content: base64Content }),
+      });
+      const result = await res.json();
+      return result;
+    } catch (e) {
+      return { ok: false, error: String(e) };
+    }
+  }
+
+  try {
+    const sha = await getFileSha(filePath, pat);
+
+    const body: Record<string, string> = {
+      message: commitMessage,
+      content: base64Content,
+    };
+    if (sha) {
+      body.sha = sha;
+    }
+
+    const res = await fetch(`${API_BASE}/contents/${filePath}`, {
+      method: 'PUT',
+      headers: {
+        Authorization: `Bearer ${pat}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(body),
+    });
+
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({ message: res.statusText }));
+      return { ok: false, error: err.message || 'Unknown error' };
+    }
+
+    return { ok: true };
+  } catch (e) {
+    return { ok: false, error: String(e) };
+  }
+}
+
 export function buildCommitMessage(filePath: string): string {
   const fileName = filePath.split('/').pop() || filePath;
   return `CMS: update ${fileName}`;
