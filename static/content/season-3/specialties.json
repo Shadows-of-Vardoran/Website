@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Alchemy",
+    "icon": "🧪",
+    "colorKey": "emerald",
+    "blurb": "The art of concoction and transmutation. Alchemists brew potent elixirs, craft poisons, and transform base materials into something greater.",
+    "features": ["Potion creation and enhancement", "Poison and antidote crafting", "Material transmutation", "Unique alchemical reagent access"]
+  },
+  {
+    "name": "Animal Handling",
+    "icon": "🐾",
+    "colorKey": "amber",
+    "blurb": "Bond with the creatures of Vardoran. Animal handlers tame beasts, train mounts, and communicate with the wilds.",
+    "features": ["Tame and train creatures", "Mount specialization", "Beast communication", "Animal companion progression"]
+  },
+  {
+    "name": "Archaeology",
+    "icon": "🏛️",
+    "colorKey": "stone",
+    "blurb": "Unearth the secrets of the past. Archaeologists excavate ruins, decipher ancient texts, and recover lost artifacts.",
+    "features": ["Ruin excavation", "Artifact identification", "Ancient language deciphering", "Historical knowledge access"]
+  },
+  { "name": "Artifice", "icon": "⚙️", "colorKey": "cyan", "blurb": "The craft of magical mechanisms. Artificers build enchanted devices, automata, and intricate traps.", "features": ["Mechanical device crafting", "Automaton construction", "Trap system design", "Enchanted tool creation"] },
+  {
+    "name": "Astrology",
+    "icon": "🌙",
+    "colorKey": "indigo",
+    "blurb": "Read the stars and divine the future. Astrologers track celestial movements and interpret their meaning for kingdoms and individuals.",
+    "features": ["Celestial event prediction", "Omen interpretation", "Star chart navigation", "Lunar cycle attunement"]
+  },
+  {
+    "name": "Blacksmithing",
+    "icon": "🔨",
+    "colorKey": "orange",
+    "blurb": "Shape metal into weapons, armor, and tools. Blacksmiths are the backbone of any settlement's industry.",
+    "features": ["Weapon and armor crafting", "Masterwork quality upgrades", "Material refinement", "Custom forging commissions"]
+  },
+  { "name": "Cooking", "icon": "🍲", "colorKey": "rose", "blurb": "Nourish body and soul. Cooks prepare meals that grant temporary boons, heal the wounded, and lift spirits.", "features": ["Boon-granting meals", "Feast preparation", "Preservation techniques", "Recipe discovery"] },
+  { "name": "Diplomacy", "icon": "🤝", "colorKey": "teal", "blurb": "Words are weapons. Diplomats negotiate treaties, resolve conflicts, and forge alliances between factions.", "features": ["Treaty negotiation", "Faction reputation bonus", "Conflict mediation", "Embassy establishment"] },
+  { "name": "Divination", "icon": "🔮", "colorKey": "violet", "blurb": "Pierce the veil of time and space. Diviners glimpse possible futures and uncover hidden truths.", "features": ["Future sight glimpses", "Hidden object location", "Truth detection", "Scrying pool access"] },
+  {
+    "name": "Engineering",
+    "icon": "📐",
+    "colorKey": "blue",
+    "blurb": "Build and maintain the infrastructure of civilization. Engineers design fortifications, bridges, and complex machinery.",
+    "features": ["Fortification design", "Siege engine construction", "Structural analysis", "Blueprints and schematics"]
+  },
+  { "name": "Farming", "icon": "🌾", "colorKey": "lime", "blurb": "Tend the land and reap its bounty. Farmers cultivate crops, raise livestock, and sustain communities.", "features": ["Crop cultivation", "Livestock raising", "Seed hybridization", "Harvest festival organization"] },
+  { "name": "Herbalism", "icon": "🌿", "colorKey": "green", "blurb": "The knowledge of plants and their uses. Herbalists gather rare flora and prepare natural remedies.", "features": ["Rare plant identification", "Remedy and poultice crafting", "Poison identification", "Garden cultivation"] },
+  { "name": "Lorekeeping", "icon": "📜", "colorKey": "yellow", "blurb": "Guardians of history and knowledge. Lorekeepers maintain archives, chronicle events, and advise leaders.", "features": ["Archive maintenance", "Event chronicling", "Research access", "Advisor role benefits"] },
+  { "name": "Medicine", "icon": "💉", "colorKey": "red", "blurb": "Heal the wounded and cure the afflicted. Physicians and surgeons save lives and study the body's mysteries.", "features": ["Wound treatment", "Disease diagnosis and cure", "Surgical procedures", "Anatomical knowledge"] },
+  {
+    "name": "Mercantile",
+    "icon": "💰",
+    "colorKey": "yellow",
+    "blurb": "Trade and commerce are the lifeblood of civilization. Merchants establish routes, manage markets, and accumulate wealth.",
+    "features": ["Trade route establishment", "Market price negotiation", "Goods logistics", "Trade caravan access"]
+  },
+  {
+    "name": "Mysticism",
+    "icon": "✨",
+    "colorKey": "pink",
+    "blurb": "The study of the esoteric and the unknown. Mystics explore the boundaries of reality and commune with otherworldly forces.",
+    "features": ["Esoteric ritual performance", "Otherworldly contact", "Reality-bending meditation", "Hidden knowledge access"]
+  },
+  {
+    "name": "Performance",
+    "icon": "🎭",
+    "colorKey": "purple",
+    "blurb": "Captivate audiences with art and spectacle. Performers inspire, distract, and manipulate through creative expression.",
+    "features": ["Public performance bonuses", "Identity concealment", "Information gathering", "Audience influence abilities"]
+  },
+  { "name": "Survival", "icon": "🏕️", "colorKey": "brown", "blurb": "Thrive where others barely endure. Survivalists track, hunt, and navigate the wilds with unmatched skill.", "features": ["Expert tracking", "Wilderness navigation", "Resource gathering efficiency", "Shelter construction"] }
+]

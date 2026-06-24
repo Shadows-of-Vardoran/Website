@@ -49,7 +49,7 @@
       <button on:click={() => goto(resolve('/rules'))} class="nav-tower-button">RP Rules</button>
       <button on:click={() => goto(resolve('/glossary'))} class="nav-tower-button">Glossary</button>
       <button on:click={() => goto(resolve('/guides'))} class="nav-tower-button">Guides</button>
-      <button on:click={() => goto(resolve('/lore'))} class="nav-tower-button">Lore</button>
+      <!-- <button on:click={() => goto(resolve('/season-3'))} class="nav-tower-button">Season 3</button> -->
       <button on:click={() => goto(resolve('/media'))} class="nav-tower-button">Media</button>
       <!-- </div> -->
 
@@ -95,6 +95,38 @@
 
   <AdminUnlock />
 </div>
+
+<!--
+  Force Tailwind JIT to generate these dynamic theme classes (referenced from colorThemes.ts):
+  border-red-800/60 border-amber-800/60 border-orange-800/60 border-green-800/60 border-violet-700/60 border-indigo-900/60 border-yellow-900/60 border-stone-900/60 border-cyan-900/60 border-rose-900/60 border-teal-900/60 border-gray-900/60 border-sky-900/60
+  text-red-500 text-amber-500 text-orange-500 text-green-500 text-violet-500 text-indigo-500 text-yellow-500 text-stone-400 text-cyan-500 text-rose-500 text-teal-500 text-gray-400 text-sky-400
+  bg-red-600 bg-amber-600 bg-orange-600 bg-green-600 bg-violet-600 bg-indigo-600 bg-yellow-600 bg-stone-500 bg-cyan-600 bg-rose-600 bg-teal-600 bg-gray-500 bg-sky-600
+  bg-red-500 bg-amber-500 bg-orange-500 bg-green-500 bg-violet-500 bg-indigo-500 bg-yellow-500 bg-stone-400 bg-cyan-500 bg-rose-500 bg-teal-500 bg-gray-400 bg-sky-400
+  from-red-800/50 to-black/80 from-amber-800/50 to-black/80
+  from-orange-800/50 to-black/80 from-green-800/50 to-black/80
+  from-violet-700/50 to-black/80
+  from-indigo-800/50 to-black/80
+  from-yellow-800/50 to-black/80
+  from-stone-800/50 to-black/80
+  from-cyan-800/50 to-black/80
+  from-rose-800/50 to-black/80
+  from-teal-800/50 to-black/80
+  from-gray-800/50 to-black/80
+  from-sky-800/50 to-black/80
+  from-background-800 via-background-900 to-red-900/60
+  from-background-800 via-background-900 to-amber-900/60
+  from-background-800 via-background-900 to-orange-900/60
+  from-background-800 via-background-900 to-green-900/60
+  from-background-800 via-background-900 to-violet-900/60
+  from-background-800 via-background-900 to-indigo-900/60
+  from-background-800 via-background-900 to-yellow-900/60
+  from-background-800 via-background-900 to-stone-900/60
+  from-background-800 via-background-900 to-cyan-900/60
+  from-background-800 via-background-900 to-rose-900/60
+  from-background-800 via-background-900 to-teal-900/60
+  from-background-800 via-background-900 to-gray-900/60
+  from-background-800 via-background-900 to-sky-900/60
+-->
 
 <style>
   .bg-black-gradient {

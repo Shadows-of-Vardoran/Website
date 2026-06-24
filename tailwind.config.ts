@@ -55,6 +55,16 @@ const config = {
       fuchsia: colors.fuchsia,
       teal: colors.teal,
       yellow: colors.yellow,
+      amber: colors.amber,
+      cyan: colors.cyan,
+      emerald: colors.emerald,
+      gray: colors.gray,
+      indigo: colors.indigo,
+      lime: colors.lime,
+      pink: colors.pink,
+      rose: colors.rose,
+      stone: colors.stone,
+      violet: colors.violet,
     },
     extend: {
       colors: {
