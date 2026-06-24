@@ -28,7 +28,7 @@ const themes: Record<string, ColorTheme> = {
     modalBg: 'bg-linear-to-br from-background-800 via-background-900 to-amber-900/60',
   },
   purple: {
-    gradient: 'from-purple-900/60 to-purple-950/80',
+    gradient: 'from-purple-900/60 to-black/80',
     accent: 'text-purple-500',
     accentBg: 'bg-purple-600',
     accentDot: 'bg-purple-500',
@@ -46,7 +46,7 @@ const themes: Record<string, ColorTheme> = {
     modalBg: 'bg-linear-to-br from-background-800 via-background-900 to-green-900/60',
   },
   slate: {
-    gradient: 'from-slate-900/60 to-slate-950/80',
+    gradient: 'from-slate-900/60 to-black/80',
     accent: 'text-slate-400',
     accentBg: 'bg-slate-500',
     accentDot: 'bg-slate-400',
@@ -55,7 +55,7 @@ const themes: Record<string, ColorTheme> = {
     modalBg: 'bg-linear-to-br from-background-800 via-background-900 to-slate-900/60',
   },
   emerald: {
-    gradient: 'from-emerald-800/50 to-teal-900/60',
+    gradient: 'from-emerald-800/50 to-black/80',
     accent: 'text-emerald-500',
     accentBg: 'bg-emerald-600',
     accentDot: 'bg-emerald-500',
@@ -64,7 +64,7 @@ const themes: Record<string, ColorTheme> = {
     modalBg: 'bg-linear-to-br from-background-800 via-background-900 to-emerald-900/60',
   },
   lime: {
-    gradient: 'from-lime-800/50 to-green-900/60',
+    gradient: 'from-lime-800/50 to-black/80',
     accent: 'text-lime-500',
     accentBg: 'bg-lime-600',
     accentDot: 'bg-lime-500',
@@ -91,7 +91,7 @@ const themes: Record<string, ColorTheme> = {
     modalBg: 'bg-linear-to-br from-background-800 via-background-900 to-orange-900/60',
   },
   blue: {
-    gradient: 'from-blue-800/50 to-indigo-900/60',
+    gradient: 'from-blue-800/50 to-black/80',
     accent: 'text-blue-500',
     accentBg: 'bg-blue-600',
     accentDot: 'bg-blue-500',
@@ -172,7 +172,7 @@ const themes: Record<string, ColorTheme> = {
     modalBg: 'bg-linear-to-br from-background-800 via-background-900 to-rose-900/60',
   },
   pink: {
-    gradient: 'from-pink-800/50 to-purple-900/60',
+    gradient: 'from-pink-800/50 to-black/80',
     accent: 'text-pink-500',
     accentBg: 'bg-pink-600',
     accentDot: 'bg-pink-500',
@@ -181,7 +181,7 @@ const themes: Record<string, ColorTheme> = {
     modalBg: 'bg-linear-to-br from-background-800 via-background-900 to-pink-900/60',
   },
   brown: {
-    gradient: 'from-amber-800/50 to-orange-900/60',
+    gradient: 'from-amber-800/50 to-black/80',
     accent: 'text-amber-500',
     accentBg: 'bg-amber-600',
     accentDot: 'bg-amber-500',
