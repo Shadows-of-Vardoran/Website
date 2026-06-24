@@ -16,8 +16,9 @@ export interface Specialty {
   name: string;
   icon: string;
   colorKey: string;
-  blurb: string;
-  features: string[];
+  category: 'magical' | 'profession';
+  restriction?: string;
+  description: string;
 }
 
 export interface Nation {

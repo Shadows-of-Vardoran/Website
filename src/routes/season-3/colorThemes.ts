@@ -189,6 +189,15 @@ const themes: Record<string, ColorTheme> = {
     border: 'border-amber-900/60',
     modalBg: 'bg-linear-to-br from-background-800 via-background-900 to-amber-900/60',
   },
+  chaos: {
+    gradient: 'from-chaos-700/50 to-black/80',
+    accent: 'text-chaos-300',
+    accentBg: 'bg-chaos-400',
+    accentDot: 'bg-chaos-300',
+    accentDotVar: 'var(--color-chaos-300)',
+    border: 'border-chaos-700/60',
+    modalBg: 'bg-linear-to-br from-background-800 via-background-900 to-chaos-900/60',
+  },
 };
 
 export function getTheme(colorKey: string): ColorTheme {

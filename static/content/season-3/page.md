@@ -83,6 +83,15 @@
   </p>
 </div>
 
+<!-- section:specialties-intro -->
+With the Specialties system, you are able to take Specialty in a skill. Doing so will allow you to RP more advanced topics pertaining to that skill, whether it is a magical school or a more mundane profession.
+
+What you are able to do in-game is considered the floor. Combat magic is well known and well distributed, it is not special. Similarly, using castle magics to build and maintain your castle is standard practice and does not indicate specialization as an architect. Any RP themes that extend past that floor will require Specialty, and your level of Specialty will dictate what kinds of advanced RP themes and concepts you are able to achieve.
+
+Of course, these limits are not hard rules. They are meant to be a framework for both yourself and others to tailor your collective RP and shape everyone's character progression. The RP limits we have defined per Specialty level are meant to be example guidelines so you can get a vibe on what is accomplishable.
+
+We are inclined to trust the community with this framework as-is without any significant moderating or micromanaging. But note that if we get the sense someone is completely ignoring it or abusing it, they will be getting a talking to. This is a community social contract system, and we hope everyone respects it in practice.
+
 <!-- section:citizenship -->
 <div class="text-lg leading-relaxed">
   <p class="mb-4">

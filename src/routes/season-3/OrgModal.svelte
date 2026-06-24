@@ -35,7 +35,7 @@
         </div>
         <div class="text-xl font-cinzel font-bold text-tprimary">{org.name}</div>
         <div class="text-sm text-tprimary-400 italic mt-2">
-          <EditableSection filePath="static/content/season-3/organizations.json" sectionKey="{org.name}.tagline" rawContent={org.tagline} onsave={onsave}>
+          <EditableSection filePath="static/content/season-3/organizations.json" sectionKey="{org.name}.tagline" rawContent={org.tagline} {onsave}>
             {org.tagline}
           </EditableSection>
         </div>
@@ -45,7 +45,7 @@
         <button onclick={onclose} aria-label="Close" class="absolute top-4 right-4 text-tprimary-500 hover:text-white text-2xl cursor-pointer z-10 transition-colors">
           <i class="mdi mdi-close"></i>
         </button>
-        <EditableSection filePath="static/content/season-3/organizations.json" sectionKey="{org.name}.description" rawContent={org.description} onsave={onsave}>
+        <EditableSection filePath="static/content/season-3/organizations.json" sectionKey="{org.name}.description" rawContent={org.description} {onsave}>
           <div class="text-tprimary-200 leading-relaxed marked pr-8">
             {@html descriptionHtml}
           </div>

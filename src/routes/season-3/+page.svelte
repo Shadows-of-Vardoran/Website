@@ -12,7 +12,7 @@
 
   import RaceCard from './RaceCard.svelte';
   import RaceModal from './RaceModal.svelte';
-  import SpecialtyCard from './SpecialtyCard.svelte';
+  import { getTheme } from './colorThemes';
   import NationCard from './NationCard.svelte';
   import NationModal from './NationModal.svelte';
   import OrgCard from './OrgCard.svelte';
@@ -47,10 +47,13 @@
   let nationsIntroHtml = $state('');
   let orgsIntroHtml = $state('');
   let racesIntroHtml = $state('');
+  let specsIntroHtml = $state('');
 
   let expandedRace: number | null = $state(null);
   let expandedNation: number | null = $state(null);
   let expandedOrg: number | null = $state(null);
+  let selectedSpecialty: number = $state(0);
+  let selectedSpecHtml = $state('');
   let mapExpanded = $state(false);
   let expandedHeight = $state(200);
   let mapAspect = $state(0);
@@ -117,6 +120,13 @@
     else if (key === 'nations-intro') nationsIntroHtml = await parse(md);
     else if (key === 'organizations-intro') orgsIntroHtml = await parse(md);
     else if (key === 'races-intro') racesIntroHtml = await parse(md);
+    else if (key === 'specialties-intro') specsIntroHtml = await parse(md);
+  }
+
+  async function renderSpecHtml() {
+    if (specialties.length > 0 && specialties[selectedSpecialty]) {
+      selectedSpecHtml = await parse(specialties[selectedSpecialty].description);
+    }
   }
 
   async function loadContent() {
@@ -139,6 +149,7 @@
       if (specsRes.ok) specialties = await specsRes.json();
       if (nationsRes.ok) nations = await nationsRes.json();
       if (orgsRes.ok) organizations = await orgsRes.json();
+      await renderSpecHtml();
     } catch {
       // Graceful degradation
     } finally {
@@ -150,7 +161,7 @@
     sections[key] = md;
     await renderSection(key, md);
 
-    const full = reconstructContent(sections, ['landing', 'nations-intro', 'organizations-intro', 'races-intro', 'citizenship', 'mortality-contract', 'magic-tech-ceiling']);
+    const full = reconstructContent(sections, ['landing', 'nations-intro', 'organizations-intro', 'races-intro', 'specialties-intro', 'citizenship', 'mortality-contract', 'magic-tech-ceiling']);
 
     if (import.meta.env.DEV) {
       await fetch('/__cms-save', {
@@ -210,7 +221,9 @@
         saveError = '';
       } else {
         saveError = result.error || 'Save failed';
-        setTimeout(() => { saveError = ''; }, 6000);
+        setTimeout(() => {
+          saveError = '';
+        }, 6000);
       }
     }
   }
@@ -225,6 +238,11 @@
 
   function onOrgSave(sectionKey: string, content: string) {
     onJsonSave('static/content/season-3/organizations.json', organizations, sectionKey, content);
+  }
+
+  function onSpecialtySave(sectionKey: string, content: string) {
+    onJsonSave('static/content/season-3/specialties.json', specialties, sectionKey, content);
+    renderSpecHtml();
   }
 
   function scrollToSection(id: string) {
@@ -248,6 +266,12 @@
     }
     activeSection = current;
   }
+
+  $effect(() => {
+    if (!loading && specialties.length > 0) {
+      renderSpecHtml();
+    }
+  });
 
   $effect(() => {
     if (!loading && browser) {
@@ -306,8 +330,15 @@
           class="w-full mb-4 relative group rounded-lg border border-tprimary-900/50 cursor-pointer select-none"
           style:height={mapExpanded ? expandedHeight + 'px' : '200px'}
           style:transition={mapScale === 1 && !mapPanning ? 'height 0.5s ease' : 'none'}
-          onclick={() => { if (!mapExpanded) toggleMap(); }}
-          onkeydown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleMap(); } }}
+          onclick={() => {
+            if (!mapExpanded) toggleMap();
+          }}
+          onkeydown={(e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              toggleMap();
+            }
+          }}
           onwheel={onMapWheel}
           onpointerdown={onMapPointerDown}
           onpointermove={onMapPointerMove}
@@ -329,17 +360,40 @@
             />
             {#if !mapExpanded}
               <div class="absolute inset-0 flex items-center justify-center bg-background-900/70 group-hover:bg-sky-900/25 transition-colors pointer-events-none">
-                <span class="font-cinzel text-5xl font-bold text-tprimary-100 tracking-widest" style:text-shadow="0 0 20px rgba(0,0,0,0.8), 0 2px 4px rgba(0,0,0,0.6)">View World Map</span>
+                <span class="font-cinzel text-5xl font-bold text-tprimary-100 tracking-widest" style:text-shadow="0 0 20px rgba(0,0,0,0.8), 0 2px 4px rgba(0,0,0,0.6)"
+                  >View World Map</span
+                >
               </div>
             {:else}
               <div class="absolute top-3 right-3 flex items-center gap-2">
                 {#if mapScale > 1}
-                  <button type="button" class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 text-sm cursor-pointer" onclick={(e) => { e.stopPropagation(); mapScale = 1; mapX = 0; mapY = 0; }} onpointerdown={(e) => e.stopPropagation()}>
+                  <button
+                    type="button"
+                    class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 text-sm cursor-pointer"
+                    onclick={(e) => {
+                      e.stopPropagation();
+                      mapScale = 1;
+                      mapX = 0;
+                      mapY = 0;
+                    }}
+                    onpointerdown={(e) => e.stopPropagation()}
+                  >
                     <i class="mdi mdi-magnify-minus text-base"></i>
                     <span class="font-cinzel text-xs uppercase tracking-wider">Reset Position</span>
                   </button>
                 {/if}
-                <button type="button" class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 text-sm cursor-pointer" onclick={(e) => { e.stopPropagation(); mapExpanded = false; mapScale = 1; mapX = 0; mapY = 0; }} onpointerdown={(e) => e.stopPropagation()}>
+                <button
+                  type="button"
+                  class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 text-sm cursor-pointer"
+                  onclick={(e) => {
+                    e.stopPropagation();
+                    mapExpanded = false;
+                    mapScale = 1;
+                    mapX = 0;
+                    mapY = 0;
+                  }}
+                  onpointerdown={(e) => e.stopPropagation()}
+                >
                   <i class="mdi mdi-chevron-up text-base"></i>
                   <span class="font-cinzel text-xs uppercase tracking-wider">Collapse</span>
                 </button>
@@ -418,15 +472,89 @@
         <section id="specialties" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Specialties</h2>
-            <p class="text-tprimary-400 text-sm mb-6">
-              Choose a specialty to define your character's skills and role in the world. Each specialty grants unique abilities and progression paths.
-            </p>
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 auto-rows-min">
-              {#each specialties as specialty}
-                <SpecialtyCard {specialty} />
-              {/each}
-            </div>
-            {#if specialties.length === 0}
+            <EditableSection filePath={FILE_PATH} sectionKey="specialties-intro" rawContent={sections['specialties-intro'] || ''} onsave={onSectionSave}>
+              {@html specsIntroHtml}
+            </EditableSection>
+
+            <hr class="border-tprimary-900/30 my-6">
+
+            {#if specialties.length > 0}
+              {@const magical = specialties.filter((s) => s.category === 'magical')}
+              {@const profession = specialties.filter((s) => s.category === 'profession')}
+              {@const selected = specialties[selectedSpecialty]}
+              {@const selectedTheme = getTheme(selected.colorKey)}
+
+              <div class="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-4">
+                <!-- Left: Category lists -->
+                <div class="flex flex-col gap-3">
+                  <div>
+                    <div class="text-xs font-cinzel text-tprimary-500 uppercase tracking-wider mb-1.5">Magical</div>
+                    <div class="flex flex-col gap-0.5">
+                      {#each magical as spec, i}
+                        {@const specIdx = specialties.indexOf(spec)}
+                        {@const theme = getTheme(spec.colorKey)}
+                        <button
+                          onclick={() => (selectedSpecialty = specIdx)}
+                          class="flex items-center gap-2 px-2 py-0.5 rounded text-left transition-colors cursor-pointer {selectedSpecialty === specIdx
+                            ? 'bg-background-700/60 ' + theme.accent
+                            : 'hover:bg-background-800/40'}"
+                        >
+                          <i class="mdi mdi-{spec.icon} text-lg {selectedSpecialty !== specIdx ? theme.accent : ''}"></i>
+                          <span class="text-base font-cinzel {selectedSpecialty !== specIdx ? 'text-tprimary-400 hover:text-tprimary-100' : ''}">{spec.name}</span>
+                        </button>
+                      {/each}
+                    </div>
+                  </div>
+                  <div>
+                    <div class="text-xs font-cinzel text-tprimary-500 uppercase tracking-wider mb-1.5">Profession</div>
+                    <div class="flex flex-col gap-0.5">
+                      {#each profession as spec, i}
+                        {@const specIdx = specialties.indexOf(spec)}
+                        {@const theme = getTheme(spec.colorKey)}
+                        <button
+                          onclick={() => (selectedSpecialty = specIdx)}
+                          class="flex items-center gap-2 px-2 py-0.5 rounded text-left transition-colors cursor-pointer {selectedSpecialty === specIdx
+                            ? 'bg-background-700/60 ' + theme.accent
+                            : 'hover:bg-background-800/40'}"
+                        >
+                          <i class="mdi mdi-{spec.icon} text-lg {selectedSpecialty !== specIdx ? theme.accent : ''}"></i>
+                          <span class="text-base font-cinzel {selectedSpecialty !== specIdx ? 'text-tprimary-400 hover:text-tprimary-100' : ''}">{spec.name}</span>
+                        </button>
+                      {/each}
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Right: Detail panel -->
+                <div class="rounded-lg border {selectedTheme.border} p-5 bg-background-900/60 text-[1.125rem]" style="--dot-color: {selectedTheme.accentDotVar}">
+                  <div class="flex items-center gap-3 mb-4">
+                    <i class="mdi mdi-{selected.icon} text-3xl leading-none {selectedTheme.accent}"></i>
+                    <span class="text-xl font-cinzel font-bold leading-none {selectedTheme.accent}">{selected.name}</span>
+                    <span
+                      class="text-xs font-cinzel uppercase tracking-wider px-2 py-0.5 rounded leading-none {selected.category === 'magical'
+                        ? 'bg-cyan-900/40 text-cyan-300'
+                        : 'bg-amber-900/40 text-amber-300'}">{selected.category}</span
+                    >
+                  </div>
+
+                  {#if selected.restriction}
+                    <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border {selectedTheme.border}">
+                      <EditableSection filePath="static/content/season-3/specialties.json" sectionKey="{selected.name}.restriction" rawContent={selected.restriction} onsave={onSpecialtySave}>
+                        <span class="text-base font-cinzel font-bold uppercase tracking-wider {selectedTheme.accent}">{#each selected.restriction.split('\n') as line, i}{#if i > 0}<br>{/if}{line}{/each}</span>
+                      </EditableSection>
+                    </div>
+                  {/if}
+
+                  <EditableSection filePath="static/content/season-3/specialties.json" sectionKey="{selected.name}.description" rawContent={selected.description} onsave={onSpecialtySave}>
+                    {#if selectedSpecHtml}
+                      {@html selectedSpecHtml}
+                    {:else}
+                      <div class="text-tprimary-500 italic">Specialty details coming soon.</div>
+                    {/if}
+                  </EditableSection>
+                </div>
+              </div>
+            {:else}
               <div class="text-tprimary-500 italic p-4">Specialty information coming soon.</div>
             {/if}
           </div>

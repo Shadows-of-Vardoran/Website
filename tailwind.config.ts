@@ -65,6 +65,19 @@ const config = {
       rose: colors.rose,
       stone: colors.stone,
       violet: colors.violet,
+      chaos: {
+        50: '#f8f5ff',
+        100: '#f0e8ff',
+        200: '#e0d0ff',
+        300: '#d0b4ff',
+        400: '#b88eff',
+        500: '#9a6af5',
+        600: '#7c52cc',
+        700: '#5e3c99',
+        800: '#402966',
+        900: '#2a1a40',
+        950: '#1a0f28',
+      },
     },
     extend: {
       colors: {
