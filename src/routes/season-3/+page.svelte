@@ -48,6 +48,7 @@
   let orgsIntroHtml = $state('');
   let racesIntroHtml = $state('');
   let specsIntroHtml = $state('');
+  let specsTechHtml = $state('');
 
   let expandedRace: number | null = $state(null);
   let expandedNation: number | null = $state(null);
@@ -121,6 +122,7 @@
     else if (key === 'organizations-intro') orgsIntroHtml = await parse(md);
     else if (key === 'races-intro') racesIntroHtml = await parse(md);
     else if (key === 'specialties-intro') specsIntroHtml = await parse(md);
+    else if (key === 'specialties-tech-details') specsTechHtml = await parse(md);
   }
 
   async function renderSpecHtml() {
@@ -161,7 +163,7 @@
     sections[key] = md;
     await renderSection(key, md);
 
-    const full = reconstructContent(sections, ['landing', 'nations-intro', 'organizations-intro', 'races-intro', 'specialties-intro', 'citizenship', 'mortality-contract', 'magic-tech-ceiling']);
+    const full = reconstructContent(sections, ['landing', 'nations-intro', 'organizations-intro', 'races-intro', 'specialties-intro', 'specialties-tech-details', 'citizenship', 'mortality-contract', 'magic-tech-ceiling']);
 
     if (import.meta.env.DEV) {
       await fetch('/__cms-save', {
@@ -486,9 +488,21 @@
         <section id="specialties" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Specialties</h2>
-            <EditableSection filePath={FILE_PATH} sectionKey="specialties-intro" rawContent={sections['specialties-intro'] || ''} onsave={onSectionSave}>
-              {@html specsIntroHtml}
-            </EditableSection>
+            <div class="grid grid-cols-1 md:grid-cols-[1fr_380px] gap-4">
+              <EditableSection filePath={FILE_PATH} sectionKey="specialties-intro" rawContent={sections['specialties-intro'] || ''} onsave={onSectionSave}>
+                {@html specsIntroHtml}
+              </EditableSection>
+              <div class="p-5 rounded border border-tprimary-900/30 bg-background-800/60 self-start">
+                <div class="text-lg font-cinzel uppercase tracking-wider text-tprimary-500 mb-3">Technical Details</div>
+                <EditableSection filePath={FILE_PATH} sectionKey="specialties-tech-details" rawContent={sections['specialties-tech-details'] || ''} onsave={onSectionSave}>
+                  {#if specsTechHtml}
+                    <div class="marked text-[1.05rem]" style="--dot-color: var(--color-tprimary-500)">{@html specsTechHtml}</div>
+                  {:else}
+                    <div class="text-tprimary-500 italic">Technical details coming soon.</div>
+                  {/if}
+                </EditableSection>
+              </div>
+            </div>
 
             <hr class="border-tprimary-900/30 my-6">
 

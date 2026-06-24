@@ -138,6 +138,14 @@
   grid grid-cols-2 gap-4 mt-7
   p-4 rounded bg-background-800/60 border border-tprimary-900/30
   font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2
+
+  Inline HTML content classes (from page.md citizenship):
+  grid grid-cols-3 gap-4 mt-6
+  p-4 rounded border border-white/15 bg-white/5
+  p-4 rounded border border-sky-900/30 bg-sky-900/15
+  p-4 rounded border border-yellow-900/30 bg-yellow-900/15
+  p-4 rounded border border-green-900/30 bg-green-900/15
+  text-base text-tprimary-100
 -->
 
 <style>

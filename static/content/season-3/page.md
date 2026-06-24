@@ -92,33 +92,57 @@ Of course, these limits are not hard rules. They are meant to be a framework for
 
 We are inclined to trust the community with this framework as-is without any significant moderating or micromanaging. But note that if we get the sense someone is completely ignoring it or abusing it, they will be getting a talking to. This is a community social contract system, and we hope everyone respects it in practice.
 
+<!-- section:specialties-tech-details -->
+- 2 specialties at whitelist (level 1)
+- 3 levels per specialty
+- You may only obtain a specialty level increase once every 10 days
+- 3 specialties maximum at once
+- Max specialties will increase to 5+ over the story arc
+- You may swap a specialty for another once per season, unless new specialties are added mid-season
+- Swapping specialties does not retain levels. You start the new specialty at level 1 after completing the tasks to swap
+
 <!-- section:citizenship -->
 <div class="text-lg leading-relaxed">
   <p class="mb-4">
-    Citizenship in Season 3 offers players a way to align with the major factions of Vardoran. By pledging your allegiance, you gain safe passage through allied territories and access to faction-exclusive merchants who offer alternative paths to acquiring materials and equipment.
+    Upon whitelisting, you may select a location to be a citizen of. Citizenship comes with a tag that prevents mobs in that area from automatically aggroing you. Each region also has a selection of merchants aligned with that faction. Citizens can purchase from these merchants as an alternate means of acquiring normal equipment and materials, rather than relying solely on crafting or looting.
   </p>
   <p class="mb-4">
-    Each faction has its own reputation, culture, and network of influence. Choose wisely — your citizenship shapes how the world perceives you and what opportunities become available.
+    You may only hold citizenship in one place at a time. Brighthaven and Dunley are allied with each other, so citizenship in one allows you to roam the territory of the other without being attacked by local mobs.
+  </p>
+  <p class="mb-4">
+    There are no plotlines tied to citizenship. No NPCs, no politics, no admin-run stories. Citizenship is a flavor choice, an interesting way to approach playing the game and a detail that adds texture to your character.
+  </p>
+  <p class="mb-4">
+    Citizenship is separate from military affiliation. Being a citizen of Brighthaven does not make you a member of the Church of Luminance. Being a citizen of Rustlock does not make you part of the Transcendum's military or advanced research teams.
+  </p>
+  <p class="mb-4">
+    Citizens allied with a location are expected not to harm or kill that area's V-Bloods. If you harm or kill an allied V-Blood, you lose your citizenship. To account for this, citizens have access to a custom command that unlocks a V-Blood while standing next to them, expending material requirements instead of killing them.
   </p>
 </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-  <div class="p-4 rounded border border-tprimary-900/50 bg-background-800/40">
-    <h3 class="text-tprimary font-cinzel text-lg mb-2">Silverlight Hills</h3>
-    <p class="text-sm">Grape farmers and vintners. Access to Silverlight's trade routes and agricultural supplies.</p>
+<div class="grid grid-cols-3 gap-4 mt-6">
+  <div class="p-4 rounded border border-white/15 bg-white/5">
+    <div class="text-tprimary font-cinzel text-lg mb-1">Brighthaven</div>
+    <p class="text-base text-tprimary-100">Citizens of Brighthaven are typical residents of a Luminance-aligned city. You may also hold citizenship here if your backstory places you in a primarily Luminance nation.</p>
+    <p class="text-base text-tprimary-100">Vampires, werewolves, and Talam cannot start as citizens of Brighthaven.</p>
   </div>
-  <div class="p-4 rounded border border-tprimary-900/50 bg-background-800/40">
-    <h3 class="text-tprimary font-cinzel text-lg mb-2">Dunley Farmlands</h3>
-    <p class="text-sm">Cotton farmers and weavers. Access to Dunley's textile markets and crafting materials.</p>
+  <div class="p-4 rounded border border-sky-900/30 bg-sky-900/15">
+    <div class="text-tprimary font-cinzel text-lg mb-1">Dunley</div>
+    <p class="text-base text-tprimary-100">Loosely under Luminance control, but the Militia runs Dunley day to day. It is relaxed enough that some races can feign being human.</p>
+    <p class="text-base text-tprimary-100">Werewolves and vampires may be citizens of Dunley, as long as the Dunley Militia does not discover what they truly are.</p>
+    <p class="text-base text-tprimary-100">Talam cannot start as citizens of Dunley.</p>
   </div>
-  <div class="p-4 rounded border border-tprimary-900/50 bg-background-800/40">
-    <h3 class="text-tprimary font-cinzel text-lg mb-2">Cursed Forest</h3>
-    <p class="text-sm">Herbalists and alchemists. Access to rare reagents and protected groves.</p>
+  <div class="p-4 rounded border border-yellow-900/30 bg-yellow-900/15">
+    <div class="text-tprimary font-cinzel text-lg mb-1">Rustlock</div>
+    <p class="text-base text-tprimary-100">Rustlock is Transcendum territory, and the Transcendum do not care what you are. They care what you can do. Any race may hold citizenship here, so long as you make yourself worth keeping around.</p>
+    <p class="text-base text-tprimary-100">Those who contribute to the organization's work find the doors open. Those who do not, find them closed.</p>
   </div>
-  <div class="p-4 rounded border border-tprimary-900/50 bg-background-800/40">
-    <h3 class="text-tprimary font-cinzel text-lg mb-2">Gloomrot</h3>
-    <p class="text-sm">Mechanics and tinkers. Access to schematics and workshop tools.</p>
-  </div>
+</div>
+
+<div class="p-4 rounded border border-green-900/30 bg-green-900/15 mt-4">
+  <div class="text-tprimary font-cinzel text-lg mb-1">Animal Faction Ally</div>
+  <p class="text-base text-tprimary-100">If you request it and it matches your character lore, we will hand out faction ally tags for animal factions.</p>
+  <p class="text-base text-tprimary-100">Talam, by default, receive the bear faction tag.</p>
 </div>
 
 <!-- section:mortality-contract -->
