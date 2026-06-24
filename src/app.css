@@ -2,6 +2,12 @@
 @import '@mdi/font/css/materialdesignicons.min.css';
 @import '@fortawesome/fontawesome-free/css/all.css';
 @config "../tailwind.config.ts";
+
+@theme {
+  --color-black: oklab(0 0 0);
+  --color-white: oklab(1 0 0);
+}
+
 @layer base {
 }
 
