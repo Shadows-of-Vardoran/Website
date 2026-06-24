@@ -28,8 +28,8 @@
     { id: 'nations', label: 'Nations' },
     { id: 'organizations', label: 'Organizations' },
     { id: 'playable-races', label: 'Playable Races' },
-    { id: 'specialties', label: 'Specialties' },
     { id: 'citizenship', label: 'Citizenship' },
+    { id: 'specialties', label: 'Specialties' },
     { id: 'mortality-contract', label: 'Mortality Contract' },
     { id: 'magic-tech-ceiling', label: 'Magic & Tech' },
   ];
@@ -468,7 +468,21 @@
           </div>
         </section>
 
-        <!-- Section 5: Specialties -->
+        <!-- Section 5: Citizenship -->
+        <section id="citizenship" class="mb-12 scroll-mt-8">
+          <div class="fade-background-up p-4 rounded-lg">
+            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Citizenship</h2>
+            <EditableSection filePath={FILE_PATH} sectionKey="citizenship" rawContent={sections.citizenship || ''} onsave={onSectionSave}>
+              {#if citizenshipHtml}
+                {@html citizenshipHtml}
+              {:else}
+                <div class="text-tprimary-500 italic">Citizenship information coming soon.</div>
+              {/if}
+            </EditableSection>
+          </div>
+        </section>
+
+        <!-- Section 6: Specialties -->
         <section id="specialties" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Specialties</h2>
@@ -557,20 +571,6 @@
             {:else}
               <div class="text-tprimary-500 italic p-4">Specialty information coming soon.</div>
             {/if}
-          </div>
-        </section>
-
-        <!-- Section 6: Citizenship -->
-        <section id="citizenship" class="mb-12 scroll-mt-8">
-          <div class="fade-background-up p-4 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Citizenship</h2>
-            <EditableSection filePath={FILE_PATH} sectionKey="citizenship" rawContent={sections.citizenship || ''} onsave={onSectionSave}>
-              {#if citizenshipHtml}
-                {@html citizenshipHtml}
-              {:else}
-                <div class="text-tprimary-500 italic">Citizenship information coming soon.</div>
-              {/if}
-            </EditableSection>
           </div>
         </section>
 
