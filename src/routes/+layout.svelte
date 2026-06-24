@@ -133,6 +133,11 @@
   from-background-800 via-background-900 to-gray-900/60
   from-background-800 via-background-900 to-sky-900/60
   from-background-800 via-background-900 to-blue-900/60
+
+  Inline HTML content classes (from races.json):
+  grid grid-cols-2 gap-4 mt-7
+  p-4 rounded bg-background-800/60 border border-tprimary-900/30
+  font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2
 -->
 
 <style>

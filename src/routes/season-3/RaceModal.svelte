@@ -18,16 +18,9 @@
   let theme = $derived(getTheme(race.colorKey));
   let { parse } = useMarked();
   let descriptionHtml = $derived(parse(race.description || race.blurb));
-  let mechanicsSummaryHtml = $derived(parse(race.mechanics.summary));
 
   function handleBackdropClick(e: MouseEvent) {
     if (e.target === e.currentTarget) onclose?.();
-  }
-
-  function makeSave(field: string) {
-    return (key: string, content: string) => {
-      onsave?.(key, content);
-    };
   }
 </script>
 
@@ -54,56 +47,10 @@
         </button>
 
         <EditableSection filePath="static/content/season-3/races.json" sectionKey="{race.name}.description" rawContent={race.description || race.blurb} {onsave}>
-          <div class="text-tprimary-200 leading-relaxed marked pr-8">
+          <div class="text-tprimary-200 leading-relaxed marked pr-8" style="--dot-color: {theme.accentDotVar}">
             {@html descriptionHtml}
           </div>
         </EditableSection>
-
-        {#if race.mechanics.summary || race.mechanics.restrictions || race.mechanics.benefits || race.mechanics.mortalityContract}
-          <div class="mt-6" style="--dot-color: {theme.accentDotVar}">
-            <div class="grid grid-cols-3 gap-4">
-              {#if race.mechanics.summary}
-                <div class="col-span-3 p-4 rounded bg-background-800/60 border border-tprimary-900/30">
-                  <div class="text-sm font-cinzel text-tprimary-500 mb-2 uppercase tracking-wider">Mechanics</div>
-                  <EditableSection filePath="static/content/season-3/races.json" sectionKey="{race.name}.mechanics.summary" rawContent={race.mechanics.summary} {onsave}>
-                    <div class="text-base text-tprimary-300 leading-relaxed marked">
-                      {@html mechanicsSummaryHtml}
-                    </div>
-                  </EditableSection>
-                </div>
-              {/if}
-              {#if race.mechanics.restrictions}
-                <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
-                  <div class="text-sm font-cinzel text-tprimary-500 mb-2 uppercase tracking-wider">Restrictions</div>
-                  <EditableSection filePath="static/content/season-3/races.json" sectionKey="{race.name}.mechanics.restrictions" rawContent={race.mechanics.restrictions} {onsave}>
-                    <div class="text-base text-tprimary-300">{@html race.mechanics.restrictions}</div>
-                  </EditableSection>
-                </div>
-              {/if}
-              {#if race.mechanics.benefits}
-                <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
-                  <div class="text-sm font-cinzel text-tprimary-500 mb-2 uppercase tracking-wider">Benefits</div>
-                  <EditableSection filePath="static/content/season-3/races.json" sectionKey="{race.name}.mechanics.benefits" rawContent={race.mechanics.benefits} {onsave}>
-                    <div class="text-base text-tprimary-300">{@html race.mechanics.benefits}</div>
-                  </EditableSection>
-                </div>
-              {/if}
-              {#if race.mechanics.mortalityContract}
-                <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
-                  <div class="text-sm font-cinzel text-tprimary-500 mb-2 uppercase tracking-wider">Mortality Contract</div>
-                  <EditableSection
-                    filePath="static/content/season-3/races.json"
-                    sectionKey="{race.name}.mechanics.mortalityContract"
-                    rawContent={race.mechanics.mortalityContract}
-                    {onsave}
-                  >
-                    <div class="text-base text-tprimary-300">{@html race.mechanics.mortalityContract}</div>
-                  </EditableSection>
-                </div>
-              {/if}
-            </div>
-          </div>
-        {/if}
       </div>
     </div>
 

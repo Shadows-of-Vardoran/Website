@@ -37,15 +37,6 @@ export const useMarked = () => {
       return `<h${depth} id="${id}">${safeText}</h${depth}>`;
     };
 
-    // we want to replace bullet points with a custom icon
-    // renderer.listitem = (token) => {
-    //   // Render the tokens as HTML
-    //   const html = Array.isArray(token.tokens) ? marked.parser(token.tokens) : String(token.text || '');
-    //   return `<li class="list-none flex items-start mb-2">
-    //         <span class="inline-block w-3 h-3 mt-[0.6rem] mr-2 bg-tprimary-500 rounded-xs flex-shrink-0"></span>
-    //         <span class="flex-grow">${html}</span>
-    //       </li>`;
-    // };
     let depth = 0;
     let isOrdered = false;
 
@@ -62,30 +53,29 @@ export const useMarked = () => {
 
     renderer.listitem = function (token) {
       const html = Array.isArray(token.tokens) ? marked.parser(token.tokens, { renderer }) : String(token.text || '');
-      let dot;
       if (isOrdered) {
-        dot = `<span class="inline-block w-4 mr-1 flex-shrink-0 font-bold text-tprimary-50 marked-ol-num"></span>`;
+        return `<li class="flex items-start mb-2"><span class="inline-block w-4 mr-1 shrink-0 font-bold text-tprimary-50 marked-ol-num">${html}</span></li>`;
       } else if (depth === 1) {
-        dot = `<span class="inline-block w-3 h-3 mt-[0.6rem] mr-2 bg-tprimary-500 rounded-xs flex-shrink-0"></span>`;
+        const dot = `<span class="inline-block w-2 h-2 mt-[0.55em] mr-2 rounded-full shrink-0" style="background-color:var(--dot-color, var(--color-tprimary-500))"></span>`;
+        return `<li class="flex items-start mb-2">${dot}<span class="flex-grow">${html}</span></li>`;
       } else {
-        dot = `<span class="inline-block w-3 h-3 mt-[0.5rem] mr-2 flex-shrink-0" style="background: none;">
-          <svg width="16" height="16" viewBox="0 0 16 16">
-            <polygon points="8,2 14,8 8,14 2,8" fill="#A855F7"/>
-          </svg>
-        </span>`;
+        const dot = `<span class="inline-block w-2 h-2 mt-[0.5em] mr-2 shrink-0" style="background:none"><svg width="12" height="12" viewBox="0 0 16 16"><polygon points="8,2 14,8 8,14 2,8" fill="#A855F7"/></svg></span>`;
+        return `<li class="flex items-start mb-2">${dot}<span class="flex-grow">${html}</span></li>`;
       }
-      return `<li class="list-none flex items-start mb-2">${dot}<span class="flex-grow">${html}</span></li>`;
     };
 
     renderer.html = (token) => {
       let text = token.text;
 
-      if (token.text.includes('<img')) {
-        // pull out the classes
-        const classMatch = token.text.match(/class="([^"]*)"/);
+      text = text.replace(/((?:^|\n)((?:- .+\n?)+))/g, (_match, block) => {
+        const listHtml = marked.parse(block.trim(), { renderer });
+        return '\n' + listHtml;
+      });
 
-        // remove the class from the original img tag
-        let textWithoutClass = token.text.replace(/class="[^"]*"/, '');
+      if (text.includes('<img')) {
+        const classMatch = text.match(/class="([^"]*)"/);
+
+        let textWithoutClass = text.replace(/class="[^"]*"/, '');
         return `
           <div class="marked-image ${classMatch ? classMatch[1] : ''}">
             <img src="assets/image_tl_corner.png" alt="" class="tl-corner" />

@@ -4,12 +4,6 @@ export interface Race {
   colorKey: string;
   blurb: string;
   description: string;
-  mechanics: {
-    summary: string;
-    restrictions: string;
-    benefits: string;
-    mortalityContract: string;
-  };
 }
 
 export interface Specialty {

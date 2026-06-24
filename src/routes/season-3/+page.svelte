@@ -526,7 +526,7 @@
                 </div>
 
                 <!-- Right: Detail panel -->
-                <div class="rounded-lg border {selectedTheme.border} p-5 bg-background-900/60 text-[1.125rem]" style="--dot-color: {selectedTheme.accentDotVar}">
+                <div class="marked rounded-lg border {selectedTheme.border} p-5 bg-background-900/60 text-[1.125rem]" style="--dot-color: {selectedTheme.accentDotVar}">
                   <div class="flex items-center gap-3 mb-4">
                     <i class="mdi mdi-{selected.icon} text-3xl leading-none {selectedTheme.accent}"></i>
                     <span class="text-xl font-cinzel font-bold leading-none {selectedTheme.accent}">{selected.name}</span>
