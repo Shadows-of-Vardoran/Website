@@ -117,6 +117,15 @@ body {
     border-bottom: 1px solid color-mix(in srgb, var(--color-tprimary-900) 30%, transparent);
   }
 
+  td:first-child {
+    white-space: nowrap;
+    min-width: 5rem;
+  }
+
+  td:nth-child(2) {
+    min-width: 11rem;
+  }
+
   a {
     color: var(--color-info-0);
     text-decoration: underline;

@@ -2,22 +2,24 @@
   import type { Race } from './types';
   import { getTheme } from './colorThemes';
   import brBorderDecoration2 from '$lib/assets/br_border_decoration_2.png';
-  import { useMarked } from '$lib/useMarked';
   import EditableSection from '$lib/components/EditableSection.svelte';
 
   let {
     race,
+    descriptionHtml,
+    rawContent,
     onclose,
     onsave,
   }: {
     race: Race;
+    descriptionHtml: string;
+    rawContent: string;
     onclose?: () => void;
     onsave?: (sectionKey: string, content: string) => void;
   } = $props();
 
   let theme = $derived(getTheme(race.colorKey));
-  let { parse } = useMarked();
-  let descriptionHtml = $derived(parse(race.description || race.blurb));
+  const sectionKey = race.name.toLowerCase().replace(/\s+/g, '-');
 
   function handleBackdropClick(e: MouseEvent) {
     if (e.target === e.currentTarget) onclose?.();
@@ -46,7 +48,7 @@
           <i class="mdi mdi-close"></i>
         </button>
 
-        <EditableSection filePath="static/content/season-3/races.json" sectionKey="{race.name}.description" rawContent={race.description || race.blurb} {onsave}>
+        <EditableSection filePath="static/content/season-3/races.md" sectionKey="{race.name}.description" rawContent={rawContent} {onsave}>
           <div class="text-tprimary-200 leading-relaxed marked pr-8" style="--dot-color: {theme.accentDotVar}">
             {@html descriptionHtml}
           </div>

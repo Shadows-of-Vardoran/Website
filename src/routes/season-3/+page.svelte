@@ -32,6 +32,7 @@
     { id: 'specialties', label: 'Specialties' },
     { id: 'mortality-contract', label: 'Mortality Contract' },
     { id: 'magic-tech-ceiling', label: 'Magic & Tech' },
+    { id: 'commands', label: 'Commands' },
   ];
 
   let loading = $state(true);
@@ -49,6 +50,7 @@
   let racesIntroHtml = $state('');
   let specsIntroHtml = $state('');
   let specsTechHtml = $state('');
+  let commandsHtml = $state('');
 
   let expandedRace: number | null = $state(null);
   let expandedNation: number | null = $state(null);
@@ -109,6 +111,8 @@
     mapPanning = false;
   }
   let races: Race[] = $state([]);
+  let raceDescriptions: Record<string, string> = $state({});
+  let raceSections: Record<string, string> = $state({});
   let specialties: Specialty[] = $state([]);
   let nations: Nation[] = $state([]);
   let organizations: Organization[] = $state([]);
@@ -123,6 +127,7 @@
     else if (key === 'races-intro') racesIntroHtml = await parse(md);
     else if (key === 'specialties-intro') specsIntroHtml = await parse(md);
     else if (key === 'specialties-tech-details') specsTechHtml = await parse(md);
+    else if (key === 'commands') commandsHtml = await parse(md);
   }
 
   async function renderSpecHtml() {
@@ -133,9 +138,10 @@
 
   async function loadContent() {
     try {
-      const [pageRes, racesRes, specsRes, nationsRes, orgsRes] = await Promise.all([
+      const [pageRes, racesRes, racesMdRes, specsRes, nationsRes, orgsRes] = await Promise.all([
         fetch('/content/season-3/page.md'),
         fetch('/content/season-3/races.json'),
+        fetch('/content/season-3/races.md'),
         fetch('/content/season-3/specialties.json'),
         fetch('/content/season-3/nations.json'),
         fetch('/content/season-3/organizations.json'),
@@ -148,6 +154,17 @@
       }
 
       if (racesRes.ok) races = await racesRes.json();
+      if (racesMdRes.ok) {
+        const raw = await racesMdRes.text();
+        raceSections = splitSections(raw);
+        const parsed: Record<string, string> = {};
+        await Promise.all(
+          Object.entries(raceSections).map(async ([key, md]) => {
+            parsed[key] = await parse(md);
+          })
+        );
+        raceDescriptions = parsed;
+      }
       if (specsRes.ok) specialties = await specsRes.json();
       if (nationsRes.ok) nations = await nationsRes.json();
       if (orgsRes.ok) organizations = await orgsRes.json();
@@ -163,7 +180,7 @@
     sections[key] = md;
     await renderSection(key, md);
 
-    const full = reconstructContent(sections, ['landing', 'nations-intro', 'organizations-intro', 'races-intro', 'specialties-intro', 'specialties-tech-details', 'citizenship', 'mortality-contract', 'magic-tech-ceiling']);
+    const full = reconstructContent(sections, ['landing', 'nations-intro', 'organizations-intro', 'races-intro', 'specialties-intro', 'specialties-tech-details', 'citizenship', 'mortality-contract', 'magic-tech-ceiling', 'commands']);
 
     if (import.meta.env.DEV) {
       await fetch('/__cms-save', {
@@ -230,8 +247,38 @@
     }
   }
 
-  function onRaceSave(sectionKey: string, content: string) {
-    onJsonSave('static/content/season-3/races.json', races, sectionKey, content);
+  const RACES_MD_PATH = 'static/content/season-3/races.md';
+  const RACES_SECTION_ORDER = ['vampire', 'human', 'werewolf', 'mytt', 'talam'];
+
+  async function onRaceSave(sectionKey: string, content: string) {
+    const key = sectionKey.replace(/^.*?\./, '').toLowerCase().replace(/\s+/g, '-');
+    raceSections[key] = content;
+    raceDescriptions[key] = await parse(content);
+
+    const full = reconstructContent(raceSections, RACES_SECTION_ORDER);
+
+    if (import.meta.env.DEV) {
+      await fetch('/__cms-save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ filePath: RACES_MD_PATH, content: full }),
+      });
+      return;
+    }
+
+    const pat = getCmsPat();
+    if (pat) {
+      const msg = buildCommitMessage(RACES_MD_PATH);
+      const result = await saveContent(RACES_MD_PATH, full, msg, pat);
+      if (result.ok) {
+        saveError = '';
+      } else {
+        saveError = result.error || 'Save failed';
+        setTimeout(() => {
+          saveError = '';
+        }, 6000);
+      }
+    }
   }
 
   function onNationSave(sectionKey: string, content: string) {
@@ -615,6 +662,20 @@
             </EditableSection>
           </div>
         </section>
+
+        <!-- Section 9: Commands -->
+        <section id="commands" class="mb-12 scroll-mt-8">
+          <div class="fade-background-up p-4 rounded-lg">
+            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Commands</h2>
+            <EditableSection filePath={FILE_PATH} sectionKey="commands" rawContent={sections.commands || ''} onsave={onSectionSave}>
+              {#if commandsHtml}
+                <div class="marked">{@html commandsHtml}</div>
+              {:else}
+                <div class="text-tprimary-500 italic">Commands coming soon.</div>
+              {/if}
+            </EditableSection>
+          </div>
+        </section>
       {/if}
     </div>
 
@@ -647,7 +708,7 @@
 </div>
 
 {#if expandedRace !== null}
-  <RaceModal race={races[expandedRace]} onclose={() => (expandedRace = null)} onsave={onRaceSave} />
+  <RaceModal race={races[expandedRace]} descriptionHtml={raceDescriptions[races[expandedRace].name.toLowerCase().replace(/\s+/g, '-')] || ''} rawContent={raceSections[races[expandedRace].name.toLowerCase().replace(/\s+/g, '-')] || ''} onclose={() => (expandedRace = null)} onsave={onRaceSave} />
 {/if}
 
 {#if expandedNation !== null}

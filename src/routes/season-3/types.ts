@@ -3,7 +3,6 @@ export interface Race {
   tagline: string;
   colorKey: string;
   blurb: string;
-  description: string;
 }
 
 export interface Specialty {

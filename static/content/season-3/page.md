@@ -146,30 +146,52 @@ We are inclined to trust the community with this framework as-is without any sig
 </div>
 
 <!-- section:mortality-contract -->
-<div class="text-lg leading-relaxed">
-  <p class="mb-4">
-    The Mortality Contract is the binding agreement that governs the cycle of death and rebirth in Vardoran. All characters are subject to its terms.
-  </p>
+The mortality contract applies to all mortal player races. It governs how injuries are classified, when medical RP is required, and what happens when a character reaches the end of their mortality. The specific settings that determine how many critical injuries a race can survive, and what options are available upon death, are defined in each race's own document.
 
-  <div class="marked-block-info mt-4 mb-4">
-    <strong>Core Principles:</strong>
-  </div>
-  <ul class="list-disc pl-6 mb-4">
-    <li>Death is not the end — but it has consequences.</li>
-    <li>Each character has a limited number of resurrection charges per season.</li>
-    <li>Permanent death is always the player's choice and cannot be forced by another player.</li>
-    <li>Characters who exhaust their resurrection charges face final death.</li>
-  </ul>
+### Definitions
 
-  <div class="marked-block-info mt-4 mb-4">
-    <strong>Resurrection Tiers:</strong>
-  </div>
-  <ul class="list-disc pl-6">
-    <li><strong>Minor Death:</strong> Costs one charge. Character returns with minor fatigue.</li>
-    <li><strong>Major Death:</strong> Costs two charges. Character returns with a lingering wound.</li>
-    <li><strong>Catastrophic Death:</strong> Costs three charges. Character returns permanently marked.</li>
-  </ul>
-</div>
+- **Bag Drop:** When a character is reduced to an in-game death screen.
+- **Minor Injury:** A bag drop that carries no mechanical consequence and does not require MedRP.
+- **Critical Injury:** A bag drop that requires MedRP within three IRL days to survive. What counts as a critical injury is defined below.
+- **MedRP:** Roleplay focused on treating injuries. The injured party describes their injuries through emotes, which are then responded to by the party attempting to tend to them.
+- **Blood Pool:** A mortal character's blood pool decreases by 10% with each PvE bag drop. A full blood pool has 10 increments.
+
+### Injury Classification
+
+Not all bag drops carry the same weight. Every bag drop is classified as either a minor injury or a critical injury.
+
+#### Critical Injuries
+
+The following bag drops are always critical injuries:
+
+- All PvP bag drops.
+- Any PvE bag drop that would empty your blood pool and set you to frail.
+
+#### Minor Injuries
+
+Any PvE bag drop that does not empty your blood pool is a minor injury. Your blood pool decreases by 10% with each one. This means you can sustain up to 9 minor injuries before your 10th PvE death empties your pool and becomes a critical injury.
+
+Minor injuries have no mechanical requirement attached to them. However, players are encouraged to treat them as something their character genuinely experienced. Respawning after a PvE death should be roleplayed as escaping and recovering from the wounds just received, not ignored entirely. There is no rule enforcing this, but it is expected as part of good faith RP on the server.
+
+### I Got a Critical Injury. What Do I Do?
+
+You have three IRL days to receive MedRP. MedRP must be provided by a player who holds the Doctoring specialty at any tier. MedRP from a player without this specialty does not count toward surviving a critical injury.
+
+When MedRP is successfully completed, the treating doctor uses a custom command they have access to in order to restore your blood pool and resolve the critical injury.
+
+If MedRP is not received within the three day window, it counts as death under the terms of your race's mortality settings.
+
+Individual race documents may define exceptions to the MedRP requirement.
+
+### What Happens When My Character Dies?
+
+Critical injury tracking is handled automatically in-game. Players and admins both receive notifications when a critical injury is sustained. If your character exhausts their critical injuries and reaches death, open a contract ticket to discuss what happens to your character next.
+
+### Bag Camping
+
+It is against the rules to camp a mortal character's bag after a critical injury. Once a character has been reduced to their bag, treat them as defeated and move on as is natural for the scene.
+
+If it is natural for a character to remain in the area (for example, the bag dropped in their own castle or another location they have a reason to occupy) they are not required to leave. If a bag is dropped in a castle, the bag must remain accessible unless consent to restrict access has been given in a conflict ticket or warbat.
 
 <!-- section:magic-tech-ceiling -->
 <div class="text-lg leading-relaxed">
@@ -199,3 +221,35 @@ We are inclined to trust the community with this framework as-is without any sig
     <li>No communication beyond line-of-sight or messenger.</li>
   </ul>
 </div>
+
+<!-- section:commands -->
+### General
+
+| Command | Description |
+|---|---|
+| `.sov help` | Lists all available commands |
+| `.sov drawblood` | Bottles your own blood (humans only, once per day) |
+
+### Blacksmithing
+
+| Command | Description |
+|---|---|
+| `.sov forge` | Placeholder blacksmithing command |
+
+### Tailoring
+
+| Command | Description |
+|---|---|
+| `.sov weave` | Placeholder tailoring command |
+
+### Alchemy
+
+| Command | Description |
+|---|---|
+| `.sov brew` | Placeholder alchemy command |
+
+### Doctor
+
+| Command | Description |
+|---|---|
+| `.sov medrp` | Placeholder doctor command |
