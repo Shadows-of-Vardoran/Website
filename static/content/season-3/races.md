@@ -193,7 +193,7 @@ Humans are mortal and carry no innate magic. Blood magic is entirely beyond thei
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Benefits</span>
 - Immune to garlic, silver, and sunlight.
 - Passive +75 resistance to holy damage.
-- Can bottle their own blood once per day using .sov drawblood.
+- Can bottle their own blood once per day using [`.sov drawblood`](#cmd-general).
 - Can change which 2 magic schools they channel through sufficient RP.
 - Blood type starts between 30 and 39% and can be advanced through progression quests.
   </div>
@@ -204,8 +204,9 @@ Humans are mortal and carry no innate magic. Blood magic is entirely beyond thei
 Humans can survive 3 critical injuries.
 
 - Medical RP must be received within 3 IRL days of a critical injury to survive it.
-- Must be treated by a doctor specialist.
+- Must be treated by a doctor specialist using [`.sov treat <player>`](#cmd-doctor) or [`.sov revive`](#cmd-doctor).
 - Upon death (third critical injury or untreated injury), the player may choose to kill the character or turn into a vampire.
+- Check your injury status at any time with [`.sov mortality status`](#cmd-mortality).
 
 ## Character Fate
 
@@ -262,7 +263,7 @@ Werewolves have Sun Invulnerability, a specialized werewolf shapeshifting form, 
   </div>
   <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Benefits</span>
-- Access to werewolf shapeshifts at start.
+- Access to werewolf shapeshifts at start. The werewolf form overrides the normal bear form.
 - No Blood Drain and start at 100% creature.
 - May add an additional blood type via blood quests mid-season.
   </div>
@@ -276,8 +277,9 @@ Werewolves are mortal player characters bound by the mortality contract, but the
 - A werewolf character can sustain nine critical injuries before death.
 - Unlike humans, MedRP is not required to recover from a critical injury.
 - When a werewolf sustains a critical injury, they receive a temporary debuff. This debuff lasts approximately one hour and resolves on its own.
-- A doctor may optionally provide MedRP to remove the debuff early, but this is not required for survival.
+- A doctor may optionally provide MedRP to remove the debuff early, but this is not required for survival. See the [Doctor Commands](#cmd-doctor) section for available commands.
 - If a werewolf dies with an already present critical injury, they permanently die.
+- Check your injury status at any time with [`.sov mortality status`](#cmd-mortality).
 
 ## Becoming & RPing a Werewolf
 
@@ -454,8 +456,9 @@ Talam are mortal and carry an innate connection to the natural magics of the wor
 Talam can survive 6 critical injuries.
 
 - Medical RP must be received within 3 IRL days of a critical injury to survive it.
-- Must be treated by a doctor specialist.
+- Must be treated by a doctor specialist using [`.sov treat <player>`](#cmd-doctor) or [`.sov revive`](#cmd-doctor).
 - Upon death (Sixth critical injury or untreated injury), the character dies, reclaimed by nature.
+- Check your injury status at any time with [`.sov mortality status`](#cmd-mortality).
 
 # Playing a Talam
 You were human once, not too long ago - even. When the world began to change, you changed with it. Magic poured into every nook and cranny of the earth itself, but the earth refused to let it fully claim you.

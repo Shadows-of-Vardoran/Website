@@ -55,6 +55,10 @@
   let expandedRace: number | null = $state(null);
   let expandedNation: number | null = $state(null);
   let expandedOrg: number | null = $state(null);
+  let orgSections: Record<string, string> = $state({});
+  let orgDescriptions: Record<string, string> = $state({});
+  let specSections: Record<string, string> = $state({});
+  let specDescriptions: Record<string, string> = $state({});
   let selectedSpecialty: number = $state(0);
   let selectedSpecHtml = $state('');
   let mapExpanded = $state(false);
@@ -132,19 +136,30 @@
 
   async function renderSpecHtml() {
     if (specialties.length > 0 && specialties[selectedSpecialty]) {
-      selectedSpecHtml = await parse(specialties[selectedSpecialty].description);
+      const key = specKey(specialties[selectedSpecialty].name);
+      selectedSpecHtml = specDescriptions[key] || '';
     }
+  }
+
+  function specKey(name: string): string {
+    return name.toLowerCase().replace(/\s+/g, '-');
+  }
+
+  function orgKey(name: string): string {
+    return name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '');
   }
 
   async function loadContent() {
     try {
-      const [pageRes, racesRes, racesMdRes, specsRes, nationsRes, orgsRes] = await Promise.all([
+      const [pageRes, racesRes, racesMdRes, specsRes, specsMdRes, nationsRes, orgsRes, orgsMdRes] = await Promise.all([
         fetch('/content/season-3/page.md'),
         fetch('/content/season-3/races.json'),
         fetch('/content/season-3/races.md'),
         fetch('/content/season-3/specialties.json'),
+        fetch('/content/season-3/specialties.md'),
         fetch('/content/season-3/nations.json'),
         fetch('/content/season-3/organizations.json'),
+        fetch('/content/season-3/organizations.md'),
       ]);
 
       if (pageRes.ok) {
@@ -166,8 +181,30 @@
         raceDescriptions = parsed;
       }
       if (specsRes.ok) specialties = await specsRes.json();
+      if (specsMdRes.ok) {
+        const raw = await specsMdRes.text();
+        specSections = splitSections(raw);
+        const parsed: Record<string, string> = {};
+        await Promise.all(
+          Object.entries(specSections).map(async ([key, md]) => {
+            parsed[key] = await parse(md);
+          })
+        );
+        specDescriptions = parsed;
+      }
       if (nationsRes.ok) nations = await nationsRes.json();
       if (orgsRes.ok) organizations = await orgsRes.json();
+      if (orgsMdRes.ok) {
+        const raw = await orgsMdRes.text();
+        orgSections = splitSections(raw);
+        const parsed: Record<string, string> = {};
+        await Promise.all(
+          Object.entries(orgSections).map(async ([key, md]) => {
+            parsed[key] = await parse(md);
+          })
+        );
+        orgDescriptions = parsed;
+      }
       await renderSpecHtml();
     } catch {
       // Graceful degradation
@@ -180,7 +217,18 @@
     sections[key] = md;
     await renderSection(key, md);
 
-    const full = reconstructContent(sections, ['landing', 'nations-intro', 'organizations-intro', 'races-intro', 'specialties-intro', 'specialties-tech-details', 'citizenship', 'mortality-contract', 'magic-tech-ceiling', 'commands']);
+    const full = reconstructContent(sections, [
+      'landing',
+      'nations-intro',
+      'organizations-intro',
+      'races-intro',
+      'specialties-intro',
+      'specialties-tech-details',
+      'citizenship',
+      'mortality-contract',
+      'magic-tech-ceiling',
+      'commands',
+    ]);
 
     if (import.meta.env.DEV) {
       await fetch('/__cms-save', {
@@ -250,8 +298,36 @@
   const RACES_MD_PATH = 'static/content/season-3/races.md';
   const RACES_SECTION_ORDER = ['vampire', 'human', 'werewolf', 'mytt', 'talam'];
 
+  const SPECS_MD_PATH = 'static/content/season-3/specialties.md';
+  const SPECS_SECTION_ORDER = [
+    'blood-magic',
+    'unholy-magic',
+    'storm-magic',
+    'frost-magic',
+    'illusion-magic',
+    'chaos-magic',
+    'light-magic',
+    'shadow-magic',
+    'elemental-magic',
+    'druidic-magic',
+    'architect',
+    'blacksmith',
+    'tailor',
+    'alchemy',
+    'ritualism',
+    'martial-arts',
+    'doctor',
+    'engineer',
+  ];
+
+  const ORGS_MD_PATH = 'static/content/season-3/organizations.md';
+  const ORGS_SECTION_ORDER = ['church-of-luminance', 'the-archivum', 'transcendum', 'noctum', 'vampire-hunters-guild'];
+
   async function onRaceSave(sectionKey: string, content: string) {
-    const key = sectionKey.replace(/^.*?\./, '').toLowerCase().replace(/\s+/g, '-');
+    const key = sectionKey
+      .replace(/^.*?\./, '')
+      .toLowerCase()
+      .replace(/\s+/g, '-');
     raceSections[key] = content;
     raceDescriptions[key] = await parse(content);
 
@@ -281,17 +357,78 @@
     }
   }
 
+  async function onSpecSave(sectionKey: string, content: string) {
+    const key = sectionKey
+      .replace(/^.*?\./, '')
+      .toLowerCase()
+      .replace(/\s+/g, '-');
+    specSections[key] = content;
+    specDescriptions[key] = await parse(content);
+    await renderSpecHtml();
+
+    const full = reconstructContent(specSections, SPECS_SECTION_ORDER);
+
+    if (import.meta.env.DEV) {
+      await fetch('/__cms-save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ filePath: SPECS_MD_PATH, content: full }),
+      });
+      return;
+    }
+
+    const pat = getCmsPat();
+    if (pat) {
+      const msg = buildCommitMessage(SPECS_MD_PATH);
+      const result = await saveContent(SPECS_MD_PATH, full, msg, pat);
+      if (result.ok) {
+        saveError = '';
+      } else {
+        saveError = result.error || 'Save failed';
+        setTimeout(() => {
+          saveError = '';
+        }, 6000);
+      }
+    }
+  }
+
   function onNationSave(sectionKey: string, content: string) {
     onJsonSave('static/content/season-3/nations.json', nations, sectionKey, content);
   }
 
-  function onOrgSave(sectionKey: string, content: string) {
-    onJsonSave('static/content/season-3/organizations.json', organizations, sectionKey, content);
-  }
+  async function onOrgSave(sectionKey: string, content: string) {
+    const key = sectionKey
+      .replace(/^.*?\./, '')
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/'/g, '');
+    orgSections[key] = content;
+    orgDescriptions[key] = await parse(content);
 
-  function onSpecialtySave(sectionKey: string, content: string) {
-    onJsonSave('static/content/season-3/specialties.json', specialties, sectionKey, content);
-    renderSpecHtml();
+    const full = reconstructContent(orgSections, ORGS_SECTION_ORDER);
+
+    if (import.meta.env.DEV) {
+      await fetch('/__cms-save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ filePath: ORGS_MD_PATH, content: full }),
+      });
+      return;
+    }
+
+    const pat = getCmsPat();
+    if (pat) {
+      const msg = buildCommitMessage(ORGS_MD_PATH);
+      const result = await saveContent(ORGS_MD_PATH, full, msg, pat);
+      if (result.ok) {
+        saveError = '';
+      } else {
+        saveError = result.error || 'Save failed';
+        setTimeout(() => {
+          saveError = '';
+        }, 6000);
+      }
+    }
   }
 
   function scrollToSection(id: string) {
@@ -551,7 +688,7 @@
               </div>
             </div>
 
-            <hr class="border-tprimary-900/30 my-6">
+            <hr class="border-tprimary-900/30 my-6" />
 
             {#if specialties.length > 0}
               {@const magical = specialties.filter((s) => s.category === 'magical')}
@@ -612,15 +749,7 @@
                     >
                   </div>
 
-                  {#if selected.restriction}
-                    <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border {selectedTheme.border}">
-                      <EditableSection filePath="static/content/season-3/specialties.json" sectionKey="{selected.name}.restriction" rawContent={selected.restriction} onsave={onSpecialtySave}>
-                        <span class="text-base font-cinzel font-bold uppercase tracking-wider {selectedTheme.accent}">{#each selected.restriction.split('\n') as line, i}{#if i > 0}<br>{/if}{line}{/each}</span>
-                      </EditableSection>
-                    </div>
-                  {/if}
-
-                  <EditableSection filePath="static/content/season-3/specialties.json" sectionKey="{selected.name}.description" rawContent={selected.description} onsave={onSpecialtySave}>
+                  <EditableSection filePath={SPECS_MD_PATH} sectionKey="spec.{specKey(selected.name)}" rawContent={specSections[specKey(selected.name)] || ''} onsave={onSpecSave}>
                     {#if selectedSpecHtml}
                       {@html selectedSpecHtml}
                     {:else}
@@ -669,7 +798,7 @@
             <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Commands</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="commands" rawContent={sections.commands || ''} onsave={onSectionSave}>
               {#if commandsHtml}
-                <div class="marked">{@html commandsHtml}</div>
+                <div class="marked text-[0.925rem]">{@html commandsHtml}</div>
               {:else}
                 <div class="text-tprimary-500 italic">Commands coming soon.</div>
               {/if}
@@ -708,7 +837,13 @@
 </div>
 
 {#if expandedRace !== null}
-  <RaceModal race={races[expandedRace]} descriptionHtml={raceDescriptions[races[expandedRace].name.toLowerCase().replace(/\s+/g, '-')] || ''} rawContent={raceSections[races[expandedRace].name.toLowerCase().replace(/\s+/g, '-')] || ''} onclose={() => (expandedRace = null)} onsave={onRaceSave} />
+  <RaceModal
+    race={races[expandedRace]}
+    descriptionHtml={raceDescriptions[races[expandedRace].name.toLowerCase().replace(/\s+/g, '-')] || ''}
+    rawContent={raceSections[races[expandedRace].name.toLowerCase().replace(/\s+/g, '-')] || ''}
+    onclose={() => (expandedRace = null)}
+    onsave={onRaceSave}
+  />
 {/if}
 
 {#if expandedNation !== null}
@@ -716,7 +851,13 @@
 {/if}
 
 {#if expandedOrg !== null}
-  <OrgModal org={organizations[expandedOrg]} onclose={() => (expandedOrg = null)} onsave={onOrgSave} />
+  <OrgModal
+    org={organizations[expandedOrg]}
+    descriptionHtml={orgDescriptions[orgKey(organizations[expandedOrg].name)] || ''}
+    rawContent={orgSections[orgKey(organizations[expandedOrg].name)] || ''}
+    onclose={() => (expandedOrg = null)}
+    onsave={onOrgSave}
+  />
 {/if}
 
 {#if saveError}

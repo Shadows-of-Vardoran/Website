@@ -2,22 +2,23 @@
   import type { Organization } from './types';
   import { getTheme } from './colorThemes';
   import brBorderDecoration2 from '$lib/assets/br_border_decoration_2.png';
-  import { useMarked } from '$lib/useMarked';
   import EditableSection from '$lib/components/EditableSection.svelte';
 
   let {
     org,
+    descriptionHtml,
+    rawContent,
     onclose,
     onsave,
   }: {
     org: Organization;
+    descriptionHtml: string;
+    rawContent: string;
     onclose?: () => void;
     onsave?: (sectionKey: string, content: string) => void;
   } = $props();
 
   let theme = $derived(getTheme(org.colorKey));
-  let { parse } = useMarked();
-  let descriptionHtml = $derived(parse(org.description));
 
   function handleBackdropClick(e: MouseEvent) {
     if (e.target === e.currentTarget) onclose?.();
@@ -45,9 +46,13 @@
         <button onclick={onclose} aria-label="Close" class="absolute top-4 right-4 text-tprimary-500 hover:text-white text-2xl cursor-pointer z-10 transition-colors">
           <i class="mdi mdi-close"></i>
         </button>
-        <EditableSection filePath="static/content/season-3/organizations.json" sectionKey="{org.name}.description" rawContent={org.description} {onsave}>
+        <EditableSection filePath="static/content/season-3/organizations.md" sectionKey="org.{org.name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '')}" {rawContent} {onsave}>
           <div class="text-tprimary-200 leading-relaxed marked pr-8">
-            {@html descriptionHtml}
+            {#if descriptionHtml}
+              {@html descriptionHtml}
+            {:else}
+              <div class="text-tprimary-500 italic">Organization details coming soon.</div>
+            {/if}
           </div>
         </EditableSection>
       </div>

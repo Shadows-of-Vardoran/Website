@@ -120,6 +120,15 @@ We are inclined to trust the community with this framework as-is without any sig
   </p>
 </div>
 
+<div class="px-4 py-2.5 rounded bg-background-700/60 border border-violet-800/60 mb-4">
+  <span class="text-base font-cinzel font-bold uppercase tracking-wider text-violet-500">Mytts</span>
+  <span class="text-base text-tprimary-50">Mytts are able to pass as human. A Mytt feigning humanity may hold citizenship in Brighthaven, Dunley, or Rustlock under the same terms as a human.</span>
+</div>
+
+<p class="mb-4 text-base text-tprimary-100">
+  The RP team is open to facilitating a character gaining citizenship in a location during the season. This is a difficult process given the state of the world and the apprehension surrounding newcomers. Open a contract ticket to pursue this.
+</p>
+
 <div class="grid grid-cols-3 gap-4 mt-6">
   <div class="p-4 rounded border border-white/15 bg-white/5">
     <div class="text-tprimary font-cinzel text-lg mb-1">Brighthaven</div>
@@ -150,36 +159,48 @@ The mortality contract applies to all mortal player races. It governs how injuri
 
 ### Definitions
 
+<div class="p-4 rounded border border-tprimary-900/30 bg-background-800/60 text-[0.925rem]">
 - **Bag Drop:** When a character is reduced to an in-game death screen.
 - **Minor Injury:** A bag drop that carries no mechanical consequence and does not require MedRP.
 - **Critical Injury:** A bag drop that requires MedRP within three IRL days to survive. What counts as a critical injury is defined below.
 - **MedRP:** Roleplay focused on treating injuries. The injured party describes their injuries through emotes, which are then responded to by the party attempting to tend to them.
 - **Blood Pool:** A mortal character's blood pool decreases by 10% with each PvE bag drop. A full blood pool has 10 increments.
+</div>
 
 ### Injury Classification
 
-Not all bag drops carry the same weight. Every bag drop is classified as either a minor injury or a critical injury.
+Not all bag drops carry the same weight. Every bag drop is classified as either a critical injury or a minor injury.
 
-#### Critical Injuries
+<div class="font-cinzel font-semibold text-[1.5rem] text-red-400 mb-2">Critical Injuries</div>
 
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
 The following bag drops are always critical injuries:
 
 - All PvP bag drops.
 - Any PvE bag drop that would empty your blood pool and set you to frail.
+  </div>
+</div>
 
-#### Minor Injuries
+<div class="font-cinzel font-semibold text-[1.5rem] text-sky-400 mb-2">Minor Injuries</div>
 
-Any PvE bag drop that does not empty your blood pool is a minor injury. Your blood pool decreases by 10% with each one. This means you can sustain up to 9 minor injuries before your 10th PvE death empties your pool and becomes a critical injury.
-
-Minor injuries have no mechanical requirement attached to them. However, players are encouraged to treat them as something their character genuinely experienced. Respawning after a PvE death should be roleplayed as escaping and recovering from the wounds just received, not ignored entirely. There is no rule enforcing this, but it is expected as part of good faith RP on the server.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+Any PvE bag drop that does not empty your blood pool is a minor injury. Your blood pool decreases by 10% with each one. This means you can sustain up to 9 minor injuries before your 10th PvE death empties your pool and becomes a critical injury.<br><br>Players are encouraged to treat minor injuries as something their character genuinely experienced. Respawning after a PvE death should be roleplayed as escaping and recovering from the wounds just received, not ignored entirely. There is no rule enforcing this, but it is expected as part of good faith RP on the server.
+  </div>
+</div>
 
 ### I Got a Critical Injury. What Do I Do?
 
 You have three IRL days to receive MedRP. MedRP must be provided by a player who holds the Doctoring specialty at any tier. MedRP from a player without this specialty does not count toward surviving a critical injury.
 
-When MedRP is successfully completed, the treating doctor uses a custom command they have access to in order to restore your blood pool and resolve the critical injury.
+When MedRP is successfully completed, the treating doctor uses `.sov treat <player>` to resolve the critical injury. See the [Doctor Commands](#cmd-doctor) section for details.
 
-If MedRP is not received within the three day window, it counts as death under the terms of your race's mortality settings.
+You can check your own injury count and treatment deadlines at any time with `.sov mortality status`. See the [Mortality Commands](#cmd-mortality) section for details.
+
+If MedRP is not received within the three day window, it counts as a proper death under the terms of your race's mortality settings.
 
 Individual race documents may define exceptions to the MedRP requirement.
 
@@ -223,33 +244,62 @@ If it is natural for a character to remain in the area (for example, the bag dro
 </div>
 
 <!-- section:commands -->
-### General
-
 | Command | Description |
 |---|---|
-| `.sov help` | Lists all available commands |
-| `.sov drawblood` | Bottles your own blood (humans only, once per day) |
-
-### Blacksmithing
-
-| Command | Description |
-|---|---|
-| `.sov forge` | Placeholder blacksmithing command |
-
-### Tailoring
-
-| Command | Description |
-|---|---|
-| `.sov weave` | Placeholder tailoring command |
-
-### Alchemy
-
-| Command | Description |
-|---|---|
-| `.sov brew` | Placeholder alchemy command |
-
-### Doctor
-
-| Command | Description |
-|---|---|
-| `.sov medrp` | Placeholder doctor command |
+| <a id="cmd-general"></a>**General** | |
+| `.sov weapon inspect` / `.sov wi` | View your held weapon's forged abilities, name, and required materials. |
+| `.sov weapon emote` / `.sov we` | Brandish your held weapon in a local emote. |
+| `.sov reveal` | Reveal your name to others if you are wearing a razer hood. |
+| `.sov riphhood` | Rip the hood off the nearest downed player, revealing their name in chat and making their nameplate visible if revived. Cannot be used while in combat. |
+| `.sov alwaysreveal` | Toggle always revealing your name. The system will confirm when this is toggled on. |
+| `.anon <message>` | Send a message to local chat anonymously. You may see your own message twice. Others will not. |
+| `.sov toggle anon` | Toggle sending all local messages anonymously. |
+| `.sov mirror` | Edit your appearance anywhere with eldritch mirror magic. |
+| `.sov emote sit [1-6]` | Apply a sitting emote. If in a chair, attempts to align you to it. If not, you sit based on your character's orientation. |
+| `.sov hideweapons <left\|right\|both>` | Hide your weapons on the specified side. |
+| `.sov showweapons` | Show all your weapons again. |
+| `.sov coords` | Print your current world coordinates in chat. |
+| `.sov buff refresh` | Refresh any tag-related buffs on your character. |
+| `.sov roll <expression>` | Roll dice in-game. The result is sent to nearby players in local chat and forwarded to the dice channel in Discord. Examples: `1d20`, `3d5+3`, `17d2053-1542`. |
+| `.sov drawblood` | Bottle your own blood matching your blood type. Usable once every 20 IRL hours. Available to Humans, Werewolves, and Talam only. |
+| <a id="cmd-keys"></a>**Keys** | |
+| `.keys register` | Register your clan with the Keys feature. You must be the clan Leader. The player who runs this becomes the clan Owner. |
+| `.keys give <player>` | Give another player keys to your current sigil. Must be the clan Owner. |
+| `.keys remove <player>` | Remove keys from a player for your current sigil. Must be the clan Owner. |
+| `.keys owner <player>` | Transfer clan ownership to another player. Must be the clan Owner. |
+| `.keys list mine` | List all keys you have been given. |
+| `.keys list clan` | List all keys given out for your current clan. Must be the clan Owner. |
+| `.keys use "clan name"` | Use a key to join a clan. If the clan name has spaces, use quotes around the name. Respects the sigil limit of 12. |
+| <a id="cmd-blacksmithing"></a>**Blacksmithing** | |
+| `.sov forge q <ability>` / `.sov fq` | Forge an ability onto the Q slot of your held weapon. Replace `<ability>` with the ability name. |
+| `.sov forge e <ability>` / `.sov fe` | Forge an ability onto the E slot of your held weapon. |
+| `.sov forge primary <ability>` / `.sov fp` | Forge an ability onto the primary slot of your held weapon. |
+| `.sov forge list <slot>` / `.sov fgl` | List all valid abilities for a given slot on your held weapon. `<slot>` can be `q`, `e`, or `primary`. |
+| `.sov forge clear <slot>` / `.sov fgc` | Remove a forged ability from a slot on your held weapon. `<slot>` can be `q`, `e`, or `primary`. |
+| `.sov forge name <name>` / `.sov fn` | Name your forged weapon. Only the original forger can name a weapon. |
+| `.sov forge desc <description>` / `.sov fd` | Set a description on your forged weapon. |
+| `.sov forge lock` / `.sov fl` | Toggle whether anyone other than the original forger can modify this weapon. |
+| <a id="cmd-tailoring"></a>**Tailoring** | |
+| `.sov reinforce` / `.sov re` | Reinforce the armor in your last hotbar slot, increasing its maximum durability. |
+| `.sov reinforce inspect` / `.sov rei` | Inspect the reinforcement status of the armor in your last hotbar slot. |
+| <a id="cmd-architect"></a>**Architect** | |
+| `.sov build list` / `.sov bl` | List all available furniture for the architect system, including coin costs. |
+| `.sov build spawn <name>` / `.sov bs` | Spawn a furniture ghost and enter architect build mode. You must be inside your own castle territory. |
+| `.sov build mode` / `.sov bm` | Toggle architect build mode on or off. When active: Left Click to place or grab, Q to rotate left, E to rotate right, Space to cancel, R to revert. You must be inside your own castle territory to activate. |
+| <a id="cmd-crafting"></a>**Crafting** | |
+| `.sov craftlist` / `.sov cl` | List all craftable items you have access to. |
+| `.sov craftinfo <recipe>` / `.sov ci` | Show the materials required to craft a recipe. Partial name matches are accepted. If multiple recipes match, you will be asked to be more specific. |
+| `.sov craft <item>` / `.sov c` | Craft an item by recipe name. Materials must be in your inventory. Partial name matches are accepted. If multiple recipes match, you will be asked to be more specific. |
+| <a id="cmd-doctor"></a>**Doctor** | |
+| `.sov treat <player>` | Treat a player's critical injury. Requires the doctor specialty. |
+| `.sov revive` | Revive a nearby downed player. Requires the doctor specialty. |
+| <a id="cmd-mortality"></a>**Mortality** | |
+| `.sov mortality status` | Show your own mortality status, including injury count and treatment deadlines. |
+| <a id="cmd-abilities"></a>**Abilities** | |
+| `.abilities set primary` / `.ab set q` | Set your currently selected R spell to the Q slot. Swap weapons to update your UI. |
+| `.abilities set secondary` / `.ab set e` | Set your currently selected C spell to the E slot. Swap weapons to update your UI. |
+| `.abilities clear primary` / `.ab clear q` | Clear the Q ability slot. Swap weapons to update your UI. |
+| `.abilities clear secondary` / `.ab clear e` | Clear the E ability slot. Swap weapons to update your UI. |
+| `.abilities spell list` / `.ab spl` | List all spells available in your spell pool. |
+| `.abilities spell assign <slot> <spell>` / `.ab spa` | Assign a spell from your pool to a slot. Use `.abilities spell list` to see available spells. |
+| `.abilities spell unassign <slot>` / `.ab spu` | Clear a spell from a slot. |

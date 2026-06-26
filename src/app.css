@@ -126,12 +126,16 @@ body {
     min-width: 11rem;
   }
 
+  td strong {
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+  }
+
   a {
     color: var(--color-info-0);
     text-decoration: underline;
     transition: color 0.2s;
-    overflow-wrap: anywhere;
-    word-break: break-all;
+    white-space: nowrap;
   }
 
   a:hover {

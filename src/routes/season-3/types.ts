@@ -10,8 +10,6 @@ export interface Specialty {
   icon: string;
   colorKey: string;
   category: 'magical' | 'profession';
-  restriction?: string;
-  description: string;
 }
 
 export interface Nation {
@@ -25,7 +23,6 @@ export interface Organization {
   name: string;
   tagline: string;
   colorKey: string;
-  description: string;
 }
 
 export interface Section {

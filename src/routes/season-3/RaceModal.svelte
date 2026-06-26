@@ -48,7 +48,7 @@
           <i class="mdi mdi-close"></i>
         </button>
 
-        <EditableSection filePath="static/content/season-3/races.md" sectionKey="{race.name}.description" rawContent={rawContent} {onsave}>
+        <EditableSection filePath="static/content/season-3/races.md" sectionKey="{race.name}.description" {rawContent} {onsave}>
           <div class="text-tprimary-200 leading-relaxed marked pr-8" style="--dot-color: {theme.accentDotVar}">
             {@html descriptionHtml}
           </div>
