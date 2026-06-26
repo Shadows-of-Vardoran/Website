@@ -8,5 +8,5 @@ export function bumpContentVersion() {
 
 export function fetchContent(path: string): Promise<Response> {
   const base = CONTENT_BASE.endsWith('/') ? CONTENT_BASE : CONTENT_BASE + '/';
-  return fetch(`${base}${path}?v=${contentVersion}`);
+  return fetch(`${base}${path}?v=${contentVersion}`, { cache: 'no-store' });
 }
