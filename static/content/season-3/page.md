@@ -5,7 +5,7 @@
       The world was mundane once. No magic, no monsters, no things that went bump in the night with any real teeth behind them. People lived and died by entirely ordinary means, and the laws of the world were simple and consistent.
     </p>
     <p>
-      Three hundred years ago, that changed. The first vampire walked the earth, and with them came the first magic the world had ever seen. What followed was centuries of terror. Vampires spread like a plague across the land, stronger and faster and harder to kill than anything humanity had faced before. The world had no framework for what they were or how to stop them. It took generations of adaptation, sacrifice, and the founding of the Vampire Hunters' Guild before humanity clawed back any semblance of safety. Slowly, painfully, the vampires retreated behind the walls of Qalidran, their island nation, and an uneasy peace settled over the world. 123
+      Three hundred years ago, that changed. The first vampire walked the earth, and with them came the first magic the world had ever seen. What followed was centuries of terror. Vampires spread like a plague across the land, stronger and faster and harder to kill than anything humanity had faced before. The world had no framework for what they were or how to stop them. It took generations of adaptation, sacrifice, and the founding of the Vampire Hunters' Guild before humanity clawed back any semblance of safety. Slowly, painfully, the vampires retreated behind the walls of Qalidran, their island nation, and an uneasy peace settled over the world.
     </p>
   </div>
   <div class="w-14 rounded bg-gradient-to-b from-tprimary-800/40 to-tprimary-900/60 flex-shrink-0 border border-tprimary-900/30"></div>
