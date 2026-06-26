@@ -7,6 +7,7 @@
 
   import { useMarked } from '$lib/useMarked';
   const { parse, slugify } = useMarked();
+  import { fetchContent } from '$lib/fetchContent';
 
   // Static import of tab definitions (replace with dynamic import if needed)
   // If you have a helper to load YAML, use that instead.
@@ -14,31 +15,31 @@
     {
       name: 'history-of-vardoran',
       label: 'History of Vardoran',
-      path: '/content/lore-history-of-vardoran.md',
+      path: 'lore-history-of-vardoran.md',
       scrambled: false,
     },
     {
       name: 'species',
       label: 'Playable Species',
-      path: '/content/lore-species.md',
+      path: 'lore-species.md',
       scrambled: false,
     },
     {
       name: 'beyond-vardoran',
       label: 'Beyond Vardoran',
-      path: '/content/lore-beyond-vardoran.md',
+      path: 'lore-beyond-vardoran.md',
       scrambled: false,
     },
     {
       name: 'religions',
       label: 'Religions',
-      path: '/content/lore-religions.md',
+      path: 'lore-religions.md',
       scrambled: false,
     },
     {
       name: 'realms',
       label: 'Realms',
-      path: '/content/lore-realms.md',
+      path: 'lore-realms.md',
       scrambled: false,
     },
   ];
@@ -50,7 +51,7 @@
   let scrambled = false; // Set to true to apply 'font-aelfa' class
 
   async function loadContent(tab: any) {
-    const res = await fetch(tab.path);
+    const res = await fetchContent(tab.path);
     let md = await res.text();
 
     // Extract headings for sidebar

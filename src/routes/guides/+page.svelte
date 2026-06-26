@@ -7,6 +7,7 @@
   import { getIsAdmin, getCmsPat } from '$lib/stores/admin.svelte';
   import { parseGuides, reconstructGuides, buildEditableContent, parseEditableContent } from '$lib/guides-parser';
   import { saveContent } from '$lib/github-save';
+  import { fetchContent } from '$lib/fetchContent';
 
   import { EditorView, basicSetup } from 'codemirror';
   import { EditorState } from '@codemirror/state';
@@ -227,7 +228,7 @@
   }
 
   onMount(async () => {
-    const res = await fetch('/content/guides/page.md');
+    const res = await fetchContent('guides/page.md');
     const raw = await res.text();
     const parsed = parseGuides(raw);
 

@@ -9,6 +9,7 @@
   import EditableSection from '$lib/components/EditableSection.svelte';
   import { getCmsPat } from '$lib/stores/admin.svelte';
   import { saveContent, buildCommitMessage } from '$lib/github-save';
+  import { fetchContent, bumpContentVersion } from '$lib/fetchContent';
 
   import RaceCard from './RaceCard.svelte';
   import RaceModal from './RaceModal.svelte';
@@ -158,15 +159,15 @@
   async function loadContent() {
     try {
       const [pageRes, racesRes, racesMdRes, specsRes, specsMdRes, nationsRes, nationsMdRes, orgsRes, orgsMdRes] = await Promise.all([
-        fetch('/content/season-3/page.md'),
-        fetch('/content/season-3/races.json'),
-        fetch('/content/season-3/races.md'),
-        fetch('/content/season-3/specialties.json'),
-        fetch('/content/season-3/specialties.md'),
-        fetch('/content/season-3/nations.json'),
-        fetch('/content/season-3/nations.md'),
-        fetch('/content/season-3/organizations.json'),
-        fetch('/content/season-3/organizations.md'),
+        fetchContent('season-3/page.md'),
+        fetchContent('season-3/races.json'),
+        fetchContent('season-3/races.md'),
+        fetchContent('season-3/specialties.json'),
+        fetchContent('season-3/specialties.md'),
+        fetchContent('season-3/nations.json'),
+        fetchContent('season-3/nations.md'),
+        fetchContent('season-3/organizations.json'),
+        fetchContent('season-3/organizations.md'),
       ]);
 
       if (pageRes.ok) {
@@ -254,6 +255,7 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ filePath: FILE_PATH, content: full }),
       });
+      bumpContentVersion();
       return;
     }
 
@@ -335,6 +337,7 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ filePath: RACES_MD_PATH, content: full }),
       });
+      bumpContentVersion();
       return;
     }
 
@@ -370,6 +373,7 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ filePath: SPECS_MD_PATH, content: full }),
       });
+      bumpContentVersion();
       return;
     }
 
@@ -405,6 +409,7 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ filePath: NATIONS_MD_PATH, content: full }),
       });
+      bumpContentVersion();
       return;
     }
 
@@ -440,6 +445,7 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ filePath: ORGS_MD_PATH, content: full }),
       });
+      bumpContentVersion();
       return;
     }
 
@@ -636,14 +642,20 @@
                   style="clip-path: polygon(0% 0%, 21% 0%, 26% 16px, 74% 16px, 79% 0%, 100% 0%, 100% 100%, 79% 100%, 74% calc(100% - 16px), 26% calc(100% - 16px), 21% 100%, 0% 100%);"
                 >
                   <div class="bg-linear-to-r from-black/80 via-gold-700/50 to-black/80 p-6 flex items-center gap-6 transition-all group-hover:brightness-125">
-                    <div class="min-w-16 h-16 rounded-full bg-background-900/50 flex items-center justify-center text-2xl font-cinzel font-bold {getTheme(vardoran.colorKey).accent} ring-2 {getTheme(vardoran.colorKey).border}">
+                    <div
+                      class="min-w-16 h-16 rounded-full bg-background-900/50 flex items-center justify-center text-2xl font-cinzel font-bold {getTheme(vardoran.colorKey)
+                        .accent} ring-2 {getTheme(vardoran.colorKey).border}"
+                    >
                       <span style="font-family: 'Eagle Lake', serif; font-size: 2em;">{vardoran.name.charAt(0)}</span>
                     </div>
                     <div class="flex-1 text-center">
                       <div class="text-2xl font-cinzel font-bold text-tprimary">{vardoran.name}</div>
                       <div class="text-base text-tprimary-400 italic">{vardoran.tagline}</div>
                     </div>
-                    <div class="min-w-16 h-16 rounded-full bg-background-900/50 flex items-center justify-center text-2xl font-cinzel font-bold {getTheme(vardoran.colorKey).accent} ring-2 {getTheme(vardoran.colorKey).border}">
+                    <div
+                      class="min-w-16 h-16 rounded-full bg-background-900/50 flex items-center justify-center text-2xl font-cinzel font-bold {getTheme(vardoran.colorKey)
+                        .accent} ring-2 {getTheme(vardoran.colorKey).border}"
+                    >
                       <span style="font-family: 'Eagle Lake', serif; font-size: 2em;">{vardoran.name.charAt(0)}</span>
                     </div>
                   </div>

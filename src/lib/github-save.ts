@@ -1,4 +1,5 @@
 import { dev } from '$app/environment';
+import { bumpContentVersion } from './fetchContent';
 
 const OWNER = 'Shadows-of-Vardoran';
 const REPO = 'Website';
@@ -27,6 +28,7 @@ export async function saveContent(filePath: string, content: string, commitMessa
         body: JSON.stringify({ filePath, content }),
       });
       const result = await res.json();
+      if (result.ok) bumpContentVersion();
       return result;
     } catch (e) {
       return { ok: false, error: String(e) };
@@ -65,6 +67,7 @@ export async function saveContent(filePath: string, content: string, commitMessa
       return { ok: false, error: err.message || 'Unknown error' };
     }
 
+    bumpContentVersion();
     return { ok: true };
   } catch (e) {
     return { ok: false, error: String(e) };
@@ -80,6 +83,7 @@ export async function uploadFile(filePath: string, base64Content: string, commit
         body: JSON.stringify({ filePath, content: base64Content }),
       });
       const result = await res.json();
+      if (result.ok) bumpContentVersion();
       return result;
     } catch (e) {
       return { ok: false, error: String(e) };
@@ -111,6 +115,7 @@ export async function uploadFile(filePath: string, base64Content: string, commit
       return { ok: false, error: err.message || 'Unknown error' };
     }
 
+    bumpContentVersion();
     return { ok: true };
   } catch (e) {
     return { ok: false, error: String(e) };

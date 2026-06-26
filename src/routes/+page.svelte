@@ -5,6 +5,7 @@
   import EditableSection from '$lib/components/EditableSection.svelte';
   import { getCmsPat } from '$lib/stores/admin.svelte';
   import { saveContent, buildCommitMessage } from '$lib/github-save';
+  import { fetchContent, bumpContentVersion } from '$lib/fetchContent';
   import verticalSeparator1 from '$lib/assets/vertical_separator_1.png';
   import teethLogo from '$lib/assets/teeth_logo.png';
   import buttonImage from '$lib/assets/button_image.png';
@@ -36,7 +37,7 @@
   }
 
   async function loadContent() {
-    const res = await fetch('/content/home/page.md');
+    const res = await fetchContent('home/page.md');
     if (!res.ok) return;
     const raw = await res.text();
     sections = splitSections(raw);
@@ -55,6 +56,7 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ filePath: FILE_PATH, content: full }),
       });
+      bumpContentVersion();
       return;
     }
 

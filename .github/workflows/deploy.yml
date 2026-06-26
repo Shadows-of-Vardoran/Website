@@ -36,6 +36,7 @@ jobs:
           GITHUB_PAGES: true
           VITE_CMS_PAT: ${{ secrets.CMS_PAT }}
           VITE_CMS_PASSWORD_HASH: ${{ secrets.CMS_PASSWORD_HASH }}
+          VITE_CONTENT_BASE: https://raw.githubusercontent.com/Shadows-of-Vardoran/Website/main/static/content/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

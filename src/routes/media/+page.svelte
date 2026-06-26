@@ -4,6 +4,7 @@
   import type { MediaItem } from '$lib/components/types';
   import { getIsAdmin, getCmsPat } from '$lib/stores/admin.svelte';
   import { saveContent, uploadFile } from '$lib/github-save';
+  import { fetchContent } from '$lib/fetchContent';
 
   let allItems = $state<MediaItem[]>([]);
   let measuredItems = $state<MediaItem[]>([]);
@@ -282,7 +283,7 @@
 
   onMount(async () => {
     try {
-      const res = await fetch('/content/media/media-index.json');
+      const res = await fetchContent('media/media-index.json');
       allItems = await res.json();
       await loadMore();
     } catch {

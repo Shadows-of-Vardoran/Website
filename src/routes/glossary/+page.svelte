@@ -10,6 +10,7 @@
   import EditableSection from '$lib/components/EditableSection.svelte';
   import { getIsAdmin, getCmsPat } from '$lib/stores/admin.svelte';
   import { saveContent, buildCommitMessage } from '$lib/github-save';
+  import { fetchContent, bumpContentVersion } from '$lib/fetchContent';
 
   const { parse, slugify } = useMarked();
 
@@ -48,6 +49,7 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ filePath: FILE_PATH, content: full }),
       });
+      bumpContentVersion();
       return;
     }
 
@@ -67,7 +69,7 @@
   }
 
   onMount(async () => {
-    const res = await fetch('/content/glossary/page.md');
+    const res = await fetchContent('glossary/page.md');
     const md = await res.text();
 
     sections = splitSections(md);
