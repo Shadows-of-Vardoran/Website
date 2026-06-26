@@ -37,7 +37,7 @@
         </div>
         <div class="text-xl font-cinzel font-bold text-tprimary">{race.name}</div>
         <div class="text-sm text-tprimary-400 italic mt-2">
-          <EditableSection filePath="static/content/season-3/races.json" sectionKey="{race.name}.tagline" rawContent={race.tagline} {onsave}>
+          <EditableSection filePath="static/content/season-3/races.json" sectionKey="{race.name}.tagline" rawContent={race.tagline}>
             {race.tagline}
           </EditableSection>
         </div>

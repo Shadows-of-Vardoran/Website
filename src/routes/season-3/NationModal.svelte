@@ -36,7 +36,7 @@
         </div>
         <div class="text-xl font-cinzel font-bold text-tprimary">{nation.name}</div>
         <div class="text-sm text-tprimary-400 italic mt-2">
-          <EditableSection filePath="static/content/season-3/nations.json" sectionKey="{nation.name}.tagline" rawContent={nation.tagline} {onsave}>
+          <EditableSection filePath="static/content/season-3/nations.json" sectionKey="{nation.name}.tagline" rawContent={nation.tagline}>
             {nation.tagline}
           </EditableSection>
         </div>

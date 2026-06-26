@@ -322,10 +322,7 @@
   ];
 
   async function onRaceSave(sectionKey: string, content: string) {
-    const key = sectionKey
-      .replace(/^.*?\./, '')
-      .toLowerCase()
-      .replace(/\s+/g, '-');
+    const key = sectionKey.replace(/\..*$/, '').toLowerCase().replace(/\s+/g, '-');
     raceSections[key] = content;
     raceDescriptions[key] = await parse(content);
 
@@ -358,7 +355,7 @@
 
   async function onSpecSave(sectionKey: string, content: string) {
     const key = sectionKey
-      .replace(/^.*?\./, '')
+      .replace(/^spec\./, '')
       .toLowerCase()
       .replace(/\s+/g, '-');
     specSections[key] = content;
@@ -394,7 +391,8 @@
 
   async function onNationSave(sectionKey: string, content: string) {
     const key = sectionKey
-      .replace(/^.*?\./, '')
+      .replace(/^nation\./, '')
+      .replace(/\..*$/, '')
       .toLowerCase()
       .replace(/\s+/g, '-')
       .replace(/'/g, '');
@@ -430,7 +428,8 @@
 
   async function onOrgSave(sectionKey: string, content: string) {
     const key = sectionKey
-      .replace(/^.*?\./, '')
+      .replace(/^org\./, '')
+      .replace(/\..*$/, '')
       .toLowerCase()
       .replace(/\s+/g, '-')
       .replace(/'/g, '');
