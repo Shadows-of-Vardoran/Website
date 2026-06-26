@@ -98,16 +98,18 @@
 
 <!--
   Force Tailwind JIT to generate these dynamic theme classes (referenced from colorThemes.ts):
-  border-red-800/60 border-amber-800/60 border-orange-800/60 border-green-800/60 border-emerald-900/60 border-blue-900/60 border-violet-700/60 border-chaos-700/60 border-indigo-900/60 border-yellow-900/60 border-stone-900/60 border-cyan-900/60 border-rose-900/60 border-teal-900/60 border-gray-900/60 border-sky-900/60
-  text-red-500 text-amber-500 text-orange-500 text-green-500 text-emerald-500 text-blue-500 text-violet-500 text-chaos-300 text-indigo-500 text-yellow-500 text-stone-400 text-cyan-500 text-rose-500 text-teal-500 text-gray-400 text-sky-400
-  bg-red-600 bg-amber-600 bg-orange-600 bg-green-600 bg-emerald-600 bg-blue-600 bg-violet-600 bg-chaos-400 bg-indigo-600 bg-yellow-600 bg-stone-500 bg-cyan-600 bg-rose-600 bg-teal-600 bg-gray-500 bg-sky-600
-  bg-red-500 bg-amber-500 bg-orange-500 bg-green-500 bg-emerald-500 bg-blue-500 bg-violet-500 bg-chaos-300 bg-indigo-500 bg-yellow-500 bg-stone-400 bg-cyan-500 bg-rose-500 bg-teal-500 bg-gray-400 bg-sky-400
+  border-red-800/60 border-amber-800/60 border-orange-800/60 border-green-800/60 border-emerald-900/60 border-blue-900/60 border-violet-700/60 border-chaos-700/60 border-gold-700/60 border-indigo-900/60 border-yellow-900/60 border-stone-900/60 border-cyan-900/60 border-rose-900/60 border-teal-900/60 border-gray-900/60 border-sky-900/60
+  text-red-500 text-amber-500 text-orange-500 text-green-500 text-emerald-500 text-blue-500 text-violet-500 text-chaos-300 text-gold-300 text-indigo-500 text-yellow-500 text-stone-400 text-cyan-500 text-rose-500 text-teal-500 text-gray-400 text-sky-400
+  bg-red-600 bg-amber-600 bg-orange-600 bg-green-600 bg-emerald-600 bg-blue-600 bg-violet-600 bg-chaos-400 bg-gold-400 bg-indigo-600 bg-yellow-600 bg-stone-500 bg-cyan-600 bg-rose-600 bg-teal-600 bg-gray-500 bg-sky-600
+  bg-red-500 bg-amber-500 bg-orange-500 bg-green-500 bg-emerald-500 bg-blue-500 bg-violet-500 bg-chaos-300 bg-gold-300 bg-indigo-500 bg-yellow-500 bg-stone-400 bg-cyan-500 bg-rose-500 bg-teal-500 bg-gray-400 bg-sky-400
   from-red-800/50 to-black/80 from-amber-800/50 to-black/80
   from-orange-800/50 to-black/80 from-green-800/50 to-black/80
   from-emerald-800/50 to-black/80 from-purple-900/60 to-black/80
   from-slate-900/60 to-black/80 from-lime-800/50 to-black/80
   from-blue-800/50 to-black/80 from-violet-700/50 to-black/80
   from-chaos-700/50 to-black/80
+  from-gold-700/50 to-black/80
+  from-black/80 via-gold-700/50 to-black/80
   from-pink-800/50 to-black/80
   from-indigo-800/50 to-black/80
   from-yellow-800/50 to-black/80
@@ -124,6 +126,7 @@
   from-background-800 via-background-900 to-emerald-900/60
   from-background-800 via-background-900 to-violet-900/60
   from-background-800 via-background-900 to-chaos-900/60
+  from-background-800 via-background-900 to-gold-900/60
   from-background-800 via-background-900 to-indigo-900/60
   from-background-800 via-background-900 to-yellow-900/60
   from-background-800 via-background-900 to-stone-900/60

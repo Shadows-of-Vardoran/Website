@@ -198,6 +198,15 @@ const themes: Record<string, ColorTheme> = {
     border: 'border-chaos-700/60',
     modalBg: 'bg-linear-to-br from-background-800 via-background-900 to-chaos-900/60',
   },
+  gold: {
+    gradient: 'from-gold-700/50 to-black/80',
+    accent: 'text-gold-300',
+    accentBg: 'bg-gold-400',
+    accentDot: 'bg-gold-300',
+    accentDotVar: 'var(--color-gold-300)',
+    border: 'border-gold-700/60',
+    modalBg: 'bg-linear-to-br from-background-800 via-background-900 to-gold-900/60',
+  },
 };
 
 export function getTheme(colorKey: string): ColorTheme {

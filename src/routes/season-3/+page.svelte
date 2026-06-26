@@ -54,6 +54,8 @@
 
   let expandedRace: number | null = $state(null);
   let expandedNation: number | null = $state(null);
+  let nationSections: Record<string, string> = $state({});
+  let nationDescriptions: Record<string, string> = $state({});
   let expandedOrg: number | null = $state(null);
   let orgSections: Record<string, string> = $state({});
   let orgDescriptions: Record<string, string> = $state({});
@@ -149,15 +151,20 @@
     return name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '');
   }
 
+  function nationKey(name: string): string {
+    return name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '');
+  }
+
   async function loadContent() {
     try {
-      const [pageRes, racesRes, racesMdRes, specsRes, specsMdRes, nationsRes, orgsRes, orgsMdRes] = await Promise.all([
+      const [pageRes, racesRes, racesMdRes, specsRes, specsMdRes, nationsRes, nationsMdRes, orgsRes, orgsMdRes] = await Promise.all([
         fetch('/content/season-3/page.md'),
         fetch('/content/season-3/races.json'),
         fetch('/content/season-3/races.md'),
         fetch('/content/season-3/specialties.json'),
         fetch('/content/season-3/specialties.md'),
         fetch('/content/season-3/nations.json'),
+        fetch('/content/season-3/nations.md'),
         fetch('/content/season-3/organizations.json'),
         fetch('/content/season-3/organizations.md'),
       ]);
@@ -193,6 +200,17 @@
         specDescriptions = parsed;
       }
       if (nationsRes.ok) nations = await nationsRes.json();
+      if (nationsMdRes.ok) {
+        const raw = await nationsMdRes.text();
+        nationSections = splitSections(raw);
+        const parsed: Record<string, string> = {};
+        await Promise.all(
+          Object.entries(nationSections).map(async ([key, md]) => {
+            parsed[key] = await parse(md);
+          })
+        );
+        nationDescriptions = parsed;
+      }
       if (orgsRes.ok) organizations = await orgsRes.json();
       if (orgsMdRes.ok) {
         const raw = await orgsMdRes.text();
@@ -254,47 +272,6 @@
     }
   }
 
-  async function onJsonSave(filePath: string, data: any[], sectionKey: string, content: string) {
-    const dotIndex = sectionKey.indexOf('.');
-    if (dotIndex === -1) return;
-    const name = sectionKey.slice(0, dotIndex);
-    const field = sectionKey.slice(dotIndex + 1);
-    const item = data.find((d: any) => d.name === name);
-    if (!item) return;
-
-    const parts = field.split('.');
-    let target: any = item;
-    for (let i = 0; i < parts.length - 1; i++) {
-      target = target[parts[i]];
-    }
-    target[parts[parts.length - 1]] = content;
-
-    const json = JSON.stringify(data, null, 2);
-
-    if (import.meta.env.DEV) {
-      await fetch('/__cms-save', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ filePath, content: json }),
-      });
-      return;
-    }
-
-    const pat = getCmsPat();
-    if (pat) {
-      const msg = buildCommitMessage(filePath);
-      const result = await saveContent(filePath, json, msg, pat);
-      if (result.ok) {
-        saveError = '';
-      } else {
-        saveError = result.error || 'Save failed';
-        setTimeout(() => {
-          saveError = '';
-        }, 6000);
-      }
-    }
-  }
-
   const RACES_MD_PATH = 'static/content/season-3/races.md';
   const RACES_SECTION_ORDER = ['vampire', 'human', 'werewolf', 'mytt', 'talam'];
 
@@ -322,6 +299,25 @@
 
   const ORGS_MD_PATH = 'static/content/season-3/organizations.md';
   const ORGS_SECTION_ORDER = ['church-of-luminance', 'the-archivum', 'transcendum', 'noctum', 'vampire-hunters-guild'];
+
+  const NATIONS_MD_PATH = 'static/content/season-3/nations.md';
+  const NATIONS_SECTION_ORDER = [
+    'vardoran',
+    'aetheria',
+    'ajania',
+    'alinar',
+    'frankleburg',
+    'hafjallheim',
+    'the-hallowed-mountains',
+    'lakkrah',
+    'norus',
+    'nova-franka',
+    'novosvet',
+    'omen-plateau',
+    'pisciv-vol',
+    'qalidran',
+    'suluun',
+  ];
 
   async function onRaceSave(sectionKey: string, content: string) {
     const key = sectionKey
@@ -392,8 +388,39 @@
     }
   }
 
-  function onNationSave(sectionKey: string, content: string) {
-    onJsonSave('static/content/season-3/nations.json', nations, sectionKey, content);
+  async function onNationSave(sectionKey: string, content: string) {
+    const key = sectionKey
+      .replace(/^.*?\./, '')
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/'/g, '');
+    nationSections[key] = content;
+    nationDescriptions[key] = await parse(content);
+
+    const full = reconstructContent(nationSections, NATIONS_SECTION_ORDER);
+
+    if (import.meta.env.DEV) {
+      await fetch('/__cms-save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ filePath: NATIONS_MD_PATH, content: full }),
+      });
+      return;
+    }
+
+    const pat = getCmsPat();
+    if (pat) {
+      const msg = buildCommitMessage(NATIONS_MD_PATH);
+      const result = await saveContent(NATIONS_MD_PATH, full, msg, pat);
+      if (result.ok) {
+        saveError = '';
+      } else {
+        saveError = result.error || 'Save failed';
+        setTimeout(() => {
+          saveError = '';
+        }, 6000);
+      }
+    }
   }
 
   async function onOrgSave(sectionKey: string, content: string) {
@@ -591,7 +618,7 @@
         <!-- Section 2: Nations -->
         <section id="nations" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-2">Nations of the World</h2>
+            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-2">Nations and Regions of the World</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="nations-intro" rawContent={sections['nations-intro'] || ''} onsave={onSectionSave}>
               {#if nationsIntroHtml}
                 <div class="mb-6">{@html nationsIntroHtml}</div>
@@ -599,12 +626,37 @@
                 <div class="mb-6 italic">Nation introductions coming soon.</div>
               {/if}
             </EditableSection>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {#each nations as nation, i}
-                <NationCard {nation} onclick={() => (expandedNation = i)} />
-              {/each}
-            </div>
-            {#if nations.length === 0}
+            {#if nations.length > 0}
+              {@const vardoran = nations[0]}
+              {@const rest = nations.slice(1)}
+              <div class="mb-6" style="filter: drop-shadow(0 0 1.5px #92400e) drop-shadow(0 0 1.5px #92400e);">
+                <button
+                  onclick={() => (expandedNation = 0)}
+                  class="w-full cursor-pointer group text-left"
+                  style="clip-path: polygon(0% 0%, 21% 0%, 26% 16px, 74% 16px, 79% 0%, 100% 0%, 100% 100%, 79% 100%, 74% calc(100% - 16px), 26% calc(100% - 16px), 21% 100%, 0% 100%);"
+                >
+                  <div class="bg-linear-to-r from-black/80 via-gold-700/50 to-black/80 p-6 flex items-center gap-6 transition-all group-hover:brightness-125">
+                    <div class="min-w-16 h-16 rounded-full bg-background-900/50 flex items-center justify-center text-2xl font-cinzel font-bold {getTheme(vardoran.colorKey).accent} ring-2 {getTheme(vardoran.colorKey).border}">
+                      <span style="font-family: 'Eagle Lake', serif; font-size: 2em;">{vardoran.name.charAt(0)}</span>
+                    </div>
+                    <div class="flex-1 text-center">
+                      <div class="text-2xl font-cinzel font-bold text-tprimary">{vardoran.name}</div>
+                      <div class="text-base text-tprimary-400 italic">{vardoran.tagline}</div>
+                    </div>
+                    <div class="min-w-16 h-16 rounded-full bg-background-900/50 flex items-center justify-center text-2xl font-cinzel font-bold {getTheme(vardoran.colorKey).accent} ring-2 {getTheme(vardoran.colorKey).border}">
+                      <span style="font-family: 'Eagle Lake', serif; font-size: 2em;">{vardoran.name.charAt(0)}</span>
+                    </div>
+                  </div>
+                </button>
+              </div>
+              {#if rest.length > 0}
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {#each rest as nation, i}
+                    <NationCard {nation} onclick={() => (expandedNation = i + 1)} />
+                  {/each}
+                </div>
+              {/if}
+            {:else}
               <div class="text-tprimary-500 italic p-4">Nation information coming soon.</div>
             {/if}
           </div>
@@ -847,7 +899,13 @@
 {/if}
 
 {#if expandedNation !== null}
-  <NationModal nation={nations[expandedNation]} onclose={() => (expandedNation = null)} onsave={onNationSave} />
+  <NationModal
+    nation={nations[expandedNation]}
+    descriptionHtml={nationDescriptions[nationKey(nations[expandedNation].name)] || ''}
+    rawContent={nationSections[nationKey(nations[expandedNation].name)] || ''}
+    onclose={() => (expandedNation = null)}
+    onsave={onNationSave}
+  />
 {/if}
 
 {#if expandedOrg !== null}

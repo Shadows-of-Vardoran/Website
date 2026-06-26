@@ -65,7 +65,7 @@
 <!-- section:nations-intro -->
 <div class="text-lg leading-relaxed">
   <p class="mb-4">
-    The great powers that shape the fate of mortals and immortals alike. Each nation carries its own laws, faiths, and grudges into an uneasy world. From the storm-wrapped scholars of Norus to the blood-soaked halls of Qalidran, every border tells a story of survival, conquest, and conviction.
+    The great powers and untamed lands that shape the fate of mortals and immortals alike. Each nation and region carries its own laws, faiths, and grudges into an uneasy world. From the storm-wrapped scholars of Norus to the blood-soaked halls of Qalidran, every border tells a story of survival, conquest, and conviction.
   </p>
 </div>
 

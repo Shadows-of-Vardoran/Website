@@ -16,7 +16,6 @@ export interface Nation {
   name: string;
   tagline: string;
   colorKey: string;
-  description: string;
 }
 
 export interface Organization {
