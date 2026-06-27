@@ -153,7 +153,11 @@
   }
 
   function nationKey(name: string): string {
-    return name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '');
+    return name
+      .toLowerCase()
+      .replace(/\s*\(wip\)\s*/gi, '')
+      .replace(/\s+/g, '-')
+      .replace(/'/g, '');
   }
 
   async function loadContent() {
@@ -200,7 +204,15 @@
         );
         specDescriptions = parsed;
       }
-      if (nationsRes.ok) nations = await nationsRes.json();
+      if (nationsRes.ok) {
+        const data: Nation[] = await nationsRes.json();
+        if (data.length > 0) {
+          const misc = data.find((n) => n.name === 'Miscellaneous Regions');
+          const others = data.filter((n) => n.name !== 'Miscellaneous Regions');
+          nations = [others[0], ...others.slice(1).sort((a, b) => a.name.localeCompare(b.name))];
+          if (misc) nations.push(misc);
+        }
+      }
       if (nationsMdRes.ok) {
         const raw = await nationsMdRes.text();
         nationSections = splitSections(raw);
@@ -319,6 +331,7 @@
     'pisciv-vol',
     'qalidran',
     'suluun',
+    'miscellaneous-regions',
   ];
 
   async function onRaceSave(sectionKey: string, content: string) {
@@ -394,6 +407,7 @@
       .replace(/^nation\./, '')
       .replace(/\..*$/, '')
       .toLowerCase()
+      .replace(/\s*\(wip\)\s*/gi, '')
       .replace(/\s+/g, '-')
       .replace(/'/g, '');
     nationSections[key] = content;
@@ -633,7 +647,8 @@
             </EditableSection>
             {#if nations.length > 0}
               {@const vardoran = nations[0]}
-              {@const rest = nations.slice(1)}
+              {@const misc = nations.find((n) => n.name === 'Miscellaneous Regions')}
+              {@const rest = nations.slice(1).filter((n) => n.name !== 'Miscellaneous Regions')}
               <div class="mb-6" style="filter: drop-shadow(0 0 1.5px #92400e) drop-shadow(0 0 1.5px #92400e);">
                 <button
                   onclick={() => (expandedNation = 0)}
@@ -663,8 +678,15 @@
               {#if rest.length > 0}
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {#each rest as nation, i}
-                    <NationCard {nation} onclick={() => (expandedNation = i + 1)} />
+                    {@const nationIdx = nations.indexOf(nation)}
+                    <NationCard {nation} onclick={() => (expandedNation = nationIdx)} />
                   {/each}
+                </div>
+              {/if}
+              {#if misc}
+                {@const miscIdx = nations.indexOf(misc)}
+                <div class="mt-4">
+                  <NationCard nation={misc} onclick={() => (expandedNation = miscIdx)} />
                 </div>
               {/if}
             {:else}

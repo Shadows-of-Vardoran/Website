@@ -73,16 +73,19 @@ export const useMarked = () => {
       });
 
       if (text.includes('<img')) {
-        const classMatch = text.match(/class="([^"]*)"/);
-
-        let textWithoutClass = text.replace(/class="[^"]*"/, '');
-        return `
-          <div class="marked-image ${classMatch ? classMatch[1] : ''}">
-            <img src="assets/image_tl_corner.png" alt="" class="tl-corner" />
-            ${textWithoutClass}
-            <img src="assets/image_br_corner.png" alt="" class="br-corner" />
-          </div>
-        `;
+        text = text.replace(/<img\s+([^>]*?)>/g, (_match, attrs) => {
+          const classMatch = attrs.match(/class="([^"]*)"/);
+          const attrsClean = attrs.replace(/\s*class="[^"]*"/, '').trim();
+          const wrapperClass = classMatch ? classMatch[1] : '';
+          return `
+        <div class="marked-image ${wrapperClass}">
+          <img src="assets/image_tl_corner.png" alt="" class="tl-corner" />
+          <img ${attrsClean}>
+          <img src="assets/image_br_corner.png" alt="" class="br-corner" />
+        </div>
+      `;
+        });
+        return text;
       }
 
       return text;

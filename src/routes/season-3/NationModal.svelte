@@ -46,7 +46,16 @@
         <button onclick={onclose} aria-label="Close" class="absolute top-4 right-4 text-tprimary-500 hover:text-white text-2xl cursor-pointer z-10 transition-colors">
           <i class="mdi mdi-close"></i>
         </button>
-        <EditableSection filePath="static/content/season-3/nations.md" sectionKey="nation.{nation.name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '')}" {rawContent} {onsave}>
+        <EditableSection
+          filePath="static/content/season-3/nations.md"
+          sectionKey="nation.{nation.name
+            .toLowerCase()
+            .replace(/\s*\(wip\)\s*/gi, '')
+            .replace(/\s+/g, '-')
+            .replace(/'/g, '')}"
+          {rawContent}
+          {onsave}
+        >
           <div class="text-tprimary-200 leading-relaxed marked pr-8">
             {#if descriptionHtml}
               {@html descriptionHtml}

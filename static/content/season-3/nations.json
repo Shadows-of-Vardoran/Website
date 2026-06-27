@@ -10,12 +10,12 @@
     "tagline": "Where the Peaks Touch the Stars"
   },
   {
-    "name": "Ajania",
+    "name": "Ajania (WIP)",
     "colorKey": "sky",
     "tagline": "The Silver Kingdom of the Gallant Mountains"
   },
   {
-    "name": "Alinar",
+    "name": "Alinar (WIP)",
     "colorKey": "emerald",
     "tagline": "Where Three Philosophies Shape One Nation"
   },
@@ -30,17 +30,17 @@
     "tagline": "Where Frost Tests the Bold"
   },
   {
-    "name": "The Hallowed Mountains",
+    "name": "The Hallowed Mountains (WIP)",
     "colorKey": "slate",
     "tagline": "Where Enlightenment Is Earned in Stone and Silence"
   },
   {
-    "name": "Lakkrah",
+    "name": "Lakkrah (WIP)",
     "colorKey": "orange",
     "tagline": "The Best Place for a Storm Is the Horizon"
   },
   {
-    "name": "Norus",
+    "name": "Norus (WIP)",
     "colorKey": "indigo",
     "tagline": "Where storms guard the scholars' domain"
   },
@@ -50,12 +50,12 @@
     "tagline": "Where the Axe Keeps the Dark at Bay"
   },
   {
-    "name": "Novosvet",
+    "name": "Novosvet (WIP)",
     "colorKey": "yellow",
     "tagline": "Light Shines Brightest in Despair"
   },
   {
-    "name": "Omen Plateau",
+    "name": "Omen Plateau (WIP)",
     "colorKey": "stone",
     "tagline": "Where the sun repels all but the hardened"
   },
@@ -73,5 +73,10 @@
     "name": "Sul'uun",
     "colorKey": "rose",
     "tagline": "By the Mercy of the Moon, by the Curse of the Sun"
+  },
+  {
+    "name": "Miscellaneous Regions",
+    "colorKey": "gray",
+    "tagline": "Lands Beyond the Major Nations"
   }
 ]

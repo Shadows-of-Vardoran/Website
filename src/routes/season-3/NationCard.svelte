@@ -13,7 +13,7 @@
   let theme = $derived(getTheme(nation.colorKey));
 </script>
 
-<button {onclick} class="rounded-lg border-2 overflow-hidden cursor-pointer group text-left {theme.border} hover:brightness-125 transition-all">
+<button {onclick} class="w-full rounded-lg border-2 overflow-hidden cursor-pointer group text-left {theme.border} hover:brightness-125 transition-all">
   <div class="bg-linear-to-r {theme.gradient} p-4 flex items-center gap-4 transition-all group-hover:brightness-125">
     <div class="min-w-12 h-12 rounded-full bg-background-900/50 flex items-center justify-center text-xl font-cinzel font-bold {theme.accent}">
       {nation.name.charAt(0)}
