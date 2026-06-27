@@ -20,7 +20,7 @@
     </div>
     <div class="flex-1">
       <div class="text-xl font-cinzel font-bold text-tprimary">{org.name}</div>
-      <div class="text-sm text-tprimary-400 italic">{org.tagline}</div>
+      <div class="text-base text-tprimary-400 italic">{org.tagline}</div>
     </div>
     <div class="text-tprimary-500 text-lg">
       <i class="mdi mdi-chevron-right text-xl"></i>

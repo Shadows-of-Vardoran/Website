@@ -579,7 +579,7 @@
           <div class="w-full h-full overflow-hidden relative">
             <img
               bind:this={mapImgEl}
-              src="/assets/Shadows_of_Vardoran_S3_Map_Reduced.webp"
+              src="/assets/Sov_S3_Map_Final.webp"
               alt="Shadows of Vardoran Season 3 Map"
               class="w-full h-full"
               style:object-fit="cover"

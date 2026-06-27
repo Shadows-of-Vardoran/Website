@@ -72,6 +72,15 @@ const themes: Record<string, ColorTheme> = {
     border: 'border-lime-900/60',
     modalBg: 'bg-linear-to-br from-background-800 via-background-900 to-lime-900/60',
   },
+  chartreuse: {
+    gradient: 'from-chartreuse-800/50 to-black/80',
+    accent: 'text-chartreuse-500',
+    accentBg: 'bg-chartreuse-600',
+    accentDot: 'bg-chartreuse-500',
+    accentDotVar: 'var(--color-chartreuse-500)',
+    border: 'border-chartreuse-900/60',
+    modalBg: 'bg-linear-to-br from-background-800 via-background-900 to-chartreuse-900/60',
+  },
   gray: {
     gradient: 'from-gray-800/50 to-black/80',
     accent: 'text-gray-400',
