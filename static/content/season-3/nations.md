@@ -148,41 +148,99 @@ Vardoran's ancient funerary rites were written by real-estate agents, resulting 
 </div>
 
 <!-- section:ajania -->
-# Ajania, the Silver Kingdom
-*Founded in ???-AF*
+# Ajania
+*Founded: 200 years before the fall of Nosterra*
 
 ## Historical Overview
-Two hundred years before the fall of [joebobempire], Ajania's capital was founded as a distant silver mining colony for [JoeBob Empire]. A legion of [Insert appropriate social class/warrior type here] settled the Gallant Mountains to secure valuable silver, copper, and lead for the Empire. From early years, plumes of smoke billowed up from the valleys and poisoned the clouds. Expended quarries and open-pit mines flooded into poisoned lakes. Workers collapsed after inhaling poisonous fumes from deep within the caves. The people of Ajania learned and adapted. They researched the causes of these disasters and made changes to prevent the worst impacts of their extraction. They developed treatments and medicines for the poisons their country was founded to work with, and they used their enormous stockpiles of silver to leverage surrounding nations to trade them necessary resources.
 
-Ajania quickly grew to become one of the world's wealthiest and best defended countries. It persisted after the fall of [joebobempire] and claims to still be the rightful heir-state to that empire. For centuries, Ajania ruled the region as the de-facto power, influencing other countries around it.
-
-Eventually though, seven hundred years ago, silver lost favor as the currency for trade. Gold replaced it and Ajania's influence quickly declined. Lead and copper became more valuable exports and silver was no longer nearly as valuable. During this era, silver became an excess material that was used wherever it could find use. Usually it was simply used as part of construction. Ore-bearing stone was cut into bricks as much as any other masonry. Many of these buildings still stand today.
-
-Three hundred years ago, silver's value again skyrocketed. The rise of the first Vampires and the introduction of magic into the world led to a practical and essential use for silver: the protection of humanity. With an increase of leisure that came with this wealth, Ajanians turned to expressions of their creativity and redoublings into their health. Doctors came from around the world to study in Ajanian hospitals. Skilled stone carvers received patronage to carve great sculptures into the peaks of the mountains surrounding the capital city, which were long since depleted of ore. In these past centuries, Ajania's importance and influence has turned it into a cultural and economic hub not just for the region, but for the world.
-
-Now, with magic and monsters redoubling their effect on the world, Ajania finds itself a nation wealthy beyond words. Its people would be free to celebrate and live leisurely lives, if not for the recent troubling developments. Child and infant mortality and illness are on the rise. Inexplicably, some 15% of newborns in the country are facing severe illness. Those who survive tend to be sickly into their early childhood. Not enough time has passed yet to know for certain if they can eventually recover. If the cause of this illness is not found and solved, Ajania, a kingdom that stood for over a millennia, will collapse within a few short generations, and with it, the world's supply of silver.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Two hundred years before the fall of Nosterra, Ajania's capital was founded as a distant silver mining colony for Nosterra. A myriad of legionnaires settled the Gallant Mountains to secure valuable silver, copper, and lead for the Empire. From early years, plumes of smoke billowed up from the valleys and poisoned the clouds. Expended quarries and open-pit mines flooded into poisoned lakes. Workers collapsed after inhaling poisonous fumes from deep within the caves. The people of Ajania learned and adapted. They researched the causes of these disasters and made changes to prevent the worst impacts of their extraction. They developed treatments and medicines for the poisons their country was founded to work with, and they used their enormous stockpiles of silver to leverage surrounding nations to trade them necessary resources.</p>
+    <p>Ajania quickly grew to become one of the world's wealthiest and best defended countries. It persisted after the fall of Nosterra and claims to still be the rightful heir-state to that empire. For centuries, Ajania ruled the region as the de-facto power, influencing other countries around it.</p>
+    <p>Eventually though, seven hundred years ago, silver lost favor as the currency for trade. Gold replaced it and Ajania's influence quickly declined. Lead and copper became more valuable exports and silver was no longer nearly as valuable. During this era, silver became an excess material that was used wherever it could find use. Usually it was simply used as part of construction; ore-bearing stone was cut into bricks as much as any other masonry. Many of these buildings still stand today.</p>
+    <p>Three hundred years ago, silver's value again skyrocketed. The rise of the first vampires and the introduction of magic into the world led to a practical and essential use for silver: the protection of humanity. With an increase of leisure that came with this wealth, Ajanians turned to expressions of their creativity and redoublings into their health. Doctors came from around the world to study in Ajanian hospitals. Skilled stone carvers received patronage to carve great sculptures into the peaks of the mountains surrounding the capital city, which were long since depleted of ore. In these past centuries, Ajania's importance and influence has turned it into a cultural and economic hub not just for the region, but for the world.</p>
+    <p>Now, with magic and monsters redoubling their effect on the world, Ajania finds itself a nation wealthy beyond words. Its people would be free to celebrate and live leisurely lives, if not for the recent troubling developments. Child and infant mortality and illness are on the rise. Inexplicably, some 15% of newborns in the country are facing severe illness. Those who survive tend to be sickly into their early childhood. Not enough time has passed yet to know for certain if they can eventually recover. If the cause of this illness is not found and solved, Ajania, a kingdom that stood for over a millennium, will collapse within a few short generations, and with it, the world's supply of silver.</p>
+  </div>
+</div>
 
 ## Cultural Overview
-TBD
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Centuries of prosperity have given the people of Ajania a sense that they are "chosen." Fated to live in prosperity eternally within the mountains, isolated from the world at large. They have solved their historic problems with engineering and policy and generally have figured out their niche within the world. The rise of vampires, and now magic, has propelled them into incredible wealth, divided amongst the people. It is not an even divide, but there is so much excess wealth and food that most adults do not have any wants. While a minority of the population handles the governance, logistics, and mineral extraction, the majority are free to pursue scholarship, arts, and cultural achievements.</p>
+    <p>So long as they can trade with surrounding nations for food and essentials, their limitless supplies of silver and defensible terrain lets them strive for the heavens in science and arts. They are, however, still quite superstitious. Ajanian culture has stayed consistent for over 1400 years.</p>
+    <p>However, the child mortality crisis has become the defining concern of the decade. Ten years ago it began, and it has only gotten worse since. This generation alive in Ajania may very well be the country's last. Its culture is facing this existential threat and the people are divided with hundreds of theories and ideas. Causing significant miscommunication and cultural worry. The citizenry really does have so much time on their hands, so much knowledge, so much skill, but so little ability to save themselves.</p>
+  </div>
+</div>
 
 ## Racial and Magical Overview
-TBD
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Ajania's borders are free of Mytts, Talam, vampires, and werewolves. The quantity of silver prevents them from living in the region for any significant period of time. Magic is not practiced in the region for similar reasons. This kingdom is not ethically, but geographically opposed to magic, leaving them with only mundane ways to solve their problems.</p>
+  </div>
+</div>
 
 ## Important Allies and Enemies
-TBD
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Ajania's closest ally is their eastern neighbor, Frankleburg. Both nations came together to build the Crown Pass, the large cut through the mountains that makes travel to the western shore possible despite the mountains between the bulk of Frankleburg and the coast. Ajania provides valuable metals and gems, while Frankleburg provides agricultural goods.</p>
+    <p>Welronz was once the breadbasket of Nosterra. Now, it is a vital food source for Ajania. Welronz and Ajania do not share any military alliances, but they are vitally important for each other's continued existence.</p>
+    <p>Qalidran, the country of vampires, are natural enemies to Ajania. Since the rise of vampires, Ajania has provided the resources to keep them at bay, much to Qalidran's chagrin.</p>
+  </div>
+</div>
 
 ## Important and Notable Landmarks/Places
-#### The Gallant Mountains
-The towering mountain range that forms the backbone of Ajania. Once rich with silver, copper, and lead, the peaks surrounding the capital are now crowned with monumental stone carvings.
 
-#### The Capital
-Ajania's seat of power, built upon the original mining settlement. Many of its oldest buildings still incorporate silver-bearing stone bricks from the era when silver was surplus.
+#### The Sculpted Peaks
 
-#### The Poisoned Lakes
-Open-pit mines that flooded centuries ago, now filled with waters still tainted by the metals and fumes of early extraction. Ajanians have learned to treat and manage them, but they remain a stark reminder of the cost of their wealth.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>These mountaintops surround Ajania's capital. They were the first areas depleted of their silver in the ancient past, so skilled engineers and artists took centuries to carve them into beautiful sculptures on an unprecedented scale. The sculptures vary in size and age, but the newest and largest, completed last year, is The Phoenix, a mythical bird with silver and gold traced into its feathers, carved in the image of a peacock. Other notable peaks are Hecatonkeres: a peak carved into a hundred busts, representing the original soldiers who settled Ajania. The faces are actually modeled after the friends of the mason who carved it. Her descendants have maintained it for three hundred years.</p>
+  </div>
+</div>
+
+#### Myriad Mirrors
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>A public works project turned art installation. It was incredibly costly to have giant planes of glass shaped into lenses abroad and transported carefully through mountain tunnels. Only once they were put into place with the silver mirrors carefully polished did the capital become capable of enjoying light during the nights. Moon and star light is focused onto mirrors and guided above the city to be split into prisms that work as street lights. The natural lights of night catch the silver in the brickwork and the whole city glows every evening.</p>
+  </div>
+</div>
+
+#### Briye Mon
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The capital of Ajania. It is also the only permanently occupied settlement of the region. Without the ability to build out, they have instead dug into the old mines for more living space. The Myriad Mirrors ensure that even the lower levels receive light. However, only those on the surface can enjoy the real night sky and the beauty of the sculpted peaks.</p>
+  </div>
+</div>
+
+#### The Princep's Palace
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The highest building in the city, once a place for the Emperor of Nosterra to live while visiting the region. It has been expanded and maintained into a grand place of performance, governance, and exhibition. Five huge towers rival the mountain peaks for height, each of them equipped with wide observation platforms. Between the five towers is the great Ocutorium, a stage and stadium under a great glass dome.</p>
+  </div>
+</div>
 
 ## A Random Fun Fact
-TBD
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Ajania's government is a constitutional monarchy, as it has been for 1400 years. Various dynasties have passed. The constitution is based on the original articles and contracts of Briye Mon's founding. As such, they name that the true Emperor of Nosterra rules supreme over Ajania's monarch.</p>
+  </div>
+</div>
 
 <!-- section:alinar -->
 # Alinar
@@ -530,46 +588,90 @@ TBD
 
 <!-- section:the-hallowed-mountains -->
 # The Hallowed Mountains
-*Founded in ???-AF*
+*The Hidden People Beyond the Pass*
 
 ## Historical Overview
-Most historians reckon that the oldest monasteries and permanent settlements in The Hallowed Mountains predate the founding of the world's great empires by centuries. However, the oldest surviving records discussing the region only date back so far as 900 years ago.
 
-The people of The Hallowed Mountains struggle to identify their own records. The general populace do not have a common language or writing system, instead speaking in a variety of sister languages each distinct to the particular valley that village lies in. Furthermore, the region does not use the common calendar. Instead, they count the years in ten cycles of ten, so every century their calendar resets to year 1, making their records difficult to parse for the outsiders who do gain entry.
-
-The people of The Hallowed Mountains therefore consider their culture and history to be cyclical, static, and unchanging.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-slate-800/60 to-slate-950/80 flex-shrink-0 border border-slate-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Most historians reckon that the oldest monasteries and permanent settlements in The Hallowed Mountains predate the founding of Nosterra by centuries. However, the oldest surviving records discussing the region only date back so far as 900 years ago.</p>
+    <p>The people of The Hallowed Mountains struggle to identify their own records. The general populace do not have a common language or writing system, instead speaking in a variety of sister languages each distinct to the particular valley that village lies in. Furthermore, the region does not use the common calendar. Instead, they count the years in ten cycles of ten, so every century their calendar resets to year 1, making their records difficult to parse for the outsiders who do gain entry.</p>
+    <p>The people of The Hallowed Mountains therefore consider their culture and history to be cyclical, static, and unchanging.</p>
+  </div>
+</div>
 
 ## Cultural Overview
-There are two distinct groups that live within The Hallowed Mountains, those who live in the valleys, and those who live on the mountains.
 
-The Valley-Dwellers are pastoralists who graze goats, yaks, and other animals for their milk and meat. It is a simple and often cold life, but a fulfilling one. These people do move from valley to valley on occasion to find better grazing lands for their herds, but their settlements can last a number of years, so they aren't truly nomadic or sedentary.
-
-The Monks however live in beautiful elaborate monasteries that dot the peaks of the highest spires. These people seek enlightenment by separating themselves from the materiality of the world as much as possible. However, they do still need food, shelter, and beauty. So, they train. The monks give these Hallowed Mountains their name. And although the mountains are considered impenetrable to most, the monks can take travelers through, at a steep cost.
-
-The Hallowed Mountains are not a formal government at all. Most of the monasteries barely interact with one another, but these people have retained their independence through their dedication to thriving in such an inhospitable land.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-slate-800/60 to-slate-950/80 flex-shrink-0 border border-slate-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>There are two distinct groups that live within The Hallowed Mountains, those who live in the valleys, and those who live on the mountains.</p>
+    <p>The Valley-Dwellers are pastoralists who graze goats, yaks, and other animals for their milk and meat. It is a simple and often cold life, but a fulfilling one. These people do move from valley to valley on occasion to find better grazing lands for their herds, but their settlements can last a number of years, so they are not truly nomadic or sedentary.</p>
+    <p>The Monks however live in beautiful elaborate monasteries that dot the peaks of the highest spires. These people seek enlightenment by separating themselves from the materiality of the world as much as possible. However, they do still need food, shelter, and beauty. So, they train. The monks give these Hallowed Mountains their name. And although the mountains are considered impenetrable to most, the monks can take travelers through, at a steep cost.</p>
+    <p>The Hallowed Mountains are not a formal government at all. Most of the monasteries barely interact with one another, but these people have retained their independence through their dedication to thriving in such an inhospitable land.</p>
+  </div>
+</div>
 
 ## Racial and Magical Overview
-With the rise of magic, many monks who have spent decades in careful introspection and honing of their bodies, minds, and souls, find that they have natural aptitudes towards magics of Light and Frost.
 
-Nearly all the people of the mountains are human. Vampires rarely stay long in a region with so little prey, so little cover from the sun, and so many capable light-wielders. Werewolves do have a niche within the mountains, though far away from the civilized regions. Werewolves can survive in the cold through their hunting, and the region is so sparsely populated they do little harm to anyone but wandering and foolish travelers.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-slate-800/60 to-slate-950/80 flex-shrink-0 border border-slate-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>With the rise of magic, many monks who have spent decades in careful introspection and honing of their bodies, minds, and souls, find that they have natural aptitudes towards magics of Light and Frost.</p>
+    <p>Nearly all the people of the mountains are human. Vampires rarely stay long in a region with so little prey, so little cover from the sun, and so many capable light-wielders, even before the rise of light magic, vampires found the monks to be difficult prey. Werewolves do have a niche within the mountains, though far away from the civilized regions. Werewolves can survive in the cold through their hunting, and the region is so sparsely populated they do little harm to anyone but wandering and foolish travelers.</p>
+    <p>Talam and Mytts are welcomed within both the high monasteries and the pastoral folk of the valleys. The people are happy to adapt foreign beliefs and compromise them with their own so long as the individuals are happy to do the same. Anyone too pushy with outside beliefs will be laughed out of a village or excluded from a monastery.</p>
+    <p>If willing, a Talam or Mytt could completely adopt this culture and live a happy, albeit simple life within The Hallowed Mountains.</p>
+  </div>
+</div>
 
 ## Important Allies and Enemies
-The monks drove off the incursions of Dracula when he rose to power, or rather, the lands themselves did. With the rise of magic in the following years, the monks are having to dedicate more time than ever to the defense of The Hallowed Mountains. Incursion into the lands from an organized power would lead to the death of their culture.
 
-The monks have few allies and see enemies all around them. But they adhere strictly to practices of pure defense and resist the taking of another life in all but the most dire circumstances. Monks who find themselves drawn to more direct theories of politics and leadership find themselves cast out into the rest of the world. They become people somewhere between allies and enemies of The Hallowed Mountains.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-slate-800/60 to-slate-950/80 flex-shrink-0 border border-slate-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The monks drove off the incursions of Dracula when he rose to power, or rather, the lands themselves did. With the rise of magic in the following years, the monks are having to dedicate more time than ever to the defense of The Hallowed Mountains. Incursion into the lands from an organized power would lead to the death of their culture.</p>
+    <p>The monks have few allies and see enemies all around them. But they adhere strictly to practices of pure defense and resist the taking of another life in all but the most dire circumstances. Monks who find themselves drawn to more direct theories of politics and leadership find themselves cast out into the rest of the world.</p>
+  </div>
+</div>
 
 ## Important and Notable Landmarks/Places
+
 #### Sun's Rise
-The common name for the monastery built at the peak of the highest mountain in the range. It faces westward and overlooks many valleys of the mountains. It is a tradition to pray eastward during the sunrise in the valleys immediately nearest to this monastery.
 
-#### The Hundred Valleys
-The network of isolated valleys that wind through the mountain range, each home to its own sister language and pastoral community. Travel between them is possible only with monk guidance.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-slate-800/60 to-slate-950/80 flex-shrink-0 border border-slate-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The common name for the monastery built at the peak of the highest mountain in the range. That monastery faces westward and overlooks many valleys of the mountains. It is a tradition to pray eastward during the sunrise in the valleys immediately nearest to this monastery.</p>
+  </div>
+</div>
 
-#### The Frost Spires
-A cluster of the tallest, most treacherous peaks where the most reclusive monasteries perch. The air thins, the cold bites, and only the most dedicated monks endure here. It is said that at the highest spire, one can hear the gods breathe.
+#### The Roving Bazaar
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-slate-800/60 to-slate-950/80 flex-shrink-0 border border-slate-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Moves annually between the valleys. Once a year, the people of the valleys converge to trade, party, and celebrate the turning of the year. This movement usually occurs in early summer and they remain together for a full month. This time is when many marriages happen as the people excitedly mingle between normally isolated tribes. The monks abstain from visiting the Roving Bazaar.</p>
+  </div>
+</div>
+
+#### The Castle of Myrverious the Imposter
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-slate-800/60 to-slate-950/80 flex-shrink-0 border border-slate-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Rumored to lie within the Hallowed Mountains. Myrverious claims to be the first of all vampires and has been cast out completely from vampire society. The people of the Mountains are essentially unaware of his presence, lending credence to the idea that he might simply be an urban legend.</p>
+  </div>
+</div>
 
 ## A Random Fun Fact
-This region invented the base-10 counting system commonly used in modern day.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-slate-800/60 to-slate-950/80 flex-shrink-0 border border-slate-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>This region invented the base-10 counting system commonly used in modern day.</p>
+  </div>
+</div>
 
 <!-- section:lakkrah -->
 # Lakkrah
@@ -655,50 +757,95 @@ This region invented the base-10 counting system commonly used in modern day.
 
 <!-- section:norus -->
 # Norus
-*Founded in 675-AF*
+*Founded: 675 AF*
 
 ## Historical Overview
-In the year 675 Norus was founded as a feudal kingdom of knights, lords, and ladies, but with a focus on patronage towards learning and self betterment through knowledge. In the year 944 however, a plague overtook the fertile countryside of the nation. As peasants died of this plague, they rose again as mindless and violent undead that would continue to attack, kill, and spread disease until their bodies degraded into nothing.
 
-The loss of life from that plague led to a food chain collapse in the country. No longer were there enough peasants to farm the grain to feed the nobles to pay the scholars. The scholars traveled the world and found inspiration in the industrial revolution overtaking northern Vardoran. They turned their remaining population towards mining and steelwork as they erected vast machines to perform the labor of hundreds of men.
-
-The century immediately following the great plague was riddled with smaller outbreaks of that disease, killing off much of the peasantry and nobility. The enlightened scholars somehow escaped most of the death.
-
-The year 1050 marked the first year that more grain was being mechanically produced than was produced by hand. 1088 saw the creation of machines to conjure storms across the land to fertilize the fields and water the crops. By 1200 the vast majority of the farming in the country was done via automated means and the population dynamics had shifted to their modern state.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-indigo-800/60 to-indigo-950/80 flex-shrink-0 border border-indigo-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>In the year 675 Norus was founded as a feudal kingdom of knights, lords, and ladies, but with a focus on patronage towards learning and self betterment through knowledge. In the year 944 however, a plague overtook the fertile countryside of the nation. As peasants died of this plague, they rose again as mindless and violent undead that would continue to attack, kill, and spread disease until their bodies degraded into nothing.</p>
+    <p>The loss of life from that plague led to a food chain collapse in the country. No longer were there enough peasants to farm the grain to feed the nobles to pay the scholars. The scholars traveled the world and found inspiration in the industrial revolution overtaking northern Vardoran. They turned their remaining population towards mining and steelwork as they erected vast machines to perform the labor of hundreds of men.</p>
+    <p>The century immediately following the great plague was riddled with smaller outbreaks of that disease, killing off much of the peasantry and nobility. The enlightened scholars somehow escaped most of the death.</p>
+    <p>The year 1050 marked the first year that more grain was being mechanically produced than was produced by hand. 1088 saw the creation of machines to conjure storms across the land to fertilize the fields and water the crops. By 1200 the vast majority of the farming in the country was done via automated means and the population dynamics had shifted to their modern state.</p>
+    <p>In the past half-decade, since the rise of magic, Norus' companies have faced large-scale sabotage and rebellion from talented individuals with newfound magic. The plague, while once under control, is again having a resurgence. The elite of society are cracking down on both of these problems by tightening the noose on the personal freedoms of the average civilians.</p>
+  </div>
+</div>
 
 ## Cultural Overview
-The people of Norus are now separated wholly from the means by which they feed themselves and create their worlds. Farming, mining, and most every other form of resource extraction and processing have been automated. A small crew of a dozen technicians handle the extraction of an entire mine. A single family can farm enough food to feed a thousand citizens.
 
-The poor of Norus live in squalorous living conditions and cramped quarters. They easily purchase enough grain to survive and enough fabric to have basic clothes, but they have nothing to strive for and no hope to live for something of value unless they can break into the extravagant upper class, or if they can offer their lives for some other form of advancement. Opportunities for a better life are rare in Norus. The poor can't afford to pass them up.
-
-The intelligentsia of Norus includes mostly descendents of the scholars and nobles. They are brilliant doctors, innovators, and inventors who make the most from their accursed land. The rest of the world thinks of these renowned scholars when they imagine Norus. Known for both their brilliance and their ruthlessness.
-
-They rule the land via a string of cooperative alliances based around the hoarding and sequestering of knowledge. The more important the invention someone understands, the more power they wield politically. Therefore espionage and experimentation are the primary tools for political power plays in Norus.
-
-Because most of the populated regions of the country are covered by constant clouds, storms, and rain, the people of Norus have a particularly unique approach to their worship of luminance. A clear day is a sign for celebration among the poor, a break from the gloom and depression of their daily lives. Norus' chapter of luminance focuses mostly on giving people the hope to live another day. It is most popular among the poor and joining the clergy does represent another way to leave the country. Still, many choose not to leave. After all, the people of Norus don't go hungry.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-indigo-800/60 to-indigo-950/80 flex-shrink-0 border border-indigo-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The people of Norus are now separated wholly from the means by which they feed themselves and create their worlds. Farming, mining, and most every other form of resource extraction and processing have been automated. A small crew of a dozen technicians handle the extraction of an entire mine. A single family can farm enough food to feed a thousand citizens.</p>
+    <p>The poor of Norus live in squalorous living conditions and cramped quarters. They easily purchase enough grain to survive and enough fabric to have basic clothes, but they have nothing to strive for and no hope to live for something of value unless they can break into the extravagant upper class, or if they can offer their lives for some other form of advancement. Opportunities for a better life are rare in Norus. The poor cannot afford to pass them up.</p>
+    <p>The Intellectual Elite of Norus includes mostly descendants of the scholars and nobles. They are brilliant doctors, innovators, and inventors who make the most from their accursed land. The rest of the world thinks of these renowned scholars when they imagine Norus. Known for both their brilliance and their ruthlessness.</p>
+    <p>They rule the land via a string of cooperative alliances based around the hoarding and sequestering of knowledge. The more important the invention someone understands, the more power they wield politically. Therefore espionage and experimentation are the primary tools for political power plays in Norus.</p>
+    <p>Because most of the populated regions of the country are covered by constant clouds, storms, and rain, the people of Norus have a particularly unique approach to their worship of Luminance. A clear day is a sign for celebration among the poor, a break from the gloom and depression of their daily lives. Norus' chapter of Luminance focuses mostly on giving people the hope to live another day. It is most popular among the poor and joining the clergy does represent another way to leave the country. Still, many choose not to leave. After all, the people of Norus do not go hungry.</p>
+  </div>
+</div>
 
 ## Racial and Magical Overview
-The outbreak of magic and the birth of Mytt is bringing about hardship in Norus. The scholars have built their power on having all of the advantages. With a new school of learning, the playing field is being neutralized and it is severely threatening the balance of power. Mages of any variety easily wreak havoc on the machines, making insurgency and rebellion more common than ever before.
 
-Who knows how Norus' society might dramatically change again with the adoption of magic into their automation? Maybe this could even be a tool to fight the plague. It's a time of social unrest in Norus. For some this is apocalyptic, but for others, it's a new beginning.
-
-Non-human races are rare in Norus. Vampires of the land typically disguise themselves from the luminance. The well fed poor make for easy food for vampires who also don't mind the near-eternal storms. Werewolves of Norus often are quickly weeded out of society and are killed or banished to the wilds. Mytts represent a unique case. Some of them have found themselves treasured by certain scholars and also have earned the ire of competitors. Unlike humans, this new form of life does not have legal rights and protections, therefore they're subject to the protection they can acquire based on their skills in magic.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-indigo-800/60 to-indigo-950/80 flex-shrink-0 border border-indigo-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The outbreak of magic and the birth of Mytts is bringing about hardship in Norus. The scholars have built their power on having all of the advantages. With a new school of learning, the playing field is being neutralized and it is severely threatening the balance of power. Mages of any variety easily wreak havoc on the machines, making insurgency and rebellion more common than ever before.</p>
+    <p>Who knows how Norus' society might dramatically change again with the adoption of magic into their automation? Maybe this could even be a tool to fight the plague. It is a time of social unrest in Norus. For some this is apocalyptic, but for others, it is a new beginning.</p>
+    <p>Non-human races are rare in Norus. Vampires of the land typically disguise themselves from the Luminance. The well fed poor make for easy food for vampires who also do not mind the near-eternal storms. Werewolves of Norus often are quickly weeded out of society and are killed or banished to the wilds. Mytts represent a unique case. Some of them have found themselves treasured by certain scholars and also have earned the ire of competitors. Unlike humans, this new form of life does not have legal rights and protections, therefore they are subject to the protection they can acquire based on their skills in magic. Talam's treatment within Norus is often up to the individuals and their own political acumen. Talam have an abnormally high ability to cause trouble with magic, as Norus' machines are sensitive to both frost and storm magic, so they are distrusted. However, they are not yet seen as monsters.</p>
+  </div>
+</div>
 
 ## Important Allies and Enemies
-Relationships with neighbors pending. Should be near other Luminance worshipping countries.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-indigo-800/60 to-indigo-950/80 flex-shrink-0 border border-indigo-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Vardoran is a thorn in Norus' side. Transcendum, a Norus-founded corporation, operates at odds with the local Luminance worshippers. Norus would prefer to keep allied with Novosvet, though the uncontrollable proxy war Blackbrew wages in Vardoran makes that incredibly difficult.</p>
+    <p>Lakkrah's pirates off the coast of Norus are a major problem, but without talented sailors, Norus can do little to stop the piracy and raids except produce more grain.</p>
+    <p>Welronz is a mercantile rival for grain and food production, though not an outright enemy.</p>
+    <p>Frankleburg is a valuable ally and client of their grain production.</p>
+    <p>Novosvet and Norus tolerate one another to form a weak political alliance against the monsters of the world. Norus recognizes the light as being unique among other forms of magic. In exchange, Novosvet agrees that Norus does not violate any major tenets of Luminance. This alliance is being stretched to the breaking point by Vardoran.</p>
+  </div>
+</div>
 
 ## Important and Notable Landmarks/Places
-#### The Mountains
-Vushter is the largest permanent settlement nestled atop the steep peaks of Norus' mountains. Most refined ore comes here to be made into steel and to be made into machines for the rest of the country.
 
-#### The Fertile Valley
-Hollihavn sits in a high point in the fertile valley, the region of Norus that is truly always raining. The city features excellent drainage and sewage systems that were originally developed during the initial outbreak of the plague. Hollihavn was once the seat of the king, whose palace has since been converted into The Academy of Innovation. Hollihavn's streets are covered and breezeways between buildings are the expectation, particularly in the nicer areas of the city.
+#### Vushter
 
-#### The Northern Coast
-Halbjark is the port hub of Norus, and it represents the face the kingdom puts forward to the rest of the world. It is a port town where rare goods and luxuries are imported from across the world for the benefit of the learned few. Halbjark coincidentally is the seat of luminance's largest church in Norus. It's the place where Norus meets the world.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-indigo-800/60 to-indigo-950/80 flex-shrink-0 border border-indigo-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The largest permanent settlement nestled atop the steep peaks of Norus' mountains. Most refined ore comes here to be made into steel and to be turned into machines for the rest of the country.</p>
+  </div>
+</div>
+
+#### Hollihavn
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-indigo-800/60 to-indigo-950/80 flex-shrink-0 border border-indigo-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Sits in a high point in the fertile valley, the region of Norus that is truly always raining. The city features excellent drainage and sewage systems that were originally developed during the initial outbreak of the plague. Hollihavn was once the seat of the king, whose palace has since been converted into The Academy of Innovation. Hollihavn's streets are covered and breezeways between buildings are the expectation, particularly in the nicer areas of the city.</p>
+  </div>
+</div>
+
+#### Halbjark
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-indigo-800/60 to-indigo-950/80 flex-shrink-0 border border-indigo-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The port hub of Norus, and it represents the face the kingdom puts forward to the rest of the world. It is a port town where rare goods and luxuries are imported from across the world for the benefit of the learned few. Halbjark coincidentally is the seat of Luminance's largest church in Norus. It is the place where Norus meets the world.</p>
+  </div>
+</div>
 
 ## A Random Fun Fact
-Because a core part of advancement in life in Norus is the achievement of a doctorate via a written thesis, many citizens are incredibly well educated on niche and useless subjects, even those who never finished their doctorates!
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-indigo-800/60 to-indigo-950/80 flex-shrink-0 border border-indigo-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Because a core part of advancement in life in Norus is the achievement of a doctorate via a written thesis, many citizens are incredibly well educated on niche and useless subjects, even those who never finished their doctorates!</p>
+  </div>
+</div>
 
 <!-- section:nova-franka -->
 # Nova Franka
@@ -794,44 +941,91 @@ Because a core part of advancement in life in Norus is the achievement of a doct
 
 <!-- section:novosvet -->
 # Novosvet
-*The New Light*
+*Founded: 1000 AF • The New Light*
 
 ## Historical Overview
-Seventeen distinct states make up the massive country of Novosvet. Until three-hundred years ago, these states were independent countries, kingdoms, and principalities. Arglia, the state in which the capital city Goldsteeple is located, was constantly torn by war due to its value in growing food. The sixteen countries of the region shared a common culture stretching back centuries, a culture of perseverance, pride, ruggedness, and a religious respect and fear of nature and war. However, the first Prophet Gabriel The Immaculate changed the direction of this land.
 
-Gabriel claimed to have seen the light and understood its teachings. He came forth with a radical doctrine. He preached non-violence, love for one's neighbors, and understanding even in the face of pain. He lived by that doctrine. Gabriel built a small church in the middle of Arglia. Soldiers weary from war could stay there, so long as they agreed to non-violence on the holy ground. Various soldiers who were healed in that church learned to band together with their former enemies and became Gabriel's first disciples. They took new names and left into the land to preach of the light.
-
-The most divisive tenet of Luminance was one that the kings would not stand for. Luminance preached that no man could hold dominion over another, and that all were equal under the light. The religion spread like an infection. The kings attempted to burn it out and uproot it, but their infighting kept them from unifying to squash the religion. A fringe religious group turned into a movement, and soon that movement turned into a rebellion. Kings sent armies to destroy Gabriel's church in Arglia, but by divine providence, none ever succeeded.
-
-Gabriel died in the year 1000-AF. He did not live to see it, but his disciples brought forth peace. Upon Gabriel's headstone they built the foundations for their new capital. They declared the first disciple, Lucianus I The Resplendent, as head of the church of Luminance and they named their land The New Light, or Novosvet.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-yellow-800/60 to-yellow-950/80 flex-shrink-0 border border-yellow-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Seventeen distinct states make up the massive country of Novosvet. Until three hundred years ago, these states were independent countries, kingdoms, and principalities. Arglia, the state in which the capital city Goldsteeple is located, was constantly torn by war due to its value in growing food. The sixteen countries of the region shared a common culture stretching back centuries, a culture of perseverance, pride, ruggedness, and a religious respect and fear of nature and war. However, the first Prophet Gabriel The Immaculate changed the direction of this land.</p>
+    <p>Gabriel claimed to have seen the light and understood its teachings. He came forth with a radical doctrine. He preached non-violence, love for one's neighbors, and understanding even in the face of pain. He lived by that doctrine. Gabriel built a small church in the middle of Arglia. Soldiers weary from war could stay there, so long as they agreed to non-violence on the holy ground. Various soldiers who were healed in that church learned to band together with their former enemies and became Gabriel's first disciples. They took new names and left into the land to preach of the light.</p>
+    <p>The most divisive tenet of Luminance was one that the kings would not stand for. Luminance preached that no man could hold dominion over another, and that all were equal under the light. The religion spread like an infection. The kings attempted to burn it out and uproot it, but their infighting kept them from unifying to squash the religion. A fringe religious group turned into a movement, and soon that movement turned into a rebellion. Kings sent armies to destroy Gabriel's church in Arglia, but by divine providence, none ever succeeded.</p>
+    <p>Gabriel died in the year 1000 AF. He did not live to see it, but his disciples brought forth peace. Upon Gabriel's headstone they built the foundations for their new capital. They declared the first disciple, Lucianus I The Resplendent, as head of the church of Luminance and they named their land The New Light, Novosvet.</p>
+  </div>
+</div>
 
 ## Cultural Overview
-The church of Luminance rules the entirety of Novosvet. Although the religion predates the country, in modern times, they are culturally identical. The people of Novosvet venerate the light above all, and while they have no kings, the church does impose laws and tithe upon the people as a government might. But teachings that every citizen learns from a young age educate them about the tyranny of kings and the horrors of wars. The faithful understand the differences between their system and the horrible old ways.
 
-Various Prophets have defined the culture of Novosvet over the centuries.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-yellow-800/60 to-yellow-950/80 flex-shrink-0 border border-yellow-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The church of Luminance rules the entirety of Novosvet. Although the religion predates the country, in modern times, they are culturally identical. The people of Novosvet venerate the light above all, and while they have no kings, the church does impose laws and tithe upon the people as a government might. But teachings that every citizen learns from a young age educate them about the tyranny of kings and the horrors of wars. The faithful understand the differences between their system and the horrible old ways.</p>
+    <p>Various Prophets have defined the religion over the centuries, modernizing it for their times through deep meditation and prayer. It is through these prophets that we gain our depictions of angels and modern understanding of The Light.</p>
+  </div>
+</div>
 
 ## Racial and Magical Overview
-Pending.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-yellow-800/60 to-yellow-950/80 flex-shrink-0 border border-yellow-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Novosvet, and Luminance at large, are divided on the usage of non-light magic. The dominant faction believes that Luminance is great for older reasons than the use of light magic. As such, they believe that many magics can be used for the betterment of all mankind beneath the light. A smaller, more radical group supports the militarized arm of Luminance that defeated Dracula. They believe that light magic is a gift from their god and that all other forms of magic represent evil temptations, that people gifted in other forms of magic have given in to such temptations and have made foul deals with dark beings like vampires. Of course the debate is very new, only half a decade old. The dominant opinions within both factions are shifting still.</p>
+    <p>The dominant view on magic within Novosvet's borders is that a person's skills should be devoted in service to the light, whatever skills those might be. As such, mages who are members of the clergy are granted much less suspicion than those who remain lay.</p>
+    <p>As for varying races, vampirism is forbidden within Novosvet. With the advent of light magic, Novosvet was able to carry out a great purge of vampires and werewolves which hid within the borders.</p>
+    <p>Talam are treated with suspicion within the borders of Novosvet. They are often persecuted for slight crimes and they are completely forbidden from practicing their traditional religion under the eyes of the light.</p>
+    <p>Mytts are much the same, with a few exceptions. Mytts using shadow magic are treated the same as monsters. Mytts using light magic are considered false lights, attempting to guide people away from the righteous path. The people of Novosvet fundamentally fear Mytts as deceivers who will doom them. There is great debate within the halls of Goldsteeple if Mytts are capable of morality or if they are here to end the world with endless nights. The clergy of Novosvet legitimately fear the potential danger of Mytts. A growing movement wants to see them expunged from all the lands that light touches.</p>
+  </div>
+</div>
 
 ## Important Allies and Enemies
-Vardoran's city of Brighthaven is governed by Solarus the Immaculate, and is a protectorate of Novosvet and The Church of Luminance.
 
-Although geographically they are quite separate, Norus and Novosvet have repeatedly entered into proxy wars and trade wars. Novosvet needs grain, but they also can't publicly approve of Norus' claims to land. So smuggling food between the countries, across the continent, is an incredibly profitable activity.
-
-Countries that do not worship Luminance are populated by heathens, who must convert. Until they see the light, no parley can be had.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-yellow-800/60 to-yellow-950/80 flex-shrink-0 border border-yellow-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Vardoran's city of Brighthaven is governed by Solarus the Immaculate, and is a protectorate of Novosvet and The Church of Luminance.</p>
+    <p>Although geographically they are quite separate, Norus and Novosvet have repeatedly entered into proxy wars and trade wars. Novosvet needs grain, but they also cannot publicly approve of Norus' claims to land. So smuggling food between the countries, across the continent, is an incredibly profitable activity.</p>
+    <p>Countries that do not worship Luminance are populated by heathens, who must convert. Until they see the light, no parley can be had.</p>
+  </div>
+</div>
 
 ## Important and Notable Landmarks/Places
+
 #### Goldsteeple
-The capital of Novosvet and the host of Luminance's holy head Lucianus IV The Resplendent. This city stands in a vast open field in the northern reaches of Novosvet. The massive church for which the city is named is visible for miles in clear weather, the tallest building in all of Novosvet, with its highest steeples capped with brilliant gold. The church itself is a city within a city made of layers upon layers of offices, chapels, meeting rooms, confessionals, and prayer chambers. A great brass bell sits atop the highest tower. Several monks are required to ring it and its sound echoes for miles, inviting all to worship the light.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-yellow-800/60 to-yellow-950/80 flex-shrink-0 border border-yellow-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The capital of Novosvet and the host of Luminance's holy head Lucianus IV The Resplendent. This city stands in a vast open field in the northern reaches of Novosvet. The massive church for which the city is named is visible for miles in clear weather, the tallest building in all of Novosvet, with its highest steeples capped with brilliant gold. The church itself is a city within a city made of layers upon layers of offices, chapels, meeting rooms, confessionals, and prayer chambers. A great brass bell sits atop the highest tower. Several monks are required to ring it and its sound echoes for miles, inviting all to worship the light.</p>
+  </div>
+</div>
 
 #### Dormiria
-The largest and most southern of the states, Dormiria receives little to no sunlight during the winter months. Their regional city is Auria, a city of lights. Even in the long night, light dances through the sky. The first Lightweaver, Zora the Luminary, hails from Auria, and her statue stands at the gates to the city. Auria sits on a rocky island in a frozen sea with only a single bridge connecting it to the rest of the land. In ancient times, it was believed that Dormiria would never be conquered due to its harsh winters and defensible stronghold. But the people of the city, led by Zora, delivered the head of their last king to the Prophet Nicholas and his entourage, allowing them to enter the city. It is said that the sun rose for the summer as Luminance came to Auria.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-yellow-800/60 to-yellow-950/80 flex-shrink-0 border border-yellow-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The largest and most southern of the states. Dormiria receives little to no sunlight during the winter months. Their regional city is Auria, a city of lights. Even in the long night, light dances through the sky. The first Lightweaver, Zora the Luminary, hails from Auria, and her statue stands at the gates to the city. Auria sits on a rocky island in a frozen sea with only a single bridge connecting it to the rest of the land. In ancient times, it was believed that Dormiria would never be conquered due to its harsh winters and defensible stronghold. But the people of the city, led by Zora, delivered the head of their last king to the Prophet Nicholas and his entourage, allowing them to enter the city. It is said that the sun rose for the summer as Luminance came to Auria.</p>
+  </div>
+</div>
 
 #### The Docent Valley
-Western Novosvet sits at the southern end of the Hallowed Mountains. During the winter months, the valley is rocky, frozen, and treacherous, but during the thaw of spring, water from the mountains floods the valley, giving Novosvet a passage to the sea. The waters from the valley join the western continent's water system and eventually make their way to the sea. Its name comes from the Prophet Larz, who predicted its existence and discovered the valley's location during a legendary westward expedition.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-yellow-800/60 to-yellow-950/80 flex-shrink-0 border border-yellow-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Western Novosvet sits at the southern end of the Hallowed Mountains. During the winter months, the valley is rocky, frozen, and treacherous, but during the thaw of spring, water from the mountains floods the valley, giving Novosvet a passage to the sea. The waters from the valley join the western continent's water system and eventually make their way to the sea. Its name comes from the Prophet Larz, who predicted its existence and discovered the valley's location during a legendary westward expedition.</p>
+  </div>
+</div>
 
 ## A Random Fun Fact
-Because Luminance teaches that men may not have dominion over land, Novosvet's maps label other countries as "regions" and use slightly different borders. They claim that the grounds of any church or the earth where worshippers of the light tread is Novosvet's sovereign territory.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-yellow-800/60 to-yellow-950/80 flex-shrink-0 border border-yellow-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Because Luminance teaches that men may not have dominion over land, Novosvet's maps label other countries as "regions" and use slightly different borders. They claim that the grounds of any church or the earth where worshippers of the light tread is Novosvet's sovereign territory.</p>
+  </div>
+</div>
 
 <!-- section:omen-plateau -->
 # Omen Plateau
