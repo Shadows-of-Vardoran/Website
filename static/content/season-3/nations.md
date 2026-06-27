@@ -186,40 +186,88 @@ TBD
 
 <!-- section:alinar -->
 # Alinar
-*Founded in ???-AF*
+*Founded: 893 AF, Reformed: 945 AF*
 
 ## Historical Overview
-Alinar is a prosperous land, full of fresh ideas and differing ideologies. A meritocracy where the fruits of one's labour speak loudest. Initially, the country was bound by limited fertile grounds but found its population booming as new methods to tame the surrounding territory were put into practice, quickly growing the country into the thriving state it is today.
 
-Alinar's rapid growth and resilience was attributed to never being wholly reliant on any single solution. Their general open-mindedness has seen the country survive famine, drought, and war. Led by a triumvirate of elected leaders of their three leading philosophies, they are all kept in check by the Trancendus, Magiria, and the Agraria.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-emerald-800/60 to-emerald-950/80 flex-shrink-0 border border-emerald-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Alinar is a prosperous land, full of fresh ideas and differing ideologies. A meritocracy where the fruits of one's labour speak loudest. Initially, the country was bound by limited fertile grounds but found its population booming as new methods to tame the surrounding territory were put into practice. Quickly growing the country into the thriving state it is today. Alinar's rapid growth and resilience was attributed to never being wholly reliant on any single solution. Their general open-mindedness has seen the country survive famine, drought, and war. Led by a triumvirate of elected leaders of their three leading philosophies; they are all kept in check by the Bannets, Magiria, and the Agraria.</p>
+    <p>The emergence of magic caused disruptions the world over, but many saw it for the potential it came with. The people of Alinar among those who seized the opportunity with both hands, and took the time to rework themselves with the changes in the world, becoming stronger for it.</p>
+  </div>
+</div>
 
 ## Cultural Overview
-The Trancendus believe that the way forward is through the wonders of technology, "No reward without risk." These are the boundary pushers, the chance-takers. They are the pioneers that find their truth in challenging the unknown. They do not fear failure.
 
-The Magiria Collegiate are the wielders of the arcane in Alinar. They are the dreamers and work their miracles through magical prowess. "The world and its bounties are vast, all that one can imagine can be attained." They are the speculators, the generational planners. They look outwards for their inspiration and take what they've for their own people. Always have a back-up plan.
-
-The Agraria are the traditionalists. They are not innovators like the other two, but instead far more practical in their approach. "Cutting corners leads to cut fingers." They are the robust, the brave, and perhaps the most thoughtful.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-emerald-800/60 to-emerald-950/80 flex-shrink-0 border border-emerald-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Alinar is led by the Three Pillars philosophy, which can be summed up as "The table is balanced when all the legs are of equal length."</p>
+    <p><strong>The Bannets</strong> believe that the way forward is through the wonders of technology. "No reward without risk." These are the boundary pushers, the chance-takers. They are the pioneers that find their truth in challenging the unknown. They do not fear failure.</p>
+    <p><strong>The Magiria Collegiate</strong> are the wielders of the arcane in Alinar. They are the dreamers and work their miracles through magical prowess. "The world and its bounties are vast, all that one can imagine can be attained." They are the speculators, the generational planners. They look outwards for their inspiration and take what they've found for their own people. Always have a back-up plan.</p>
+    <p><strong>The Agraria</strong> are the traditionalists. They are not innovators like the other two, but instead far more practical in their approach. "Cutting corners leads to cut fingers." They are the robust, the brave, and perhaps the most thoughtful.</p>
+  </div>
+</div>
 
 ## Racial and Magical Overview
-Generally affable thanks to their multicultural identity.
 
-Magic is largely relegated to the Collegiate, where its use is almost an everyday occurrence. It's not considered strange to find magic in use elsewhere in Alinar, but it's usually a collaboration with the Magiria.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-emerald-800/60 to-emerald-950/80 flex-shrink-0 border border-emerald-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Generally affable thanks to their multicultural identity, but the constant danger from Qalidran has understandably put vampires on the short list of welcome guests.</p>
+    <p>Magic is largely relegated to the Collegiate, where its use is almost an everyday occurrence. It's not considered strange to find magic in use elsewhere in Alinar, but it's usually a collaboration with the Magiria.</p>
+  </div>
+</div>
 
 ## Important Allies and Enemies
-TBD on final map
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-emerald-800/60 to-emerald-950/80 flex-shrink-0 border border-emerald-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Alinar's closest ally is their neighbor to the north, Sul'uun. They do a great deal of trade between the two nations. Sul'uun offers iron and steel to their neighbor, as well as stone and marble. In return, Alinar provides a great deal of both food, fresh water, and soil to the desert empire.</p>
+    <p>Dim view of Novoset to the southwest for their unbending way of religious thinking, but still considers them one of their preciously short list of allies.</p>
+    <p>A favoured target of Qalidran naval raiding parties, moreso for reasons of proximity than ease, earning the vampire island nation an unending rivalry for the history books.</p>
+  </div>
+</div>
 
 ## Important and Notable Landmarks/Places
-#### Denvitus, Trancendus controlled city
-A place eerily resembling that of Trancendium where lighting, machines and dubious liquids run through the streets. The farms are mostly in laboratories and machine bound greenhouses, though light rarely shines on the plants inside. They only know of artificial lightings and growth hormones.
+
+#### Denvitus, Bannets controlled city
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-emerald-800/60 to-emerald-950/80 flex-shrink-0 border border-emerald-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>A place eerily resembling that of Trancendium where lighting, machines and dubious liquids run through the streets. The farms are mostly in laboratories and machine bound greenhouses, though light rarely shines on the plants inside. They only know of artificial lighting and growth hormones.</p>
+  </div>
+</div>
 
 #### Rimoria, Magiria controlled city
-A place where all types of magics are more freely used. Agriculture there is mainly done on floating platforms and magical greenhouse bubbles, which bend the light to the optimal degree in order for the plants to grow properly. A bit of growing magics and strange ritualistic sacrifices also seem to help the cause as well.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-emerald-800/60 to-emerald-950/80 flex-shrink-0 border border-emerald-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>A place where all types of magics are more freely used. Agriculture there is mainly done with greenhouses using magically enhanced refractive mirrors which bend the light to the optimal degree in order for the plants to grow properly. A bit of growing magics and strange ritualistic sacrifices also seem to help the cause as well. Specimens from the Lythe Rainforest highly prized.</p>
+  </div>
+</div>
 
 #### Nevandir, Agraria controlled city
-The original center of Alinar, from where the country would spring outwards and flourish. Through troubled times, holding fast to the "tried and true" kept the budding nation from failing while the more experimental philosophies were still finding their footing. A water-bound city with a natural wellspring at its center. They are more in tune with the earth itself and cultivate the land when it is needed and when the land is ready for it.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-emerald-800/60 to-emerald-950/80 flex-shrink-0 border border-emerald-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The original center of Alinar, from where the country would spring outwards and flourish. Through troubled times, holding fast to the "tried and true" kept the budding nation from failing while the more experimental philosophies were still finding their footing. A water-bound city with a natural wellspring at its center. They are more in tune with the earth itself and cultivate the land when it is needed and when the land is ready for it.</p>
+  </div>
+</div>
 
 ## A Random Fun Fact
-Despite being a primarily agricultural society, peppercorns are not grown natively and are considered an exotic spice.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-emerald-800/60 to-emerald-950/80 flex-shrink-0 border border-emerald-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Despite being a primarily agricultural society, peppercorns are not grown natively and are considered an exotic spice.</p>
+  </div>
+</div>
 
 <!-- section:frankleburg -->
 # Frankleburg, the Land of a Thousand Queens
@@ -525,36 +573,85 @@ This region invented the base-10 counting system commonly used in modern day.
 
 <!-- section:lakkrah -->
 # Lakkrah
-*Founded in ???-AF*
+*Founded: 843 AF*
 
 ## Historical Overview
-An oceanic chain of islands off the east coast of Vardoran. These mineral rich volcanic islands are densely forested and home to frequent stormy weather and crystal clear waters. Hailed as the Gold Frontier, the region is ripe with natural resources that promise to make anyone that braves the elements rich beyond their dreams. This might have been true once, but the stories of easy wealth attracted slothful lordlings and upstart princes. This in turn attracted brigands and pirates, turning the island chains into a wretched hive of scum and villainy for many years, being ever the bane of sailors trying to reach Brighthaven.
 
-Over time, pirates found it necessary to create somewhere on the islands to repair their ships, restock supplies, and to offload their cargo during storms to avoid sinking. In time this need became docks, docks became harbours, and harbours became port towns. As life in the area became more regulated, peace returned to the archipelago. Becoming a haven for those looking to lay low, seek adventure, or generally just start a new life.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>An oceanic chain of islands northwest of Vardoran near Norus. These mineral rich volcanic islands are densely forested and home to frequent stormy weather and crystal clear waters. Hailed as the Gold Frontier, the region is ripe with natural resources that promise to make anyone that braves the elements rich beyond their dreams. This might have been true once, but the stories of easy wealth attracted slothful lordlings and upstart princes. This in turn attracted brigands and pirates turning the island chains into a wretched hive of scum and villainy for many years, being ever the bane of sailors trying to reach Brighthaven.</p>
+    <p>Over time, pirates found it necessary to create somewhere on the islands to repair their ships, restock supplies, and to offload their cargo during storms to avoid sinking. In time this need became docks, docks became harbours, and harbours became port towns. As life in the area became more regulated, peace returned to the archipelago. Becoming a haven for those looking to lay low, seek adventure, or generally just start a new life.</p>
+  </div>
+</div>
 
 ## Cultural Overview
-Proximity to Vardoran has kept its economy largely identical. While there is no formal government, typical "wild west, might makes right" rules the day. While it's still pretty rough in terms of civility, they aren't exactly lawless. In fact, even actual pirates can be run out of town if they become overzealous or act like marauders. Lakkrah folk are tough as nails, and mean as sin. But if it's one thing they value, it's not bringing trouble home. "The best place for a storm is the horizon."
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Proximity to Vardoran has kept its economy largely identical. While there is no formal government, typical "wild west, might makes right" rules the day. While it's still pretty rough in terms of civility, they aren't exactly lawless. In fact, even actual pirates can be run out of town if they become over zealous or act like marauders. Lakkrah folk are tough as nails, and mean as sin. But if it's one thing they value, it's not bringing trouble home. "The best place for a storm is the horizon." This unwritten law is best seen in action with their tense dealings with the Venom Blades; their presence is tolerated with Anchorsdown, but their more "zealous" followers are kept to their own camps on the far islands.</p>
+    <p>Ships riding low in the water, being a sign of a rich haul, had over time morphed an acceptance for captains with large guts being seen as competent and successful for "riding low". Some will turn around and mock that they are compensating for never being able to fill their holds properly. Such is life in the archipelago.</p>
+  </div>
+</div>
 
 ## Racial and Magical Overview
-One of the few places where you could find humans and vampires co-existing. Perhaps not on the same ship crew, but the rules for safe harbour will generally mean you won't need to sleep with one eye open.
 
-Mytt generally get the second-class citizen treatment, carrying superstition for being magnets for bad weather.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>One of the few places where you could find humans and vampires co-existing. Perhaps not on the same ship crew, but the rules for safe harbour will generally mean you won't need to sleep with one eye open. Mytt however generally get the second-class citizen treatment, carrying superstition for being magnets for bad weather.</p>
+    <p>Being an eclectic collection from around the world, there tends to not be any one favoured style or school of magic. Elemental users however may feel at home being so close to such a primal force as the local volcanoes.</p>
+  </div>
+</div>
 
 ## Important Allies and Enemies
-TBD on final map
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Lakkrah and Pisciv Vol are allies; engaging in frequent trade of goods from their respective continents rather than sail all the way there. They are both small nations and both boast high populations of people who worship The Fish. Their only major point of contention is their difference in treatment of the magical races. They are not welcome in Pisciv Vol, but Lakkrah is more tolerant.</p>
+    <p>Frankleburg is hostile towards Lakkrah, equating the nation to "nothing but pirates". Ships of the Queen's Navy will attempt to sink any Lakkran ships they come across.</p>
+  </div>
+</div>
 
 ## Important and Notable Landmarks/Places
-#### Anchorsdown, shanty port town
-A rough and tumble shanty port town where ships come to repair, restock, and offload cargo. The beating heart of Lakkrah's informal economy.
 
-#### The Hungry Shoals, shipwrecks galore
-A treacherous stretch of shallow waters littered with the wrecks of countless ships. Many have lost their fortunes here, and many more have lost their lives trying to reclaim them.
+#### Anchorsdown
 
-#### The Smuggler's Strait, the hidden current
-An ocean current that runs northward along the coast, sitting just at the edge of sight from shore. Those who know of it can shave days off their journey. Those who don't, often end up adding to the Hungry Shoals.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The largest, and primary harbour of the archipelago. A haven for runaways, criminals, and adventurers alike. Originally founded for the purposes of patching up ships after battle with the various navies of the Aetheric Ocean; it has grown with time to offer other services like smithing, mercenary guilds and eventually even gaining permanent residences. The town (as well as the other smaller ones found throughout the islands) are all self governed, and does not feature so much as a sheriff to keep the peace; but the mutual understanding that you may find yourself limping back into port with no one willing to plug your leaking ship has kept problems to a minimum. The town sits facing the west with nothing really to protect itself, with only the Hungry Shoals to their back for a natural defense. But having a harbour full of pirates is usually enough of a deterrent.</p>
+  </div>
+</div>
+
+#### The Hungry Shoals
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>An infamously vicious ridge of coral reef that rides the high point of the waters between the islands and the mainland. Formed from the volcanic activity, the shoals are a stretch of jagged igneous rock that have developed the reputation for goring the hulls of any ships that sail too close, swiftly sinking anyone with the misfortune to get caught. The danger is compounded with the currents coming off the Smuggler's Strait either drawing ships in, or dashing swimmers or survivors against the reefs to add their bones to the growing collection of wrecks that dot the surface. Of course, that reputation has not stopped people from trying to navigate them. Rarely, a waterlogged wreck comes loose and drifts. Spawning a fresh countless stories of ghost ships before the currents suck it back home to rest.</p>
+  </div>
+</div>
+
+#### The Smuggler's Strait
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>An enormously useful bit of ocean that Lakkran sailors use with regularity to move far swifter than their ships normally should be able to, even tacking their sails against the wind to mislead how fast they can spring upon prey. Experienced merchant ships will often add days or weeks to their itinerary to simply sail the long way around to deny being ambushed. The strait is part of a larger ocean current that runs northward, pulling from the Dormant Sea to the Endless.</p>
+  </div>
+</div>
 
 ## A Random Fun Fact
-Every year, the Hungry Shoals get richer from people trying to recover the riches found in the Hungry Shoals.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Every year, the Hungry Shoals get richer from people trying to recover the riches found in the Hungry Shoals.</p>
+  </div>
+</div>
 
 <!-- section:norus -->
 # Norus
@@ -738,45 +835,89 @@ Because Luminance teaches that men may not have dominion over land, Novosvet's m
 
 <!-- section:omen-plateau -->
 # Omen Plateau
+*Founded: 959 AF*
 
 ## Historical Overview
-The Omen Plateau is an inhospitable desert biome with high mountains ringing it along one side that make the region difficult to enter or leave, much less cross the sunbaked and brier choked expanses that make up the region's interior. The region is characterized by blistering hot days and subzero nights. Originally settled by humans as refuge from vampire attacks with mixed results.
 
-The human populations have their scant few cities cloistered around sheltered oases. The humans here have thrown off the oppression of vampires, having won a major conflict in the past and drove their enemies into the sun. While the land is largely infertile and bleak, it's these very same features that makes outside attacks incredibly unattractive. The absolute lack of natural cover against the sun makes for a particularly excellent vampire deterrent. The land is not particularly mineral rich, and its strongest strategic value is simply safe passage through to its neighbouring countries, being a broad enough region that going around is almost just as costly. Travel throughout the region is dictated through lighthouse towers, enormous towers that serve as guideposts across the distances. "Keep the tower at your back until you can see the one ahead of you." These serve as outposts for caravans and travelers and can have townships spring up around them outside of the cities. They are for the most part entirely under human control.
-
-While they are not the dominant force any longer in the Omen Plateau, vampires continue to thrive in the region in a singular underground city deep in the wastelands beneath the Bramblescar. This spindly city spreads through sprawling underground tunnels and caves, where discreet nightkin might slip to the surface unnoticed.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-stone-800/60 to-stone-950/80 flex-shrink-0 border border-stone-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The Omen Plateau is an inhospitable desert biome with high mountains ringing it along one side that make the region difficult to enter or leave, much less cross the sunbaked and brier choked expanses that make up the region's interior. The region is characterized by blistering hot days, and subzero nights. Originally settled by humans as refuge from vampire attacks with mixed results.</p>
+    <p>The human populations have their scant few cities cloistered around sheltered oases. The humans here have thrown off the oppression of vampires, having won a major conflict in the past and drove their enemies into the sun. While the land is largely infertile and bleak, it is these very same features that makes outside attacks incredibly unattractive. The absolute lack of natural cover against the sun makes for a particularly excellent vampire deterrent. The land is not particularly mineral rich, and its strongest strategic value is simply safe passage through to its neighbouring countries; being a broad enough region that going around is almost just as costly. Travel throughout the region is dictated through lighthouses, enormous towers that serve as guideposts across the distances. "Keep the tower at your back until you can see the one ahead of you." These serve as outposts for caravans and travelers and can have townships spring up around them outside of the cities. They are for the most part, entirely under human control.</p>
+    <p>While they are not the dominant force any longer in the Omen Plateau, vampires continue to thrive in the region in a singular underground city deep in the wastelands beneath the Bramblescar. This spindly city spreads through sprawling underground tunnels and caves, where discreet nightkin might slip to the surface unnoticed.</p>
+  </div>
+</div>
 
 ## Cultural Overview
-Faith pending.
 
-The denizens of the Plateau have fostered strong communal ties born of the harsh environment that quickly kills. Lone travelers are often regarded with curiosity, as the landscape all but necessitates working together. Travelling alone is usually the sign of either someone of incredible prowess or resources, or else a surviving victim of a tragedy. The foolish and unprepared who venture out alone almost never return.
-
-The humans have a rich history regarding the usage of caravans. Both with historical pride in their roots first arriving here, and as a means of business. Moving trade goods between settlements as well as bringing them to and from distant lands. Maintaining the lighthouse towers is also seen as an honourable duty. They provide guidance to everyone moving through the region, as well as offering precious shelter. Control of these lighthouse towers however falls to the trade barons. Those that protect the people govern the people. And so there is not any capital city to be found, moreso there is a roving government that caravans between the settlements. Bringing goods and services, hearing grievances, and distributing justice. Brightly coloured and airy silks are the common dress for citizens. Anything to keep the sun and sand at bay. Gold and silver jewelry is also very popular.
-
-On the flip side, the vampires of the region have cultivated a deeply reserved and almost ascetic lifestyle. Still feeling the pains of being overthrown, they have retreated to the only sanctuary they have left in the land. As such, they value the secrecy of their cavern home, and engage in limited raids above ground for precious sustenance. When even animal blood can be hard to come by without drawing the ire of the trade barons, blood becomes precious, and gorging habits of vampires found elsewhere in the world is looked down upon here. Their feeding habits are a low-hanging fruit for rude jokes from other vampire groups, but they are usually above retort, being master stoics with an uncanny degree of self control. Being indifferent to the cold nights, astronomy is a common and well versed pastime for the nightkin here, enjoying a vast cloudless sky to drink in. The banner of the vampires here is a black-on-white sun ringed in thorns.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-stone-800/60 to-stone-950/80 flex-shrink-0 border border-stone-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The Luminance faith runs deep in the Omen Plateau among the human populations. Although the symbology and teachings remain recognizable, the traditions and rituals have deviated somewhat from current day standards without direct influence from the church.</p>
+    <p>The denizens of the Plateau have fostered strong communal ties born of the harsh environment that quickly kills. Lone travelers are often regarded with curiosity, as the landscape all but necessitates working together. Travelling alone is usually the sign of either someone of incredible prowess or resources, or else a surviving victim of a tragedy. The foolish and unprepared who venture out alone almost never return.</p>
+    <p>The humans have a rich history regarding the usage of caravans. Both with historical pride in their roots first arriving here, and as a means of business; moving trade goods between settlements as well as bringing them to and from distant lands. Maintaining the lighthouses is also seen as an honourable duty. They provide guidance to everyone moving through the region, as well as offering precious shelter. Control of these lighthouses however, falls to the trade barons. Those that protect the people, govern the people. And so there is not any official capital city to be found, moreso there is a roving government that caravans between the settlements. Bringing goods and services, hearing grievances, and distributing justice. Brightly coloured and airy silks are the common dress for citizens, with the dyes sourced from Frankleburg. Anything to keep the sun and sand at bay. Gold and silver jewelry is also very popular.</p>
+    <p>On the flip side, the vampires of the region have cultivated a deeply reserved and almost ascetic lifestyle. Still feeling the pains of being overthrown, they have retreated to the only sanctuary they have left in the land. As such, they value the secrecy of their cavern home, and engage in limited raids above ground for precious sustenance. When even animal blood can be hard to come by without drawing the ire of the trade barons, blood becomes precious, and gorging habits of vampires found elsewhere in the world is looked down upon here. Their feeding habits are a low-hanging fruit for rude jokes for other vampire groups ("getting blood from a stone"), but they are usually above retort, being master stoics with an uncanny degree of self control. Being indifferent to the cold nights, astronomy is a common and well versed pastime for the nightkin here, enjoying a vast cloudless sky to drink in. The banner of the vampires here is a black-on-white moon ringed in thorns.</p>
+  </div>
+</div>
 
 ## Racial and Magical Overview
-Trade is the lifeblood of the Omen Plateau, and so the denizens are rather open in terms of diplomacy with the other races of the world. They do however remain openly hostile against vampires, who had enslaved them in the past before they fought for their freedom.
 
-Vampires of the region are cordial with other species, but remain tight-lipped about entry into the Zaladran, even to friends.
-
-Schools of Illusion and Frost are the two most common practiced in the Omen Plateau. Heat shimmers and mirages for the day, and the subzero nights.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-stone-800/60 to-stone-950/80 flex-shrink-0 border border-stone-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Trade is the lifeblood of the Omen Plateau, and so the denizens are rather open in terms of diplomacy with the other races of the world. They do however remain openly hostile against vampires, who had enslaved them in the past before they fought for their freedom.</p>
+    <p>Vampires of the region are cordial with other species, but remain tight-lipped about entryways into Zaladran, even to friends.</p>
+    <p>With the birth of magic into the world, the mirages of the Omen Plateau were believed to become more convincing and treacherous, and that only the lighthouses could pierce the illusion. A fanciful rumour, but a held belief nonetheless. The schools of Illusion and Frost became the two most common practiced in the Omen Plateau. Mirroring the heat shimmers and mirages for the day, and the subzero nights.</p>
+  </div>
+</div>
 
 ## Important Allies and Enemies
-Pending based on final world map. They remain a thorn against the Parlour. The humans for being so openly anti-vampire, but being logistically problematic to attack. The vampires here are also an annoyance to the Parlour for their lack of hunger and ambition.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-stone-800/60 to-stone-950/80 flex-shrink-0 border border-stone-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Hafjallheim remains an important trading partner, as between the two of them, trading by sea outside of the influence of pirates remains a vital lifeline. Ease of travel by the north sea made this route a natural outcome. Welronz to the south also benefits from regular trade by caravans from the Plateau that travel as far as Frankleburg. Welronz is an important source of grain for the region, but the Vampire Hunter Guilds of the region still receive preferential treatment. The Archivum pays handsomely for star charts from the Omen Plateau, leveraging the local expertise and ideal conditions.</p>
+    <p>The entire region remains a thorn against Qalidran. The humans for being so openly anti-vampire, but being logistically problematic to attack. The vampires here also are an annoyance to Qalidran for their joint historic loss against the humans, but also for their perceived lack of hunger and ambition. The vampires of Zaladran could not care less.</p>
+  </div>
+</div>
 
 ## Important and Notable Landmarks/Places
+
 #### The Lighthouse Towers
-Enormous towers that serve as guideposts across the distances. They are outposts for caravans and travelers and can have townships spring up around them.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-stone-800/60 to-stone-950/80 flex-shrink-0 border border-stone-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Built upon the few solid foundations in the sea-like sandscape, these gleaming towers guide travelers between the shifting dunes; cutting through mirage and phantasm alike. They are the stepping stones through hazardous land and as such are often the home to towns or outposts around their base. The grandest of these sits near the coast where their unofficial human capital manages several enormous elevator cranes mounted into the clifftops. The trade barons of the region measure their power in how many of these towers they manage, even if this number rarely reaches more than three. While these are normally bastions of sanctuary, a few of them have secretly fallen under vampire control in recent years.</p>
+  </div>
+</div>
 
 #### The Bramblescar
-A treacherous region of brier-choked wasteland. Beneath it lies the vampires' singular underground city.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-stone-800/60 to-stone-950/80 flex-shrink-0 border border-stone-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>A sprawling landscape of thorny brier fields that sift away the sand and clings to bare rock. The teeth of the Bramblescar slowly bite down and chew all it can ensnare as it crawls into the ravines and crevices. Sitting at a low-point in the plateau, what little moisture there is to be found drifts this way, feeding the flora where it can continue to menace travelers trying to come and go through the region. Parents tell their children that monsters crawl out from those shadowy boughs of thorns to steal misbehaving children away. The vampires of Zaladran make sure the parents believe it too.</p>
+  </div>
+</div>
 
 #### Zaladran
-The sprawling underground city of the vampires beneath the Bramblescar. Spreading through tunnels and caves where discreet nightkin might slip to the surface unnoticed.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-stone-800/60 to-stone-950/80 flex-shrink-0 border border-stone-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The prized undercity of the Omen Plateau, hidden in the heart of the region. It sits deep in an underground cavern reached from various hidden caves and crevices. It is home to the vampires here who have taken a more patient, ascetic lifestyle. They value the secrecy of their home, and have been very slowly taking over lighthouse towers to secure a supply of blood for themselves. Semi-precious minerals dot the earthen walls and give the cavern ceiling a reflective glint that gives the false impression of the night sky. A city of astronomers and poets.</p>
+  </div>
+</div>
 
 ## A Random Fun Fact
-The region is home to a dull-coloured vulture sub-species of harpies that love to harry travelers.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-stone-800/60 to-stone-950/80 flex-shrink-0 border border-stone-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The region is home to a dull-coloured vulture sub-species of harpies that love to harry travelers.</p>
+  </div>
+</div>
 
 <!-- section:pisciv-vol -->
 # Pisciv Vol
