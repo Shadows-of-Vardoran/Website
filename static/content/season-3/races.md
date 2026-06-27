@@ -1,13 +1,17 @@
 <!-- section:vampire -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-red-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-red-500 block mb-1">Unified Vampire Lore</span><span class="text-base text-tprimary-50">All vampires in Season 3 share a common species lore. This gives players a shared foundation to research, experiment, and discover what vampirism is. There is still plenty of room to make your vampire unique. We ask that you work within the established lore rather than bringing in personalized variations from previous seasons or external media.</span><span class="text-base text-tprimary-50 block mt-2">In addition, we do not allow hybrids such as dhampirs.</span></div>
 
-Three hundred years ago, the first vampire walked the earth, and with them came the first magic this realm had ever seen. Your kind have had centuries since to understand what you are, to build culture and hierarchy and ways of surviving in a world that has always wanted you dead. Most of your kind live within the walls of Qalidran, the vampiric island nation, where bloodlines and generational distance from the Progenitor define everything. You may come from there, or you may not. Either way, its shadow falls on how your kind understand themselves.
+## Overview
 
-You are sustained by blood. You burn in the sun. Silver harms you in ways that go beyond the physical. Garlic and holy magic are your enemies. These are not weaknesses that can be trained away. They are simply what you are.
-
-What you gain in return is considerable. You do not age. You do not die of illness or natural causes. Your body can reconstitute from destruction that would end anything else. Blood magic is yours by nature, a birthright rather than a discipline. And with magic now flooding into the world beyond the schools your kind already knew, there is more available to you than any vampire in history has had access to.
-
-You were brought to Vardoran like everyone else, for reasons that are your own. What you do with what you find here is still unwritten.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Three hundred years ago, the first vampire walked the earth, and with them came the first magic this realm had ever seen. Your kind have had centuries since to understand what you are, to build culture and hierarchy and ways of surviving in a world that has always wanted you dead. Most of your kind live within the walls of Qalidran, the vampiric island nation, where bloodlines and generational distance from the Progenitor define everything. You may come from there, or you may not. Either way, its shadow falls on how your kind understand themselves.</p>
+    <p>You are sustained by blood. You burn in the sun. Silver harms you in ways that go beyond the physical. Garlic and holy magic are your enemies. These are not weaknesses that can be trained away. They are simply what you are.</p>
+    <p>What you gain in return is considerable. You do not age. You do not die of illness or natural causes. Your body can reconstitute from destruction that would end anything else. Blood magic is yours by nature, a birthright rather than a discipline. And with magic now flooding into the world beyond the schools your kind already knew, there is more available to you than any vampire in history has had access to.</p>
+    <p>You were brought to Vardoran like everyone else, for reasons that are your own. What you do with what you find here is still unwritten.</p>
+  </div>
+</div>
 
 ## Mechanics
 
@@ -33,27 +37,25 @@ No mortality contract. Vampires can reconstitute from physical destruction witho
 
 ## Vampiric Origins
 
-There are two distinct origins of vampirism: the Bitten, and the Risen.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>There are two distinct origins of vampirism: the Bitten, and the Risen.</p>
+    <p>The first, and far more common method, is direct conversion of a human by an existing vampire: the Bitten vampire.</p>
+    <p>Vampiric blood contains an active blood magic component capable of rewriting another being's body if the conditions are right. The conversion cannot take hold in a living person. The body's own systems resist and overwrite the changes too quickly. Introduction of a vampire's blood into a living person will kill them outright, or renders them a mindless thrall. When a vampire introduces their blood to a human who dies immediately after, that blood magic then alters them from human to vampire.</p>
+    <p>The Bitten make up the majority of the vampiric population. Because physical turning is the primary means by which vampires propagate, most Bitten vampires alive today belong to a bloodline that traces back to the Progenitor, the first vampire. Some may not know the exact origins of their particular bloodline, especially if they were created outside of Qalidran, but may only know that they are "X generations removed from the Progenitor" or "distantly related to X Descendant of the Progenitor".</p>
+    <p>A vampire can also come into being through magical means without the involvement of another vampire. This is the less common of the two origins, but it is not limited to any particular era or circumstance.</p>
+    <p>The common thread is that magic, specifically shadow magic or corrupted life magic, acts on a person at the moment of death and triggers the conversion. Everything else about their circumstances can vary enormously. All vampires who are born of magical means <em>other than</em> being bitten by an existing vampire are referred to as "Risen" vampires. Whether they are Risen via innate magic, curse, or something else, is not a distinction that matters.</p>
+    <p>Sometimes it is intentional. A person performs a ritual designed to produce vampirism, whether in themselves or in another. A pact is struck with something that has the power to deliver it. A practitioner pushes deep enough into shadow magic and emerges changed. In these cases there is a named cause and a known mechanism, even if the person who underwent it did not fully understand what they were agreeing to or experiencing.</p>
+    <p>Sometimes vampiric transformations are entirely accidental: A person dies in a location saturated with blood magic or shadow magic, and the ambient magic present is sufficient to trigger the conversion without any deliberate act. A magical catastrophe occurs next to a graveyard. Innate magic of the land converges in an unusual configuration. The conditions simply align, and someone rises with no sire, no ritual, and no explanation they can easily point to. They died, and something in the magic of the world around them did not let that be the end of it.</p>
+    <p>Sometimes, those who rise are dead for quite a while, and their bodies show the wear of decay. Loose skin, rotten limbs, and seeping pores are often tell-tale signs of the freshly risen vampire. However, others rise freshly dead and pass for a Bitten vampire (or possess the blood magic to tend their broken bodies) and seamlessly merge into the vampiric population.</p>
+    <p>There are no visual tell-tale signs of vampiric origin aside from the unlucky rotten. At their core, all vampires function the same. You are Risen or you were Bitten.</p>
+  </div>
+</div>
 
-The first, and far more common method, is direct conversion of a human by an existing vampire: the Bitten vampire.
+<div class="p-4 rounded bg-background-800/60 border border-red-800/60 my-4">
+  <span class="text-warm font-bold">ALL vampires must:</span>
 
-Vampiric blood contains an active blood magic component capable of rewriting another being's body if the conditions are right. The conversion cannot take hold in a living person. The body's own systems resist and overwrite the changes too quickly. Introduction of a vampire's blood into a living person will kill them outright, or renders them a mindless thrall. When a vampire introduces their blood to a human who dies immediately after, that blood magic then alters them from human to vampire.
-
-The Bitten make up the majority of the vampiric population. Because physical turning is the primary means by which vampires propagate, most Bitten vampires alive today belong to a bloodline that traces back to the Progenitor, the first vampire. Some may not know the exact origins of their particular bloodline, especially if they were created outside of Qalidran, but may only know that they are "X generations removed from the Progenitor" or "distantly related to X Descendant of the Progenitor".
-
-A vampire can also come into being through magical means without the involvement of another vampire. This is the less common of the two origins, but it is not limited to any particular era or circumstance.
-
-The common thread is that magic, specifically shadow magic or corrupted life magic, acts on a person at the moment of death and triggers the conversion. Everything else about their circumstances can vary enormously. All vampires who are born of magical means *other than* being bitten by an existing vampire are referred to as "Risen" vampires. Whether they are Risen via innate magic, curse, or something else, is not a distinction that matters.
-
-Sometimes it is intentional. A person performs a ritual designed to produce vampirism, whether in themselves or in another. A pact is struck with something that has the power to deliver it. A practitioner pushes deep enough into shadow magic and emerges changed. In these cases there is a named cause and a known mechanism, even if the person who underwent it did not fully understand what they were agreeing to or experiencing.
-
-Sometimes vampiric transformations are entirely accidental: A person dies in a location saturated with blood magic or shadow magic, and the ambient magic present is sufficient to trigger the conversion without any deliberate act. A magical catastrophe occurs next to a graveyard. Innate magic of the land converges in an unusual configuration. The conditions simply align, and someone rises with no sire, no ritual, and no explanation they can easily point to. They died, and something in the magic of the world around them did not let that be the end of it.
-
-Sometimes, those who rise are dead for quite a while, and their bodies show the wear of decay. Loose skin, rotten limbs, and seeping pores are often tell-tale signs of the freshly risen vampire. However, others rise freshly dead and pass for a Bitten vampire (or possess the blood magic to tend their broken bodies) and seamlessly merge into the vampiric population.
-
-There are no visual tell-tale signs of vampiric origin aside from the unlucky rotten. At their core, all vampires function the same. You are Risen or you were Bitten.
-
-**ALL** vampires must:
 - Be less than 300 years old
 - Burn in the sun
 - Be allergic to garlic and silver
@@ -62,110 +64,143 @@ There are no visual tell-tale signs of vampiric origin aside from the unlucky ro
 - Have *some* blood magic within them
 - Be formally human
 - You cannot digest food; your organs do not function
+</div>
 
-Vampires cannot spontaneously come into existence, they were all once human. There are no vampiric children, nor babies born to vampiric parents. Other races, such as the Talam, Mytts, and Werewolves, cannot become vampires.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Vampires cannot spontaneously come into existence, they were all once human. There are no vampiric children, nor babies born to vampiric parents. Other races, such as the Talam, Mytts, and Werewolves, cannot become vampires.</p>
+  </div>
+</div>
 
-**There are no vampiric hybrids, nor dhampirs. You either are a vampire, or you are not.**
+<div class="p-4 rounded bg-background-800/60 border border-red-800/60 my-4">
+  <span class="text-warm font-bold">There are no vampiric hybrids, nor dhampirs. You either are a vampire, or you are not.</span>
+</div>
 
-85% to 90% of the world's vampires reside in Qalidran. Their vampiric population measures somewhere between 8,500 and 9,000. There are estimated to be 1,000 to 1,500 vampires living globally outside of Qalidran's walls. These vampires live in small, isolated communities or roam the lands alone.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>85% to 90% of the world's vampires reside in Qalidran. Their vampiric population measures somewhere between 8,500 and 9,000. There are estimated to be 1,000 to 1,500 vampires living globally outside of Qalidran's walls. These vampires live in small, isolated communities or roam the lands alone.</p>
+  </div>
+</div>
 
 ## Blood Bonds & Bloodlines
 
-Blood bonds may be used to convey basic emotions, current vitality, and status (e.g. reconstituting, death, torpor). One cannot communicate words, images, or complex thoughts via blood bond. Magic may only be spread down blood bonds, but only if you are physically in the same location as the other vampire.
-
-**Blood bonds connect all vampires who are of the same direct bloodline upon their creation.** While one's bond with their vampiric sire is very powerful, one will also have innate ties to their immediate vampiric family. However, this tie only extends within one direct generation. A bitten vampire is tied to their sire, their own sirelings, and their siblings, vampires turned by the same vampire who turned them. However, there are no innate blood bonds between one and their sire's vampiric sibling; nor those siblings' own sirelings. It is only those of the closest relations that have bonds upon creation. Some choose to create additional blood bonds with those they are close to, while others do not.
-
-In the below example, you are Vamp5, and you would have blood bonds to all that are connected by the bright red bond:
-
-<div style="float:right;margin:0 0 1rem 1rem;max-width:400px;width:100%">
-  <img src="/assets/vampire_bloodlines.png" alt="Vampire bloodline bonds diagram">
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Blood bonds may be used to convey basic emotions, current vitality, and status (e.g. reconstituting, death, torpor). One cannot communicate words, images, or complex thoughts via blood bond. Magic may only be spread down blood bonds, but only if you are physically in the same location as the other vampire.</p>
+    <p><span class="text-warm font-bold">Blood bonds connect all vampires who are of the same direct bloodline upon their creation.</span> While one's bond with their vampiric sire is very powerful, one will also have innate ties to their immediate vampiric family. However, this tie only extends within one direct generation. A bitten vampire is tied to their sire, their own sirelings, and their siblings, vampires turned by the same vampire who turned them. However, there are no innate blood bonds between one and their sire's vampiric sibling; nor those siblings' own sirelings. It is only those of the closest relations that have bonds upon creation. Some choose to create additional blood bonds with those they are close to, while others do not.</p>
+    <h3 class="mt-6 mb-2">Example</h3>
+    <p>In the below example, you are Vamp5, and you would have blood bonds to all that are connected by the bright red bond:</p>
+    <div style="float:right;margin:0 0 1rem 1rem;max-width:400px;width:100%">
+      <img src="/assets/vampire_bloodlines.png" alt="Vampire bloodline bonds diagram">
+    </div>
+    <p>Vamp5 may still consider Vamp7 and Vamp3 "family", but they are not naturally tied to them upon their creation. You would have innate bonds to your sireling's sireling's sireling, Vamp9, but that bond would be very weak and feel distant. You would have a similar tie to your sire's sire, Vamp1, present, but weak.</p>
+    <p>The brighter red ties are not formed manually, and are naturally occurring. When Vamp9 was turned, Vamp5 was immediately aware of a new blood bond and Vamp9's existence. Vamp5 would have no way to know about Vamp7 or Vamp3's existence without being told, as they have no blood bond. However, all of the vampires in the above example would consider themselves to be a part of the same, single bloodline.</p>
+    <p>Bitten Vampires tend to remain in close proximity with those that they share blood bonds with. They have a built-in drive to please and be near their sire. The vast majority of them are genetically predisposed to clan loyalty and maintaining the blood bond network that they are born into. A bitten vampire literally rises from their grave with their blood bonds in-tact.</p>
+    <p>Breaking blood bonds <em>is</em> possible, but it is difficult, costly, and leaves the vampire in question with frayed and tattered internal magics. Many report feeling wrong, empty, and grief-stricken after enduring such an ordeal. It is, after all, akin to experiencing a loved one's death.</p>
+  </div>
 </div>
 
-Vamp5 may still consider Vamp7 and Vamp3 "family", but they are not naturally tied to them upon their creation. You would have innate bonds to your sireling's sireling's sireling, Vamp9, but that bond would be very weak and feel distant. You would have a similar tie to your sire's sire, Vamp1, present, but weak.
+<div class="p-4 rounded bg-background-800/60 border border-red-800/60 my-4">
+  <span class="text-warm font-bold">Vampires cannot change bloodlines.</span> It is not possible to "resire" into a bloodline, nor slot oneself into a new vampiric bloodline tree after initial vampiric creation. You may only be turned once, the natural bloodlines that come with it cannot be replicated later in unlife.
+</div>
 
-The brighter red ties are not formed manually, and are naturally occurring. When Vamp9 was turned, Vamp5 was immediately aware of a new blood bond and Vamp9's existence. Vamp5 would have no way to know about Vamp7 or Vamp3's existence without being told, as they have no blood bond. However, all of the vampires in the above example would consider themselves to be a part of the same, single bloodline.
-
-Bitten Vampires tend to remain in close proximity with those that they share blood bonds with. They have a built-in drive to please and be near their sire. The vast majority of them are genetically predisposed to clan loyalty and maintaining the blood bond network that they are born into. A bitten vampire literally rises from their grave with their blood bonds in-tact.
-
-Breaking blood bonds *is* possible, but it is difficult, costly, and leaves the vampire in question with frayed and tattered internal magics. Many report feeling wrong, empty, and grief-stricken after enduring such an ordeal. It is, after all, akin to experiencing a loved one's death.
-
-**Vampires cannot change bloodlines.** It is not possible to "resire" into a bloodline, nor slot oneself into a new vampiric bloodline tree after initial vampiric creation. You may only be turned once, the natural bloodlines that come with it cannot be replicated later in unlife.
-
-Some clans have "resireing rituals", where they manually undergo the process of creating blood bonds with their new sigilmates, thus folding them formally into the family/sigil/clan. However, the new member would not gain bonds with vampires not present for the ritual, later new additions to the bloodline upon their turning, nor would their bloodline change. They would retain their ties to their own original sireline/bloodline after the ritual, and any of the boons or banes that come with it. It is a ceremonial and binding ritual, yes, but vampires do not possess the power to intrinsically change one's bloodline into another.
-
-Vampire bloodlines typically determine their favored school of magic, as well as a myriad of minor boons: some may not need sleep, while others may become particularly studious. Each bloodline is unique, with its own quirks and flavor. Banes such as blood curses, additional weaknesses, or personality deficiencies may also be passed down via bloodline.
-
-How much or how little one's bloodline affects them varies dramatically from vampire to vampire and bloodline to bloodline. Some vampires have no bloodline traits at all; only passing on blood bonds and clan names to those that they sire.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Some clans have "resireing rituals", where they manually undergo the process of creating blood bonds with their new sigilmates, thus folding them formally into the family/sigil/clan. However, the new member would not gain bonds with vampires not present for the ritual, later new additions to the bloodline upon their turning, nor would their bloodline change. They would retain their ties to their own original sireline/bloodline after the ritual, and any of the boons or banes that come with it. It is a ceremonial and binding ritual, yes, but vampires do not possess the power to intrinsically change one's bloodline into another.</p>
+    <p>Vampire bloodlines typically determine their favored school of magic, as well as a myriad of minor boons: some may not need sleep, while others may become particularly studious. Each bloodline is unique, with its own quirks and flavor. Banes such as blood curses, additional weaknesses, or personality deficiencies may also be passed down via bloodline.</p>
+    <p>How much or how little one's bloodline affects them varies dramatically from vampire to vampire and bloodline to bloodline. Some vampires have no bloodline traits at all; only passing on blood bonds and clan names to those that they sire.</p>
+  </div>
+</div>
 
 ## Qlidran's Cultural Influence
 
-Vampiric culture is not a singular, cohesive thing. Vampires exist across every region of the world, arise under wildly different circumstances, and live out their unlives in contexts shaped by local history, politics, religion, and the communities they came from. Attempting to define a unified vampiric culture would be like attempting to define a unified human culture. The category is too broad and the variation too significant for any single description to hold.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Vampiric culture is not a singular, cohesive thing. Vampires exist across every region of the world, arise under wildly different circumstances, and live out their unlives in contexts shaped by local history, politics, religion, and the communities they came from. Attempting to define a unified vampiric culture would be like attempting to define a unified human culture. The category is too broad and the variation too significant for any single description to hold.</p>
+    <p>However, despite the vast and complex world we live in, upwards of 90% of all the world's vampires live within Qalidran's imposing walls. Much of vampiric culture is directly informed by Qalidran's culture as a result. Qalidran is both the epicenter and the origin of the vampiric condition. This fact has spread countless ripples into how vampires conduct themselves, view the world, and navigate their undeaths.</p>
+    <p>The Progenitor of vampirism is said to reside in Qalidran, along with his Five Descendants. Those five vampires are widely believed to be the source of the vast majority of vampiric bloodlines. Vampires in Qalidran take pride in their origins, and many can recount their generational lines off the cuff.</p>
+    <p>The vampiric concept of time is something that is directly informed by Qalidran's language. Cycles, ticks, turns, septurns, all of these common vampiric terms originated in the Parlor of Qalidran. Those utterly unfamiliar with their fellow vampire would not know these terms innately.</p>
+    <p>In Qalidran, one's sireline is paramount. There is nothing more important than the generational difference between one and the Progenitor of all vampire-kind. Vampires in Qalidran do not have surnames; they introduce themselves by their distance to the heart of vampirism. Qalidran vampires know which of the Progenitor's five Direct Descendants originated their vampiric line, and often align themselves politically with that Descendant.</p>
+  </div>
+</div>
 
-However, despite the vast and complex world we live in, upwards of 90% of all the world's vampires live within Qalidran's imposing walls. Much of vampiric culture is directly informed by Qalidran's culture as a result. Qalidran is both the epicenter and the origin of the vampiric condition. This fact has spread countless ripples into how vampires conduct themselves, view the world, and navigate their undeaths.
+<div class="p-4 rounded bg-background-800/60 border border-red-800/60 my-4">
+  <p class="text-tprimary-200 italic">"I am <span class="text-accent">[name]</span>, sireling of <span class="text-accent">[sire name]</span>, of clan <span class="text-accent">[sigil name]</span>, <span class="text-accent">[number]</span> generation vampire; of the line <span class="text-accent">[Descendant Number 1 - 5]</span>."</p>
+  <p class="text-tprimary-400 italic mt-2"><em>E.g. "I am <span class="text-accent">Melinda</span>, sireling of <span class="text-accent">Gregor</span>, of <span class="text-accent">Clan Blackrose</span>. I am a <span class="text-accent">fifth</span> generation vampire of the bloodline of the <span class="text-accent">Third Descendant</span>."</em></p>
+</div>
 
-The Progenitor of vampirism is said to reside in Qalidran, along with his Five Descendants. Those five vampires are widely believed to be the source of the vast majority of vampiric bloodlines. Vampires in Qalidran take pride in their origins, and many can recount their generational lines off the cuff.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Parlor vampires have a core belief that the closer one is to the Progenitor, the fewer bites that have occurred between you and him, directly informs how powerful one's vampiric magics are. First, second, and third generation vampires are said to be worlds' away from a vampire with sixth or seventh generation vampirism.</p>
+  </div>
+</div>
 
-The vampiric concept of time is something that is directly informed by Qalidran's language. Cycles, ticks, turns, septurns, all of these common vampiric terms originated in the Parlor of Qalidran. Those utterly unfamiliar with their fellow vampire would not know these terms innately.
+<div class="p-4 rounded bg-background-800/60 border border-red-800/60 my-4">
+  <span class="text-warm font-bold">Please note that player vampires may not be closer than 4th generation. There are at least three vampires between you and the Progenitor of Vampirism if you are of a Bitten Bloodline!</span>
+</div>
 
-In Qalidran, one's sireline is paramount. There is nothing more important than the generational difference between one and the Progenitor of all vampire-kind. Vampires in Qalidran do not have surnames; they introduce themselves by their distance to the heart of vampirism. Qalidran vampires know which of the Progenitor's five Direct Descendants originated their vampiric line, and often align themselves politically with that Descendant.
-
-"I am [name], sireling of [sire name], of clan [sigil name], [number] generation vampire; of the line [Descendant Number 1 - 5]."
-- *E.g. "I am Melinda, sireling of Gregor, of Clan Blackrose. I am a fifth generation vampire of the bloodline of the Third Descendant."*
-
-Parlor vampires have a core belief that the closer one is to the Progenitor, the fewer bites that have occurred between you and him, directly informs how powerful one's vampiric magics are. First, second, and third generation vampires are said to be worlds' away from a vampire with sixth or seventh generation vampirism.
-
-**[Please note that player vampires may not be closer than 4th generation. There are at least three vampires between you and the Progenitor of Vampirism if you are of a Bitten Bloodline!]**
-
-Vampires are social creatures, and by and far live in collectives called sigils or clans. The terms are used interchangeably, and are a necessity for survival. Especially if they live outside of Qalidran, where humans, werewolves, and vampire hunters exist around every corner to try and force them to final death.
-
-Within Qualidran, around 2/3rds of the sigils are Bloodline Sigils, meaning that most vampires within them are direct vampiric relations to one another. These groups vary in size from five to fifty.
-
-In Qalidran there is a social practice of declaring a new clan or sigil, usually resulting in one clan splitting in-two because they simply grew too large to manage. A vampire may have blood bonds with vampiric siblings who have departed into another official clan as a result. These are sometimes referred to as Sister Sigils; as the two clans have similar heritage and blood bonds stretching between them.
-
-Quilted clans are groups of vampires from many different clans who have chosen to unite into a group for political, practical, or business means. This practice is far more common outside of Qalidran, where bloodlines hold less social weight. Quilted clans, with diverse bloodline origins, tend to stick together just as closely as Bloodline clans do, and find camaraderie in found-family and manufactured blood bonds. In Qalidran, Quilted Sigils are among the only who regularly accept Risen vampires into their ranks. These Quilted clans and sigils are about 1/3rd of Qalidran's population.
-
-Vampires of the Parlors' importance hinges on their perceived distance to the Progenitor's origin of vampirism. Because of this, Bitten vampires raised within or by the culture of Qalidran have an innate distrust of those who were Raised by other magical means. Vampires who have no sire have no tie to the Progenitor; they have no traceable line of origin, no long-reaching bonds. In Qalidran, they are viewed as **lesser**, and oftentimes seen as strange and othering.
-
-There is an important cultural distinction and minor RP-functional distinctions between bloodlines who have a long history tying them to the Progenitor and have a Bitten origin, and those who are considered to be of a Risen bloodline. These are outlined in the sections below.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Vampires are social creatures, and by and far live in collectives called sigils or clans. The terms are used interchangeably, and are a necessity for survival. Especially if they live outside of Qalidran, where humans, werewolves, and vampire hunters exist around every corner to try and force them to final death.</p>
+    <p>Within Qualidran, around 2/3rds of the sigils are Bloodline Sigils, meaning that most vampires within them are direct vampiric relations to one another. These groups vary in size from five to fifty.</p>
+    <p>In Qalidran there is a social practice of declaring a new clan or sigil, usually resulting in one clan splitting in-two because they simply grew too large to manage. A vampire may have blood bonds with vampiric siblings who have departed into another official clan as a result. These are sometimes referred to as Sister Sigils; as the two clans have similar heritage and blood bonds stretching between them.</p>
+    <p>Quilted clans are groups of vampires from many different clans who have chosen to unite into a group for political, practical, or business means. This practice is far more common outside of Qalidran, where bloodlines hold less social weight. Quilted clans, with diverse bloodline origins, tend to stick together just as closely as Bloodline clans do, and find camaraderie in found-family and manufactured blood bonds. In Qalidran, Quilted Sigils are among the only who regularly accept Risen vampires into their ranks. These Quilted clans and sigils are about 1/3rd of Qalidran's population.</p>
+    <p>Vampires of the Parlors' importance hinges on their perceived distance to the Progenitor's origin of vampirism. Because of this, Bitten vampires raised within or by the culture of Qalidran have an innate distrust of those who were Raised by other magical means. Vampires who have no sire have no tie to the Progenitor; they have no traceable line of origin, no long-reaching bonds. In Qalidran, they are viewed as <strong>lesser</strong>, and oftentimes seen as strange and othering.</p>
+    <p>There is an important cultural distinction and minor RP-functional distinctions between bloodlines who have a long history tying them to the Progenitor and have a Bitten origin, and those who are considered to be of a Risen bloodline. These are outlined in the sections below.</p>
+  </div>
+</div>
 
 ## Bitten Culture
 
-The standard vampire; and the most common variety. Bitten vampires are drained by their sire, given a bit of their maker's blood, and then laid down within the earth. Should all go well they will rise upon the next rising moon in undeath. If unlucky, they will never complete the transformation and either rise a thrall or never crawl from their grave at all.
-
-Micro-cultures for the Bitten vary, and are informed by the oldest members' cultural origins. Some clans are casual and warm with one another, while others function as businesses or rigid formal hierarchies.
-
-Sigils/Clans are treated similarly to family units. While there is no concept of mothers or fathers, one's sigil is one's *family.* They are most Bitten vampires' closest companions. A Bitten vampire's bloodline is composed of their friends, their family, their business partners, and their peers.
-
-Blood bonds create an innate trust and familiar feeling between two vampires. You can feel their pain and hunger; thus encouraging vampires to take care of those within their bond networks. As bloodlines cannot be undone, vampires carry the burden of their bloodline together, addressing any quirks, boons, and banes, as a collective. For many it is a great source of pride and personal purpose.
-
-Because Bitten vampires rise from their graves with their new blood bonds already functioning, there is an intrinsic trust between sire and sireling. It is very, *very* uncommon for bitten vampires to be abandoned at the time of their turning. To do so is taboo in Bitten vampire cultures.
-
-Bitten vampires are mentored by their bloodlines; taught to control their magic, their hunger, and what it means to be a vampire by those closest to them. They are tight-knit, and rarely experience schisms. The dissolution or scattering of a sigil is a serious event.
-
-Vampires in Qalidran, and thus most Bitten vampires, are only turned with permission from the Parlor. Gifted and talented humans in Qalidran's human settlements may be offered as a gift and assigned a sigil that suits them. Very few Qalidran humans know their future sires before the night they are turned. Choosing to leave Qalidran and sire an unapproved human out in the world is frowned upon, and oftentimes involves a monetary fine / negative social repercussions for the fledgeling upon their arrival in Qalidran.
-
-Turning a vampire is a very, very big deal. Bitten vampires are permanently tied to their bloodline. Adding someone new to that bloodline is not something that is done flippliantly.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The standard vampire; and the most common variety. Bitten vampires are drained by their sire, given a bit of their maker's blood, and then laid down within the earth. Should all go well they will rise upon the next rising moon in undeath. If unlucky, they will never complete the transformation and either rise a thrall or never crawl from their grave at all.</p>
+    <p>Micro-cultures for the Bitten vary, and are informed by the oldest members' cultural origins. Some clans are casual and warm with one another, while others function as businesses or rigid formal hierarchies.</p>
+    <p>Sigils/Clans are treated similarly to family units. While there is no concept of mothers or fathers, one's sigil is one's <em>family.</em> They are most Bitten vampires' closest companions. A Bitten vampire's bloodline is composed of their friends, their family, their business partners, and their peers.</p>
+    <p>Blood bonds create an innate trust and familiar feeling between two vampires. You can feel their pain and hunger; thus encouraging vampires to take care of those within their bond networks. As bloodlines cannot be undone, vampires carry the burden of their bloodline together, addressing any quirks, boons, and banes, as a collective. For many it is a great source of pride and personal purpose.</p>
+    <p>Because Bitten vampires rise from their graves with their new blood bonds already functioning, there is an intrinsic trust between sire and sireling. It is very, <em>very</em> uncommon for bitten vampires to be abandoned at the time of their turning. To do so is taboo in Bitten vampire cultures.</p>
+    <p>Bitten vampires are mentored by their bloodlines; taught to control their magic, their hunger, and what it means to be a vampire by those closest to them. They are tight-knit, and rarely experience schisms. The dissolution or scattering of a sigil is a serious event.</p>
+    <p>Vampires in Qalidran, and thus most Bitten vampires, are only turned with permission from the Parlor. Gifted and talented humans in Qalidran's human settlements may be offered as a gift and assigned a sigil that suits them. Very few Qalidran humans know their future sires before the night they are turned. Choosing to leave Qalidran and sire an unapproved human out in the world is frowned upon, and oftentimes involves a monetary fine / negative social repercussions for the fledgeling upon their arrival in Qalidran.</p>
+    <p>Turning a vampire is a very, very big deal. Bitten vampires are permanently tied to their bloodline. Adding someone new to that bloodline is not something that is done flippliantly.</p>
+  </div>
+</div>
 
 ## Risen Culture
 
-Those made of non-bitten magical means tend to be alone upon their manifestation. It would be exceptionally rare for two vampires to rise from the same curse or magical bloom. They have no innate blood bonds upon their creation, and some may struggle to form them with their fellow vampires as a result of their unique origin of vampirism.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Those made of non-bitten magical means tend to be alone upon their manifestation. It would be exceptionally rare for two vampires to rise from the same curse or magical bloom. They have no innate blood bonds upon their creation, and some may struggle to form them with their fellow vampires as a result of their unique origin of vampirism.</p>
+    <p>They are far less social with other vampires because they are not innately led into a built-in community. There are Risen vampires that have never met another vampire, and are utterly unaware of vampiric customs, practices, and social norms.</p>
+    <p>It is relatively common for multiple Risen vampires to create a Quilted clan, choosing to forgo isolation for the sake of survival. These clans are small and composed of diverse vampires from all over the world. Many are nomadic, as discovery amongst humans is a sure death.</p>
+    <p>In Qalidran, Risen vampires are shunned. Outside of Qalidran, large groups of vampires are quickly hunted by Luminance worshipers, vampire hunters, and the humans who fear them. As a result, they are the minority among vampire-kind.</p>
+    <p>It is tragically common for magic-borne vampires to die newly turned without anyone to guide them through the ins and outs of their affliction. Some starve or burn in the sun; while others are slaughtered by their families or villages upon discovery.</p>
+    <p>While all Bitten vampires create innate blood bonds with their immediate vampiric relations, that may not be the case with Risen vampire bloodlines.</p>
+  </div>
+</div>
 
-They are far less social with other vampires because they are not innately led into a built-in community. There are Risen vampires that have never met another vampire, and are utterly unaware of vampiric customs, practices, and social norms.
-
-It is relatively common for multiple Risen vampires to create a Quilted clan, choosing to forgo isolation for the sake of survival. These clans are small and composed of diverse vampires from all over the world. Many are nomadic, as discovery amongst humans is a sure death.
-
-In Qalidran, Risen vampires are shunned. Outside of Qalidran, large groups of vampires are quickly hunted by Luminance worshipers, vampire hunters, and the humans who fear them. As a result, they are the minority among vampire-kind.
-
-It is tragically common for magic-borne vampires to die newly turned without anyone to guide them through the ins and outs of their affliction. Some starve or burn in the sun; while others are slaughtered by their families or villages upon discovery.
-
-While all Bitten vampires create innate blood bonds with their immediate vampiric relations, that may not be the case with Risen vampire bloodlines. Both of the following are optional if you are a vampire of a Risen Bloodline:
+<div class="p-4 rounded bg-background-800/60 border border-red-800/60 my-4">
+  <span class="text-warm font-bold">Both of the following are optional if you are a vampire of a Risen Bloodline:</span>
 
 - The ability to sire new vampires
 - The ability to form blood bonds with other vampires
+</div>
 
-Risen vampires commonly abandon sirelings, either because they do not possess innate blood bonds, or because they sired a new vampire entirely by accident. In some cases, the blood bond between sire and sireling is so weak it goes completely unnoticed. As a result, it is less common to find large bloodlines of Risen vampires in a single sigil.
-
-Risen vampire Bloodlines are still referred to as such even if there are multiple generations. This is largely due to Qalidran's cultural influence. Without a tie to the Progenitor nearly all Risen clans are shuffled into the same box, regardless of their size.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Risen vampires commonly abandon sirelings, either because they do not possess innate blood bonds, or because they sired a new vampire entirely by accident. In some cases, the blood bond between sire and sireling is so weak it goes completely unnoticed. As a result, it is less common to find large bloodlines of Risen vampires in a single sigil.</p>
+    <p>Risen vampire Bloodlines are still referred to as such even if there are multiple generations. This is largely due to Qalidran's cultural influence. Without a tie to the Progenitor nearly all Risen clans are shuffled into the same box, regardless of their size.</p>
+  </div>
+</div>
 
 <!-- section:human -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-sky-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-sky-500 block mb-1">No Blood Magic</span><span class="text-base text-tprimary-50">Humans cannot use blood magic under any circumstances. It is beyond their reach entirely.</span></div>
