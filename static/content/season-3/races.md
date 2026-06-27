@@ -192,6 +192,7 @@ Humans are mortal and carry no innate magic. Blood magic is entirely beyond thei
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Restrictions</span>
 - No blood drain. Cannot drink blood from mobs, bottles, or other players.
 - Blood potions have no effect. Blood type is selected at creation and does not change.
+- Limited to Scholar, Warrior, Brute, Rogue, or Worker primary blood types. Cannot use Mutant, Corrupted, or Draculin blood.
 - Blood magic is not available. Cannot use Dominate or Bloodmend.
 - Cannot shapeshift unless the druidic magic specialty is taken.
 - Limited to 2 magical schools channeled at a time.
@@ -217,9 +218,9 @@ Humans are mortal and carry no innate magic. Blood magic is entirely beyond thei
     <p>Humans can survive 3 critical injuries.</p>
     <ul>
       <li>Medical RP must be received within 3 IRL days of a critical injury to survive it.</li>
-      <li>Must be treated by a doctor specialist using <code>.sov treat &lt;player&gt;</code> or <code>.sov revive</code>.</li>
+      <li>Must be treated by a doctor specialist using <a href="#cmd-doctor"><code>.sov treat &lt;player&gt;</code></a> or <a href="#cmd-doctor"><code>.sov revive</code></a>.</li>
       <li>Upon death (third critical injury or untreated injury), the player may choose to kill the character or turn into a vampire.</li>
-      <li>Check your injury status at any time with <code>.sov mortality status</code>.</li>
+      <li>Check your injury status at any time with <a href="#cmd-mortality"><code>.sov mortality status</code></a>.</li>
     </ul>
   </div>
 </div>
@@ -264,13 +265,13 @@ Log your progress in your character's journal. When you are ready for an upgrade
 
 | Blood % | Quest | Description |
 |---|---|---|
-| 30s → 40s | First Steps | Establish a connection with at least two characters outside of your sigil, documented through Bats exchanges. The correspondence should reflect genuine interaction rather than brief or transactional messages. |
-| 40s → 50s | Connection and Commitment | Give a gift to a character that yours has formed a connection with. Ideally the gift should be handpicked for a notable RP reason. |
-| 50s → 60s | Known Faces | Meet at least four characters outside of your sigil and document each encounter in your character's journal. Each entry should include a brief summary of who they are and how the interaction went. |
-| 60s → 70s | Woven In | Contribute something lasting to the public record. Distribute a written work to the general public, whether via Waygate or by distributing it to at least 10 people in character. It should reflect your character's perspective and voice. It does not have to be publicly attributed to them if they prefer otherwise. |
-| 70s → 80s | Known Quantity | Assist three different characters outside your sigil for something your character is known for, whether a skill, a specialty, knowledge, or a service. Document each instance through journals. You can prompt these requests yourself by offering advice in a specialty, or simply offering your help and being taken up on the offer. |
-| 80s → 90s | Pinnacle Part 1 | Begin work towards completing a major beat in your character's story, or begin documenting the process if you have not already. This can be an achievement of a long term and meaningful goal, a turning point where you find yourself pursuing something new, or some other form of self discovery or actualization. You do not need to complete your goal for Pinnacle Part 1, but identifiable progress or completion of intermediary goals must be made. You may be asked to complete an individualized quest to represent this progress. |
-| 90s → 100s | Pinnacle Part 2 | Complete the ultimate goal identified in Pinnacle Part 1, with an individualized quest to represent this achievement. Document the journey, steps, or answers you found at the end of your path. |
+| 30's → 40's | First Steps | Establish a connection with at least two characters outside of your sigil, documented through Bats exchanges. The correspondence should reflect genuine interaction rather than brief or transactional messages. |
+| 40's → 50's | Connection and Commitment | Give a gift to a character that yours has formed a connection with. Ideally the gift should be handpicked for a notable RP reason. |
+| 50's → 60's | Known Faces | Meet at least four characters outside of your sigil and document each encounter in your character's journal. Each entry should include a brief summary of who they are and how the interaction went. |
+| 60's → 70's | Woven In | Contribute something lasting to the public record. Distribute a written work to the general public, whether via Waygate or by distributing it to at least 10 people in character. It should reflect your character's perspective and voice. It does not have to be publicly attributed to them if they prefer otherwise. |
+| 70's → 80's | Known Quantity | Assist three different characters outside your sigil for something your character is known for, whether a skill, a specialty, knowledge, or a service. Document each instance through journals. You can prompt these requests yourself by offering advice in a specialty, or simply offering your help and being taken up on the offer. |
+| 80's → 90's | Pinnacle Part 1 | Begin work towards completing a major beat in your character's story, or begin documenting the process if you have not already. This can be an achievement of a long term and meaningful goal, a turning point where you find yourself pursuing something new, or some other form of self discovery or actualization. You do not need to complete your goal for Pinnacle Part 1, but identifiable progress or completion of intermediary goals must be made. You may be asked to complete an individualized quest to represent this progress. |
+| 90's → 100's | Pinnacle Part 2 | Complete the ultimate goal identified in Pinnacle Part 1, with an individualized quest to represent this achievement. Document the journey, steps, or answers you found at the end of your path. |
 
 <!-- section:werewolf -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-orange-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-orange-500 block mb-1">Restricted Magic Schools</span><span class="text-base text-tprimary-50">Werewolves cannot use blood, unholy, illusion, chaos, light, or shadow magic.</span></div>
@@ -379,7 +380,7 @@ Many werewolves consider "lycanthrope/lycanthropy" to be a derogatory term becau
 
 Werewolves feel an innate kinship with wild wolves and dogs, *or* they consider them an interloper and want to kill them on-sight. Either/Or, with no middle ground.
 
-Werewolves are leery of other packs until bonds have been established between the two. They can *usually* sniff out another werewolf by scent alone. Some use perfumes to disguise themselves.
+Werewolves are leery of other packs until bonds have been established between the two. They can usually sniff out another werewolf by scent alone. Some use perfumes or other methods to disguise themselves. Whether you can identify another player as a werewolf is entirely up to them. You cannot force another player to reveal themselves IC if they do not wish to be revealed.
 
 Vampires smell terrible to werewolves: like walking rot and decay. Because of that, werewolves have difficulty getting to know vampires or becoming friends with them. They should be innately at odds to at least some small degree.
 

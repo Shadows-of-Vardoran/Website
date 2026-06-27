@@ -32,7 +32,7 @@
     { id: 'citizenship', label: 'Citizenship' },
     { id: 'specialties', label: 'Specialties' },
     { id: 'mortality-contract', label: 'Mortality Contract' },
-    { id: 'magic-tech-ceiling', label: 'Magic & Tech' },
+    { id: 'magic-tech-ceiling', label: 'RP Limitations' },
     { id: 'commands', label: 'Commands' },
   ];
 
@@ -695,6 +695,8 @@
           </div>
         </section>
 
+        <hr class="border-tprimary-900/30 my-6">
+
         <!-- Section 3: Organizations -->
         <section id="organizations" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
@@ -716,6 +718,8 @@
             {/if}
           </div>
         </section>
+
+        <hr class="border-tprimary-900/30 my-6">
 
         <!-- Section 4: Playable Races -->
         <section id="playable-races" class="mb-12 scroll-mt-8">
@@ -739,6 +743,8 @@
           </div>
         </section>
 
+        <hr class="border-tprimary-900/30 my-6">
+
         <!-- Section 5: Citizenship -->
         <section id="citizenship" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
@@ -752,6 +758,8 @@
             </EditableSection>
           </div>
         </section>
+
+        <hr class="border-tprimary-900/30 my-6">
 
         <!-- Section 6: Specialties -->
         <section id="specialties" class="mb-12 scroll-mt-8">
@@ -849,6 +857,8 @@
           </div>
         </section>
 
+        <hr class="border-tprimary-900/30 my-6">
+
         <!-- Section 7: Mortality Contract -->
         <section id="mortality-contract" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
@@ -863,10 +873,12 @@
           </div>
         </section>
 
-        <!-- Section 8: Magic & Technology Ceiling -->
+        <hr class="border-tprimary-900/30 my-6">
+
+        <!-- Section 8: RP Limitations -->
         <section id="magic-tech-ceiling" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Magic & Technology Ceiling</h2>
+            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">RP Limitations</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="magic-tech-ceiling" rawContent={sections['magic-tech-ceiling'] || ''} onsave={onSectionSave}>
               {#if magicTechHtml}
                 {@html magicTechHtml}
@@ -876,6 +888,8 @@
             </EditableSection>
           </div>
         </section>
+
+        <hr class="border-tprimary-900/30 my-6">
 
         <!-- Section 9: Commands -->
         <section id="commands" class="mb-12 scroll-mt-8">

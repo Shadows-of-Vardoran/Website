@@ -11,7 +11,6 @@
   <div class="w-14 rounded bg-gradient-to-b from-tprimary-800/40 to-tprimary-900/60 flex-shrink-0 border border-tprimary-900/30"></div>
 </div>
 
-<hr class="border-tprimary-900/30 my-6">
 
 <div class="flex flex-row-reverse gap-6 my-4">
   <div class="flex-1 text-lg leading-relaxed">
@@ -25,7 +24,6 @@
   <div class="w-14 rounded bg-gradient-to-b from-red-800/40 to-red-950/70 flex-shrink-0 border border-red-900/30"></div>
 </div>
 
-<hr class="border-tprimary-900/30 my-6">
 
 <div class="flex gap-6 my-4">
   <div class="flex-1 text-lg leading-relaxed">
@@ -42,7 +40,6 @@
   <div class="w-14 rounded bg-gradient-to-b from-amber-800/40 to-amber-950/70 flex-shrink-0 border border-amber-900/30"></div>
 </div>
 
-<hr class="border-tprimary-900/30 my-6">
 
 <div class="flex flex-row-reverse gap-6 my-4">
   <div class="flex-1 text-lg leading-relaxed">
@@ -62,12 +59,14 @@
   <div class="w-14 rounded bg-gradient-to-b from-violet-800/40 to-violet-950/70 flex-shrink-0 border border-violet-900/30"></div>
 </div>
 
+
 <!-- section:nations-intro -->
 <div class="text-lg leading-relaxed">
   <p class="mb-4">
     The great powers and untamed lands that shape the fate of mortals and immortals alike. Each nation and region carries its own laws, faiths, and grudges into an uneasy world. From the storm-wrapped scholars of Norus to the blood-soaked halls of Qalidran, every border tells a story of survival, conquest, and conviction.
   </p>
 </div>
+
 
 <!-- section:organizations-intro -->
 <div class="text-lg leading-relaxed">
@@ -76,12 +75,14 @@
   </p>
 </div>
 
+
 <!-- section:races-intro -->
 <div class="text-lg leading-relaxed">
   <p class="mb-4">
     The world has changed. The question now is who you are in it. Peoples who have spent generations learning what they are, and peoples who are still figuring it out. Some carry ancient power in their blood. Some carry nothing but the will to survive. The fractures between them run deep. So does the pull that brought them all here.
   </p>
 </div>
+
 
 <!-- section:specialties-intro -->
 With the Specialties system, you are able to take Specialty in a skill. Doing so will allow you to RP more advanced topics pertaining to that skill, whether it is a magical school or a more mundane profession.
@@ -100,6 +101,7 @@ We are inclined to trust the community with this framework as-is without any sig
 - Max specialties will increase to 5+ over the story arc
 - You may swap a specialty for another once per season, unless new specialties are added mid-season
 - Swapping specialties does not retain levels. You start the new specialty at level 1 after completing the tasks to swap
+
 
 <!-- section:citizenship -->
 <div class="text-lg leading-relaxed">
@@ -153,6 +155,7 @@ We are inclined to trust the community with this framework as-is without any sig
   <p class="text-base text-tprimary-100">If you request it and it matches your character lore, we will hand out faction ally tags for animal factions.</p>
   <p class="text-base text-tprimary-100">Talam, by default, receive the bear faction tag.</p>
 </div>
+
 
 <!-- section:mortality-contract -->
 The mortality contract applies to all mortal player races. It governs how injuries are classified, when medical RP is required, and what happens when a character reaches the end of their mortality. The specific settings that determine how many critical injuries a race can survive, and what options are available upon death, are defined in each race's own document.
@@ -214,34 +217,37 @@ It is against the rules to camp a mortal character's bag after a critical injury
 
 If it is natural for a character to remain in the area (for example, the bag dropped in their own castle or another location they have a reason to occupy) they are not required to leave. If a bag is dropped in a castle, the bag must remain accessible unless consent to restrict access has been given in a conflict ticket or warbat.
 
+
 <!-- section:magic-tech-ceiling -->
-<div class="text-lg leading-relaxed">
-  <p class="mb-4">
-    Season 3 defines hard limits on what is achievable through magic and technology. These boundaries exist to maintain setting coherence and ensure fair play.
-  </p>
 
-  <div class="marked-block-info mt-4 mb-4">
-    <strong>Magic Ceiling:</strong>
-  </div>
-  <ul class="list-disc pl-6 mb-4">
-    <li>No true resurrection of the dead. Souls that have passed beyond cannot be recalled.</li>
-    <li>No time manipulation. Past events cannot be altered or revisited.</li>
-    <li>No reality warping or matter creation from nothing.</li>
-    <li>No teleportation across significant distances without established anchors.</li>
-    <li>No mind control that removes player agency.</li>
-  </ul>
+These are the limits of what magic can accomplish in the Season 3 setting. If something is not listed below, it is not prohibited. That does not mean anything goes. All magic operates within a consent framework. Invasive or personal magic directed at another player's character requires that player's consent. The team has final say on whether a ritual outcome is feasible within the setting. When in doubt, open a ticket and ask before investing in a working that might not land.
 
-  <div class="marked-block-info mt-4 mb-4">
-    <strong>Technology Ceiling:</strong>
-  </div>
-  <ul class="list-disc pl-6">
-    <li>No firearms or explosives beyond basic black powder.</li>
-    <li>No electricity or combustion engines.</li>
-    <li>No mechanical flight or airships.</li>
-    <li>No mass production or assembly lines.</li>
-    <li>No communication beyond line-of-sight or messenger.</li>
-  </ul>
+### Absolute Restrictions
+
+<div class="px-4 py-3 rounded bg-orange-950/20 border border-orange-600/70 mb-4 text-lg text-tprimary-50">
+  These things cannot be accomplished through magic under any circumstances, at any rank, with any level of investment. They are hard stops, not theoretical ceilings.
 </div>
+
+- <span class="text-warm">**No true resurrection.**</span> Magic cannot restore someone who has truly died back to life. Combining schools does not close this gap. Death is final.
+- <span class="text-warm">**No immunity to true death.**</span> A player character cannot become IC genuinely unkillable through magical means. Some things are extremely difficult to kill, but anything a player can play can be killed one way or another within the IC world. A ritual that attempts to make a character immune to death in any permanent or unconditional sense will not succeed. OOCly, players choose when their characters die. There is a difference between the OOC choice and the IC lore reason, and this targets the IC lore reason.
+- <span class="text-warm">**No ascending to godhood or godlike status.**</span> Any godlike entities in lore represent the product of incomprehensible power accumulated over incomprehensible time. They are not a template that can be reached through effort or ritual. A player character cannot become an ascended entity or anything equivalent to one, cannot become a being that operates on that scale, and cannot cease to be a playable character in the normal sense through magical self-transformation. This applies regardless of how the attempt is framed.
+- <span class="text-warm">**No remote viewing or remote perception (scrying).**</span> Magic cannot be used to observe other players, spy on private locations, or perceive things happening at a distance. This is a flat ban regardless of consent between the players involved. The prohibition is on the function, not the specific technique, and applies to any magical method from any school.
+- <span class="text-warm">**No time magic.**</span> Time as a magical domain does not exist in this setting. There is no established framework for it and it will not be introduced. Magic cannot alter, reverse, or accelerate the flow of time, send information or awareness backward or forward in time, or produce any effect that functions as time manipulation.
+- <span class="text-warm">**No realmwalking.**</span> Players cannot intentionally open a stable rift into another realm and pass through it. The barrier between the physical world and other realms is not something player characters can breach under normal circumstances. It is not something that can be replicated through a ritual ticket. If a narrative reaches a point where realmwalking becomes relevant as a story culmination, that is a team-level decision.
+- <span class="text-warm">**No environmental alteration that permanently harms others or the world at large.**</span> Magic can be used to enhance, decorate, or build up the environment. Construction projects, monuments, and similar improvements are fine. What is not permitted is using magic to obliterate land, render an area permanently uninhabitable, curse a location in a way that harms the people connected to it without their consent, or produce any other effect whose primary purpose or outcome is environmental destruction or detriment to others on a grand scale. The line is whether the effect builds something up or tears something down irreparably. If a ritual looks like it is aimed at wrecking a piece of the world rather than shaping it, it will not be allowed.
+- <span class="text-warm">**No changing vampiric bloodlines (re-siring).**</span> This is not possible in the current vampiric lore. For more details, read the server lore surrounding vampires.
+
+### Heavily Restricted Categories
+
+<div class="px-4 py-3 rounded bg-blue-950/20 border border-blue-600/70 mb-4 text-lg text-tprimary-50">
+  These things are not absolutely impossible but they require team involvement before any ritual in these categories is run. If you want to pursue something in this section, discuss it with the team as a narrative project rather than submitting a standard ritual ticket.
+</div>
+
+- <span class="text-accent">**Soul magic.**</span> Magic that directly influences, alters, or damages a soul is theoretically possible in this setting. It is also extraordinarily difficult, practically undocumented, and carries a very high risk of catastrophic failure including permanent death. There is no established body of knowledge on how to do it correctly. A player who wants to pursue soul magic should expect it to be a significant long-term story investment with genuine risk and no guarantee of success. Raise it with the team as a narrative project, not a ritual ticket.
+- <span class="text-accent">**Summoning entities of significant power.**</span> Rituals that attempt to draw the attention of or make contact with powerful entities are possible and represent the upper end of what the rank system accommodates. What is not possible is summoning and commanding something that operates far beyond mortal scale. The entity does not arrive bound and obligated to comply. Attempting to summon something at the scale of the ascended entities is not viable at any rank. Anything in this space should be coordinated with the team before the ritual is run.
+- <span class="text-accent">**Attempting a vampirism cure.**</span> The setting establishes that vampirism is theoretically reversible. A cure attempt is a valid long-term story direction but it is a team-managed plotline, not a standard ritual ticket.
+- <span class="text-accent">**Attempting a lycanthropy cure.**</span> Reverting a werewolf back to a human is theoretically possible in the setting and is a valid long-term story. But it is a team-managed plotline, not a standard ritual ticket. Players attempting to do so should expect extensive research and time to be required, with the possibility that success is only achievable in a future season.
+
 
 <!-- section:commands -->
 | Command | Description |

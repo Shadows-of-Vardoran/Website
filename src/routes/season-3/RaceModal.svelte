@@ -24,6 +24,13 @@
   function handleBackdropClick(e: MouseEvent) {
     if (e.target === e.currentTarget) onclose?.();
   }
+
+  function handleContentClick(e: MouseEvent) {
+    const anchor = (e.target as Element)?.closest?.('a[href^="#"]');
+    if (anchor) {
+      onclose?.();
+    }
+  }
 </script>
 
 <svelte:window onkeydown={(e) => e.key === 'Escape' && onclose?.()} />
@@ -49,7 +56,8 @@
         </button>
 
         <EditableSection filePath="static/content/season-3/races.md" sectionKey="{race.name}.description" {rawContent} {onsave}>
-          <div class="text-tprimary-200 leading-relaxed marked pr-8" style="--dot-color: {theme.accentDotVar}">
+          <!-- svelte-ignore a11y_click_events_have_key_events -->
+          <div class="text-tprimary-200 leading-relaxed marked pr-8" style="--dot-color: {theme.accentDotVar}" role="presentation" onclick={handleContentClick}>
             {@html descriptionHtml}
           </div>
         </EditableSection>
