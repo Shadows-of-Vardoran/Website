@@ -312,7 +312,7 @@
   ];
 
   const ORGS_MD_PATH = 'static/content/season-3/organizations.md';
-  const ORGS_SECTION_ORDER = ['church-of-luminance', 'the-archivum', 'transcendum', 'noctum', 'vampire-hunters-guild'];
+  const ORGS_SECTION_ORDER = ['church-of-luminance', 'the-archivum', 'transcendum', 'noctum', 'vampire-hunters-guild', 'farbane-bandits', 'dunley-militia', 'venomblades'];
 
   const NATIONS_MD_PATH = 'static/content/season-3/nations.md';
   const NATIONS_SECTION_ORDER = [

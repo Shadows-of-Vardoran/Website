@@ -22,6 +22,8 @@ Vampires are the vanilla gameplay experience. All schools of magic are available
   <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Benefits</span>
 - Bat Form unlocked at start.
+- Only race capable of wielding blood magic.
+- One of only two races (vampires and humans) capable of wielding necromancy/unholy magic.
   </div>
 </div>
 
@@ -74,6 +76,10 @@ Blood bonds may be used to convey basic emotions, current vitality, and status (
 **Blood bonds connect all vampires who are of the same direct bloodline upon their creation.** While one's bond with their vampiric sire is very powerful, one will also have innate ties to their immediate vampiric family. However, this tie only extends within one direct generation. A bitten vampire is tied to their sire, their own sirelings, and their siblings, vampires turned by the same vampire who turned them. However, there are no innate blood bonds between one and their sire's vampiric sibling; nor those siblings' own sirelings. It is only those of the closest relations that have bonds upon creation. Some choose to create additional blood bonds with those they are close to, while others do not.
 
 In the below example, you are Vamp5, and you would have blood bonds to all that are connected by the bright red bond:
+
+<div style="float:right;margin:0 0 1rem 1rem;max-width:400px;width:100%">
+  <img src="/assets/vampire_bloodlines.png" alt="Vampire bloodline bonds diagram">
+</div>
 
 Vamp5 may still consider Vamp7 and Vamp3 "family", but they are not naturally tied to them upon their creation. You would have innate bonds to your sireling's sireling's sireling, Vamp9, but that bond would be very weak and feel distant. You would have a similar tie to your sire's sire, Vamp1, present, but weak.
 

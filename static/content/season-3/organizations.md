@@ -83,7 +83,6 @@
   <div class="w-3 rounded bg-gradient-to-b from-chartreuse-800/60 to-chartreuse-950/80 flex-shrink-0 border border-chartreuse-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
     <p>Norus is a nation built on the philosophy that knowledge is power, and nowhere is that philosophy more nakedly expressed than in the Transcendum. A single company born from Norus' scholar class, the Transcendum arrived in Vardoran sixty years ago and has spent every one of those years remaking the northern reaches of the continent in its own image. What is now called Gloomrot was something else before they got there. The Transcendum is what happened to it.</p>
-    <p>Norus regulates its companies. Vardoran does not. That distinction is the entire reason the Transcendum is here.</p>
   </div>
 </div>
 
@@ -92,7 +91,9 @@
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-chartreuse-800/60 to-chartreuse-950/80 flex-shrink-0 border border-chartreuse-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>At its head is Henry Blackbrew, a man whose brilliance is matched only by his appetite. He built the Transcendum into what it is, and he has bent its considerable resources toward a personal obsession that has nothing to do with profit or expansion. Blackbrew wants to live forever, and he is not squeamish about what that pursuit costs other people. His cruelty and narcissism are well documented and widely known. So is his effectiveness.</p>
+    <p>Before he was a heretic, Henry Blackbrew was a hero. When Dracula's campaign seemed unstoppable and no army could hold the line, Blackbrew's experiments into mutagenics and human enhancement gave Norus something to fight back with. Empowered soldiers where there had only been ordinary ones. A chance, however slim, of survival. For a time he was exactly what humanity needed him to be.</p>
+    <p>Then the Church of Luminance received light magic, and everything changed. With a divine weapon in hand and a war to win, the Church had no more use for Blackbrew's methods, and considerably less tolerance for them. They declared him a heretic. The political weight of that declaration was not something Norus could easily ignore, and the restrictions placed on the Transcendum in the aftermath made it clear that the environment Blackbrew needed to work in no longer existed at home.</p>
+    <p>He did not stop working. He simply moved.</p>
   </div>
 </div>
 
@@ -101,7 +102,8 @@
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-chartreuse-800/60 to-chartreuse-950/80 flex-shrink-0 border border-chartreuse-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>The people of Rustlock live under the shadow of Gloomrot and the Transcendum's dominance, but they also have opportunity that does not exist elsewhere, a path forward for those willing to take the risk that comes with it. The Transcendum is in Vardoran because Vardoran lets them do what they cannot do at home. What exactly that is, and how far Blackbrew intends to take it, remains an open question.</p>
+    <p>Norus regulates its companies. Vardoran does not. Blackbrew founded the Transcendum and brought it to Vardoran, drawn by the absence of the laws that had been closing in around him. In sixty years his company has transformed the northern reaches of the continent into something the world has never seen before and would struggle to describe charitably. He has bent its considerable resources toward a personal obsession that has nothing to do with profit or expansion. Blackbrew wants to live forever, and he is not squeamish about what that pursuit costs other people.</p>
+    <p>The people of Rustlock live under the shadow of Gloomrot and the Transcendum's dominance, but they also have opportunity that does not exist elsewhere, a path forward for those willing to take the risk that comes with it. What exactly Blackbrew is working toward, and how far he intends to take it, remains an open question.</p>
   </div>
 </div>
 
@@ -167,5 +169,104 @@
   <div class="flex-1 text-[1.2rem]">
     <p>That reputation has not made the intervening years easy. The advent of magic upended everything the Guild thought it understood about the threats it was built to face. Vampires remain their oldest enemy, but the spread of werewolves across human nations has stretched the Guild thin, and the appearance of entirely new kinds of beings has forced an organization built on accumulated knowledge to confront how much it does not yet know.</p>
     <p>The Guild maintains a presence in Vardoran. Whether that presence is investigative, protective, or something more pointed depends entirely on who you ask.</p>
+  </div>
+</div>
+
+<!-- section:farbane-bandits -->
+<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-orange-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-orange-500 block mb-1">Not a Joinable Faction</span><span class="text-base text-tprimary-50">The Farbane Bandits are not a joinable faction.</span></div>
+
+## The Farbane Bandits
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Farbane has never been a friendly place to live. A dense and ancient forest pressing against the edges of old cemeteries and ruins, its floor littered with the remnants of civilizations that came before and collapsed without explanation. Magic flooding into the world over the last five years has made it considerably worse. The dead in Farbane's many graveyards do not always stay dead. Animated flora, treants, golems assembled from the wreckage of old structures, pockets of necromantic energy that nobody invited and nobody knows how to remove.</p>
+    <p>People have been living in Farbane anyway, because people are stubborn and options are limited. When Brighthaven was founded and trade routes brought wealth into Vardoran, many of the region's inhabitants found that pillaging was simply more profitable than farming. That economic reality shaped Farbane into what it is, a loose and dangerous population of hunters, scavengers, and bandits who carved out territory in a forest that was actively trying to kill them and called it home.</p>
+  </div>
+</div>
+
+### Something Is Changing
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>For most of Farbane's history the bandits were exactly that. Scattered, disorganized, held together by proximity and mutual interest rather than any shared structure. Over the last couple of years that has begun to shift. A handful of individuals who found themselves with newly awakened magical abilities have used that newfound strength to do what no one managed before them. They started consolidating. Territories were absorbed. Holdouts were persuaded or removed. What had been scattered groups operating independently now answer, however loosely, to something resembling leadership.</p>
+    <p>The bandit encampments and the fortress taking shape in the ruins of older structures are the most visible sign of what that consolidation is becoming. They are not finished. They may never be finished. But for the first time, the people of Farbane are building something rather than simply surviving, and that changes what they are in ways that are still being worked out.</p>
+  </div>
+</div>
+
+<!-- section:dunley-militia -->
+<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-green-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-green-500 block mb-1">Not a Joinable Faction</span><span class="text-base text-tprimary-50">The Dunley Militia is not a joinable faction. People may be a citizen of settlements in the Dunley area, but they cannot be a member of the proper Dunley Militia organization.</span></div>
+
+## The Dunley Militia
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The Dunley Militia has always been there. That is not a figure of speech. When Nosterra was still an empire and Vardoran was one of its frontier settlements, there was already a militia force keeping order in the villages. The empire fell. The settlement crumbled without support from the outside world. The militia stayed. Over the centuries that followed, through gradual decline and quiet obscurity, the people of Vardoran kept arming themselves and calling it something. The Dunley Militia is what that something eventually became.</p>
+  </div>
+</div>
+
+### Forged by War
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Before Dracula, the Militia was modest. A local defense force, lightly trained, suited to the scale of threats that Vardoran actually faced. Dracula changed that. The war that swept through the continent did not spare Vardoran, and the people who survived it came out the other side considerably harder and considerably better at killing things than they had been going in. The Militia that exists today is not the Militia that existed before the war. It is larger, better trained, and carries the weight of what it survived.</p>
+  </div>
+</div>
+
+### Between Two Forces
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Dunley sits between Brighthaven and Mortium. That geography is not incidental to who the Militia has become. With the Legion of Noctum operating out of Mortium and making no secret of their devotion to Dracula's return, the Militia finds itself planted directly between the Church of Luminance's seat of power in Vardoran and the most concentrated source of shadow cult activity on the continent. The Church's close alignment with the Militia after the war makes a great deal of sense when viewed through that lens. A well armed, battle tested local force standing between Brighthaven and Noctum's territory is an asset the Church has every reason to cultivate.</p>
+    <p>Whether the Militia fully appreciates the role it is being asked to play, and whether that arrangement sits comfortably with everyone in it, is another matter.</p>
+  </div>
+</div>
+
+### In Vardoran Today
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The Militia's mandate is the protection of Vardoran's people and the maintenance of order in the region. With new arrivals flooding in from across the world, drawn by whatever the Archivum's discovery implies about this land, the Militia is watching. Who is coming, what they want, and whether they intend to leave the same way they arrived are questions the Militia takes seriously.</p>
+  </div>
+</div>
+
+<!-- section:venomblades -->
+<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-violet-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-violet-500 block mb-1">Not a Joinable Faction</span><span class="text-base text-tprimary-50">Information pending.</span></div>
+
+## The Venomblades
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-violet-800/60 to-violet-950/80 flex-shrink-0 border border-violet-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Megara arrived in Vardoran with a small following and a reputation built on rituals, alchemical practices, and a relationship with the natural world that defied easy explanation. She had been called a witch for most of her life. Whether that label was earned through genuine power, careful theatrics, or something in between was never something her followers felt the need to resolve.</p>
+    <p>What mattered was that they believed in her, and she had brought them to Oakveil for a reason.</p>
+    <p>That reason was the forest itself. The war between Dracula and the Church of Luminance had been saturating Vardoran with magical conflict, and the local flora was responding to it in ways that fascinated her. She was there, in the middle of something, when magic arrived in full.</p>
+  </div>
+</div>
+
+### Something Went Wrong
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-violet-800/60 to-violet-950/80 flex-shrink-0 border border-violet-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The details of what happened in Oakveil five years ago are not something the Venomblades discuss with outsiders, and the outsiders who have gone looking have not come back with clean answers. What is known is that whatever Megara was working on when magic entered the world did not go as intended. Something changed. Something was produced.</p>
+    <p>The corrupted arcane substance that has since come to be called Venom Sap spread through Oakveil from that point forward, carried outward by the rituals the Venomblades continue to perform on the trees with no apparent intention of stopping. Megara survived whatever happened. Her followers stayed. The cult that arrived in Oakveil is not the cult that exists there now, in number or in nature.</p>
+  </div>
+</div>
+
+### Oakveil Today
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-violet-800/60 to-violet-950/80 flex-shrink-0 border border-violet-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The Venomblades have grown and consolidated their hold over Oakveil in the years since. The corrupting rituals they perform on the trees produce more Venom Sap in a cycle that sustains itself, and the corruption does not stay contained. It bleeds into the surrounding ecosystem, warping the flora and fauna of the forest into something increasingly hostile and strange.</p>
+    <p>Scattered reports from those who have passed near the region describe animals that do not move right, plant life that reaches toward things that are not there, and something at the center of it all that the reports struggle to describe consistently. Something large. Something that leads the cult from the heart of the forest. Something that is recognizably Megara and recognizably not.</p>
+    <p>What she wants, what the Venomblades are building toward, and what Venom Sap is ultimately for are questions Oakveil is not giving up easily.</p>
+    <p>The Church of Luminance has been sending expeditionary forces into the forest to cleanse the Venomblades' presence and reclaim Oakveil. Those forces have not succeeded. The fighting is ongoing, and the forest is not cooperating.</p>
   </div>
 </div>

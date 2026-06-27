@@ -17,11 +17,26 @@
   {
     "name": "Noctum",
     "colorKey": "slate",
-    "tagline": "In shadow, we are one"
+    "tagline": "Until Dracula returns"
   },
   {
     "name": "Vampire Hunters' Guild",
     "colorKey": "gray",
     "tagline": "Three centuries in blood"
+  },
+  {
+    "name": "Farbane Bandits",
+    "colorKey": "orange",
+    "tagline": "Survival is the only law"
+  },
+  {
+    "name": "Dunley Militia",
+    "colorKey": "green",
+    "tagline": "Always there"
+  },
+  {
+    "name": "Venomblades",
+    "colorKey": "violet",
+    "tagline": "Corruption has a purpose"
   }
 ]
