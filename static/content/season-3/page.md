@@ -152,8 +152,8 @@ We are inclined to trust the community with this framework as-is without any sig
 
 <div class="p-4 rounded border border-green-900/30 bg-green-900/15 mt-4">
   <div class="text-tprimary font-cinzel text-lg mb-1">Animal Faction Ally</div>
-  <p class="text-base text-tprimary-100">If you request it and it matches your character lore, we will hand out faction ally tags for animal factions.</p>
-  <p class="text-base text-tprimary-100">Talam, by default, receive the bear faction tag.</p>
+  <p class="text-base text-tprimary-100">If you request it and it matches your character lore, we will hand out faction ally tags for normal animals (moose, deer, wolf, bear, and similar). This does not apply to cursed forest, mutant, or venom sap based animals.</p>
+  <p class="text-base text-tprimary-100">Talam by default receive the bear faction tag, which makes them allied with mundane animals and stone golems.</p>
 </div>
 
 
