@@ -96,8 +96,9 @@
 
   function onMapWheel(e: WheelEvent) {
     if (!mapExpanded) return;
+    if (!e.ctrlKey) return;
     e.preventDefault();
-    const delta = e.deltaY > 0 ? -0.1 : 0.1;
+    const delta = e.deltaY > 0 ? -0.25 : 0.25;
     mapScale = Math.max(1, Math.min(8, mapScale + delta));
   }
 
@@ -598,8 +599,31 @@
               </div>
             {:else}
               <div class="absolute top-3 right-3 flex items-center gap-2">
-                {#if mapScale > 1}
                   <button
+                    type="button"
+                    aria-label="Zoom in"
+                    class="flex items-center justify-center w-8 h-8 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 cursor-pointer"
+                    onclick={(e) => {
+                      e.stopPropagation();
+                      mapScale = Math.min(8, mapScale + 0.25);
+                    }}
+                    onpointerdown={(e) => e.stopPropagation()}
+                  >
+                    <i class="mdi mdi-plus text-base"></i>
+                  </button>
+                  <button
+                    type="button"
+                    aria-label="Zoom out"
+                    class="flex items-center justify-center w-8 h-8 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 cursor-pointer"
+                    onclick={(e) => {
+                      e.stopPropagation();
+                      mapScale = Math.max(1, mapScale - 0.25);
+                    }}
+                    onpointerdown={(e) => e.stopPropagation()}
+                  >
+                    <i class="mdi mdi-minus text-base"></i>
+                  </button>
+                <button
                     type="button"
                     class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 text-sm cursor-pointer"
                     onclick={(e) => {
@@ -613,7 +637,6 @@
                     <i class="mdi mdi-magnify-minus text-base"></i>
                     <span class="font-cinzel text-xs uppercase tracking-wider">Reset Position</span>
                   </button>
-                {/if}
                 <button
                   type="button"
                   class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 text-sm cursor-pointer"
