@@ -311,35 +311,55 @@ Log your progress in your character's journal. When you are ready for an upgrade
 <!-- section:werewolf -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-orange-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-orange-500 block mb-1">Restricted Magic Schools</span><span class="text-base text-tprimary-50">Werewolves cannot use blood, unholy, illusion, chaos, light, or shadow magic.</span></div>
 
-You were turned by a mysterious force five years ago. Your kind have spread around the globe since, living in small, isolated communities, fearing discovery by the Vampire Hunters' Guild. Your origins are unclear, but you have spread like wildfire.
+## Overview
 
-You are mortal, bound to a mortality contract. You cannot be cured in S3, though you may seek the cure in an arc-long quest. You cannot become any other race.
-
-Something bit you, and the sickness took. Three days of fever and the worst pain of your life, and then you waited for the next full moon to find out what you had become. A third of the bitten die. You survived.
-
-The moon pulls at you. Your instincts sharpen under it, the urge to protect and claim and guard becoming nearly impossible to ignore. You are not alone in this. Pack bonds tie you to other wolves with a loyalty that borders on devotion, and isolation is wrong on a level beyond loneliness. Discovery means the Guild comes for everyone you love. You came to Vardoran for your own reasons. What you find here is still being written.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Five years ago, werewolves emerged in the world. Your kind have spread around the globe since, living in small, isolated communities, fearing discovery by the Vampire Hunters' Guild. Your origins are unclear, but you have spread like wildfire.</p>
+    <p>Something bit you, and the sickness took. Three days of fever and the worst pain of your life, and then you waited for the next full moon to find out what you had become. A third of the bitten die. You survived.</p>
+    <p>The moon pulls at you. Your instincts sharpen under it, the urge to protect and claim and guard becoming nearly impossible to ignore. You are not alone in this. Pack bonds tie you to other wolves with a loyalty that borders on devotion, and isolation is wrong on a level beyond loneliness. Discovery means the Guild comes for everyone you love.</p>
+    <p>You came to Vardoran for your own reasons. What you find here is still being written.</p>
+  </div>
+</div>
 
 ## Mechanics
 
-Werewolves have Sun Invulnerability, a specialized werewolf shapeshifting form, and horse speed wolf form. Available magic schools are storm, frost, elemental, and druidic schools of magic.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Werewolves have Sun Invulnerability, a specialized werewolf shapeshifting form, and horse speed wolf form. Available magic schools are storm, frost, elemental, and druidic schools of magic.</p>
+    <p>You are mortal, bound to a mortality contract. You cannot be cured in S3, though you may seek the cure in an arc-long quest. You cannot become any other race.</p>
+  </div>
+</div>
 
 <div class="grid grid-cols-2 gap-4 mt-7">
   <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Restrictions</span>
 - Cannot use horses.
+- Cannot shapeshift into a frog, rat, or bat.
 - Cannot use chaos, illusion, shadow, light, blood, or unholy schools of magic.
   </div>
   <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Benefits</span>
 - Access to werewolf shapeshifts at start. The werewolf form overrides the normal bear form.
-- No Blood Drain and start at 100% creature.
+- Has increased wolf shapeshift speed to match a horse.
+- No blood drain and are locked to 100% creature primary blood type.
+- Mortal, but does not require medical RP to survive critical injuries.
 - May add an additional blood type via blood quests mid-season.
   </div>
 </div>
 
 ## Mortality Contract
 
-Werewolves are mortal player characters bound by the mortality contract, but they are considerably more resilient than humans and recover from injury without requiring outside intervention. Humans may become werewolves at any point during play. Just like with being turned by another vampire player, human players must consent OOC into being turned by the werewolf biting them. You cannot force-turn anyone.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Werewolves are mortal player characters bound by the mortality contract, but they are considerably more resilient than humans and recover from injury without requiring outside intervention. Humans may become werewolves at any point during play. Just like with being turned by another vampire player, human players must consent OOC into being turned by the werewolf biting them. You cannot force-turn anyone.</p>
+  </div>
+</div>
+
+<div class="p-4 rounded bg-background-800/60 border border-orange-800/60 my-4">
 
 - Their blood pool decreases by 10% with each minor injury, before a critical injury occurs.
 - A werewolf character can sustain nine critical injuries before death.
@@ -348,96 +368,126 @@ Werewolves are mortal player characters bound by the mortality contract, but the
 - A doctor may optionally provide MedRP to remove the debuff early, but this is not required for survival. See the [Doctor Commands](#cmd-doctor) section for available commands.
 - If a werewolf dies with an already present critical injury, they permanently die.
 - Check your injury status at any time with [`.sov mortality status`](#cmd-mortality).
+</div>
 
 ## Becoming & RPing a Werewolf
 
-Humans may become werewolves at any point during play. WWs must get OOC consent from the human they intend to turn before doing so. You cannot force-turn anyone; the bite does not always take.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Humans may become werewolves at any point during play. Werewolves must get OOC consent from the human they intend to turn before doing so. You cannot force-turn anyone; the bite does not always take.</p>
+  </div>
+</div>
 
 ### The Bite Sickness
 
-Werewolves, much like vampires, must bite their victim to turn them into a werewolf. This has three possible endings, all of which have an **equal** chance of occurring: death, becoming a werewolf, or mortal endurance.
-
-Immediately following the bite the area around it will become inflamed. The bite cannot be treated beyond stitches or in any real meaningful way. Doctors do not have an understanding about *how* a bitten human transforms; why some survive unscathed while others perish or become infected themselves.
-
-The bite wound is *persistent.* It aches and burns no matter what the bitten human does. The wound seeps a vile, yellow puss, and is always accompanied by a fever. Bite Sickness is intense, and should be RP'd as such. It is akin to a severe flu. Fever, cough, body aches, shakes, etc. The Bite Sickness lasts around 3 in-game days (e.g. 3 irl hours).
-
-A third of the people bitten by werewolves will die of this sickness.
-
-Those who survive have to wait until the next full moon to know whether or not they have survived the ordeal still mortal, or if they have become a werewolf themselves. **New werewolves cannot transform until the first blood moon following the end of the 3-day sickness period.** After that, they will function the same as any other werewolf.
-
-A human character must receive a critical injury from a werewolf Player or NPC to undergo the process of becoming a werewolf, or to contract the bite sickness. Simply engaging in PvP/PvE with a werewolf is not sufficient. Bite Sickness cannot be contracted via werewolves in Gracefall; it may only be done via player or NPC.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Werewolves, much like vampires, must bite their victim to turn them into a werewolf. This has three possible endings, all of which have an <strong>equal</strong> chance of occurring: death, becoming a werewolf, or mortal endurance.</p>
+    <p>Immediately following the bite the area around it will become inflamed. The bite cannot be treated beyond stitches or in any real meaningful way. Doctors do not have an understanding about <em>how</em> a bitten human transforms; why some survive unscathed while others perish or become infected themselves.</p>
+    <p>The bite wound is <em>persistent.</em> It aches and burns no matter what the bitten human does. The wound seeps a vile, yellow puss, and is always accompanied by a fever. Bite Sickness is intense, and should be RP'd as such. It is akin to a severe flu. Fever, cough, body aches, shakes, etc. The Bite Sickness lasts around 3 in-game days (e.g. 3 irl hours).</p>
+    <p>A third of the people bitten by werewolves will die of this sickness.</p>
+    <p>Those who survive have to wait until the next full moon to know whether or not they have survived the ordeal still mortal, or if they have become a werewolf themselves. <span class="text-warm font-bold">New werewolves cannot transform until the first blood moon following the end of the 3-day sickness period.</span> After that, they will function the same as any other werewolf.</p>
+    <p>A human character must receive a critical injury from a werewolf Player or NPC to undergo the process of becoming a werewolf, or to contract the bite sickness. Simply engaging in PvP/PvE with a werewolf is not sufficient. Bite Sickness cannot be contracted via werewolves in Gracefall; it may only be done via player or NPC.</p>
+  </div>
+</div>
 
 ### Young Werewolves
 
-Newly transformed werewolves often have difficulty fighting their instincts, particularly at night. Something about the moon itself sets your teeth on edge. The fuller it is, the more intensely you feel your affliction. The urge to rip and tear at strangers, protect your pack/territory, and kill animals is very strong.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Newly transformed werewolves often have difficulty fighting their instincts, particularly at night. Something about the moon itself sets your teeth on edge. The fuller it is, the more intensely you feel your affliction. The urge to rip and tear at strangers, protect your pack/territory, and kill animals is very strong.</p>
+    <p>The first several blood moons are generally very difficult to navigate. However, werewolf culture puts a big emphasis on sticking together. There is a fundamental <em>need</em> to be by/around other werewolves. Building packs is important to every werewolf, and a fundamental driving force in how they conduct themselves in our world.</p>
+  </div>
+</div>
 
-The first several blood moons are generally very difficult to navigate. However, werewolf culture puts a big emphasis on sticking together. There is a fundamental *need* to be by/around other werewolves. Building packs is important to every werewolf, and a fundamental driving force in how they conduct themselves in our world.
+### Pack Bonds
 
-Pack Bonds
-Werewolves have an inexplicable magical bond in-place between themselves and werewolves that they are in close proximity with. This bond is not something that can be broken easily. Pack bonds develop slowly over time, with an exception for the WW who turned you. All WWs have an innate bond with their maker.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Werewolves have an inexplicable magical bond in-place between themselves and werewolves that they are in close proximity with. This bond is not something that can be broken easily. Pack bonds develop slowly over time, with an exception for the Werewolf who turned you. All Werewolves have an innate bond with their maker.</p>
+    <p>These bonds are a powerful driving force in Werewolf behavior, culture, and purpose. How quickly Werewolves form bonds depends on the individual werewolf and the intensity of their emotional connection with their packmates; ranging from days to months to fully develop. Bonds cannot be formed in a matter of hours.</p>
+  </div>
+</div>
 
-These bonds are a powerful driving force in WW behavior, culture, and purpose. How quickly WWs form bonds depends on the individual werewolf and the intensity of their emotional connection with their packmates; ranging from days to months to fully develop. Bonds cannot be formed in a matter of hours.
+<div class="p-4 rounded bg-background-800/60 border border-orange-800/60 my-4">
+  <span class="text-warm font-bold">Pack Bonds Cannot:</span>
 
-**Pack Bonds Cannot:**
 - Be used to convey emotions, mood, words, feelings, images, etc.
 - Be easily broken
 - Be formed instantaneously
 - Form with werewolves you do not spend time with
 - Persist through death
-- Be formed between a WW and a non-WW
+- Be formed between a Werewolf and a non-Werewolf
+</div>
 
-**Pack Bonds Can:**
+<div class="p-4 rounded bg-background-800/60 border border-orange-800/60 my-4">
+  <span class="text-warm font-bold">Pack Bonds Can:</span>
+
 - Be a way to verify that the wolf on the other end is alive
 - Be a source of comfort and community
 - Generate intense feelings of loyalty and togetherness
 - Generate a desire to be close to the other end
-- Whither if the two WWs do not spend time together
+- Whither if the two Werewolves do not spend time together
 - Be severed if one of them dies
+</div>
 
 ### Werewolf Culture
-While much of werewolf micro-culture is informed by the countries in which they grew up, there are a few common themes that are found in most, if not all, werewolf packs.
 
-There is no singular pack-structure that is uniform across their communities. Usually, werewolf communities continue to function as they did before their transformations. Villages continue as villages, nomadic communities remain nomads, pirates are pirates, etc.
-
-Perhaps because of the bond between them, werewolves tend to live in intense, insular communities. There is a distinct sense of *US vs THEM* that is very prevalent in werewolf communities. Discovery means that the Vampire Hunters' Guild will come to town and murder everyone you love. All werewolves have a driving desire to take care of the werewolves within their pack structures. Whether they be a neighbor, a family member, or a lover, they are *yours*, and you want them to be whole.
-
-Werewolves are very, very territorial. Some may struggle to let strangers into their homes, while others intensely covet the things and people that mean the most to them. Resource guarding, their favorite food, person, and room, is very common in werewolf households. Werewolves are possessive, bordering on obsessive, around things that they claim ownership of.
-
-That intensity can be dangerous when it comes to the relationships between a human and a werewolf. While werewolves do not feel a driving desire to turn random humans, they will feel an *intense* desire to bite and turn any humans they cherish. Those humans would be safer and stronger as a werewolf, and their instincts often drive them to attempt to turn humans in their orbit as a result. Some believe that it is a desire to create a pack bond with the human in question, but nobody knows for certain.
-
-Because it spreads among tight-knit bonds, being a werewolf spreads like wildfire in infected communities. All it takes is for one accidental turning to create a werewolf who suddenly turns all of their friends and family, who in turn bite all of *their* friends and family.
-
-Werewolves have a fascination with the moon.
-
-It feels empowering to stand in the moonlight. Werewolves are at their strongest while at night, able to call upon their transformative abilities and inner strength. Because of this, many of them worship the Moon itself. Because their culture is so young, the ins and outs of a greater werewolf faith has yet to be formally established, but scholars are sure that one will solidify sooner or later. Moon-worship and revelry remain common threads in werewolf culture.
-
-Many werewolves consider "lycanthrope/lycanthropy" to be a derogatory term because of the Hunters who use it. Others interchangeably use werewolf and lycanthrope. Other communities may call themselves something else entirely.
-
-Werewolves feel an innate kinship with wild wolves and dogs, *or* they consider them an interloper and want to kill them on-sight. Either/Or, with no middle ground.
-
-Werewolves are leery of other packs until bonds have been established between the two. They can usually sniff out another werewolf by scent alone. Some use perfumes or other methods to disguise themselves. Whether you can identify another player as a werewolf is entirely up to them. You cannot force another player to reveal themselves IC if they do not wish to be revealed.
-
-Vampires smell terrible to werewolves: like walking rot and decay. Because of that, werewolves have difficulty getting to know vampires or becoming friends with them. They should be innately at odds to at least some small degree.
-
-Mytts and Talams smell like raw magic.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>While much of werewolf micro-culture is informed by the countries in which they grew up, there are a few common themes that are found in most, if not all, werewolf packs.</p>
+    <p>There is no singular pack-structure that is uniform across their communities. Usually, werewolf communities continue to function as they did before their transformations. Villages continue as villages, nomadic communities remain nomads, pirates are pirates, etc.</p>
+    <p>Perhaps because of the bond between them, werewolves tend to live in intense, insular communities. There is a distinct sense of <em>US vs THEM</em> that is very prevalent in werewolf communities. Discovery means that the Vampire Hunters' Guild will come to town and murder everyone you love. All werewolves have a driving desire to take care of the werewolves within their pack structures. Whether they be a neighbor, a family member, or a lover, they are <em>yours</em>, and you want them to be whole.</p>
+    <p>Werewolves are very, very territorial. Some may struggle to let strangers into their homes, while others intensely covet the things and people that mean the most to them. Resource guarding, their favorite food, person, and room, is very common in werewolf households. Werewolves are possessive, bordering on obsessive, around things that they claim ownership of.</p>
+    <p>That intensity can be dangerous when it comes to the relationships between a human and a werewolf. While werewolves do not feel a driving desire to turn random humans, they will feel an <em>intense</em> desire to bite and turn any humans they cherish. Those humans would be safer and stronger as a werewolf, and their instincts often drive them to attempt to turn humans in their orbit as a result. Some believe that it is a desire to create a pack bond with the human in question, but nobody knows for certain.</p>
+    <p>Because it spreads among tight-knit bonds, being a werewolf spreads like wildfire in infected communities. All it takes is for one accidental turning to create a werewolf who suddenly turns all of their friends and family, who in turn bite all of <em>their</em> friends and family.</p>
+    <p>Werewolves have a fascination with the moon.</p>
+    <p>It feels empowering to stand in the moonlight. Werewolves are at their strongest while at night, able to call upon their transformative abilities and inner strength. Because of this, many of them worship the Moon itself. Because their culture is so young, the ins and outs of a greater werewolf faith has yet to be formally established, but scholars are sure that one will solidify sooner or later. Moon-worship and revelry remain common threads in werewolf culture.</p>
+    <p>Many werewolves consider "lycanthrope/lycanthropy" to be a derogatory term because of the Hunters who use it. Others interchangeably use werewolf and lycanthrope. Other communities may call themselves something else entirely.</p>
+    <p>Werewolves feel an innate kinship with wild wolves and dogs, <em>or</em> they consider them an interloper and want to kill them on-sight. Either/Or, with no middle ground.</p>
+    <p>Werewolves are leery of other packs until bonds have been established between the two. They can usually sniff out another werewolf by scent alone. Some use perfumes or other methods to disguise themselves. Whether you can identify another player as a werewolf is entirely up to them. You cannot force another player to reveal themselves IC if they do not wish to be revealed.</p>
+    <p>Vampires smell terrible to werewolves: like walking rot and decay. Because of that, werewolves have difficulty getting to know vampires or becoming friends with them. They should be innately at odds to at least some small degree.</p>
+    <p>Mytts and Talams smell like raw magic.</p>
+  </div>
+</div>
 
 ### Known Werewolf History
-Several instances of werewolves appearing are reported towards the tail end of 1268. However, these instances are too wide-spread to stem from one singular werewolf. Thus, it is commonly believed that werewolves have several origins, rather than one singular instance a la the Vampire Progenitor.
 
-Because being a werewolf is relatively new, the longest any player character can have been a werewolf is five years. Werewolves age at the same rate as humans. Any new children born to two werewolf parents is also a werewolf; they cannot procreate with humans or any other species.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Several instances of werewolves appearing are reported towards the tail end of 1268. However, these instances are too wide-spread to stem from one singular werewolf. Thus, it is commonly believed that werewolves have several origins, rather than one singular instance a la the Vampire Progenitor.</p>
+    <p>Because being a werewolf is relatively new, the longest any player character can have been a werewolf is five years. Werewolves age at the same rate as humans. Any new children born to two werewolf parents is also a werewolf; they cannot procreate with humans or any other species.</p>
+  </div>
+</div>
 
-**All werewolves are at least second generation; you MUST have been turned by another werewolf, even if you do not know them or have a personal relationship with them.**
+<div class="p-4 rounded bg-background-800/60 border border-orange-800/60 my-4">
+  <span class="text-warm font-bold">All werewolves are at least second generation; you MUST have been turned by another werewolf, even if you do not know them or have a personal relationship with them.</span>
+</div>
 
-Werewolves who are closer to the 'origin' of it tend to have harsher, more intense instincts. Some prefer their shifted form so much they never go out on two legs. Others are always hungry, grappling with a viscous desire to rip and tear and *own.* The more bites between a WW and whatever started the species, the weaker those instincts are. The first few werewolves' territorialism is what led to the slaughter of whole villages and communities. Newer werewolves have an easier time managing the symptoms of their condition, but it is not *easy* for any of them.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Werewolves who are closer to the 'origin' of it tend to have harsher, more intense instincts. Some prefer their shifted form so much they never go out on two legs. Others are always hungry, grappling with a viscous desire to rip and tear and <em>own.</em> The more bites between a Werewolf and whatever started the species, the weaker those instincts are. The first few werewolves' territorialism is what led to the slaughter of whole villages and communities. Newer werewolves have an easier time managing the symptoms of their condition, but it is not <em>easy</em> for any of them.</p>
+  </div>
+</div>
 
 ### The VHG's Public Theories
-The Vampire Hunters' Guild is the main source of wide-spread information about the spread of the werewolf virus, referred to as the guild exclusively as *lycanthropy*. Lycanthropy is the virus, and werewolves/lycanthropes are the result of that virus.
 
-Werewolves argue that they are not simply humans with a virus, but rather their own species distinct from any other. However, werewolves have yet to establish any sort of wide-spread power or influence. As a result, discovery means death for werewolf communities. Countries all over the world call in the guild to ensure lycanthropy does not spread.
-
-"Origin Wolves" is the VHG's term for the handful of lone wolves that appeared in 1268 and began the spread of lycanthropy. These wolves are aggressively sought-out by the VHG. Some of them have known names and faces, which are splattered all over the world with bounties of 10,000 gold coins or more.
-
-The VHG offers rewards for WW heads, and is known to decimate entire communities of them in a single day. If a village is found to be exposed to the virus, then *everyone* who lives there is killed, whether they are a werewolf or not.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The Vampire Hunters' Guild is the main source of wide-spread information about the spread of the werewolf virus, referred to as the guild exclusively as <em>lycanthropy</em>. Lycanthropy is the virus, and werewolves/lycanthropes are the result of that virus.</p>
+    <p>Werewolves argue that they are not simply humans with a virus, but rather their own species distinct from any other. However, werewolves have yet to establish any sort of wide-spread power or influence. As a result, discovery means death for werewolf communities. Countries all over the world call in the guild to ensure lycanthropy does not spread.</p>
+    <p>"Origin Wolves" is the VHG's term for the handful of lone wolves that appeared in 1268 and began the spread of lycanthropy. These wolves are aggressively sought-out by the VHG. Some of them have known names and faces, which are splattered all over the world with bounties of 10,000 gold coins or more.</p>
+    <p>The VHG offers rewards for Werewolf heads, and is known to decimate entire communities of them in a single day. If a village is found to be exposed to the virus, then <em>everyone</em> who lives there is killed, whether they are a werewolf or not.</p>
+  </div>
+</div>
 
 <!-- section:mytt -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-violet-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-violet-500 block mb-1">Restricted Magic Schools</span><span class="text-base text-tprimary-50">Mytts cannot use blood, unholy, elemental, or druidic magic.</span></div>
