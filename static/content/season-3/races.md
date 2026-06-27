@@ -170,15 +170,18 @@ Risen vampire Bloodlines are still referred to as such even if there are multipl
 <!-- section:human -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-sky-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-sky-500 block mb-1">No Blood Magic</span><span class="text-base text-tprimary-50">Humans cannot use blood magic under any circumstances. It is beyond their reach entirely.</span></div>
 
-You are mortal, and in a world suddenly overflowing with things that are not, that means something.
+## Overview
 
-Humans were here before any of this. Before vampires, before magic, before the world stopped making sense. For most of history your kind were the only thing in it, and much of what has since joined them was once human too, warped by magic into something else entirely. You are what remains. Not untouched by the chaos, but unbroken by it. Still yourself, in a world that has been pulling people apart and rebuilding them as something new.
-
-You are fragile by the standards of what now shares the world with you. You age. You bleed. What you have, you learned. What you will have, you will earn. You carry no birthright magic, no innate power decided for you before you had a say. Your connection to magic is the most adaptable of any race, capable of growing and shifting in directions simply not available to beings whose nature was fixed at their creation. Blood magic remains beyond your reach. Everything else is a question of time and will.
-
-You are mortal. That is not a consolation. It is the thing that has always driven your kind to reach further than anything else in the world, and it is the thing that sets you apart from every creature that had to become something else to survive.
-
-Vardoran is where the answers are buried. You intend to find them.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>You are mortal, and in a world suddenly overflowing with things that are not, that means something.</p>
+    <p>Humans were here before any of this. Before vampires, before magic, before the world stopped making sense. For most of history your kind were the only thing in it, and much of what has since joined them was once human too, warped by magic into something else entirely. You are what remains. Not untouched by the chaos, but unbroken by it. Still yourself, in a world that has been pulling people apart and rebuilding them as something new.</p>
+    <p>You are fragile by the standards of what now shares the world with you. You age. You bleed. What you have, you learned. What you will have, you will earn. You carry no birthright magic, no innate power decided for you before you had a say. Your connection to magic is the most adaptable of any race, capable of growing and shifting in directions simply not available to beings whose nature was fixed at their creation. Blood magic remains beyond your reach. Everything else is a question of time and will.</p>
+    <p>You are mortal. That is not a consolation. It is the thing that has always driven your kind to reach further than anything else in the world, and it is the thing that sets you apart from every creature that had to become something else to survive.</p>
+    <p>Vardoran is where the answers are buried. You intend to find them.</p>
+  </div>
+</div>
 
 ## Mechanics
 
@@ -202,33 +205,56 @@ Humans are mortal and carry no innate magic. Blood magic is entirely beyond thei
 - Can bottle their own blood once per day using [`.sov drawblood`](#cmd-general).
 - Can change which 2 magic schools they channel through sufficient RP.
 - Blood type starts between 30 and 39% and can be advanced through progression quests.
+- One of only two races (humans and vampires) capable of wielding necromancy/unholy magic.
   </div>
 </div>
 
 ## Mortality Contract
 
-Humans can survive 3 critical injuries.
-
-- Medical RP must be received within 3 IRL days of a critical injury to survive it.
-- Must be treated by a doctor specialist using [`.sov treat <player>`](#cmd-doctor) or [`.sov revive`](#cmd-doctor).
-- Upon death (third critical injury or untreated injury), the player may choose to kill the character or turn into a vampire.
-- Check your injury status at any time with [`.sov mortality status`](#cmd-mortality).
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Humans can survive 3 critical injuries.</p>
+    <ul>
+      <li>Medical RP must be received within 3 IRL days of a critical injury to survive it.</li>
+      <li>Must be treated by a doctor specialist using <code>.sov treat &lt;player&gt;</code> or <code>.sov revive</code>.</li>
+      <li>Upon death (third critical injury or untreated injury), the player may choose to kill the character or turn into a vampire.</li>
+      <li>Check your injury status at any time with <code>.sov mortality status</code>.</li>
+    </ul>
+  </div>
+</div>
 
 ## Character Fate
 
-Humans are unique in that they have multiple directions their character can take if they reach the end of their mortality, or at any point during play.
-
-- **Permanent Death:** The character dies and is gone. This is always an option.
-- **Turning (Vampire):** You may choose to be turned into a vampire at any point during play. Upon sustaining your final critical injury, the decision is forced and you must choose between vampirism and permanent death. The turning process requires OOC consent from both parties and must be handled through a contract ticket. See the Vampire document for details on the turning process.
-- **Turning (Werewolf):** You may choose to become a werewolf at any point during play, independent of your mortality status. This does not require death.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Humans are unique in that they have multiple directions their character can take if they reach the end of their mortality, or at any point during play.</p>
+    <ul>
+      <li><strong>Permanent Death:</strong> The character dies and is gone. This is always an option.</li>
+      <li><strong>Turning (Vampire):</strong> You may choose to be turned into a vampire at any point during play. Upon sustaining your final critical injury, the decision is forced and you must choose between vampirism and permanent death. The turning process requires OOC consent from both parties and must be handled through a contract ticket. See the Vampire document for details on the turning process.</li>
+      <li><strong>Turning (Werewolf):</strong> You may choose to become a werewolf at any point during play, independent of your mortality status. This does not require death.</li>
+    </ul>
+  </div>
+</div>
 
 ## In-Game Journal Progression
 
-Some elements of in-game Journal Quests are blocked if you are playing a human solo or with a group of humans. If you reach a progression block, open a contract ticket and the team will help you clear those markers.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Some elements of in-game Journal Quests are blocked if you are playing a human solo or with a group of humans. If you reach a progression block, open a contract ticket and the team will help you clear those markers.</p>
+  </div>
+</div>
 
 ## Appearance
 
-You are required to have naturalistic skin, hair, and eye colors. To represent brown eyes, use the orange eye color option.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>You are required to have naturalistic skin, hair, and eye colors. To represent brown eyes, use the orange eye color option.</p>
+  </div>
+</div>
 
 ## Blood Percentage Progression
 
@@ -238,13 +264,13 @@ Log your progress in your character's journal. When you are ready for an upgrade
 
 | Blood % | Quest | Description |
 |---|---|---|
-| 30% → 40% | First Steps | Establish a connection with at least two characters outside of your sigil, documented through Bats exchanges. The correspondence should reflect genuine interaction rather than brief or transactional messages. |
-| 40% → 50% | Connection and Commitment | Give a gift to a character that yours has formed a connection with. Ideally the gift should be handpicked for a notable RP reason. |
-| 50% → 60% | Known Faces | Meet at least four characters outside of your sigil and document each encounter in your character's journal. Each entry should include a brief summary of who they are and how the interaction went. |
-| 60% → 70% | Woven In | Contribute something lasting to the public record. Distribute a written work to the general public, whether via Waygate or by distributing it to at least 10 people in character. It should reflect your character's perspective and voice. It does not have to be publicly attributed to them if they prefer otherwise. |
-| 70% → 80% | Known Quantity | Assist three different characters outside your sigil for something your character is known for, whether a skill, a specialty, knowledge, or a service. Document each instance through journals. You can prompt these requests yourself by offering advice in a specialty, or simply offering your help and being taken up on the offer. |
-| 80% → 90% | Pinnacle Part 1 | Begin work towards completing a major beat in your character's story, or begin documenting the process if you have not already. This can be an achievement of a long term and meaningful goal, a turning point where you find yourself pursuing something new, or some other form of self discovery or actualization. You do not need to complete your goal for Pinnacle Part 1, but identifiable progress or completion of intermediary goals must be made. You may be asked to complete an individualized quest to represent this progress. |
-| 90% → 100% | Pinnacle Part 2 | Complete the ultimate goal identified in Pinnacle Part 1, with an additional individualized quest to represent this achievement. Document the journey, steps, or answers you found at the end of your path. |
+| 30s → 40s | First Steps | Establish a connection with at least two characters outside of your sigil, documented through Bats exchanges. The correspondence should reflect genuine interaction rather than brief or transactional messages. |
+| 40s → 50s | Connection and Commitment | Give a gift to a character that yours has formed a connection with. Ideally the gift should be handpicked for a notable RP reason. |
+| 50s → 60s | Known Faces | Meet at least four characters outside of your sigil and document each encounter in your character's journal. Each entry should include a brief summary of who they are and how the interaction went. |
+| 60s → 70s | Woven In | Contribute something lasting to the public record. Distribute a written work to the general public, whether via Waygate or by distributing it to at least 10 people in character. It should reflect your character's perspective and voice. It does not have to be publicly attributed to them if they prefer otherwise. |
+| 70s → 80s | Known Quantity | Assist three different characters outside your sigil for something your character is known for, whether a skill, a specialty, knowledge, or a service. Document each instance through journals. You can prompt these requests yourself by offering advice in a specialty, or simply offering your help and being taken up on the offer. |
+| 80s → 90s | Pinnacle Part 1 | Begin work towards completing a major beat in your character's story, or begin documenting the process if you have not already. This can be an achievement of a long term and meaningful goal, a turning point where you find yourself pursuing something new, or some other form of self discovery or actualization. You do not need to complete your goal for Pinnacle Part 1, but identifiable progress or completion of intermediary goals must be made. You may be asked to complete an individualized quest to represent this progress. |
+| 90s → 100s | Pinnacle Part 2 | Complete the ultimate goal identified in Pinnacle Part 1, with an individualized quest to represent this achievement. Document the journey, steps, or answers you found at the end of your path. |
 
 <!-- section:werewolf -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-orange-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-orange-500 block mb-1">Restricted Magic Schools</span><span class="text-base text-tprimary-50">Werewolves cannot use blood, unholy, illusion, chaos, light, or shadow magic.</span></div>
