@@ -332,6 +332,7 @@
     'pisciv-vol',
     'qalidran',
     'suluun',
+    'welronz',
     'miscellaneous-regions',
   ];
 

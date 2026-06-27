@@ -1485,6 +1485,97 @@ Vardoran's ancient funerary rites were written by real-estate agents, resulting 
   </div>
 </div>
 
+<!-- section:welronz -->
+# Welronz
+*Founded: 210 AF*
+
+## Historical Overview
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-lime-800/60 to-lime-950/80 flex-shrink-0 border border-lime-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Welronz is a historically poor area, despite its large size. It is a great plains region, known for golden wheat, flat land, and excessive cattle. The land itself is not very fertile, and the people there struggle to grow much beyond grain and small, bitter berries. Their cows and bulls are able to freely graze on the large swaths of empty land, and due to a lack of large predatory animals in the area, live largely undisturbed. Due to this, Welronz has a long history of exporting meat, glue, and leather.</p>
+    <p>The region that became Welronz was once referred to as the "Bread Basket of Nosterra", as their wheat and meat provided food for most of the large empire at its height. The Hundred Year Drought, which lasted from 100 NE to 112 AF, is largely credited by historians as being a major contributor to the empire's decline and subsequent fall.</p>
+    <p>During the tail end of the drought the people of Welronz united in an effort to establish both a cultural unity and an economic foothold in the world at large. They are named for the Welronz Plain, a small area at the heart of the nation that was never touched by the drought. Today, Welronz is ruled over by a 92 person Senate and a President, both of whom are elected into their positions of power during annual voting periods and serve their seats for five years.</p>
+  </div>
+</div>
+
+## Cultural Overview
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-lime-800/60 to-lime-950/80 flex-shrink-0 border border-lime-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Welronz is a nation that values hard work and dedication. Farmers and ranchers are the lifeblood of their communities. Entire towns pop up around rich cattle ranges and most people in their direct vicinity all work on the same swath of land. There are people to work the leather, others to grow the wheat, and many more to raise the cattle until it is time for slaughter. The land itself is held by a very small portion of the population, who are both the richest in the nation and members of the ruling class.</p>
+    <p>Due to most cities being centralized around single-ownership swaths of lands, there is a sense of home and pride in their small communities, as well as a rivalry between those who are close enough to cross paths. It is very common for marriages to be arranged by the community leaders; young people are sent great distances across Welronz to secure trade deals and to ensure steady populations nation-wide.</p>
+    <p>Welronz is one of the largest countries in the world, but it has one of the smallest populations. Over-farming and poor agricultural practices are blamed for the One Hundred Year Drought, and as a result Welronzians are hyper-vigilant of their population. They do not want to sacrifice crop rotation, as it is believed that it will lead to another continent-wide disaster.</p>
+    <p>Farming and agriculture in general are considered the great cornerstones of Welronz. Agriculturalists and knowledgeable farmers are among their most lauded historical figures.</p>
+    <p>Welronz is predominantly atheist, as any magic, even that of the divine, is met with distrust and hatred.</p>
+    <p>Due to their small, insular communities, people in Welronz have a distinct drawl, sometimes referred to as the Ronz Accent.</p>
+  </div>
+</div>
+
+## Racial and Magical Overview
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-lime-800/60 to-lime-950/80 flex-shrink-0 border border-lime-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Most Welronzians are human. There are sparse trees, and thus few places for vampires to hide. Their country is prone to calling the Vampire Hunters' Guild on anyone suspected of using any magic. Due to their proximity to Qalidran, they are aggressive in their anti-vampire efforts. So much so that they produce more garlic than anywhere else in the world.</p>
+    <p>Since the emergence of magic Welronz has taken a staunch anti-magic stance as a nation. They are leery of anyone who uses it, from the blood mage vampire to the paladin who tries to kill him. They do not accept any of it.</p>
+    <p>Their population is estimated to be 98% human or more.</p>
+  </div>
+</div>
+
+## Important Allies and Enemies
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-lime-800/60 to-lime-950/80 flex-shrink-0 border border-lime-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>As they are the primary source for Qalidran's stolen human population, Welronz has a long history of hating vampires. Welronz is aggressive with Qalidrans, but they do not have a navy. About 70% of their land army is scattered up and down their western coast to ensure that as few Qalidran vessels as possible are able to make landfall.</p>
+    <p>They have a neutral, trade-based relationship with the Omen Plateau and Frankleburg. There are many queendoms that they do trade with. However, Frankleburgian regions who accept magic are shunned by Welronz, and may see steeper wheat prices because of their stance.</p>
+    <p>Aetheria, their new neighbor to the east, is considered to be a twisted and unholy place. It is said that the people who live there are cursed. They believe that the Talam are deeply sick and must be killed to stop their plague from spreading.</p>
+  </div>
+</div>
+
+## Important and Notable Landmarks/Places
+
+#### The Welronz Plain
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-lime-800/60 to-lime-950/80 flex-shrink-0 border border-lime-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The heart of the country and the only region who did not suffer the Drought. It is both their capital and their most densely populated area. It is considered a place of great prosperity and luck. There is a cultural practice of traveling there for your honeymoon and drinking the kavass that the region is known for.</p>
+  </div>
+</div>
+
+#### Lake Bannoe
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-lime-800/60 to-lime-950/80 flex-shrink-0 border border-lime-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The largest lake in the country, it sits along the capital's western edge. It is a source of fresh water for the city, though irrigation is prohibited as residents fear it may lead to another drought. It is common for Welronzians to travel over the lake by canoe or sail as leisure.</p>
+  </div>
+</div>
+
+#### Archideld, the Capital
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-lime-800/60 to-lime-950/80 flex-shrink-0 border border-lime-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Nestled into the side of Lake Bannoe, and at the heart of the Welronz Plain, Archideld is where the central Senate resides. The city is also home to the nation's largest market. It is a hub of trade, information, and commerce. Homes in Archideld are primarily made out of clay and stone. They are rarely more than a story tall. The city is very short vertically, but widespread around a large swath of the lake's edge.</p>
+    <p>The roads are excessively wide to ensure that several cattle-drawn carts may pass through safely at any given time. In the summer, these streets fill from home to home with vibrant festivities to celebrate the end of the harvest. Much of the country's population make the journey once a year to celebrate the arrival of winter.</p>
+  </div>
+</div>
+
+## A Random Fun Fact
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-lime-800/60 to-lime-950/80 flex-shrink-0 border border-lime-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Elected in 1270, the current president of Welronz is Michelle Sernandez. She is serving her third term, and is considered to be a shoe-in for the election in 1275. Remember: "A vote for Sernandez is a vote for what the land is!"</p>
+    <p>Selling onion seeds but claiming they are garlic seeds is a capital crime following a widespread distribution of fake garlic in 1170 AF.</p>
+  </div>
+</div>
+
 <!-- section:miscellaneous-regions -->
 
 ## Western Continent
