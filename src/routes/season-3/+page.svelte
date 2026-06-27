@@ -599,44 +599,44 @@
               </div>
             {:else}
               <div class="absolute top-3 right-3 flex items-center gap-2">
-                  <button
-                    type="button"
-                    aria-label="Zoom in"
-                    class="flex items-center justify-center w-8 h-8 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 cursor-pointer"
-                    onclick={(e) => {
-                      e.stopPropagation();
-                      mapScale = Math.min(8, mapScale + 0.25);
-                    }}
-                    onpointerdown={(e) => e.stopPropagation()}
-                  >
-                    <i class="mdi mdi-plus text-base"></i>
-                  </button>
-                  <button
-                    type="button"
-                    aria-label="Zoom out"
-                    class="flex items-center justify-center w-8 h-8 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 cursor-pointer"
-                    onclick={(e) => {
-                      e.stopPropagation();
-                      mapScale = Math.max(1, mapScale - 0.25);
-                    }}
-                    onpointerdown={(e) => e.stopPropagation()}
-                  >
-                    <i class="mdi mdi-minus text-base"></i>
-                  </button>
                 <button
-                    type="button"
-                    class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 text-sm cursor-pointer"
-                    onclick={(e) => {
-                      e.stopPropagation();
-                      mapScale = 1;
-                      mapX = 0;
-                      mapY = 0;
-                    }}
-                    onpointerdown={(e) => e.stopPropagation()}
-                  >
-                    <i class="mdi mdi-magnify-minus text-base"></i>
-                    <span class="font-cinzel text-xs uppercase tracking-wider">Reset Position</span>
-                  </button>
+                  type="button"
+                  aria-label="Zoom in"
+                  class="flex items-center justify-center w-8 h-8 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 cursor-pointer"
+                  onclick={(e) => {
+                    e.stopPropagation();
+                    mapScale = Math.min(8, mapScale + 0.25);
+                  }}
+                  onpointerdown={(e) => e.stopPropagation()}
+                >
+                  <i class="mdi mdi-plus text-base"></i>
+                </button>
+                <button
+                  type="button"
+                  aria-label="Zoom out"
+                  class="flex items-center justify-center w-8 h-8 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 cursor-pointer"
+                  onclick={(e) => {
+                    e.stopPropagation();
+                    mapScale = Math.max(1, mapScale - 0.25);
+                  }}
+                  onpointerdown={(e) => e.stopPropagation()}
+                >
+                  <i class="mdi mdi-minus text-base"></i>
+                </button>
+                <button
+                  type="button"
+                  class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 text-sm cursor-pointer"
+                  onclick={(e) => {
+                    e.stopPropagation();
+                    mapScale = 1;
+                    mapX = 0;
+                    mapY = 0;
+                  }}
+                  onpointerdown={(e) => e.stopPropagation()}
+                >
+                  <i class="mdi mdi-magnify-minus text-base"></i>
+                  <span class="font-cinzel text-xs uppercase tracking-wider">Reset Position</span>
+                </button>
                 <button
                   type="button"
                   class="flex items-center gap-1.5 px-3 py-1.5 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 text-sm cursor-pointer"
@@ -718,7 +718,7 @@
           </div>
         </section>
 
-        <hr class="border-tprimary-900/30 my-6">
+        <hr class="border-tprimary-900/30 my-6" />
 
         <!-- Section 3: Organizations -->
         <section id="organizations" class="mb-12 scroll-mt-8">
@@ -742,11 +742,11 @@
           </div>
         </section>
 
-        <hr class="border-tprimary-900/30 my-6">
+        <hr class="border-tprimary-900/30 my-6" />
 
         <!-- Section 4: Playable Races -->
         <section id="playable-races" class="mb-12 scroll-mt-8">
-          <div class="fade-background-up p-4 rounded-lg">
+          <div class="fade-background-up px-4 pt-4 pb-2 rounded-lg">
             <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-2">Playable Races</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="races-intro" rawContent={sections['races-intro'] || ''} onsave={onSectionSave}>
               {#if racesIntroHtml}
@@ -763,10 +763,11 @@
             {#if races.length === 0}
               <div class="text-tprimary-500 italic p-4">Race information coming soon.</div>
             {/if}
+            <p class="text-center text-tprimary-400 text-sm mt-4!">Hybrids between the races are not allowed this season.</p>
           </div>
         </section>
 
-        <hr class="border-tprimary-900/30 my-6">
+        <hr class="border-tprimary-900/30 my-4" />
 
         <!-- Section 5: Citizenship -->
         <section id="citizenship" class="mb-12 scroll-mt-8">
@@ -782,7 +783,7 @@
           </div>
         </section>
 
-        <hr class="border-tprimary-900/30 my-6">
+        <hr class="border-tprimary-900/30 my-6" />
 
         <!-- Section 6: Specialties -->
         <section id="specialties" class="mb-12 scroll-mt-8">
@@ -880,7 +881,7 @@
           </div>
         </section>
 
-        <hr class="border-tprimary-900/30 my-6">
+        <hr class="border-tprimary-900/30 my-6" />
 
         <!-- Section 7: Mortality Contract -->
         <section id="mortality-contract" class="mb-12 scroll-mt-8">
@@ -896,7 +897,7 @@
           </div>
         </section>
 
-        <hr class="border-tprimary-900/30 my-6">
+        <hr class="border-tprimary-900/30 my-6" />
 
         <!-- Section 8: RP Limitations -->
         <section id="magic-tech-ceiling" class="mb-12 scroll-mt-8">
@@ -912,7 +913,7 @@
           </div>
         </section>
 
-        <hr class="border-tprimary-900/30 my-6">
+        <hr class="border-tprimary-900/30 my-6" />
 
         <!-- Section 9: Commands -->
         <section id="commands" class="mb-12 scroll-mt-8">
