@@ -236,7 +236,7 @@
 </div>
 
 <!-- section:venomblades -->
-<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-violet-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-violet-500 block mb-1">Not a Joinable Faction</span><span class="text-base text-tprimary-50">Information pending.</span></div>
+<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-violet-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-violet-500 block mb-1">Not a Joinable Faction</span><span class="text-base text-tprimary-50">The Venomblades are not a joinable organization.</span></div>
 
 ## The Venomblades
 

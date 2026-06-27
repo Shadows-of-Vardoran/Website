@@ -62,7 +62,7 @@ No mortality contract. Vampires can reconstitute from physical destruction witho
 - Possess fangs
 - Drink blood to survive
 - Have *some* blood magic within them
-- Be formally human
+- Be formerly human
 - You cannot digest food; your organs do not function
 </div>
 
@@ -366,7 +366,6 @@ Log your progress in your character's journal. When you are ready for an upgrade
 - Unlike humans, MedRP is not required to recover from a critical injury.
 - When a werewolf sustains a critical injury, they receive a temporary debuff. This debuff lasts approximately one hour and resolves on its own.
 - A doctor may optionally provide MedRP to remove the debuff early, but this is not required for survival. See the [Doctor Commands](#cmd-doctor) section for available commands.
-- If a werewolf dies with an already present critical injury, they permanently die.
 - Check your injury status at any time with [`.sov mortality status`](#cmd-mortality).
 </div>
 
