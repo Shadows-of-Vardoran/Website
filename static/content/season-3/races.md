@@ -407,32 +407,58 @@ The VHG offers rewards for WW heads, and is known to decimate entire communities
 <!-- section:mytt -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-violet-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-violet-500 block mb-1">Restricted Magic Schools</span><span class="text-base text-tprimary-50">Mytts cannot use blood, unholy, elemental, or druidic magic.</span></div>
 
-You do not belong here. You have always known this, in whatever way knowing works for something like you.
+## Overview
 
-You existed long before any of this. Long before the world had a word for magic, long before mortals had drawn their first map or built their first wall, you were already something. Somewhere else, in a state of existence that does not translate cleanly into mortal language, you simply were. Ancient in ways that have no useful measure here. Aware. Present. Yourself.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-violet-800/60 to-violet-950/80 flex-shrink-0 border border-violet-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>You do not belong here. You have always known this, in whatever way knowing works for something like you.</p>
+    <p>You existed long before any of this. Long before the world had a word for magic, long before mortals had drawn their first map or built their first wall, you were already something. Somewhere else, in a state of existence that does not translate cleanly into mortal language, you simply were. Ancient in ways that have no useful measure here. Aware. Present. Yourself.</p>
+    <p>And then something shifted, and you followed it, the way water follows a crack in stone, not entirely by choice, not entirely by accident. The world you arrived in had rules you had never encountered. It resolved the problem of your presence the only way it knew how. You have a body now. Humanoid, physical, bound by weight and temperature and the strange limitations of matter. It is not unpleasant. It is simply not what you are used to.</p>
+    <p>You are composed of three schools of magic, the same schools that have always defined you. They shape what your body looks like, what forms you can take, what you are drawn toward and capable of. That much is familiar. Everything else about existing here is not. You do not eat. You do not drink. You sustain yourself by consuming materials that resonate with what you are made of, physical anchors to the magical nature that constitutes you.</p>
+    <p>You do not age. You do not die of natural causes. Your body can be destroyed, but you persist, though rebuilding here costs you more than it costs the beings native to this world.</p>
+    <p>What drew you to Vardoran specifically, whether curiosity, instinct, or something harder to name, is your own story to tell. You carry knowledge of magic that no mortal can match. What you do with that here is still being decided.</p>
+  </div>
+</div>
 
-And then something shifted, and you followed it, the way water follows a crack in stone, not entirely by choice, not entirely by accident. The world you arrived in had rules you had never encountered. It resolved the problem of your presence the only way it knew how. You have a body now. Humanoid, physical, bound by weight and temperature and the strange limitations of matter. It is not unpleasant. It is simply not what you are used to.
+## Appearance
 
-You are composed of three schools of magic, the same schools that have always defined you. They shape what your body looks like, what forms you can take, what you are drawn toward and capable of. That much is familiar. Everything else about existing here is not. You do not eat. You do not drink. You sustain yourself by consuming materials that resonate with what you are made of, physical anchors to the magical nature that constitutes you.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-violet-800/60 to-violet-950/80 flex-shrink-0 border border-violet-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Mytts appear human. Their bodies are human in construction, with the same skeletal structure, the same muscle structure, and even organs that serve no function. They can pass as human without much effort, but they are not human by species. They commonly have aspects of them that reflect their schools, such as wearing specific colors, having specific colored hair, or different features that showcase the themes of the schools they are composed of.</p>
+    <p>Their physical form looks human, but what they are underneath is something else entirely.</p>
+  </div>
+</div>
 
-You do not age. You do not die of natural causes. Your body can be destroyed, but you persist, though rebuilding here costs you more than it costs the beings native to this world.
+## Physical Attributes
 
-What drew you to Vardoran specifically, whether curiosity, instinct, or something harder to name, is your own story to tell. You carry knowledge of magic that no mortal can match. What you do with that here is still being decided.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-violet-800/60 to-violet-950/80 flex-shrink-0 border border-violet-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Mytts have a humanoid body, but they are not human. Their physical form is humanoid in construction and appearance, but the inner workings of their body are entirely different. They do not eat. They do not drink. They cannot get pregnant or have children. They have no functioning internal digestive system, many organs are simply dormant and unused, and their bodies are fueled entirely by magical energy.</p>
+    <p>In many ways, they share physical attributes with vampires. But they do not burn in the sun like vampires do, and they are far more affected by silver. Silver, when coming into contact with a Mytt, will always immediately begin burning them.</p>
+  </div>
+</div>
 
 ## Mechanics
 
-Mytts are composed of 3 magical schools, locked at whitelist. Their blood pool represents magical energy, not a biological resource, and depletes over time as they exist in the Mortal Realm. They do not consume blood. Instead, they restore their pool by consuming magically aligned materials tied to their schools.
-
-| School | Blood Type | Material | Shapeshift |
-|---|---|---|---|
-| Storm | Warrior | Topaz | Storm Bear |
-| Chaos | Scholar | Amethyst | Chaos Crow |
-| Frost | Brute | Sapphire | Ice Elemental |
-| Illusion | Rogue | Mist Stone | Pixie |
-| Light | Worker | TBD | Smite Orb |
-| Shadow | Draculin | TBD | Exsanguinator |
-
-A Mytt's three blood types correspond directly to their three schools. They have a custom command to swap between these blood types. Consuming the aligned material for their active blood type restores their pool. They can only recover blood pool from materials tied to the three schools they are composed of.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-violet-800/60 to-violet-950/80 flex-shrink-0 border border-violet-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Mytts are composed of 3 magical schools, locked at whitelist. When selecting their schools, they choose one from each of three pairs: Storm or Frost, Chaos or Illusion, and Light or Shadow. Picking one locks out the other from that pair. Their blood pool represents magical energy, not a biological resource, and depletes over time as they exist in the Mortal Realm. They do not consume blood. Instead, they restore their pool by consuming magically aligned materials tied to their schools.</p>
+    <table>
+      <tr><th>School</th><th>Blood Type</th><th>Material</th><th>Shapeshift</th></tr>
+      <tr><td>Storm</td><td>Warrior</td><td>Topaz</td><td>Storm Bear</td></tr>
+      <tr><td>Chaos</td><td>Scholar</td><td>Amethyst</td><td>Chaos Crow</td></tr>
+      <tr><td>Frost</td><td>Brute</td><td>Sapphire</td><td>Ice Elemental</td></tr>
+      <tr><td>Illusion</td><td>Rogue</td><td>Mist Stone</td><td>Pixie</td></tr>
+      <tr><td>Light</td><td>Worker</td><td>Quartz</td><td>Smite Orb</td></tr>
+      <tr><td>Shadow</td><td>Draculin</td><td>Stygian Shards</td><td>Exsanguinator</td></tr>
+    </table>
+    <p>A Mytt's three blood types correspond directly to their three schools. They have a custom command to swap between these blood types. Consuming the aligned material for their active blood type restores their pool. They can only recover blood pool from materials tied to the three schools they are composed of.</p>
+  </div>
+</div>
 
 <div class="grid grid-cols-2 gap-4 mt-7">
   <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
@@ -449,15 +475,15 @@ A Mytt's three blood types correspond directly to their three schools. They have
 - Immune to garlic.
 - Custom command to swap between 3 blood types.
 - Gain a special shapeshift for each of their chosen magical schools. Cannot shapeshift into normal creature forms.
+- Mytts can successfully pass as humans very easily.
   </div>
 </div>
 
 ## Mortality Contract
 
-- Do not age.
-- Do not die of natural causes.
-- Can reconstitute after physical destruction.
-- Receive a 10 minute debuff upon reconstituting.
+- Mytts do not age.
+- Mytts do not die of natural causes.
+- Mytts can reconstitute after physical destruction, but receive a 10 minute debuff upon reconstituting.
 
 <!-- section:talam -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-green-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-green-500 block mb-1">Restricted Magic Schools</span><span class="text-base text-tprimary-50">Talam cannot use blood or unholy magic.</span></div>
