@@ -599,6 +599,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Restrictions</span>
 - No blood drain. Cannot drink blood from mobs, bottles, or other players.
 - Blood potions have no effect. Blood type is selected at creation and can only be changed by ritual.
+- Cannot have Corrupted, Draculin, or Mutant primary blood.
 - Blood and Unholy magic is not available. Cannot use Dominate or Bloodmend.
 - Cannot use spell schools besides Storm and Frost without specialties.
 - Weakness to Light magic and severe weakness to Fire.
