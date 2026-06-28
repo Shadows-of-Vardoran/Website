@@ -1,5 +1,5 @@
 <!-- section:vardoran -->
-# Vardoran
+<h1 id="vardoran" class="leading-none">Vardoran</h1>
 *A Kingless Kingdom, a Forgotten Backwater*
 
 ## Historical Overview
@@ -142,8 +142,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:aetheria -->
-# Aetheria, the Land of the Air and Stars
-*Founded in 1268*
+<h1 id="aetheria-the-land-of-the-air-and-stars" class="leading-none">Aetheria, the Land of the Air and Stars</h1>
+<p class="italic text-tprimary-400">(ay-thee-ree-uh)<br>Founded in 1268</p>
 
 ## Historical Overview
 
@@ -236,8 +236,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:ajania -->
-# Ajania
-*Founded: 200 years before the fall of Nosterra*
+<h1 id="ajania" class="leading-none">Ajania</h1>
+<p class="italic text-tprimary-400">(uh-hay-knee-uh)<br>Founded: 200 years before the fall of Nosterra</p>
 
 ## Historical Overview
 
@@ -331,8 +331,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:alinar -->
-# Alinar
-*Founded: 893 AF, Reformed: 945 AF*
+<h1 id="alinar" class="leading-none">Alinar</h1>
+<p class="italic text-tprimary-400">(al-in-are)<br>Founded: 893 AF, Reformed: 945 AF</p>
 
 ## Historical Overview
 
@@ -416,8 +416,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:frankleburg -->
-# Frankleburg, the Land of a Thousand Queens
-*Founded in 701-AF*
+<h1 id="frankleburg-the-land-of-a-thousand-queens" class="leading-none">Frankleburg, the Land of a Thousand Queens</h1>
+<p class="italic text-tprimary-400">(Frank-el-berg)<br>Founded in 701-AF</p>
 ## Historical Overview
 
 <div class="flex gap-4 my-2">
@@ -509,8 +509,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:hafjallheim -->
-# Hafjallheim
-*Founded: 468 AF*
+<h1 id="hafjallheim" class="leading-none">Hafjallheim</h1>
+<p class="italic text-tprimary-400">(Haf-yall-heim)<br>Founded: 468 AF</p>
 
 ## A Brief Overview
 
@@ -675,7 +675,7 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:the-hallowed-mountains -->
-# The Hallowed Mountains
+<h1 id="the-hallowed-mountains" class="leading-none">The Hallowed Mountains</h1>
 *The Hidden People Beyond the Pass*
 
 ## Historical Overview
@@ -762,8 +762,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:lakkrah -->
-# Lakkrah
-*Founded: 843 AF*
+<h1 id="lakkrah" class="leading-none">Lakkrah</h1>
+<p class="italic text-tprimary-400">(lock-ruh)<br>Founded: 843 AF</p>
 
 ## Historical Overview
 
@@ -844,8 +844,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:norus -->
-# Norus
-*Founded: 675 AF*
+<h1 id="norus" class="leading-none">Norus</h1>
+<p class="italic text-tprimary-400">(nor-us)<br>Founded: 675 AF</p>
 
 ## Historical Overview
 
@@ -936,8 +936,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:nova-franka -->
-# Nova Franka
-*Founded in 1091-AF*
+<h1 id="nova-franka" class="leading-none">Nova Franka</h1>
+<p class="italic text-tprimary-400">(no-vuh frank-uh)<br>Founded in 1091-AF</p>
 
 ## Historical Overview
 
@@ -1028,8 +1028,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:novosvet -->
-# Novosvet
-*Founded: 1000 AF • The New Light*
+<h1 id="novosvet" class="leading-none">Novosvet</h1>
+<p class="italic text-tprimary-400">(no-vo-svet)<br>Founded: 1000 AF • The New Light</p>
 
 ## Historical Overview
 
@@ -1116,8 +1116,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:omen-plateau -->
-# Omen Plateau
-*Founded: 959 AF*
+<h1 id="omen-plateau" class="leading-none">Omen Plateau</h1>
+<p class="italic text-tprimary-400">(oh-men pla-toe)<br>Founded: 959 AF</p>
 
 ## Historical Overview
 
@@ -1202,8 +1202,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:pisciv-vol -->
-# Pisciv Vol
-*Founded in 105-AF*
+<h1 id="pisciv-vol" class="leading-none">Pisciv Vol</h1>
+<p class="italic text-tprimary-400">(piece-iv vol)<br>Founded in 105-AF</p>
 
 ## Historical Overview
 
@@ -1284,8 +1284,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:qalidran -->
-# Qalidran, The Vampiric Parlor
-*Founded 3 Post-Apotheosis (947-AF)*
+<h1 id="qalidran-the-vampiric-parlor" class="leading-none">Qalidran, The Vampiric Parlor</h1>
+<p class="italic text-tprimary-400">(kal-i-drahn)<br>Founded 3 Post-Apotheosis (947-AF)</p>
 
 ## Historical Overview
 
@@ -1475,8 +1475,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:suluun -->
-# The Sul'uun Empire
-*Founded in 12-AF*
+<h1 id="the-suluun-empire" class="leading-none">The Sul'uun Empire</h1>
+<p class="italic text-tprimary-400">(suhl-oon)<br>Founded in 12-AF</p>
 
 ## Historical Overview
 
@@ -1574,8 +1574,8 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:welronz -->
-# Welronz
-*Founded: 210 AF*
+<h1 id="welronz" class="leading-none">Welronz</h1>
+<p class="italic text-tprimary-400">(well-rohnz)<br>Founded: 210 AF</p>
 
 ## Historical Overview
 
@@ -1788,5 +1788,17 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
     <p>A long island composed exclusively of volcanoes, the World's Teeth are a series of deadly peaks that were carved out in the sea directly off the coast of Hafjallheim. Smoke columns from the Teeth's volcanoes erupt year-round, and sometimes travel as far south as Norus.</p>
     <p>The stretch of sea between the Teeth and Hafjallheim is one of the most dangerous in the world. Rock, smoke, deadly gas, and pyroclastic materials rain constantly into the sea, making fish scarce and travel deadly.</p>
     <p>There is an ancient and respected practice of reading the smoke columns for oracles. The Frost Maiden of Hafjallheim is believed to be the first person to do so, and her legacy has made the Teeth's eruptions into an important cultural event.</p>
+  </div>
+</div>
+
+<!-- section:i-dont-like-empty-ui-spaces -->
+
+<h1 id="i-dont-like-empty-ui-spaces" class="leading-none">I don't like empty UI spaces</h1>
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-gray-800/60 to-gray-950/80 flex-shrink-0 border border-gray-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>This nation is here to fill a gap in the UI for my sanity. Dumbo Welronz couldn't keep the grid even.</p>
+    <p>Don't look at me.</p>
   </div>
 </div>

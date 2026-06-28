@@ -33,7 +33,7 @@ Vampires are the vanilla gameplay experience. All schools of magic are available
 
 ## Mortality Contract
 
-No mortality contract. Vampires can reconstitute from physical destruction without limit.
+No mortality contract. Vampires do not age, do not die of natural causes, and can reconstitute from physical destruction without limit. A vampire only dies when the player decides their story ends. There is no mortality system tracking for this race.
 
 ## Vampiric Origins
 
@@ -565,9 +565,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
 
 ## Mortality Contract
 
-- Mytts do not age.
-- Mytts do not die of natural causes.
-- Mytts can reconstitute after physical destruction, but receive a 10 minute debuff upon reconstituting.
+No mortality contract. Mytts do not age, do not die of natural causes, and can reconstitute after physical destruction. A Mytt only dies when the player decides their story ends. There is no mortality system tracking for this race. Upon reconstitution after physical destruction, Mytts receive a 10-minute debuff.
 
 <!-- section:talam -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-green-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-green-500 block mb-1">Restricted Magic Schools</span><span class="text-base text-tprimary-50">Talam cannot use blood or unholy magic. Using any school other than storm or frost requires a specialty in that school.</span></div>
@@ -643,7 +641,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
   </div>
 </div>
 
-### Talaghria
+### Talaghria (tah-lah-gree-ha)
 
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
@@ -676,7 +674,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
   </div>
 </div>
 
-### Talageala
+### Talageala (tah-lah-gay-lah)
 
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
@@ -707,7 +705,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
   </div>
 </div>
 
-### Talafeasga
+### Talafeasga (tah-lah-fess-gah)
 
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>

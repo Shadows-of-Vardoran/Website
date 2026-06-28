@@ -210,7 +210,15 @@
         if (data.length > 0) {
           const misc = data.find((n) => n.name === 'Miscellaneous Regions');
           const others = data.filter((n) => n.name !== 'Miscellaneous Regions');
-          nations = [others[0], ...others.slice(1).sort((a, b) => a.name.localeCompare(b.name))];
+          const FILLER_NAME = "I don't like empty UI spaces";
+          nations = [
+            others[0],
+            ...others.slice(1).sort((a, b) => {
+              if (a.name === FILLER_NAME) return 1;
+              if (b.name === FILLER_NAME) return -1;
+              return a.name.localeCompare(b.name);
+            }),
+          ];
           if (misc) nations.push(misc);
         }
       }

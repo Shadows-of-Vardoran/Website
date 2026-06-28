@@ -80,6 +80,11 @@
     "tagline": "Where Wheat and Cattle Define the Land"
   },
   {
+    "name": "I don't like empty UI spaces",
+    "colorKey": "gray",
+    "tagline": "Here because Welronz couldn't keep the grid even"
+  },
+  {
     "name": "Miscellaneous Regions",
     "colorKey": "gray",
     "tagline": "Lands Beyond the Major Nations"
