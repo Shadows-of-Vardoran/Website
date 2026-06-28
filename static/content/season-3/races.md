@@ -712,7 +712,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
   <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
     <p>Typically a bit bulkier in their build, lending to their cultural expectations as protectors and shepherds. Many of them do not have the same pointed ears as the other Talam, instead replaced by animalistic ears or similar such means of listening. Their senses are somewhat keener than their kin, but only at night. They are incredibly nocturnal, and their instincts often push them to live lonelier, more isolated lives.</p>
-    <p>Talafeasga are far more varied than the other Talam Circles, simply by nature of the wide pool of animalistic features they can draw on. It is worth noting however, Talafeasga only gain features of a single animal, never multiple. One cannot have a wolf tail and bird wings and cat eyes. Most of them pull on predator animals or aquatic ones, but it varies all the same.</p>
+    <p>Talafeasga are far more varied than the other Talam Circles, simply by nature of the wide pool of animalistic features they can draw on. It is worth noting however, Talafeasga only gain features of a single animal, never multiple. One cannot have a wolf tail and bird wings and cat eyes. Most of them pull on predator animals or amphibious ones, but it varies all the same.</p>
   </div>
 </div>
 
@@ -723,7 +723,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
 - Dysfunctional bird-like wings (cannot fly).
 - Hooves instead of feet.
 - Animalistic tails.
-- The teeth of a canine, or a shark.
+- The teeth of a canine.
 - Tufts of fur or patches of scales.
 - Thicker skin.
 - Cold blood (like reptiles).
