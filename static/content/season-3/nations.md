@@ -1790,15 +1790,3 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
     <p>There is an ancient and respected practice of reading the smoke columns for oracles. The Frost Maiden of Hafjallheim is believed to be the first person to do so, and her legacy has made the Teeth's eruptions into an important cultural event.</p>
   </div>
 </div>
-
-<!-- section:i-dont-like-empty-ui-spaces -->
-
-<h1 id="i-dont-like-empty-ui-spaces" class="leading-none">I don't like empty UI spaces</h1>
-
-<div class="flex gap-4 my-2">
-  <div class="w-3 rounded bg-gradient-to-b from-gray-800/60 to-gray-950/80 flex-shrink-0 border border-gray-900/30"></div>
-  <div class="flex-1 text-[1.2rem]">
-    <p>This entry is here to fill a gap in the UI for my sanity. Dumbo Welronz couldn't keep the grid even.</p>
-    <p>Don't look at me.</p>
-  </div>
-</div>
