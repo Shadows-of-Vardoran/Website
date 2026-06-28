@@ -49,7 +49,7 @@
       <button on:click={() => goto(resolve('/rules'))} class="nav-tower-button">RP Rules</button>
       <button on:click={() => goto(resolve('/glossary'))} class="nav-tower-button">Glossary</button>
       <button on:click={() => goto(resolve('/guides'))} class="nav-tower-button">Guides</button>
-      <!-- <button on:click={() => goto(resolve('/season-3'))} class="nav-tower-button">Season 3</button> -->
+      <button on:click={() => goto(resolve('/season-3'))} class="nav-tower-button text-gold-300! hover:text-gold-100!">Season 3</button>
       <button on:click={() => goto(resolve('/media'))} class="nav-tower-button">Media</button>
       <!-- </div> -->
 

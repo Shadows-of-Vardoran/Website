@@ -342,6 +342,7 @@
     'suluun',
     'welronz',
     'miscellaneous-regions',
+    'i-dont-like-empty-ui-spaces',
   ];
 
   async function onRaceSave(sectionKey: string, content: string) {
