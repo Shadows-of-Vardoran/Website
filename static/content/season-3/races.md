@@ -719,7 +719,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
 <div class="p-4 rounded bg-background-800/60 border border-green-800/60 my-4">
   <span class="text-warm font-bold">Some visual features might include:</span>
 
-- Fish gills that allow breathing underwater.
+- Skin like that of a Salamander
 - Dysfunctional bird-like wings (cannot fly).
 - Hooves instead of feet.
 - Animalistic tails.
