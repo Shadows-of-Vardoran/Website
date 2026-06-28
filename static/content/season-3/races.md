@@ -570,10 +570,29 @@ Log your progress in your character's journal. When you are ready for an upgrade
 - Mytts can reconstitute after physical destruction, but receive a 10 minute debuff upon reconstituting.
 
 <!-- section:talam -->
-<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-green-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-green-500 block mb-1">Restricted Magic Schools</span><span class="text-base text-tprimary-50">Talam cannot use blood or unholy magic.</span></div>
+<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-green-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-green-500 block mb-1">Restricted Magic Schools</span><span class="text-base text-tprimary-50">Talam cannot use blood or unholy magic. Using any school other than storm or frost requires a specialty in that school.</span></div>
+
+## Overview
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>You were human once, not too long ago. When the world began to change, you changed with it. Magic poured into every nook and cranny of the earth itself, but the earth refused to let it fully claim you.</p>
+    <p>You have always been in touch with the natural world, even before the change. Whether you were one who tended great groves, someone who looked to the stars for answers, or a hunter who kept the balance by being part of natural selection directly, you and the natural world have always shared an intimate connection. Of course, in the days before, that connection was purely spiritual or cultural. Never could you have imagined it would lead you to what you are now.</p>
+    <p>As a bastion of the natural world now warped by magic, you have features that mark you as something more than your once fellow human. Your kind is varied, much like the world around you. You may have leaves that sprout from your flesh as if it were bark, or eyes that glisten like starlight, or perhaps the claws of a beast and tufts of fur to match. Your ears may come to a fine point or could even be replaced by those of an animal. Whatever the case may be, you stand as an imperfect joining between man and nature.</p>
+    <p>When you changed, so too did your life. People looked at you differently and society's doors felt remarkably more closed to you. This likely pushed you to find your people, building kinship in what quickly became a melting pot of cultures on the islands of Aetheria. It is there that your people's roots are the deepest, and while not all Talam hail from those sacred isles, it is safe to assume most have at least set foot in that sanctuary. With time, the world grew to accept your people as well as you, opening trade and sharing in the well of knowledge that your people accrued over these beginning years.</p>
+    <p>In the end, it matters little if people accept you. You have always cared more about the natural world than societal norms. And whether by instinct or the word of your peers, it is that care that has drawn you to Vardoran, a place where the balance of the natural world seems more unstable than most.</p>
+  </div>
+</div>
 
 ## Mechanics
-Talam are mortal and carry an innate connection to the natural magics of the world.
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Talam are restricted to the Frost and Storm spell schools by default, able to gain access to other schools through specialties, and are immune to the Sun, Garlic, and Silver. Talam also get access to unique shapeshifts and the Bear Faction tag by default, making them passive to certain animals and elementals. Watch out for fire.</p>
+  </div>
+</div>
 
 <div class="grid grid-cols-2 gap-4 mt-7">
   <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
@@ -582,11 +601,11 @@ Talam are mortal and carry an innate connection to the natural magics of the wor
 - Blood potions have no effect. Blood type is selected at creation and can only be changed by ritual.
 - Blood and Unholy magic is not available. Cannot use Dominate or Bloodmend.
 - Cannot use spell schools besides Storm and Frost without specialties.
-- Weakness to Light magic and severe weakness to Fire
+- Weakness to Light magic and severe weakness to Fire.
   </div>
   <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Benefits</span>
-- Immune to garlic, silver, and sunlight.
+- Immune to Sunlight, Garlic, and Silver.
 - Begin at 100% Blood quality.
 - Can change their blood type through a ritual.
 - Access to unique sub-species specific shapeshifts.
@@ -596,20 +615,127 @@ Talam are mortal and carry an innate connection to the natural magics of the wor
 
 ## Mortality Contract
 
-Talam can survive 6 critical injuries.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Talam are mortal player characters bound by the mortality contract, but are more resilient than humans and recover from injury without requiring outside intervention. Humans may not be turned or converted into a Talam upon death.</p>
+  </div>
+</div>
 
-- Medical RP must be received within 3 IRL days of a critical injury to survive it.
-- Must be treated by a doctor specialist using [`.sov treat <player>`](#cmd-doctor) or [`.sov revive`](#cmd-doctor).
-- Upon death (Sixth critical injury or untreated injury), the character dies, reclaimed by nature.
+<div class="p-4 rounded bg-background-800/60 border border-green-800/60 my-4">
+
+- Their blood pool decreases by 10% with each minor injury, before a critical injury occurs.
+- A Talam character can sustain six critical injuries before death, in which they are reclaimed by nature.
+- Unlike humans, MedRP is not required to recover from a critical injury.
+- When a Talam sustains a critical injury, they receive a temporary debuff. This debuff lasts approximately one hour and resolves on its own.
+- A doctor may optionally provide MedRP to remove the debuff early, but this is not required for survival. See the [Doctor Commands](#cmd-doctor) section for available commands.
 - Check your injury status at any time with [`.sov mortality status`](#cmd-mortality).
 
-# Playing a Talam
-You were human once, not too long ago - even. When the world began to change, you changed with it. Magic poured into every nook and cranny of the earth itself, but the earth refused to let it fully claim you.
+</div>
 
-You have always been in touch with the natural world, even before the change. Whether you were one who tended great groves, someone who looked to the stars for answers, or a hunter who kept the balance by being part of natural selection directly - you and the natural world have always shared an intimate connection. Of course, in the days before, that connection was purely spiritual or cultural. Never could you have imagined it would lead you to what you are now.
+## The Circles
 
-As a bastion of the natural world now warped by magic, you have features that mark you as something more than your once fellow human. Your kind is varied, much like the world around you - you may have leaves that sprout from your flesh as if it were bark, or eyes that glisten like starlight, or perhaps the claws of a beast and tufts of fur to match. Your ears may come to a fine point or could even be replaced by those of an animal; whatever the case may be, you stand as an imperfect joining between man and nature.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>When the Talam were formed 5 years ago as magic flooded into the world, the sky they were warped under had a direct influence over the changes to their appearance and personality. Those changed under the sun became Talaghria. Those under the Moon became Talafeasga. Those stuck between night and day, Twilight, became the Talageala. All Talam have an innate connection to the natural world, but each Circle's members have different general differences that have influenced their burgeoning sub-cultures. Though these influences affect all Talam, they come from all over the world and may carry their home country's culture with them.</p>
+  </div>
+</div>
 
-When you changed, so too did your life. People looked at you differently and society's doors felt remarkably more closed to you. This likely pushed you to find your people, building kinship in what quickly became a melting pot of cultures on the islands of Aetheria. It is there that your people's roots are the deepest, and while not all Talam hail from those sacred isles, it is safe to assume most have at least step foot in that sanctuary. With time, the world grew to accept your people as well as you, opening trade and sharing in the well of knowledge that your people accrued over these beginning years.
+### Talaghria
 
-In the end, it matters little if people accept you. You've always cared more about the natural world than societal norms. And whether by instinct or the word of your peers, it is that care that has drawn you to Vardoran; a place where the balance of the natural world seems more unstable than most.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Talaghria are Talam that were changed under the warmth of the Sun. Many were people who worshipped the Sun and were out in broad daylight when the magic surged. They found their rituals suddenly working, and worship responded to as the Natural energies protected them from the Magic. All Talaghria are notoriously diurnal, often preferring to be out in the day than out at night. This does not mean they are forced to sleep when the sun sets, of course. The Talam can stay awake with very little rest. It is simply an innate, natural drawing to the light of the sun that calls to them and makes them prefer its warmth.</p>
+  </div>
+</div>
+
+<div class="p-4 rounded bg-background-800/60 border border-green-800/60 my-4">
+  <span class="text-warm font-bold">Talaghria visual traits are often very nature or plant-themed, revolving around flora. Some general ideas would be:</span>
+
+- Leaves growing like hair on their body.
+- Patches of tree bark instead of skin.
+- Branch-like horns or antlers.
+- Flowers sprouting from various places.
+- Emits a thin cloud of glittering spores.
+- Greenish or plant-like skin.
+- Golden sun-like eyes.
+- Hair that changes colors with the seasons.
+- Extra vine-like appendages (typically thorny).
+- Flower petals instead of nails.
+</div>
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The Talaghria often worship the Sun, the beginning of life, and the renewal of what was broken, injured, or damaged. Most live in fields, forests and other places plantlife flourishes, though there are always exceptions. They know that nature is give and take. An animal feeds on a fruit, gets hunted by a predator, and the predator eventually falls back into the dirt to feed the plants again. So long as no one excessively takes and the cycle is respected, the Talaghria are often welcoming to outsiders and those who wish to make a life for themselves in new territory.</p>
+    <p>Some Talaghria even take it upon themselves to become healers for man and beast alike. Some seek to teach people how to live in harmony with the nature around them while others attempt to heal land that was left hurt and dangerous in the wake of greed.</p>
+    <p>Throughout all the differences of the Talaghria, all share two things in common. An intrinsic love for the Sun, and a deep desire to see life flourish.</p>
+  </div>
+</div>
+
+### Talageala
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Talam turned under the veil of twilight, basked in glittering stars and all the wonder therein. They likely knew that change was on the horizon. The stars told them as much. And when the surge came, the stars were where they found their solace. Talageala require the least amount of sleep of all Talam. They are wakeful both throughout the day and well into the evening. They are also notoriously a bit taller than the other Talam, able to reach heights just shy of seven feet tall.</p>
+  </div>
+</div>
+
+<div class="p-4 rounded bg-background-800/60 border border-green-800/60 my-4">
+  <span class="text-warm font-bold">Perhaps the most otherworldly in appearance of all the Talam, looking almost as though a piece of the night sky fell and joined with them. Some possible visual traits of the Talageala include:</span>
+
+- Somewhat translucent, almost ghostly skin.
+- Glowing patches of flesh not unlike starlight.
+- Glowing starry markings, sometimes interconnected like constellations.
+- Long, wispy hair that may seem as if it fades into nothingness at its ends.
+- Eyes that swirl like nebulas or shimmer like stars.
+- Purple, red, blue or black skin tones (in varying shades).
+- Extra eyes (usually just one).
+- Markings that react to the time of day.
+</div>
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Talageala see the world in a different way than most do, even compared to the other Talam. Their observance of the body and core of the Cycles of life often leaves them looking both at where the path leads next, and all the ways the path could have led to where they are now. Oracles, Prophets, Astrologers, and everything in between. The Talageala see the world as ever shifting and moving. Nothing is set in stone and everything can be changed.</p>
+    <p>Much of their focus revolves around pushing against stagnation. Helping those who fight against change accept their fate and be better for it. Many Talageala find themselves deep within or around human settlements, often acting as wise counsel for peasants and royalty alike. There are plenty who likewise find themselves traveling from place to place, ever moving and helping those where they can. This constant travel eventually led them to seek out other Talam from all the circles, helping them find each other and congregate in Aetheria.</p>
+    <p>Bearing an intrinsic connection to the stars, sunset, and sunrise, the Talageala find themselves frequently in a state of motion, whether mentally or physically.</p>
+  </div>
+</div>
+
+### Talafeasga
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Typically a bit bulkier in their build, lending to their cultural expectations as protectors and shepherds. Many of them do not have the same pointed ears as the other Talam, instead replaced by animalistic ears or similar such means of listening. Their senses are somewhat keener than their kin, but only at night. They are incredibly nocturnal, and their instincts often push them to live lonelier, more isolated lives.</p>
+    <p>Talafeasga are far more varied than the other Talam Circles, simply by nature of the wide pool of animalistic features they can draw on. It is worth noting however, Talafeasga only gain features of a single animal, never multiple. One cannot have a wolf tail and bird wings and cat eyes. Most of them pull on predator animals or aquatic ones, but it varies all the same.</p>
+  </div>
+</div>
+
+<div class="p-4 rounded bg-background-800/60 border border-green-800/60 my-4">
+  <span class="text-warm font-bold">Some visual features might include:</span>
+
+- Fish gills that allow breathing underwater.
+- Dysfunctional bird-like wings (cannot fly).
+- Hooves instead of feet.
+- Animalistic tails.
+- The teeth of a canine, or a shark.
+- Tufts of fur or patches of scales.
+- Thicker skin.
+- Cold blood (like reptiles).
+- Horns or antlers.
+- Claws, talons, or other such implements.
+</div>
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Every cycle has an end before it begins anew. The Talafeasga understand this better than most and fiercely guard the continuation and end of various natural cycles. Bearing a healthy hate for Undead, Talafeasga can find themselves as guardians of Cemeteries and crypts, or protectors of herds and other beasts or people.</p>
+    <p>The Talafeasga are not always but frequently isolated much like the Moon. Strong beacons in the darkness of the night, waxing and waning across their various self-assigned duties to the natural world. Ensuring wolves get their fill from a herd of Deer without decimating the population. Fighting off a necromancer who seeks to claim the dead of a village. Mediating the end of a war to stop an endless loop of slaughter.</p>
+    <p>Though one might think even the Talafeasga have a hatred for Vampires, they do not. Even if Vampires are considered unnatural and outside predators to many, the Talafeasga and other Talam see them more as a new entry into the cycle of life. Vampires still contribute to the cycle in the way a predator might. Even with a Vampire's seeming immortality, even they will come to an end eventually.</p>
+  </div>
+</div>
