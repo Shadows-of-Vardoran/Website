@@ -1,57 +1,144 @@
-﻿<!-- section:vardoran -->
-# Vardoran, the Contested Heartland
-*Colony of Nosterra, Abandoned 1-AF*
+<!-- section:vardoran -->
+# Vardoran
+*A Kingless Kingdom, a Forgotten Backwater*
 
 ## Historical Overview
-Vardoran is an ancient community that has evolved many times over the course of its long history. It was once a settlement of Nosterra, settled around the same time as Ajania. When Nosterra fell in 1-AF, Vardoran was abandoned as a colony and never reabsorbed. It crumbled without support from the Empire. For nine hundred years, nothing much happened. Just the gradual decline of civilization.
 
-Before the Drac War, the Militia was much smaller and less well trained. They really had to shape up to deal with him. Brighthaven would prefer not to have such a largely armed and well trained population, but the Militia is older than Brighthaven. It is a long holdover from Nosterra that simply never left.
-
-The oldest building in Vardoran is the Colosseum. It predates everything else still standing.
-
-Vardoran had some history and culture before the Luminance and Transcendum ever arrived. They were never seafaring. They have always been insular.
-
-Much of the world did not know Vardoran even existed until Dracula's rise in 1263-AF. It is under considerable scrutiny now, as some blame the region for magic's existence.
-
-## Cultural Overview
-The Church of Luminance holds dominant influence over Vardoran. After the war with Dracula, Luminance and the Militia became close allies. The Transcendum has a temporary truce with Luminance because they worked together during the war. This does not stop them from arming and enforcing their borders.
-
-Old Vardoranian traditions persist. Harvest festivals, fertility festivals, and winter festivals are still celebrated.
-
-Different factions of the land are always at each other's throats. The people of Vardoran really only consider Dunley and Silverlight to be part of the country.
-
-The Noctum are much more cultlike than organized. They want to restore Dracula to his full power. They are not a competent military. They kidnap and indoctrinate citizens, turning those who drink the kool-aid into vampires and making them feed on their former cellmates. Some Noctum cultists are undercover in other societies. Qalidran in particular is wary of them. Noctum has no real leadership beyond a general deference to the person who turned you, like a pyramid scheme.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Vardoran is an ancient region that has evolved many times over the course of its long history. It was once a part of Nosterra, an ancient empire that considered all of the western continent a part of its expanse. After Nosterra's fall in 1-AF, Vardoran was simply abandoned as a colony, and never reabsorbed into any of its neighboring nations. Today, it is considered somewhere between a region and a city-state. Vardoran does not have a widespread government, nor laws. It still has a sizable population who call it home and consider themselves Vardoranians despite their lack of international recognition.</p>
+    <p>Vardoran is a region of several small valleys hidden away in the Hallowed Mountains. These low valleys have large swaths of fertile farmland and lush forests. Vardoran is home to several small micro-cultures, and the communities therein vary vastly from region to region.</p>
+    <p>Much of the world did not know Vardoran even existed until Dracula's rise in 1263 AF. It is under considerable scrutiny in the current year, as some blame the region for magic's existence. Scholars, such as the Archivum, have flocked en masse to Vardoran as a result.</p>
+  </div>
+</div>
 
 ## Racial and Magical Overview
-The average Vardoranian's stance on magic, other races, and anything unusual is simple. Magic is scary and bad. Mytts are scary. Werewolves are scary. Vampires are scary. Even Talam are scary. The prevailing attitude is simple. Just let me farm.
 
-## Important Allies and Enemies
-Vardoranians are distrustful of outsiders for good reason. Novosvet is their ostensible largest ally, as it considers them a protectorate. Norus is also an important benefactor, but most people would rather not have both groups in the land fighting over their country.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>In Vardoran, vampires prospered before Dracula's rise, and they continue to survive despite the light magic of Luminance. Vampires, able to control all forms of magic, have continued to thrive in Vardoran's political dysfunction. In recent years, the Werewolves of the land too have begun to band together in a communal refuge from their affliction.</p>
+    <p>Without a formal government able to crack down on any single group, Vardoran is an attractive home for many Mytts and Talam as well. Perhaps though, Vardoran is a less attractive place for humans, whose frail mortality is pushed to its limits by the hardships of the land.</p>
+  </div>
+</div>
 
-Lakkrah is bad.
+## Subfactions of Vardoran
 
-## Important and Notable Landmarks/Places
-#### The Forbidden Tower
-Once, decades of history lived in this place, collected from the world around. It was possibly V Prime's place of study before he did the Big. It was built by V Prime. The locals sealed it and strictly forbade anyone from entering. Dracula entered and learned V Prime's secrets. Once he obtained shadow magic, he corrupted the knowledge within. The books no longer hold good information. Many are word salad that seem cognizant and coherent only when paying minimal attention. Maja has been studying here since before the blood rain. She is now basically a brainrot Gen Alpha kid from the lack of intellectual information.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Within the stateless land of Vardoran, different groups have decided to take power into their own hands. The Cult of the Damned resurrect the long dead and their empire. The Legion of Noctum kidnap citizens and conjure monsters for the return of their fallen king. The Church of Luminance tries to hold onto their dominance of the land and struggle with the newfound chaos brought by magic's widespread arrival. The Dunley Militia do what they can to protect the people amidst desertion and pressure from all sides. Deserters from the Militia and the Light band together as bandits, keen to make a profit in the chaos. Transcendum viciously assert their occupation of Gloomrot and The Venomblades secure their borders in Oakveil.</p>
+    <p>All of Vardoran is in a state of unsteady chaos, torn in every direction and vulnerable to the influence of the creatures of the night.</p>
+  </div>
+</div>
 
-#### The Colosseum and the Cult of the Damned
-The Cult of the Damned are not only worshippers of undeath. They are attempting to revive the greatest empire to ever grace the planet. Kriig, Gaius, and Bane are all resurrected Nosterrans with varying degrees of memory. Bane has the least mental capacity beyond his mission to murder. Kriig retains his tactical mind and goals. Gaius retains the most of his own personhood. The more freedom the undead has, the less of themselves they retain. Most undead are not Nosterrans, but Vardoranians from the past millennium.
+## Regions of Vardoran
 
-#### Silverlight's Mines
-These were originally a cave system that people hid in to avoid the harpies. Silver was found here by the Nosterrans, so it has been catalogued for centuries. It was not worth extracting until more recent years. This is Dracula's fault.
+### Cursed Forest
 
-## A Random Fun Fact
-Vardoran is actually named after Sir Vardoran Rising himself.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>After Dracula's fall, Vardoran's previous tallest mountain vanished overnight without a trace. The Cursed Forest was left in its place, along with its three abandoned villages, one of which has become a den of Werewolves.</p>
+  </div>
+</div>
 
-Last year's census concluded Vardoran had the highest proportion of horses to citizens in the world.
+<div class="p-4 rounded bg-background-800/60 border border-gold-800/60 my-4">
+  <span class="text-warm font-bold">Fun Fact</span>
 
-Before the whole war thing, Dracula was voted Man of the Year by the Archivum and hosted the Polympics in Vardoran.
+Nova Franka coincidentally had a mountain appear within the middle of the island at the same time.
+</div>
 
-Dracula's name translates to "The Duck", earned for his ferocity in battle.
+### Dunley Farmlands
 
-Vardoranians unanimously agree that the cursed forest used to be a mountain.
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>The lands of central Vardoran hold the majority of the population, and the region has the longest history of continuous human settlement. The Dunley Militia claims their organization has history here for as long as humans have lived in Vardoran. The farmlands used to stretch further north all the way to the pools of rebirth before Transcendum's invasion.</p>
+  </div>
+</div>
 
-Vardoran's ancient funerary rites were written by real-estate agents, resulting in the crypts south of Farbane being time-shares.
+<div class="p-4 rounded bg-background-800/60 border border-gold-800/60 my-4">
+  <span class="text-warm font-bold">Fun Fact</span>
+
+The Dunley Colosseum is one of the oldest structures on the continent!
+</div>
+
+### Farbane Woods
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Historic cycles between wilds and society have involved these woods. Old forts have been overtaken by nature, decayed, and reclaimed by humanity time and again. Now, certain opportunist deserters have overtaken the forest in order to profit from the silver caravans running south to Novosvet.</p>
+  </div>
+</div>
+
+<div class="p-4 rounded bg-background-800/60 border border-gold-800/60 my-4">
+  <span class="text-warm font-bold">Fun Fact</span>
+
+Farbane woods are the home of a unicorn!
+</div>
+
+### Gloomrot
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Four year ago Henry Blackbrew came to northern Vardoran to escape the legal and ethical burdens enforced in his homeland with a mission to continue his research in mutagenics. Blackbrew's Transcendum Corporation has extracted everything it can from the land and its people in this short time. He has brought forth the endless storm from his homeland and has polluted the waters of northern Vardoran with his mutagenic experimentations.</p>
+  </div>
+</div>
+
+<div class="p-4 rounded bg-background-800/60 border border-gold-800/60 my-4">
+  <span class="text-warm font-bold">Fun Fact</span>
+
+Northern Gloomrot once had a similar environment to Silverlight Hills. Southern was once similar to Dunley Farmlands!
+</div>
+
+### Mortium
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Mortium was considered to be impassable until Dracula's Rise in Vardoran. The land was terraformed into something resembling traversable. The land is predominantly occupied by the Cult of Noctum who seek to perform foul rituals and kidnap the innocent farmers of Dunley.</p>
+  </div>
+</div>
+
+<div class="p-4 rounded bg-background-800/60 border border-gold-800/60 my-4">
+  <span class="text-warm font-bold">Fun Fact</span>
+
+Living memory has forgotten where the ruins within Mortium came from, and what event ruined them.
+</div>
+
+### Oakveil Woods
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>This forest was viciously defended during Dracula's Rise and remains viciously defended today. Its Venomblades have only grown in strength, empowered by whatever went wrong five years ago. The lands and its denizens are shrouded in mystery.</p>
+  </div>
+</div>
+
+<div class="p-4 rounded bg-background-800/60 border border-gold-800/60 my-4">
+  <span class="text-warm font-bold">Fun Fact</span>
+
+The Venomblade's boatmaking methods are new as they attempt to mimic the designs seen in the Brighthaven Docks, but they have been unsuccessful in learning how to navigate the seas thus far. Most of their attempts end up as wrecks on their beach.
+</div>
+
+### Silverlight Hills
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>About twenty-five years ago, Novosvet declared Vardoran a protectorate of their territories and sent out a brigade of masons, carpenters, priests, and volunteers to build a port town on the uninhabited western coast. Brighthaven was built, the harpies were driven back into the canyons, and the silver mines were established. If it was not for this coincidental foothold, the Church of Luminance would be nowhere near Vardoran when Dracula rose.</p>
+  </div>
+</div>
+
+<div class="p-4 rounded bg-background-800/60 border border-gold-800/60 my-4">
+  <span class="text-warm font-bold">Fun Fact</span>
+
+Harpies do not collect gemstones simply because they are shiny. It is because they are a primitive society that ascribes value to beauty and rarity rather than practical value.
+</div>
 
 <!-- section:aetheria -->
 # Aetheria, the Land of the Air and Stars
@@ -1577,7 +1664,6 @@ Vardoran's ancient funerary rites were written by real-estate agents, resulting 
 </div>
 
 <!-- section:miscellaneous-regions -->
-
 ## Western Continent
 
 #### Blaethean Salt Flats
@@ -1703,5 +1789,3 @@ Vardoran's ancient funerary rites were written by real-estate agents, resulting 
     <p>There is an ancient and respected practice of reading the smoke columns for oracles. The Frost Maiden of Hafjallheim is believed to be the first person to do so, and her legacy has made the Teeth's eruptions into an important cultural event.</p>
   </div>
 </div>
-
-
