@@ -20,6 +20,7 @@
   let headings = $state<{ text: string; id: string; level: number }[]>([]);
   let scrollElement = $state<HTMLElement | null>(null);
   let saveError = $state('');
+  let activeSection = $state('');
 
   const FILE_PATH = 'static/content/conduct/page.md';
 
@@ -68,6 +69,28 @@
     }
   }
 
+  function scrollToSection(id: string) {
+    activeSection = id;
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      history.replaceState(null, '', `#${id}`);
+    }
+  }
+
+  function handleScroll() {
+    if (!scrollElement) return;
+    const container = scrollElement;
+    const items = headings.map((h) => document.getElementById(h.id)).filter(Boolean) as HTMLElement[];
+    let current = '';
+    for (const el of items) {
+      if (el.offsetTop - container.offsetTop <= container.scrollTop + 100) {
+        current = el.id;
+      }
+    }
+    activeSection = current;
+  }
+
   onMount(async () => {
     const res = await fetchContent('conduct/page.md');
     const md = await res.text();
@@ -86,6 +109,7 @@
           const target = document.getElementById(hash);
           if (target && scrollElement) {
             scrollElement.scrollTop = target.offsetTop - scrollElement.offsetTop;
+            activeSection = hash;
           }
         });
       }
@@ -98,7 +122,7 @@
     {#if scrollElement}
       <ScrollIndicator {scrollElement} direction="up" />
     {/if}
-    <div bind:this={scrollElement} class="flex flex-col overflow-y-auto p-8 scrollbar-hidden marked">
+    <div bind:this={scrollElement} onscroll={handleScroll} class="flex flex-col overflow-y-auto p-8 scrollbar-hidden marked">
       <EditableSection filePath={FILE_PATH} sectionKey="content" {rawContent} onsave={onSectionSave}>
         {@html html}
       </EditableSection>
@@ -108,11 +132,18 @@
     {/if}
   </main>
 
-  <aside class="min-w-64 z-40 relative mt-5 mb-5 border-b-2 border-l-2 border-testing right-nav">
-    <nav class="scrollbar-left h-full p-4 pr-6 pb-24 rounded-lg bg-background-0/10 z-10 overflow-y-auto relative">
+  <aside class="min-w-60 z-40 relative mt-5 mb-5 border-b-2 border-l-2 border-testing right-nav">
+    <nav class="scrollbar-left h-full p-4 pb-24 rounded-lg bg-background-0/10 z-10 overflow-y-auto relative">
       {#each headings as h}
         <div style="margin-left: {(h.level - 1) * 12}px;">
-          <a href={'#' + h.id} class="block py-1 text-tprimary-800 hover:text-tprimary {h.level == 3 ? 'text-md' : ''}">{h.text}</a>
+          <button
+            onclick={() => scrollToSection(h.id)}
+            class="block w-full text-left py-1.5 px-2 rounded text-sm transition-colors cursor-pointer {activeSection === h.id
+              ? 'text-tprimary bg-background-800/40'
+              : 'text-tprimary-800 hover:text-tprimary hover:bg-background-800/20'}"
+          >
+            {h.text}
+          </button>
         </div>
       {/each}
     </nav>
