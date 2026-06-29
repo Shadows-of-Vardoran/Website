@@ -50,8 +50,9 @@
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-teal-800/60 to-teal-950/80 flex-shrink-0 border border-teal-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>The Archivum is a coalition of scholars, researchers, and practitioners drawn together from across the world under a single unifying principle: that understanding magic is more important than controlling it.</p>
-    <p>They are politically neutral by design. The Archivum takes no side in the wars between nations, the feuds between clans, or the long and bloody history between vampires and the Vampire Hunters' Guild. These conflicts are noise to them. Their focus is magic itself, where it comes from, how it works, and what it means for a world that had none of it five years ago.</p>
+    <p>The Archivum was founded five years ago in direct response to magic's sudden appearance in the world. A coalition of scholars, researchers, and practitioners drawn together from across the world under a single unifying principle: that understanding magic is more important than controlling it.</p>
+    <p>They are aggressively neutral by design. The Archivum takes no side in the wars between nations, the feuds between clans, or the long and bloody history between vampires and the Vampire Hunters' Guild. These conflicts are noise to them. Their focus is magic itself, where it comes from, how it works, and what it means for a world that had none of it five years ago.</p>
+    <p>The Archivum does not care what race you are. Vampire, human, werewolf, Mytt, Talam, all are welcome if they have an interest in research. Anyone and everyone can join their ranks.</p>
   </div>
 </div>
 
@@ -82,7 +83,7 @@
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-chartreuse-800/60 to-chartreuse-950/80 flex-shrink-0 border border-chartreuse-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Norus is a nation built on the philosophy that knowledge is power, and nowhere is that philosophy more nakedly expressed than in the Transcendum. A single company born from Norus' scholar class, the Transcendum arrived in Vardoran sixty years ago and has spent every one of those years remaking the northern reaches of the continent in its own image. What is now called Gloomrot was something else before they got there. The Transcendum is what happened to it.</p>
+    <p>Norus is a nation built on the philosophy that knowledge is power, and nowhere is that philosophy more nakedly expressed than in the Transcendum. A single company born from Norus' scholar class, the Transcendum arrived in Vardoran between four and five years ago, drawn by the absence of the laws that had been closing in around Blackbrew. What is now called Gloomrot was something else before they got there. The Transcendum is what happened to it.</p>
   </div>
 </div>
 
@@ -102,7 +103,7 @@
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-chartreuse-800/60 to-chartreuse-950/80 flex-shrink-0 border border-chartreuse-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Norus regulates its companies. Vardoran does not. Blackbrew founded the Transcendum and brought it to Vardoran, drawn by the absence of the laws that had been closing in around him. In sixty years his company has transformed the northern reaches of the continent into something the world has never seen before and would struggle to describe charitably. He has bent its considerable resources toward a personal obsession that has nothing to do with profit or expansion. Blackbrew wants to live forever, and he is not squeamish about what that pursuit costs other people.</p>
+    <p>Norus regulates its companies. Vardoran does not. Blackbrew founded the Transcendum and brought it to Vardoran, drawn by the absence of the laws that had been closing in around him. In the years since, his company has transformed the northern reaches of the continent into something the world has never seen before and would struggle to describe charitably. He has bent its considerable resources toward a personal obsession that has nothing to do with profit or expansion. Blackbrew wants to live forever, and he is not squeamish about what that pursuit costs other people.</p>
     <p>The people of Rustlock live under the shadow of Gloomrot and the Transcendum's dominance, but they also have opportunity that does not exist elsewhere, a path forward for those willing to take the risk that comes with it. What exactly Blackbrew is working toward, and how far he intends to take it, remains an open question.</p>
   </div>
 </div>

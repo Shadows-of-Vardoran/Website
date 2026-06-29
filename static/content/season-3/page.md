@@ -2,10 +2,10 @@
 <div class="flex gap-6 my-4">
   <div class="flex-1 text-lg leading-relaxed">
     <p class="mb-4">
-      The world was mundane once. No magic, no monsters, no things that went bump in the night with any real teeth behind them. People lived and died by entirely ordinary means, and the laws of the world were simple and consistent.
+      The world was mundane once. No magic, no monsters, no things that went bump in the night with any real teeth behind them. People lived and died by entirely ordinary means, and the laws of the world were simple and consistent. The year is 1273 AF, and that world is gone.
     </p>
     <p>
-      Three hundred years ago, that changed. The first vampire walked the earth, and with them came the first magic the world had ever seen. What followed was centuries of terror. Vampires spread like a plague across the land, stronger and faster and harder to kill than anything humanity had faced before. The world had no framework for what they were or how to stop them. It took generations of adaptation, sacrifice, and the founding of the Vampire Hunters' Guild before humanity clawed back any semblance of safety. Slowly, painfully, the vampires retreated behind the walls of Qalidran, their island nation, and an uneasy peace settled over the world.
+      Three hundred years ago, in 973 AF, that changed. The first vampire walked the earth, and with them came the first magic the world had ever seen. What followed was centuries of terror. Vampires spread like a plague across the land, stronger and faster and harder to kill than anything humanity had faced before. The world had no framework for what they were or how to stop them. It took generations of adaptation, sacrifice, and the founding of the Vampire Hunters' Guild before humanity clawed back any semblance of safety. Slowly, painfully, the vampires retreated behind the walls of Qalidran, their island nation, and an uneasy peace settled over the world.
     </p>
   </div>
   <div class="w-14 rounded bg-gradient-to-b from-tprimary-800/40 to-tprimary-900/60 flex-shrink-0 border border-tprimary-900/30"></div>
@@ -47,7 +47,7 @@
       The world stopped making sense.
     </p>
     <p class="mb-4">
-      What is known is that five years ago, magic poured into the world. People who had never cast a spell in their lives found power in their hands. New creatures appeared without warning. Geography shifted overnight.
+      What is known is that in 1268 AF, five years ago, magic poured into the world. People who had never cast a spell in their lives found power in their hands. New creatures appeared without warning. Geography shifted overnight.
     </p>
     <p class="mb-6">
       Recently, a scholar within a coalition of researchers known as the Archivum made a pivotal discovery. Whatever caused magic to flood the world... the origin point was in Vardoran. Word has spread. People are arriving from across the world, drawn by that revelation for reasons of their own. Some want to understand what happened. Some want to claim whatever power a place like that might still hold. Some have been sent by organizations that see opportunity in the chaos. Some are simply following a pull they cannot entirely explain.
@@ -106,7 +106,7 @@ We are inclined to trust the community with this framework as-is without any sig
 <!-- section:citizenship -->
 <div class="text-lg leading-relaxed">
   <p class="mb-4">
-    Upon whitelisting, you may select a location to be a citizen of. Citizenship comes with a tag that prevents mobs in that area from automatically aggroing you. Each region also has a selection of merchants aligned with that faction. Citizens can purchase from these merchants as an alternate means of acquiring normal equipment and materials, rather than relying solely on crafting or looting.
+    Upon whitelisting, you may select a location to be a citizen of. After onboarding, you will be teleported to your chosen citizenship location. Citizenship comes with a tag that prevents mobs in that area from automatically aggroing you. Each region also has a selection of merchants aligned with that faction. Citizens can purchase from these merchants as an alternate means of acquiring normal equipment and materials, rather than relying solely on crafting or looting.
   </p>
   <p class="mb-4">
     You may only hold citizenship in one place at a time. Brighthaven and Dunley are allied with each other, so citizenship in one allows you to roam the territory of the other without being attacked by local mobs.
@@ -147,15 +147,9 @@ We are inclined to trust the community with this framework as-is without any sig
     <div class="text-tprimary font-cinzel text-lg mb-1">Rustlock</div>
     <p class="text-base text-tprimary-100">Rustlock is Transcendum territory, and the Transcendum do not care what you are. They care what you can do. Any race may hold citizenship here, so long as you make yourself worth keeping around.</p>
     <p class="text-base text-tprimary-100">Those who contribute to the organization's work find the doors open. Those who do not, find them closed.</p>
+    </div>
   </div>
 </div>
-
-<div class="p-4 rounded border border-green-900/30 bg-green-900/15 mt-4">
-  <div class="text-tprimary font-cinzel text-lg mb-1">Animal Faction Ally</div>
-  <p class="text-base text-tprimary-100">If you request it and it matches your character lore, we will hand out faction ally tags for normal animals (moose, deer, wolf, bear, and similar). This does not apply to cursed forest, mutant, or venom sap based animals.</p>
-  <p class="text-base text-tprimary-100">Talam by default receive the bear faction tag, which makes them allied with mundane animals and stone golems.</p>
-</div>
-
 
 <!-- section:mortality-contract -->
 The mortality contract applies to all mortal player races. It governs how injuries are classified, when medical RP is required, and what happens when a character reaches the end of their mortality. The specific settings that determine how many critical injuries a race can survive, and what options are available upon death, are defined in each race's own document.
@@ -319,3 +313,172 @@ You may roll in as a blind character. A blind character is given a blindness deb
 <!-- section:faq -->
 
 ## Frequently Asked Questions
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">Can vampires use holy magic?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-violet-800/60 to-violet-950/80 flex-shrink-0 border border-violet-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>Yes, vampires can use light magic, though calling it <em>holy</em> magic is a misnomer. The school is light magic, not holy magic, and the distinction matters.</p>
+      <p>Vampires are not restricted from using light magic, but they will find it difficult to do so. They cannot whitelist with the light magic specialty at character creation, but they are not permanently locked out. Potentially using it remains open through RP and progression.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">Do vampires need to drink human blood specifically, or will any blood do?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>Any blood works. Vampires can drink from animals, humans, or any other source. There is no restriction on blood type or origin. The in-game systems handle this. Drink whatever you find.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">How old can mortal races live?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-amber-800/60 to-amber-950/80 flex-shrink-0 border border-amber-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>Vampires can be a maximum of 300 years old.</p>
+      <p>Humans, Talam, and werewolves can be a maximum of 90 years old, though a character at that extreme age is expected to RP the effects of old age.</p>
+      <p>Mytts are a special case. They do not understand time the way other races do. All Mytts are quite old, but they have only been in the world for a maximum of five years. As beings they have existed for much longer, but how long cannot be communicated in any meaningful way. They simply do not experience time in a framework that allows them to answer that question.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">What kind of magic tier is the world at right now? Is it high, mid, or low magic?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-cyan-800/60 to-cyan-950/80 flex-shrink-0 border border-cyan-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>The magical ceiling is high, but the starting line is very low. Achieving high magic things is entirely possible by the end of Season 4 if the RP work is put in. Doing so will require notable research, RP, experimentation, learning, dedication, and work.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">How would one RP to discover more about the inner workings of magic and rituals?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-purple-800/60 to-purple-950/80 flex-shrink-0 border border-purple-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>Open an RPO ticket. Players are encouraged to experiment and come up with their own ways to test and understand how things work. If you find yourself lacking direction, open an RPO ticket to discuss it with us. We can help brainstorm potential directions to take, and then you take those directions and we give you results.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">Are magic restrictions for different races permanent?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>Yes. Magic restrictions are permanent for each race. They are based on physicality and history as a species. Players can research the reasons in-game if they choose, but the restrictions themselves will not change. You will never have a human casting blood magic, for example.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">Do some races have more potential in certain magic types?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>No. The restrictions only limit access to different types of magic. They do not dictate potential. A Talam having a historical connection to nature does not mean they are naturally better at or have an easier time with druidic magic compared to a human.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">Is there lore behind what V Bloods are?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>Yes. There is lore behind V Bloods, and it is something players can research in-game once the season starts. It is content to be discovered.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">How mechanical can characters be via augmentations and machines?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-chartreuse-800/60 to-chartreuse-950/80 flex-shrink-0 border border-chartreuse-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>Generally, what you see in-game is achievable. Because the boss Adam exists, advanced mechanical modifications are entirely possible. However, full-blown robotic androids are not.</p>
+      <p>Adam and things like him represent the apex of research conducted by Blackbrew and the Transcendum. Achieving that level is considered the extreme high end of what is possible with augmentations. Players should tailor their expectations to their own aptitude and skill level in those fields of study.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">How many moons and suns does this world have?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-amber-800/60 to-amber-950/80 flex-shrink-0 border border-amber-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>One sun and one moon. If players want to pursue astrological research, the team is prepared to support that.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">If a werewolf is a citizen of Dunley or Silverlight, does their faction change when they transform? Does it reset when they turn back?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>Yes to both. This applies to all shapeshifts, not just werewolf transformations.</p>
+      <p>The faction you get from citizenship only applies while you are in your main form. If you shapeshift into any standard shapeshift, the werewolf form, or any other special shapeshift, you will have the faction associated with that form instead. When you revert to your normal form, your citizenship faction returns after you leave combat.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">What are the limits on medical research, building a hospital, and medical tools? Can a doctor use surgical claws, hatchets, or a mace?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>There are no strict limits on medical research, but it should stay scoped to the doctoring specialty. Biological research is a separate concept. Medical-focused research is scoped to doctoring.</p>
+      <p>You are welcome to build a hospital and use any tools that make logical sense for the setting. For example, advanced modern-day medical compounds such as morphine do not fit the setting. Period-appropriate alternatives like laudanum or willow bark extract are fine.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">Given that several races cannot use Dominate, how will servants work for them? Is there a way to obtain them through other means?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-violet-800/60 to-violet-950/80 flex-shrink-0 border border-violet-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>Last season we allowed servants to be purchased via coin for humans. We intend to continue the same system. It will be available to all races server-wide and is being worked on over the next two weeks.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">Can player characters have encountered powerful outer entities or beings from beyond in their backstories?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-purple-800/60 to-purple-950/80 flex-shrink-0 border border-purple-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>No. There are no large, extremely powerful, magically heavy entities roaming the land. Player backstories that try to introduce or reference such entities will be asked to change.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">Is the entire map open from day one, or are we locked to a starting zone?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-emerald-800/60 to-emerald-950/80 flex-shrink-0 border border-emerald-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>The entire map is open and explorable from day one with no region locks. Individuals who have citizenship will be teleported to their respective citizenship location after onboarding.</p>
+    </div>
+  </div>
+</div>
+
+<div class="mb-6">
+  <div class="text-xl font-cinzel font-bold text-tprimary mb-2">Will the Vampire Hunters Guild target people who are flagrant about murdering NPCs and slaughtering in Brighthaven?</div>
+  <div class="flex gap-4">
+    <div class="w-3 rounded bg-gradient-to-b from-amber-800/60 to-amber-950/80 flex-shrink-0 border border-amber-900/30"></div>
+    <div class="flex-1 text-lg leading-relaxed">
+      <p>Yes, the admins use the Vampire Hunters Guild as an in-character enforcement tool against players who do mass conflict or indiscriminate slaughter. If your character is killing other players or causing mass destruction, they will draw the guild's attention.</p>
+      <p>However, we do not want to stop people from playing the video game. If you destroy a Dunley village through normal gameplay, we will not intervene. But if you RP-broadcast that you are slaughtering villages and causing mass terror, that is a different story. The guild will react when the actions are clearly advertised through roleplay.</p>
+      <p>We only involve the guild in cases where it is clearly for RP or we feel that the consequences of a player's actions over a period of time would warrant the guild's attention. We will always open a ticket to discuss with you what the guild getting involved looks like before anything happens.</p>
+      <p>If you are interested in having the Vampire Hunters Guild come after your character, you are welcome to open a ticket and talk with us about it. If you think the guild being antagonists in your story would be something you would enjoy, we are happy to explore that.</p>
+    </div>
+  </div>
+</div>

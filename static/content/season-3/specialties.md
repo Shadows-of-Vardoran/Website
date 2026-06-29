@@ -7,6 +7,10 @@ Its themes are life pushed past its natural limits. Sustenance and hunger. The b
 
 All vampires can channel blood magic instinctively. It is woven into their nature rather than learned, and basic applications come without instruction. However, instinct is not mastery. Advanced applications such as fleshcrafting, precise biological manipulation, and complex ritual work require dedicated study and practice like any other school of magic.
 
+<div class="p-4 rounded bg-background-800/60 border border-red-800/60 my-4">
+  <span class="text-warm font-bold">Having blood magic innately is not the same as having the blood magic specialty.</span> All vampires can channel blood magic in combat and use it for basic purposes without a specialty. Notable use of blood magic in an RP context beyond standard in-game use does require the specialty. Innate ability and specialized skill are separate things.
+</div>
+
 ## What You Can Do
 
 - Transfer life force from a living source to fuel healing, sustain the caster, or power a working.
@@ -362,6 +366,7 @@ Proper doctoring RP, treating wounds, performing procedures, and providing medic
 ## Features
 
 - Individuals under the mortality contract can only receive medical RP from a specialist doctor. Use `.sov treat <player>` to treat a critical injury or `.sov revive` to revive a nearby downed player. See the [Doctor Commands](#cmd-doctor) section for details.
+- Doctors can perform medical RP on themselves. Self-treatment follows the same rules as treating others.
 - Use custom commands to revive someone or bring them off their knees without joining their clan, at the expense of material requirements.
 - Expend material requirements to restore another person's blood pool amount.
 
