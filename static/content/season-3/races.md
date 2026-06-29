@@ -116,7 +116,7 @@ No mortality contract. Vampires do not age, do not die of natural causes, and ca
   </div>
 </div>
 
-## Qlidran's Cultural Influence
+## Qalidran's Cultural Influence
 
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
@@ -430,7 +430,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
 - Be a source of comfort and community
 - Generate intense feelings of loyalty and togetherness
 - Generate a desire to be close to the other end
-- Whither if the two Werewolves do not spend time together
+- Wither if the two Werewolves do not spend time together
 - Be severed if one of them dies
 </div>
 

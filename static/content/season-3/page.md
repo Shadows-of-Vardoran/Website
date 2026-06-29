@@ -249,6 +249,12 @@ These are the limits of what magic can accomplish in the Season 3 setting. If so
 - <span class="text-accent">**Attempting a lycanthropy cure.**</span> Reverting a werewolf back to a human is theoretically possible in the setting and is a valid long-term story. But it is a team-managed plotline, not a standard ritual ticket. Players attempting to do so should expect extensive research and time to be required, with the possibility that success is only achievable in a future season.
 
 
+<!-- section:world-particulars -->
+
+### Blind Characters
+
+You may roll in as a blind character. A blind character is given a blindness debuff that reduces your vision range to roughly around your character, or the middle of your screen. Restoring your vision requires significant advanced medical ritual roleplay with a notable magic component. Artificial eyes are not within the scope of what can be invented.
+
 <!-- section:commands -->
 | Command | Description |
 |---|---|
@@ -309,3 +315,7 @@ These are the limits of what magic can accomplish in the Season 3 setting. If so
 | `.abilities spell list` / `.ab spl` | List all spells available in your spell pool. |
 | `.abilities spell assign <slot> <spell>` / `.ab spa` | Assign a spell from your pool to a slot. Use `.abilities spell list` to see available spells. |
 | `.abilities spell unassign <slot>` / `.ab spu` | Clear a spell from a slot. |
+
+<!-- section:faq -->
+
+## Frequently Asked Questions

@@ -33,7 +33,9 @@
     { id: 'specialties', label: 'Specialties' },
     { id: 'mortality-contract', label: 'Mortality Contract' },
     { id: 'magic-tech-ceiling', label: 'RP Limitations' },
+    { id: 'world-particulars', label: 'World Particulars' },
     { id: 'commands', label: 'Commands' },
+    { id: 'faq', label: 'FAQ' },
   ];
 
   let loading = $state(true);
@@ -52,6 +54,8 @@
   let specsIntroHtml = $state('');
   let specsTechHtml = $state('');
   let commandsHtml = $state('');
+  let worldParticularsHtml = $state('');
+  let faqHtml = $state('');
 
   let expandedRace: number | null = $state(null);
   let expandedNation: number | null = $state(null);
@@ -136,6 +140,8 @@
     else if (key === 'specialties-intro') specsIntroHtml = await parse(md);
     else if (key === 'specialties-tech-details') specsTechHtml = await parse(md);
     else if (key === 'commands') commandsHtml = await parse(md);
+    else if (key === 'world-particulars') worldParticularsHtml = await parse(md);
+    else if (key === 'faq') faqHtml = await parse(md);
   }
 
   async function renderSpecHtml() {
@@ -267,7 +273,9 @@
       'citizenship',
       'mortality-contract',
       'magic-tech-ceiling',
+      'world-particulars',
       'commands',
+      'faq',
     ]);
 
     if (import.meta.env.DEV) {
@@ -925,7 +933,23 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 9: Commands -->
+        <!-- Section 9: World Particulars -->
+        <section id="world-particulars" class="mb-12 scroll-mt-8">
+          <div class="fade-background-up p-4 rounded-lg">
+            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">World Particulars</h2>
+            <EditableSection filePath={FILE_PATH} sectionKey="world-particulars" rawContent={sections['world-particulars'] || ''} onsave={onSectionSave}>
+              {#if worldParticularsHtml}
+                {@html worldParticularsHtml}
+              {:else}
+                <div class="text-tprimary-500 italic">World particulars coming soon.</div>
+              {/if}
+            </EditableSection>
+          </div>
+        </section>
+
+        <hr class="border-tprimary-900/30 my-6" />
+
+        <!-- Section 10: Commands -->
         <section id="commands" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Commands</h2>
@@ -934,6 +958,22 @@
                 <div class="marked text-[0.925rem]">{@html commandsHtml}</div>
               {:else}
                 <div class="text-tprimary-500 italic">Commands coming soon.</div>
+              {/if}
+            </EditableSection>
+          </div>
+        </section>
+
+        <hr class="border-tprimary-900/30 my-6" />
+
+        <!-- Section 11: FAQ -->
+        <section id="faq" class="mb-12 scroll-mt-8">
+          <div class="fade-background-up p-4 rounded-lg">
+            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Frequently Asked Questions</h2>
+            <EditableSection filePath={FILE_PATH} sectionKey="faq" rawContent={sections.faq || ''} onsave={onSectionSave}>
+              {#if faqHtml}
+                {@html faqHtml}
+              {:else}
+                <div class="text-tprimary-500 italic">Frequently asked questions coming soon.</div>
               {/if}
             </EditableSection>
           </div>
