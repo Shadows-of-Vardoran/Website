@@ -81,9 +81,9 @@
 </script>
 
 <div class="flex flex-col items-center w-full h-full overflow-y-auto scrollbar-hidden">
-  <div class="flex flex-col items-center justify-center max-lg:justify-start mt-10 w-4/5 h-fit pb-10">
-    <div class="text-5xl text-tprimary font-cinzel text-center">Shadows of Vardoran</div>
-    <div class="text-2xl text-tsecondary font-cinzel text-center">In the darkness, we rise</div>
+  <div class="flex flex-col items-center justify-center max-lg:justify-start mt-10 max-md:mt-4 w-4/5 max-md:w-11/12 h-fit pb-10 max-md:pb-4">
+    <div class="text-5xl max-md:text-3xl text-tprimary font-cinzel text-center">Shadows of Vardoran</div>
+    <div class="text-2xl max-md:text-lg text-tsecondary font-cinzel text-center">In the darkness, we rise</div>
 
     <div class="w-full pb-5 pt-16 px-2 fade-background-up relative marked">
       <EditableSection filePath={FILE_PATH} sectionKey="hero" rawContent={sections.hero || ''} onsave={onSectionSave}>
@@ -99,8 +99,8 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-[2fr_240px_2fr] max-lg:flex max-lg:flex-col w-full mt-10">
-      <div class="flex flex-col fade-background-left py-2 px-3 -ml-20 pl-20 max-lg:border-r-2 max-lg:border-tprimary-0">
+    <div class="grid grid-cols-[2fr_240px_2fr] max-lg:flex max-lg:flex-col w-full mt-10 max-md:mt-6">
+      <div class="flex flex-col fade-background-left py-2 px-3 -ml-20 pl-20 max-lg:border-r-2 max-lg:border-tprimary-0 max-md:ml-0 max-md:pl-3 max-md:px-3">
         <div class="text-3xl text-tprimary text-right font-cinzel mb-4">Server Features</div>
         <EditableSection filePath={FILE_PATH} sectionKey="features" rawContent={sections.features || ''} onsave={onSectionSave}>
           {#if featuresHtml}
@@ -117,7 +117,9 @@
         <img src={verticalSeparator1} alt="Separator" class="right-vertical-separator" />
       </div>
 
-      <div class="flex flex-col justify-center fade-background-right py-2 px-3 -mr-20 pr-20 max-lg:border-l-2 max-lg:border-tprimary-0 max-lg:mt-6">
+      <div
+        class="flex flex-col justify-center fade-background-right py-2 px-3 -mr-20 pr-20 max-lg:border-l-2 max-lg:border-tprimary-0 max-lg:mt-6 max-md:mr-0 max-md:pr-3 max-md:px-3"
+      >
         <div class="text-3xl text-tprimary font-cinzel mb-4">Server Settings</div>
         <EditableSection filePath={FILE_PATH} sectionKey="settings" rawContent={sections.settings || ''} onsave={onSectionSave}>
           {#if settingsHtml}
@@ -139,7 +141,7 @@
       <div>
         <a href="https://discord.gg/shadowsofvardoran" target="_blank" rel="noopener noreferrer">
           <button class="relative bg-transparent border-0 p-0 cursor-pointer discord-button">
-            <img src={buttonImage} alt="Join Discord Button" class="w-80 h-auto button-image" />
+            <img src={buttonImage} alt="Join Discord Button" class="w-80 max-md:max-w-full h-auto button-image" />
             <span class="absolute inset-0 flex items-center justify-center text-tprimary font-cinzel text-xl pointer-events-none"> Join Discord </span>
           </button>
         </a>
@@ -181,6 +183,34 @@
     display: flex;
     pointer-events: none;
     filter: invert(90%);
+  }
+
+  @media (max-width: 768px) {
+    .fancy-bottom-border {
+      left: 0;
+      right: 0;
+      bottom: -16px;
+      height: 32px;
+    }
+    .fancy-top-border {
+      left: 0;
+      right: 0;
+      top: -16px;
+      height: 32px;
+    }
+    .fancy-bottom-border .border-left,
+    .fancy-bottom-border .border-right,
+    .fancy-top-border .border-left,
+    .fancy-top-border .border-right {
+      width: 32px;
+      height: 32px;
+      background-size: 32px 32px;
+    }
+    .fancy-bottom-border .border-middle,
+    .fancy-top-border .border-middle {
+      height: 32px;
+      background-size: auto 32px;
+    }
   }
 
   .fancy-top-border .border-left,

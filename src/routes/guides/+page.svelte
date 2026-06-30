@@ -34,6 +34,7 @@
   let saving = $state(false);
   let creatingGuide = $state(false);
   let newSlug = $state('');
+  let gridEl: HTMLDivElement | undefined = $state();
 
   $effect(() => {
     isAdmin = getIsAdmin();
@@ -54,6 +55,7 @@
     editing = false;
     expandedGuide = i;
     window.location.hash = guides[i].slug;
+    if (gridEl) gridEl.scrollTop = 0;
   }
 
   function closeGuide() {
@@ -280,27 +282,26 @@
 
 <div class="w-full h-full relative">
   {#if errorMsg}
-    <div class="absolute bottom-4 right-[274px] z-50 px-4 py-2 bg-red-800 text-white font-cinzel text-xs rounded shadow-lg">
+    <div class="absolute bottom-4 right-[274px] max-md:right-4 z-50 px-4 py-2 bg-red-800 text-white font-cinzel text-xs rounded shadow-lg">
       {errorMsg}
       <button onclick={() => (errorMsg = '')} class="ml-2 text-white/70 hover:text-white">&times;</button>
     </div>
   {/if}
   {#if successMsg}
-    <div class="absolute bottom-4 right-[274px] z-50 px-4 py-2 bg-green-800 text-white font-cinzel text-xs rounded shadow-lg">
+    <div class="absolute bottom-4 right-[274px] max-md:right-4 z-50 px-4 py-2 bg-green-800 text-white font-cinzel text-xs rounded shadow-lg">
       {successMsg}
       <button onclick={() => (successMsg = '')} class="ml-2 text-white/70 hover:text-white">&times;</button>
     </div>
   {/if}
 
-  <div class="flex flex-wrap gap-4 h-full pt-6 pb-3 px-3">
+  <div bind:this={gridEl} class="flex flex-wrap gap-4 h-full pt-6 pb-3 px-3 max-md:px-2 overflow-y-auto scrollbar-hidden">
     {#each guides as guide, i}
       <div
-        class="w-64 h-64 opacity-100 animate {expandedGuide === i ? 'absolute inset-0 w-full h-full z-10 pt-6 pb-3 px-3' : 'relative'} {expandedGuide !== null &&
-        expandedGuide !== i
-          ? 'opacity-0!'
-          : ''}"
+        class="w-64 h-64 max-md:w-[calc(50%-0.5rem)] max-md:h-56 opacity-100 animate {expandedGuide === i
+          ? 'absolute inset-0 w-full h-full z-10 pt-6 pb-3 px-3 max-md:px-2 max-md:!w-full max-md:!h-full'
+          : 'relative'} {expandedGuide !== null && expandedGuide !== i ? 'opacity-0!' : ''}"
       >
-        <button onclick={() => expandGuide(i)} class="absolute cursor-pointer inset-0 animate opacity-100 {expandedGuide === i ? 'opacity-0! px-3 py-6' : ''}">
+        <button onclick={() => expandGuide(i)} class="absolute cursor-pointer inset-0 animate opacity-100 {expandedGuide === i ? 'opacity-0! pointer-events-none!' : ''}">
           <div class="flex flex-col bg-background-900/60 hover:bg-background-800/30 h-full px-3 py-4 card-border border-2">
             <div class="text-2xl font-cinzel card-title">{guide.title}</div>
             <div class="text-lg grow mt-6 text-left">{guide.description}</div>
@@ -344,32 +345,34 @@
             <div
               class="flex flex-col w-full h-full relative px-4 py-3 content-border border-2 bg-linear-330 from-3% from-transparent via-4% via-background-900/95 to-transparent to-300%"
             >
-              <div class="flex justify-between items-center border-b-2 border-background-200 pb-2 mb-2">
-                <span class="text-xs font-mono text-tprimary-400">{guide.slug}</span>
-                <span class="text-xs text-red-400 ml-1">(changing the title will update the slug)</span>
-                <div class="flex gap-2 ml-auto">
+              <div class="flex max-md:flex-col max-md:gap-2 justify-between items-center border-b-2 border-background-200 pb-2 mb-2">
+                <div class="flex max-md:flex-col max-md:gap-1 items-center">
+                  <span class="text-xs font-mono text-tprimary-400">{guide.slug}</span>
+                  <span class="text-xs text-red-400 ml-1 max-md:ml-0">(changing the title will update the slug)</span>
+                </div>
+                <div class="flex gap-2 ml-auto max-md:ml-0 max-md:flex-wrap">
                   <button
                     onclick={handleSave}
                     disabled={saving}
-                    class="px-2 py-1 bg-success-800 hover:bg-success-700 disabled:opacity-50 text-white font-cinzel text-xs rounded cursor-pointer disabled:cursor-not-allowed"
+                    class="px-2 py-1 min-h-10 bg-success-800 hover:bg-success-700 disabled:opacity-50 text-white font-cinzel text-xs rounded cursor-pointer disabled:cursor-not-allowed"
                   >
                     <i class="mdi mdi-content-save mr-1"></i>Save
                   </button>
                   <button
                     onclick={handleCancel}
                     disabled={saving}
-                    class="px-2 py-1 bg-background-700 hover:bg-background-600 text-tprimary font-cinzel text-xs rounded cursor-pointer"
+                    class="px-2 py-1 min-h-10 bg-background-700 hover:bg-background-600 text-tprimary font-cinzel text-xs rounded cursor-pointer"
                   >
                     Cancel
                   </button>
                   <button
                     onclick={handleDelete}
                     disabled={saving}
-                    class="px-2 py-1 bg-red-800 hover:bg-red-700 disabled:opacity-50 text-white font-cinzel text-xs rounded cursor-pointer disabled:cursor-not-allowed"
+                    class="px-2 py-1 min-h-10 bg-red-800 hover:bg-red-700 disabled:opacity-50 text-white font-cinzel text-xs rounded cursor-pointer disabled:cursor-not-allowed"
                   >
                     <i class="mdi mdi-delete mr-1"></i>Delete
                   </button>
-                  <button onclick={closeGuide} class="px-2 py-1 text-tprimary/70 hover:text-white font-cinzel text-xs rounded cursor-pointer"> Close </button>
+                  <button onclick={closeGuide} class="min-h-10 min-w-10 flex items-center justify-center text-tprimary/70 hover:text-white font-cinzel text-xs rounded cursor-pointer" aria-label="Close guide"> <i class="mdi mdi-close"></i> </button>
                 </div>
               </div>
               <div bind:this={editorEl} class="flex-grow border border-tprimary-700 rounded overflow-y-auto"></div>
@@ -378,18 +381,18 @@
             <div
               class="flex flex-col w-full h-full relative px-4 py-3 content-border border-2 bg-linear-330 from-3% from-transparent via-4% via-background-900/95 to-transparent to-300%"
             >
-              <div class="flex justify-between items-center border-b-2 border-background-200 pb-2">
-                <h2 class="text-2xl font-bold text-white font-cinzel">{guide.title}</h2>
+              <div class="flex max-md:flex-col max-md:gap-2 justify-between items-center border-b-2 border-background-200 pb-2">
+                <h2 class="text-2xl max-md:text-xl font-bold text-white font-cinzel">{guide.title}</h2>
                 <div class="flex gap-2">
                   {#if isAdmin}
-                    <button onclick={startEditing} class="px-2 py-1 bg-background-800/80 hover:bg-info-800 text-tprimary font-cinzel text-xs rounded cursor-pointer">
+                    <button onclick={startEditing} class="px-2 py-1 min-h-12 bg-background-800/80 hover:bg-info-800 text-tprimary font-cinzel text-xs rounded cursor-pointer">
                       <i class="mdi mdi-pencil mr-1"></i>Edit
                     </button>
                   {/if}
-                  <button onclick={closeGuide} class="text-white text-2xl z-10 cursor-pointer font-cinzel hover:text-red-500/90 transition-colors duration-300"> Close </button>
+                  <button onclick={closeGuide} class="min-h-12 min-w-12 flex items-center justify-center text-white text-2xl z-10 cursor-pointer font-cinzel hover:text-red-500/90 transition-colors duration-300" aria-label="Close guide"> <i class="mdi mdi-close"></i> </button>
                 </div>
               </div>
-              <div class="overflow-y-auto scrollbar-hidden marked pt-2">{@html guide.parsedContent}</div>
+              <div class="flex-grow min-h-0 overflow-y-auto scrollbar-hidden marked pt-2">{@html guide.parsedContent}</div>
               <img
                 src={brBorderDecoration2}
                 alt="Bottom Right Border Decoration"
@@ -401,13 +404,13 @@
       </div>
 
       {#if expandedGuide === i}
-        <div class="w-64 h-64"></div>
+        <div class="w-64 h-64 max-md:hidden"></div>
       {/if}
     {/each}
   </div>
 
   {#if isAdmin}
-    <div class="absolute bottom-4 right-[152px] flex items-center gap-3">
+    <div class="absolute bottom-4 right-[152px] max-md:right-4 max-md:left-4 flex items-center gap-3 max-md:flex-wrap">
       {#if creatingGuide}
         <input
           bind:value={newSlug}

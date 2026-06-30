@@ -17,7 +17,7 @@
 
 Vampires are the vanilla gameplay experience. All schools of magic are available. No specialties are restricted. Vampires begin play with Bat Form unlocked.
 
-<div class="grid grid-cols-2 gap-4 mt-7">
+<div class="grid grid-cols-2 max-md:grid-cols-1 gap-4 mt-7">
   <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Restrictions</span>
 - No restrictions. Vanilla experience.
@@ -222,7 +222,7 @@ No mortality contract. Vampires do not age, do not die of natural causes, and ca
 
 Humans are mortal and carry no innate magic. Blood magic is entirely beyond their reach. They select a blood type at creation and advance it through progression quests. Limited to 2 magic schools at a time, but can change which schools they channel through sufficient RP.
 
-<div class="grid grid-cols-2 gap-4 mt-7">
+<div class="grid grid-cols-2 max-md:grid-cols-1 gap-4 mt-7">
   <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Restrictions</span>
 - No blood drain. Cannot drink blood from mobs, bottles, or other players.
@@ -298,15 +298,55 @@ Humans who survive long enough to increase their blood percentage will be given 
 
 Log your progress in your character's journal. When you are ready for an upgrade, open a contract ticket to receive the blood quality increase.
 
-| Blood % | Quest | Description |
-|---|---|---|
-| 30's → 40's | First Steps | Establish a connection with at least two characters outside of your sigil, documented through Bats exchanges. The correspondence should reflect genuine interaction rather than brief or transactional messages. |
-| 40's → 50's | Connection and Commitment | Give a gift to a character that yours has formed a connection with. Ideally the gift should be handpicked for a notable RP reason. |
-| 50's → 60's | Known Faces | Meet at least four characters outside of your sigil and document each encounter in your character's journal. Each entry should include a brief summary of who they are and how the interaction went. |
-| 60's → 70's | Woven In | Contribute something lasting to the public record. Distribute a written work to the general public, whether via Waygate or by distributing it to at least 10 people in character. It should reflect your character's perspective and voice. It does not have to be publicly attributed to them if they prefer otherwise. |
-| 70's → 80's | Known Quantity | Assist three different characters outside your sigil for something your character is known for, whether a skill, a specialty, knowledge, or a service. Document each instance through journals. You can prompt these requests yourself by offering advice in a specialty, or simply offering your help and being taken up on the offer. |
-| 80's → 90's | Pinnacle Part 1 | Begin work towards completing a major beat in your character's story, or begin documenting the process if you have not already. This can be an achievement of a long term and meaningful goal, a turning point where you find yourself pursuing something new, or some other form of self discovery or actualization. You do not need to complete your goal for Pinnacle Part 1, but identifiable progress or completion of intermediary goals must be made. You may be asked to complete an individualized quest to represent this progress. |
-| 90's → 100's | Pinnacle Part 2 | Complete the ultimate goal identified in Pinnacle Part 1, with an individualized quest to represent this achievement. Document the journey, steps, or answers you found at the end of your path. |
+<div class="md:table w-full border-collapse max-md:space-y-3 mt-4 ml-4">
+  <div class="md:table-row max-md:hidden border-b border-tprimary-900/30">
+    <div class="md:table-cell font-cinzel font-bold uppercase text-xs tracking-wider text-tprimary-500 pb-2 pr-2">Blood %</div>
+    <div class="md:table-cell font-cinzel font-bold uppercase text-xs tracking-wider text-tprimary-500 pb-2 pr-2 md:min-w-[240px]">Quest</div>
+    <div class="md:table-cell font-cinzel font-bold uppercase text-xs tracking-wider text-tprimary-500 pb-2">Description</div>
+  </div>
+
+  <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:whitespace-nowrap max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">30's → 40's</div>
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:min-w-[240px] max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm max-md:mb-1">First Steps</div>
+    <div class="md:table-cell md:align-top md:py-2">Establish a connection with at least two characters outside of your sigil, documented through Bats exchanges. The correspondence should reflect genuine interaction rather than brief or transactional messages.</div>
+  </div>
+
+  <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:whitespace-nowrap max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">40's → 50's</div>
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:min-w-[240px] max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm max-md:mb-1">Connection and Commitment</div>
+    <div class="md:table-cell md:align-top md:py-2">Give a gift to a character that yours has formed a connection with. Ideally the gift should be handpicked for a notable RP reason.</div>
+  </div>
+
+  <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:whitespace-nowrap max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">50's → 60's</div>
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:min-w-[240px] max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm max-md:mb-1">Known Faces</div>
+    <div class="md:table-cell md:align-top md:py-2">Meet at least four characters outside of your sigil and document each encounter in your character's journal. Each entry should include a brief summary of who they are and how the interaction went.</div>
+  </div>
+
+  <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:whitespace-nowrap max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">60's → 70's</div>
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:min-w-[240px] max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm max-md:mb-1">Woven In</div>
+    <div class="md:table-cell md:align-top md:py-2">Contribute something lasting to the public record. Distribute a written work to the general public, whether via Waygate or by distributing it to at least 10 people in character. It should reflect your character's perspective and voice. It does not have to be publicly attributed to them if they prefer otherwise.</div>
+  </div>
+
+  <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:whitespace-nowrap max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">70's → 80's</div>
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:min-w-[240px] max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm max-md:mb-1">Known Quantity</div>
+    <div class="md:table-cell md:align-top md:py-2">Assist three different characters outside your sigil for something your character is known for, whether a skill, a specialty, knowledge, or a service. Document each instance through journals. You can prompt these requests yourself by offering advice in a specialty, or simply offering your help and being taken up on the offer.</div>
+  </div>
+
+  <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:whitespace-nowrap max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">80's → 90's</div>
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:min-w-[240px] max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm max-md:mb-1">Pinnacle Part 1</div>
+    <div class="md:table-cell md:align-top md:py-2">Begin work towards completing a major beat in your character's story, or begin documenting the process if you have not already. This can be an achievement of a long term and meaningful goal, a turning point where you find yourself pursuing something new, or some other form of self discovery or actualization. You do not need to complete your goal for Pinnacle Part 1, but identifiable progress or completion of intermediary goals must be made. You may be asked to complete an individualized quest to represent this progress.</div>
+  </div>
+
+  <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:whitespace-nowrap max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">90's → 100's</div>
+    <div class="md:table-cell md:align-top md:py-2 md:pr-2 md:min-w-[240px] max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm max-md:mb-1">Pinnacle Part 2</div>
+    <div class="md:table-cell md:align-top md:py-2">Complete the ultimate goal identified in Pinnacle Part 1, with an individualized quest to represent this achievement. Document the journey, steps, or answers you found at the end of your path.</div>
+  </div>
+</div>
 
 <!-- section:werewolf -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-orange-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-orange-500 block mb-1">Restricted Magic Schools</span><span class="text-base text-tprimary-50">Werewolves cannot use blood, unholy, illusion, chaos, light, or shadow magic.</span></div>
@@ -333,7 +373,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
   </div>
 </div>
 
-<div class="grid grid-cols-2 gap-4 mt-7">
+<div class="grid grid-cols-2 max-md:grid-cols-1 gap-4 mt-7">
   <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Restrictions</span>
 - Cannot use horses.
@@ -531,20 +571,56 @@ Log your progress in your character's journal. When you are ready for an upgrade
   <div class="w-3 rounded bg-gradient-to-b from-violet-800/60 to-violet-950/80 flex-shrink-0 border border-violet-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
     <p>Mytts are composed of 3 magical schools, locked at whitelist. When selecting their schools, they choose one from each of three pairs: Storm or Frost, Chaos or Illusion, and Light or Shadow. Picking one locks out the other from that pair. Their blood pool represents magical energy, not a biological resource, and depletes over time as they exist in the Mortal Realm. They do not consume blood. Instead, they restore their pool by consuming magically aligned materials tied to their schools.</p>
-    <table>
-      <tr><th>School</th><th>Blood Type</th><th>Material</th><th>Shapeshift</th></tr>
-      <tr><td>Storm</td><td>Warrior</td><td>Topaz</td><td>Storm Bear</td></tr>
-      <tr><td>Chaos</td><td>Scholar</td><td>Amethyst</td><td>Chaos Crow</td></tr>
-      <tr><td>Frost</td><td>Brute</td><td>Sapphire</td><td>Ice Elemental</td></tr>
-      <tr><td>Illusion</td><td>Rogue</td><td>Mist Stone</td><td>Pixie</td></tr>
-      <tr><td>Light</td><td>Worker</td><td>Quartz</td><td>Smite Orb</td></tr>
-      <tr><td>Shadow</td><td>Draculin</td><td>Stygian Shards</td><td>Exsanguinator</td></tr>
-    </table>
+    <div class="md:table w-full border-collapse max-md:space-y-3 mt-4 ml-4">
+      <div class="md:table-row max-md:hidden border-b border-tprimary-900/30">
+        <div class="md:table-cell font-cinzel font-bold uppercase text-xs tracking-wider text-tprimary-500 pb-2 pr-2">School</div>
+        <div class="md:table-cell font-cinzel font-bold uppercase text-xs tracking-wider text-tprimary-500 pb-2 pr-2">Blood Type</div>
+        <div class="md:table-cell font-cinzel font-bold uppercase text-xs tracking-wider text-tprimary-500 pb-2 pr-2">Material</div>
+        <div class="md:table-cell font-cinzel font-bold uppercase text-xs tracking-wider text-tprimary-500 pb-2">Shapeshift</div>
+      </div>
+      <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">Storm</div>
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm">Warrior</div>
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:text-tprimary-200 max-md:text-sm">Topaz</div>
+        <div class="md:table-cell md:align-top md:py-2">Storm Bear</div>
+      </div>
+      <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">Chaos</div>
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm">Scholar</div>
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:text-tprimary-200 max-md:text-sm">Amethyst</div>
+        <div class="md:table-cell md:align-top md:py-2">Chaos Crow</div>
+      </div>
+      <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">Frost</div>
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm">Brute</div>
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:text-tprimary-200 max-md:text-sm">Sapphire</div>
+        <div class="md:table-cell md:align-top md:py-2">Ice Elemental</div>
+      </div>
+      <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">Illusion</div>
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm">Rogue</div>
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:text-tprimary-200 max-md:text-sm">Mist Stone</div>
+        <div class="md:table-cell md:align-top md:py-2">Pixie</div>
+      </div>
+      <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">Light</div>
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm">Worker</div>
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:text-tprimary-200 max-md:text-sm">Quartz</div>
+        <div class="md:table-cell md:align-top md:py-2">Smite Orb</div>
+      </div>
+      <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">Shadow</div>
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm">Draculin</div>
+        <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:text-tprimary-200 max-md:text-sm">Stygian Shards</div>
+        <div class="md:table-cell md:align-top md:py-2">Exsanguinator</div>
+      </div>
+    </div>
     <p>A Mytt's three blood types correspond directly to their three schools. They have a custom command to swap between these blood types. Consuming the aligned material for their active blood type restores their pool. They can only recover blood pool from materials tied to the three schools they are composed of.</p>
+    <p>Mytts start at 100% blood quality and are locked to that value. Their blood quality cannot be increased or decreased by any means.</p>
   </div>
 </div>
 
-<div class="grid grid-cols-2 gap-4 mt-7">
+<div class="grid grid-cols-2 max-md:grid-cols-1 gap-4 mt-7">
   <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Restrictions</span>
 - Permanent 0% silver resistance.
@@ -592,7 +668,7 @@ No mortality contract. Mytts do not age, do not die of natural causes, and can r
   </div>
 </div>
 
-<div class="grid grid-cols-2 gap-4 mt-7">
+<div class="grid grid-cols-2 max-md:grid-cols-1 gap-4 mt-7">
   <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Restrictions</span>
 - No blood drain. Cannot drink blood from mobs, bottles, or other players.

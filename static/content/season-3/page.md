@@ -131,7 +131,7 @@ We are inclined to trust the community with this framework as-is without any sig
   The RP team is open to facilitating a character gaining citizenship in a location during the season. This is a difficult process given the state of the world and the apprehension surrounding newcomers. Open a contract ticket to pursue this.
 </p>
 
-<div class="grid grid-cols-3 gap-4 mt-6">
+<div class="grid grid-cols-3 max-md:grid-cols-1 gap-4 mt-6">
   <div class="p-4 rounded border border-white/15 bg-white/5">
     <div class="text-tprimary font-cinzel text-lg mb-1">Brighthaven</div>
     <p class="text-base text-tprimary-100">Citizens of Brighthaven are typical residents of a Luminance-aligned city. You may also hold citizenship here if your backstory places you in a primarily Luminance nation.</p>
@@ -149,6 +149,12 @@ We are inclined to trust the community with this framework as-is without any sig
     <p class="text-base text-tprimary-100">Those who contribute to the organization's work find the doors open. Those who do not, find them closed.</p>
     </div>
   </div>
+</div>
+
+<div class="p-4 rounded border border-green-900/30 bg-green-900/15 mt-4">
+  <div class="text-tprimary font-cinzel text-lg mb-1">Animal Faction Ally</div>
+  <p class="text-base text-tprimary-100">If you request it and it matches your character lore, we will hand out faction ally tags for normal animals (moose, deer, wolf, bear, and similar). This does not apply to cursed forest, mutant, or venom sap based animals.</p>
+  <p class="text-base text-tprimary-100">Talam by default receive the bear faction tag, which makes them allied with mundane animals and stone golems.</p>
 </div>
 
 <!-- section:mortality-contract -->

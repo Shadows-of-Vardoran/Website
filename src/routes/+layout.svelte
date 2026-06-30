@@ -12,6 +12,9 @@
   import { onMount } from 'svelte';
   import { restoreSession } from '$lib/stores/admin.svelte';
   import AdminUnlock from '$lib/components/AdminUnlock.svelte';
+  import MobileNav from '$lib/components/MobileNav.svelte';
+
+  let mobileNav: MobileNav;
 
   onMount(() => {
     restoreSession();
@@ -22,13 +25,21 @@
   <!-- <link rel="icon" href={dwLogoWhite} /> -->
 </svelte:head>
 
-<div class="h-screen w-screen flex overflow-hidden relative max-md:flex-col">
+<div class="h-dvh w-dvw flex overflow-hidden relative max-md:flex-col">
   <img src={darkCastle} alt="Dark Castle" class="absolute top-0 left-0 object-cover w-full h-full z-0 -scale-x-100" />
   <div class="absolute inset-0 bg-black-gradient z-0"></div>
 
   <!-- <img src={moon} alt="Moon" class="absolute top-0 right-0 object-cover w-48 min-w-48 max-w-48 mt-4 mr-6 black-to-red" /> -->
 
-  <div class="hidden max-md:flex items-center justify-center mt-2 z-2"> I KNOW IM SORRY MOBILE NAV IS IN PROGRESS </div>
+  <!-- Mobile header bar -->
+  <div class="hidden max-md:flex items-center justify-between px-4 py-2 z-2 bg-background-900/80 backdrop-blur-sm border-b border-tprimary-900/30">
+    <button onclick={() => goto(resolve('/'))} class="cursor-pointer">
+      <img src={teethLogo} alt="Logo" class="w-8 h-8 logo-drop-shadow" />
+    </button>
+    <button onclick={() => mobileNav.toggleDrawer()} class="text-tprimary hover:text-primary transition-colors duration-150 cursor-pointer p-2" aria-label="Open navigation menu">
+      <i class="mdi mdi-menu text-2xl"></i>
+    </button>
+  </div>
 
   <div class="flex flex-col items-center z-2 max-md:hidden">
     <div class="min-w-38 h-fit border-testing flex flex-col gap-4 pt-10 pb-12 px-5 relative ml-5 mt-6 mr-5">
@@ -42,15 +53,15 @@
 
       <!-- <div class="absolute top-54 left-[80px] flex flex-col items-center gap-6 justify-center text-center w-16 mt-62"> -->
 
-      <button on:click={() => goto(resolve('/'))} class="mb-6 relative">
+      <button onclick={() => goto(resolve('/'))} class="mb-6 relative">
         <img src={teethLogo} alt="Logo" class="w-24 mx-auto logo-drop-shadow" />
       </button>
-      <button on:click={() => goto(resolve('/conduct'))} class="nav-tower-button">Conduct</button>
-      <button on:click={() => goto(resolve('/rules'))} class="nav-tower-button">RP Rules</button>
-      <button on:click={() => goto(resolve('/glossary'))} class="nav-tower-button">Glossary</button>
-      <button on:click={() => goto(resolve('/guides'))} class="nav-tower-button">Guides</button>
-      <button on:click={() => goto(resolve('/season-3'))} class="nav-tower-button text-gold-300! hover:text-gold-100!">Season 3</button>
-      <button on:click={() => goto(resolve('/media'))} class="nav-tower-button">Media</button>
+      <button onclick={() => goto(resolve('/conduct'))} class="nav-tower-button">Conduct</button>
+      <button onclick={() => goto(resolve('/rules'))} class="nav-tower-button">RP Rules</button>
+      <button onclick={() => goto(resolve('/glossary'))} class="nav-tower-button">Glossary</button>
+      <button onclick={() => goto(resolve('/guides'))} class="nav-tower-button">Guides</button>
+      <button onclick={() => goto(resolve('/season-3'))} class="nav-tower-button text-gold-300! hover:text-gold-100!">Season 3</button>
+      <button onclick={() => goto(resolve('/media'))} class="nav-tower-button">Media</button>
       <!-- </div> -->
 
       <img
@@ -89,10 +100,11 @@
     </div>
   </div>
 
-  <div class="flex grow h-full overflow-hidden max-md:h-0 z-3">
+  <div class="flex grow h-full overflow-hidden z-3 max-md:h-full">
     <slot />
   </div>
 
+  <MobileNav bind:this={mobileNav} />
   <AdminUnlock />
 </div>
 

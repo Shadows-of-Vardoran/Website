@@ -36,8 +36,8 @@
 
 <div role="presentation" onclick={handleBackdropClick} class="fixed inset-0 z-50 flex items-center justify-center bg-black/70">
   <div role="dialog" aria-modal="true" aria-label={nation.name} class="{theme.modalBg} border-2 border-testing w-[95vw] max-w-6xl max-h-[90vh] relative flex flex-col">
-    <div class="flex flex-1 min-h-0 overflow-hidden">
-      <div class="bg-linear-to-b {theme.gradient} w-52 flex-shrink-0 flex flex-col items-center justify-center text-center p-6">
+    <div class="flex max-md:flex-col flex-1 min-h-0 overflow-hidden">
+      <div class="bg-linear-to-b {theme.gradient} w-52 max-md:w-full max-md:max-h-44 flex-shrink-0 flex flex-col items-center justify-center text-center p-6">
         <div class="w-20 h-20 rounded-full bg-background-900/50 flex items-center justify-center text-4xl font-cinzel font-bold {theme.accent} mb-4">
           {nation.name.charAt(0)}
         </div>

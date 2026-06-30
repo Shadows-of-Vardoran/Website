@@ -180,14 +180,13 @@
         fetchContent('season-3/organizations.json'),
         fetchContent('season-3/organizations.md'),
       ]);
-
       if (pageRes.ok) {
         const raw = await pageRes.text();
         sections = splitSections(raw);
         await Promise.all(Object.entries(sections).map(([key, md]) => renderSection(key, md)));
       }
 
-      if (racesRes.ok) races = await racesRes.json();
+      if (racesRes.ok) { races = await racesRes.json(); }
       if (racesMdRes.ok) {
         const raw = await racesMdRes.text();
         raceSections = splitSections(raw);
@@ -199,7 +198,7 @@
         );
         raceDescriptions = parsed;
       }
-      if (specsRes.ok) specialties = await specsRes.json();
+      if (specsRes.ok) { specialties = await specsRes.json(); }
       if (specsMdRes.ok) {
         const raw = await specsMdRes.text();
         specSections = splitSections(raw);
@@ -239,7 +238,7 @@
         );
         nationDescriptions = parsed;
       }
-      if (orgsRes.ok) organizations = await orgsRes.json();
+      if (orgsRes.ok) { organizations = await orgsRes.json(); }
       if (orgsMdRes.ok) {
         const raw = await orgsMdRes.text();
         orgSections = splitSections(raw);
@@ -252,8 +251,8 @@
         orgDescriptions = parsed;
       }
       await renderSpecHtml();
-    } catch {
-      // Graceful degradation
+    } catch (e) {
+      console.error('loadContent CAUGHT:', e);
     } finally {
       loading = false;
     }
@@ -550,21 +549,21 @@
       <ScrollIndicator {scrollElement} direction="up" />
     {/if}
 
-    <div bind:this={scrollElement} onscroll={handleScroll} class="flex flex-col overflow-y-auto p-8 scrollbar-hidden marked">
+    <div bind:this={scrollElement} onscroll={handleScroll} class="flex flex-col overflow-y-auto p-8 max-md:p-4 scrollbar-hidden marked">
       {#if loading}
         <div class="flex items-center justify-center h-64">
           <div class="text-tprimary-500 font-cinzel text-lg animate-pulse">Loading Season 3...</div>
         </div>
       {:else}
-        <!-- Page Title -->
-        <div class="text-center mb-8 mt-4">
-          <h1 class="text-5xl font-cinzel font-bold text-tprimary tracking-wide">Season 3 Lore & Information</h1>
+
+        <div class="text-center mb-8 max-md:mb-4 mt-4 max-md:mt-2">
+          <h1 class="text-5xl max-md:text-3xl font-cinzel font-bold text-tprimary tracking-wide">Season 3 Lore & Information</h1>
         </div>
 
         <!-- Section 1: Landing -->
         <section id="landing" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">The World Has Changed</h2>
+            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">The World Has Changed</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="landing" rawContent={sections.landing || ''} onsave={onSectionSave}>
               {#if landingHtml}
                 {@html landingHtml}
@@ -611,8 +610,9 @@
             />
             {#if !mapExpanded}
               <div class="absolute inset-0 flex items-center justify-center bg-background-900/70 group-hover:bg-sky-900/25 transition-colors pointer-events-none">
-                <span class="font-cinzel text-5xl font-bold text-tprimary-100 tracking-widest" style:text-shadow="0 0 20px rgba(0,0,0,0.8), 0 2px 4px rgba(0,0,0,0.6)"
-                  >View World Map</span
+                <span
+                  class="font-cinzel text-5xl max-md:text-2xl font-bold text-tprimary-100 tracking-widest"
+                  style:text-shadow="0 0 20px rgba(0,0,0,0.8), 0 2px 4px rgba(0,0,0,0.6)">View World Map</span
                 >
               </div>
             {:else}
@@ -620,7 +620,7 @@
                 <button
                   type="button"
                   aria-label="Zoom in"
-                  class="flex items-center justify-center w-8 h-8 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 cursor-pointer"
+                  class="flex items-center justify-center w-8 h-8 max-md:w-10 max-md:h-10 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 cursor-pointer"
                   onclick={(e) => {
                     e.stopPropagation();
                     mapScale = Math.min(8, mapScale + 0.25);
@@ -632,7 +632,7 @@
                 <button
                   type="button"
                   aria-label="Zoom out"
-                  class="flex items-center justify-center w-8 h-8 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 cursor-pointer"
+                  class="flex items-center justify-center w-8 h-8 max-md:w-10 max-md:h-10 rounded bg-background-900/70 hover:bg-tprimary-900/50 transition-colors text-tprimary-300 cursor-pointer"
                   onclick={(e) => {
                     e.stopPropagation();
                     mapScale = Math.max(1, mapScale - 0.25);
@@ -678,7 +678,7 @@
         <!-- Section 2: Nations -->
         <section id="nations" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-2">Nations and Regions of the World</h2>
+            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-2">Nations and Regions of the World</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="nations-intro" rawContent={sections['nations-intro'] || ''} onsave={onSectionSave}>
               {#if nationsIntroHtml}
                 <div class="mb-6">{@html nationsIntroHtml}</div>
@@ -741,7 +741,7 @@
         <!-- Section 3: Organizations -->
         <section id="organizations" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-2">Organizations</h2>
+            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-2">Organizations</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="organizations-intro" rawContent={sections['organizations-intro'] || ''} onsave={onSectionSave}>
               {#if orgsIntroHtml}
                 <div class="mb-6">{@html orgsIntroHtml}</div>
@@ -765,7 +765,7 @@
         <!-- Section 4: Playable Races -->
         <section id="playable-races" class="mb-12 scroll-mt-8">
           <div class="fade-background-up px-4 pt-4 pb-2 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-2">Playable Races</h2>
+            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-2">Playable Races</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="races-intro" rawContent={sections['races-intro'] || ''} onsave={onSectionSave}>
               {#if racesIntroHtml}
                 <div class="mb-6">{@html racesIntroHtml}</div>
@@ -773,7 +773,7 @@
                 <div class="mb-6 italic">Race introductions coming soon.</div>
               {/if}
             </EditableSection>
-            <div class="flex flex-row gap-4">
+            <div class="flex flex-row max-md:flex-col gap-4">
               {#each races as race, i}
                 <RaceCard {race} onclick={() => (expandedRace = i)} />
               {/each}
@@ -790,7 +790,7 @@
         <!-- Section 5: Citizenship -->
         <section id="citizenship" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Citizenship</h2>
+            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Citizenship</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="citizenship" rawContent={sections.citizenship || ''} onsave={onSectionSave}>
               {#if citizenshipHtml}
                 {@html citizenshipHtml}
@@ -806,7 +806,7 @@
         <!-- Section 6: Specialties -->
         <section id="specialties" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Specialties</h2>
+            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Specialties</h2>
             <div class="grid grid-cols-1 md:grid-cols-[1fr_380px] gap-4">
               <EditableSection filePath={FILE_PATH} sectionKey="specialties-intro" rawContent={sections['specialties-intro'] || ''} onsave={onSectionSave}>
                 {@html specsIntroHtml}
@@ -904,7 +904,7 @@
         <!-- Section 7: Mortality Contract -->
         <section id="mortality-contract" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Mortality Contract</h2>
+            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Mortality Contract</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="mortality-contract" rawContent={sections['mortality-contract'] || ''} onsave={onSectionSave}>
               {#if mortalityHtml}
                 {@html mortalityHtml}
@@ -920,7 +920,7 @@
         <!-- Section 8: RP Limitations -->
         <section id="magic-tech-ceiling" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">RP Limitations</h2>
+            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">RP Limitations</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="magic-tech-ceiling" rawContent={sections['magic-tech-ceiling'] || ''} onsave={onSectionSave}>
               {#if magicTechHtml}
                 {@html magicTechHtml}
@@ -936,7 +936,7 @@
         <!-- Section 9: World Particulars -->
         <section id="world-particulars" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">World Particulars</h2>
+            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">World Particulars</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="world-particulars" rawContent={sections['world-particulars'] || ''} onsave={onSectionSave}>
               {#if worldParticularsHtml}
                 {@html worldParticularsHtml}
@@ -952,7 +952,7 @@
         <!-- Section 10: Commands -->
         <section id="commands" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Commands</h2>
+            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Commands</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="commands" rawContent={sections.commands || ''} onsave={onSectionSave}>
               {#if commandsHtml}
                 <div class="marked text-[0.925rem]">{@html commandsHtml}</div>
@@ -968,7 +968,7 @@
         <!-- Section 11: FAQ -->
         <section id="faq" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
-            <h2 class="text-3xl font-cinzel font-bold text-tprimary mb-3">Frequently Asked Questions</h2>
+            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Frequently Asked Questions</h2>
             <EditableSection filePath={FILE_PATH} sectionKey="faq" rawContent={sections.faq || ''} onsave={onSectionSave}>
               {#if faqHtml}
                 {@html faqHtml}

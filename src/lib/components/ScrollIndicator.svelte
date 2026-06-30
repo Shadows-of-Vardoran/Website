@@ -13,7 +13,6 @@
     if (direction === 'down') {
       visible = scrollElement.scrollTop + scrollElement.clientHeight < scrollElement.scrollHeight - 1;
     } else {
-      console.log('bleh');
       // Show when not at the very top (allow for small scroll tolerance)
       visible = scrollElement.scrollTop > 0;
     }

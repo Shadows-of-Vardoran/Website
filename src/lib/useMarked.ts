@@ -54,7 +54,7 @@ export const useMarked = () => {
     renderer.listitem = function (token) {
       const html = Array.isArray(token.tokens) ? marked.parser(token.tokens, { renderer }) : String(token.text || '');
       if (isOrdered) {
-        return `<li class="flex items-start mb-2"><span class="inline-block w-4 mr-1 shrink-0 font-bold text-tprimary-50 marked-ol-num">${html}</span></li>`;
+        return `<li class="flex items-start mb-2"><span class="inline-block w-6 mr-2 shrink-0 font-bold text-tprimary-50 marked-ol-num"></span><span class="flex-grow">${html}</span></li>`;
       } else if (depth === 1) {
         const dot = `<span class="inline-block w-2 h-2 mt-[0.55em] mr-2 rounded-full shrink-0" style="background-color:var(--dot-color, var(--color-tprimary-500))"></span>`;
         return `<li class="flex items-start mb-2">${dot}<span class="flex-grow">${html}</span></li>`;
@@ -89,6 +89,50 @@ export const useMarked = () => {
       }
 
       return text;
+    };
+
+    renderer.table = function (token) {
+      const numCols = token.header.length;
+
+      if (numCols === 2) {
+        const rendererThis = this as unknown as { parser: { parseInline(tokens: unknown[]): string } };
+        const p = (t: unknown[]) => (t && t.length ? rendererThis.parser.parseInline(t) : '');
+        const headers = token.header.map((h) => p(h.tokens));
+
+        let html = '<div class="md:table w-full border-collapse max-md:space-y-3">';
+
+        html += '<div class="md:table-row max-md:hidden border-b border-tprimary-900/30">';
+        headers.forEach((h, i) => {
+          html += `<div class="md:table-cell font-cinzel font-bold uppercase text-xs tracking-wider text-tprimary-500 pb-2${i < numCols - 1 ? ' pr-2' : ''}">${h}</div>`;
+        });
+        html += '</div>';
+
+        token.rows.forEach((row) => {
+          const cells = row.map((c) => p(c.tokens));
+          const isSectionHeader = !cells[1] || !cells[1].replace(/<[^>]+>/g, '').trim();
+
+          if (isSectionHeader) {
+            html += '<div class="md:table-row max-md:block max-md:mt-4 max-md:mb-2">';
+            html += `<div class="md:table-cell md:align-top md:py-3 font-cinzel font-bold text-tprimary-300 max-md:border-b max-md:border-tprimary-900/30 max-md:pb-1">${cells[0]}</div>`;
+            html += '<div class="md:table-cell max-md:hidden"></div>';
+            html += '</div>';
+          } else {
+            html += '<div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">';
+            cells.forEach((c, i) => {
+              const isFirst = i === 0;
+              const cls = `md:table-cell md:align-top md:py-2${i < numCols - 1 ? ' md:pr-2' : ''}${isFirst ? ' md:min-w-[300px] max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm max-md:mb-1' : ''}`;
+              html += `<div class="${cls}">${c}</div>`;
+            });
+            html += '</div>';
+          }
+        });
+
+        html += '</div>';
+        return html;
+      }
+
+      const fallbackHtml = marked.Renderer.prototype.table.call(this, token);
+      return `<div class="overflow-x-auto">${fallbackHtml}</div>`;
     };
 
     const html = marked(markdown, { renderer });

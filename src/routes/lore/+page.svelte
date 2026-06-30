@@ -81,11 +81,13 @@
 
 <div class="flex flex-col h-full w-full bg-background-900/50">
   <!-- Tab Navigation -->
-  <div class="relative px-8 mt-3">
-    <div class="flex gap-4 mb-4 px-10">
+  <div class="relative px-8 max-md:px-4 mt-3">
+    <div class="flex gap-4 max-md:gap-2 mb-4 px-10 max-md:px-0 max-md:overflow-x-auto max-md:flex-nowrap max-md:scrollbar-hidden">
       {#each loreTabs as tab}
         <button
-          class="px-4 font-semibold rounded-t bg-gray-800 text-white hover:bg-gray-700 transition-colors cursor-pointer {tab.scrambled ? 'font-aelfa' : ''}"
+          class="px-4 max-md:px-2 font-semibold rounded-t bg-gray-800 text-white hover:bg-gray-700 transition-colors cursor-pointer max-md:whitespace-nowrap max-md:text-sm {tab.scrambled
+            ? 'font-aelfa'
+            : ''}"
           class:selected={tab === selectedTab}
           on:click={() => selectTab(tab)}
         >
@@ -104,7 +106,7 @@
       {#if scrollElement}
         <ScrollIndicator {scrollElement} direction="up" />
       {/if}
-      <div bind:this={scrollElement} class="overflow-y-auto p-8 scrollbar-hidden marked">
+      <div bind:this={scrollElement} class="overflow-y-auto p-8 max-md:p-4 scrollbar-hidden marked">
         {@html content}
       </div>
       {#if scrollElement}

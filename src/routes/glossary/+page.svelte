@@ -122,7 +122,7 @@
     {#if scrollElement}
       <ScrollIndicator {scrollElement} direction="up" />
     {/if}
-    <div bind:this={scrollElement} onscroll={handleScroll} class="flex flex-col overflow-y-auto p-8 scrollbar-hidden marked">
+    <div bind:this={scrollElement} onscroll={handleScroll} class="flex flex-col overflow-y-auto p-8 max-md:p-4 scrollbar-hidden marked">
       <EditableSection filePath={FILE_PATH} sectionKey="content" {rawContent} onsave={onSectionSave}>
         {@html html}
       </EditableSection>

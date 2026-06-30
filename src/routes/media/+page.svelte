@@ -464,13 +464,13 @@
 {/if}
 
 {#if errorMsg}
-  <div class="absolute bottom-4 right-[152px] z-50 px-4 py-2 bg-red-800 text-white font-cinzel text-xs rounded shadow-lg">
+  <div class="absolute bottom-4 right-[152px] max-md:right-4 max-md:left-4 z-50 px-4 py-2 bg-red-800 text-white font-cinzel text-xs rounded shadow-lg">
     {errorMsg}
     <button onclick={() => (errorMsg = '')} class="ml-2 text-white/70 hover:text-white">&times;</button>
   </div>
 {/if}
 {#if successMsg}
-  <div class="absolute bottom-4 right-[152px] z-50 px-4 py-2 bg-green-800 text-white font-cinzel text-xs rounded shadow-lg">
+  <div class="absolute bottom-4 right-[152px] max-md:right-4 max-md:left-4 z-50 px-4 py-2 bg-green-800 text-white font-cinzel text-xs rounded shadow-lg">
     {successMsg}
     <button onclick={() => (successMsg = '')} class="ml-2 text-white/70 hover:text-white">&times;</button>
   </div>
