@@ -150,7 +150,7 @@
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-gray-800/60 to-gray-950/80 flex-shrink-0 border border-gray-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>The Vampire Hunters' Guild is the oldest and most widely recognized organization in the world dedicated to the protection of humanity from supernatural threats.</p>
+    <p>The Vampire Hunters' Guild is the oldest and most widely recognized organization in the world dedicated to the protection of humanity from supernatural threats.They were established in 1001 AF.</p>
   </div>
 </div>
 
