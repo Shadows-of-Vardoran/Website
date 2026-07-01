@@ -1705,7 +1705,7 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
     </div>
     <p>Once a contentious land bridge between Qalidran and Frankleburg, the Shattered Peninsula is all that remains of that stretch of land. The peninsula itself was called Tal'laer prior to its destruction.</p>
     <p>Human nations grew tired of the threat Qalidran posed. In 999 AF (55 PA, for Qalidran) the peninsula was set under siege by worshipers of the Light. Luminites came together to encourage a coalition of many nations set against them, one of the biggest armies the world has ever seen, made up of soldiers from Novosvet, Frankleburg, Welronz, Sul'uun, and Alinar. They intended to march from Frankleburg into the heart of Qalidran itself and lay siege to the vampire's capital city.</p>
-    <p>To stop them, the Fifth Descendant called upon the great wyrm of the sea: Sunderfin, a massive sea serpent that has been enthralled, to wrench Qalidran from the rest of the continent. The land gave way under the great wyrm's weight, sinking thousands of human soldiers, and separating Qalidran from the mainland. The historic battle is remembered by Qalidran as the "Battle of Sunderfin", and the mainland nations as "The Sinking of Tal'laer".</p>
+    <p>To stop them, the Fourth Descendant called upon the great wyrm of the sea: Sunderfin, a massive sea serpent that has been enthralled, to wrench Qalidran from the rest of the continent. The land gave way under the great wyrm's weight, sinking thousands of human soldiers, and separating Qalidran from the mainland. The historic battle is remembered by Qalidran as the "Battle of Sunderfin", and the mainland nations as "The Sinking of Tal'laer".</p>
     <p>Today, the coastal region and the small islands that were formed by the peninsula's destruction remain largely abandoned due to the overbearing presence of Qalidran's navy and their tendency to steal humans from any neighboring settlements.</p>
   </div>
 </div>
@@ -1792,7 +1792,6 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 </div>
 
 <!-- section:i-dont-like-empty-ui-spaces -->
-
 <h1 id="i-dont-like-empty-ui-spaces" class="leading-none">I don't like empty UI spaces</h1>
 
 <div class="flex gap-4 my-2">
