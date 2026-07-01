@@ -16,8 +16,8 @@
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-yellow-800/60 to-yellow-950/80 flex-shrink-0 border border-yellow-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>When Dracula arrived and shadow magic flooded the world behind him, the Church found itself in a position it had spent centuries preparing for without knowing it. Light magic manifested in the hands of the faithful, and the Church treated it as divine confirmation. Luminance had answered.</p>
-    <p>Their greatest warrior, a figure known as Solarus, led the Church's forces against Dracula's campaign and ultimately delivered the killing blow at a site now known as Dracula's Demise. The Church emerged from the war as the most powerful magical institution in the world, the only organization outside of vampiric kind to wield magic at all.</p>
+    <p>When Dracula arrived and shadow magic flooded the world, the Church found itself in a position it had spent centuries preparing for without knowing it. In 1265 AF, light magic manifested in the hands of the faithful, and the Church treated it as divine confirmation. Luminance had answered.</p>
+    <p>Their greatest warrior, a figure known as Solarus, led the Church's forces against Dracula's campaign and ultimately delivered the killing blow at Dracula's Demise in 1268 AF. The Church emerged from the war as the most powerful magical institution in the world, the only organization outside of vampiric kind to wield magic at all.</p>
     <p>It didn't last.</p>
     <p>As magic emerged across the world it became rapidly apparent that the Church's power was not singular nor exclusive. People who had never set foot in a chapel were casting spells, and the monopoly the Church had built its post-war authority on was slipping through their fingers before the dust had even settled. An institution that had just finished a holy war was suddenly faced with a world that no longer needed to come to them for magic.</p>
   </div>
@@ -93,7 +93,7 @@
   <div class="w-3 rounded bg-gradient-to-b from-chartreuse-800/60 to-chartreuse-950/80 flex-shrink-0 border border-chartreuse-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
     <p>Before he was a heretic, Henry Blackbrew was a hero. When Dracula's campaign seemed unstoppable and no army could hold the line, Blackbrew's experiments into mutagenics and human enhancement gave Norus something to fight back with. Empowered soldiers where there had only been ordinary ones. A chance, however slim, of survival. For a time he was exactly what humanity needed him to be.</p>
-    <p>Then the Church of Luminance received light magic, and everything changed. With a divine weapon in hand and a war to win, the Church had no more use for Blackbrew's methods, and considerably less tolerance for them. They declared him a heretic. The political weight of that declaration was not something Norus could easily ignore, and the restrictions placed on the Transcendum in the aftermath made it clear that the environment Blackbrew needed to work in no longer existed at home.</p>
+    <p>Then in 1265 AF, the Church of Luminance received light magic, and everything changed. With a divine weapon in hand and a war to win, the Church had no more use for Blackbrew's methods, and considerably less tolerance for them. They declared him a heretic. The political weight of that declaration was not something Norus could easily ignore, and the restrictions placed on the Transcendum in the aftermath made it clear that the environment Blackbrew needed to work in no longer existed at home.</p>
     <p>He did not stop working. He simply moved.</p>
   </div>
 </div>
@@ -116,8 +116,8 @@
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-slate-800/60 to-slate-950/80 flex-shrink-0 border border-slate-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Dracula is dead. The Legion of Noctum does not accept this.</p>
-    <p>The Legion emerged from the wreckage of Dracula's war as a shadow cult devoted to a single purpose: his return. Not his memory, not his legacy, not the continuation of his ideology in some diluted form. His actual return, in full power. The Legion believes this is possible, and they are building toward it with every passing year.</p>
+    <p>Dracula fell in 1268 AF. The Legion of Noctum does not accept this.</p>
+    <p>The Legion emerged from the wreckage of his war as a shadow cult devoted to a single purpose: his return. Not his memory, not his legacy, not the continuation of his ideology in some diluted form. His actual return, in full power. The Legion believes this is possible, and they are building toward it with every passing year.</p>
   </div>
 </div>
 
@@ -159,7 +159,7 @@
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-gray-800/60 to-gray-950/80 flex-shrink-0 border border-gray-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Founded just under three hundred years ago in the wake of the vampiric scourge, the Guild was born from necessity. No single nation could stand against vampires alone. What was needed was cooperation, shared knowledge, and weapons that actually worked. The Guild provided all three. They forged silver into blades and bolts, catalogued vampiric weaknesses, and trained generations of hunters who slowly, painstakingly, pushed the vampires back. By the time Dracula arrived, the Guild had already spent centuries earning its reputation in blood.</p>
+    <p>Founded just under three hundred years ago in the wake of the vampiric scourge, the Guild was born from necessity. No single nation could stand against vampires alone. What was needed was cooperation, shared knowledge, and weapons that actually worked. The Guild provided all three. They forged silver into blades and bolts, catalogued vampiric weaknesses, and trained generations of hunters who slowly, painstakingly, pushed the vampires back. By the time Dracula emerged in 1256 AF, the Guild had already spent centuries earning its reputation in blood.</p>
   </div>
 </div>
 
@@ -213,7 +213,7 @@
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-green-800/60 to-green-950/80 flex-shrink-0 border border-green-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Before Dracula, the Militia was modest. A local defense force, lightly trained, suited to the scale of threats that Vardoran actually faced. Dracula changed that. The war that swept through the continent did not spare Vardoran, and the people who survived it came out the other side considerably harder and considerably better at killing things than they had been going in. The Militia that exists today is not the Militia that existed before the war. It is larger, better trained, and carries the weight of what it survived.</p>
+    <p>Before Dracula's campaign in 1264 AF, the Militia was modest. A local defense force, lightly trained, suited to the scale of threats that Vardoran actually faced. The war that swept through the continent did not spare Vardoran, and the people who survived it came out the other side considerably harder and considerably better at killing things than they had been going in. The Militia that exists today is not the Militia that existed before the war. It is larger, better trained, and carries the weight of what it survived.</p>
   </div>
 </div>
 

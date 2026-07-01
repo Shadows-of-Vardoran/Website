@@ -10,7 +10,7 @@
     <p>Vardoran has seen kingdoms and empires rise and fall, and human settlement has always found its way back to its fertile valleys. Conquerors have come and gone, but the small folk of Vardoran have always endured.</p>
     <p>It was once a part of Nosterra, an ancient empire that considered all of the western continent a part of its expanse. After Nosterra's fall in 1-AF, Vardoran was simply abandoned as a colony, and never reabsorbed into any of its neighboring nations. Today, it is considered somewhere between a region and a city-state. Vardoran does not have a widespread government, nor laws. It still has a sizable population who call it home and consider themselves Vardoranians despite their lack of international recognition.</p>
     <p>Vardoran is a region of several small valleys hidden away in the Hallowed Mountains. These low valleys have large swaths of fertile farmland and lush forests. Vardoran is home to several small micro-cultures, and the communities therein vary vastly from region to region.</p>
-    <p>Much of the world did not know Vardoran even existed until Dracula's rise in 1263 AF. It is under considerable scrutiny in the current year, as some blame the region for magic's existence. Scholars, such as the Archivum, have flocked en masse to Vardoran as a result.</p>
+    <p>Much of the world did not know Vardoran even existed until Dracula began his campaign of conquest in 1264 AF. It is under considerable scrutiny in the current year, as some blame the region for magic's existence. Scholars, such as the Archivum, have flocked en masse to Vardoran as a result.</p>
   </div>
 </div>
 
@@ -41,7 +41,7 @@
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>After Dracula's fall, Vardoran's previous tallest mountain vanished overnight without a trace. The Cursed Forest was left in its place, along with its three abandoned villages, one of which has become a den of Werewolves.</p>
+    <p>After Dracula's fall in 1268 AF, Vardoran's previous tallest mountain vanished overnight without a trace. The Cursed Forest was left in its place, along with its three abandoned villages, one of which has become a den of Werewolves.</p>
   </div>
 </div>
 
@@ -101,7 +101,7 @@ Northern Gloomrot once had a similar environment to Silverlight Hills. Southern 
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Mortium was considered to be impassable until Dracula's Rise in Vardoran. The land was terraformed into something resembling traversable. The land is predominantly occupied by the Cult of Noctum who seek to perform foul rituals and kidnap the innocent farmers of Dunley.</p>
+    <p>Mortium was considered to be impassable until Dracula's campaign in 1264 AF. The land was terraformed into something resembling traversable. The land is predominantly occupied by the Cult of Noctum who seek to perform foul rituals and kidnap the innocent farmers of Dunley.</p>
   </div>
 </div>
 
@@ -116,7 +116,7 @@ Living memory has forgotten where the ruins within Mortium came from, and what e
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>This forest was viciously defended during Dracula's Rise and remains viciously defended today. Its Venomblades have only grown in strength, empowered by whatever went wrong five years ago. The lands and its denizens are shrouded in mystery.</p>
+    <p>This forest was viciously defended during Dracula's campaign in 1264 AF and remains viciously defended today. Its Venomblades have only grown in strength, empowered by whatever went wrong five years ago. The lands and its denizens are shrouded in mystery.</p>
   </div>
 </div>
 
@@ -131,7 +131,7 @@ The Venomblade's boatmaking methods are new as they attempt to mimic the designs
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>About twenty-five years ago, Novosvet declared Vardoran a protectorate of their territories and sent out a brigade of masons, carpenters, priests, and volunteers to build a port town on the uninhabited western coast. Brighthaven was built, the harpies were driven back into the canyons, and the silver mines were established. If it was not for this coincidental foothold, the Church of Luminance would be nowhere near Vardoran when Dracula rose.</p>
+    <p>About twenty-five years ago, Novosvet declared Vardoran a protectorate of their territories and sent out a brigade of masons, carpenters, priests, and volunteers to build a port town on the uninhabited western coast. Brighthaven was built, the harpies were driven back into the canyons, and the silver mines were established. If it was not for this coincidental foothold, the Church of Luminance would be nowhere near Vardoran when Dracula rose to power in 1256 AF.</p>
   </div>
 </div>
 
@@ -1292,7 +1292,7 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>In the year 1-PA (968-AF) the Progenitor, the first vampire, descended into the mortal realm. In year 2-PA the Progenitor created his first three sirelings: the First Descendant, the Second Descendant, and the Third Descendant. The Three Descendants founded Qalidran on a remote peninsula in 2-PA (969-AF). They intended to create a country for vampires, by vampires, where they are the ruling, and only, social class.</p>
+    <p>In the year 1-PA (945-AF) the Progenitor, the first vampire, descended into the mortal realm. In year 2-PA the Progenitor created his first three sirelings: the First Descendant, the Second Descendant, and the Third Descendant. The Three Descendants founded Qalidran on a remote peninsula in 2-PA (969-AF). They intended to create a country for vampires, by vampires, where they are the ruling, and only, social class.</p>
     <p>The first three descendants created the world's first castle heart with their sire's assistance, and the first vampiric clan. They turned the worthy, powerful and resourceful humans who earned their way into their ranks with their prowess alone. Those without skill, without utility, would never be granted the gift of undeath.</p>
     <p>Vampirism began to spread. Other bloodlines were born, some from the descendants' sirelings, others from curse or the land itself. Most flocked to Qalidran, as it offered blood, castle magics, and safe haven from the scourge of holy magic.</p>
     <p>They gathered their forces, recruiting vampires to their cause. The Progenitor is their creator, their god, and their master.</p>

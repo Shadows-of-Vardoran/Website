@@ -5,7 +5,7 @@
       The world was mundane once. No magic, no monsters, no things that went bump in the night with any real teeth behind them. People lived and died by entirely ordinary means, and the laws of the world were simple and consistent. The year is 1273 AF, and that world is gone.
     </p>
     <p>
-      Three hundred years ago, in 973 AF, that changed. The first vampire walked the earth, and with them came the first magic the world had ever seen. What followed was centuries of terror. Vampires spread like a plague across the land, stronger and faster and harder to kill than anything humanity had faced before. The world had no framework for what they were or how to stop them. It took generations of adaptation, sacrifice, and the founding of the Vampire Hunters' Guild before humanity clawed back any semblance of safety. Slowly, painfully, the vampires retreated behind the walls of Qalidran, their island nation, and an uneasy peace settled over the world.
+      Three hundred years ago, in 945 AF, that changed. The first vampire walked the earth, and with them came the first magic the world had ever seen. What followed was centuries of terror. Vampires spread like a plague across the land, stronger and faster and harder to kill than anything humanity had faced before. The world had no framework for what they were or how to stop them. It took generations of adaptation, sacrifice, and the founding of the Vampire Hunters' Guild before humanity clawed back any semblance of safety. Slowly, painfully, the vampires retreated behind the walls of Qalidran, their island nation, and an uneasy peace settled over the world.
     </p>
   </div>
   <div class="w-14 rounded bg-gradient-to-b from-tprimary-800/40 to-tprimary-900/60 flex-shrink-0 border border-tprimary-900/30"></div>
@@ -18,7 +18,7 @@
       Until Dracula arrived.
     </p>
     <p>
-      A vampire of unparalleled power, Dracula refused to accept that peace. He sought something beyond what any vampire had achieved, a force that went beyond blood magic entirely, and he found it. What he brought into the world would later come to be called shadow magic. With it, he slaughtered and conquered in a campaign that no army could stop... until the Church of Luminance answered him. Armed with light magic of their own, the Church waged a war that swung the tide. Their greatest champion faced Dracula at a place now called Dracula's Demise, and Dracula fell.
+      A vampire of unparalleled power, Dracula refused to accept that peace. He emerged in 1256 AF, seventeen years ago, and spent years accumulating power in the shadows. In 1264 AF, nine years ago, he began his campaign of slaughter and conquest with a force beyond blood magic entirely, a force that would later come to be called shadow magic. No army could stop him... until the Church of Luminance answered. In 1265 AF, eight years ago, light magic manifested in the hands of the faithful, and the Church waged a war that swung the tide over three brutal years. Their greatest champion faced Dracula at a place now called Dracula's Demise in 1268 AF, and Dracula fell.
     </p>
   </div>
   <div class="w-14 rounded bg-gradient-to-b from-red-800/40 to-red-950/70 flex-shrink-0 border border-red-900/30"></div>
