@@ -384,7 +384,7 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-emerald-800/60 to-emerald-950/80 flex-shrink-0 border border-emerald-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>A place eerily resembling that of Trancendium where lighting, machines and dubious liquids run through the streets. The farms are mostly in laboratories and machine bound greenhouses, though light rarely shines on the plants inside. They only know of artificial lighting and growth hormones.</p>
+    <p>A place eerily resembling that of Transcendum where lighting, machines and dubious liquids run through the streets. The farms are mostly in laboratories and machine bound greenhouses, though light rarely shines on the plants inside. They only know of artificial lighting and growth hormones.</p>
   </div>
 </div>
 
