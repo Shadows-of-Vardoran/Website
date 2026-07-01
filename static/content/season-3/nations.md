@@ -547,16 +547,16 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
   </div>
 </div>
 
-### The Three Casts of Hafjallheim
+### The Three Castes of Hafjallheim
 
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-blue-800/60 to-blue-950/80 flex-shrink-0 border border-blue-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Within Hafjallheim there are three groups of people all viewed as necessary for their way of life. Other nations have come to call them casts which the newer schools of thought have taken to also calling them. These casts are based on the three cloak types passed down from the Ashfolk of old. The Hyrr who wear wildfire cloaks, the Frer who wear crystal ice cloaks and the Farmathr who wear a more extravagant furred cloak, a kings mantle.</p>
-    <p>The Hyrr are warriors, hunters, defenders, berzerkers. They are highly active and vigilant in their jobs thus drawing the eye and favor of the Storm Speaker. They serve as both the hunters and the military of Hafjallheim. The Hyrr cast are known for sending the newly joined off to hunt or fetch something that does not exist and many of this cast are met with home small apprehensions or fear. Getting old in this cast is a monumental feat.</p>
-    <p>The Frer are the crafts folk, artisans, farmers, herders and local traders of Hafjallheim. They are essential in that they feed the other casts, interpret the world through art and keep the land. In times which call for it the Frer discuss and draw borders, negotiate peace and make reparations. Their focus on things of the home and relations to people garner them attention from the Frost Father.</p>
+    <p>Within Hafjallheim there are three groups of people all viewed as necessary for their way of life. Other nations have come to call them castes which the newer schools of thought have taken to also calling them. These castes are based on the three cloak types passed down from the Ashfolk of old. The Hyrr who wear wildfire cloaks, the Frer who wear crystal ice cloaks and the Farmathr who wear a more extravagant furred cloak, a kings mantle.</p>
+    <p>The Hyrr are warriors, hunters, defenders, berzerkers. They are highly active and vigilant in their jobs thus drawing the eye and favor of the Storm Speaker. They serve as both the hunters and the military of Hafjallheim. The Hyrr caste are known for sending the newly joined off to hunt or fetch something that does not exist and many of this caste are met with home small apprehensions or fear. Getting old in this caste is a monumental feat.</p>
+    <p>The Frer are the crafts folk, artisans, farmers, herders and local traders of Hafjallheim. They are essential in that they feed the other castes, interpret the world through art and keep the land. In times which call for it the Frer discuss and draw borders, negotiate peace and make reparations. Their focus on things of the home and relations to people garner them attention from the Frost Father.</p>
     <p>The Farmathr are travelers, explorers, heroes and merchants. They go out with wears into the greater world to gather trade, experiences and gain glory. Because the Farmathr merchants go out into the world they often are asked to buy specific things by those in their home towns and simply given the estimated coin or goods required to gain these items. Well known Farmathr are trusted without equal by their fellow Thyoth. It is the Farmathr's duty to learn of and from other cultures, traders and governments to better improve Hafjallheim when they return home. They have often been referred to as the Kings of Hafjallheim even though King in the context of Farmathr is less a ruler and more a kingly burden.</p>
-    <p>Switching casts is not a common thing but it isn't unheard of. Switching too often however may come with a stigma of disloyalty and flakiness. Hyrr who have been injured often switch to Frer cast.</p>
+    <p>Switching castes is not a common thing but it isn't unheard of. Switching too often however may come with a stigma of disloyalty and flakiness. Hyrr who have been injured often switch to Frer caste.</p>
   </div>
 </div>
 
