@@ -227,7 +227,7 @@ Humans are mortal and carry no innate magic. Blood magic is entirely beyond thei
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Restrictions</span>
 - No blood drain. Cannot drink blood from mobs, bottles, or other players.
 - Blood potions have no effect. Blood type is selected at creation and does not change.
-- Limited to Scholar, Warrior, Brute, Rogue, or Worker primary blood types. Cannot use Mutant, Corrupted, or Draculin blood.
+- Limited to Scholar, Warrior, Brute, Rogue, or Worker primary blood types. Cannot use Creature, Mutant, Corrupted, or Draculin blood.
 - Blood magic is not available. Cannot use Dominate or Bloodmend.
 - Cannot shapeshift unless the druidic magic specialty is taken.
 - Limited to 2 magical schools channeled at a time.
