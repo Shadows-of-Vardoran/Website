@@ -1439,17 +1439,19 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
   <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
     <p>The bulk of the population lives in the Garden district, it is also the largest ring of the city. It is called as such because it is a collection of large homes that are separated by vegetation and trees. This is where the city grows vampiric plants, such as blood roses and thistle, as well as the lumber they need for construction.</p>
+    <p>Many who live in the Garden are not a part of large clans, or are a member of a clan at all. Just like in a human city, one can  buy a larger home in the Garden with time, hard work, and dedication.</p>
     <p>The large market squares, artisans, tailors, blacksmiths, etc are all set up within the Garden district. Everyone is free to wander here, and it is where 90% of the city's trade occurs.</p>
   </div>
 </div>
 
-#### The Slums
+#### The Fringes
 
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>The outer ring of the city is the poorest area. This is the place for vampires without clans or access to the island's castle magics. They live in small hovels built by hand. Most are new arrivals, and the vast majority of the slum's residents will be adopted into clans once they have proven their worth. The Slums are the smallest district, filling the gaps between the Garden and the city's exterior walls.</p>
-    <p>Some choose to live there with no intent of joining a clan. They are safe from the sun, the elements, and humans who want to kill them. They collect their septurn's ration of blood and keep to themselves.</p>
+    <p>The outer ring of the city is the poorest area, as most within the Fringes are new arrivals. This is the place for vampires without clans or access to the island's castle magics. They live in small buildings along the edge of Qalidran's wall that are maintained by the city Guard. The vast majority of the Fringe's residents will be adopted into clans once they have proven their worth. Some may be given permisison to move into homes in the Garden with time, or accept an apprentiship to learn a skill to move up in the world. Others will be adopted into Parlor-focused clans as servants or laborers. 
+      <p>The Fringes are the smallest district, filling the gaps between the Garden and the city's exterior walls. Due to the amount of new arrivals, the Fringes are highly scrutanized by the Guard; with frequent patrols and a healthy oversight from the Grays.</p>
+    <p>Some choose to live along the walls with no intent of joining a clan. They are safe from the sun, the elements, and humans who want to kill them. They collect their septurn's ration of blood and keep to themselves.</p>
   </div>
 </div>
 
