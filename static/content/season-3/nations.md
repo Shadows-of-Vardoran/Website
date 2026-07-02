@@ -1384,7 +1384,7 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
   <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
     <p>85% to 90% of the world's vampires reside in Qalidran. Their vampiric population measures somewhere between 8,500 and 9,000. Their humans have flourished over the years, creating large coastal villages and communities. The number of humans on the island of Qalidran fluctuates around 100,000.</p>
-    <p>Qalidran has had mixed reactions to the emergence of the other magical races. Some view them as an opportunity for study and growth, while others discard them as useless for their lack of the vampiric magics. For now, their walls remained closed, but interested, in those who are not vampires</p>
+    <p>Qalidran has had mixed reactions to the emergence of the other magical races. Some view them as an opportunity for study and growth, while others discard them as useless for their lack of the vampiric magics. For now, their walls remained closed, but interested, in those who are not vampires. Any Talam born in their human villages have been seperated out into a single settlement, where they are currently being studied by Qalidran's brightest minds.</p>
     <p>Werewolves have been banned from the island after an entire village was slaughtered by one during a blood moon. Following the incident, newly acquired humans from the mainland are quarantined through their first full moon to ensure that no werewolves breach their human populations.</p>
     <p>Qalidran's main city and capital is a single structure created out of the world's largest castle heart. Blood magic is plentiful within its walls, and is considered to be the superior strain of magic by most of its residents. However, most vampires have been quick to embrace the gift of new magic at their fingertips.</p>
     <p>Giving the gift of vampirism is a <em><strong>Big Deal</strong></em> in Qalidran. Clans must put in a request to the Parlor to be given a human to turn. That human is selected for it from the human settlements, only the best and brightest are given the opportunity to become a vampire. It is never their choice, however, and simply go where they are told. To ensure that clans remain a controllable size, sigils within Qalidran are never larger than fifty in number.</p>
@@ -1409,7 +1409,7 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
   <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
     <p>The largest prison that lies at the heart of Qalidran's capital. Many criminals are entombed in the walls, never to see the moonlight ever again. Vampires thrown into the Fifth Hell are left to starve as part of their punishment. Some perish due to starvation, while others waste away in their cells until their sentence ends.</p>
-    <p>70% of those thrown into The Fifth Hell never return to the surface.</p>
+    <p>70% of those thrown into The Fifth Hell never return to the surface. Simply entering the Fifth Hell binds a vampire to it, ensuring that they reconstitute at the door should they die within it. Prisoners  of the Fifth Hell are trapped in a viscious cycle of cannibalism and death until their sentences are served, or they are released from their torment by True Death.</p>
     <p>It is a maze-like structure built beneath the Terrace region of the city. It is full of traps, foul magic, and deadly pits. Rescue attempts end in death.</p>
   </div>
 </div>
@@ -1430,6 +1430,7 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
   <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
     <p>Where most of the 80 members of the Lower Table reside. The largest and most powerful clans have been given the rights to build their homes within the Terrace district. The closer one resides to the Inner Palace, the more secure their position within Qalidran is.</p>
+    <p>Vampires in the Terrace battle in the Parlor for space. Gaining favor with the High Table means getting access to a larger castle. The larger your castle, the more secure your position in the Parlor. Their closeness to the Inner Palace also often denotes one's importance and the significance of their clan.</p>
   </div>
 </div>
 
@@ -1449,9 +1450,9 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>The outer ring of the city is the poorest area, as most within the Fringes are new arrivals. This is the place for vampires without clans or access to the island's castle magics. They live in small buildings along the edge of Qalidran's wall that are maintained by the city Guard. The vast majority of the Fringe's residents will be adopted into clans once they have proven their worth. Some may be given permisison to move into homes in the Garden with time, or accept an apprentiship to learn a skill to move up in the world. Others will be adopted into Parlor-focused clans as servants or laborers. 
+    <p>The outer ring of the city is the poorest area, as most within the Fringes are new arrivals. This is the place for vampires without clans or access to the island's castle magics. They live in small buildings along the edge of Qalidran's wall that are maintained by the city Guard. The vast majority of the Fringe's residents will be adopted into clans once they have proven their worth or be moved to work as permanent residents within the Garden. Others will be adopted into Parlor-focused clans as servants or laborers.</p>
       <p>The Fringes are the smallest district, filling the gaps between the Garden and the city's exterior walls. Due to the amount of new arrivals, the Fringes are highly scrutanized by the Guard; with frequent patrols and a healthy oversight from the Grays.</p>
-    <p>Some choose to live along the walls with no intent of joining a clan. They are safe from the sun, the elements, and humans who want to kill them. They collect their septurn's ration of blood and keep to themselves.</p>
+    <p>Some choose to live along the walls with no intent of joining a clan. They are safe from the sun, the elements, and humans who want to kill them. They collect their septurn's ration of blood and keep to themselves. Even so, their numbers are monitored and tracked to ensure the Fringes do not  become overpopulated.</p>
   </div>
 </div>
 
@@ -1464,6 +1465,7 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
     <p>Humans within the settlements rarely rebel. Their lives are worth more to their vampire keepers when the blood that flows through their veins is happy and healthy. They get food, healthcare, and are protected from external threats. To quell human rebellions, the elderly no longer have to live blood and may "retire" to die of a ripe old age. Humans between fifteen and sixty are expected to donate their blood once or twice a month.</p>
     <p>Their culture has twisted over the centuries, painting the outside world as something harsh and horrible. They believe that it is safest within their walls. The last human rebellion was in 213-PA. There have been none since.</p>
     <p>Humans who excel in might, magic, or smarts may be selected to become a vampire. After they have done so, they are forbidden from returning to their hometowns for the rest of their very long lives. They are also ineligible to join The Harvest for at least a century.</p>
+    <p>There are only humans within the human settlements of Qalidran. They are not present in the Capital at all unless they are mere hours away from being turned.</p>
   </div>
 </div>
 
