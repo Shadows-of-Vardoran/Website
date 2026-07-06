@@ -5,7 +5,7 @@
       The world was mundane once. No magic, no monsters, no things that went bump in the night with any real teeth behind them. People lived and died by entirely ordinary means, and the laws of the world were simple and consistent. The year is 1273 AF, and that world is gone.
     </p>
     <p>
-      Three hundred years ago, in 945 AF, that changed. The first vampire walked the earth, and with them came the first magic the world had ever seen. What followed was centuries of terror. Vampires spread like a plague across the land, stronger and faster and harder to kill than anything humanity had faced before. The world had no framework for what they were or how to stop them. It took generations of adaptation, sacrifice, and the founding of the Vampire Hunters' Guild before humanity clawed back any semblance of safety. Slowly, painfully, the vampires retreated behind the walls of Qalidran, their island nation, and an uneasy peace settled over the world.
+              Three hundred years ago, in 945 AF, that changed. The first vampire walked the earth, and with them came the first magic the world had ever seen. That magic was blood magic, woven into vampiric nature itself. But the people of the time had no framework for calling it magic at all. To them, it was simply vampiric power. What followed was centuries of terror. Vampires spread like a plague across the land, stronger and faster and harder to kill than anything humanity had faced before. The world had no framework for what they were or how to stop them. It took generations of adaptation, sacrifice, and the founding of the Vampire Hunters' Guild before humanity clawed back any semblance of safety. Slowly, painfully, the vampires retreated behind the walls of Qalidran, their island nation, and an uneasy peace settled over the world.
     </p>
   </div>
   <div class="w-14 rounded bg-gradient-to-b from-tprimary-800/40 to-tprimary-900/60 flex-shrink-0 border border-tprimary-900/30"></div>
@@ -18,7 +18,7 @@
       Until Dracula arrived.
     </p>
     <p>
-      A vampire of unparalleled power, Dracula refused to accept that peace. He emerged in 1256 AF, seventeen years ago, and spent years accumulating power in the shadows. In 1264 AF, nine years ago, he began his campaign of slaughter and conquest with a force beyond blood magic entirely, a force that would later come to be called shadow magic. No army could stop him... until the Church of Luminance answered. In 1265 AF, eight years ago, light magic manifested in the hands of the faithful, and the Church waged a war that swung the tide over three brutal years. Their greatest champion faced Dracula at a place now called Dracula's Demise in 1268 AF, and Dracula fell.
+      A vampire of unparalleled power, Dracula refused to accept that peace. He emerged in 1256 AF, seventeen years ago, and spent years accumulating power in the shadows.       In 1264 AF, nine years ago, he began his campaign of slaughter and conquest with a force beyond blood magic entirely, a force that would later come to be called shadow magic. It was the second magic the world had ever seen, and the first that was not exclusive to vampires. No army could stop him... until the Church of Luminance answered. In 1265 AF, eight years ago, light magic manifested in the hands of the faithful, the third magic to enter the world and the first available to mortals beyond vampiric kind. The Church waged a war that swung the tide over three brutal years. Their greatest champion faced Dracula at a place now called Dracula's Demise in 1268 AF, and Dracula fell.
     </p>
   </div>
   <div class="w-14 rounded bg-gradient-to-b from-red-800/40 to-red-950/70 flex-shrink-0 border border-red-900/30"></div>
@@ -47,7 +47,7 @@
       The world stopped making sense.
     </p>
     <p class="mb-4">
-      What is known is that in 1268 AF, five years ago, magic poured into the world. People who had never cast a spell in their lives found power in their hands. New creatures appeared without warning. Geography shifted overnight.
+      What is known is that in 1268 AF, five years ago, magic poured into the world. The world came to realize that the magics known thus far were only a small piece of the full picture. People who had never cast a spell in their lives found power in their hands. New creatures appeared without warning. Geography shifted overnight.
     </p>
     <p class="mb-6">
       Recently, a scholar within a coalition of researchers known as the Archivum made a pivotal discovery. Whatever caused magic to flood the world... the origin point was in Vardoran. Word has spread. People are arriving from across the world, drawn by that revelation for reasons of their own. Some want to understand what happened. Some want to claim whatever power a place like that might still hold. Some have been sent by organizations that see opportunity in the chaos. Some are simply following a pull they cannot entirely explain.

@@ -1,7 +1,7 @@
 <!-- section:blood-magic -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-red-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-red-500 block mb-1">Restriction</span><span class="text-base text-tprimary-50">Only vampires can use blood magic.</span></div>
 
-Blood magic is rooted in life force, the vital energy that animates living things. It treats that energy as a transferable resource to be drawn, redirected, and spent. It is the oldest school of magic, woven into the nature of vampirism itself, and it belongs, fundamentally, to the undead.
+Blood magic is rooted in life force, the vital energy that animates living things. It treats that energy as a transferable resource to be drawn, redirected, and spent. It is the oldest school of magic, woven into the nature of vampirism itself. For nearly 300 years it was the only magic in the world, though it was not understood as a school at the time. People simply called it vampiric power. It belongs, fundamentally, to the undead.
 
 Its themes are life pushed past its natural limits. Sustenance and hunger. The body as both tool and vessel. Preservation, corruption, and the fine line between healing and harm. Every working comes at someone's expense. It is intimate, parasitic, and extraordinarily powerful in the right hands.
 
