@@ -46,7 +46,7 @@ You arrange consent via Discord or by a quick out-of-character check-in using th
 - You may only have one active character this season. You may create a new character only if your existing character has met final death or permanently left Vardoran.
 - Characters must be 18+ in chronological age, appearance, and mentality.
 - Characters must appear primarily humanoid. Small horns, wings, tails, and non-human skin tones are allowed.
-- Your character's background, abilities, skills, and knowledge must follow the magic and technology guidelines for the season. Your character must also respect the mechanical limitations of the game. Power levels must align with the game's mechanics, your character must require blood, and your character must be hurt by sunlight.
+- Your character's background, abilities, skills, and knowledge must follow the magic and technology guidelines for the season. Your character must also respect the mechanical limitations of the game. Power levels must align with the game's mechanics and your character's racial limitations.
 - Your character must exhibit [Fear RP](https://vardoran.com/conduct#fear-rp) and [Value of Life RP](https://vardoran.com/conduct#value-of-life-rp).
 - You are encouraged to use in-game weapons and magic that fit your character's background, abilities, skills, and knowledge.
 - All character name changes require admin approval. Open a player support ticket to request one.
