@@ -491,7 +491,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
     <p>Werewolves feel an innate kinship with wild wolves and dogs, <em>or</em> they consider them an interloper and want to kill them on-sight. Either/Or, with no middle ground.</p>
     <p>Werewolves are leery of other packs until bonds have been established between the two. They can usually sniff out another werewolf by scent alone. Some use perfumes or other methods to disguise themselves. Whether you can identify another player as a werewolf is entirely up to them. You cannot force another player to reveal themselves IC if they do not wish to be revealed.</p>
     <p>Vampires smell terrible to werewolves: like walking rot and decay. Because of that, werewolves have difficulty getting to know vampires or becoming friends with them. They should be innately at odds to at least some small degree.</p>
-    <p>Mytts and Talams smell like raw magic.</p>
+    <p>Talams smell like raw magic.</p>
   </div>
 </div>
 
