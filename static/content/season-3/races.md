@@ -643,6 +643,10 @@ Log your progress in your character's journal. When you are ready for an upgrade
 
 No mortality contract. Mytts do not age, do not die of natural causes, and can reconstitute after physical destruction. A Mytt only dies when the player decides their story ends. There is no mortality system tracking for this race. Upon reconstitution after physical destruction, Mytts receive a 10-minute debuff.
 
+When a Mytt dies, their body disintegrates to dust. That dust is just mundane dust. Anyone who attempts to channel magic into the dust will find that it is simply dust. The Mytt is no longer there. They are reconstituting elsewhere.
+
+Players may RP helping a Mytt reconstitute by providing them magic they are composed of, but this will not reduce the duration of the debuff they receive after reconstituting.
+
 <!-- section:talam -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-green-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-green-500 block mb-1">Restricted Magic Schools</span><span class="text-base text-tprimary-50">Talam cannot use blood or unholy magic. Using any school other than storm or frost requires a specialty in that school.</span></div>
 
