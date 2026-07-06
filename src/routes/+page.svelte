@@ -138,7 +138,18 @@
         </EditableSection>
       </div>
 
-      <div>
+      <div class="flex flex-col items-center gap-4">
+        <div class="flex items-center justify-center gap-6 px-6 py-3 rounded border border-red-900/30 w-80 max-md:max-w-full launch-card">
+          <div class="flex flex-col items-center">
+            <span class="font-cinzel text-[0.625rem] uppercase tracking-[0.1em] text-tprimary-500">Whitelists Open</span>
+            <span class="font-cinzel text-xl font-bold text-red-500 launch-glow">July 18</span>
+          </div>
+          <div class="w-px h-10 bg-gradient-to-b from-transparent via-red-900 to-transparent"></div>
+          <div class="flex flex-col items-center">
+            <span class="font-cinzel text-[0.625rem] uppercase tracking-[0.1em] text-tprimary-500">Server Launch</span>
+            <span class="font-cinzel text-xl font-bold text-red-500 launch-glow">August 1</span>
+          </div>
+        </div>
         <a href="https://discord.gg/shadowsofvardoran" target="_blank" rel="noopener noreferrer">
           <button class="relative bg-transparent border-0 p-0 cursor-pointer discord-button">
             <img src={buttonImage} alt="Join Discord Button" class="w-80 max-md:max-w-full h-auto button-image" />
@@ -301,5 +312,13 @@
 
   .discord-button:hover span {
     filter: drop-shadow(0px 0px 16px var(--color-red-500)) drop-shadow(0px 0px 16px var(--color-red-900));
+  }
+
+  .launch-card {
+    background: linear-gradient(to right, transparent, rgba(127, 29, 29, 0.1), transparent);
+  }
+
+  .launch-glow {
+    filter: drop-shadow(0px 0px 8px rgba(220, 38, 38, 0.4)) drop-shadow(0px 0px 4px rgba(127, 29, 29, 0.6));
   }
 </style>

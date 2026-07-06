@@ -172,9 +172,9 @@ For commonly used in-character terms and their meanings, see the [Glossary](http
   - T3 Heart (300 max floors). 120 lights / 120 flowers
   - T4 Heart (400 max floors). 160 lights / 160 flowers
   - T5 Heart (500 max floors). 200 lights / 200 flowers
-- One sigil may have two <span class="text-accent">**house**</span> hearts and one <span class="text-accent">**business**</span> heart. Solo players are not considered a sigil and may only have one <span class="text-accent">**house**</span> heart and one <span class="text-accent">**business**</span> heart.
-  - <span class="text-accent">**House**</span> hearts are castles where players actually live. They function as your base.
-  - <span class="text-accent">**Business**</span> hearts are castles where no players live. They serve an RP-first function.
+- One sigil may have up to eight players and two castle hearts.
+- The in-game castle heart limit is set higher for quality of life purposes, such as moving castles. Outside of moving or temporary locations approved by the admin team, players are expected to stick to two.
+- The number of castle hearts or players allowed in a sigil may change during the season.
 - You may use wolf jump, frog form, the horse dismount, horse jump, veils, or any other in-game abilities to bypass barriers and enter another player's castle without explicit permission.
 </details>
 

@@ -550,7 +550,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-violet-800/60 to-violet-950/80 flex-shrink-0 border border-violet-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Mytts appear human. Their bodies are human in construction, with the same skeletal structure, the same muscle structure, and even organs that serve no function. They can pass as human without much effort, but they are not human by species. They commonly have aspects of them that reflect their schools, such as wearing specific colors, having specific colored hair, or different features that showcase the themes of the schools they are composed of.</p>
+    <p>Mytts appear human. Their bodies are human in construction, with the same skeletal structure, the same muscle structure, and even organs that serve no function. Mytts that are faking being human may manually control their organs in different ways to feign humanity. They can pass as human without much effort, but they are not human by species. They commonly have aspects of them that reflect their schools, such as wearing specific colors, having specific colored hair, or different features that showcase the themes of the schools they are composed of.</p>
     <p>Their physical form looks human, but what they are underneath is something else entirely.</p>
   </div>
 </div>
@@ -560,7 +560,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-violet-800/60 to-violet-950/80 flex-shrink-0 border border-violet-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Mytts have a humanoid body, but they are not human. Their physical form is humanoid in construction and appearance, but the inner workings of their body are entirely different. They do not eat. They do not drink. They cannot get pregnant or have children. They have no functioning internal digestive system, many organs are simply dormant and unused, and their bodies are fueled entirely by magical energy.</p>
+    <p>Mytts have a humanoid body, but they are not human. Their physical form is humanoid in construction and appearance, but the inner workings of their body are entirely different. They do not eat. They do not drink. They cannot get pregnant or have children. They have no functioning internal digestive system, many organs are simply dormant and unused, and their bodies are fueled entirely by magical energy. Mytts can manually control the organs of their body, but those organs are not necessary for survival. Magic maintains the body and can make their heart beat, but a heartbeat is not needed for them to live.</p>
     <p>In many ways, they share physical attributes with vampires. But they do not burn in the sun like vampires do, and they are far more affected by silver. Silver, when coming into contact with a Mytt, will always immediately begin burning them.</p>
   </div>
 </div>
@@ -615,8 +615,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
         <div class="md:table-cell md:align-top md:py-2">Exsanguinator</div>
       </div>
     </div>
-    <p>A Mytt's three blood types correspond directly to their three schools. They have a custom command to swap between these blood types. Consuming the aligned material for their active blood type restores their pool. They can only recover blood pool from materials tied to the three schools they are composed of.</p>
-    <p>Mytts start at 100% blood quality and are locked to that value. Their blood quality cannot be increased or decreased by any means.</p>
+    <p>A Mytt's three blood types correspond directly to their three schools. They have a custom command to swap between these blood types and change their blood quality at will. Swapping blood type or blood quality cannot be done in combat. Consuming the aligned material for their active blood type restores their pool. They can only recover blood pool from materials tied to the three schools they are composed of.</p>
   </div>
 </div>
 
@@ -625,7 +624,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Restrictions</span>
 - Permanent 0% silver resistance.
 - 3 magical schools are locked at whitelist and cannot be changed. Magical school specialties are locked to these 3 schools.
-- No blood drain. Cannot consume blood from mobs, bottles, or other players.
+- Cannot consume blood from mobs, bottles, or other players.
 - Cannot use Dominate.
 - Can only recover blood pool from materials tied to their 3 chosen schools.
   </div>
@@ -633,7 +632,8 @@ Log your progress in your character's journal. When you are ready for an upgrade
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Benefits</span>
 - Immune to sunlight.
 - Immune to garlic.
-- Custom command to swap between 3 blood types.
+- Passive +75 resistance to holy damage.
+- Custom command to swap between 3 blood types and change blood quality at will.
 - Gain a special shapeshift for each of their chosen magical schools. Cannot shapeshift into normal creature forms.
 - Mytts can successfully pass as humans very easily.
   </div>
