@@ -493,7 +493,8 @@ Log your progress in your character's journal. When you are ready for an upgrade
     <p>Vampires smell terrible to werewolves: like walking rot and decay. Because of that, werewolves have difficulty getting to know vampires or becoming friends with them. They should be innately at odds to at least some small degree.</p>
     <p>Talams smell like raw magic.</p>
     <p>Werewolves cannot discern humans from Mytts by smell.</p>
-    <p>The transformation from werewolf to human is a painful and phsyical process (as is the change from human to their four legged wolf form). Changing from fur to skin is the same process in reverse. It is a rapid and sudden breaking of bones, shifting of skin, and should be rp'd as being an overall painful process, despite the fact that it is very quick-- only lasting a second or two. <em>Please note that Werewolves cannot get stuck mid-transformation for lore reasons, and werewolves cannot do 'partial' forms. You are either a human, on four legs, or on two.</em></p>
+    <p>The transformation from werewolf to human is a painful and phsyical process (as is the change from human to their four legged wolf form). It is a rapid and sudden breaking of bones, shifting of skin, and should be rp'd as being an overall painful process, despite the fact that it is very quick-- only lasting a second or two. Changing from fur to skin is the same process in reverse.</p>
+    <p><em>Please note that Werewolves cannot get stuck mid-transformation for lore reasons, and werewolves cannot do 'partial' forms. You are either a human, on four legs, or are a bipedal wolf.</em></p>
     <P>For example, you cannot have claws while in human form, or manifest wolfy ears, eyes, or mouths. Similarly, while shifted into either wolf form, werewolves cannot suddenly have human hands or heads.</P>
   </div>
 </div>
