@@ -582,7 +582,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
         <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">Storm</div>
         <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-tprimary-300 max-md:text-sm">Warrior</div>
         <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:text-tprimary-200 max-md:text-sm">Topaz</div>
-        <div class="md:table-cell md:align-top md:py-2">Storm Bear</div>
+        <div class="md:table-cell md:align-top md:py-2">Storm Sheep</div>
       </div>
       <div class="md:table-row max-md:block max-md:p-3 max-md:rounded max-md:bg-background-800/60 max-md:border max-md:border-tprimary-900/30">
         <div class="md:table-cell md:align-top md:py-2 md:pr-2 max-md:font-cinzel max-md:font-bold max-md:text-warm max-md:text-sm">Chaos</div>
