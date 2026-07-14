@@ -27,6 +27,7 @@
   let editTitle = $state('');
   let editAlt = $state('');
   let editCaption = $state('');
+  let editAuthor = $state('');
   let editFile: File | null = $state(null);
   let previewUrl = $state('');
 
@@ -98,6 +99,7 @@
     editTitle = '';
     editAlt = '';
     editCaption = '';
+    editAuthor = '';
     editFile = null;
     previewUrl = '';
     showAddForm = true;
@@ -109,6 +111,7 @@
     editTitle = item.title || '';
     editAlt = item.alt;
     editCaption = item.caption || '';
+    editAuthor = item.author || '';
     editFile = null;
     previewUrl = '';
     showAddForm = true;
@@ -183,7 +186,7 @@
 
       if (editingIndex !== null) {
         const i = editingIndex;
-        const updated = { ...allItems[i], title: editTitle || undefined, alt: editAlt, caption: editCaption || undefined };
+        const updated = { ...allItems[i], title: editTitle || undefined, alt: editAlt, caption: editCaption || undefined, author: editAuthor || undefined };
         if (src) {
           updated.src = src;
           updated.width = width;
@@ -202,6 +205,7 @@
           title: editTitle || undefined,
           alt: editAlt,
           caption: editCaption || undefined,
+          author: editAuthor || undefined,
           width,
           height,
         };
@@ -428,6 +432,16 @@
             rows={2}
             class="w-full px-2 py-1.5 bg-background-800 border border-tprimary-700 text-tprimary text-sm rounded outline-none focus:border-tprimary-500 resize-none"
           ></textarea>
+        </div>
+
+        <div>
+          <label for="edit-author" class="block text-xs font-cinzel text-tprimary-400 mb-1">Author / Credit</label>
+          <input
+            id="edit-author"
+            bind:value={editAuthor}
+            placeholder="Discord name of the artist"
+            class="w-full px-2 py-1.5 bg-background-800 border border-tprimary-700 text-tprimary text-sm rounded outline-none focus:border-tprimary-500"
+          />
         </div>
 
         <div>

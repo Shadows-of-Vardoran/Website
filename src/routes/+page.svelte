@@ -7,7 +7,7 @@
   import { saveContent, buildCommitMessage } from '$lib/github-save';
   import { fetchContent, bumpContentVersion } from '$lib/fetchContent';
   import verticalSeparator1 from '$lib/assets/vertical_separator_1.png';
-  import teethLogo from '$lib/assets/teeth_logo.png';
+  import teethLogo from '$lib/assets/SoV_logo_2.png';
   import buttonImage from '$lib/assets/button_image.png';
 
   const { parse } = useMarked();

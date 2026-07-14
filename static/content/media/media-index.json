@@ -14,5 +14,45 @@
     "caption": "Season 1-2 Logo",
     "width": 1024,
     "height": 1024
+  },
+  {
+    "src": "/media/casira_entry.png",
+    "type": "image",
+    "alt": "S3 art submission",
+    "caption": "S3 art submission",
+    "title": "S3 Art Submission",
+    "author": "Casira (casira)",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "src": "/media/ifox_entry_transparent.png",
+    "type": "image",
+    "alt": "S3 art submission",
+    "caption": "S3 art submission",
+    "title": "S3 Art Submission",
+    "author": "iFox (ifox)",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "src": "/media/t3chnical_entry.png",
+    "type": "image",
+    "alt": "S3 art submission",
+    "caption": "S3 art submission",
+    "title": "S3 Art Submission",
+    "author": "Techni (t3chnicaliti3)",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "src": "/media/bucket_entry_round.png",
+    "type": "image",
+    "alt": "S3 art submission",
+    "caption": "S3 art submission",
+    "title": "S3 Art Submission",
+    "author": "Paracosm (bucketlegacy)",
+    "width": 512,
+    "height": 512
   }
 ]

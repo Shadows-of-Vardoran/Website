@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { Organization } from './types';
   import { getTheme } from './colorThemes';
+  import { orgSvgs } from './orgSvgs';
   import brBorderDecoration2 from '$lib/assets/br_border_decoration_2.png';
   import EditableSection from '$lib/components/EditableSection.svelte';
 
@@ -38,8 +39,12 @@
   <div role="dialog" aria-modal="true" aria-label={org.name} class="{theme.modalBg} border-2 border-testing w-[95vw] max-w-6xl max-h-[90vh] relative flex flex-col">
     <div class="flex max-md:flex-col flex-1 min-h-0 overflow-hidden">
       <div class="bg-linear-to-b {theme.gradient} w-52 max-md:w-full max-md:max-h-44 flex-shrink-0 flex flex-col items-center justify-center text-center p-6">
-        <div class="w-20 h-20 rounded-full bg-background-900/50 flex items-center justify-center text-4xl font-cinzel font-bold {theme.accent} mb-4">
-          {org.name.charAt(0)}
+        <div class="org-icon w-20 h-20 rounded-full bg-background-900/50 flex items-center justify-center {theme.accent} mb-4">
+          {#if orgSvgs[org.name]}
+            {@html orgSvgs[org.name]}
+          {:else}
+            <span class="text-4xl font-cinzel font-bold">{org.name.charAt(0)}</span>
+          {/if}
         </div>
         <div class="text-xl font-cinzel font-bold text-tprimary">{org.name}</div>
         <div class="text-sm text-tprimary-400 italic mt-2">
@@ -75,6 +80,19 @@
 </div>
 
 <style>
+  .org-icon :global(svg) {
+    width: 64px;
+    height: 64px;
+  }
+
+  .org-icon :global(svg [fill='#ffffff']) {
+    fill: currentColor;
+  }
+
+  .org-icon :global(svg [stroke='#ffffff']) {
+    stroke: currentColor;
+  }
+
   .border-decoration-color {
     filter: invert(70%);
   }

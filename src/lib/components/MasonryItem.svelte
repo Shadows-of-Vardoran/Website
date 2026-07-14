@@ -30,8 +30,15 @@
     <img src="/assets/image_tl_corner.png" alt="" class="masonry-corner-tl pointer-events-none" />
     <img src="/assets/image_br_corner.png" alt="" class="masonry-corner-br pointer-events-none" />
     {#if item.caption}
-      <div class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-300 flex items-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none">
+      <div
+        class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-300 flex items-start justify-center p-3 opacity-0 group-hover:opacity-100 pointer-events-none"
+      >
         <span class="text-tprimary-50 text-sm font-cinzel">{item.caption}</span>
+      </div>
+    {/if}
+    {#if item.author}
+      <div class="absolute bottom-2 left-2 bg-black/60 backdrop-blur-sm rounded px-2 py-0.5 pointer-events-none z-10">
+        <span class="text-xs text-white/90 font-cinzel">by {item.author}</span>
       </div>
     {/if}
   </div>
@@ -43,8 +50,15 @@
     <img src="/assets/image_tl_corner.png" alt="" class="masonry-corner-tl pointer-events-none" />
     <img src="/assets/image_br_corner.png" alt="" class="masonry-corner-br pointer-events-none" />
     {#if item.caption}
-      <div class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-300 flex items-end p-3 opacity-0 group-hover:opacity-100 pointer-events-none">
+      <div
+        class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-300 flex items-start justify-center p-3 opacity-0 group-hover:opacity-100 pointer-events-none"
+      >
         <span class="text-tprimary-50 text-sm font-cinzel">{item.caption}</span>
+      </div>
+    {/if}
+    {#if item.author}
+      <div class="absolute bottom-2 left-2 bg-black/60 backdrop-blur-sm rounded px-2 py-0.5 pointer-events-none z-10">
+        <span class="text-xs text-white/90 font-cinzel">by {item.author}</span>
       </div>
     {/if}
   </div>

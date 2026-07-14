@@ -2,7 +2,7 @@
   import '../app.css';
   import tower from '$lib/assets/tower.png';
   import moon from '$lib/assets/moon.png';
-  import teethLogo from '$lib/assets/teeth_logo.png';
+  import teethLogo from '$lib/assets/SoV_logo_2.png';
   import darkCastle from '$lib/assets/dark_castle.png';
   import brBorderDecoration1 from '$lib/assets/br_border_decoration_1.png';
   import tlBorderDecoration1 from '$lib/assets/tl_border_decoration_1.png';
@@ -34,7 +34,7 @@
   <!-- Mobile header bar -->
   <div class="hidden max-md:flex items-center justify-between px-4 py-2 z-2 bg-background-900/80 backdrop-blur-sm border-b border-tprimary-900/30">
     <button onclick={() => goto(resolve('/'))} class="cursor-pointer">
-      <img src={teethLogo} alt="Logo" class="w-8 h-8 logo-drop-shadow" />
+      <img src={teethLogo} alt="Logo" class="w-12 h-12 logo-drop-shadow" />
     </button>
     <button onclick={() => mobileNav.toggleDrawer()} class="text-tprimary hover:text-primary transition-colors duration-150 cursor-pointer p-2" aria-label="Open navigation menu">
       <i class="mdi mdi-menu text-2xl"></i>
@@ -53,8 +53,8 @@
 
       <!-- <div class="absolute top-54 left-[80px] flex flex-col items-center gap-6 justify-center text-center w-16 mt-62"> -->
 
-      <button onclick={() => goto(resolve('/'))} class="mb-6 relative">
-        <img src={teethLogo} alt="Logo" class="w-24 mx-auto logo-drop-shadow" />
+      <button onclick={() => goto(resolve('/'))} class="mb-2 relative">
+        <img src={teethLogo} alt="Logo" class="w-32 mx-auto logo-drop-shadow" />
       </button>
       <button onclick={() => goto(resolve('/conduct'))} class="nav-tower-button">Conduct</button>
       <button onclick={() => goto(resolve('/rules'))} class="nav-tower-button">RP Rules</button>

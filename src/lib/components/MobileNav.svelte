@@ -1,7 +1,7 @@
 <script lang="ts">
   import { goto } from '$app/navigation';
   import { resolve } from '$app/paths';
-  import teethLogo from '$lib/assets/teeth_logo.png';
+  import teethLogo from '$lib/assets/SoV_logo_2.png';
   import tlBorderDecoration1 from '$lib/assets/tl_border_decoration_1.png';
   import brBorderDecoration1 from '$lib/assets/br_border_decoration_1.png';
   import separator1 from '$lib/assets/separator_1.png';
@@ -41,7 +41,7 @@
     />
 
     <button onclick={() => navigate('/')} class="mt-8 mb-4 relative">
-      <img src={teethLogo} alt="Logo" class="w-18 mx-auto logo-drop-shadow" />
+      <img src={teethLogo} alt="Logo" class="w-26 mx-auto logo-drop-shadow" />
     </button>
 
     <nav class="flex flex-col items-center gap-5 px-2 w-full">

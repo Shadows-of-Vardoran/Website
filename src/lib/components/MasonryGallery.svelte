@@ -110,7 +110,7 @@
           data-pswp-height={item.height || 9}
           data-pswp-type={item.type === 'video' ? 'video' : undefined}
           data-video-src={item.type === 'video' ? item.src : undefined}
-          data-pswp-caption={item.caption || undefined}
+          data-pswp-caption={item.caption && item.author ? `${item.caption}\nby ${item.author}` : item.caption || (item.author ? `by ${item.author}` : undefined)}
           class="block overflow-visible group"
         >
           <MasonryItem {item} />
@@ -138,6 +138,7 @@
   :global(.pswp__caption__center) {
     color: var(--color-tprimary-50) !important;
     font-family: 'Cinzel', serif !important;
+    white-space: pre-line;
   }
 
   :global(.pswp__top-bar) {

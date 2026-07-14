@@ -4,6 +4,7 @@ export interface MediaItem {
   type: 'image' | 'video';
   alt: string;
   caption?: string;
+  author?: string;
   poster?: string;
   width?: number;
   height?: number;
