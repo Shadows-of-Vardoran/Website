@@ -79,7 +79,7 @@ Plans do not need to be perfect. Failed experiments, incorrect assumptions, and 
 
 <!-- /guide -->
 
-<!-- guide:sov-mod-guide -->
+<!-- guide:sov-mods-and-how-to-use-them -->
 <!-- title: SoV Mods and How to Use them -->
 <!-- description: The know how for every mod we employ -->
 <!-- content -->
@@ -196,8 +196,7 @@ If you choose to use four spells, the following rules apply.
 Violations may result in a disciplinary strike.
 
 ### Restrictions
-- Do not use more than two AoE spells.
-- Do not use more than two defensive spells.
+- Do not use more than a total of two AOE and/or Defensive spells.
 - Do not place Mist Trance on your Q slot.
 
 ### Defensive Spells
