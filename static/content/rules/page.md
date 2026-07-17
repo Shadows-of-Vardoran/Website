@@ -29,7 +29,7 @@
 - Torture: The intended victim must indicate their comfort level with gore before you engage in torture RP.
 - Drug-related RP: This includes truth serums, mind control drugs, lethal drugs, aphrodisiacs, and poisons. If you intend to use a truth serum, open a ticket with staff first. The player receiving the truth serum decides whether it works.
 - Magical Interactions: Putting someone under the influence of a spell, curse, or magic item.
-- Imprisonment: You do not need consent to imprison a player for the first 40 minutes. After 40 minutes, you must release them unless they consent to stay longer. Imprisoned players may attack castle doors to escape, and only castle doors. This is not a siege. For siege rules, see [Warbats](https://vardoran.com/rules#3-warbats).
+- Imprisonment: You do not need consent to imprison a player for the first 40 minutes. After 40 minutes, you must release them unless they consent to stay longer. Imprisoned players may attack castle doors to escape, and only castle doors. This is not a siege. For siege rules, see [Warbats](https://vardoran.com/rules#4-warbats).
 
 You arrange consent via Discord or by a quick out-of-character check-in using the in-game local chat. For in-game check-ins, put your message in parentheses so the other player knows it is out-of-character.
 
@@ -158,7 +158,7 @@ For commonly used in-character terms and their meanings, see the [Glossary](http
 - Switch to text RP in the in-game chat if you are engaging in a side conversation in a room full of other players.
 - Do not hit castles to get another player's attention. Knock or use a doorbell. If no one answers the door, ping the player you are looking for in `#dice`.
 - Do not share knowledge from V Bloods, a Research Desk, Study, Athenaeum, Castle Heart, or Stygian Altar with anyone outside your clan. This includes joining another clan to access their crafting stations, decor, or prison cells. You may share books.
-- Leave other players' bags in the open world alone. If you accidentally pick someone's things up, do your best to return the items to their owner. Robbery RP is covered in [Looting Players and Castles](https://vardoran.com/rules#2-thievery-and-looting-rules).
+- Leave other players' bags in the open world alone. If you accidentally pick someone's things up, do your best to return the items to their owner. Robbery RP is covered in [Looting Players and Castles](https://vardoran.com/rules#3-thievery-and-looting-rules).
 - Do not search for a perfect horse. With stables, they no longer exist in the wild. Do not attack, steal, or otherwise interact with a named horse that belongs to another player.
 - Ask before joining an in-progress V-Blood fight. Most V-Bloods scale with player involvement. Hopping in unexpectedly can make the fight significantly harder.
 - If you are fighting a V Blood with other players, <span class="text-accent">**wait until everyone is ready to drink the V Blood at the end of the fight.**</span> Sometimes people have to respawn and return. Do not drink before every player who helped is ready.
@@ -196,13 +196,58 @@ For commonly used in-character terms and their meanings, see the [Glossary](http
 - When participating in a duel or tournament, remove your Razor Hood if requested.
 - Kill On Sight (KOS) arrangements, such as persistent KOS wars, targeted hunts, or hiring a bounty hunter, require a Conflict Discussion Ticket for documented mutual consent. See [Kill on Sight](https://vardoran.com/conduct#6-kill-on-sight) for the community standards around this type of conflict.
 
-### 2. Thievery and Looting Rules
+### 2. PvP Ability Limitations
+
+<div class="marked-block-info">These limits apply to four-spell loadouts used in spontaneous open-world PvP. They apply to the instigator of an encounter and to anyone who escalates a non-PvP situation into PvP. A defender who did not seek or provoke combat is not penalized for a PvE-oriented loadout. Moderators determine who counts as an instigator on a case-by-case basis.</div>
+
+> [!IMPORTANT] <span class="text-warm">**Custom abilities obtained through specialties may also be considered AoE or defensive.**</span> There is no comprehensive list of these in either category. Use common sense when deciding whether a custom specialty ability counts. If you are unsure whether a specific ability qualifies, open a ticket and ask before using it in PvP.
+
+**Restrictions**
+
+- Do not use more than a total of two AoE <span class="text-warm">**and/or**</span> defensive spells across your four spell slots. AoE and defensive spells share a single two-spell limit. They are not separate restrictions.
+- Do not place Mist Trance on your Q slot.
+
+<div class="grid md:grid-cols-2 gap-x-8 gap-y-2">
+
+<div>
+
+**Defensive Spells**
+
+- Blood: Blood Rite
+- Chaos: Chaos Barrier
+- Unholy: Ward of the Damned
+- Illusion: Phantom Aegis, Mist Trance
+- Frost: Cold Snap, Frost Barrier
+- Storm: Discharge, Lightning Curtain
+
+</div>
+
+<div>
+
+**AoE Spells**
+
+- Blood: Blood Fountain
+- Chaos: Void, Aftershock, Rain of Chaos
+- Unholy: Bone Explosion, Soul Burn
+- Illusion: Mosquito
+- Frost: Ice Nova
+- Storm: Lightning Ball
+
+</div>
+
+</div>
+
+> [!NOTE] These limits do not apply to formal duels, tournaments, sparring, warbats, or any mutually agreed scenario where participants choose different terms. They are primarily enforced in spontaneous open-world conflict.
+
+> [!WARNING] Violations are handled through a disciplinary ticket. The first violation results in a warning. Repeated violations result in disciplinary strikes.
+
+### 3. Thievery and Looting Rules
 
 <div class="marked-block-info">Robbery in SoV is an RP-driven interaction, not a way to farm loot. The limits on what you can take exist to keep theft as a story beat, not a recurring drain on another player's progress.</div>
 
 **Looting Players**
 
-- You may take up to three unique stacks of items from a player at one time. If the player being robbed chooses to fight back, the winner may take up to five unique stacks from the loser. If the robbery victim fights back, the [PvP Rules](https://vardoran.com/rules#1-pvp) apply. Weapons and gear may only be taken from another player via a warbat. See [Warbat Rules](https://vardoran.com/rules#3-warbats).
+- You may take up to three unique stacks of items from a player at one time. If the player being robbed chooses to fight back, the winner may take up to five unique stacks from the loser. If the robbery victim fights back, the [PvP Rules](https://vardoran.com/rules#1-pvp) apply. Weapons and gear may only be taken from another player via a warbat. See [Warbat Rules](https://vardoran.com/rules#4-warbats).
 - You cannot kill a player and then rob them. You must choose one or the other. If you were brought into someone's castle and stole something while there, you may defend yourself against the castle owner and break out.
 - If shards are in use during a season, they may be taken from a player's bag, but not an NPC's bag without express admin permission.
 - Players who lost items to robbery are exempt from another robbery by the same robber and their clan for two IRL days. If the robbery victim resisted, they are only exempt for one IRL day.
@@ -210,14 +255,14 @@ For commonly used in-character terms and their meanings, see the [Glossary](http
 **Looting/Raiding Castles**
 
 > [!WARNING]
-> You may only raid and loot a castle without a [warbat](https://vardoran.com/rules#3-warbats) if the castle is in decay or left open. Offline raiding is not allowed. Intentionally damaging another player's castle without a warbat, such as destroying a garden or using a golem to attack it, is subject to a temporary or permanent ban without lesser disciplinary action.
+> You may only raid and loot a castle without a [warbat](https://vardoran.com/rules#4-warbats) if the castle is in decay or left open. Offline raiding is not allowed. Intentionally damaging another player's castle without a warbat, such as destroying a garden or using a golem to attack it, is subject to a temporary or permanent ban without lesser disciplinary action.
 
 - You may break only doors to enter a decaying castle.
 - If a castle is left open, you may not break anything. Doing so is subject to a temporary or permanent ban without lesser disciplinary action.
 - You may not interact with the castle heart, kill offline occupants, or steal their horses. If occupants are online, see [PvP Rules](https://vardoran.com/rules#1-pvp).
 - If you loot a decaying or open castle, you must leave an in-character hint in `#documents-doorbells` so the castle owner can follow up and attempt to get their items back.
 
-### 3. Warbats
+### 4. Warbats
 
 <div class="marked-block-info">Warbats are formal declarations of conflict between characters. They are the only way to siege, attack, or invade another player's castle. Warbats do not have to be resolved with traditional PvP or siege combat. We encourage players to get creative, but reserve warbats for serious or large-scale conflicts. If you want to issue a silly challenge that does not require admin oversight, use a normal bat.</div>
 
