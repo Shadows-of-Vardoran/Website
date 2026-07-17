@@ -198,7 +198,7 @@ For commonly used in-character terms and their meanings, see the [Glossary](http
 
 ### 2. PvP Ability Limitations
 
-<div class="marked-block-info">These limits apply to four-spell loadouts used in spontaneous open-world PvP. They apply to the instigator of an encounter and to anyone who escalates a non-PvP situation into PvP. A defender who did not seek or provoke combat is not penalized for a PvE-oriented loadout. Moderators determine who counts as an instigator on a case-by-case basis.</div>
+<div class="marked-block-info">These limits apply to four-spell loadouts used in spontaneous open-world PvP. They apply to the instigator of an encounter and to anyone who escalates a non-PvP situation into PvP. A defender who did not seek or provoke combat is not penalized for a PvE-oriented loadout. The same logic applies to NPC characters. If you intend to attack or engage an NPC, you must adhere to these restrictions. If an NPC attacks you, you are not penalized for a PvE-oriented loadout. Moderators determine who counts as an instigator on a case-by-case basis.</div>
 
 > [!IMPORTANT] <span class="text-warm">**Custom abilities obtained through specialties may also be considered AoE or defensive.**</span> There is no comprehensive list of these in either category. Use common sense when deciding whether a custom specialty ability counts. If you are unsure whether a specific ability qualifies, open a ticket and ask before using it in PvP.
 
@@ -236,6 +236,19 @@ For commonly used in-character terms and their meanings, see the [Glossary](http
 </div>
 
 </div>
+
+**Examples**
+
+Valid
+
+- Blood Rite (defensive) + Blood Fountain (AoE) + 2 spells that are neither defensive or AoE.
+- Void (AoE) + Aftershock (AoE) + 2 spells that are neither defensive or AoE.
+- Blood Rite (defensive) + Ward of the Damned (defensive) + 2 spells that are neither defensive or AoE.
+
+Invalid
+
+- Blood Rite (defensive) + Ward of the Damned (defensive) + Blood Fountain (AoE). That is three restricted spells, which exceeds the two-spell limit.
+- Void (AoE) + Aftershock (AoE) + Ice Nova (AoE). That is three AoE spells, which exceeds the two-spell limit.
 
 > [!NOTE] These limits do not apply to formal duels, tournaments, sparring, warbats, or any mutually agreed scenario where participants choose different terms. They are primarily enforced in spontaneous open-world conflict.
 
