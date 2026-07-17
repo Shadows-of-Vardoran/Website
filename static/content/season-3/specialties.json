@@ -106,5 +106,11 @@
     "icon": "cog",
     "colorKey": "blue",
     "category": "profession"
+  },
+  {
+    "name": "Rancher",
+    "icon": "barn",
+    "colorKey": "chartreuse",
+    "category": "profession"
   }
 ]

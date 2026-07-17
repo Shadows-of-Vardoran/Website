@@ -385,3 +385,35 @@ To be an engineer is to look at the world and ask how it works, then ask how it 
 
 - Access to engineer-themed abilities at each specialty level. Use the [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
 - Access to custom chat-based crafting commands for various unimplemented items used as physical representations for components in devices, such as copper wire and resonators. See the [Crafting Commands](#cmd-crafting) section for command syntax and usage.
+
+<!-- section:rancher -->
+To be a rancher is to understand that the living world is not just something to pass through. It is something to be kept, tended, and drawn from with intention. Where others see wild creatures only as obstacles or kills, a rancher sees stock. Where others walk past a patch of blood rose, a rancher sees a yield. The profession is built on capture and stewardship, taking wild things into your keeping and harvesting from them over time rather than ending them in a single moment.
+
+Captured creatures are bound as tokens, called back, set loose, and tended at your pace. The same discipline carries into the soil. A rancher reads the harvest and the land gives back more for it.
+
+## RP Themes
+
+- Capture and the craft of the net, knowing what can be taken and what cannot.
+- Stewardship of kept creatures, the steady work of tending stock over time.
+- Harvest versus slaughter, drawing resources patiently rather than ending the animal.
+- The bond between keeper and stock, responsibility for what you have taken into your keeping.
+- Plant yield and the rancher's eye, reading what the land is offering and taking more from it.
+
+## What You Can Do
+
+- Capture weakened wild creatures with the Trapper's Net, converting them into reusable tokens you carry with you.
+- Spend a token to spawn that creature at your location, where it behaves as a normal wild animal would.
+- Tend the animals near you to collect resources such as hide, bone, silkworm, and mutant grease, far more than you would get from killing the animal.
+- Harvest any plant in the world for bonus resources of the same kind the plant naturally produces, scaling with your rancher level.
+
+## What You Cannot Do
+
+- You cannot capture players or player-owned creatures such as minions, summons, or familiars.
+- You cannot capture a creature above your rancher tier. If the creature is too strong for you, your net snaps. If it cannot be captured at all, your net fails.
+- You cannot keep more than 30 creatures per rancher.
+- No castle may hold more than 30 creatures at once, no matter how many ranchers live there.
+
+## Features
+
+- The Trapper's Net is an ability. Use the [Abilities Commands](#cmd-abilities) to assign it to your spell slots.
+- Access to rancher chat commands for capturing, spawning, tending, and managing your animal tokens. See the [Rancher Commands](#cmd-rancher) section for command syntax and usage.

@@ -325,6 +325,7 @@
     'martial-arts',
     'doctor',
     'engineer',
+    'rancher',
   ];
 
   const ORGS_MD_PATH = 'static/content/season-3/organizations.md';
