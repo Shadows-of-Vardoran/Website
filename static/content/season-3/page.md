@@ -310,7 +310,6 @@ You may roll in as a blind character. A blind character is given a blindness deb
 | `.sov rancher tend` / `.rt` | Tend nearby animals to collect resources. |
 | `.sov rancher check` / `.rc` | Show which animals are near you to tend. |
 | `.sov rancher tokens` / `.rtk` | View your owned animal tokens and spawn commands. |
-| `.sov rancher grant <player> <animal> [amount]` / `.rg` | Admin only. Grant tokens to a player. |
 | <a id="cmd-mortality"></a>**Mortality** | |
 | `.sov mortality status` | Show your own mortality status, including injury count and treatment deadlines. |
 | <a id="cmd-abilities"></a>**Abilities** | |
