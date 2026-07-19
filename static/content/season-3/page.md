@@ -298,6 +298,7 @@ You may roll in as a blind character. A blind character is given a blindness deb
 | `.sov build list` / `.sov bl` | List all available furniture for the architect system, including coin costs. |
 | `.sov build spawn <name>` / `.sov bs` | Spawn a furniture ghost and enter architect build mode. You must be inside your own castle territory. |
 | `.sov build mode` / `.sov bm` | Toggle architect build mode on or off. When active: Left Click to place or grab, Q to rotate left, E to rotate right, Space to cancel, R to revert. You must be inside your own castle territory to activate. |
+| `.sov build expand` / `.sov be` | Expand your castle heart floor limit by +5. Requires rank 3 Architect. Costs resources. Can be used up to 60 times per castle heart for a maximum of +300 bonus tiles. |
 | <a id="cmd-crafting"></a>**Crafting** | |
 | `.sov craftlist` / `.sov cl` | List all craftable items you have access to. |
 | `.sov craftinfo <recipe>` / `.sov ci` | Show the materials required to craft a recipe. Partial name matches are accepted. If multiple recipes match, you will be asked to be more specific. |
