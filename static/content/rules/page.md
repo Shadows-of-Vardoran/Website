@@ -156,7 +156,7 @@ For commonly used in-character terms and their meanings, see the [Glossary](http
 - You may not intentionally ash while wearing a hood or otherwise concealing your identity. Ashing means clicking the button to respawn while on your knees. <span class="text-warm">**You MUST let the revive timer time out or be finished off by another player.**</span>
 - Changing your appearance with a mirror is not valid for hiding or concealing your identity. If you want to change your appearance enough that you cannot be recognized, open a ticket to discuss the process and a name change.
 - Switch to text RP in the in-game chat if you are engaging in a side conversation in a room full of other players.
-- Do not hit castles to get another player's attention. Knock or use a doorbell. If no one answers the door, ping the player you are looking for in `#dice`.
+- Do not hit castles to get another player's attention. Knock or use a doorbell. If no one answers the door, ping the player you are looking for in `#documents-doorbells`.
 - Do not share knowledge from V Bloods, a Research Desk, Study, Athenaeum, Castle Heart, or Stygian Altar with anyone outside your clan. This includes joining another clan to access their crafting stations, decor, or prison cells. You may share books.
 - Leave other players' bags in the open world alone. If you accidentally pick someone's things up, do your best to return the items to their owner. Robbery RP is covered in [Looting Players and Castles](https://vardoran.com/rules#3-thievery-and-looting-rules).
 - Do not search for a perfect horse. With stables, they no longer exist in the wild. Do not attack, steal, or otherwise interact with a named horse that belongs to another player.
