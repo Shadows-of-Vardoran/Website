@@ -186,7 +186,9 @@
         await Promise.all(Object.entries(sections).map(([key, md]) => renderSection(key, md)));
       }
 
-      if (racesRes.ok) { races = await racesRes.json(); }
+      if (racesRes.ok) {
+        races = await racesRes.json();
+      }
       if (racesMdRes.ok) {
         const raw = await racesMdRes.text();
         raceSections = splitSections(raw);
@@ -198,7 +200,9 @@
         );
         raceDescriptions = parsed;
       }
-      if (specsRes.ok) { specialties = await specsRes.json(); }
+      if (specsRes.ok) {
+        specialties = await specsRes.json();
+      }
       if (specsMdRes.ok) {
         const raw = await specsMdRes.text();
         specSections = splitSections(raw);
@@ -238,7 +242,9 @@
         );
         nationDescriptions = parsed;
       }
-      if (orgsRes.ok) { organizations = await orgsRes.json(); }
+      if (orgsRes.ok) {
+        organizations = await orgsRes.json();
+      }
       if (orgsMdRes.ok) {
         const raw = await orgsMdRes.text();
         orgSections = splitSections(raw);
@@ -329,7 +335,7 @@
   ];
 
   const ORGS_MD_PATH = 'static/content/season-3/organizations.md';
-  const ORGS_SECTION_ORDER = ['church-of-luminance', 'the-archivum', 'transcendum', 'noctum', 'vampire-hunters-guild', 'farbane-bandits', 'dunley-militia', 'venomblades'];
+  const ORGS_SECTION_ORDER = ['church-of-luminance', 'the-archivum', 'Trancendum', 'noctum', 'vampire-hunters-guild', 'farbane-bandits', 'dunley-militia', 'venomblades'];
 
   const NATIONS_MD_PATH = 'static/content/season-3/nations.md';
   const NATIONS_SECTION_ORDER = [
@@ -556,7 +562,6 @@
           <div class="text-tprimary-500 font-cinzel text-lg animate-pulse">Loading Season 3...</div>
         </div>
       {:else}
-
         <div class="text-center mb-8 max-md:mb-4 mt-4 max-md:mt-2">
           <h1 class="text-5xl max-md:text-3xl font-cinzel font-bold text-tprimary tracking-wide">Season 3 Lore & Information</h1>
         </div>

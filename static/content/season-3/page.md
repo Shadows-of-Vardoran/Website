@@ -115,7 +115,7 @@ We are inclined to trust the community with this framework as-is without any sig
     There are no plotlines tied to citizenship. No NPCs, no politics, no admin-run stories. Citizenship is a flavor choice, an interesting way to approach playing the game and a detail that adds texture to your character.
   </p>
   <p class="mb-4">
-    Citizenship is separate from military affiliation. Being a citizen of Brighthaven does not make you a member of the Church of Luminance. Being a citizen of Rustlock does not make you part of the Transcendum's military or advanced research teams.
+    Citizenship is separate from military affiliation. Being a citizen of Brighthaven does not make you a member of the Church of Luminance. Being a citizen of Rustlock does not make you part of the Trancendum's military or advanced research teams.
   </p>
   <p class="mb-4">
     Citizens allied with a location are expected not to harm or kill that area's V-Bloods. If you harm or kill an allied V-Blood, you lose your citizenship. To account for this, citizens have access to a custom command that unlocks a V-Blood while standing next to them, expending material requirements instead of killing them.
@@ -145,7 +145,7 @@ We are inclined to trust the community with this framework as-is without any sig
   </div>
   <div class="p-4 rounded border border-yellow-900/30 bg-yellow-900/15">
     <div class="text-tprimary font-cinzel text-lg mb-1">Rustlock</div>
-    <p class="text-base text-tprimary-100">Rustlock is Transcendum territory, and the Transcendum do not care what you are. They care what you can do. Any race may hold citizenship here, so long as you make yourself worth keeping around.</p>
+    <p class="text-base text-tprimary-100">Rustlock is Trancendum territory, and the Trancendum do not care what you are. They care what you can do. Any race may hold citizenship here, so long as you make yourself worth keeping around.</p>
     <p class="text-base text-tprimary-100">Those who contribute to the organization's work find the doors open. Those who do not, find them closed.</p>
     </div>
   </div>
@@ -415,7 +415,7 @@ You may roll in as a blind character. A blind character is given a blindness deb
     <div class="w-3 rounded bg-gradient-to-b from-chartreuse-800/60 to-chartreuse-950/80 flex-shrink-0 border border-chartreuse-900/30"></div>
     <div class="flex-1 text-lg leading-relaxed">
       <p>Generally, what you see in-game is achievable. Because the boss Adam exists, advanced mechanical modifications are entirely possible. However, full-blown robotic androids are not.</p>
-      <p>Adam and things like him represent the apex of research conducted by Blackbrew and the Transcendum. Achieving that level is considered the extreme high end of what is possible with augmentations. Players should tailor their expectations to their own aptitude and skill level in those fields of study.</p>
+      <p>Adam and things like him represent the apex of research conducted by Blackbrew and the Trancendum. Achieving that level is considered the extreme high end of what is possible with augmentations. Players should tailor their expectations to their own aptitude and skill level in those fields of study.</p>
     </div>
   </div>
 </div>

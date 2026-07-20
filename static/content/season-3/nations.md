@@ -29,7 +29,7 @@
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Within the stateless land of Vardoran, different groups have decided to take power into their own hands. The Cult of the Damned resurrect the long dead and their empire. The Legion of Noctum kidnap citizens and conjure monsters for the return of their fallen king. The Church of Luminance tries to hold onto their dominance of the land and struggle with the newfound chaos brought by magic's widespread arrival. The Dunley Militia do what they can to protect the people amidst desertion and pressure from all sides. Deserters from the Militia and the Light band together as bandits, keen to make a profit in the chaos. Transcendum viciously assert their occupation of Gloomrot and The Venomblades secure their borders in Oakveil.</p>
+    <p>Within the stateless land of Vardoran, different groups have decided to take power into their own hands. The Cult of the Damned resurrect the long dead and their empire. The Legion of Noctum kidnap citizens and conjure monsters for the return of their fallen king. The Church of Luminance tries to hold onto their dominance of the land and struggle with the newfound chaos brought by magic's widespread arrival. The Dunley Militia do what they can to protect the people amidst desertion and pressure from all sides. Deserters from the Militia and the Light band together as bandits, keen to make a profit in the chaos. Trancendum viciously assert their occupation of Gloomrot and The Venomblades secure their borders in Oakveil.</p>
     <p>All of Vardoran is in a state of unsteady chaos, torn in every direction and vulnerable to the influence of the creatures of the night.</p>
   </div>
 </div>
@@ -56,7 +56,7 @@ Nova Franka coincidentally had a mountain appear within the middle of the island
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>The lands of central Vardoran hold the majority of the population, and the region has the longest history of continuous human settlement. The Dunley Militia claims their organization has history here for as long as humans have lived in Vardoran. The farmlands used to stretch further north all the way to the pools of rebirth before Transcendum's invasion.</p>
+    <p>The lands of central Vardoran hold the majority of the population, and the region has the longest history of continuous human settlement. The Dunley Militia claims their organization has history here for as long as humans have lived in Vardoran. The farmlands used to stretch further north all the way to the pools of rebirth before Trancendum's invasion.</p>
   </div>
 </div>
 
@@ -86,7 +86,7 @@ Farbane woods are the home of a unicorn!
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-gold-800/60 to-gold-950/80 flex-shrink-0 border border-gold-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Four year ago Henry Blackbrew came to northern Vardoran to escape the legal and ethical burdens enforced in his homeland with a mission to continue his research in mutagenics. Blackbrew's Transcendum Corporation has extracted everything it can from the land and its people in this short time. He has brought forth the endless storm from his homeland and has polluted the waters of northern Vardoran with his mutagenic experimentations.</p>
+    <p>Four year ago Henry Blackbrew came to northern Vardoran to escape the legal and ethical burdens enforced in his homeland with a mission to continue his research in mutagenics. Blackbrew's Trancendum Corporation has extracted everything it can from the land and its people in this short time. He has brought forth the endless storm from his homeland and has polluted the waters of northern Vardoran with his mutagenic experimentations.</p>
   </div>
 </div>
 
@@ -384,7 +384,7 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-emerald-800/60 to-emerald-950/80 flex-shrink-0 border border-emerald-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>A place eerily resembling that of Transcendum where lighting, machines and dubious liquids run through the streets. The farms are mostly in laboratories and machine bound greenhouses, though light rarely shines on the plants inside. They only know of artificial lighting and growth hormones.</p>
+    <p>A place eerily resembling that of Trancendum where lighting, machines and dubious liquids run through the streets. The farms are mostly in laboratories and machine bound greenhouses, though light rarely shines on the plants inside. They only know of artificial lighting and growth hormones.</p>
   </div>
 </div>
 
@@ -585,7 +585,7 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-blue-800/60 to-blue-950/80 flex-shrink-0 border border-blue-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Much of Hafjallheim's economy is based around trade routes first carved out both across land and sea in search of pigments and dyes. The people developed a keen eye for these dyes and other valuables over the decades they have become known as fair traders. Since colors and pigments have captured the imaginations of the people, dyes have become their preferred currency. Purple being the highest value as it is harder to acquire. Coins are less valued but there is an up and coming thought process that coins are used everywhere else and thus they must adapt to use this currency. The compromise in recent years is painting parts of coins in the valued colors. Due to the paint scratching off easily they have been looking into ways to dye the soft metals. This has led to more trade with Transcendum dominated countries like Norus in hopes to use their technology for this purpose.</p>
+    <p>Much of Hafjallheim's economy is based around trade routes first carved out both across land and sea in search of pigments and dyes. The people developed a keen eye for these dyes and other valuables over the decades they have become known as fair traders. Since colors and pigments have captured the imaginations of the people, dyes have become their preferred currency. Purple being the highest value as it is harder to acquire. Coins are less valued but there is an up and coming thought process that coins are used everywhere else and thus they must adapt to use this currency. The compromise in recent years is painting parts of coins in the valued colors. Due to the paint scratching off easily they have been looking into ways to dye the soft metals. This has led to more trade with Trancendum dominated countries like Norus in hopes to use their technology for this purpose.</p>
   </div>
 </div>
 
@@ -889,7 +889,7 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-indigo-800/60 to-indigo-950/80 flex-shrink-0 border border-indigo-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Vardoran is a thorn in Norus' side. Transcendum, a Norus-founded corporation, operates at odds with the local Luminance worshippers. Norus would prefer to keep allied with Novosvet, though the uncontrollable proxy war Blackbrew wages in Vardoran makes that incredibly difficult.</p>
+    <p>Vardoran is a thorn in Norus' side. Trancendum, a Norus-founded corporation, operates at odds with the local Luminance worshippers. Norus would prefer to keep allied with Novosvet, though the uncontrollable proxy war Blackbrew wages in Vardoran makes that incredibly difficult.</p>
     <p>Lakkrah's pirates off the coast of Norus are a major problem, but without talented sailors, Norus can do little to stop the piracy and raids except produce more grain.</p>
     <p>Welronz is a mercantile rival for grain and food production, though not an outright enemy.</p>
     <p>Frankleburg is a valuable ally and client of their grain production.</p>
