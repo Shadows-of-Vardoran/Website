@@ -208,15 +208,12 @@ Violations may result in a disciplinary strike.
 - Storm: Discharge, Lightning Curtain  
 
 ### AoE Spells
-- Blood Fountain  
-- Bone Explosion  
-- Void  
-- Ice Nova  
-- Lightning Ball  
-- Mosquito  
-- Aftershock  
-- Rain of Chaos  
-- Soul Burn  
+- Blood: Blood Fountain
+- Chaos: Void, Rain of Chaos, Aftershock
+- Unholy: Bone Explosion, Soul Burn 
+- Illusion: Mosquito
+- Frost: Ice Nova 
+- Storm: Lightning Ball
 
 </details>
 
