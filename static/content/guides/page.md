@@ -200,8 +200,8 @@ Violations may result in a disciplinary strike.
 - Do not place Mist Trance on your Q slot.
 
 ### Defensive Spells
-- Blood: Blood Rite, Bloodrage  
-- Chaos: Chaos Barrier, Power Surge  
+- Blood: Blood Rite
+- Chaos: Chaos Barrier 
 - Unholy: Ward of the Damned  
 - Illusion: Phantom Aegis, Mist Trance  
 - Frost: Cold Snap, Frost Barrier  
