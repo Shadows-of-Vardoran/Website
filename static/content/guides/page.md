@@ -200,23 +200,20 @@ Violations may result in a disciplinary strike.
 - Do not place Mist Trance on your Q slot.
 
 ### Defensive Spells
-- Blood: Blood Rite, Bloodrage  
-- Chaos: Chaos Barrier, Power Surge  
+- Blood: Blood Rite
+- Chaos: Chaos Barrier 
 - Unholy: Ward of the Damned  
 - Illusion: Phantom Aegis, Mist Trance  
 - Frost: Cold Snap, Frost Barrier  
 - Storm: Discharge, Lightning Curtain  
 
 ### AoE Spells
-- Blood Fountain  
-- Bone Explosion  
-- Void  
-- Ice Nova  
-- Lightning Ball  
-- Mosquito  
-- Aftershock  
-- Rain of Chaos  
-- Soul Burn  
+- Blood: Blood Fountain
+- Chaos: Void, Rain of Chaos, Aftershock
+- Unholy: Bone Explosion, Soul Burn 
+- Illusion: Mosquito
+- Frost: Ice Nova 
+- Storm: Lightning Ball
 
 </details>
 
