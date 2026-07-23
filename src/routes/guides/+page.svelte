@@ -303,7 +303,7 @@
       >
         <button onclick={() => expandGuide(i)} class="absolute cursor-pointer inset-0 animate opacity-100 {expandedGuide === i ? 'opacity-0! pointer-events-none!' : ''}">
           <div class="flex flex-col bg-background-900/60 hover:bg-background-800/30 h-full px-3 py-4 card-border border-2">
-            <div class="text-2xl font-cinzel card-title">{guide.title}</div>
+            <div class="text-2xl font-cinzel card-title text-white">{guide.title}</div>
             <div class="text-lg grow mt-6 text-left">{guide.description}</div>
             <img
               src={brBorderDecoration2}

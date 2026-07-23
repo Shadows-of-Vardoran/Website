@@ -7,13 +7,13 @@
 <details open>
 <summary>Click to expand or collapse</summary>
 
-RPO tickets are your gateway to uncovering secret lore, exploring new abilities, and interacting with the plot of Vardoran in meaningful and unique ways.
+<span class="text-accent">RPO tickets are your gateway to uncovering secret lore, exploring new abilities, and interacting with the plot of Vardoran in meaningful and unique ways.</span>
 
 An RPO ticket is usually written as a short narrative exchange between your character and the world. You describe your character’s actions, experiments, rituals, or investigations. An admin responds as a narrator, reflecting how the world reacts to what you attempt.
 
-Not every RPO ticket, experiment, or ritual will result in something tangible or in new knowledge. Sometimes the lack of new information is still progress. It can rule out a method, refine understanding, or push your character to adapt and try something new. Science, magic, and rituals are not perfect.
+<span class="text-warm">Not every RPO ticket, experiment, or ritual will result in something tangible or in new knowledge.</span> Sometimes the lack of new information is still progress. It can rule out a method, refine understanding, or push your character to adapt and try something new. Science, magic, and rituals are not perfect.
 
-This season, we want to encourage players to tell us more about what their characters are doing and why, instead of relying on the team to define every possible outcome.
+<span class="text-accent">We want you to tell us more about what your character is doing and why, instead of relying on the team to define every possible outcome.</span>
 
 </details>
 
@@ -41,19 +41,17 @@ This season, we want to encourage players to tell us more about what their chara
   Examples include radiant fibers, gold ore, coal, perfect gems, cursed weapons, or unexplained phenomena.
 - Know your goal and have a rough plan for how your character intends to pursue it.
 - Include relevant details such as rituals attempted, locations visited, or groundwork already laid.
-- Keep goals RP focused. RPO tickets should support your character’s story and motivations, not exist solely for rewards or power.
+- <span class="text-warm">Keep goals RP focused. RPO tickets should support your character’s story and motivations, not exist solely for rewards or power.</span>
 
 </details>
 
 
-## What’s Changing This Season
+## Preparing Your RPO
 
 <details open>
 <summary>Click to expand or collapse</summary>
 
-In prior seasons, the team often helped guide players toward outcomes, especially when tickets were very light on detail. Some players provided extensive plans, while others provided very little and expected the rest to be filled in.
-
-Going forward, RPO tickets are meant to be a collaborative creative space where you lead with intent and action, and the team responds with how the world reacts. This means expectations for what you bring into a ticket have increased slightly.
+<span class="text-accent">RPO tickets are a collaborative creative space where you lead with intent and action, and the team responds with how the world reacts.</span> You cannot rely on the team to fill in the gaps of a vague request. The more you bring to the ticket, the more the world can respond to.
 
 Before submitting an RPO, take some time to consider:
 - What your character wants
@@ -79,146 +77,6 @@ Plans do not need to be perfect. Failed experiments, incorrect assumptions, and 
 
 <!-- /guide -->
 
-<!-- guide:sov-mods-and-how-to-use-them -->
-<!-- title: SoV Mods and How to Use them -->
-<!-- description: The know how for every mod we employ -->
-<!-- content -->
-
-# What Mods Are We Running?
-
-<details open>
-<summary>Click to expand or collapse</summary>
-
-We run a variety of mods on the server to help facilitate and enhance the RP experience. Below is a comprehensive list of the mods currently in use.
-
-If you have any questions about these mods or run into issues, feel free to open a Player Support ticket.
-
-### Installed Mods
-- Kindred Commands  
-  Used for a wide range of RP focused effects.
-- Kindred Schematics  
-  Supports our custom building systems.
-- Kindred Portals  
-  Allows the setup of custom portals.
-- VRoles  
-  Used to manage command permissions.
-- VampireCommandFramework  
-  A framework mod that supports chat based commands.
-- SoVUtilities  
-  Our in-house custom mod.
-
-Most commands you will commonly use as a player come from SoVUtilities.  
-If you encounter bugs or unexpected behavior, please report them via a Player Support ticket.
-
-</details>
-
-
-# Commands and You
-
-<details open>
-<summary>Click to expand or collapse</summary>
-
-To enter a command, type it directly into the chat box.
-
-If you are worried about breaking immersion due to a mistyped command, use clan chat instead of local chat.
-
-</details>
-
-
-## Misc Utility Commands
-
-<details open>
-<summary>Click to expand or collapse</summary>
-
-- `.sov reveal`  
-  Reveals your character name to others if you are wearing a razer hood.
-
-- `.sov coords`  
-  Prints your current world coordinates in chat for reference.
-
-- `.sov buff refresh`  
-  Refreshes any tag-related buffs currently applied to your character.
-
-- `.anon <message>`  
-  Sends a message to local chat anonymously.  
-  You may see your own message twice. Others will not.
-
-</details>
-
----
-
-## Human Commands
-
-<details open>
-<summary>Click to expand or collapse</summary>
-
-If you are playing a Human with the contract and the `human` tag, you may use the following command:
-
-- `.sov drawblood`  
-  Gives you a bottle of blood matching your blood type.  
-  Can only be used once every 20 real-world hours.
-
-</details>
-
-
-## Ability Commands
-
-<details open>
-<summary>Click to expand or collapse</summary>
-
-You can assign spells to your unarmed Q and E slots using the commands below.
-
-Spells are copied from your current primary and secondary spell slots, so make sure those are set before running the command.
-
-### Set Abilities
-- `.sov ability set q` or `.sov ability set primary`  
-  Copies the spell from your first spell slot (R) to Weapon Slot 1 (Q).
-
-- `.sov ability set e` or `.sov ability set secondary`  
-  Copies the spell from your second spell slot (C) to Weapon Slot 2 (E).
-
-### Clear Abilities
-- `.sov ability clear q` or `.sov ability clear primary`  
-  Clears the spell assigned to Weapon Slot 1 (Q).
-
-- `.sov ability clear e` or `.sov ability clear secondary`  
-  Clears the spell assigned to Weapon Slot 2 (E).
-
-</details>
-
-
-## Four Spell Rules
-
-<details open>
-<summary>Click to expand or collapse</summary>
-
-If you choose to use four spells, the following rules apply.  
-Violations may result in a disciplinary strike.
-
-### Restrictions
-- Do not use more than a total of two AOE and/or Defensive spells.
-- Do not place Mist Trance on your Q slot.
-
-### Defensive Spells
-- Blood: Blood Rite
-- Chaos: Chaos Barrier 
-- Unholy: Ward of the Damned  
-- Illusion: Phantom Aegis, Mist Trance  
-- Frost: Cold Snap, Frost Barrier  
-- Storm: Discharge, Lightning Curtain  
-
-### AoE Spells
-- Blood: Blood Fountain
-- Chaos: Void, Rain of Chaos, Aftershock
-- Unholy: Bone Explosion, Soul Burn 
-- Illusion: Mosquito
-- Frost: Ice Nova 
-- Storm: Lightning Ball
-
-</details>
-
-<!-- /guide -->
-
 <!-- guide:whitelist-dos-and-donts -->
 <!-- title: Whitelist Do's and Don'ts -->
 <!-- description: Whitelisting, learn what we are looking for as part of the whitelist process. -->
@@ -228,9 +86,10 @@ Violations may result in a disciplinary strike.
 
 <details open>
 <summary>Click to expand or collapse</summary>
+
 This guide is here to help you understand what information matters most in a whitelist application, how to present it clearly, and what generally fits within the setting.
 
-Think of this less as a checklist and more as guidance on how to communicate who your character is, what drives them, and why they belong in Vardoran.
+<span class="text-accent">Think of this less as a checklist and more as guidance on how to communicate who your character is, what drives them, and why they belong in Vardoran.</span>
 
 A strong whitelist focuses on the parts of your character that actively shape how they think, act, and interact right now. Not every detail of their life story needs to be included. What matters most are the forces pushing them forward.
 </details>
@@ -245,7 +104,7 @@ A strong whitelist focuses on the parts of your character that actively shape ho
 **Knowledge, Skills, and Interests**
 - Explain any magical, alchemical, technological, or scientific interests your character has pursued.
 - These should be framed as studies, experiments, research interests, partial successes, or failures.
-- Fully finished, mass-producible, or easily deployable inventions are not appropriate at character start.
+- <span class="text-warm">Fully finished, mass-producible, or easily deployable inventions are not appropriate at character start.</span>
 - If your character has seen or assisted with advanced work, that does not mean they fully understand or can recreate it.
 
 **Level of Expertise**
@@ -285,9 +144,8 @@ A strong whitelist focuses on the parts of your character that actively shape ho
 - Avoid extensive family trees, childhood anecdotes, or romantic histories unless they directly affect your character’s current motivations.
 - Distant relatives, old crushes, or minor childhood events rarely matter for approval.
 - You are welcome to keep extra lore for personal use, but it is not required for whitelisting.
-
-- Do not write direct connections to existing in-game characters such as Dracula or other VBloods.
-- Your character should stand on their own, not be pre-attached to major canon figures.
+- <span class="text-warm">Do not write direct connections to existing in-game characters such as Dracula or other VBloods.</span>
+- <span class="text-accent">Your character should stand on their own, not be pre-attached to major canon figures.</span>
 
 **Realistic Powerlevel**
 - Do not write your character as all-powerful, invincible, or universally exceptional.
@@ -312,13 +170,11 @@ A strong whitelist focuses on the parts of your character that actively shape ho
 <details open>
 <summary>Click to expand or collapse</summary>
 
-- Do not assume technology progressed the same way it did in the real world.
+- <span class="text-warm">Do not assume technology progressed the same way it did in the real world.</span>
 - Magic fundamentally altered scientific and technological development in this setting.
 - Two hundred years in Vardoran does not equal two hundred years of real-world advancement.
-
 - Technological stagnation, regression, or divergence is expected.
 - If you want advanced creations, consider how magic supplements or replaces technology instead of copying real-world designs.
-
 - Anything truly advanced must be earned through roleplay.
 - Progress should involve effort, setbacks, and staff oversight.
 - Starting with partial knowledge and growing over time is the intended experience.
@@ -357,11 +213,11 @@ Examples coming soon.
 <details open>
 <summary>Click to expand or collapse</summary>
 
-Character profiles are an optional tool to help other players and staff quickly understand who your character is at a glance. They are not required, and there is no expectation that every field be filled out.
+<span class="text-accent">Character profiles are an optional tool to help other players and staff quickly understand who your character is at a glance.</span> They are not required, and there is no expectation that every field be filled out.
 
 You may include as much or as little information as you like. Some players prefer a minimal profile with only a name and appearance, while others enjoy writing something more detailed. Both approaches are valid.
 
-This profile is meant to support roleplay, not replace it.
+<span class="text-accent">This profile is meant to support roleplay, not replace it.</span>
 </details>
 
 
@@ -442,7 +298,7 @@ These sections describe what your character is capable of and how they tend to b
   How your character typically presents themselves to others.
 
 **Skillset**  
-Talents, training, or areas of competence. These should align with your whitelist and in-game progression.
+Talents, training, or areas of competence. <span class="text-warm">These should align with your whitelist and in-game progression.</span>
 
 **Occupations**  
 Past or present professions, roles, or long-term pursuits.
@@ -505,9 +361,9 @@ If you are unsure whether something fits the setting, or if you want help refini
 
 # Citizenship System
 ## Overview
-The citizenship system is a new feature for Season 3 that allows players whitelisting Vardoran-native characters to choose a home faction at character creation. Citizens receive a faction tag that prevents NPCs belonging to their chosen faction from aggroing on them automatically, opening up roleplay and gameplay opportunities that simply weren't available before.
+The citizenship system is a new feature for Season 3 that allows players whitelisting Vardoran-native characters to choose a home faction at character creation. <span class="text-accent">Citizens receive a faction tag that prevents NPCs belonging to their chosen faction from aggroing on them automatically, opening up roleplay and gameplay opportunities that simply weren't available before.</span>
 
-This is a mechanics and flavor system. It is not admin-run, and it does not come with attached plotlines, NPC characters controlled by admins, or scheduled events. What players do with the access and the social context it provides is entirely up to them.
+<span class="text-warm">This is a mechanics and flavor system.</span> It is not admin-run, and it does not come with attached plotlines, NPC characters controlled by admins, or scheduled events. What players do with the access and the social context it provides is entirely up to them.
 ## Who Can Use It
 Citizenship is primarily intended for human characters, as humans make up the general native population of Vardoran and the settlements involved are predominantly human communities. 
 
@@ -519,7 +375,7 @@ As a confirmed example, Brighthaven in Silverlight will be one of the available 
 
 Brighthaven is the heart of Church of Luminance territory. A citizen there may worship Luminance or simply live within the city's influence, working the grape fields or trading in the city as part of their daily life. The faction separation principle described below applies here as with all others: a Brighthaven citizen is not part of the Church of Luminance's armed forces.
 
-**Please do not plan your character around a specific faction until that information is released, as the full list has not been finalized.**
+<span class="text-warm">**Please do not plan your character around a specific faction until that information is released, as the full list has not been finalized.**</span>
 ## What Citizenship Does and Does Not Give You
 **What it gives you:**
 - A faction tag aligned to your chosen settlement, preventing those NPCs from aggroing on you automatically.
@@ -531,7 +387,7 @@ Brighthaven is the heart of Church of Luminance territory. A citizen there may w
 - Political authority or influence over NPC factions or their behavior.
 - Admin support, scheduled events, or plotlines attached to your citizenship. These factions are not admin-run and we will not be running content through them.
 
-If you hit an NPC from your allied faction, they will attack you normally. The tag prevents automatic aggro, not retaliation.
+If you hit an NPC from your allied faction, they will attack you normally. <span class="text-warm">The tag prevents automatic aggro, not retaliation.</span>
 ## Expectations
 This system is being rolled out after internal testing last season. The goal is to give players new ways to play and new hooks for character backgrounds and daily roleplay without requiring admin involvement to make that interesting.
 
