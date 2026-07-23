@@ -541,3 +541,85 @@ This system is being rolled out after internal testing last season. The goal is 
 Players should come into this with a clear understanding that citizenship is a low-power, low-risk flavor choice. Your character is an average person living in their corner of Vardoran. The interesting story that comes out of that is yours to build.
 
 <!-- /guide -->
+
+<!-- guide:rituals-overview -->
+<!-- title: Rituals Overview -->
+<!-- description: How rituals work, the roles involved, and what to expect when you attempt one. -->
+<!-- content -->
+
+# Rituals Overview
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Rituals are the act of manipulating the flow of magic through a space to create an effect. The objects, their positions, the hand motions, words spoken, frame of mind, everything in the working space contributes to the flow of magic.
+
+We have a system for determining how difficult a ritual is to complete, and we are not sharing the details of that system. Our goal is for you to try things out, fail forward, and learn how to do it better for the future. If a ritual fails, we will do our best to give you insight into why it failed.
+
+<span class="text-warm">All rituals must be submitted as an RPO ticket. There is no way to perform a ritual without checking in with us first.</span>
+
+</details>
+
+## Roles in a Ritual
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+A successful ritual requires the right combination of people. There are three roles a character can fill.
+
+**Magical School Specialty**
+
+<span class="text-accent">Channeling magic is the domain of Magical School Specialties.</span> If a ritual requires Blood magic, you or someone helping you must have Blood Magic Specialty. If it requires Storm and Chaos magic, you need Specialty in both across the people running the ritual.
+
+**Ritualism Specialty**
+
+Ritualism Specialty is separate from Magical School Specialties. It represents knowledge and experience in constructing and managing ritual spaces. It is not about channeling magic. The Ritualism Specialty stacks on top of Magical School Specialties.
+
+A character can have both Ritualism and a Magical School Specialty. They are not mutually exclusive.
+
+Think of it this way. Magical School Specialties can start the fire. Ritualism Specialty can add fuel to the flames. <span class="text-warm">People who only have Ritualism will not be able to do rituals by themselves.</span> They are a flex role and will need help from someone with the right Magical School Specialty.
+
+**Magical Batteries**
+
+We do not want to block players from participating in rituals just because they lack a Specialty.
+
+Characters who have no magical Specialty but can still use the type of magic at hand are welcome to be magical batteries. <span class="text-accent">You channel your magic into the ritual space, and the ritual controllers use that power to help the ritual along.</span>
+
+Batteries can provide any magic school their character can channel. For example, a human cannot provide Blood magic because they cannot channel Blood magic. A werewolf cannot provide Chaos magic because they cannot channel Chaos magic.
+
+How much a battery helps is not something we will share publicly.
+
+</details>
+
+## What Affects a Ritual
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+<span class="text-accent">There is no single correct way to perform a ritual.</span> Rituals are meant to be flexible, creative means to achieve things. How a ritual is performed is generally up to you. The aspects that are more set in stone are what magical schools are required in order to achieve the effect you want.
+
+There are four main factors we take into consideration when determining how effective a ritual will be.
+
+- **Ritual Space.** The location and setup where the ritual is performed.
+- **Ritual Design.** The specific methods, symbols, and procedures used.
+- **Material Components.** Physical items consumed or arranged for the ritual. You should expect us to ask for materials and components.
+- **Skills of Those Involved.** The Specialties and experience of everyone participating.
+
+</details>
+
+## Failure and Consequences
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+<span class="text-warm">Not every ritual will succeed.</span> When a ritual fails, here is what you can expect.
+
+- You lose the materials and time you put into the ritual.
+- You receive insight into why the ritual failed.
+- The ritual does not complete as intended.
+
+In some cases, depending on how dangerous the ritual is, the ritual might still complete but do something unintended. Admins have discretion to apply unexpected outcomes when a ritual goes out of control. The risk of this increases with the power of the ritual.
+
+</details>
+
+<!-- /guide -->
