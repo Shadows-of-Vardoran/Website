@@ -387,7 +387,7 @@ Brighthaven is the heart of Church of Luminance territory. A citizen there may w
 - Political authority or influence over NPC factions or their behavior.
 - Admin support, scheduled events, or plotlines attached to your citizenship. These factions are not admin-run and we will not be running content through them.
 
-If you hit an NPC from your allied faction, they will attack you normally. <span class="text-warm">The tag prevents automatic aggro, not retaliation.</span>
+If you hit an NPC from your allied faction, they will not immediately retaliate. You have to hit them three times within ten seconds before they turn on you. <span class="text-warm">The tag prevents automatic aggro, not repeated hostility.</span>
 ## Expectations
 This system is being rolled out after internal testing last season. The goal is to give players new ways to play and new hooks for character backgrounds and daily roleplay without requiring admin involvement to make that interesting.
 
