@@ -56,14 +56,14 @@ and practice like any other school of magic.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Blood Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Blood Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character manipulating the life force of another being for a reason beyond combat. Moving, adding, or taking life force all qualify.
 - Journal a documented RP scene of your character grappling with the conservation principle. Life force is the currency of everything blood magic does. It cannot be created. It must be taken from somewhere. Your character faces that limit head on.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Blood Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Blood Magic ritual or working space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Blood Magic ritual or working space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character using blood magic, across at least 3 different days.
   - Those scenes must span at least 2 distinct applications of blood magic. Moving life force in one scene and taking it in another counts. The same application repeated three times does not.
   - At least one scene must show your character deliberately managing the conservation principle. Planning around the cost ahead of time, budgeting how much life force an attempt requires, or consciously choosing to draw on their own life force instead of a source's. The core shift from Aspiring is control instead of collision. Your character has learned to work with the limiter, not just been surprised by it.
@@ -72,7 +72,7 @@ and practice like any other school of magic.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Blood Magic ritual or working space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Blood Magic ritual or working space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross magical specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -129,14 +129,14 @@ speak, at least for a time.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Unholy Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Unholy Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character imposing their will onto raw magic for a reason beyond combat. A first deliberate attempt at drawing on environmental unholy magic and bending it to their will, or forcing a mental fragment to manifest from a dead person and asking them a single question before it dissipates.
 - Journal a documented RP scene of your character grappling with the limit of their own willpower. This moment should focus on your character realizing that their capability is only as strong as their willpower, and the implications of that limiting factor.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Unholy Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Unholy Magic ritual or working space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Unholy Magic ritual or working space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character using unholy magic, across at least 3 different days.
   - Those scenes must span at least 2 distinct applications of unholy magic. Drawing on and bending environmental will saturation in one scene and forcing a mental fragment to manifest and interrogating it in another counts. The same application repeated three times does not.
   - At least one scene must show your character managing their willpower deliberately rather than just encountering its limit. Pacing themselves against a demanding working, recognizing when they are nearing their ceiling and choosing to stop or scale back, or deliberately conserving willpower for something that matters more. The core shift from Aspiring is control instead of collision. Your character has learned to work with the limiter, not just been surprised by it.
@@ -145,7 +145,7 @@ speak, at least for a time.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Unholy Magic ritual or working space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Unholy Magic ritual or working space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross magical specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -200,14 +200,14 @@ energy flows through a working is as important as the working itself.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Storm Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Storm Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character concentrating raw magical energy against its natural tendency to disperse, a first deliberate attempt at gathering and focusing it for a reason beyond combat.
 - Journal a documented RP scene of your character grappling with containment. Energy escaping their hold and discharging before they meant it to, or having to actively fight to keep concentrated energy from dispersing back to equilibrium. The core theme is fighting against the natural state of the world, and the implications of never permanently winning that fight.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Storm Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Storm Magic ritual or working space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Storm Magic ritual or working space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character using storm magic, across at least 3 different days.
   - Those scenes must span at least 2 distinct applications of storm magic. Concentrating ambient magical energy from the surrounding environment in one scene and directing or discharging that concentrated energy toward a specific effect in another counts. The same application repeated three times does not.
   - At least one scene must show your character managing containment deliberately rather than just encountering it. Planning how long they can hold concentrated energy before it needs releasing, timing a discharge on purpose rather than losing control of one, or working with the energy's pull toward dispersal instead of just fighting it outright. The core shift from Aspiring is control instead of collision. Your character has learned to work with the limiter, not just been surprised by it.
@@ -216,7 +216,7 @@ energy flows through a working is as important as the working itself.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Storm Magic ritual or working space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Storm Magic ritual or working space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross magical specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -274,14 +274,14 @@ energy.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Frost Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Frost Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character removing energy from a target or area, a first deliberate attempt at creating an energy deficit for a reason beyond combat.
 - Journal a documented RP scene of your character grappling with the equilibrium problem. An effect fading or melting the moment they stop channeling, or having to maintain continuous focus to hold an energy deficit open against the world's pull to fill it. The core theme is fighting against the natural state of the world, and the implications of never permanently winning that fight.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Frost Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Frost Magic ritual or working space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Frost Magic ritual or working space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character using frost magic, across at least 3 different days.
   - Those scenes must span at least 2 distinct applications of frost magic. Removing energy from a person or object in one scene and removing energy from a wider area in another counts. The same application repeated three times does not.
   - At least one scene must show your character managing the equilibrium problem deliberately rather than just encountering it. Planning how long they can sustain a deficit before it collapses, timing when to let an effect fade rather than being caught off guard by it fading, or budgeting their focus across a working instead of just holding on until they cannot anymore. The core shift from Aspiring is control instead of collision. Your character has learned to work with the limiter, not just been surprised by it.
@@ -290,7 +290,7 @@ energy.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Frost Magic ritual or working space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Frost Magic ritual or working space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross magical specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -347,14 +347,14 @@ is never exactly what it is, and that gap is always visible in the work.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Illusion Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Illusion Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character manifesting something they partially comprehend, a first deliberate creation for a reason beyond combat. Starting simple is expected since complexity scales with depth of understanding.
 - Journal a documented RP scene of your character grappling with the limit of their own comprehension. An illusion dissolving as their concentration breaks, or attempting something too complex and producing something partial, flawed, or incomplete. The core theme is that the depth of understanding limits what can be created, and no mortal can truly understand something to the degree needed for permanent, true creation.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Illusion Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Illusion Magic ritual or working space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Illusion Magic ritual or working space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character using illusion magic, across at least 3 different days.
   - Those scenes must span at least 2 distinct applications of illusion magic. Manifesting a simple object in one scene and manifesting something with more nuance or complexity in another counts. The same application repeated three times does not.
   - At least one scene must show your character managing the limit of their own comprehension deliberately rather than just encountering it. Scoping a creation down to something they actually understand well enough to sustain, deliberately choosing simplicity over ambition to keep something stable, or recognizing in the moment that they are pushing past what they truly comprehend and pulling back before it collapses. The core shift from Aspiring is control instead of collision. Your character has learned to work with the limiter, not just been surprised by it.
@@ -363,7 +363,7 @@ is never exactly what it is, and that gap is always visible in the work.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Illusion Magic ritual or working space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Illusion Magic ritual or working space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross magical specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -417,14 +417,14 @@ accordingly.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Chaos Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Chaos Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character unmaking something for a reason beyond combat, a first deliberate attempt at erasing something small and contained.
 - Journal a documented RP scene of your character grappling with the mental discipline chaos magic demands. Their concentration wavering and erasing something adjacent to their intent rather than the target itself, or only partially erasing what they meant to. The core theme is that a wavering focus in chaos magic does not just weaken the effect the way it would in other schools. It produces the wrong effect entirely. A lack of understanding what you are trying to unmake can lead to unmaking the wrong thing, and the implications of how unmaking is permanent.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Chaos Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Chaos Magic ritual or working space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Chaos Magic ritual or working space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character using chaos magic, across at least 3 different days.
   - Those scenes must span at least 2 distinct applications of chaos magic. Erasing a physical object in one scene and erasing something less tangible like an effect or a small environmental feature in another counts. The same application repeated three times does not.
   - At least one scene must show your character managing the mental discipline chaos magic demands deliberately rather than just encountering it. Narrowing their focus onto exactly what they intend to unmake before acting, deliberately working slowly to avoid erasing something adjacent to their target, or recognizing their concentration slipping and stopping before committing to the erasure. The core shift from Aspiring is control instead of collision. Your character has learned to work with the limiter, not just been surprised by it.
@@ -433,7 +433,7 @@ accordingly.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Chaos Magic ritual or working space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Chaos Magic ritual or working space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross magical specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -492,14 +492,14 @@ that natural limitation is the school's ceiling.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Light Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Light Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character revealing or restoring the true state of something for a reason beyond combat, a first deliberate attempt. Healing by restoring a wound back toward its true un-wounded state, or revealing the hidden nature of an object.
 - Journal a documented RP scene of your character grappling with clarity as the school's limiter, their own self-deception or misperception weakening or distorting the effect. Light magic responds to what is actually true, not to what the character believes is true, so a character who cannot see something clearly will find the magic unreliable in that moment.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Light Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Light Magic ritual or working space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Light Magic ritual or working space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character using light magic, across at least 3 different days.
   - Those scenes must span at least 2 distinct applications of light magic. Healing or restoring something toward its true state in one scene and revealing the hidden nature of an object or person in another counts. The same application repeated three times does not.
   - At least one scene must show your character managing clarity deliberately rather than just encountering it. Actively working to see a situation honestly before attempting the magic, recognizing their own self-deception in the moment and correcting for it, or deliberately seeking outside perspective when they know their own view might be clouded. The core shift from Aspiring is control instead of collision. Your character has learned to work with the limiter, not just been surprised by it.
@@ -508,7 +508,7 @@ that natural limitation is the school's ceiling.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Light Magic ritual or working space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Light Magic ritual or working space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross magical specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -565,14 +565,14 @@ school's natural ceiling.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Shadow Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Shadow Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character concealing or corrupting the true state of something for a reason beyond combat, a first deliberate attempt. Obscuring the true nature of an object or person, or the uncontrolled warping of some physical matter into something it is not.
 - Journal a documented RP scene of your character grappling with comfort with the hidden as the school's limiter, their own need for clarity or certainty weakening or distorting the effect. Shadow magic responds to a willingness to dwell in ambiguity, so a character who insists on seeing things clearly or understanding something fully will find the magic unreliable in that moment.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Shadow Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Shadow Magic ritual or working space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Shadow Magic ritual or working space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character using shadow magic, across at least 3 different days.
   - Those scenes must span at least 2 distinct applications of shadow magic. Concealing the true nature of something in one scene and corrupting or warping something in another counts. The same application repeated three times does not.
   - At least one scene must show your character managing comfort with the hidden deliberately rather than just encountering it. Consciously choosing to let something stay ambiguous instead of needing to resolve it, recognizing their own discomfort with uncertainty and working through it mid-scene, or leaning into ambiguity on purpose as a tool rather than stumbling into it. The core shift from Aspiring is control instead of collision. Your character has learned to work with the limiter, not just been surprised by it.
@@ -581,7 +581,7 @@ school's natural ceiling.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Shadow Magic ritual or working space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Shadow Magic ritual or working space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross magical specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -641,14 +641,14 @@ from scratch.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Elemental Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Elemental Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character directing an elemental force for a reason beyond combat, a first deliberate attempt at shaping or influencing fire, water, earth, wind, or lightning.
 - Journal a documented RP scene of your character grappling with the resource requirement elemental magic demands. Running short of fuel for fire, lacking a water source, or reaching for earth that is not present. Elemental magic directs existing forces rather than conjuring them from nothing, so a character without the raw material to work with will find the magic does not respond.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Elemental Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Elemental Magic ritual or working space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Elemental Magic ritual or working space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character using elemental magic, across at least 3 different days.
   - Those scenes must span at least 2 distinct elements. Fire, water, earth, wind, or lightning. The same element repeated three times does not.
   - At least one scene must show your character managing the resource requirement deliberately rather than just encountering it. Planning ahead for a fuel or water source before attempting something, rationing what is available across a working, or recognizing a shortage in the moment and adapting the approach instead of the magic simply failing. The core shift from Aspiring is control instead of collision. Your character has learned to work with the limiter, not just been surprised by it.
@@ -657,7 +657,7 @@ from scratch.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Elemental Magic ritual or working space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Elemental Magic ritual or working space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross magical specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -719,14 +719,14 @@ replicate.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Druidic Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Druidic Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character encouraging, shaping, or communing with a natural or living process for a reason beyond combat, a first deliberate attempt at accelerating growth, reading nature, or communicating with an animal.
 - Journal a documented RP scene of your character grappling with the limitation that druidic magic cannot create life from nothing. Reaching for growth where nothing exists to grow, or trying to influence a natural process with no living foundation to work from. Druidic magic directs and encourages existing life. It does not originate it, and it is still bound by the cycle of life and death.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Druidic Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Druidic Magic ritual or working space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Druidic Magic ritual or working space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character using druidic magic, across at least 3 different days.
   - Those scenes must span at least 2 distinct applications of druidic magic. Encouraging plant growth in one scene and communicating with or influencing an animal in another counts. The same application repeated three times does not.
   - At least one scene must show your character managing the limitation that druidic magic cannot create life from nothing deliberately rather than just encountering it. Scoping a working to whatever living foundation is actually present, deliberately choosing not to overreach in a barren area, or recognizing in the moment there is nothing there to work with and adapting rather than forcing it. The core shift from Aspiring is control instead of collision. Your character has learned to work with the limiter, not just been surprised by it.
@@ -735,7 +735,7 @@ replicate.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Druidic Magic ritual or working space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Druidic Magic ritual or working space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross magical specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -778,14 +778,14 @@ magics and the tools to push them beyond their ordinary limits.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Architecture workspace or design studio, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Architecture workspace or design studio, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character designing or constructing something for an RP purpose using standard castle magics, scoped to what an Aspiring level practitioner could actually manage. A small structural addition, a modest interior redesign, a minor fortification element, not a full building or a major structural overhaul. A routine gameplay build does not count. This has to be a piece made for a reason within the story.
 - Journal a documented RP scene of your character grappling with the ceiling of castle magics on their own, recognizing that real architecture is about structural science and deliberate vision in a way the base game tools cannot replicate, and committing to pursue actual training to push past it.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Architecture specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Architecture workspace or design studio to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Architecture workspace or design studio to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character decorating or arranging a space using your unlocked Architecture placement commands, purchasing items, moving objects with granular control, and clipping pieces together in ways a standard player cannot, across at least 3 different days, each going beyond what a Novice working with castle magics alone could manage. Each scene should include a journaled description of the final space and the design choices made.
   - Those scenes must span at least 2 distinct types of work. One scene focused on structural design and a separate scene focused on decorative or representational arrangement counts. The same type of project repeated three times does not.
   - At least 2 of those scenes must be projects built for another player's character or for community use, not solely for your own space.
@@ -795,7 +795,7 @@ magics and the tools to push them beyond their ordinary limits.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Architecture workspace or design studio to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Architecture workspace or design studio to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -841,14 +841,14 @@ workplace. It is where intention meets metal.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Blacksmithing workshop or forge space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Blacksmithing workshop or forge space, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character shaping raw metal into something for an RP purpose using standard castle magics. Not a routine gameplay craft, but a piece made for a reason within the story. A commission, a gift, a request from another character, something built specifically to serve a scene rather than just equip a slot.
 - Journal a documented RP scene of your character grappling with the ceiling of castle magics on their own, recognizing that real craftsmanship is about discipline, heat, and timing in a way the base game tools cannot replicate, and committing to pursue actual training to push past it.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Blacksmithing specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Blacksmithing workshop or forge space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Blacksmithing workshop or forge space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character forging or modifying a weapon using your unlocked Blacksmithing commands, across at least 3 different days. Each scene should include a journaled description of the final product and the process used to create it.
   - Those scenes must span at least 2 distinct weapon types, rather than the same weapon type repeated three times.
   - At least 2 of those scenes must be commissions or requests made for another player's character, not solely work done for your own equipment.
@@ -858,7 +858,7 @@ workplace. It is where intention meets metal.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Blacksmithing workshop or forge space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Blacksmithing workshop or forge space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -898,14 +898,14 @@ well-cut cloak.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Tailoring workshop space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Tailoring workshop space, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character crafting a garment for an RP purpose using standard castle magics, scoped to what an Aspiring level practitioner could actually manage. A modest commission, a simple costume piece, a gift garment, not an elaborate signature piece or complex material work. A routine gameplay craft does not count. This has to be a piece made for a reason within the story, ideally tied to what it says about the person wearing it.
 - Journal a documented RP scene of your character grappling with the ceiling of castle magics on their own, recognizing that real tailoring is about understanding material, weave, and how fabric behaves on the body in a way the base game tools cannot replicate, and committing to pursue actual training to push past it.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Tailoring specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Tailoring workshop space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Tailoring workshop space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character crafting a hat or aesthetic cloak, or reinforcing a piece of armor for increased durability, using your unlocked Tailoring commands, across at least 3 different days, each going beyond a Novice's basic commission. Each scene should include a journaled description of the final garment and the process used to create it.
   - Those scenes must span at least 2 distinct types of work. Crafting an aesthetic piece like a hat or cloak in one scene and reinforcing a piece of armor in another counts. The same type of work repeated three times does not.
   - At least 2 of those scenes must be commissions made for another player's character.
@@ -915,7 +915,7 @@ well-cut cloak.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Tailoring workshop space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Tailoring workshop space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -954,14 +954,14 @@ things are becomes the power to change what they do.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Alchemy laboratory or workspace, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Alchemy laboratory or workspace, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character preparing a reagent or compound for an RP purpose using standard castle magics or base game brewing, scoped to what an Aspiring level practitioner could actually manage. A simple tincture, a basic remedy, a modest experimental preparation, not a complex multi-stage compound or anything genuinely toxic. A routine gameplay potion craft does not count. This has to be a piece made for a reason within the story.
 - Journal a documented RP scene of your character grappling with the ceiling of standard brewing on their own, recognizing that real alchemy is about reagent knowledge, disciplined testing, and methodology in a way the base game tools cannot replicate, and committing to pursue actual training to push past it.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Alchemy specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Alchemy laboratory or workspace to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Alchemy laboratory or workspace to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character preparing reagents or compounds using real Alchemy skill, across at least 3 different days, each going beyond a Novice's basic tincture. Each scene should include a journaled description of the final compound and the process used to create it.
   - Those scenes must span at least 2 distinct types of preparation. A scene focused on a remedy and a separate scene focused on a more experimental or novel compound counts. The same type of preparation repeated three times does not.
   - At least 2 of those scenes must be prepared for another player's character, not solely for your own use.
@@ -971,7 +971,7 @@ things are becomes the power to change what they do.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Alchemy laboratory or workspace to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Alchemy laboratory or workspace to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -1016,14 +1016,14 @@ makes it burn brighter.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Ritualism workspace for study and preparation, separate from any actual ritual space used to perform a rite, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Ritualism workspace for study and preparation, separate from any actual ritual space used to perform a rite, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character constructing a ritual's structure for an RP purpose, arranging a space, placing objects with intention, helping organize the mechanics of a small, low-stakes working, scoped to what an Aspiring level practitioner could actually manage.
 - Journal a documented RP scene of your character grappling with the craft of ritual structure itself. A working that did not come together cleanly because of a misplaced object, a wrong sequence, or an ill-timed action, and having to recognize where the structure broke down rather than assuming the magic itself was at fault.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Ritualism specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Ritualism workspace to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Ritualism workspace to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character structuring or assisting with rituals using real Ritualism skill, across at least 3 different days. Each scene should include a journaled description of the ritual structure and the process used to build it.
   - Those scenes must span at least 2 distinct types of ritual work. One working structured for a magic school practitioner and a separate working of a different purpose or scale counts. The same type of working repeated three times does not.
   - At least 2 of those scenes must be run in service of another player's working, not the ritualist's own solo practice.
@@ -1033,7 +1033,7 @@ makes it burn brighter.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Ritualism workspace to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Ritualism workspace to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -1072,14 +1072,14 @@ martial artist reaches inward.
 
 ### Novice (0) to Aspiring (1)
 
-- Dedicate a minimum 2 tile training space, a dojo, sparring ground, or personal practice area, submitted with screenshots and a short write-up explaining your design choices.
+- Dedicate a minimum of 2 floor tiles training space, a dojo, sparring ground, or personal practice area, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character training, sparring, or fighting for an RP purpose, a first deliberate practice of forms, stances, or foundational strikes, scoped to what an Aspiring level practitioner could actually manage. Basic conditioning and fundamentals, not advanced technique or a masterful display. This can include fighting mobs or PVP, but it has to be genuinely roleplayed, narrated form, intention, and effort, not just mechanically clicking through a fight. Ideally done with at least one other person present, though that is not a hard requirement.
 - Journal a documented RP scene of your character grappling with the discipline itself. Hitting a plateau, struggling with restraint, or overextending physically and having to recognize the limits of their current training. Martial arts is a discipline of repetition and the body, not a shortcut, so a character reaching past their actual training will find their form breaks down under pressure.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Martial Arts specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your training space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your training space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character training, sparring, or fighting using your unlocked melee combat abilities, across at least 3 different days. Each scene should include a journaled description of the techniques used and how your character executed them.
   - Those scenes must span at least 2 distinct types of practice. One scene focused on technique refinement and a separate scene applying one of your unlocked abilities under real pressure in a spar or a fight counts. The same type of scene repeated three times does not.
   - At least 2 of those scenes must involve another player, a sparring partner, a training partner, or an opponent.
@@ -1089,7 +1089,7 @@ martial artist reaches inward.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your training space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your training space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -1138,14 +1138,14 @@ potion is not being a doctor. The specialty exists because the work demands it.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Doctoring practice space, an infirmary, clinic, or treatment room, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Doctoring practice space, an infirmary, clinic, or treatment room, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character providing genuine medical care for an RP purpose, scoped to what an Aspiring level practitioner could actually manage. A diagnosis, a light wound treated, basic wound cleaning and dressing, not a complex surgery or an advanced procedure beyond their training. A base game pickup or handing someone a health potion does not count. This has to be real hands-on medical RP appropriate to their skill level.
 - Journal a documented RP scene of your character grappling with the weight or limits of the discipline. A diagnosis they got wrong, a patient they could not save, or a moment they had to decide who got help first because not everyone could wait. Doctoring carries real failure, and the character has to sit with that rather than treat medicine as something that always works.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Doctoring specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Doctoring practice space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Doctoring practice space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character providing medical care using your unlocked Doctoring commands, across at least 3 different days, each addressing something beyond what a Novice's basic wound care could handle. Each scene should include a journaled description of the case and the treatment provided.
   - Those scenes must span at least 2 distinct types of care. Treating a physical injury in one scene and addressing an illness or a chronic condition in another counts. The same type of care repeated three times does not.
   - At least 2 of those scenes must be performed on another player's character, not self-treatment or an NPC.
@@ -1155,7 +1155,7 @@ potion is not being a doctor. The specialty exists because the work demands it.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Doctoring practice space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Doctoring practice space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -1199,14 +1199,14 @@ what they can build with them.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Engineering workshop or workbench space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Engineering workshop or workbench space, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character building or assembling a device or mechanism for an RP purpose using standard castle magics, scoped to what an Aspiring level practitioner could actually manage. A simple mechanism or a small functional device, not a complex invention or something genuinely novel. A routine gameplay craft does not count. This has to be a piece made for a reason within the story.
 - Journal a documented RP scene of your character grappling with the reality that most prototypes do not work on the first attempt. A device that failed, malfunctioned, or did not behave as intended, and having to iterate or rethink the approach rather than assuming the first attempt should have simply worked.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Engineering specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Engineering workshop or workbench space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Engineering workshop or workbench space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character using an unlocked Engineering ability or crafting one of your unlocked special components, unimplemented engineering pieces built purely for RP projects, across at least 3 different days, each going beyond a Novice's first simple prototype. Each scene should include a journaled description of the device or component and the process used to build it.
   - Those scenes must span at least 2 distinct types of engineering work. One scene built around an unlocked ability and a separate scene crafting one of the special RP components counts. The same type of work repeated three times does not.
   - At least 2 of those scenes must be built or used for another player's actual use or request.
@@ -1216,7 +1216,7 @@ what they can build with them.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Engineering workshop or workbench space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Engineering workshop or workbench space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:
@@ -1283,14 +1283,14 @@ harvest and the land gives back more for it.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum 2 tile Rancher space, a pen, stable, or tending area, submitted with screenshots and a short write-up explaining your design choices.
+- Build a minimum of 2 floor tiles Rancher space, a pen, stable, or tending area, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character engaging with ordinary hunting or farming for an RP purpose, using only base game mechanics since the Trapper's Net, tending command, and bonus harvest are all locked behind Aspiring. This has to be a genuine scene, not a routine gameplay kill or gather. A first moment of the character treating a creature or a patch of land as something to be kept or drawn from rather than simply taken.
 - Journal a documented RP scene of your character grappling with harvest versus slaughter. A creature they had to kill outright because they did not yet have the means to capture and keep it, or a plant stripped bare rather than harvested with care. The core theme is the character recognizing the gap between what ordinary hunting and farming gives them and the stewardship they actually want to practice, and committing to real training to close that gap.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Rancher specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
 
 ### Aspiring (1) to Skilled (2)
 
-- Expand your Rancher space to a minimum of 4 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Rancher space to at least 4 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - At least 3 documented RP scenes of your character using the Trapper's Net or the tending command, across at least 3 different days, now that these are actually unlocked. Each scene should include a journaled description of the creature and the process used to capture or tend it.
   - Those scenes must span at least 2 distinct creature types. Capturing one creature type and tending a different one in another scene counts. The same application repeated three times does not.
   - At least 2 of those scenes must benefit another player, a captured creature or its yield given for someone else.
@@ -1300,7 +1300,7 @@ harvest and the land gives back more for it.
 
 ### Skilled (2) to Expert (3)
 
-- Expand your Rancher space to a minimum of 8 tiles, submitted with updated screenshots and a short write-up explaining the changes.
+- Expand your Rancher space to at least 8 floor tiles, submitted with updated screenshots and a short write-up explaining the changes.
 - Journal at least one documented failure, with an account of what your character learned and how they grew from it.
 - Journal at least 2 cross specialty collaboration scenes, each involving a distinct other specialty.
 - Pick at least 1 of the following:

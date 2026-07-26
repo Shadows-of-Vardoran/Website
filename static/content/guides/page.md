@@ -506,7 +506,7 @@ Each rank has its own set of requirements. You must complete all required items 
 
 Every specialty lists its rank requirements on the [Season 3 page](/season-3#specialties). Requirements vary by specialty but typically include:
 
-- Building or expanding a dedicated workspace of a minimum tile count, submitted with screenshots and a short write-up explaining your design choices. Workspaces can be shared between players in the same sigil who hold the same specialty, but each player must provide their own description even if they did not build the space.
+- Building or expanding a dedicated workspace of at least 2 floor tiles (rank 1), expanding to at least 4 (rank 2), then at least 8 (rank 3), submitted with screenshots and a short write-up explaining your design choices. These are individual floor tiles, not a 2x2 area. A rank 1 workspace could be two tiles placed side by side. Workspaces can be shared between players in the same sigil who hold the same specialty, but each player must provide their own description even if they did not build the space.
 - Documented RP scenes demonstrating specific applications of the specialty's core mechanics.
 - A journaled failure with reflection on what was learned (required for rank 3).
 - Cross specialty collaboration with at least 2 distinct other specialties (required for rank 3).
