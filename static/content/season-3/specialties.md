@@ -56,7 +56,7 @@ and practice like any other school of magic.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Blood Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Blood Magic ritual or working space of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character manipulating the life force of another being for a reason beyond combat. Moving, adding, or taking life force all qualify.
 - Journal a documented RP scene of your character grappling with the conservation principle. Life force is the currency of everything blood magic does. It cannot be created. It must be taken from somewhere. Your character faces that limit head on.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Blood Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -129,7 +129,7 @@ speak, at least for a time.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Unholy Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Unholy Magic ritual or working space of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character imposing their will onto raw magic for a reason beyond combat. A first deliberate attempt at drawing on environmental unholy magic and bending it to their will, or forcing a mental fragment to manifest from a dead person and asking them a single question before it dissipates.
 - Journal a documented RP scene of your character grappling with the limit of their own willpower. This moment should focus on your character realizing that their capability is only as strong as their willpower, and the implications of that limiting factor.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Unholy Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -200,7 +200,7 @@ energy flows through a working is as important as the working itself.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Storm Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Storm Magic ritual or working space of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character concentrating raw magical energy against its natural tendency to disperse, a first deliberate attempt at gathering and focusing it for a reason beyond combat.
 - Journal a documented RP scene of your character grappling with containment. Energy escaping their hold and discharging before they meant it to, or having to actively fight to keep concentrated energy from dispersing back to equilibrium. The core theme is fighting against the natural state of the world, and the implications of never permanently winning that fight.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Storm Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -274,7 +274,7 @@ energy.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Frost Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Frost Magic ritual or working space of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character removing energy from a target or area, a first deliberate attempt at creating an energy deficit for a reason beyond combat.
 - Journal a documented RP scene of your character grappling with the equilibrium problem. An effect fading or melting the moment they stop channeling, or having to maintain continuous focus to hold an energy deficit open against the world's pull to fill it. The core theme is fighting against the natural state of the world, and the implications of never permanently winning that fight.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Frost Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -347,7 +347,7 @@ is never exactly what it is, and that gap is always visible in the work.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Illusion Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Illusion Magic ritual or working space of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character manifesting something they partially comprehend, a first deliberate creation for a reason beyond combat. Starting simple is expected since complexity scales with depth of understanding.
 - Journal a documented RP scene of your character grappling with the limit of their own comprehension. An illusion dissolving as their concentration breaks, or attempting something too complex and producing something partial, flawed, or incomplete. The core theme is that the depth of understanding limits what can be created, and no mortal can truly understand something to the degree needed for permanent, true creation.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Illusion Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -417,7 +417,7 @@ accordingly.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Chaos Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Chaos Magic ritual or working space of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character unmaking something for a reason beyond combat, a first deliberate attempt at erasing something small and contained.
 - Journal a documented RP scene of your character grappling with the mental discipline chaos magic demands. Their concentration wavering and erasing something adjacent to their intent rather than the target itself, or only partially erasing what they meant to. The core theme is that a wavering focus in chaos magic does not just weaken the effect the way it would in other schools. It produces the wrong effect entirely. A lack of understanding what you are trying to unmake can lead to unmaking the wrong thing, and the implications of how unmaking is permanent.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Chaos Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -492,7 +492,7 @@ that natural limitation is the school's ceiling.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Light Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Light Magic ritual or working space of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character revealing or restoring the true state of something for a reason beyond combat, a first deliberate attempt. Healing by restoring a wound back toward its true un-wounded state, or revealing the hidden nature of an object.
 - Journal a documented RP scene of your character grappling with clarity as the school's limiter, their own self-deception or misperception weakening or distorting the effect. Light magic responds to what is actually true, not to what the character believes is true, so a character who cannot see something clearly will find the magic unreliable in that moment.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Light Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -565,7 +565,7 @@ school's natural ceiling.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Shadow Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Shadow Magic ritual or working space of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character concealing or corrupting the true state of something for a reason beyond combat, a first deliberate attempt. Obscuring the true nature of an object or person, or the uncontrolled warping of some physical matter into something it is not.
 - Journal a documented RP scene of your character grappling with comfort with the hidden as the school's limiter, their own need for clarity or certainty weakening or distorting the effect. Shadow magic responds to a willingness to dwell in ambiguity, so a character who insists on seeing things clearly or understanding something fully will find the magic unreliable in that moment.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Shadow Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -641,7 +641,7 @@ from scratch.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Elemental Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Elemental Magic ritual or working space of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character directing an elemental force for a reason beyond combat, a first deliberate attempt at shaping or influencing fire, water, earth, wind, or lightning.
 - Journal a documented RP scene of your character grappling with the resource requirement elemental magic demands. Running short of fuel for fire, lacking a water source, or reaching for earth that is not present. Elemental magic directs existing forces rather than conjuring them from nothing, so a character without the raw material to work with will find the magic does not respond.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Elemental Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -719,7 +719,7 @@ replicate.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Druidic Magic ritual or working space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Druidic Magic ritual or working space of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character encouraging, shaping, or communing with a natural or living process for a reason beyond combat, a first deliberate attempt at accelerating growth, reading nature, or communicating with an animal.
 - Journal a documented RP scene of your character grappling with the limitation that druidic magic cannot create life from nothing. Reaching for growth where nothing exists to grow, or trying to influence a natural process with no living foundation to work from. Druidic magic directs and encourages existing life. It does not originate it, and it is still bound by the cycle of life and death.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Druidic Magic specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -778,7 +778,7 @@ magics and the tools to push them beyond their ordinary limits.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Architecture workspace or design studio, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Architecture workspace or design studio of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character designing or constructing something for an RP purpose using standard castle magics, scoped to what an Aspiring level practitioner could actually manage. A small structural addition, a modest interior redesign, a minor fortification element, not a full building or a major structural overhaul. A routine gameplay build does not count. This has to be a piece made for a reason within the story.
 - Journal a documented RP scene of your character grappling with the ceiling of castle magics on their own, recognizing that real architecture is about structural science and deliberate vision in a way the base game tools cannot replicate, and committing to pursue actual training to push past it.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Architecture specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -841,7 +841,7 @@ workplace. It is where intention meets metal.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Blacksmithing workshop or forge space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Blacksmithing workshop or forge space of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character shaping raw metal into something for an RP purpose using standard castle magics. Not a routine gameplay craft, but a piece made for a reason within the story. A commission, a gift, a request from another character, something built specifically to serve a scene rather than just equip a slot.
 - Journal a documented RP scene of your character grappling with the ceiling of castle magics on their own, recognizing that real craftsmanship is about discipline, heat, and timing in a way the base game tools cannot replicate, and committing to pursue actual training to push past it.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Blacksmithing specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -898,7 +898,7 @@ well-cut cloak.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Tailoring workshop space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Tailoring workshop space of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character crafting a garment for an RP purpose using standard castle magics, scoped to what an Aspiring level practitioner could actually manage. A modest commission, a simple costume piece, a gift garment, not an elaborate signature piece or complex material work. A routine gameplay craft does not count. This has to be a piece made for a reason within the story, ideally tied to what it says about the person wearing it.
 - Journal a documented RP scene of your character grappling with the ceiling of castle magics on their own, recognizing that real tailoring is about understanding material, weave, and how fabric behaves on the body in a way the base game tools cannot replicate, and committing to pursue actual training to push past it.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Tailoring specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -954,7 +954,7 @@ things are becomes the power to change what they do.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Alchemy laboratory or workspace, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Alchemy laboratory or workspace of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character preparing a reagent or compound for an RP purpose using standard castle magics or base game brewing, scoped to what an Aspiring level practitioner could actually manage. A simple tincture, a basic remedy, a modest experimental preparation, not a complex multi-stage compound or anything genuinely toxic. A routine gameplay potion craft does not count. This has to be a piece made for a reason within the story.
 - Journal a documented RP scene of your character grappling with the ceiling of standard brewing on their own, recognizing that real alchemy is about reagent knowledge, disciplined testing, and methodology in a way the base game tools cannot replicate, and committing to pursue actual training to push past it.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Alchemy specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -1016,7 +1016,7 @@ makes it burn brighter.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Ritualism workspace for study and preparation, separate from any actual ritual space used to perform a rite, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Ritualism workspace for study and preparation of at least 2 floor tiles, separate from any actual ritual space used to perform a rite, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character constructing a ritual's structure for an RP purpose, arranging a space, placing objects with intention, helping organize the mechanics of a small, low-stakes working, scoped to what an Aspiring level practitioner could actually manage.
 - Journal a documented RP scene of your character grappling with the craft of ritual structure itself. A working that did not come together cleanly because of a misplaced object, a wrong sequence, or an ill-timed action, and having to recognize where the structure broke down rather than assuming the magic itself was at fault.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Ritualism specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -1072,7 +1072,7 @@ martial artist reaches inward.
 
 ### Novice (0) to Aspiring (1)
 
-- Dedicate a minimum of 2 floor tiles training space, a dojo, sparring ground, or personal practice area, submitted with screenshots and a short write-up explaining your design choices.
+- Dedicate a training space of at least 2 floor tiles, a dojo, sparring ground, or personal practice area, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character training, sparring, or fighting for an RP purpose, a first deliberate practice of forms, stances, or foundational strikes, scoped to what an Aspiring level practitioner could actually manage. Basic conditioning and fundamentals, not advanced technique or a masterful display. This can include fighting mobs or PVP, but it has to be genuinely roleplayed, narrated form, intention, and effort, not just mechanically clicking through a fight. Ideally done with at least one other person present, though that is not a hard requirement.
 - Journal a documented RP scene of your character grappling with the discipline itself. Hitting a plateau, struggling with restraint, or overextending physically and having to recognize the limits of their current training. Martial arts is a discipline of repetition and the body, not a shortcut, so a character reaching past their actual training will find their form breaks down under pressure.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Martial Arts specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -1138,7 +1138,7 @@ potion is not being a doctor. The specialty exists because the work demands it.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Doctoring practice space, an infirmary, clinic, or treatment room, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Doctoring practice space of at least 2 floor tiles, an infirmary, clinic, or treatment room, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character providing genuine medical care for an RP purpose, scoped to what an Aspiring level practitioner could actually manage. A diagnosis, a light wound treated, basic wound cleaning and dressing, not a complex surgery or an advanced procedure beyond their training. A base game pickup or handing someone a health potion does not count. This has to be real hands-on medical RP appropriate to their skill level.
 - Journal a documented RP scene of your character grappling with the weight or limits of the discipline. A diagnosis they got wrong, a patient they could not save, or a moment they had to decide who got help first because not everyone could wait. Doctoring carries real failure, and the character has to sit with that rather than treat medicine as something that always works.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Doctoring specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -1199,7 +1199,7 @@ what they can build with them.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Engineering workshop or workbench space, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Engineering workshop or workbench space of at least 2 floor tiles, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character building or assembling a device or mechanism for an RP purpose using standard castle magics, scoped to what an Aspiring level practitioner could actually manage. A simple mechanism or a small functional device, not a complex invention or something genuinely novel. A routine gameplay craft does not count. This has to be a piece made for a reason within the story.
 - Journal a documented RP scene of your character grappling with the reality that most prototypes do not work on the first attempt. A device that failed, malfunctioned, or did not behave as intended, and having to iterate or rethink the approach rather than assuming the first attempt should have simply worked.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Engineering specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
@@ -1283,7 +1283,7 @@ harvest and the land gives back more for it.
 
 ### Novice (0) to Aspiring (1)
 
-- Build a minimum of 2 floor tiles Rancher space, a pen, stable, or tending area, submitted with screenshots and a short write-up explaining your design choices.
+- Build a Rancher space of at least 2 floor tiles, a pen, stable, or tending area, submitted with screenshots and a short write-up explaining your design choices.
 - Journal a documented RP scene of your character engaging with ordinary hunting or farming for an RP purpose, using only base game mechanics since the Trapper's Net, tending command, and bonus harvest are all locked behind Aspiring. This has to be a genuine scene, not a routine gameplay kill or gather. A first moment of the character treating a creature or a patch of land as something to be kept or drawn from rather than simply taken.
 - Journal a documented RP scene of your character grappling with harvest versus slaughter. A creature they had to kill outright because they did not yet have the means to capture and keep it, or a plant stripped bare rather than harvested with care. The core theme is the character recognizing the gap between what ordinary hunting and farming gives them and the stewardship they actually want to practice, and committing to real training to close that gap.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Rancher specialist. This can replace one of the two RP scene requirements above, though the themes must remain the same.
