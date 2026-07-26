@@ -372,7 +372,13 @@
                   >
                     <i class="mdi mdi-delete mr-1"></i>Delete
                   </button>
-                  <button onclick={closeGuide} class="min-h-10 min-w-10 flex items-center justify-center text-tprimary/70 hover:text-white font-cinzel text-xs rounded cursor-pointer" aria-label="Close guide"> <i class="mdi mdi-close"></i> </button>
+                  <button
+                    onclick={closeGuide}
+                    class="min-h-10 min-w-10 flex items-center justify-center text-tprimary/70 hover:text-white font-cinzel text-xs rounded cursor-pointer"
+                    aria-label="Close guide"
+                  >
+                    <i class="mdi mdi-close"></i>
+                  </button>
                 </div>
               </div>
               <div bind:this={editorEl} class="flex-grow border border-tprimary-700 rounded overflow-y-auto"></div>
@@ -389,7 +395,13 @@
                       <i class="mdi mdi-pencil mr-1"></i>Edit
                     </button>
                   {/if}
-                  <button onclick={closeGuide} class="min-h-12 min-w-12 flex items-center justify-center text-white text-2xl z-10 cursor-pointer font-cinzel hover:text-red-500/90 transition-colors duration-300" aria-label="Close guide"> <i class="mdi mdi-close"></i> </button>
+                  <button
+                    onclick={closeGuide}
+                    class="min-h-12 min-w-12 flex items-center justify-center text-white text-2xl z-10 cursor-pointer font-cinzel hover:text-red-500/90 transition-colors duration-300"
+                    aria-label="Close guide"
+                  >
+                    <i class="mdi mdi-close"></i>
+                  </button>
                 </div>
               </div>
               <div class="flex-grow min-h-0 overflow-y-auto scrollbar-hidden marked pt-2">{@html guide.parsedContent}</div>

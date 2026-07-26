@@ -3,7 +3,7 @@
     "name": "Vampire",
     "colorKey": "red",
     "tagline": "Centuries of hunger, an eternity of shadow",
-    "blurb": "You are a vampire, a creature of the night bound by an eternal thirst. Your existence is a cycle of feeding, hiding, and rising. The sun is your enemy, but the darkness is your domain. You command blood magic, move with preternatural speed, and your senses pierce the veil of night. But every gift has a price — and your hunger is never truly sated."
+    "blurb": "You are a vampire, a creature of the night bound by an eternal thirst. Your existence is a cycle of feeding, hiding, and rising. The sun is your enemy, but the darkness is your domain. You command blood magic, move with preternatural speed, and your senses pierce the veil of night. But every gift has a price, and your hunger is never truly sated."
   },
   {
     "name": "Human",
@@ -15,13 +15,13 @@
     "name": "Werewolf",
     "colorKey": "orange",
     "tagline": "New to this world, already hunted",
-    "blurb": "You are a werewolf, a creature caught between two natures. By day you walk among mortals, but when the moon rises the beast stirs. Your strength, speed, and senses far outstrip any natural predator. The curse grants you power, but control is a constant battle — and every transformation threatens to be your last."
+    "blurb": "You are a werewolf, a creature caught between two natures. By day you walk among mortals, but when the moon rises the beast stirs. Your strength, speed, and senses far outstrip any natural predator. The curse grants you power, but control is a constant battle, and every transformation threatens to be your last."
   },
   {
     "name": "Mytt",
     "colorKey": "violet",
     "tagline": "Ancient. Elsewhere. Not from here.",
-    "blurb": "You are a Mytt, a being whose form is suffused with raw magical energy. Mortal flesh anchors you to the physical world, but your spirit brushes against realms beyond. Magic is not something you study — it is something you are. Spells flow through you like breath, and the veil between worlds is thinner in your presence."
+    "blurb": "You are a Mytt, a being whose form is suffused with raw magical energy. Mortal flesh anchors you to the physical world, but your spirit brushes against realms beyond. Magic is not something you study. It is something you are. Spells flow through you like breath, and the veil between worlds is thinner in your presence."
   },
   {
     "name": "Talam",

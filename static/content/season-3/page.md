@@ -96,11 +96,12 @@ We are inclined to trust the community with this framework as-is without any sig
 <!-- section:specialties-tech-details -->
 - 2 specialties at whitelist (level 1)
 - 3 levels per specialty
-- You may only obtain a specialty level increase once every 10 days
+- You may only obtain a specialty level increase once every 10 days. Requirements must be completed after achieving the previous rank in that specialty but do not need to be confined to the 10-day window
 - 3 specialties maximum at once
 - Max specialties will increase to 5+ over the story arc
 - You may swap a specialty for another once per season, unless new specialties are added mid-season
 - Swapping specialties does not retain levels. You start the new specialty at level 1 after completing the tasks to swap
+- See the [Specialty Leveling Guide](/guides) for the full breakdown of the requirements and submission process
 
 
 <!-- section:citizenship -->

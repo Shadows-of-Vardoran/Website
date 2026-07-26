@@ -476,3 +476,91 @@ In some cases, depending on how dangerous the ritual is, the ritual might still 
 </details>
 
 <!-- /guide -->
+
+
+<!-- guide:specialty-leveling -->
+<!-- title: Specialty Leveling Guide -->
+<!-- description: How specialty leveling works, the requirements, and the submission process. -->
+<!-- content -->
+
+# Specialty Leveling
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Specialties have three ranks. Advancing from one rank to the next requires completing a set of published requirements and submitting them for review.
+
+- **Rank 0** - No specialty. You do not have this specialty at all.
+- **Rank 1 (Aspiring)** - Unlocks the specialty's basic features and commands.
+- **Rank 2 (Skilled)** - Expands your available tools and capabilities.
+- **Rank 3 (Expert)** - The full extent of the specialty.
+
+Each rank has its own set of requirements. You must complete all required items for a rank before you can advance to the next.
+
+</details>
+
+## Requirements
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Every specialty lists its rank requirements on the [Season 3 page](/season-3#specialties). Requirements vary by specialty but typically include:
+
+- Building or expanding a dedicated workspace of a minimum tile count, submitted with screenshots and a short write-up explaining your design choices.
+- Documented RP scenes demonstrating specific applications of the specialty's core mechanics.
+- A journaled failure with reflection on what was learned (required for rank 3).
+- Cross specialty collaboration with at least 2 distinct other specialties (required for rank 3).
+- A selection of optional goals where you pick at least 1.
+
+The RP scenes must be genuine scenes with narrative context. Routine gameplay actions do not count.
+
+</details>
+
+## The Submission Process
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+1. Review the published requirements for your specialty's next rank.
+2. RP the required scenes and journal them in character.
+3. Submit an RPO ticket containing your journaled evidence, linking each requirement to the corresponding journal entry.
+4. The RPO team reviews your submission.
+5. If approved, your specialty ranks up and the ticket is closed.
+
+Refer to the [RPO Ticket Guidelines](/guides) for details on how to write and submit RPO tickets.
+
+</details>
+
+## Timing
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+<span class="text-warm">You may only obtain a specialty rank increase once every 10 days.</span> This is a hard minimum that applies per rank up, not per specialty. The 10 days are measured from your last specialty rank up on any specialty.
+
+Requirements for the next rank must be completed after you achieved the previous rank in that specialty. They do not need to be confined to the 10-day window. You can complete requirements at any point after reaching the previous rank and submit them once the 10-day minimum has passed.
+
+Each rank up creates a <span class="text-accent">checkpoint</span>. Requirements completed before reaching the previous rank do not carry forward toward the next rank.
+
+> [!EXAMPLE] You have <span class="text-accent">Storm Magic</span> at rank 1 and <span class="text-warm">Blood Magic</span> at rank 1. You start working on <span class="text-accent">Storm rank 2</span>. You must wait 10 days from your last rank up before you can get <span class="text-accent">Storm rank 2</span>.
+>
+> After you get <span class="text-accent">Storm rank 2</span>, you switch to working on <span class="text-warm">Blood rank 2</span>. You must wait another 10 days before you can get <span class="text-warm">Blood rank 2</span>. By the time you can get <span class="text-warm">Blood rank 2</span>, you have been at <span class="text-warm">Blood rank 1</span> for 20 days. The requirements for <span class="text-warm">Blood rank 2</span> can be done at any point after you got <span class="text-warm">Blood rank 1</span>.
+>
+> After you get <span class="text-warm">Blood rank 2</span>, if you start working on <span class="text-warm">Blood rank 3</span>, none of the things you did before <span class="text-warm">Blood rank 2</span> count toward <span class="text-warm">Blood rank 3</span>. The checkpoint resets what is eligible.
+
+</details>
+
+## Swapping Specialties
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Each player has one swap token per season. You may use it to replace one specialty with another.
+
+When you swap, the slot is cleared. You start the new specialty at rank 0 and work through the requirements from the beginning. Rank progress from the dropped specialty does not carry over.
+
+If new specialties are added mid-season, players receive an additional swap token for each new specialty introduced.
+
+</details>
+
+<!-- /guide -->

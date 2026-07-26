@@ -68,6 +68,7 @@
   let specDescriptions: Record<string, string> = $state({});
   let selectedSpecialty: number = $state(0);
   let selectedSpecHtml = $state('');
+  let showLeveling = $state(false);
   let mapExpanded = $state(false);
   let expandedHeight = $state(200);
   let mapAspect = $state(0);
@@ -314,24 +315,43 @@
   const SPECS_MD_PATH = 'static/content/season-3/specialties.md';
   const SPECS_SECTION_ORDER = [
     'blood-magic',
+    'blood-magic-leveling',
     'unholy-magic',
+    'unholy-magic-leveling',
     'storm-magic',
+    'storm-magic-leveling',
     'frost-magic',
+    'frost-magic-leveling',
     'illusion-magic',
+    'illusion-magic-leveling',
     'chaos-magic',
+    'chaos-magic-leveling',
     'light-magic',
+    'light-magic-leveling',
     'shadow-magic',
+    'shadow-magic-leveling',
     'elemental-magic',
+    'elemental-magic-leveling',
     'druidic-magic',
+    'druidic-magic-leveling',
     'architect',
+    'architect-leveling',
     'blacksmith',
+    'blacksmith-leveling',
     'tailor',
+    'tailor-leveling',
     'alchemy',
+    'alchemy-leveling',
     'ritualism',
+    'ritualism-leveling',
     'martial-arts',
+    'martial-arts-leveling',
     'doctor',
+    'doctor-leveling',
     'engineer',
+    'engineer-leveling',
     'rancher',
+    'rancher-leveling',
   ];
 
   const ORGS_MD_PATH = 'static/content/season-3/organizations.md';
@@ -888,15 +908,53 @@
                         ? 'bg-cyan-900/40 text-cyan-300'
                         : 'bg-amber-900/40 text-amber-300'}">{selected.category}</span
                     >
+                    <div class="flex items-center gap-1 ml-auto">
+                      <button
+                        onclick={() => (showLeveling = false)}
+                        class="px-2.5 py-1 text-xs font-cinzel uppercase tracking-wider rounded cursor-pointer transition-colors {!showLeveling
+                          ? 'bg-background-700/60 ' + selectedTheme.accent
+                          : 'text-tprimary-500 hover:text-tprimary-300'}"
+                      >
+                        Description
+                      </button>
+                      <button
+                        onclick={() => (showLeveling = true)}
+                        class="px-2.5 py-1 text-xs font-cinzel uppercase tracking-wider rounded cursor-pointer transition-colors {showLeveling
+                          ? 'bg-background-700/60 ' + selectedTheme.accent
+                          : 'text-tprimary-500 hover:text-tprimary-300'}"
+                      >
+                        Leveling
+                      </button>
+                    </div>
                   </div>
 
-                  <EditableSection filePath={SPECS_MD_PATH} sectionKey="spec.{specKey(selected.name)}" rawContent={specSections[specKey(selected.name)] || ''} onsave={onSpecSave}>
-                    {#if selectedSpecHtml}
-                      {@html selectedSpecHtml}
-                    {:else}
-                      <div class="text-tprimary-500 italic">Specialty details coming soon.</div>
-                    {/if}
-                  </EditableSection>
+                  {#if showLeveling}
+                    <EditableSection
+                      filePath={SPECS_MD_PATH}
+                      sectionKey={'spec.' + specKey(selected.name) + '-leveling'}
+                      rawContent={specSections[specKey(selected.name) + '-leveling'] || ''}
+                      onsave={onSpecSave}
+                    >
+                      {#if specDescriptions[specKey(selected.name) + '-leveling']}
+                        {@html specDescriptions[specKey(selected.name) + '-leveling']}
+                      {:else}
+                        <div class="text-tprimary-500 italic">Leveling requirements coming soon.</div>
+                      {/if}
+                    </EditableSection>
+                  {:else}
+                    <EditableSection
+                      filePath={SPECS_MD_PATH}
+                      sectionKey={'spec.' + specKey(selected.name)}
+                      rawContent={specSections[specKey(selected.name)] || ''}
+                      onsave={onSpecSave}
+                    >
+                      {#if selectedSpecHtml}
+                        {@html selectedSpecHtml}
+                      {:else}
+                        <div class="text-tprimary-500 italic">Specialty details coming soon.</div>
+                      {/if}
+                    </EditableSection>
+                  {/if}
                 </div>
               </div>
             {:else}
