@@ -15,7 +15,7 @@ Step into the shadows and stake your claim in Shadows of Vardoran, an immersive 
 <div class="flex flex-col gap-1 text-lg text-tsecondary whitespace-nowrap">
 <div class="border-b border-red-900 w-fit">Brutal-Light Mode</div>
 <div class="border-b border-red-900 w-fit">500 Max Castle Tiles</div>
-<div class="border-b border-red-900 w-fit">5 Castle Floors</div>
+<div class="border-b border-red-900 w-fit">6 Castle Floors</div>
 <div class="border-b border-red-900 w-fit">20m Days/40m Nights</div>
 <div class="border-b border-red-900 w-fit">Unique Soul Shards</div>
 </div>
