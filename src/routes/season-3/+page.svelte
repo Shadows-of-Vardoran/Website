@@ -898,9 +898,9 @@
                   </div>
                 </div>
 
-                <!-- Right: Detail panel -->
-                <div class="marked rounded-lg border {selectedTheme.border} p-5 bg-background-900/60 text-[1.125rem]" style="--dot-color: {selectedTheme.accentDotVar}">
-                  <div class="flex items-center gap-3 mb-4">
+                  <!-- Right: Detail panel -->
+                <div class="marked rounded-lg border {selectedTheme.border} bg-background-900/60 text-[1.125rem]" style="--dot-color: {selectedTheme.accentDotVar}">
+                  <div class="flex items-center gap-3 px-5 pt-5 pb-0">
                     <i class="mdi mdi-{selected.icon} text-3xl leading-none {selectedTheme.accent}"></i>
                     <span class="text-xl font-cinzel font-bold leading-none {selectedTheme.accent}">{selected.name}</span>
                     <span
@@ -908,26 +908,28 @@
                         ? 'bg-cyan-900/40 text-cyan-300'
                         : 'bg-amber-900/40 text-amber-300'}">{selected.category}</span
                     >
-                    <div class="flex items-center gap-1 ml-auto">
-                      <button
-                        onclick={() => (showLeveling = false)}
-                        class="px-2.5 py-1 text-xs font-cinzel uppercase tracking-wider rounded cursor-pointer transition-colors {!showLeveling
-                          ? 'bg-background-700/60 ' + selectedTheme.accent
-                          : 'text-tprimary-500 hover:text-tprimary-300'}"
-                      >
-                        Description
-                      </button>
-                      <button
-                        onclick={() => (showLeveling = true)}
-                        class="px-2.5 py-1 text-xs font-cinzel uppercase tracking-wider rounded cursor-pointer transition-colors {showLeveling
-                          ? 'bg-background-700/60 ' + selectedTheme.accent
-                          : 'text-tprimary-500 hover:text-tprimary-300'}"
-                      >
-                        Leveling
-                      </button>
-                    </div>
                   </div>
 
+                  <div class="flex gap-0 px-5 mt-3 border-b border-tprimary-900/30" style="--tab-accent: {selectedTheme.accentDotVar}">
+                    <button
+                      onclick={() => (showLeveling = false)}
+                      class="tab-btn px-3 py-2 text-xs font-cinzel uppercase tracking-wider cursor-pointer transition-all rounded-t border border-b-0 {!showLeveling
+                        ? selectedTheme.border + ' text-tprimary font-bold bg-background-800/60 -mb-px'
+                        : 'border-transparent text-tprimary-500'}"
+                    >
+                      Description
+                    </button>
+                    <button
+                      onclick={() => (showLeveling = true)}
+                      class="tab-btn px-3 py-2 text-xs font-cinzel uppercase tracking-wider cursor-pointer transition-all rounded-t border border-b-0 {showLeveling
+                        ? selectedTheme.border + ' text-tprimary font-bold bg-background-800/60 -mb-px'
+                        : 'border-transparent text-tprimary-500'}"
+                    >
+                      Leveling
+                    </button>
+                  </div>
+
+                  <div class="p-5">
                   {#if showLeveling}
                     <EditableSection
                       filePath={SPECS_MD_PATH}
@@ -955,6 +957,7 @@
                       {/if}
                     </EditableSection>
                   {/if}
+                  </div>
                 </div>
               </div>
             {:else}
@@ -1140,5 +1143,10 @@
     .right-nav {
       display: none;
     }
+  }
+
+  .tab-btn:hover {
+    color: var(--tab-accent);
+    background-color: color-mix(in srgb, var(--color-background-800) 50%, transparent);
   }
 </style>

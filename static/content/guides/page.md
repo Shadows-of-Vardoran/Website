@@ -506,7 +506,7 @@ Each rank has its own set of requirements. You must complete all required items 
 
 Every specialty lists its rank requirements on the [Season 3 page](/season-3#specialties). Requirements vary by specialty but typically include:
 
-- Building or expanding a dedicated workspace of a minimum tile count, submitted with screenshots and a short write-up explaining your design choices.
+- Building or expanding a dedicated workspace of a minimum tile count, submitted with screenshots and a short write-up explaining your design choices. Workspaces can be shared between players in the same sigil who hold the same specialty, but each player must provide their own description even if they did not build the space.
 - Documented RP scenes demonstrating specific applications of the specialty's core mechanics.
 - A journaled failure with reflection on what was learned (required for rank 3).
 - Cross specialty collaboration with at least 2 distinct other specialties (required for rank 3).
