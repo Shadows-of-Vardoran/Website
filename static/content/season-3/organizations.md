@@ -75,42 +75,6 @@
   </div>
 </div>
 
-<!-- section:transcendum -->
-<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-chartreuse-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-chartreuse-500 block mb-1">Not a Joinable Faction</span><span class="text-base text-tprimary-50">The Transcendum is not a joinable faction. People may be a citizen of Rustlock, but they cannot join the Transcendum proper.</span></div>
-
-## The Transcendum
-
-<div class="flex gap-4 my-2">
-  <div class="w-3 rounded bg-gradient-to-b from-chartreuse-800/60 to-chartreuse-950/80 flex-shrink-0 border border-chartreuse-900/30"></div>
-  <div class="flex-1 text-[1.2rem]">
-    <p>Norus is a nation built on the philosophy that knowledge is power, and nowhere is that philosophy more nakedly expressed than in the Trancendum. A single company born from Norus' scholar class, the Trancendum arrived in Vardoran between 60 years ago in secret, drawn by the absence of the laws that had been closing in around Blackbrew. What is now called Gloomrot was something else before they got there. The Trancendum is what happened to it.
-</p>
-  </div>
-</div>
-
-### Henry Blackbrew
-
-<div class="flex gap-4 my-2">
-  <div class="w-3 rounded bg-gradient-to-b from-chartreuse-800/60 to-chartreuse-950/80 flex-shrink-0 border border-chartreuse-900/30"></div>
-  <div class="flex-1 text-[1.2rem]">
-    <p>Before he was a heretic, Henry Blackbrew was a hero. Bringing his research back to Norus as the Trancendum was crushed in Vardoran, Blackbrew held the key to defend Norus. When Dracula's campaign seemed unstoppable and no army could hold the line, Blackbrew's experiments into mutagenics and human enhancement gave Norus something to fight back with. Empowered soldiers where there had only been ordinary ones. A chance, however slim, of survival. For a time he was exactly what humanity needed him to be. Little did those in Norus know that this advancement in science came from nearly 60 years of research conducted in Vardoran away from prying eyes.</p>
-    <p>Then in 1265 AF, the Church of Luminance received light magic, and everything changed. With a divine weapon in hand and a war to win, the Church had no more use for Blackbrew's methods, and considerably less tolerance for them. Eventually the Church discovered what had happened in Vardoran and declared him a heretic. The political weight of that declaration was not something Norus could easily ignore, and the restrictions placed on the Trancendum in the aftermath made it clear that the environment Blackbrew needed to continue working in no longer existed at home.</p>
-    <p>He did not stop working. He simply moved.</p>
-  </div>
-</div>
-
-### In Vardoran
-
-<div class="flex gap-4 my-2">
-  <div class="w-3 rounded bg-gradient-to-b from-chartreuse-800/60 to-chartreuse-950/80 flex-shrink-0 border border-chartreuse-900/30"></div>
-  <div class="flex-1 text-[1.2rem]">
-    <p>Norus regulates its companies. Vardoran does not. Blackbrew founded the Trancendum in secret in Vardoran, drawn by the absence of the laws that had been imposed by Norus. In the years since, his company has transformed the northern reaches of the continent into something the world has never seen before and would struggle to describe charitably. He has bent its considerable resources toward a personal obsession that has nothing to do with profit or expansion. Blackbrew wants to live forever, and he is not squeamish about what that pursuit costs other people.
-</p>
-    <p>The people of Rustlock live under the shadow of Gloomrot and the Trancendum's dominance, but they also have opportunity that does not exist elsewhere, a path forward for those willing to take the risk that comes with it. What exactly Blackbrew is working toward, and how far he intends to take it, remains an open question.
-</p>
-  </div>
-</div>
-
 <!-- section:noctum -->
 <div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-slate-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-slate-500 block mb-1">Not a Joinable Faction</span><span class="text-base text-tprimary-50">Noctum is not a joinable organization.</span></div>
 
