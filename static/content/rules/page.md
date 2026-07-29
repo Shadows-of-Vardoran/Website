@@ -14,10 +14,10 @@
 - Suicide or self-harm
 - Sexual assault or rape
 - Incest
+- Grooming
 - Pregnancy, miscarriage, or abortion
 - Multiple or split personalities
 - Possession
-- Incest
 
 </details>
 
