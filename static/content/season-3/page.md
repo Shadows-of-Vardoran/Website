@@ -68,6 +68,14 @@
 </div>
 
 
+<!-- section:religions-intro -->
+<div class="text-lg leading-relaxed">
+  <p class="mb-4">
+    Across every nation and culture, faith shapes the lives of mortals and immortals alike. These are the religions and belief systems that define the spiritual landscape of the known world.
+  </p>
+</div>
+
+
 <!-- section:organizations-intro -->
 <div class="text-lg leading-relaxed">
   <p class="mb-4">

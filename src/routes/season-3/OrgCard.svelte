@@ -14,8 +14,8 @@
   let theme = $derived(getTheme(org.colorKey));
 </script>
 
-<button {onclick} class="rounded-lg border-2 overflow-hidden cursor-pointer group text-left {theme.border} hover:brightness-125 transition-all">
-  <div class="bg-linear-to-r {theme.gradient} p-4 flex items-center gap-4 transition-all group-hover:brightness-125">
+<button {onclick} class="w-full h-full rounded-lg border-2 overflow-hidden cursor-pointer group text-left {theme.border} hover:brightness-125 transition-all">
+  <div class="bg-linear-to-r {theme.gradient} h-full p-4 flex items-center gap-4 transition-all group-hover:brightness-125">
     <div class="org-icon min-w-12 h-12 rounded-full bg-background-900/50 flex items-center justify-center {theme.accent}">
       {#if orgSvgs[org.name]}
         {@html orgSvgs[org.name]}

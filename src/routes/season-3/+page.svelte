@@ -18,7 +18,9 @@
   import NationModal from './NationModal.svelte';
   import OrgCard from './OrgCard.svelte';
   import OrgModal from './OrgModal.svelte';
-  import type { Race, Specialty, Nation, Organization } from './types';
+  import ReligionCard from './ReligionCard.svelte';
+  import ReligionModal from './ReligionModal.svelte';
+  import type { Race, Specialty, Nation, Organization, Religion } from './types';
 
   const { parse } = useMarked();
 
@@ -27,6 +29,7 @@
   const sectionNavItems = [
     { id: 'landing', label: 'The World Has Changed' },
     { id: 'nations', label: 'Nations' },
+    { id: 'religions', label: 'Religions' },
     { id: 'organizations', label: 'Organizations' },
     { id: 'playable-races', label: 'Playable Races' },
     { id: 'citizenship', label: 'Citizenship' },
@@ -50,6 +53,7 @@
   let magicTechHtml = $state('');
   let nationsIntroHtml = $state('');
   let orgsIntroHtml = $state('');
+  let religionsIntroHtml = $state('');
   let racesIntroHtml = $state('');
   let specsIntroHtml = $state('');
   let specsTechHtml = $state('');
@@ -64,6 +68,9 @@
   let expandedOrg: number | null = $state(null);
   let orgSections: Record<string, string> = $state({});
   let orgDescriptions: Record<string, string> = $state({});
+  let expandedReligion: number | null = $state(null);
+  let religionSections: Record<string, string> = $state({});
+  let religionDescriptions: Record<string, string> = $state({});
   let specSections: Record<string, string> = $state({});
   let specDescriptions: Record<string, string> = $state({});
   let selectedSpecialty: number = $state(0);
@@ -129,6 +136,7 @@
   let specialties: Specialty[] = $state([]);
   let nations: Nation[] = $state([]);
   let organizations: Organization[] = $state([]);
+  let religions: Religion[] = $state([]);
 
   async function renderSection(key: string, md: string) {
     if (key === 'landing') landingHtml = await parse(md);
@@ -137,6 +145,7 @@
     else if (key === 'magic-tech-ceiling') magicTechHtml = await parse(md);
     else if (key === 'nations-intro') nationsIntroHtml = await parse(md);
     else if (key === 'organizations-intro') orgsIntroHtml = await parse(md);
+    else if (key === 'religions-intro') religionsIntroHtml = await parse(md);
     else if (key === 'races-intro') racesIntroHtml = await parse(md);
     else if (key === 'specialties-intro') specsIntroHtml = await parse(md);
     else if (key === 'specialties-tech-details') specsTechHtml = await parse(md);
@@ -160,6 +169,10 @@
     return name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '');
   }
 
+  function religionKey(name: string): string {
+    return name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '');
+  }
+
   function nationKey(name: string): string {
     return name
       .toLowerCase()
@@ -170,7 +183,7 @@
 
   async function loadContent() {
     try {
-      const [pageRes, racesRes, racesMdRes, specsRes, specsMdRes, nationsRes, nationsMdRes, orgsRes, orgsMdRes] = await Promise.all([
+      const [pageRes, racesRes, racesMdRes, specsRes, specsMdRes, nationsRes, nationsMdRes, orgsRes, orgsMdRes, religionsRes, religionsMdRes] = await Promise.all([
         fetchContent('season-3/page.md'),
         fetchContent('season-3/races.json'),
         fetchContent('season-3/races.md'),
@@ -180,6 +193,8 @@
         fetchContent('season-3/nations.md'),
         fetchContent('season-3/organizations.json'),
         fetchContent('season-3/organizations.md'),
+        fetchContent('season-3/religions.json'),
+        fetchContent('season-3/religions.md'),
       ]);
       if (pageRes.ok) {
         const raw = await pageRes.text();
@@ -257,6 +272,20 @@
         );
         orgDescriptions = parsed;
       }
+      if (religionsRes.ok) {
+        religions = await religionsRes.json();
+      }
+      if (religionsMdRes.ok) {
+        const raw = await religionsMdRes.text();
+        religionSections = splitSections(raw);
+        const parsed: Record<string, string> = {};
+        await Promise.all(
+          Object.entries(religionSections).map(async ([key, md]) => {
+            parsed[key] = await parse(md);
+          })
+        );
+        religionDescriptions = parsed;
+      }
       await renderSpecHtml();
     } catch (e) {
       console.error('loadContent CAUGHT:', e);
@@ -272,6 +301,7 @@
     const full = reconstructContent(sections, [
       'landing',
       'nations-intro',
+      'religions-intro',
       'organizations-intro',
       'races-intro',
       'specialties-intro',
@@ -356,6 +386,9 @@
 
   const ORGS_MD_PATH = 'static/content/season-3/organizations.md';
   const ORGS_SECTION_ORDER = ['church-of-luminance', 'the-archivum', 'Trancendum', 'noctum', 'vampire-hunters-guild', 'farbane-bandits', 'dunley-militia', 'venomblades'];
+
+  const RELIGIONS_MD_PATH = 'static/content/season-3/religions.md';
+  const RELIGIONS_SECTION_ORDER = ['the-great-temple-of-qalidran', 'luntoll', 'the-faith-of-the-fish', 'the-drift', 'aetherian-tenets', 'faith-of-shifting-eons'];
 
   const NATIONS_MD_PATH = 'static/content/season-3/nations.md';
   const NATIONS_SECTION_ORDER = [
@@ -511,6 +544,43 @@
     if (pat) {
       const msg = buildCommitMessage(ORGS_MD_PATH);
       const result = await saveContent(ORGS_MD_PATH, full, msg, pat);
+      if (result.ok) {
+        saveError = '';
+      } else {
+        saveError = result.error || 'Save failed';
+        setTimeout(() => {
+          saveError = '';
+        }, 6000);
+      }
+    }
+  }
+
+  async function onReligionSave(sectionKey: string, content: string) {
+    const key = sectionKey
+      .replace(/^religion\./, '')
+      .replace(/\..*$/, '')
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/'/g, '');
+    religionSections[key] = content;
+    religionDescriptions[key] = await parse(content);
+
+    const full = reconstructContent(religionSections, RELIGIONS_SECTION_ORDER);
+
+    if (import.meta.env.DEV) {
+      await fetch('/__cms-save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ filePath: RELIGIONS_MD_PATH, content: full }),
+      });
+      bumpContentVersion();
+      return;
+    }
+
+    const pat = getCmsPat();
+    if (pat) {
+      const msg = buildCommitMessage(RELIGIONS_MD_PATH);
+      const result = await saveContent(RELIGIONS_MD_PATH, full, msg, pat);
       if (result.ok) {
         saveError = '';
       } else {
@@ -764,7 +834,31 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 3: Organizations -->
+        <!-- Section 3: Religions -->
+        <section id="religions" class="mb-12 scroll-mt-8">
+          <div class="fade-background-up p-4 rounded-lg">
+            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-2">Religions</h2>
+            <EditableSection filePath={FILE_PATH} sectionKey="religions-intro" rawContent={sections['religions-intro'] || ''} onsave={onSectionSave}>
+              {#if religionsIntroHtml}
+                <div class="mb-6">{@html religionsIntroHtml}</div>
+              {:else}
+                <div class="mb-6 italic">Religion introductions coming soon.</div>
+              {/if}
+            </EditableSection>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {#each religions as religion, i}
+                <ReligionCard {religion} onclick={() => (expandedReligion = i)} />
+              {/each}
+            </div>
+            {#if religions.length === 0}
+              <div class="text-tprimary-500 italic p-4">Religion information coming soon.</div>
+            {/if}
+          </div>
+        </section>
+
+        <hr class="border-tprimary-900/30 my-6" />
+
+        <!-- Section 4: Organizations -->
         <section id="organizations" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-2">Organizations</h2>
@@ -788,7 +882,7 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 4: Playable Races -->
+        <!-- Section 5: Playable Races -->
         <section id="playable-races" class="mb-12 scroll-mt-8">
           <div class="fade-background-up px-4 pt-4 pb-2 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-2">Playable Races</h2>
@@ -813,7 +907,7 @@
 
         <hr class="border-tprimary-900/30 my-4" />
 
-        <!-- Section 5: Citizenship -->
+        <!-- Section 6: Citizenship -->
         <section id="citizenship" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Citizenship</h2>
@@ -829,7 +923,7 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 6: Specialties -->
+        <!-- Section 7: Specialties -->
         <section id="specialties" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Specialties</h2>
@@ -898,7 +992,7 @@
                   </div>
                 </div>
 
-                  <!-- Right: Detail panel -->
+                <!-- Right: Detail panel -->
                 <div class="marked rounded-lg border {selectedTheme.border} bg-background-900/60 text-[1.125rem]" style="--dot-color: {selectedTheme.accentDotVar}">
                   <div class="flex items-center gap-3 px-5 pt-5 pb-0">
                     <i class="mdi mdi-{selected.icon} text-3xl leading-none {selectedTheme.accent}"></i>
@@ -930,33 +1024,33 @@
                   </div>
 
                   <div class="p-5">
-                  {#if showLeveling}
-                    <EditableSection
-                      filePath={SPECS_MD_PATH}
-                      sectionKey={'spec.' + specKey(selected.name) + '-leveling'}
-                      rawContent={specSections[specKey(selected.name) + '-leveling'] || ''}
-                      onsave={onSpecSave}
-                    >
-                      {#if specDescriptions[specKey(selected.name) + '-leveling']}
-                        {@html specDescriptions[specKey(selected.name) + '-leveling']}
-                      {:else}
-                        <div class="text-tprimary-500 italic">Leveling requirements coming soon.</div>
-                      {/if}
-                    </EditableSection>
-                  {:else}
-                    <EditableSection
-                      filePath={SPECS_MD_PATH}
-                      sectionKey={'spec.' + specKey(selected.name)}
-                      rawContent={specSections[specKey(selected.name)] || ''}
-                      onsave={onSpecSave}
-                    >
-                      {#if selectedSpecHtml}
-                        {@html selectedSpecHtml}
-                      {:else}
-                        <div class="text-tprimary-500 italic">Specialty details coming soon.</div>
-                      {/if}
-                    </EditableSection>
-                  {/if}
+                    {#if showLeveling}
+                      <EditableSection
+                        filePath={SPECS_MD_PATH}
+                        sectionKey={'spec.' + specKey(selected.name) + '-leveling'}
+                        rawContent={specSections[specKey(selected.name) + '-leveling'] || ''}
+                        onsave={onSpecSave}
+                      >
+                        {#if specDescriptions[specKey(selected.name) + '-leveling']}
+                          {@html specDescriptions[specKey(selected.name) + '-leveling']}
+                        {:else}
+                          <div class="text-tprimary-500 italic">Leveling requirements coming soon.</div>
+                        {/if}
+                      </EditableSection>
+                    {:else}
+                      <EditableSection
+                        filePath={SPECS_MD_PATH}
+                        sectionKey={'spec.' + specKey(selected.name)}
+                        rawContent={specSections[specKey(selected.name)] || ''}
+                        onsave={onSpecSave}
+                      >
+                        {#if selectedSpecHtml}
+                          {@html selectedSpecHtml}
+                        {:else}
+                          <div class="text-tprimary-500 italic">Specialty details coming soon.</div>
+                        {/if}
+                      </EditableSection>
+                    {/if}
                   </div>
                 </div>
               </div>
@@ -968,7 +1062,7 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 7: Mortality Contract -->
+        <!-- Section 8: Mortality Contract -->
         <section id="mortality-contract" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Mortality Contract</h2>
@@ -984,7 +1078,7 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 8: RP Limitations -->
+        <!-- Section 9: RP Limitations -->
         <section id="magic-tech-ceiling" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">RP Limitations</h2>
@@ -1000,7 +1094,7 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 9: World Particulars -->
+        <!-- Section 10: World Particulars -->
         <section id="world-particulars" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">World Particulars</h2>
@@ -1016,7 +1110,7 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 10: Commands -->
+        <!-- Section 11: Commands -->
         <section id="commands" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Commands</h2>
@@ -1032,7 +1126,7 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 11: FAQ -->
+        <!-- Section 12: FAQ -->
         <section id="faq" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Frequently Asked Questions</h2>
@@ -1103,6 +1197,16 @@
     rawContent={orgSections[orgKey(organizations[expandedOrg].name)] || ''}
     onclose={() => (expandedOrg = null)}
     onsave={onOrgSave}
+  />
+{/if}
+
+{#if expandedReligion !== null}
+  <ReligionModal
+    religion={religions[expandedReligion]}
+    descriptionHtml={religionDescriptions[religionKey(religions[expandedReligion].name)] || ''}
+    rawContent={religionSections[religionKey(religions[expandedReligion].name)] || ''}
+    onclose={() => (expandedReligion = null)}
+    onsave={onReligionSave}
   />
 {/if}
 

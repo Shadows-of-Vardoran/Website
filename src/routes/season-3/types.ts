@@ -24,6 +24,12 @@ export interface Organization {
   colorKey: string;
 }
 
+export interface Religion {
+  name: string;
+  tagline: string;
+  colorKey: string;
+}
+
 export interface Section {
   id: string;
   label: string;
