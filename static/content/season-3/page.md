@@ -59,14 +59,12 @@
   <div class="w-14 rounded bg-gradient-to-b from-violet-800/40 to-violet-950/70 flex-shrink-0 border border-violet-900/30"></div>
 </div>
 
-
 <!-- section:nations-intro -->
 <div class="text-lg leading-relaxed">
   <p class="mb-4">
     The great powers and untamed lands that shape the fate of mortals and immortals alike. Each nation and region carries its own laws, faiths, and grudges into an uneasy world. From the storm-wrapped scholars of Norus to the blood-soaked halls of Qalidran, every border tells a story of survival, conquest, and conviction.
   </p>
 </div>
-
 
 <!-- section:religions-intro -->
 <div class="text-lg leading-relaxed">
@@ -75,7 +73,6 @@
   </p>
 </div>
 
-
 <!-- section:organizations-intro -->
 <div class="text-lg leading-relaxed">
   <p class="mb-4">
@@ -83,14 +80,12 @@
   </p>
 </div>
 
-
 <!-- section:races-intro -->
 <div class="text-lg leading-relaxed">
   <p class="mb-4">
     The world has changed. The question now is who you are in it. Peoples who have spent generations learning what they are, and peoples who are still figuring it out. Some carry ancient power in their blood. Some carry nothing but the will to survive. The fractures between them run deep. So does the pull that brought them all here.
   </p>
 </div>
-
 
 <!-- section:specialties-intro -->
 With the Specialties system, you are able to take Specialty in a skill. Doing so will allow you to RP more advanced topics pertaining to that skill, whether it is a magical school or a more mundane profession.
@@ -110,7 +105,6 @@ We are inclined to trust the community with this framework as-is without any sig
 - You may swap a specialty for another once per season, unless new specialties are added mid-season
 - Swapping specialties does not retain levels. You start the new specialty at level 1 after completing the tasks to swap
 - See the [Specialty Leveling Guide](/guides) for the full breakdown of the requirements and submission process
-
 
 <!-- section:citizenship -->
 <div class="text-lg leading-relaxed">
@@ -222,13 +216,11 @@ Critical injury tracking is handled automatically in-game. Players and admins bo
 
 ### Bag Camping
 
-It is against the rules to camp a mortal character's bag after a critical injury. Once a character has been reduced to their bag, treat them as defeated and move on as is natural for the scene.
+It is against the rules to camp a player characters bag. Once a character has been reduced to their bag, treat them as defeated and move on as is natural for the scene.
 
 If it is natural for a character to remain in the area (for example, the bag dropped in their own castle or another location they have a reason to occupy) they are not required to leave. If a bag is dropped in a castle, the bag must remain accessible unless consent to restrict access has been given in a conflict ticket or warbat.
 
-
 <!-- section:magic-tech-ceiling -->
-
 These are the limits of what magic can accomplish in the Season 3 setting. If something is not listed below, it is not prohibited. That does not mean anything goes. All magic operates within a consent framework. Invasive or personal magic directed at another player's character requires that player's consent. The team has final say on whether a ritual outcome is feasible within the setting. When in doubt, open a ticket and ask before investing in a working that might not land.
 
 ### Absolute Restrictions
@@ -257,9 +249,7 @@ These are the limits of what magic can accomplish in the Season 3 setting. If so
 - <span class="text-accent">**Attempting a vampirism cure.**</span> The setting establishes that vampirism is theoretically reversible. A cure attempt is a valid long-term story direction but it is a team-managed plotline, not a standard ritual ticket.
 - <span class="text-accent">**Attempting a lycanthropy cure.**</span> Reverting a werewolf back to a human is theoretically possible in the setting and is a valid long-term story. But it is a team-managed plotline, not a standard ritual ticket. Players attempting to do so should expect extensive research and time to be required, with the possibility that success is only achievable in a future season.
 
-
 <!-- section:world-particulars -->
-
 ### Blind Characters
 
 You may roll in as a blind character. A blind character is given a blindness debuff that reduces your vision range to roughly around your character, or the middle of your screen. Restoring your vision requires significant advanced medical ritual roleplay with a notable magic component. Artificial eyes are not within the scope of what can be invented.
@@ -332,7 +322,6 @@ You may roll in as a blind character. A blind character is given a blindness deb
 | `.abilities spell unassign <slot>` / `.ab spu` | Clear a spell from a slot. |
 
 <!-- section:faq -->
-
 ## Frequently Asked Questions
 
 <div class="mb-6">
