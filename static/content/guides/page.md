@@ -1535,12 +1535,14 @@ Signs can be used for a variety of roleplay and organizational purposes, includi
 <details open>
 <summary>Click to expand or collapse</summary>
 
-Before creating signs, keep the following in mind:
+<div class="marked-block-info">
+Signs persist through server restarts until removed by their owner.
+</div>
 
-- Signs remain in the world until removed.
-- Signs persist across server restarts.
-- Only the owner of a sign can modify or remove it.
-- Signs should remain appropriate and immersive within the server setting.
+- Only the owner of a sign can move or remove it.
+- Signs should remain immersive and appropriate for the server setting.
+- Keep unnecessary clutter to a minimum.
+- Signs are intended to enhance roleplay, not replace it.
 
 </details>
 
