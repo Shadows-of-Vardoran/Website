@@ -1500,13 +1500,13 @@ Example:
 # Signs Guide
 
 <details open>
-<summary>Click to expand or collapse</summary>
+<summary>Overview</summary>
 
-<span class="text-accent">The Signs system allows players to create floating text anywhere in the world for roleplay, navigation, decoration, or storytelling.</span>
+<div class="marked-block-info">
+The Signs system allows players to create floating text in the world for roleplay, navigation, decoration, and storytelling. Signs persist across server restarts until removed by their owner.
+</div>
 
-Signs are persistent and remain in the world through server restarts until they are removed by their owner.
-
-<span class="text-warm">Keep signs immersive and server-appropriate. Signs should enhance the world rather than create unnecessary clutter.</span>
+Whether you're naming a tavern, marking a road, or adding flavor to your castle, signs are a simple way to make the world feel more alive.
 
 </details>
 
@@ -1515,119 +1515,169 @@ Signs are persistent and remain in the world through server restarts until they 
 ## Common Uses
 
 <details open>
-<summary>Click to expand or collapse</summary>
+<summary>Examples</summary>
 
-Signs can be used for a variety of roleplay and organizational purposes, including:
+Signs can be used for a variety of purposes, including:
 
-- Naming castles or settlements.
-- Creating directional signs.
-- Displaying notices or warnings.
-- Decorating taverns, shops, and businesses.
-- Leaving roleplay messages for other players.
-- Identifying points of interest or landmarks.
+- Naming castles, towns, or settlements.
+- Marking roads and points of interest.
+- Creating shop or tavern signs.
+- Leaving roleplay notes or messages.
+- Displaying warnings or directions.
+- Decorating builds with immersive text.
 
 </details>
 
 ---
 
-## Things to Know
+## Before You Begin
 
 <details open>
-<summary>Click to expand or collapse</summary>
+<summary>Important Information</summary>
 
-<div class="marked-block-info">
-Signs persist through server restarts until removed by their owner.
+<div class="marked-block-warning">
+Signs remain in the world until they are removed. Please use them responsibly and avoid creating unnecessary clutter.
 </div>
 
-- Only the owner of a sign can move or remove it.
+Keep the following in mind:
+
+- Signs persist through server restarts.
+- Only the player who created a sign can move or remove it.
 - Signs should remain immersive and appropriate for the server setting.
-- Keep unnecessary clutter to a minimum.
 - Signs are intended to enhance roleplay, not replace it.
 
 </details>
 
 ---
 
-## Creating Signs
+## Creating a Sign
 
 <details open>
-<summary>Click to expand or collapse</summary>
+<summary>.sign create</summary>
 
-### .sign create text [color] [fontSize]
+### `.sign create text [color] [fontSize]`
 
-Creates a floating text sign at your current position.
+Creates a floating text sign at your current location.
 
 By default:
 
-- Color is **white**
-- Font size is **18**
+- **Color:** White
+- **Font Size:** 18
 
-You may optionally specify both a custom color and font size when creating the sign.
+You may optionally specify a custom color and font size when creating the sign.
+
+Example:
+
+```text
+.sign create Welcome
+```
+
+```text
+.sign create Blacksmith orange 22
+```
 
 </details>
 
 ---
 
-## Moving Signs
+## Moving a Sign
 
 <details open>
-<summary>Click to expand or collapse</summary>
+<summary>.sign move</summary>
 
-### .sign move idOrText
+### `.sign move idOrText`
 
 Moves one of your existing signs.
 
-Aim at the location where you want the sign to appear, then run the command using either the sign's ID or part of its text.
+Aim at the new location, then run the command using either the sign's ID or part of its text.
+
+Example:
+
+```text
+.sign move Welcome
+```
 
 </details>
 
 ---
 
-## Viewing Your Signs
+## Finding Your Signs
 
 <details open>
-<summary>Click to expand or collapse</summary>
+<summary>Viewing Signs</summary>
 
-### .sign list
+### `.sign list`
 
-Displays all signs you currently own.
+Displays every sign you own.
 
-Results are paginated, with six signs shown per page.
+Results are shown six signs per page.
 
-You may optionally specify a page number if you own many signs.
+You may optionally specify a page number.
+
+Example:
+
+```text
+.sign list
+```
+
+```text
+.sign list 2
+```
 
 ---
 
-### .sign nearest
+### `.sign nearest`
 
-Displays information about the closest sign within five units of your character.
+Displays information about the closest sign within five units.
 
 ---
 
-### .sign info
+### `.sign info`
 
 Displays detailed information about one of your signs.
 
-Running the command without any arguments will show information for the nearest sign.
+Running the command by itself will show information for the nearest sign.
 
-You may also provide a sign ID or part of its text to view a specific sign.
+You may also specify a sign ID or part of its text.
+
+Example:
+
+```text
+.sign info
+```
+
+```text
+.sign info Welcome
+```
 
 </details>
 
 ---
 
-## Removing Signs
+## Removing a Sign
 
 <details open>
-<summary>Click to expand or collapse</summary>
+<summary>.sign remove</summary>
 
-### .sign remove
+### `.sign remove`
 
 Removes the nearest sign within five units.
 
-You may also provide a sign ID or part of its text to remove a specific sign instead.
+You may also specify a sign ID or part of its text to remove a specific sign.
 
-Once removed, a sign cannot be recovered.
+<div class="marked-block-warning">
+Removing a sign is permanent. Once deleted, it cannot be recovered.
+</div>
+
+Example:
+
+```text
+.sign remove
+```
+
+```text
+.sign remove Welcome
+```
 
 </details>
 
