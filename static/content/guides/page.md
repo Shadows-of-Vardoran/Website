@@ -1491,3 +1491,12 @@ Example:
 </details>
 
 <!-- /guide -->
+
+<!-- guide:sov-signs-mod-guide -->
+<!-- title: Sov Signs Mod Guide -->
+<!-- description: Guide description goes here. -->
+<!-- content -->
+
+Welcome to your guide! Replace this content with the actual guide information.
+
+<!-- /guide -->
