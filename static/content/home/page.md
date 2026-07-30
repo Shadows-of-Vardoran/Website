@@ -24,7 +24,7 @@ Step into the shadows and stake your claim in Shadows of Vardoran, an immersive 
 <div class="border-b border-red-900 w-fit">PVP Enabled</div>
 <div class="border-b border-red-900 w-fit">Clan/Sigil Size of 8</div>
 <div class="border-b border-red-900 w-fit">2 Hearts per Clan/Sigil</div>
-<div class="border-b border-red-900 w-fit">8 Servants Per Castle, 12 Prisoners </div>
+<div class="border-b border-red-900 w-fit">8 Servants, 12 Prisoners Per Castle</div>
 </div>
 </div>
 
