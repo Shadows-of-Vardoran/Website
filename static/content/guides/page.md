@@ -1297,3 +1297,12 @@ Both outcomes can create incredible roleplay.
 </details>
 
 <!-- /guide -->
+
+<!-- guide:sov-keys-mod-guide -->
+<!-- title: Sov Keys Mod Guide -->
+<!-- description: Guide description goes here. -->
+<!-- content -->
+
+Welcome to your guide! Replace this content with the actual guide information.
+
+<!-- /guide -->
