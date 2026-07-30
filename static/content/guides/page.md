@@ -566,9 +566,734 @@ If new specialties are added mid-season, players receive an additional swap toke
 
 <!-- guide:conflict-and-you -->
 <!-- title: Conflict And You -->
-<!-- description: Guide description goes here. -->
+<!-- description: How to engage in ConflictRP in a healthy, and cooperative way -->
 <!-- content -->
 
-Welcome to your guide! Replace this content with the actual guide information.
+# Conflict Guide
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+<span class="text-accent">Conflict is one of the strongest tools for creating memorable roleplay and driving character stories forward.</span>
+
+Whether your character starts a conflict, responds to one, or simply gets caught in the middle, every action contributes to a larger story. Conflict is not about winning every encounter. It is about creating engaging experiences, meaningful consequences, and opportunities for character growth.
+
+<span class="text-warm">Healthy conflict should always prioritize everyone's enjoyment. Stories are far more memorable than victories.</span>
+
+</details>
+
+---
+
+## Understanding Conflict
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Before discussing escalation or resolution, it's important to understand the role your character plays within a conflict.
+
+Your involvement generally falls into one of four categories:
+
+- **The Aggressor** — Your character initiates the conflict.
+- **The Defender** — Your character is responding to someone else's aggression.
+- **A Direct Third Party** — Your character actively joins an ongoing conflict.
+- **An Indirect Third Party** — Your character is connected through friends, allies, or sigilmates, but was not directly involved.
+
+Your level of involvement should influence both your actions and the consequences you expect to receive.
+
+</details>
+
+---
+
+## Hard Conflict vs Soft Conflict
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Conflict exists on a broad spectrum and is not limited to combat.
+
+### Hard Conflict
+
+Hard conflict involves direct confrontation between characters, including:
+
+- PvP encounters
+- Duels
+- Physical violence
+- Heated verbal arguments
+- Face-to-face intimidation
+
+### Soft Conflict
+
+Soft conflict involves indirect confrontation and social pressure, including:
+
+- Rumor spreading
+- Political maneuvering
+- Badmouthing another character
+- Blacklisting
+- Ghosting or deliberate avoidance
+- Social manipulation
+
+Neither type of conflict is inherently better than the other. Both can tell compelling stories when handled thoughtfully.
+
+</details>
+
+---
+
+## Timing Conflict
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+<span class="text-accent">Conflict works best when it has room to breathe.</span>
+
+Roleplay is collaborative storytelling. Allow your conflicts time to develop naturally instead of trying to resolve every issue immediately.
+
+When planning conflict, consider:
+
+- Giving story beats time to settle before escalating further.
+- Avoiding repeated conflict with the same people every day.
+- Respecting players' schedules and real-life commitments.
+- Avoiding major interruptions during player or admin-run events.
+- Using Conflict Tickets to coordinate larger stories or planned escalations.
+
+For players who enjoy frequent conflict, allowing **2–3 days** between major escalations with the same group helps prevent burnout and keeps interactions meaningful.
+
+For players who prefer lighter conflict, one significant encounter every week or two is often enough to keep stories engaging without becoming overwhelming.
+
+<span class="text-warm">Conflict should create anticipation, not exhaustion.</span>
+
+</details>
+
+---
+
+## The Ripple Effect
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Very few conflicts happen in isolation.
+
+Before choosing to begin, continue, or reciprocate conflict, think beyond your immediate target.
+
+Consider:
+
+- How your actions affect your target.
+- How those actions affect their friends, allies, or sigilmates.
+- How others are likely to interpret what happened.
+- What responses those people might reasonably take.
+- Whether you're prepared to deal with those consequences.
+- Where the chain of escalation should realistically end.
+
+Every action has the potential to create additional stories. Sometimes those stories are intentional. Sometimes they are not.
+
+Being aware of those possibilities helps create conflicts that remain enjoyable instead of becoming overwhelming.
+
+</details>
+
+---
+
+## Planning Conflict Together
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Pre-planned conflict can create some of the most memorable stories on the server, but it requires communication from everyone involved.
+
+When planning major conflict:
+
+- Discuss expectations beforehand.
+- Establish personal boundaries.
+- Agree on the intended pacing.
+- Talk about when the conflict should end.
+- Consider how friends, allies, and organizations may realistically become involved.
+
+Remember that consent to a particular scene does **not** remove in-character consequences.
+
+If your character kidnaps, tortures, murders, or publicly humiliates another character, those actions still happened within the world and should receive appropriate responses.
+
+Likewise, players requesting conflict should consider how their planned story may affect everyone participating—not just themselves.
+
+<span class="text-warm">Conflict should create opportunities for everyone involved, not unnecessary frustration.</span>
+
+</details>
+
+---
+
+## Example: The Ripple Effect
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Player A and Player B privately agree to roleplay a kidnapping followed by an intense torture scene.
+
+Before the event, Player A asks about Player B's boundaries and receives consent for the planned scene.
+
+After the roleplay concludes, however, Player B's friends—who were unaware the event had been planned—respond naturally in character.
+
+As a result, Player A receives multiple warbat requests, becomes involved in conflict mediation, and is banned from several establishments.
+
+Although both primary participants agreed to the original scene, neither fully considered the wider consequences their actions would have on everyone connected to the victim.
+
+The roleplay itself was successful.
+
+The ripple effect, however, created far more conflict than either player originally intended.
+
+This does **not** invalidate the consequences of Player A's actions. Instead, it highlights why communication and planning are important whenever conflict is expected to affect multiple groups.
+
+</details>
+
+---
+
+## Escalation
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Conflict rarely explodes all at once. Instead, it builds through a series of actions, reactions, misunderstandings, and choices.
+
+Every action, no matter how small, contributes to the overall tension between characters. A passing insult, an ignored request, or even an awkward silence can all become the spark that pushes a situation further.
+
+<span class="text-accent">Escalation should feel like a natural progression of events, not an immediate leap to the most extreme outcome.</span>
+
+</details>
+
+---
+
+## Expectations & Assumptions
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Every character has different values, personalities, and limits.
+
+Some are patient.
+Some are prideful.
+Some are hot-headed.
+Some forgive easily.
+
+Part of roleplay is learning where those boundaries are.
+
+Most unnecessary escalation happens when two players have different expectations about what just occurred or how seriously it should be taken.
+
+Before assuming someone is overreacting, consider the possibility that your character may have crossed a line they didn't fully understand.
+
+Likewise, remember that your own character's expectations may not be obvious to everyone else.
+
+</details>
+
+---
+
+## Reading the Room
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Before conflict continues to escalate, take a moment to evaluate everything that has happened—not just what the other person did.
+
+Ask yourself:
+
+- Did someone say or imply something offensive?
+- Did **you** say or imply something offensive?
+- Was something expected of you that you ignored?
+- Did someone make a request or demand that was deliberately disregarded?
+- Did anyone intentionally push an already established boundary?
+
+Sometimes escalation comes from action.
+
+Sometimes it comes from inaction.
+
+Being honest about your own contributions often leads to much stronger roleplay than assuming the other person is entirely at fault.
+
+</details>
+
+---
+
+## Common Assumptions That Lead to Bad Conflict
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Many conflicts become frustrating because players make assumptions that don't line up with what actually happened in roleplay.
+
+Some common examples include:
+
+**"I thought you were joking."**
+
+You dismissed someone's words because you didn't interpret them as serious.
+
+**"I didn't mean it."**
+
+Intent does not erase consequences. Your character's actions still happened, even if you didn't expect the response.
+
+**"You misunderstood me."**
+
+Characters only know what they see and hear. If something can reasonably be interpreted differently, they may react based on that interpretation rather than your intended meaning.
+
+<span class="text-warm">Your character's intent matters, but so does how others reasonably perceive their actions.</span>
+
+</details>
+
+---
+
+## Warnings vs Threats
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+One of the easiest ways conflict escalates is through misunderstandings between warnings and threats.
+
+### A Warning
+
+A warning tells someone to stop or avoid doing something.
+
+It cautions them that a situation may become dangerous, but it does not explicitly state what will happen if they ignore it.
+
+Examples:
+
+- Don't insult me.
+- Leave this place.
+- I wouldn't do that if I were you.
+
+### A Threat
+
+A threat includes a clearly implied or directly stated consequence.
+
+It tells someone what will happen if they continue.
+
+Examples:
+
+- Insult me again and I'll press your face into the dirt.
+- Get out or I'll make you get out.
+- If you don't shut your mouth, you're going to regret it.
+
+Because threats promise consequences, they naturally escalate conflict much faster than warnings.
+
+<span class="text-accent">If your character makes threats, be prepared to follow through with them.</span>
+
+Likewise, if another character makes a credible threat, don't be surprised if ignoring it causes the conflict to escalate.
+
+</details>
+
+---
+
+## Practice: Warning or Threat?
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+### "I wouldn't do that if I were you."
+
+**Warning**
+
+No explicit consequence has been stated. The listener is simply advised against continuing.
+
+---
+
+### "If you don't shut your mouth, you're going to regret it."
+
+**Threat**
+
+A consequence has been implied. Continuing the behavior is expected to result in retaliation from the speaker.
+
+Understanding the difference helps both sides recognize when conflict is naturally increasing rather than appearing to come out of nowhere.
+
+</details>
+
+---
+
+## De-escalation
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Every conflict should have a purpose.
+
+Whether your character wins, loses, compromises, or simply walks away, conflict should move their story forward rather than becoming an endless cycle of retaliation.
+
+<span class="text-accent">Conflict is most satisfying when it eventually reaches a conclusion.</span>
+
+That conclusion doesn't have to be happy.
+
+Characters may become lifelong enemies, rivals, or simply decide never to interact again. The important part is that the conflict changes something and gives everyone involved room to continue telling new stories.
+
+</details>
+
+---
+
+## Resolving Conflict
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+The simplest way to stop a conflict from escalating is to resolve the original issue.
+
+Sometimes that's as easy as apologizing.
+
+Sometimes it requires compensation, punishment, or accepting the consequences of your actions.
+
+No matter how the conflict ends, it should become another chapter in your character's story rather than something that repeats forever.
+
+Keep in mind that:
+
+- Resolution does **not** mean friendship.
+- Characters can forgive without forgetting.
+- Characters can remain enemies without continuing to escalate every interaction.
+- Sometimes simply agreeing to move on is the healthiest ending for everyone involved.
+
+<span class="text-warm">A resolved conflict creates opportunities for new stories.</span>
+
+</details>
+
+---
+
+## Keep Communication Open
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+While conflict happens in character, it's important that communication between players remains healthy.
+
+If something feels uncomfortable, confusing, or begins affecting your enjoyment, talk to the other player before frustration turns into resentment.
+
+Likewise, don't hesitate to involve the admin team through a Conflict Ticket if a neutral perspective would help.
+
+The goal is never to "win" an OOC discussion.
+
+The goal is to ensure everyone involved continues having fun telling the story together.
+
+</details>
+
+---
+
+## Proportional Consequences
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+<span class="text-accent">Consequences should generally match the scale of the conflict.</span>
+
+Not every slight deserves violence, and not every disagreement should become a server-wide conflict.
+
+When deciding how your character responds, consider:
+
+- Your level of involvement.
+- The severity of the original action.
+- How recently the conflict occurred.
+- Whether your response feels reasonable given everything that has happened.
+
+Generally speaking:
+
+- **Aggressors** should expect the strongest consequences.
+- **Defenders** are the most justified in retaliating.
+- **Direct third parties** should exercise restraint before escalating.
+- **Indirect third parties** should be especially careful not to overextend a conflict they weren't originally involved in.
+
+Example:
+
+It is generally unreasonable for a friend to immediately declare a Warbat over an incident they never witnessed firsthand.
+
+It is much more reasonable for the directly affected character to seek that escalation themselves.
+
+</details>
+
+---
+
+## Hard vs Soft Consequences
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+The type of conflict should also influence the type of consequence.
+
+Hard conflicts usually justify stronger responses than soft conflicts.
+
+For example:
+
+- Insulting someone and immediately attempting to kill them is often an excessive escalation.
+- Physical violence generally warrants stronger retaliation than gossip or insults.
+- Many disputes can be resolved through social, political, or economic consequences instead of combat.
+
+Not every conflict needs to end in PvP.
+
+Sometimes refusing someone's business, damaging their reputation, or denying them access to resources creates a far more interesting story.
+
+</details>
+
+---
+
+## Character-Specific Boundaries
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Every character has personal values that may cause them to react differently than someone else.
+
+Those reactions are completely valid—provided other players have a reasonable opportunity to understand them.
+
+For example:
+
+A character who deeply reveres their ancestors may respond with immediate violence if those ancestors are insulted.
+
+However, the same character might ignore lesser insults directed toward themselves.
+
+The important distinction is that these boundaries should be understandable through roleplay.
+
+If your character has a completely hidden trigger that nobody could reasonably know about, it isn't fair to expect other players to predict such an extreme reaction.
+
+<span class="text-warm">Characters are allowed to have unique boundaries, but those boundaries should be discoverable through roleplay.</span>
+
+</details>
+
+---
+
+## Time Matters
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Conflict naturally loses intensity over time.
+
+Recent events often justify stronger responses.
+
+Older conflicts become easier to let go.
+
+For example:
+
+Demanding compensation for a theft that occurred yesterday is much more reasonable than reopening the same dispute weeks later after everyone has already moved on.
+
+Not every story needs to remain active forever.
+
+Sometimes the most satisfying ending is allowing characters to move on with the lessons they've learned.
+
+</details>
+
+---
+
+## After the Conflict
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Once the roleplay has concluded, take a moment to check in with the other players involved.
+
+Ask questions such as:
+
+- Did everyone have fun?
+- Was the pacing enjoyable?
+- Were there any moments that stood out?
+- Is there anything that could be improved next time?
+
+Conflict can be emotionally intense even when everyone is enjoying themselves.
+
+Giving players a chance to decompress before immediately jumping into discussions helps keep those conversations productive.
+
+If you have feedback, make it constructive.
+
+Instead of:
+
+> "I hated that."
+
+Try:
+
+> "I think this part could have worked better if..."
+
+<span class="text-accent">Healthy feedback creates healthier stories.</span>
+
+At the end of the day, conflict is a storytelling tool.
+
+The best conflicts leave everyone excited for the next chapter.
+
+</details>
+
+---
+
+## Conflict in Practice
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Sometimes it's easier to understand conflict by seeing how it unfolds.
+
+The following example demonstrates how escalation, de-escalation, consequences, and the ripple effect can naturally work together to tell a compelling story.
+
+Remember that every conflict is different. This example is simply one possible path.
+
+</details>
+
+---
+
+## Example Scenario
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+### Step 1 — The Conflict Begins
+
+Andy trespasses into Bob's castle with the intention of stealing flowers from his garden.
+
+Bob catches Andy in the act.
+
+The conflict has officially begun.
+
+---
+
+### Step 2 — The First Escalation
+
+Bob tells Andy:
+
+> "Leave immediately, or I'll remove you myself."
+
+This is a **threat**, not merely a warning. Bob has clearly stated the consequence if Andy refuses.
+
+Andy now has a choice.
+
+- Leave peacefully and end the conflict.
+- Ignore the threat and continue escalating.
+
+Andy decides to stay.
+
+---
+
+### Step 3 — Choosing to Escalate
+
+Instead of leaving, Andy attempts to talk his way out of the situation.
+
+Bob has another decision to make.
+
+He could:
+
+- Continue talking and attempt to resolve the situation peacefully.
+- Follow through with his threat.
+
+Bob chooses to follow through.
+
+PvP begins.
+
+---
+
+### Step 4 — Victory Creates New Choices
+
+Andy wins the fight.
+
+Bob falls to his knees.
+
+Andy once again has options.
+
+He can:
+
+- Spare Bob, allowing the conflict to de-escalate.
+- Kill Bob and increase the severity of the conflict.
+
+Andy decides to throat-rip Bob.
+
+Before leaving, he steals the flowers as well.
+
+The conflict has escalated even further.
+
+---
+
+### Step 5 — The Ripple Effect
+
+Bob's friend Carl hears what happened.
+
+Carl was never directly involved, but he now wants revenge for Bob.
+
+Rather than immediately attacking, Carl and Andy speak OOC and agree to a period where Carl will actively hunt Andy.
+
+Conflict continues—but both players understand what they're agreeing to.
+
+---
+
+### Step 6 — More Consequences
+
+Unfortunately for Carl, Andy wins again.
+
+Carl is throat-ripped as well.
+
+Now multiple characters have become involved in what originally started as a simple theft.
+
+The ripple effect has taken hold.
+
+---
+
+### Step 7 — Seeking Resolution
+
+Bob decides enough is enough.
+
+Rather than allowing the conflict to continue indefinitely, he opens a Warbat Ticket.
+
+The purpose is no longer to continue escalating.
+
+The purpose is to determine how the conflict ends.
+
+---
+
+### Step 8 — Setting Terms
+
+Before the Warbat begins, both sides establish their expectations.
+
+**Andy proposes:**
+
+- If he wins, he may freely gather flowers from Bob's castle in the future.
+- Bob's allies may no longer pursue retaliation over this conflict.
+
+**Bob proposes:**
+
+- If he wins, Andy must compensate him for the stolen flowers.
+- Andy must also provide materials to support Bob's recovery roleplay.
+
+Because Carl was directly affected by Andy's later actions, he is also allowed to establish terms.
+
+**Carl proposes:**
+
+- Andy may no longer enter either Bob's or Carl's homes.
+- Andy may no longer throat-rip either of them for the remainder of the season.
+
+All parties understand that these terms represent the conclusion of the conflict.
+
+---
+
+### Step 9 — The Story Continues
+
+The Warbat concludes.
+
+Regardless of who wins, everyone agrees that this particular conflict is over.
+
+Andy continues boasting about defeating Bob.
+
+Bob warns others not to trust Andy.
+
+Their relationship has permanently changed.
+
+Whether they eventually reconcile, remain bitter rivals, or become enemies for the rest of the season is a story for future roleplay—not a continuation of this conflict.
+
+</details>
+
+---
+
+## Final Thoughts
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+<span class="text-accent">Conflict is a tool for storytelling, not an objective.</span>
+
+Great conflicts create memorable rivalries, difficult decisions, lasting consequences, and meaningful character growth.
+
+Before escalating, ask yourself:
+
+- Is this moving the story forward?
+- Are the consequences proportional?
+- Am I giving the other player opportunities to respond?
+- Will everyone involved enjoy where this story is heading?
+
+Sometimes your character will win.
+
+Sometimes they'll lose.
+
+Both outcomes can create incredible roleplay.
+
+<span class="text-warm">The best conflicts aren't remembered because someone won. They're remembered because everyone walked away with a great story to tell.</span>
+
+</details>
 
 <!-- /guide -->
