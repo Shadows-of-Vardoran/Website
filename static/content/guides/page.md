@@ -1585,7 +1585,7 @@ Example:
 <details open>
 <summary>.sign move</summary>
 
-### `.sign move idOrText`
+### .sign move idOrText
 
 Moves one of your existing signs.
 
@@ -1606,7 +1606,7 @@ Example:
 <details open>
 <summary>Viewing Signs</summary>
 
-### `.sign list`
+### .sign list
 
 Displays every sign you own.
 
@@ -1626,13 +1626,13 @@ Example:
 
 ---
 
-### `.sign nearest`
+### .sign nearest
 
 Displays information about the closest sign within five units.
 
 ---
 
-### `.sign info`
+### .sign info
 
 Displays detailed information about one of your signs.
 
@@ -1659,7 +1659,7 @@ Example:
 <details open>
 <summary>.sign remove</summary>
 
-### `.sign remove`
+### .sign remove
 
 Removes the nearest sign within five units.
 
