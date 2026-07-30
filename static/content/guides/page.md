@@ -477,7 +477,6 @@ In some cases, depending on how dangerous the ritual is, the ritual might still 
 
 <!-- /guide -->
 
-
 <!-- guide:specialty-leveling -->
 <!-- title: Specialty Leveling Guide -->
 <!-- description: How specialty leveling works, the requirements, and the submission process. -->
@@ -562,5 +561,14 @@ When you swap, the slot is cleared. You start the new specialty at rank 0 and wo
 If new specialties are added mid-season, players receive an additional swap token for each new specialty introduced.
 
 </details>
+
+<!-- /guide -->
+
+<!-- guide:conflict-and-you -->
+<!-- title: Conflict And You -->
+<!-- description: Guide description goes here. -->
+<!-- content -->
+
+Welcome to your guide! Replace this content with the actual guide information.
 
 <!-- /guide -->
