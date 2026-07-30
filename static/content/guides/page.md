@@ -1497,6 +1497,136 @@ Example:
 <!-- description: How to leave text for others to read. Commonly called Scenes -->
 <!-- content -->
 
-Welcome to your guide! Replace this content with the actual guide information.
+# Signs Guide
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+<span class="text-accent">The Signs system allows players to create floating text anywhere in the world for roleplay, navigation, decoration, or storytelling.</span>
+
+Signs are persistent and remain in the world through server restarts until they are removed by their owner.
+
+<span class="text-warm">Keep signs immersive and server-appropriate. Signs should enhance the world rather than create unnecessary clutter.</span>
+
+</details>
+
+---
+
+## Common Uses
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Signs can be used for a variety of roleplay and organizational purposes, including:
+
+- Naming castles or settlements.
+- Creating directional signs.
+- Displaying notices or warnings.
+- Decorating taverns, shops, and businesses.
+- Leaving roleplay messages for other players.
+- Identifying points of interest or landmarks.
+
+</details>
+
+---
+
+## Things to Know
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Before creating signs, keep the following in mind:
+
+- Signs remain in the world until removed.
+- Signs persist across server restarts.
+- Only the owner of a sign can modify or remove it.
+- Signs should remain appropriate and immersive within the server setting.
+
+</details>
+
+---
+
+## Creating Signs
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+### .sign create text [color] [fontSize]
+
+Creates a floating text sign at your current position.
+
+By default:
+
+- Color is **white**
+- Font size is **18**
+
+You may optionally specify both a custom color and font size when creating the sign.
+
+</details>
+
+---
+
+## Moving Signs
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+### .sign move idOrText
+
+Moves one of your existing signs.
+
+Aim at the location where you want the sign to appear, then run the command using either the sign's ID or part of its text.
+
+</details>
+
+---
+
+## Viewing Your Signs
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+### .sign list
+
+Displays all signs you currently own.
+
+Results are paginated, with six signs shown per page.
+
+You may optionally specify a page number if you own many signs.
+
+---
+
+### .sign nearest
+
+Displays information about the closest sign within five units of your character.
+
+---
+
+### .sign info
+
+Displays detailed information about one of your signs.
+
+Running the command without any arguments will show information for the nearest sign.
+
+You may also provide a sign ID or part of its text to view a specific sign.
+
+</details>
+
+---
+
+## Removing Signs
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+### .sign remove
+
+Removes the nearest sign within five units.
+
+You may also provide a sign ID or part of its text to remove a specific sign instead.
+
+Once removed, a sign cannot be recovered.
+
+</details>
 
 <!-- /guide -->
