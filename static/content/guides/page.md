@@ -1300,9 +1300,194 @@ Both outcomes can create incredible roleplay.
 
 <!-- guide:sov-keys-mod-guide -->
 <!-- title: Sov Keys Mod Guide -->
-<!-- description: Guide description goes here. -->
+<!-- description: Your resource for understanding what having the keys to the castle actually means -->
 <!-- content -->
 
-Welcome to your guide! Replace this content with the actual guide information.
+# Keys Guide
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+<span class="text-accent">The Keys system allows players to store permanent access to a sigil, letting them join it without needing a new invite each time.</span>
+
+Keys are designed to make managing long-term membership easier while respecting normal sigil limits. They are especially useful for characters who regularly move between multiple sigils, temporary event groups, or situations where players need to leave and rejoin later.
+
+<span class="text-warm">Keys grant access to a sigil, not ownership of castles or territories. Only give keys to players you trust with membership in your organization.</span>
+
+</details>
+
+---
+
+## Common Uses
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+The Keys system is useful in a variety of situations, including:
+
+- Swapping between multiple sigils your character belongs to.
+- Leaving a sigil temporarily to make room for another player.
+- Rejoining a sigil without needing another invitation.
+- Supporting temporary event sigils that players frequently join and leave.
+
+</details>
+
+---
+
+## Important Terms
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+### Owner
+
+The **Owner** is the player registered with the Keys system as managing the sigil.
+
+This is separate from the in-game **Leader** role.
+
+The Owner is responsible for:
+
+- Giving keys to players.
+- Revoking keys.
+- Viewing all issued keys.
+- Transferring ownership.
+
+---
+
+### Keys
+
+Keys are stored permissions that allow you to join a sigil without receiving a traditional invite.
+
+Having a key does **not** automatically place you in the sigil—it simply gives you permission to join whenever you choose.
+
+</details>
+
+---
+
+## Things to Know
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Before using the Keys system, keep the following in mind:
+
+- The Keys system respects the server's normal sigil member limit.
+- If you are the registered Owner, using your key automatically restores your in-game Leader role.
+- Keys only provide access to the sigil itself—they do **not** grant castle permissions.
+- Depending on server configuration, you may need to stand on a castle territory owned by the target sigil before using a key.
+
+</details>
+
+---
+
+## Registering Your Sigil
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Before your clan can issue keys, it must first be registered.
+
+### `.keys register`
+
+Registers your current sigil with the Keys system.
+
+Requirements:
+
+- You must currently be the in-game Leader.
+- The player registering the sigil becomes its registered Owner.
+
+A sigil only needs to be registered once.
+
+</details>
+
+---
+
+## Giving & Removing Keys
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Owners can control who has permanent access to their sigil.
+
+### `.keys give <playerName>`
+
+Gives the specified player a key for your current sigil.
+
+---
+
+### `.keys remove <playerName>`
+
+Revokes a specific player's key.
+
+---
+
+### `.keys remove clan`
+
+Removes every key that has been issued for your sigil.
+
+Use this if you wish to completely reset access.
+
+</details>
+
+---
+
+## Transferring Ownership
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+### `.keys owner <playerName>`
+
+Transfers ownership of the registered sigil to another player.
+
+Once transferred, the new Owner becomes responsible for managing all future keys.
+
+</details>
+
+---
+
+## Viewing Keys
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+### `.keys list mine`
+
+Displays every sigil key currently assigned to you.
+
+---
+
+### `.keys list clan`
+
+Displays every player who currently holds a key for your sigil.
+
+Only the registered Owner can use this command.
+
+</details>
+
+---
+
+## Joining a Sigil
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+### `.keys use <clanName>`
+
+Uses one of your stored keys to join a sigil.
+
+If the sigil name contains spaces, surround it with quotation marks.
+
+Example:
+
+`.keys use "Silver Dawn"`
+
+If multiple sigils share the same name, specify which one by adding its number.
+
+Example:
+
+`.keys use "Silver Dawn #2"`
+
+</details>
 
 <!-- /guide -->
