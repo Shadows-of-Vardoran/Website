@@ -1494,7 +1494,7 @@ Example:
 
 <!-- guide:sov-signs-mod-guide -->
 <!-- title: Sov Signs Mod Guide -->
-<!-- description: Guide description goes here. -->
+<!-- description: How to leave text for others to read. Commonly called Scenes -->
 <!-- content -->
 
 Welcome to your guide! Replace this content with the actual guide information.
