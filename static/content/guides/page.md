@@ -1387,7 +1387,7 @@ Before using the Keys system, keep the following in mind:
 
 Before your clan can issue keys, it must first be registered.
 
-### `.keys register`
+### .keys register
 
 Registers your current sigil with the Keys system.
 
@@ -1409,19 +1409,19 @@ A sigil only needs to be registered once.
 
 Owners can control who has permanent access to their sigil.
 
-### `.keys give <playerName>`
+### .keys give <playerName>
 
 Gives the specified player a key for your current sigil.
 
 ---
 
-### `.keys remove <playerName>`
+### .keys remove <playerName>
 
 Revokes a specific player's key.
 
 ---
 
-### `.keys remove clan`
+### .keys remove clan
 
 Removes every key that has been issued for your sigil.
 
@@ -1436,7 +1436,7 @@ Use this if you wish to completely reset access.
 <details open>
 <summary>Click to expand or collapse</summary>
 
-### `.keys owner <playerName>`
+### .keys owner <playerName>
 
 Transfers ownership of the registered sigil to another player.
 
@@ -1451,13 +1451,13 @@ Once transferred, the new Owner becomes responsible for managing all future keys
 <details open>
 <summary>Click to expand or collapse</summary>
 
-### `.keys list mine`
+### .keys list mine
 
 Displays every sigil key currently assigned to you.
 
 ---
 
-### `.keys list clan`
+### .keys list clan
 
 Displays every player who currently holds a key for your sigil.
 
@@ -1472,7 +1472,7 @@ Only the registered Owner can use this command.
 <details open>
 <summary>Click to expand or collapse</summary>
 
-### `.keys use <clanName>`
+### .keys use <clanName>
 
 Uses one of your stored keys to join a sigil.
 
