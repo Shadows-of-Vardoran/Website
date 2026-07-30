@@ -1358,7 +1358,7 @@ The Owner is responsible for:
 
 Keys are stored permissions that allow you to join a sigil without receiving a traditional invite.
 
-Having a key does **not** automatically place you in the sigil—it simply gives you permission to join whenever you choose.
+Having a key does **not** automatically place you in the sigil it simply gives you permission to join whenever you choose.
 
 </details>
 
