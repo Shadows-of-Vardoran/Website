@@ -1409,13 +1409,13 @@ A sigil only needs to be registered once.
 
 Owners can control who has permanent access to their sigil.
 
-### .keys give <playerName>
+### .keys give playerName
 
 Gives the specified player a key for your current sigil.
 
 ---
 
-### .keys remove <playerName>
+### .keys remove playerName
 
 Revokes a specific player's key.
 
@@ -1436,7 +1436,7 @@ Use this if you wish to completely reset access.
 <details open>
 <summary>Click to expand or collapse</summary>
 
-### .keys owner <playerName>
+### .keys owner playerName
 
 Transfers ownership of the registered sigil to another player.
 
@@ -1472,7 +1472,7 @@ Only the registered Owner can use this command.
 <details open>
 <summary>Click to expand or collapse</summary>
 
-### .keys use <clanName>
+### .keys use clanName
 
 Uses one of your stored keys to join a sigil.
 
