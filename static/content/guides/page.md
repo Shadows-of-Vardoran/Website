@@ -477,7 +477,6 @@ In some cases, depending on how dangerous the ritual is, the ritual might still 
 
 <!-- /guide -->
 
-
 <!-- guide:specialty-leveling -->
 <!-- title: Specialty Leveling Guide -->
 <!-- description: How specialty leveling works, the requirements, and the submission process. -->
@@ -560,6 +559,4208 @@ Each player has one swap token per season. You may use it to replace one special
 When you swap, the slot is cleared. You start the new specialty at rank 0 and work through the requirements from the beginning. Rank progress from the dropped specialty does not carry over.
 
 If new specialties are added mid-season, players receive an additional swap token for each new specialty introduced.
+
+</details>
+
+<!-- /guide -->
+
+<!-- guide:conflict-and-you -->
+<!-- title: Conflict And You -->
+<!-- description: How to engage in ConflictRP in a healthy, and cooperative way -->
+<!-- content -->
+
+# Conflict Guide
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+<span class="text-accent">Conflict is one of the strongest tools for creating memorable roleplay and driving character stories forward.</span>
+
+Whether your character starts a conflict, responds to one, or simply gets caught in the middle, every action contributes to a larger story. Conflict is not about winning every encounter. It is about creating engaging experiences, meaningful consequences, and opportunities for character growth.
+
+<span class="text-warm">Healthy conflict should always prioritize everyone's enjoyment. Stories are far more memorable than victories.</span>
+
+</details>
+
+---
+
+## Understanding Conflict
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Before discussing escalation or resolution, it's important to understand the role your character plays within a conflict.
+
+Your involvement generally falls into one of four categories:
+
+- **The Aggressor** — Your character initiates the conflict.
+- **The Defender** — Your character is responding to someone else's aggression.
+- **A Direct Third Party** — Your character actively joins an ongoing conflict.
+- **An Indirect Third Party** — Your character is connected through friends, allies, or sigilmates, but was not directly involved.
+
+Your level of involvement should influence both your actions and the consequences you expect to receive.
+
+</details>
+
+---
+
+## Hard Conflict vs Soft Conflict
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Conflict exists on a broad spectrum and is not limited to combat.
+
+### Hard Conflict
+
+Hard conflict involves direct confrontation between characters, including:
+
+- PvP encounters
+- Duels
+- Physical violence
+- Heated verbal arguments
+- Face-to-face intimidation
+
+### Soft Conflict
+
+Soft conflict involves indirect confrontation and social pressure, including:
+
+- Rumor spreading
+- Political maneuvering
+- Badmouthing another character
+- Blacklisting
+- Ghosting or deliberate avoidance
+- Social manipulation
+
+Neither type of conflict is inherently better than the other. Both can tell compelling stories when handled thoughtfully.
+
+</details>
+
+---
+
+## Timing Conflict
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+<span class="text-accent">Conflict works best when it has room to breathe.</span>
+
+Roleplay is collaborative storytelling. Allow your conflicts time to develop naturally instead of trying to resolve every issue immediately.
+
+When planning conflict, consider:
+
+- Giving story beats time to settle before escalating further.
+- Avoiding repeated conflict with the same people every day.
+- Respecting players' schedules and real-life commitments.
+- Avoiding major interruptions during player or admin-run events.
+- Using Conflict Tickets to coordinate larger stories or planned escalations.
+
+For players who enjoy frequent conflict, allowing **2–3 days** between major escalations with the same group helps prevent burnout and keeps interactions meaningful.
+
+For players who prefer lighter conflict, one significant encounter every week or two is often enough to keep stories engaging without becoming overwhelming.
+
+<span class="text-warm">Conflict should create anticipation, not exhaustion.</span>
+
+</details>
+
+---
+
+## The Ripple Effect
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Very few conflicts happen in isolation.
+
+Before choosing to begin, continue, or reciprocate conflict, think beyond your immediate target.
+
+Consider:
+
+- How your actions affect your target.
+- How those actions affect their friends, allies, or sigilmates.
+- How others are likely to interpret what happened.
+- What responses those people might reasonably take.
+- Whether you're prepared to deal with those consequences.
+- Where the chain of escalation should realistically end.
+
+Every action has the potential to create additional stories. Sometimes those stories are intentional. Sometimes they are not.
+
+Being aware of those possibilities helps create conflicts that remain enjoyable instead of becoming overwhelming.
+
+</details>
+
+---
+
+## Planning Conflict Together
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Pre-planned conflict can create some of the most memorable stories on the server, but it requires communication from everyone involved.
+
+When planning major conflict:
+
+- Discuss expectations beforehand.
+- Establish personal boundaries.
+- Agree on the intended pacing.
+- Talk about when the conflict should end.
+- Consider how friends, allies, and organizations may realistically become involved.
+
+Remember that consent to a particular scene does **not** remove in-character consequences.
+
+If your character kidnaps, tortures, murders, or publicly humiliates another character, those actions still happened within the world and should receive appropriate responses.
+
+Likewise, players requesting conflict should consider how their planned story may affect everyone participating—not just themselves.
+
+<span class="text-warm">Conflict should create opportunities for everyone involved, not unnecessary frustration.</span>
+
+</details>
+
+---
+
+## Example: The Ripple Effect
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Player A and Player B privately agree to roleplay a kidnapping followed by an intense torture scene.
+
+Before the event, Player A asks about Player B's boundaries and receives consent for the planned scene.
+
+After the roleplay concludes, however, Player B's friends—who were unaware the event had been planned—respond naturally in character.
+
+As a result, Player A receives multiple warbat requests, becomes involved in conflict mediation, and is banned from several establishments.
+
+Although both primary participants agreed to the original scene, neither fully considered the wider consequences their actions would have on everyone connected to the victim.
+
+The roleplay itself was successful.
+
+The ripple effect, however, created far more conflict than either player originally intended.
+
+This does **not** invalidate the consequences of Player A's actions. Instead, it highlights why communication and planning are important whenever conflict is expected to affect multiple groups.
+
+</details>
+
+---
+
+## Escalation
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Conflict rarely explodes all at once. Instead, it builds through a series of actions, reactions, misunderstandings, and choices.
+
+Every action, no matter how small, contributes to the overall tension between characters. A passing insult, an ignored request, or even an awkward silence can all become the spark that pushes a situation further.
+
+<span class="text-accent">Escalation should feel like a natural progression of events, not an immediate leap to the most extreme outcome.</span>
+
+</details>
+
+---
+
+## Expectations & Assumptions
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Every character has different values, personalities, and limits.
+
+Some are patient.
+Some are prideful.
+Some are hot-headed.
+Some forgive easily.
+
+Part of roleplay is learning where those boundaries are.
+
+Most unnecessary escalation happens when two players have different expectations about what just occurred or how seriously it should be taken.
+
+Before assuming someone is overreacting, consider the possibility that your character may have crossed a line they didn't fully understand.
+
+Likewise, remember that your own character's expectations may not be obvious to everyone else.
+
+</details>
+
+---
+
+## Reading the Room
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Before conflict continues to escalate, take a moment to evaluate everything that has happened—not just what the other person did.
+
+Ask yourself:
+
+- Did someone say or imply something offensive?
+- Did **you** say or imply something offensive?
+- Was something expected of you that you ignored?
+- Did someone make a request or demand that was deliberately disregarded?
+- Did anyone intentionally push an already established boundary?
+
+Sometimes escalation comes from action.
+
+Sometimes it comes from inaction.
+
+Being honest about your own contributions often leads to much stronger roleplay than assuming the other person is entirely at fault.
+
+</details>
+
+---
+
+## Common Assumptions That Lead to Bad Conflict
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Many conflicts become frustrating because players make assumptions that don't line up with what actually happened in roleplay.
+
+Some common examples include:
+
+**"I thought you were joking."**
+
+You dismissed someone's words because you didn't interpret them as serious.
+
+**"I didn't mean it."**
+
+Intent does not erase consequences. Your character's actions still happened, even if you didn't expect the response.
+
+**"You misunderstood me."**
+
+Characters only know what they see and hear. If something can reasonably be interpreted differently, they may react based on that interpretation rather than your intended meaning.
+
+<span class="text-warm">Your character's intent matters, but so does how others reasonably perceive their actions.</span>
+
+</details>
+
+---
+
+## Warnings vs Threats
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+One of the easiest ways conflict escalates is through misunderstandings between warnings and threats.
+
+### A Warning
+
+A warning tells someone to stop or avoid doing something.
+
+It cautions them that a situation may become dangerous, but it does not explicitly state what will happen if they ignore it.
+
+Examples:
+
+- Don't insult me.
+- Leave this place.
+- I wouldn't do that if I were you.
+
+### A Threat
+
+A threat includes a clearly implied or directly stated consequence.
+
+It tells someone what will happen if they continue.
+
+Examples:
+
+- Insult me again and I'll press your face into the dirt.
+- Get out or I'll make you get out.
+- If you don't shut your mouth, you're going to regret it.
+
+Because threats promise consequences, they naturally escalate conflict much faster than warnings.
+
+<span class="text-accent">If your character makes threats, be prepared to follow through with them.</span>
+
+Likewise, if another character makes a credible threat, don't be surprised if ignoring it causes the conflict to escalate.
+
+</details>
+
+---
+
+## Practice: Warning or Threat?
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+### "I wouldn't do that if I were you."
+
+**Warning**
+
+No explicit consequence has been stated. The listener is simply advised against continuing.
+
+---
+
+### "If you don't shut your mouth, you're going to regret it."
+
+**Threat**
+
+A consequence has been implied. Continuing the behavior is expected to result in retaliation from the speaker.
+
+Understanding the difference helps both sides recognize when conflict is naturally increasing rather than appearing to come out of nowhere.
+
+</details>
+
+---
+
+## De-escalation
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Every conflict should have a purpose.
+
+Whether your character wins, loses, compromises, or simply walks away, conflict should move their story forward rather than becoming an endless cycle of retaliation.
+
+<span class="text-accent">Conflict is most satisfying when it eventually reaches a conclusion.</span>
+
+That conclusion doesn't have to be happy.
+
+Characters may become lifelong enemies, rivals, or simply decide never to interact again. The important part is that the conflict changes something and gives everyone involved room to continue telling new stories.
+
+</details>
+
+---
+
+## Resolving Conflict
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+The simplest way to stop a conflict from escalating is to resolve the original issue.
+
+Sometimes that's as easy as apologizing.
+
+Sometimes it requires compensation, punishment, or accepting the consequences of your actions.
+
+No matter how the conflict ends, it should become another chapter in your character's story rather than something that repeats forever.
+
+Keep in mind that:
+
+- Resolution does **not** mean friendship.
+- Characters can forgive without forgetting.
+- Characters can remain enemies without continuing to escalate every interaction.
+- Sometimes simply agreeing to move on is the healthiest ending for everyone involved.
+
+<span class="text-warm">A resolved conflict creates opportunities for new stories.</span>
+
+</details>
+
+---
+
+## Keep Communication Open
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+While conflict happens in character, it's important that communication between players remains healthy.
+
+If something feels uncomfortable, confusing, or begins affecting your enjoyment, talk to the other player before frustration turns into resentment.
+
+Likewise, don't hesitate to involve the admin team through a Conflict Ticket if a neutral perspective would help.
+
+The goal is never to "win" an OOC discussion.
+
+The goal is to ensure everyone involved continues having fun telling the story together.
+
+</details>
+
+---
+
+## Proportional Consequences
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+<span class="text-accent">Consequences should generally match the scale of the conflict.</span>
+
+Not every slight deserves violence, and not every disagreement should become a server-wide conflict.
+
+When deciding how your character responds, consider:
+
+- Your level of involvement.
+- The severity of the original action.
+- How recently the conflict occurred.
+- Whether your response feels reasonable given everything that has happened.
+
+Generally speaking:
+
+- **Aggressors** should expect the strongest consequences.
+- **Defenders** are the most justified in retaliating.
+- **Direct third parties** should exercise restraint before escalating.
+- **Indirect third parties** should be especially careful not to overextend a conflict they weren't originally involved in.
+
+Example:
+
+It is generally unreasonable for a friend to immediately declare a Warbat over an incident they never witnessed firsthand.
+
+It is much more reasonable for the directly affected character to seek that escalation themselves.
+
+</details>
+
+---
+
+## Hard vs Soft Consequences
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+The type of conflict should also influence the type of consequence.
+
+Hard conflicts usually justify stronger responses than soft conflicts.
+
+For example:
+
+- Insulting someone and immediately attempting to kill them is often an excessive escalation.
+- Physical violence generally warrants stronger retaliation than gossip or insults.
+- Many disputes can be resolved through social, political, or economic consequences instead of combat.
+
+Not every conflict needs to end in PvP.
+
+Sometimes refusing someone's business, damaging their reputation, or denying them access to resources creates a far more interesting story.
+
+</details>
+
+---
+
+## Character-Specific Boundaries
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Every character has personal values that may cause them to react differently than someone else.
+
+Those reactions are completely valid—provided other players have a reasonable opportunity to understand them.
+
+For example:
+
+A character who deeply reveres their ancestors may respond with immediate violence if those ancestors are insulted.
+
+However, the same character might ignore lesser insults directed toward themselves.
+
+The important distinction is that these boundaries should be understandable through roleplay.
+
+If your character has a completely hidden trigger that nobody could reasonably know about, it isn't fair to expect other players to predict such an extreme reaction.
+
+<span class="text-warm">Characters are allowed to have unique boundaries, but those boundaries should be discoverable through roleplay.</span>
+
+</details>
+
+---
+
+## Time Matters
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Conflict naturally loses intensity over time.
+
+Recent events often justify stronger responses.
+
+Older conflicts become easier to let go.
+
+For example:
+
+Demanding compensation for a theft that occurred yesterday is much more reasonable than reopening the same dispute weeks later after everyone has already moved on.
+
+Not every story needs to remain active forever.
+
+Sometimes the most satisfying ending is allowing characters to move on with the lessons they've learned.
+
+</details>
+
+---
+
+## After the Conflict
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Once the roleplay has concluded, take a moment to check in with the other players involved.
+
+Ask questions such as:
+
+- Did everyone have fun?
+- Was the pacing enjoyable?
+- Were there any moments that stood out?
+- Is there anything that could be improved next time?
+
+Conflict can be emotionally intense even when everyone is enjoying themselves.
+
+Giving players a chance to decompress before immediately jumping into discussions helps keep those conversations productive.
+
+If you have feedback, make it constructive.
+
+Instead of:
+
+> "I hated that."
+
+Try:
+
+> "I think this part could have worked better if..."
+
+<span class="text-accent">Healthy feedback creates healthier stories.</span>
+
+At the end of the day, conflict is a storytelling tool.
+
+The best conflicts leave everyone excited for the next chapter.
+
+</details>
+
+---
+
+## Conflict in Practice
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Sometimes it's easier to understand conflict by seeing how it unfolds.
+
+The following example demonstrates how escalation, de-escalation, consequences, and the ripple effect can naturally work together to tell a compelling story.
+
+Remember that every conflict is different. This example is simply one possible path.
+
+</details>
+
+---
+
+## Example Scenario
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+### Step 1 — The Conflict Begins
+
+Andy trespasses into Bob's castle with the intention of stealing flowers from his garden.
+
+Bob catches Andy in the act.
+
+The conflict has officially begun.
+
+---
+
+### Step 2 — The First Escalation
+
+Bob tells Andy:
+
+> "Leave immediately, or I'll remove you myself."
+
+This is a **threat**, not merely a warning. Bob has clearly stated the consequence if Andy refuses.
+
+Andy now has a choice.
+
+- Leave peacefully and end the conflict.
+- Ignore the threat and continue escalating.
+
+Andy decides to stay.
+
+---
+
+### Step 3 — Choosing to Escalate
+
+Instead of leaving, Andy attempts to talk his way out of the situation.
+
+Bob has another decision to make.
+
+He could:
+
+- Continue talking and attempt to resolve the situation peacefully.
+- Follow through with his threat.
+
+Bob chooses to follow through.
+
+PvP begins.
+
+---
+
+### Step 4 — Victory Creates New Choices
+
+Andy wins the fight.
+
+Bob falls to his knees.
+
+Andy once again has options.
+
+He can:
+
+- Spare Bob, allowing the conflict to de-escalate.
+- Kill Bob and increase the severity of the conflict.
+
+Andy decides to throat-rip Bob.
+
+Before leaving, he steals the flowers as well.
+
+The conflict has escalated even further.
+
+---
+
+### Step 5 — The Ripple Effect
+
+Bob's friend Carl hears what happened.
+
+Carl was never directly involved, but he now wants revenge for Bob.
+
+Rather than immediately attacking, Carl and Andy speak OOC and agree to a period where Carl will actively hunt Andy.
+
+Conflict continues—but both players understand what they're agreeing to.
+
+---
+
+### Step 6 — More Consequences
+
+Unfortunately for Carl, Andy wins again.
+
+Carl is throat-ripped as well.
+
+Now multiple characters have become involved in what originally started as a simple theft.
+
+The ripple effect has taken hold.
+
+---
+
+### Step 7 — Seeking Resolution
+
+Bob decides enough is enough.
+
+Rather than allowing the conflict to continue indefinitely, he opens a Warbat Ticket.
+
+The purpose is no longer to continue escalating.
+
+The purpose is to determine how the conflict ends.
+
+---
+
+### Step 8 — Setting Terms
+
+Before the Warbat begins, both sides establish their expectations.
+
+**Andy proposes:**
+
+- If he wins, he may freely gather flowers from Bob's castle in the future.
+- Bob's allies may no longer pursue retaliation over this conflict.
+
+**Bob proposes:**
+
+- If he wins, Andy must compensate him for the stolen flowers.
+- Andy must also provide materials to support Bob's recovery roleplay.
+
+Because Carl was directly affected by Andy's later actions, he is also allowed to establish terms.
+
+**Carl proposes:**
+
+- Andy may no longer enter either Bob's or Carl's homes.
+- Andy may no longer throat-rip either of them for the remainder of the season.
+
+All parties understand that these terms represent the conclusion of the conflict.
+
+---
+
+### Step 9 — The Story Continues
+
+The Warbat concludes.
+
+Regardless of who wins, everyone agrees that this particular conflict is over.
+
+Andy continues boasting about defeating Bob.
+
+Bob warns others not to trust Andy.
+
+Their relationship has permanently changed.
+
+Whether they eventually reconcile, remain bitter rivals, or become enemies for the rest of the season is a story for future roleplay—not a continuation of this conflict.
+
+</details>
+
+---
+
+## Final Thoughts
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+<span class="text-accent">Conflict is a tool for storytelling, not an objective.</span>
+
+Great conflicts create memorable rivalries, difficult decisions, lasting consequences, and meaningful character growth.
+
+Before escalating, ask yourself:
+
+- Is this moving the story forward?
+- Are the consequences proportional?
+- Am I giving the other player opportunities to respond?
+- Will everyone involved enjoy where this story is heading?
+
+Sometimes your character will win.
+
+Sometimes they'll lose.
+
+Both outcomes can create incredible roleplay.
+
+<span class="text-warm">The best conflicts aren't remembered because someone won. They're remembered because everyone walked away with a great story to tell.</span>
+
+</details>
+
+<!-- /guide -->
+
+<!-- guide:sov-keys-mod-guide -->
+<!-- title: Sov Keys Mod Guide -->
+<!-- description: Your resource for understanding what having the keys to the castle actually means -->
+<!-- content -->
+
+# Keys Guide
+
+<details open>
+<summary>Overview</summary>
+
+<div class="marked-block-info">
+The Keys system allows players to permanently store access to a sigil, allowing them to join it later without requiring a new invitation.
+</div>
+
+Keys are designed to make long-term sigil management easier while still respecting the server's normal member limits.
+
+</details>
+
+---
+
+## Common Uses
+
+<details open>
+<summary>Examples</summary>
+
+The Keys system is useful in a variety of situations, including:
+
+- Swapping between multiple sigils your character belongs to.
+- Leaving a sigil temporarily to free up a member slot.
+- Rejoining a sigil without needing another invitation.
+- Managing temporary event or storyline sigils.
+
+</details>
+
+---
+
+## Important Terms
+
+<details open>
+<summary>Owner & Keys</summary>
+
+### Owner
+
+The **Owner** is the player registered with the Keys system as managing the sigil.
+
+This is separate from the in-game **Leader** role.
+
+The Owner is responsible for:
+
+- Giving keys to players.
+- Revoking keys.
+- Viewing issued keys.
+- Transferring ownership.
+
+---
+
+### Keys
+
+Keys are stored permissions that allow you to join a sigil without receiving an invitation.
+
+Having a key does **not** automatically place you in the sigil—it simply allows you to join whenever you choose.
+
+</details>
+
+---
+
+## Before You Begin
+
+<details open>
+<summary>Important Information</summary>
+
+<div class="marked-block-warning">
+Keys provide access to a sigil, not ownership of castles or their territories. Only give keys to players you trust with membership in your organization.
+</div>
+
+Keep the following in mind:
+
+- Sigil member limits still apply.
+- Registered Owners automatically regain the in-game Leader role when joining with a key.
+- Depending on server configuration, you may need to stand on a territory owned by the target sigil before using a key.
+
+</details>
+
+---
+
+## Registering Your Sigil
+
+<details open>
+<summary>.keys register</summary>
+
+Registers your current sigil with the Keys system.
+
+Requirements:
+
+- You must currently be the in-game Leader.
+- The player running the command becomes the registered Owner.
+
+A sigil only needs to be registered once.
+
+</details>
+
+---
+
+## Giving Keys
+
+<details open>
+<summary>.keys give</summary>
+
+### .keys give playerName
+
+Issues a permanent key to the specified player for your current sigil.
+
+Once given, that player may join your sigil later without requiring another invitation.
+
+</details>
+
+---
+
+## Removing Keys
+
+<details open>
+<summary>.keys remove</summary>
+
+### .keys remove playerName
+
+Removes a specific player's key.
+
+---
+
+### .keys remove clan
+
+Removes every key that has been issued for your sigil.
+
+This is useful if you wish to completely reset access to your organization.
+
+</details>
+
+---
+
+## Transferring Ownership
+
+<details open>
+<summary>.keys owner</summary>
+
+### .keys owner playerName
+
+Transfers ownership of the registered sigil to another player.
+
+Once ownership has been transferred, the new Owner becomes responsible for managing all keys.
+
+</details>
+
+---
+
+## Viewing Keys
+
+<details open>
+<summary>.keys list</summary>
+
+### .keys list mine
+
+Displays every sigil key currently assigned to your character.
+
+---
+
+### .keys list clan
+
+Displays every player who currently has a key to your sigil.
+
+Only the registered Owner may use this command.
+
+</details>
+
+---
+
+## Joining a Sigil
+
+<details open>
+<summary>.keys use</summary>
+
+### .keys use clanName
+
+Uses one of your stored keys to join a sigil.
+
+If the sigil name contains spaces, surround it with quotation marks.
+
+Example:
+
+.sign use "Silver Dawn"
+
+If multiple sigils share the same name, specify which one by adding its number.
+
+Example:
+
+.sign use "Silver Dawn #2"
+
+<div class="marked-block-info">
+If you are the registered Owner of the sigil, you will automatically regain the in-game Leader role after joining.
+</div>
+
+</details>
+
+<!-- /guide -->
+
+<!-- guide:sov-signs-mod-guide -->
+<!-- title: Sov Signs Mod Guide -->
+<!-- description: How to leave text for others to read. Commonly called Scenes -->
+<!-- content -->
+
+# Signs Guide
+
+<details open>
+<summary>Overview</summary>
+
+<div class="marked-block-info">
+The Signs system allows players to create floating text in the world for roleplay, navigation, decoration, and storytelling. Signs persist across server restarts until removed by their owner.
+</div>
+
+Whether you're naming a tavern, marking a road, or adding flavor to your castle, signs are a simple way to make the world feel more alive.
+
+</details>
+
+---
+
+## Common Uses
+
+<details open>
+<summary>Examples</summary>
+
+Signs can be used for a variety of purposes, including:
+
+- Naming castles, towns, or settlements.
+- Marking roads and points of interest.
+- Creating shop or tavern signs.
+- Leaving roleplay notes or messages.
+- Displaying warnings or directions.
+- Decorating builds with immersive text.
+
+</details>
+
+---
+
+## Before You Begin
+
+<details open>
+<summary>Important Information</summary>
+
+<div class="marked-block-warning">
+Signs remain in the world until they are removed. Please use them responsibly and avoid creating unnecessary clutter.
+</div>
+
+Keep the following in mind:
+
+- Signs persist through server restarts.
+- Only the player who created a sign can move or remove it.
+- Signs should remain immersive and appropriate for the server setting.
+- Signs are intended to enhance roleplay, not replace it.
+
+</details>
+
+---
+
+## Creating a Sign
+
+<details open>
+<summary>.sign create</summary>
+
+### `.sign create text [color] [fontSize]`
+
+Creates a floating text sign at your current location.
+
+By default:
+
+- **Color:** White
+- **Font Size:** 18
+
+You may optionally specify a custom color and font size when creating the sign.
+
+Example:
+
+```text
+.sign create Welcome
+```
+
+```text
+.sign create Blacksmith orange 22
+```
+
+</details>
+
+---
+
+## Moving a Sign
+
+<details open>
+<summary>.sign move</summary>
+
+### .sign move idOrText
+
+Moves one of your existing signs.
+
+Aim at the new location, then run the command using either the sign's ID or part of its text.
+
+Example:
+
+```text
+.sign move Welcome
+```
+
+</details>
+
+---
+
+## Finding Your Signs
+
+<details open>
+<summary>Viewing Signs</summary>
+
+### .sign list
+
+Displays every sign you own.
+
+Results are shown six signs per page.
+
+You may optionally specify a page number.
+
+Example:
+
+```text
+.sign list
+```
+
+```text
+.sign list 2
+```
+
+---
+
+### .sign nearest
+
+Displays information about the closest sign within five units.
+
+---
+
+### .sign info
+
+Displays detailed information about one of your signs.
+
+Running the command by itself will show information for the nearest sign.
+
+You may also specify a sign ID or part of its text.
+
+Example:
+
+```text
+.sign info
+```
+
+```text
+.sign info Welcome
+```
+
+</details>
+
+---
+
+## Removing a Sign
+
+<details open>
+<summary>.sign remove</summary>
+
+### .sign remove
+
+Removes the nearest sign within five units.
+
+You may also specify a sign ID or part of its text to remove a specific sign.
+
+<div class="marked-block-warning">
+Removing a sign is permanent. Once deleted, it cannot be recovered.
+</div>
+
+Example:
+
+```text
+.sign remove
+```
+
+```text
+.sign remove Welcome
+```
+
+</details>
+
+<!-- /guide -->
+
+<!-- guide:ec-mod-guide -->
+<!-- title: Ec Mod Guide -->
+<!-- description: A complete reference guide for Event Coordinators using administrative commands during server events -->
+<!-- content -->
+
+# Event Coordinator Handbook
+## Part 1 — Getting Started
+
+<details open>
+<summary>Welcome to the Event Coordinator Team</summary>
+
+Event Coordinators (ECs) are responsible for bringing the world of Vardoran to life. While players create their own stories, ECs create the moments that challenge, surprise, and immerse them.
+
+Whether you're orchestrating a large-scale invasion, running a small roadside encounter, or helping tell another player's story, your job is to support roleplay—not overshadow it.
+
+The commands covered throughout this handbook are simply tools. Learning **when** to use them is far more important than memorizing their syntax.
+
+<div class="marked-block-info">
+The best Event Coordinators create memorable experiences without players ever noticing the work happening behind the scenes.
+</div>
+
+</details>
+
+---
+
+# Core Responsibilities
+
+<details open>
+<summary>What Does an Event Coordinator Do?</summary>
+
+Event Coordinators assist the server by creating dynamic roleplay experiences and helping maintain immersion throughout the world.
+
+Typical responsibilities include:
+
+- Creating custom NPC encounters.
+- Running server-wide events.
+- Supporting player-created storylines.
+- Controlling NPC dialogue and behavior.
+- Building temporary event locations.
+- Rewarding successful roleplay.
+- Cleaning up after events conclude.
+
+While ECs have access to powerful administrative commands, those commands should always be used in service of the story—not convenience.
+
+<div class="marked-block-warning">
+Administrative powers should never be used for personal gameplay or to gain an advantage over players. Every command should have a roleplay or administrative purpose.
+</div>
+
+</details>
+
+---
+
+# General Guidelines
+
+<details open>
+<summary>Best Practices</summary>
+
+Good Event Coordinators share several habits:
+
+- Prepare your event before players arrive.
+- Test complicated encounters privately whenever possible.
+- Keep immersion as the highest priority.
+- Use commands quietly and efficiently.
+- Clean up spawned NPCs, temporary items, and structures when finished.
+- Ask another staff member if you're unsure about a command or mechanic.
+
+Mistakes happen. If something goes wrong, communicate with the player and another staff member rather than trying to hide the issue.
+
+<div class="marked-block-info">
+A well-run event often feels effortless from the player's perspective. Preparation is what makes that possible.
+</div>
+
+</details>
+
+---
+
+# Your Essential Resources
+
+<details open>
+<summary>Reference Websites</summary>
+
+Nearly every command you'll use relies on prefab names or GUIDs. These resources should be bookmarked before running your first event.
+
+### NPC Prefabs
+
+Used for:
+
+- `.spwn`
+- `.cspwn`
+
+https://wiki.vrisingmods.com/prefabs/Prefab
+
+---
+
+### Item Prefabs
+
+Used for:
+
+- `.give`
+
+https://wiki.vrisingmods.com/prefabs/Item.html
+
+---
+
+### Ability Prefabs
+
+Used for:
+
+- `.abilities`
+- `.buff`
+
+https://wiki.vrisingmods.com/prefabs/AB.html
+
+<div class="marked-block-info">
+Most Event Coordinator commands use prefab names instead of numeric IDs. Prefab names are easier to search and far easier to recognize while building encounters.
+</div>
+
+</details>
+
+---
+
+# Finding What You Need
+
+<details open>
+<summary>.search</summary>
+
+Instead of leaving the game to browse prefab lists, you can search directly from chat.
+
+### Search for an Item
+
+```text
+.search item Name
+```
+
+Example:
+
+```text
+.search item arcmage
+```
+
+The command will return every matching item prefab.
+
+---
+
+### Search for an NPC
+
+```text
+.search npc Name
+```
+
+Example:
+
+```text
+.search npc vblood
+```
+
+The command returns every matching NPC prefab.
+
+<div class="marked-block-info">
+Searching in-game is often much faster than manually browsing the prefab website, especially during a live event.
+</div>
+
+</details>
+
+---
+
+# Common Terminology
+
+<details open>
+<summary>Understanding the Basics</summary>
+
+### Prefab
+
+A prefab is the internal name used by the game to identify an object.
+
+Examples include:
+
+- NPCs
+- Items
+- Buffs
+- Abilities
+- Structures
+
+Nearly every command in this handbook uses prefab names.
+
+---
+
+### GUID
+
+A GUID is a unique numeric identifier assigned to a prefab.
+
+Example:
+
+```text
+476186894
+```
+
+Some commands require GUIDs instead of prefab names.
+
+---
+
+### Buff
+
+A buff is a status effect applied to a player or NPC.
+
+Examples include:
+
+- Visual effects
+- Damage reduction
+- Invulnerability
+- Special animations
+- Environmental effects
+
+---
+
+### Boost
+
+Boosts modify a character's statistics rather than applying a traditional buff.
+
+Examples include:
+
+- Health
+- Damage
+- Speed
+- No Aggro
+- Invincibility
+
+---
+
+### Ability Group
+
+Abilities are assigned using Ability Groups rather than individual spells.
+
+These groups determine what action is performed when a player presses a specific weapon slot or hotkey.
+
+</details>
+
+---
+
+# Before Running Your First Event
+
+<details open>
+<summary>Preparation Checklist</summary>
+
+Before starting any event, make sure you can answer **yes** to the following:
+
+- I know what story or encounter I'm running.
+- I know which NPCs need to be spawned.
+- I have the required prefab names ready.
+- I know which players are participating.
+- I know how the event ends.
+- I have a cleanup plan for NPCs, items, and temporary structures.
+
+<div class="marked-block-warning">
+The cleanup phase is just as important as the event itself. Forgotten NPCs, abandoned structures, and leftover items can negatively impact both immersion and server performance.
+</div>
+
+</details>
+
+---
+
+# Looking Ahead
+
+<details open>
+<summary>What's Next?</summary>
+
+Now that you're familiar with the core concepts and resources used throughout the handbook, you're ready to begin creating encounters.
+
+In **Part 2**, you'll learn how to:
+
+- Search for NPCs.
+- Spawn standard and custom NPCs.
+- Customize blood types and levels.
+- Apply buffs and boosts.
+- Build memorable encounters from the ground up.
+
+</details>
+
+## Part 2 — Creating & Managing NPCs
+
+<details open>
+<summary>Overview</summary>
+
+NPCs are the foundation of most events. Whether you're creating a powerful boss, a harmless traveler, or an important story character, nearly every encounter begins with spawning an NPC.
+
+This chapter walks through the complete workflow used by most Event Coordinators:
+
+1. Find the NPC.
+2. Spawn the NPC.
+3. Customize it if necessary.
+4. Apply buffs and boosts.
+5. Test the encounter.
+6. Clean up afterward.
+
+<div class="marked-block-info">
+Think of spawning an NPC as building a character. The spawn command creates the body, while buffs and boosts shape how that character behaves during the event.
+</div>
+
+</details>
+
+---
+
+# Step 1 — Finding an NPC
+
+<details open>
+<summary>.search npc</summary>
+
+Before spawning an NPC, you'll need its prefab name.
+
+The quickest way to find one is with the in-game search command.
+
+### Syntax
+
+```text
+.search npc Name
+```
+
+Example:
+
+```text
+.search npc lightweaver
+```
+
+or
+
+```text
+.search npc vblood
+```
+
+The command returns every matching NPC prefab, allowing you to copy the exact name into your spawn command.
+
+<div class="marked-block-info">
+While the prefab website is useful for browsing, using <strong>.search npc</strong> during a live event is often much faster.
+</div>
+
+</details>
+
+---
+
+# Step 2 — Spawning NPCs
+
+<details open>
+<summary>.spwn</summary>
+
+The **.spwn** command creates one or more NPCs using their prefab name.
+
+### Syntax
+
+```text
+.spwn Prefab Amount Level
+```
+
+### Example
+
+```text
+.spwn CHAR_ChurchOfLight_Lightweaver 1 100
+```
+
+This spawns a Level 100 Lightweaver at your current location.
+
+### Common Uses
+
+- Guards
+- Travelers
+- Merchants
+- Bosses
+- Wildlife
+- Event enemies
+
+<div class="marked-block-warning">
+Always verify the prefab before spawning. Some NPCs are unfinished, unstable, or unsuitable for live events.
+</div>
+
+</details>
+
+---
+
+# Step 3 — Creating Custom NPCs
+
+<details open>
+<summary>.cspwn</summary>
+
+Sometimes a normal NPC isn't enough.
+
+The **.cspwn** command allows you to customize an NPC's blood type, blood quality, whether it can be fed upon, how long it remains alive, and its level.
+
+### Syntax
+
+```text
+.cspwn Prefab BloodType BloodQuality Consumable Duration Level
+```
+
+### Example
+
+```text
+.cspwn CHAR_ChurchOfLight_Lightweaver scholar 100 true -1 100
+```
+
+This creates a permanent Level 100 Scholar Lightweaver with 100% blood quality that players can feed from.
+
+### Parameters
+
+| Parameter | Description |
+|-----------|-------------|
+| Prefab | NPC prefab name |
+| BloodType | Worker, Scholar, Warrior, Rogue, Brute, Creature, etc. |
+| BloodQuality | 1–100 |
+| Consumable | Whether players can feed on the NPC |
+| Duration | Lifetime in seconds (-1 = permanent) |
+| Level | NPC level |
+
+<div class="marked-block-info">
+Most story NPCs should use <strong>-1</strong> for duration so they remain until manually removed.
+</div>
+
+</details>
+
+---
+
+# Blood Types
+
+<details open>
+<summary>Choosing the Right Blood</summary>
+
+Blood type can dramatically change how an NPC feels.
+
+Common choices include:
+
+| Blood Type | Typical Use |
+|------------|-------------|
+| Scholar | Mages, priests, researchers |
+| Warrior | Soldiers and knights |
+| Brute | Heavy melee fighters |
+| Rogue | Assassins, scouts |
+| Worker | Villagers and laborers |
+| Creature | Animals and monsters |
+
+Choosing an appropriate blood type helps reinforce the character's role within the event.
+
+</details>
+
+---
+
+# Step 4 — Enhancing NPCs
+
+<details open>
+<summary>Buffs vs Boosts</summary>
+
+Once your NPC has been spawned, you'll often want to modify its abilities.
+
+There are two primary ways to do this.
+
+### Buffs
+
+Buffs add gameplay effects.
+
+Examples include:
+
+- Visual effects
+- Immunities
+- Special behaviors
+- Animations
+
+Applied using:
+
+```text
+.buff
+```
+
+---
+
+### Boosts
+
+Boosts directly modify statistics.
+
+Examples include:
+
+- Health
+- Damage
+- Speed
+- Invulnerability
+- No Aggro
+
+Applied using:
+
+```text
+.boost
+```
+
+<div class="marked-block-info">
+Most bosses use a combination of both buffs and boosts.
+</div>
+
+</details>
+
+---
+
+# Applying Buffs
+
+<details open>
+<summary>.buff</summary>
+
+The **.buff** command applies a specific buff to a player or NPC.
+
+### Syntax
+
+```text
+.buff BuffGUID Player Duration Immortal
+```
+
+### Example
+
+```text
+.buff 476186894 Bob -1 true
+```
+
+This applies the specified buff permanently and allows it to persist through death.
+
+### Duration
+
+| Value | Result |
+|------:|--------|
+| 0 | Default behavior |
+| -1 | Permanent |
+| Any Number | Duration in seconds |
+
+<div class="marked-block-warning">
+Some buffs can break NPCs or player characters. Always test unfamiliar buffs on a development server before using them during a live event.
+</div>
+
+</details>
+
+---
+
+# Applying Boosts
+
+<details open>
+<summary>.boost</summary>
+
+Boosts modify a character's statistics instead of applying traditional status effects.
+
+### Toggle Boosts
+
+```text
+.boost Type Player
+```
+
+Example:
+
+```text
+.boost invincible BossNPC
+```
+
+Common toggle boosts include:
+
+- invincible
+- immaterial
+- noaggro
+- noblooddrain
+- nocooldown
+- nodurability
+- shrouded
+- fly
+- suninvulnerable
+- batvision
+
+---
+
+### Numeric Boosts
+
+Some boosts require a value.
+
+```text
+.boost Type Amount Player
+```
+
+Example:
+
+```text
+.boost health 500 BossNPC
+```
+
+Supported numeric boosts:
+
+| Boost | Purpose |
+|--------|----------|
+| health | Increase maximum health |
+| damage | Increase outgoing damage |
+| attackspeed | Faster attacks |
+| speed | Faster movement |
+| yield | Increase resource yield |
+
+---
+
+### Removing Numeric Boosts
+
+```text
+.boost removedamage Player
+```
+
+Supported removal commands:
+
+- removehealth
+- removedamage
+- removeattackspeed
+- removespeed
+- removeyield
+
+---
+
+### Helpful Utility Commands
+
+```text
+.boost state Player
+```
+
+Displays every active boost on a player.
+
+```text
+.boost players
+```
+
+Lists every currently boosted player.
+
+</details>
+
+---
+
+# Testing Your Encounter
+
+<details open>
+<summary>Before Players Arrive</summary>
+
+Before inviting players into the event, verify:
+
+- The correct NPC spawned.
+- Blood type is correct.
+- Level is correct.
+- Buffs applied successfully.
+- Boost values feel balanced.
+- NPC behaves as expected.
+- Players can interact with the NPC properly.
+
+<div class="marked-block-info">
+Spending two minutes testing before an event often prevents twenty minutes of troubleshooting afterward.
+</div>
+
+</details>
+
+---
+
+# Cleaning Up
+
+<details open>
+<summary>Removing NPCs</summary>
+
+Once an event concludes, remember to clean up any remaining NPCs.
+
+Use the despawn command when an NPC cannot be removed naturally.
+
+### Syntax
+
+```text
+.dspwn Prefab Range
+```
+
+Example:
+
+```text
+.dspwn CHAR_ChurchOfLight_Lightweaver 10
+```
+
+This removes matching NPCs within the specified radius.
+
+<div class="marked-block-warning">
+Despawning performs a server-wide search and should only be used when necessary. If an NPC can be defeated or removed naturally, that is usually the better option.
+</div>
+
+</details>
+
+---
+
+# Common Workflow
+
+<details open>
+<summary>Example: Creating a Story Boss</summary>
+
+A typical boss encounter might follow this sequence:
+
+1. Search for the NPC prefab.
+
+```text
+.search npc Lightweaver
+```
+
+2. Spawn the boss.
+
+```text
+.spwn CHAR_ChurchOfLight_Lightweaver 1 100
+```
+
+3. Increase its survivability.
+
+```text
+.boost health 500 BossNPC
+```
+
+4. Increase its damage.
+
+```text
+.boost damage 50 BossNPC
+```
+
+5. Apply any desired visual or gameplay buffs.
+
+```text
+.buff BuffGUID BossNPC -1 true
+```
+
+6. Test the encounter before players arrive.
+
+</details>
+
+## Part 3 — Managing Players
+
+<details open>
+<summary>Overview</summary>
+
+While NPCs create the encounter, players create the story.
+
+As an Event Coordinator, you'll occasionally need to move players, revive them, observe events, or temporarily adjust their character for the sake of roleplay. These commands should always be used to support the narrative while minimizing disruption to the player experience.
+
+This chapter covers:
+
+- Teleportation
+- Spectating
+- Reviving players
+- Keeping players downed
+- Swapping characters
+- Renaming characters
+- Clan management
+- Keys
+- Gear management
+
+<div class="marked-block-info">
+Whenever possible, communicate with players before using commands that directly affect their character. Good communication prevents confusion and keeps players immersed in the event.
+</div>
+
+</details>
+
+---
+
+# Moving Players
+
+<details open>
+<summary>Teleportation</summary>
+
+Teleportation commands allow you to quickly position yourself or other players during an event.
+
+### Teleport to Coordinates
+
+```text
+.sov teleport to X Y Z
+```
+
+Example:
+
+```text
+.sov teleport to -2000 0 -2800
+```
+
+---
+
+### Teleport to a Player
+
+```text
+.sov teleport to PlayerName
+```
+
+Example:
+
+```text
+.sov teleport to Mahalia
+```
+
+---
+
+### Teleport to Your Map Marker
+
+```text
+.sov teleport to marker
+```
+
+This is ideal when you've already marked a custom event location.
+
+---
+
+### Bring a Player to You
+
+```text
+.sov teleport here PlayerName
+```
+
+Example:
+
+```text
+.sov teleport here Mahalia
+```
+
+<div class="marked-block-warning">
+Avoid teleporting players unexpectedly whenever possible. A quick message explaining what's happening helps preserve immersion and avoids confusion.
+</div>
+
+</details>
+
+---
+
+# Watching an Event
+
+<details open>
+<summary>.spectate</summary>
+
+Spectate mode allows you to observe players without interfering in the event.
+
+While spectating you become:
+
+- Invisible
+- Intangible
+- Unable to interact with the world
+
+### Enable Spectate
+
+```text
+.spectate
+```
+
+---
+
+### Spectate a Specific Player
+
+```text
+.spectate PlayerName
+```
+
+Example:
+
+```text
+.spectate Mahalia
+```
+
+Running the command again exits Spectate mode and returns you to your previous location.
+
+<div class="marked-block-info">
+Spectate is one of the most valuable tools available to an Event Coordinator. It allows you to supervise encounters without becoming part of them.
+</div>
+
+</details>
+
+---
+
+# Reviving Players
+
+<details open>
+<summary>.revive & .revivetarget</summary>
+
+There are two ways to revive a player.
+
+### Revive by Name
+
+```text
+.revive PlayerName
+```
+
+Example:
+
+```text
+.revive Mahalia
+```
+
+---
+
+### Revive Target
+
+```text
+.revivetarget
+```
+
+Revives the player you're currently aiming at.
+
+If `.revivetarget` reports that a player is not dead even though they clearly are, simply use:
+
+```text
+.revive PlayerName
+```
+
+instead.
+
+</details>
+
+---
+
+# Keeping a Player Down
+
+<details open>
+<summary>.staydown</summary>
+
+Normally, a downed player can eventually recover or respawn.
+
+The **.staydown** command prevents this, forcing the player to remain incapacitated until they are manually revived.
+
+### Syntax
+
+```text
+.staydown PlayerName
+```
+
+Example:
+
+```text
+.staydown Mahalia
+```
+
+This is particularly useful during:
+
+- Kidnapping events
+- Medical roleplay
+- Captivity scenes
+- Story-driven injuries
+
+<div class="marked-block-warning">
+Never leave a player in the Stay Down state after an event has concluded. Always remember to revive them once the scene is over.
+</div>
+
+</details>
+
+---
+
+# Restoring a Player
+
+<details open>
+<summary>.mortal</summary>
+
+The **.mortal** command removes God Mode and strips all active boosts from a player.
+
+### Syntax
+
+```text
+.mortal PlayerName
+```
+
+Example:
+
+```text
+.mortal Mahalia
+```
+
+This is useful when:
+
+- Cleaning up after an event.
+- Returning an NPC-controlled player to normal.
+- Removing temporary boosts.
+
+<div class="marked-block-info">
+Whenever you've granted a player special powers for an event, `.mortal` is usually the quickest way to return them to normal gameplay.
+</div>
+
+</details>
+
+---
+
+# Swapping Characters
+
+<details open>
+<summary>.swapplayer</summary>
+
+The **.swapplayer** command exchanges two players between their current bodies.
+
+### Syntax
+
+```text
+.swapplayer PlayerOne PlayerTwo
+```
+
+Example:
+
+```text
+.swapplayer Mahalia Peejamski
+```
+
+Common uses include:
+
+- Possession stories
+- Mind swaps
+- Temporary NPC control
+- Character replacements
+
+<div class="marked-block-info">
+When a spare body is no longer needed, rename it to **FreeBody#** so future Event Coordinators can easily identify available bodies.
+</div>
+
+</details>
+
+---
+
+# Renaming Characters
+
+<details open>
+<summary>.rename</summary>
+
+Temporarily changing a player's name can help support certain events or storylines.
+
+### Syntax
+
+```text
+.rename OldName NewName
+```
+
+Example:
+
+```text
+.rename Bob CaptainAlaric
+```
+
+Keep in mind:
+
+- Clan members may still see the player's original name on the map.
+- Renaming should generally be temporary unless approved by Administration.
+
+</details>
+
+---
+
+# Gear Management
+
+<details open>
+<summary>.gear</summary>
+
+The **.gear** command allows you to repair or break player equipment.
+
+### Repair
+
+```text
+.gear repair PlayerName
+```
+
+or
+
+```text
+.gear repairall Radius
+```
+
+---
+
+### Break
+
+```text
+.gear break PlayerName
+```
+
+or
+
+```text
+.gear breakall Radius
+```
+
+These commands are particularly useful after tournaments, large battles, or scripted encounters.
+
+<div class="marked-block-info">
+Repairing everyone's equipment after a server event is a quick way to reward participation without distributing items.
+</div>
+
+</details>
+
+---
+
+# Managing Clans
+
+<details open>
+<summary>.clan</summary>
+
+Clan commands allow you to temporarily move players between clans for events or administrative purposes.
+
+### Add
+
+```text
+.clan add PlayerName "Clan Name"
+```
+
+---
+
+### Remove
+
+```text
+.clan kick PlayerName
+```
+
+---
+
+### Change Role
+
+```text
+.clan changerole PlayerName Role
+```
+
+Roles:
+
+| Value | Role |
+|------:|------|
+| 0 | Member |
+| 1 | Officer |
+| 2 | Leader |
+
+<div class="marked-block-warning">
+Whenever possible, use the **Keys** system instead of manually moving players between clans.
+</div>
+
+</details>
+
+---
+
+# Keys
+
+<details open>
+<summary>Managing Temporary Access</summary>
+
+The Keys system allows players to temporarily join another clan without permanently changing ownership.
+
+Common EC commands include:
+
+### Give a Key
+
+```text
+.keys give PlayerName ClanName
+```
+
+---
+
+### Remove a Key
+
+```text
+.keys remove PlayerName ClanName
+```
+
+---
+
+### List Keys
+
+```text
+.keys list ClanName
+```
+
+---
+
+### Join Using a Key
+
+```text
+.keys use ClanName
+```
+
+<div class="marked-block-info">
+Keys are the preferred solution for temporary event participation because they avoid several issues associated with manually moving players between clans.
+</div>
+
+</details>
+
+---
+
+# Event Cleanup Checklist
+
+<details open>
+<summary>Before Ending an Event</summary>
+
+Before considering an event complete, verify that you've:
+
+- Revived all downed players.
+- Removed Stay Down from anyone affected.
+- Used `.mortal` on boosted players if necessary.
+- Returned renamed players to their original names.
+- Restored temporary clan changes.
+- Removed temporary keys if appropriate.
+- Repaired player gear if intended as part of the event.
+
+<div class="marked-block-warning">
+Many of these commands intentionally make temporary changes to player characters. Leaving those changes in place after an event can create unnecessary confusion or gameplay issues.
+</div>
+
+</details>
+
+## Part 4 — Items & Equipment
+
+<details open>
+<summary>Overview</summary>
+
+Items are often the finishing touch that transforms a good event into a memorable one.
+
+Whether you're rewarding players, equipping NPCs, supplying participants before a tournament, or creating roleplay props, Event Coordinators should use item commands deliberately and sparingly.
+
+This chapter covers:
+
+- Finding items
+- Spawning items
+- Creating blood potions
+- Managing player equipment
+- Best practices for event rewards
+
+<div class="marked-block-info">
+Items should support the story being told. Every spawned item should have a purpose, and every event should end with those temporary resources cleaned up.
+</div>
+
+</details>
+
+---
+
+# Finding Items
+
+<details open>
+<summary>.search item</summary>
+
+Before spawning an item, you'll need its prefab name.
+
+Instead of searching the prefab website, you can search directly in-game.
+
+### Syntax
+
+```text
+.search item Name
+```
+
+### Example
+
+```text
+.search item arcmage
+```
+
+The command returns every matching item prefab that contains your search term.
+
+This is particularly useful during live events when you need to quickly locate an unfamiliar item.
+
+<div class="marked-block-info">
+Use broad search terms when you're unsure of the exact prefab name. Searching for "silver", "cloak", or "gem" is often enough to find what you need.
+</div>
+
+</details>
+
+---
+
+# Spawning Items
+
+<details open>
+<summary>.give</summary>
+
+The **.give** command creates items directly in your inventory.
+
+### Syntax
+
+```text
+.give ItemPrefab Amount
+```
+
+### Example
+
+```text
+.give Headgear_ArcMageCrown 1
+```
+
+or
+
+```text
+.give Item_Ingredient_Coal 500
+```
+
+### Common Uses
+
+- Quest rewards
+- Event props
+- Decorative objects
+- Temporary equipment
+- Building materials
+
+<div class="marked-block-warning">
+Only create items that are required for an event or administrative purpose. Avoid generating unnecessary resources or permanent player rewards without approval.
+</div>
+
+</details>
+
+---
+
+# Blood Potions
+
+<details open>
+<summary>.bloodpotion</summary>
+
+The **.bloodpotion** command creates Merlot blood potions with a specific blood type and quality.
+
+These are excellent rewards for tournaments, boss encounters, and special events.
+
+### Syntax
+
+```text
+.bloodpotion BloodType Quality Amount
+```
+
+### Example
+
+```text
+.bloodpotion scholar 100 5
+```
+
+This creates five 100% Scholar blood potions.
+
+### Common Blood Types
+
+- Scholar
+- Warrior
+- Brute
+- Rogue
+- Worker
+- Creature
+
+<div class="marked-block-info">
+High-quality blood potions make excellent event rewards because they are valuable without permanently increasing player power.
+</div>
+
+</details>
+
+---
+
+# Mixed Blood Potions
+
+<details open>
+<summary>.bloodpotionmix</summary>
+
+Mixed blood potions combine two blood types into a single Merlot.
+
+### Syntax
+
+```text
+.bloodpotionmix PrimaryType PrimaryQuality SecondaryType SecondaryQuality SecondaryTrait Amount
+```
+
+### Example
+
+```text
+.bloodpotionmix warrior 100 creature 100 1 5
+```
+
+This creates five mixed Warrior/Creature Merlots.
+
+Mixed blood potions are ideal for:
+
+- Unique boss rewards
+- Seasonal events
+- Rare quest rewards
+- Limited-time encounters
+
+<div class="marked-block-warning">
+Mixed blood potions should generally remain uncommon. Their rarity helps preserve their value and makes them feel like meaningful rewards.
+</div>
+
+</details>
+
+---
+
+# Managing Equipment
+
+<details open>
+<summary>.gear</summary>
+
+The **.gear** command allows you to repair or break player equipment.
+
+### Repair a Player
+
+```text
+.gear repair PlayerName
+```
+
+Example:
+
+```text
+.gear repair Mahalia
+```
+
+---
+
+### Break Equipment
+
+```text
+.gear break PlayerName
+```
+
+---
+
+### Repair Everyone Nearby
+
+```text
+.gear repairall Radius
+```
+
+Example:
+
+```text
+.gear repairall 25
+```
+
+---
+
+### Break Everyone Nearby
+
+```text
+.gear breakall Radius
+```
+
+These commands are especially useful after:
+
+- PvP tournaments
+- Large-scale battles
+- Story encounters
+- Community events
+
+<div class="marked-block-info">
+Repairing equipment after an event is often a better reward than replacing broken gear with spawned items.
+</div>
+
+</details>
+
+---
+
+# Choosing Event Rewards
+
+<details open>
+<summary>Reward Philosophy</summary>
+
+Good rewards encourage participation without damaging the server's economy.
+
+Examples of excellent rewards include:
+
+- Blood potions
+- Cosmetics
+- Decorative items
+- Event trophies
+- Consumables
+- Limited-use equipment
+
+Rewards that should be used carefully include:
+
+- Large quantities of resources
+- High-tier gear
+- Rare crafting materials
+- Permanent progression items
+
+<div class="marked-block-warning">
+When in doubt, reward memorable experiences rather than valuable items. Players are more likely to remember a great event than another stack of resources.
+</div>
+
+</details>
+
+---
+
+# Item Cleanup
+
+<details open>
+<summary>After the Event</summary>
+
+Before considering an event complete, make sure you've:
+
+- Removed unused event items.
+- Deleted temporary props if necessary.
+- Collected unused rewards.
+- Repaired participant gear if intended.
+- Returned borrowed equipment.
+- Disposed of accidentally spawned items.
+
+<div class="marked-block-info">
+Admin Island is the preferred location for disposing of unwanted spawned items so they can safely despawn without affecting active gameplay.
+</div>
+
+</details>
+
+---
+
+# Example Workflow
+
+<details open>
+<summary>Preparing a Tournament</summary>
+
+A typical tournament setup might look like this:
+
+1. Spawn participation rewards.
+
+```text
+.bloodpotion scholar 100 8
+```
+
+2. Prepare the championship prize.
+
+```text
+.bloodpotionmix warrior 100 brute 100 1 1
+```
+
+3. Spawn any decorative trophies.
+
+```text
+.give ItemPrefab 1
+```
+
+4. After the tournament, repair everyone's equipment.
+
+```text
+.gear repairall 50
+```
+
+5. Clean up any leftover event items.
+
+</details>
+
+## Part 5 — Custom Abilities & Magic
+
+<details open>
+<summary>Overview</summary>
+
+Custom abilities allow Event Coordinators to create encounters that go far beyond the game's standard NPCs.
+
+Whether you're building a unique boss, giving an NPC signature attacks, or allowing a player to temporarily wield custom magic, the ability system gives you complete control over what actions a character can perform.
+
+This chapter covers:
+
+- Understanding Ability Groups
+- Setting abilities
+- Assigning item abilities
+- Casting abilities manually
+- Removing abilities
+- Best practices
+
+<div class="marked-block-info">
+Abilities should enhance an encounter, not overwhelm it. A boss with two memorable mechanics is often far more enjoyable than one with twenty random spells.
+</div>
+
+</details>
+
+---
+
+# Understanding Ability Groups
+
+<details open>
+<summary>How the Ability System Works</summary>
+
+Unlike buffs, abilities are assigned to specific slots called **Ability Groups**.
+
+Each group controls one action that a character can perform, such as:
+
+- Primary attacks
+- Secondary attacks
+- Movement abilities
+- Defensive skills
+- Ultimate abilities
+
+When you assign an ability, you're replacing or adding to one of these slots.
+
+<div class="marked-block-info">
+Think of Ability Groups as equipment slots for spells. You're deciding which spell occupies each slot.
+</div>
+
+</details>
+
+---
+
+# Finding Ability Prefabs
+
+<details open>
+<summary>Ability Reference</summary>
+
+Before assigning an ability, you'll need its prefab name.
+
+Ability prefabs can be found using the official prefab browser.
+
+https://wiki.vrisingmods.com/prefabs/AB.html
+
+Look for the exact prefab associated with the ability you want to use.
+
+<div class="marked-block-info">
+Keeping a list of your favorite abilities can save a significant amount of time when building encounters.
+</div>
+
+</details>
+
+---
+
+# Assigning Abilities
+
+<details open>
+<summary>.abilities</summary>
+
+The **.abilities** command assigns a custom ability to one of a character's Ability Groups.
+
+### Syntax
+
+```text
+.abilities Player AbilityGroup AbilityPrefab
+```
+
+### Example
+
+```text
+.abilities BossNPC 4 AB_VBlood_FrostNova
+```
+
+This assigns the specified ability to Ability Group 4.
+
+### Common Uses
+
+- Custom bosses
+- Story NPCs
+- Tournament encounters
+- Special event mechanics
+- Temporary player powers
+
+<div class="marked-block-warning">
+Replacing core combat abilities can prevent an NPC from functioning correctly. Test any custom ability setup before using it in a live event.
+</div>
+
+</details>
+
+---
+
+# Item Abilities
+
+<details open>
+<summary>.abilities item</summary>
+
+Instead of modifying a character directly, you can assign abilities to items.
+
+### Syntax
+
+```text
+.abilities item ItemPrefab AbilityGroup AbilityPrefab
+```
+
+This allows equipment to grant custom abilities while it is equipped.
+
+Common uses include:
+
+- Legendary weapons
+- Artifact rewards
+- Event-exclusive equipment
+- Quest items
+
+<div class="marked-block-info">
+Item abilities are an excellent way to create unique event rewards without permanently modifying a player's character.
+</div>
+
+</details>
+
+---
+
+# Casting Abilities
+
+<details open>
+<summary>.abilities cast</summary>
+
+The **cast** command immediately activates a specified ability.
+
+### Syntax
+
+```text
+.abilities cast Target AbilityPrefab
+```
+
+### Example
+
+```text
+.abilities cast BossNPC AB_VBlood_FrostNova
+```
+
+This instantly causes the target to cast the selected ability.
+
+Common uses include:
+
+- Scripted cutscenes
+- Phase transitions
+- Environmental hazards
+- Surprise attacks
+- Cinematic moments
+
+<div class="marked-block-info">
+Casting abilities manually gives you precise control over encounter timing, allowing mechanics to happen exactly when the story calls for them.
+</div>
+
+</details>
+
+---
+
+# Clearing Abilities
+
+<details open>
+<summary>Removing Custom Abilities</summary>
+
+Once an encounter has ended, remove any temporary abilities that were added.
+
+### Clear One Ability
+
+```text
+.abilities clear Player AbilityGroup
+```
+
+---
+
+### Clear All Abilities
+
+```text
+.abilities clearall Player
+```
+
+---
+
+### Clear Item Abilities
+
+```text
+.abilities item clear ItemPrefab AbilityGroup
+```
+
+or
+
+```text
+.abilities item clearall ItemPrefab
+```
+
+Cleaning up temporary abilities helps prevent unexpected behavior in future events.
+
+</details>
+
+---
+
+# Building Interesting Encounters
+
+<details open>
+<summary>Design Tips</summary>
+
+When creating custom encounters:
+
+- Give important NPCs a unique identity.
+- Avoid assigning too many abilities at once.
+- Leave opportunities for players to react.
+- Use recognizable mechanics consistently.
+- Save the most powerful abilities for dramatic moments.
+
+Examples:
+
+**A Frost Guardian**
+
+- Ice projectile
+- Frost nova
+- Defensive barrier
+
+---
+
+**A Vampire Hunter**
+
+- Dash attack
+- Holy projectile
+- Trap ability
+
+---
+
+**An Ancient Mage**
+
+- Teleport
+- Arcane barrage
+- Meteor
+
+<div class="marked-block-info">
+Players remember mechanics they can learn and overcome. Consistency is often more engaging than unpredictability.
+</div>
+
+</details>
+
+---
+
+# Testing Custom Abilities
+
+<details open>
+<summary>Before the Event</summary>
+
+Always verify that:
+
+- The ability loads correctly.
+- The correct Ability Group was used.
+- Animations play properly.
+- The NPC can still attack normally.
+- Cooldowns behave as expected.
+- The encounter feels fair.
+
+<div class="marked-block-warning">
+Some abilities are intended only for bosses, environmental objects, or scripted encounters. Assigning them to the wrong character may produce unexpected behavior.
+</div>
+
+</details>
+
+---
+
+# Example Workflow
+
+<details open>
+<summary>Creating a Frost Boss</summary>
+
+1. Spawn the NPC.
+
+```text
+.spwn CHAR_FrostBoss 1 100
+```
+
+2. Increase its health.
+
+```text
+.boost health 750 BossNPC
+```
+
+3. Assign a custom frost ability.
+
+```text
+.abilities BossNPC 4 AB_VBlood_FrostNova
+```
+
+4. Assign a movement ability.
+
+```text
+.abilities BossNPC 2 AB_FrostDash
+```
+
+5. Trigger a special attack during Phase Two.
+
+```text
+.abilities cast BossNPC AB_VBlood_FrostNova
+```
+
+6. Remove temporary abilities after testing or once the event concludes.
+
+</details>
+
+## Part 6 — SoV Utilities & Advanced Event Tools
+
+<details open>
+<summary>Overview</summary>
+
+In addition to the standard Event Coordinator commands, SoV Utilities provides several tools that make running events smoother and more immersive.
+
+These commands aren't used in every event, but they become invaluable when managing races, tracking player progression, preparing event spaces, or handling administrative tasks.
+
+This chapter covers:
+
+- Player Tags
+- Building Mode
+- Build Utilities
+- Coordinate Tools
+- Event Preparation
+- Best Practices
+
+<div class="marked-block-info">
+These tools are designed to support events behind the scenes. Players may never know you're using them—and that's exactly the goal.
+</div>
+
+</details>
+
+---
+
+# Player Tags
+
+<details open>
+<summary>.sov tag</summary>
+
+Tags are used to identify special player attributes such as races, professions, story progression, or administrative markers.
+
+Depending on your permissions, you may be asked to assign or remove tags as part of an event or approved storyline.
+
+### Add a Tag
+
+```text
+.sov tag add PlayerName Tag
+```
+
+Example:
+
+```text
+.sov tag add Mahalia Werewolf
+```
+
+---
+
+### Remove a Tag
+
+```text
+.sov tag remove PlayerName Tag
+```
+
+---
+
+### View Active Tags
+
+```text
+.sov tag list PlayerName
+```
+
+Use this before assigning a new tag to verify what a player already has.
+
+<div class="marked-block-warning">
+Only assign or remove tags that have been approved through the appropriate administrative process. Many tags directly affect gameplay systems and roleplay mechanics.
+</div>
+
+</details>
+
+---
+
+# Building Mode
+
+<details open>
+<summary>Temporary Event Construction</summary>
+
+Many events require temporary structures, decorations, or encounter spaces.
+
+Building Mode allows Event Coordinators to quickly create these locations without permanently altering the world.
+
+Typical uses include:
+
+- Boss arenas
+- Ritual circles
+- Temporary camps
+- Tournament grounds
+- Investigation scenes
+- Story set pieces
+
+<div class="marked-block-info">
+Whenever possible, build with cleanup in mind. Temporary structures should be easy to remove once the event has concluded.
+</div>
+
+</details>
+
+---
+
+# Build Utilities
+
+<details open>
+<summary>Helpful Building Commands</summary>
+
+Several utilities assist with precise object placement while building event areas.
+
+Common tools include:
+
+- X Snap
+- Y Snap
+- Z Snap
+- Y Offset
+- Palette Clear
+
+These commands improve placement accuracy when creating:
+
+- Symmetrical arenas
+- Decorative layouts
+- Puzzle rooms
+- Ritual sites
+
+<div class="marked-block-info">
+Consistent spacing and alignment can make even simple builds feel polished and intentional.
+</div>
+
+</details>
+
+---
+
+# Using Coordinates
+
+<details open>
+<summary>Working with Locations</summary>
+
+Coordinates are frequently used when:
+
+- Sharing event locations with staff.
+- Returning to unfinished builds.
+- Teleporting between event sites.
+- Documenting important areas.
+
+Example:
+
+```text
+.sov teleport to -2000 0 -2800
+```
+
+Saving important coordinates before an event begins can make troubleshooting significantly easier if something unexpected happens.
+
+</details>
+
+---
+
+# Preparing an Event Area
+
+<details open>
+<summary>Before Players Arrive</summary>
+
+Before opening an event to players, verify that:
+
+- The area is fully constructed.
+- Temporary decorations are complete.
+- NPC spawn locations are correct.
+- Escape routes work as intended.
+- Teleport coordinates are recorded.
+- Any required player tags have been assigned.
+- Staff members know where to report if assistance is needed.
+
+<div class="marked-block-info">
+Walking through your event from the player's perspective is one of the easiest ways to identify problems before the event begins.
+</div>
+
+</details>
+
+---
+
+# Cleaning Up
+
+<details open>
+<summary>After the Event</summary>
+
+When an event concludes, remember to:
+
+- Remove temporary tags if appropriate.
+- Delete temporary structures.
+- Clear unused building palettes.
+- Remove leftover decorations.
+- Verify no temporary NPCs remain.
+- Restore the area to its original state whenever possible.
+
+<div class="marked-block-warning">
+A successful event doesn't end when the roleplay concludes—it ends when the world is ready for the next story.
+</div>
+
+</details>
+
+---
+
+# Best Practices
+
+<details open>
+<summary>Working Efficiently</summary>
+
+Experienced Event Coordinators often:
+
+- Keep a list of commonly used coordinates.
+- Save frequently used prefabs.
+- Build encounter areas before announcing events.
+- Test player flow through the area.
+- Coordinate with other staff before making large changes.
+
+Good preparation allows you to focus on storytelling instead of troubleshooting during live events.
+
+</details>
+
+---
+
+## Quick Reference
+
+<details open>
+<summary>Getting Started Commands</summary>
+
+| Command | Description |
+|---------|-------------|
+| .search item Name | Search for an item prefab. |
+| .search npc Name | Search for an NPC prefab. |
+| .search npc Name | Find an NPC prefab. |
+| .spwn Prefab Amount Level | Spawn one or more NPCs. |
+| .cspwn Prefab Blood Quality Consumable Duration Level | Spawn a customized NPC. |
+| .buff BuffGUID Player Duration Immortal | Apply a buff. |
+| .boost Type Player | Apply a toggle boost. |
+| .boost Type Amount Player | Apply a numeric boost. |
+| .boost state Player | View active boosts. |
+| .boost players | List boosted players. |
+| .dspwn Prefab Range | Despawn matching NPCs nearby. |
+| .sov teleport to | Teleport yourself to coordinates or another player. |
+| .sov teleport here | Bring a player to your location. |
+| .spectate | Observe an event without interacting. |
+| .revive | Revive a player by name. |
+| .revivetarget | Revive the player you're aiming at. |
+| .staydown | Keep a player downed until manually revived. |
+| .mortal | Remove God Mode and all boosts. |
+| .swapplayer | Exchange two players between bodies. |
+| .rename | Change a player's character name. |
+| .gear | Repair or break player equipment. |
+| .clan | Manage temporary clan membership. |
+| .keys | Grant temporary clan access. |
+| .search item Name | Search for an item prefab. |
+| .give ItemPrefab Amount | Spawn an item in your inventory. |
+| .bloodpotion BloodType Quality Amount | Create Merlot blood potions. |
+| .bloodpotionmix PrimaryType PrimaryQuality SecondaryType SecondaryQuality SecondaryTrait Amount | Create mixed blood potions. |
+| .gear repair Player | Repair a player's equipment. |
+| .gear repairall Radius | Repair nearby players' equipment. |
+| .gear break Player | Break a player's equipment. |
+| .gear breakall Radius | Break nearby players' equipment. |
+| .abilities Player Group Ability | Assign a custom ability. |
+| .abilities item Item Group Ability | Assign an ability to an item. |
+| .abilities cast Target Ability | Force a target to cast an ability. |
+| .abilities clear Player Group | Remove a specific ability. |
+| .abilities clearall Player | Remove all custom abilities from a player. |
+| .abilities item clear Item Group | Remove an item ability. |
+| .abilities item clearall Item | Remove all abilities from an item. |
+| .sov tag add | Assign a tag to a player. |
+| .sov tag remove | Remove a player's tag. |
+| .sov tag list | View a player's active tags. |
+| .sov teleport | Travel to saved coordinates or players. |
+| Building Utilities | Assist with temporary event construction. |
+
+</details>
+
+# Event Coordinator Handbook
+## Part 7 — Running Successful Events
+
+<details open>
+<summary>Overview</summary>
+
+Every command covered throughout this handbook is simply a tool. What separates a good Event Coordinator from a great one isn't how many commands they know—it's how well they use them to create memorable stories.
+
+Players rarely remember how difficult an event was to build.
+
+They remember how the event made them feel.
+
+This chapter focuses on planning, execution, and cleanup, helping you create events that feel natural, immersive, and rewarding.
+
+<div class="marked-block-info">
+The goal of an Event Coordinator is not to "win" against the players. Your goal is to create memorable stories that players will continue talking about long after the event ends.
+</div>
+
+</details>
+
+---
+
+# Planning Your Event
+
+<details open>
+<summary>Before You Begin</summary>
+
+Every successful event starts with a plan.
+
+Before spawning a single NPC, ask yourself:
+
+- What story am I trying to tell?
+- Who is involved?
+- What motivates the NPCs?
+- How can players succeed?
+- What happens if they fail?
+- How does the event end?
+
+Good events allow players to influence the outcome rather than simply watching a scripted sequence unfold.
+
+<div class="marked-block-info">
+If you don't know how the event ends before it begins, you're probably not ready to run it.
+</div>
+
+</details>
+
+---
+
+# Building Memorable NPCs
+
+<details open>
+<summary>Creating Interesting Encounters</summary>
+
+Not every NPC needs thousands of health or devastating attacks.
+
+Often, memorable NPCs are remembered because of:
+
+- Their personality.
+- Their dialogue.
+- Their motivations.
+- Their relationship with the players.
+
+Reserve powerful boosts and custom abilities for moments that truly deserve them.
+
+Players should remember the character—not just their health bar.
+
+</details>
+
+---
+
+# Encouraging Roleplay
+
+<details open>
+<summary>Let Players Drive the Story</summary>
+
+The best events give players meaningful choices.
+
+Instead of forcing a specific outcome:
+
+- Allow negotiation.
+- Reward creative ideas.
+- Adapt when players surprise you.
+- Let failures become new stories.
+
+Avoid correcting players simply because they solved a problem differently than you expected.
+
+<div class="marked-block-info">
+Players often create better stories than the ones we originally planned.
+</div>
+
+</details>
+
+---
+
+# Running Combat Events
+
+<details open>
+<summary>Balancing Difficulty</summary>
+
+Combat should feel challenging without becoming frustrating.
+
+During testing, consider:
+
+- How many players are expected?
+- Can everyone contribute?
+- Does the encounter have downtime?
+- Can players recover from mistakes?
+- Does the boss have obvious weaknesses?
+
+Avoid encounters that rely entirely on inflated health or damage values.
+
+Interesting mechanics almost always create better gameplay than larger numbers.
+
+</details>
+
+---
+
+# Adapting During an Event
+
+<details open>
+<summary>Expect the Unexpected</summary>
+
+No plan survives contact with players.
+
+Be prepared to:
+
+- Spawn additional NPCs.
+- Reduce difficulty.
+- Increase difficulty.
+- Change objectives.
+- Introduce reinforcements.
+- End an encounter early if necessary.
+
+Flexibility is one of an Event Coordinator's greatest strengths.
+
+<div class="marked-block-info">
+Never be afraid to quietly adjust an encounter if it improves the experience for everyone involved.
+</div>
+
+</details>
+
+---
+
+# Communication
+
+<details open>
+<summary>Working With Staff</summary>
+
+Large events often involve multiple Event Coordinators.
+
+Before the event begins:
+
+- Decide who is leading.
+- Assign responsibilities.
+- Establish communication.
+- Determine who handles NPCs, dialogue, and rewards.
+
+Avoid having multiple staff members issuing commands to the same NPCs unless coordinated.
+
+</details>
+
+---
+
+# Event Cleanup
+
+<details open>
+<summary>Before Logging Off</summary>
+
+Before considering an event complete, verify that:
+
+✓ Temporary NPCs have been removed.
+
+✓ Players have been revived.
+
+✓ Stay Down effects have been cleared.
+
+✓ Temporary boosts have been removed.
+
+✓ Temporary abilities have been cleared.
+
+✓ Gear has been repaired if intended.
+
+✓ Temporary tags have been removed.
+
+✓ Temporary structures have been cleaned up.
+
+✓ Spawned rewards have been distributed correctly.
+
+✓ No administrative changes remain active.
+
+<div class="marked-block-warning">
+Cleanup is part of the event. Leaving temporary changes behind can create confusion for players and extra work for other staff members.
+</div>
+
+</details>
+
+---
+
+# Common Mistakes
+
+<details open>
+<summary>Things to Avoid</summary>
+
+Even experienced Event Coordinators occasionally make mistakes.
+
+Some of the most common include:
+
+- Spawning the wrong NPC.
+- Forgetting to remove boosts.
+- Leaving temporary NPCs in the world.
+- Giving out incorrect rewards.
+- Over-tuning encounters.
+- Solving every problem with admin commands.
+- Forgetting to communicate with players.
+
+Mistakes happen.
+
+Own them, fix them, and learn from them.
+
+</details>
+
+---
+
+# Final Thoughts
+
+<details open>
+<summary>Becoming a Great Event Coordinator</summary>
+
+The commands in this handbook can create almost anything.
+
+What makes an Event Coordinator exceptional isn't technical knowledge—it's judgment.
+
+Use your tools to support roleplay.
+
+Encourage player creativity.
+
+Stay flexible.
+
+Work with your fellow staff members.
+
+Most importantly, remember that every event is another opportunity to create a story players will remember.
+
+If players finish an event talking about the characters they met, the choices they made, and the memories they created instead of the commands you used behind the scenes, you've done your job well.
+
+</details>
+
+---
+
+## Final Checklist
+
+<details open>
+<summary>Event Coordinator Checklist</summary>
+
+| Before the Event | During the Event | After the Event |
+|------------------|------------------|-----------------|
+| Plan the encounter | Adapt to players | Despawn NPCs |
+| Prepare NPCs | Monitor balance | Remove boosts |
+| Test abilities | Encourage RP | Clear abilities |
+| Prepare rewards | Communicate | Revive players |
+| Record coordinates | Keep immersion | Repair gear |
+| Coordinate with staff | Stay flexible | Clean temporary builds |
+
+</details>
+
+<!-- /guide -->
+
+<!-- guide:ev-guide-onboarding -->
+<!-- title: Ev Guide Onboarding -->
+<!-- description: What does it mean tobe an EV? -->
+<!-- content -->
+
+# Event Volunteer Handbook
+## Welcome to the Event Team
+
+<details open>
+<summary>Welcome!</summary>
+
+Event Volunteers (EVs) help bring Vardoran to life by supporting player events.
+
+Whether you're portraying a town guard, a wandering merchant, a terrified villager, or a member of an invading force, your role is to help create immersive and memorable experiences for our players.
+
+<div class="marked-block-info">
+Your role isn't to control the story—it's to help make it believable.
+</div>
+
+</details>
+
+---
+
+# Your Responsibilities
+
+<details open>
+<summary>What Does an Event Volunteer Do?</summary>
+
+As an Event Volunteer, you may be asked to:
+
+- Portray important NPCs.
+- Play enemies or allies during combat.
+- Help prepare event locations.
+- Hand out event rewards.
+- Support player roleplay.
+- Speak and deliver dialogue in the envisioned idea a player has
+
+
+</details>
+
+---
+
+# General Guidelines
+
+<details open>
+<summary>Best Practices</summary>
+
+Good Event Volunteers help events run smoothly by following a few simple principles.
+
+### Stay in Character
+
+Once the event begins, remain in your assigned role unless the asked otherwise.
+
+---
+
+### Support the Story
+
+Your goal is to encourage roleplay rather than control it.
+
+Allow players to make decisions, react naturally, and influence the outcome whenever appropriate.
+
+---
+
+### Communicate
+
+If something unexpected happens, let us know rather than trying to solve every problem yourself.
+
+---
+
+### Keep Immersion First
+
+Mod commands should be used quietly and only when they improve the player experience.
+
+<div class="marked-block-info">
+Players should remember the characters you portrayed—not the commands you used behind the scenes.
+</div>
+
+</details>
+
+---
+
+# Expectations
+
+<details open>
+<summary>What Makes a Great EV?</summary>
+
+The best Event Volunteers are reliable and versatile.
+
+They:
+
+- Listen to direction.
+- Stay calm when events become chaotic.
+- Help players enjoy the experience.
+- Stay in character whenever possible.
+- Ask questions when they're unsure.
+
+Your willingness to help and improve is far more important than knowing every command.
+
+</details>
+
+---
+
+# Finding an NPC
+
+<details open>
+<summary>.search npc</summary>
+
+Before spawning an NPC, you'll need its prefab name. You can find one either through the .search command or on the EV spreadsheet
+
+### Syntax
+
+```text
+.search npc Name
+```
+
+### Example
+
+```text
+.search npc militia
+```
+
+or
+
+```text
+.search npc bandit
+```
+
+The command will return matching NPC prefabs that you can use in your spawn command.
+
+</details>
+
+---
+
+# Spawning an NPC
+
+<details open>
+<summary>.spwn</summary>
+
+The **.spwn** command creates an NPC at your location.
+
+### Syntax
+
+```text
+.spwn Prefab Amount Level
+```
+
+### Example
+
+```text
+.spwn CHAR_Bandit_Footman 1 90
+```
+
+This creates a Level 90 Bandit Footman.
+
+Most of the time, the players or admins will tell you exactly which NPC and level to spawn.
+
+<div class="marked-block-warning">
+Spawn only the NPCs requested during the event. If you're unsure or think another spawn might add more value, ask before spawning additional characters.
+</div>
+
+</details>
+
+---
+
+# Creating a Custom NPC
+
+<details open>
+<summary>.cspwn</summary>
+
+Some events require more customization.
+
+The **.cspwn** command allows you to control an NPC's blood type, blood quality, whether players can feed on them, how long they remain alive, and their level.
+
+### Syntax
+
+```text
+.cspwn Prefab BloodType BloodQuality Consumable Duration Level
+```
+
+### Example
+
+```text
+.cspwn CHAR_Bandit_Footman warrior 100 false -1 90
+```
+
+This creates a permanent Level 90 Warrior Bandit that players cannot feed from.
+
+Most Event Volunteers won't need to decide these values themselves, but it's handy to have all the same
+
+</details>
+
+---
+
+# Renaming Characters
+
+<details open>
+<summary>.rename</summary>
+
+Sometimes an NPC needs a unique name or a player wants a specific name for the backstory villain or npcs
+
+### Syntax
+
+```text
+.rename CurrentName NewName
+```
+
+### Example
+
+```text
+.rename Bob CaptainRoland
+```
+
+This is useful for:
+
+- Named guards
+- Quest givers
+- Merchants
+- Story characters
+
+</details>
+
+---
+
+# Traveling to the Event
+
+<details open>
+<summary>Teleporting</summary>
+
+You may be asked to teleport to the event location before players arrive.
+
+### Teleport to Coordinates
+
+```text
+.sov teleport to X Y Z
+```
+
+### Example
+
+```text
+.sov teleport to -2000 0 -2800
+```
+
+---
+
+### Teleport to Your Marker
+
+```text
+.sov teleport to marker
+```
+
+This will likely be your go to, as its quicker than finding coordinates
+
+<div class="marked-block-warning">
+Avoid teleporting during active roleplay unless instructed. It's best to arrive before players or during an appropriate break in the scene.
+</div>
+
+</details>
+
+---
+
+# Roleplaying Your NPC
+
+<details open>
+<summary>Bringing Your Character to Life</summary>
+
+A spawned NPC is only the beginning.
+
+What players remember is how that character behaved.
+
+Some tips:
+
+- Speak consistently.
+- Stay true to your assigned role.
+- React naturally to player actions.
+- Don't reveal behind-the-scenes information.
+
+Remember, every character can become a memorable character through good roleplay.
+
+</details>
+
+---
+
+# Preparing Your Character
+
+<details open>
+<summary>Overview</summary>
+
+Before stepping into an event, you'll often need to prepare your character to match the role you're portraying.
+
+This may include:
+
+- Equipping the correct weapons or armor.
+- Choosing an appropriate blood type.
+- Gathering props or consumables.
+- Repairing your gear.
+
+Taking a few minutes to prepare beforehand helps the event run smoothly and avoids interrupting roleplay once players arrive.
+
+<div class="marked-block-info">
+The more convincing your character looks, the easier it is for players to immerse themselves in the story.
+</div>
+
+</details>
+
+---
+
+# Finding Items
+
+<details open>
+<summary>.search item</summary>
+
+If you're unsure of an item's prefab name, you can search for it directly in-game.
+
+### Syntax
+
+```text
+.search item Name
+```
+
+### Example
+
+```text
+.search item longsword
+```
+
+or
+
+```text
+.search item church
+```
+
+The command will return matching item prefabs that can be used with the `.give` command.
+
+<div class="marked-block-info">
+Using broad search terms often makes finding an item much quicker than searching for its exact name.
+</div>
+
+</details>
+
+---
+
+# Giving Yourself Items
+
+<details open>
+<summary>.give</summary>
+
+The **.give** command creates items directly in your inventory.
+
+### Syntax
+
+```text
+.give ItemPrefab Amount
+```
+
+### Example
+
+```text
+.give Item_Weapon_Sword_Iron 1
+```
+
+or
+
+```text
+.give Item_Armor_Helmet_Guard 1
+```
+
+Use this command to equip yourself with clothing, weapons, or props that fit the character you're portraying.
+
+<div class="marked-block-warning">
+Only spawn items needed for the event you're participating in. Avoid creating unnecessary equipment or resources.
+</div>
+
+</details>
+
+---
+
+# Choosing Your Blood
+
+<details open>
+<summary>.bloodpotion</summary>
+
+Many events involve portraying characters with a specific fighting style or profession.
+
+The **.bloodpotion** command allows you to create a blood potion that best fits your role.
+
+### Syntax
+
+```text
+.bloodpotion BloodType Quality Amount
+```
+
+### Example
+
+```text
+.bloodpotion scholar 100 1
+```
+
+Common blood types include:
+
+- Scholar
+- Warrior
+- Brute
+- Rogue
+- Worker
+- Creature
+- Draculin
+- Mutant
+- Corrupted
+
+<div class="marked-block-info">
+Choose the blood type that best matches the character you're portraying rather than simply picking the strongest option.
+</div>
+
+</details>
+
+---
+
+# Mixed Blood Potions
+
+<details open>
+<summary>.bloodpotionmix</summary>
+
+Some characters may benefit from a mixed blood potion.
+
+### Syntax
+
+```text
+.bloodpotionmix PrimaryType PrimaryQuality SecondaryType SecondaryQuality SecondaryTrait Amount
+```
+
+### Example
+
+```text
+.bloodpotionmix warrior 100 rogue 100 1 1
+```
+
+Mixed bloods can be useful for portraying unique characters or particularly dangerous opponents.
+
+Most events won't require these, but they're available when needed.
+
+</details>
+
+---
+
+# Repairing Your Equipment
+
+<details open>
+<summary>.gear</summary>
+
+Before an event begins, make sure your equipment is fully repaired.
+
+### Repair Yourself
+
+```text
+.gear repair YourName
+```
+If you're unsure whether your equipment needs repairing, it's always worth checking before the event starts.
+
+<div class="marked-block-info">
+Starting an event with broken gear can interrupt roleplay and affect combat encounters.
+</div>
+
+</details>
+
+---
+
+# Final Preparation Checklist
+
+<details open>
+<summary>Before the Event Begins</summary>
+
+Before heading to the event, make sure you've:
+
+- Equipped the correct gear.
+- Selected an appropriate blood type.
+- Gathered any required props.
+- Repaired your equipment.
+- Read your character's background or role.
+- Teleported to the event area before players arrive.
+
+Good preparation allows you to focus on roleplaying once the event begins.
+
+</details>
+
+---
+
+# Supporting the Event
+
+<details open>
+<summary>Overview</summary>
+
+While most of your preparation happens before players arrive, there are a handful of commands that may be needed during an event to keep things running smoothly.
+
+These commands are generally used only when the situation calls for them and should never replace good roleplay.
+
+This chapter covers:
+
+- Spectating
+- Keeping a player downed
+- Adding player tags
+
+</details>
+
+---
+
+# Observing an Event
+
+<details open>
+<summary>.spectate</summary>
+
+The **.spectate** command allows you to observe an event without interfering.
+
+While spectating you become:
+
+- Invisible
+- Unable to interact with the world
+- Free to observe player interactions
+
+### Enter Spectate
+
+```text
+.spectate
+```
+
+---
+
+### Spectate a Specific Player
+
+```text
+.spectate PlayerName
+```
+
+### Example
+
+```text
+.spectate Roland
+```
+
+Running the command again will exit Spectate mode.
+
+<div class="marked-block-info">
+Spectate is useful when waiting for your cue to enter an event or when observing how players are interacting before stepping into the scene.
+</div>
+
+</details>
+
+---
+
+# Keeping a Player Down
+
+<details open>
+<summary>.staydown</summary>
+
+Some events require a player to remain incapacitated after being defeated.
+
+The **.staydown** command prevents a downed player from recovering until the roleplay has concluded.
+
+### Syntax
+
+```text
+.staydown PlayerName
+```
+
+### Example
+
+```text
+.staydown Roland
+```
+
+Common uses include:
+
+- Kidnappings
+- Medical roleplay
+- Captured prisoners
+- Story injuries
+
+<div class="marked-block-warning">
+Only use this command when it has been agreed upon as part of the event. Remember to remove the effect or have the player revived once the scene is complete.
+</div>
+
+</details>
+
+---
+
+# Assigning Player Tags
+
+<details open>
+<summary>.sov tag add</summary>
+
+Player tags are occasionally used to identify races, professions, story progression, or other server systems.
+
+During some events you may be asked to assign a tag to a player.
+
+### Syntax
+
+```text
+.sov tag add PlayerName Tag
+```
+
+### Example
+
+```text
+.sov tag add Roland Werewolf
+```
+
+Only assign tags that have been approved for the event 
+
+<div class="marked-block-warning">
+Tags can affect gameplay systems. Never add tags unless you're certain they are appropriate.
+</div>
+
+</details>
+
+---
+
+# During the Event
+
+<details open>
+<summary>Working as an Event Volunteer</summary>
+
+Once an event begins:
+
+- Stay in character.
+- Follow the event plan.
+- Keep communication with staff clear and concise.
+- Allow players to influence the story naturally.
+- Use commands only when they're needed.
+
+If something unexpected happens, don't panic. Stay in character if possible and communicate with the event organizer or staff member running the event.
+
+</details>
+
+---
+
+# After the Event
+
+<details open>
+<summary>Wrapping Up</summary>
+
+Before considering your role complete:
+
+- Return any temporary equipment if requested.
+- Log any additional commands used in your log channel
+- Confirm the event has concluded before leaving.
+- Ask if there's anything else that needs to be cleaned up or prepared.
+
+Helping with the final few minutes of an event is just as valuable as helping during the event itself.
+
+</details>
+
+# Event Volunteer Quick Reference
+
+<details open>
+<summary>Command Reference</summary>
+
+| Command | Syntax | Purpose |
+|---------|--------|---------|
+| Search NPC | `.search npc Name` | Search for an NPC prefab. |
+| Search Item | `.search item Name` | Search for an item prefab. |
+| Spawn NPC | `.spwn Prefab Amount Level` | Spawn one or more NPCs. |
+| Custom Spawn | `.cspwn Prefab BloodType BloodQuality Consumable Duration Level` | Spawn a customized NPC. |
+| Give Item | `.give ItemPrefab Amount` | Spawn an item in your inventory. |
+| Blood Potion | `.bloodpotion BloodType Quality Amount` | Create a blood potion. |
+| Mixed Blood | `.bloodpotionmix PrimaryType PrimaryQuality SecondaryType SecondaryQuality SecondaryTrait Amount` | Create a mixed blood potion. |
+| Rename | `.rename CurrentName NewName` | Rename a player or NPC. |
+| Spectate | `.spectate` | Enter or exit spectate mode. |
+| Spectate Player | `.spectate PlayerName` | Spectate a specific player. |
+| Repair Gear | `.gear repair PlayerName` | Repair a player's equipment. |
+| Break Gear | `.gear break PlayerName` | Break a player's equipment. |
+| Stay Down | `.staydown PlayerName` | Prevent a downed player from recovering. |
+| Teleport | `.sov teleport to playername` | Teleport to an existing player. |
+| Teleport to Marker | `.sov teleport to marker` | Teleport to your map marker. |
+| Add Tag | `.sov tag add PlayerName Tag` | Add a server tag to a player. |
+
+</details>
+
+---
+
+# Blood Types
+
+<details open>
+<summary>Available Blood Types</summary>
+
+| Blood Type | Typical Use |
+|------------|-------------|
+| Scholar | Mages, priests, researchers |
+| Warrior | Guards, soldiers, knights |
+| Brute | Heavy fighters, berserkers |
+| Rogue | Assassins, scouts, thieves |
+| Worker | Villagers, merchants, laborers |
+| Creature | Animals and beasts |
+| Draculin | Vampires and Draculin NPCs |
+| Mutant | Gloomrot experiments and mutated creatures |
+| Corrupted | Corrupted entities, undead, and twisted beings |
 
 </details>
 
