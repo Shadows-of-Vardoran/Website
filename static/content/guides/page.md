@@ -1692,3 +1692,12 @@ Example:
 </details>
 
 <!-- /guide -->
+
+<!-- guide:ec-mods-guide -->
+<!-- title: Ec Mods Guide -->
+<!-- description: Guide description goes here. -->
+<!-- content -->
+
+Welcome to your guide! Replace this content with the actual guide information.
+
+<!-- /guide -->
