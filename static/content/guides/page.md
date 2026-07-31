@@ -5392,9 +5392,699 @@ If players finish an event talking about the characters they met, the choices th
 
 <!-- guide:ev-guide-onboarding -->
 <!-- title: Ev Guide Onboarding -->
-<!-- description: Guide description goes here. -->
+<!-- description: What does it mean tobe an EV? -->
 <!-- content -->
 
-Welcome to your guide! Replace this content with the actual guide information.
+# Event Volunteer Handbook
+## Welcome to the Event Team
+
+<details open>
+<summary>Welcome!</summary>
+
+Event Volunteers (EVs) help bring Vardoran to life by supporting player events.
+
+Whether you're portraying a town guard, a wandering merchant, a terrified villager, or a member of an invading force, your role is to help create immersive and memorable experiences for our players.
+
+<div class="marked-block-info">
+Your role isn't to control the story—it's to help make it believable.
+</div>
+
+</details>
+
+---
+
+# Your Responsibilities
+
+<details open>
+<summary>What Does an Event Volunteer Do?</summary>
+
+As an Event Volunteer, you may be asked to:
+
+- Portray important NPCs.
+- Play enemies or allies during combat.
+- Help prepare event locations.
+- Hand out event rewards.
+- Support player roleplay.
+- Speak and deliver dialogue in the envisioned idea a player has
+
+
+</details>
+
+---
+
+# General Guidelines
+
+<details open>
+<summary>Best Practices</summary>
+
+Good Event Volunteers help events run smoothly by following a few simple principles.
+
+### Stay in Character
+
+Once the event begins, remain in your assigned role unless the Event Coordinator instructs otherwise.
+
+---
+
+### Support the Story
+
+Your goal is to encourage roleplay rather than control it.
+
+Allow players to make decisions, react naturally, and influence the outcome whenever appropriate.
+
+---
+
+### Communicate
+
+If something unexpected happens, let the Event Coordinator know rather than trying to solve every problem yourself.
+
+---
+
+### Keep Immersion First
+
+Administrative commands should be used quietly and only when they improve the player experience.
+
+<div class="marked-block-info">
+Players should remember the characters you portrayed—not the commands you used behind the scenes.
+</div>
+
+</details>
+
+---
+
+# Expectations
+
+<details open>
+<summary>What Makes a Great EV?</summary>
+
+The best Event Volunteers are reliable, adaptable, and easy to work with.
+
+They:
+
+- Listen to direction.
+- Stay calm when events become chaotic.
+- Help players enjoy the experience.
+- Stay in character whenever possible.
+- Ask questions when they're unsure.
+
+Your willingness to help and improve is far more important than knowing every command.
+
+</details>
+
+---
+
+# Finding an NPC
+
+<details open>
+<summary>.search npc</summary>
+
+Before spawning an NPC, you'll need its prefab name. You can find one either through the .search command or on the EV spreadsheet
+
+### Syntax
+
+```text
+.search npc Name
+```
+
+### Example
+
+```text
+.search npc militia
+```
+
+or
+
+```text
+.search npc bandit
+```
+
+The command will return matching NPC prefabs that you can use in your spawn command.
+
+</details>
+
+---
+
+# Spawning an NPC
+
+<details open>
+<summary>.spwn</summary>
+
+The **.spwn** command creates an NPC at your location.
+
+### Syntax
+
+```text
+.spwn Prefab Amount Level
+```
+
+### Example
+
+```text
+.spwn CHAR_Bandit_Footman 1 90
+```
+
+This creates a Level 90 Bandit Footman.
+
+Most of the time, the players or admins will tell you exactly which NPC and level to spawn.
+
+<div class="marked-block-warning">
+Spawn only the NPCs requested during the event. If you're unsure or think another spawn might add more value, ask before spawning additional characters.
+</div>
+
+</details>
+
+---
+
+# Creating a Custom NPC
+
+<details open>
+<summary>.cspwn</summary>
+
+Some events require more customization.
+
+The **.cspwn** command allows you to control an NPC's blood type, blood quality, whether players can feed on them, how long they remain alive, and their level.
+
+### Syntax
+
+```text
+.cspwn Prefab BloodType BloodQuality Consumable Duration Level
+```
+
+### Example
+
+```text
+.cspwn CHAR_Bandit_Footman warrior 100 false -1 90
+```
+
+This creates a permanent Level 90 Warrior Bandit that players cannot feed from.
+
+Most Event Volunteers won't need to decide these values themselves, but it's handy to have all the same
+
+</details>
+
+---
+
+# Renaming Characters
+
+<details open>
+<summary>.rename</summary>
+
+Sometimes an NPC needs a unique name or a player wants a specific name for the backstory villain or npcs
+
+### Syntax
+
+```text
+.rename CurrentName NewName
+```
+
+### Example
+
+```text
+.rename Bob CaptainRoland
+```
+
+This is useful for:
+
+- Named guards
+- Quest givers
+- Merchants
+- Story characters
+
+</details>
+
+---
+
+# Traveling to the Event
+
+<details open>
+<summary>Teleporting</summary>
+
+You may be asked to teleport to the event location before players arrive.
+
+### Teleport to Coordinates
+
+```text
+.sov teleport to X Y Z
+```
+
+### Example
+
+```text
+.sov teleport to -2000 0 -2800
+```
+
+---
+
+### Teleport to Your Marker
+
+```text
+.sov teleport to marker
+```
+
+This will likely be your go to, as its quicker than finding coordinates
+
+<div class="marked-block-warning">
+Avoid teleporting during active roleplay unless instructed. It's best to arrive before players or during an appropriate break in the scene.
+</div>
+
+</details>
+
+---
+
+# Roleplaying Your NPC
+
+<details open>
+<summary>Bringing Your Character to Life</summary>
+
+A spawned NPC is only the beginning.
+
+What players remember is how that character behaved.
+
+Some tips:
+
+- Speak consistently.
+- Stay true to your assigned role.
+- React naturally to player actions.
+- Don't reveal behind-the-scenes information.
+
+Remember, every character can become a memorable character through good roleplay.
+
+</details>
+
+---
+
+# Preparing Your Character
+
+<details open>
+<summary>Overview</summary>
+
+Before stepping into an event, you'll often need to prepare your character to match the role you're portraying.
+
+This may include:
+
+- Equipping the correct weapons or armor.
+- Choosing an appropriate blood type.
+- Gathering props or consumables.
+- Repairing your gear.
+
+Taking a few minutes to prepare beforehand helps the event run smoothly and avoids interrupting roleplay once players arrive.
+
+<div class="marked-block-info">
+The more convincing your character looks, the easier it is for players to immerse themselves in the story.
+</div>
+
+</details>
+
+---
+
+# Finding Items
+
+<details open>
+<summary>.search item</summary>
+
+If you're unsure of an item's prefab name, you can search for it directly in-game.
+
+### Syntax
+
+```text
+.search item Name
+```
+
+### Example
+
+```text
+.search item longsword
+```
+
+or
+
+```text
+.search item church
+```
+
+The command will return matching item prefabs that can be used with the `.give` command.
+
+<div class="marked-block-info">
+Using broad search terms often makes finding an item much quicker than searching for its exact name.
+</div>
+
+</details>
+
+---
+
+# Giving Yourself Items
+
+<details open>
+<summary>.give</summary>
+
+The **.give** command creates items directly in your inventory.
+
+### Syntax
+
+```text
+.give ItemPrefab Amount
+```
+
+### Example
+
+```text
+.give Item_Weapon_Sword_Iron 1
+```
+
+or
+
+```text
+.give Item_Armor_Helmet_Guard 1
+```
+
+Use this command to equip yourself with clothing, weapons, or props that fit the character you're portraying.
+
+<div class="marked-block-warning">
+Only spawn items needed for the event you're participating in. Avoid creating unnecessary equipment or resources.
+</div>
+
+</details>
+
+---
+
+# Choosing Your Blood
+
+<details open>
+<summary>.bloodpotion</summary>
+
+Many events involve portraying characters with a specific fighting style or profession.
+
+The **.bloodpotion** command allows you to create a blood potion that best fits your role.
+
+### Syntax
+
+```text
+.bloodpotion BloodType Quality Amount
+```
+
+### Example
+
+```text
+.bloodpotion scholar 100 1
+```
+
+Common blood types include:
+
+- Scholar
+- Warrior
+- Brute
+- Rogue
+- Worker
+- Creature
+- Draculin
+- Mutant
+- Corrupted
+
+<div class="marked-block-info">
+Choose the blood type that best matches the character you're portraying rather than simply picking the strongest option.
+</div>
+
+</details>
+
+---
+
+# Mixed Blood Potions
+
+<details open>
+<summary>.bloodpotionmix</summary>
+
+Some characters may benefit from a mixed blood potion.
+
+### Syntax
+
+```text
+.bloodpotionmix PrimaryType PrimaryQuality SecondaryType SecondaryQuality SecondaryTrait Amount
+```
+
+### Example
+
+```text
+.bloodpotionmix warrior 100 rogue 100 1 1
+```
+
+Mixed bloods can be useful for portraying unique characters or particularly dangerous opponents.
+
+Most events won't require these, but they're available when needed.
+
+</details>
+
+---
+
+# Repairing Your Equipment
+
+<details open>
+<summary>.gear</summary>
+
+Before an event begins, make sure your equipment is fully repaired.
+
+### Repair Yourself
+
+```text
+.gear repair YourName
+```
+If you're unsure whether your equipment needs repairing, it's always worth checking before the event starts.
+
+<div class="marked-block-info">
+Starting an event with broken gear can interrupt roleplay and affect combat encounters.
+</div>
+
+</details>
+
+---
+
+# Final Preparation Checklist
+
+<details open>
+<summary>Before the Event Begins</summary>
+
+Before heading to the event, make sure you've:
+
+- Equipped the correct gear.
+- Selected an appropriate blood type.
+- Gathered any required props.
+- Repaired your equipment.
+- Read your character's background or role.
+- Teleported to the event area before players arrive.
+
+Good preparation allows you to focus on roleplaying once the event begins.
+
+</details>
+
+---
+
+# Supporting the Event
+
+<details open>
+<summary>Overview</summary>
+
+While most of your preparation happens before players arrive, there are a handful of commands that may be needed during an event to keep things running smoothly.
+
+These commands are generally used only when the situation calls for them and should never replace good roleplay.
+
+This chapter covers:
+
+- Spectating
+- Keeping a player downed
+- Adding player tags
+
+</details>
+
+---
+
+# Observing an Event
+
+<details open>
+<summary>.spectate</summary>
+
+The **.spectate** command allows you to observe an event without interfering.
+
+While spectating you become:
+
+- Invisible
+- Unable to interact with the world
+- Free to observe player interactions
+
+### Enter Spectate
+
+```text
+.spectate
+```
+
+---
+
+### Spectate a Specific Player
+
+```text
+.spectate PlayerName
+```
+
+### Example
+
+```text
+.spectate Roland
+```
+
+Running the command again will exit Spectate mode.
+
+<div class="marked-block-info">
+Spectate is useful when waiting for your cue to enter an event or when observing how players are interacting before stepping into the scene.
+</div>
+
+</details>
+
+---
+
+# Keeping a Player Down
+
+<details open>
+<summary>.staydown</summary>
+
+Some events require a player to remain incapacitated after being defeated.
+
+The **.staydown** command prevents a downed player from recovering until the roleplay has concluded.
+
+### Syntax
+
+```text
+.staydown PlayerName
+```
+
+### Example
+
+```text
+.staydown Roland
+```
+
+Common uses include:
+
+- Kidnappings
+- Medical roleplay
+- Captured prisoners
+- Story injuries
+
+<div class="marked-block-warning">
+Only use this command when it has been agreed upon as part of the event. Remember to remove the effect or have the player revived once the scene is complete.
+</div>
+
+</details>
+
+---
+
+# Assigning Player Tags
+
+<details open>
+<summary>.sov tag add</summary>
+
+Player tags are occasionally used to identify races, professions, story progression, or other server systems.
+
+During some events you may be asked to assign a tag to a player.
+
+### Syntax
+
+```text
+.sov tag add PlayerName Tag
+```
+
+### Example
+
+```text
+.sov tag add Roland Werewolf
+```
+
+Only assign tags that have been approved for the event 
+
+<div class="marked-block-warning">
+Tags can affect gameplay systems. Never add tags unless you're certain they are appropriate.
+</div>
+
+</details>
+
+---
+
+# During the Event
+
+<details open>
+<summary>Working as an Event Volunteer</summary>
+
+Once an event begins:
+
+- Stay in character.
+- Follow the event plan.
+- Keep communication with staff clear and concise.
+- Allow players to influence the story naturally.
+- Use commands only when they're needed.
+
+If something unexpected happens, don't panic. Stay in character if possible and communicate with the event organizer or staff member running the event.
+
+</details>
+
+---
+
+# After the Event
+
+<details open>
+<summary>Wrapping Up</summary>
+
+Before considering your role complete:
+
+- Return any temporary equipment if requested.
+- Log any additional commands used in your log channel
+- Confirm the event has concluded before leaving.
+- Ask if there's anything else that needs to be cleaned up or prepared.
+
+Helping with the final few minutes of an event is just as valuable as helping during the event itself.
+
+</details>
+
+# Event Volunteer Quick Reference
+
+<details open>
+<summary>Command Reference</summary>
+
+| Command | Syntax | Purpose |
+|---------|--------|---------|
+| Search NPC | `.search npc Name` | Search for an NPC prefab. |
+| Search Item | `.search item Name` | Search for an item prefab. |
+| Spawn NPC | `.spwn Prefab Amount Level` | Spawn one or more NPCs. |
+| Custom Spawn | `.cspwn Prefab BloodType BloodQuality Consumable Duration Level` | Spawn a customized NPC. |
+| Give Item | `.give ItemPrefab Amount` | Spawn an item in your inventory. |
+| Blood Potion | `.bloodpotion BloodType Quality Amount` | Create a blood potion. |
+| Mixed Blood | `.bloodpotionmix PrimaryType PrimaryQuality SecondaryType SecondaryQuality SecondaryTrait Amount` | Create a mixed blood potion. |
+| Rename | `.rename CurrentName NewName` | Rename a player or NPC. |
+| Spectate | `.spectate` | Enter or exit spectate mode. |
+| Spectate Player | `.spectate PlayerName` | Spectate a specific player. |
+| Repair Gear | `.gear repair PlayerName` | Repair a player's equipment. |
+| Break Gear | `.gear break PlayerName` | Break a player's equipment. |
+| Stay Down | `.staydown PlayerName` | Prevent a downed player from recovering. |
+| Teleport | `.sov teleport to X Y Z` | Teleport to coordinates. |
+| Teleport to Marker | `.sov teleport to marker` | Teleport to your map marker. |
+| Add Tag | `.sov tag add PlayerName Tag` | Add a server tag to a player. |
+
+</details>
+
+---
+
+# Blood Types
+
+<details open>
+<summary>Available Blood Types</summary>
+
+| Blood Type | Typical Use |
+|------------|-------------|
+| Scholar | Mages, priests, researchers |
+| Warrior | Guards, soldiers, knights |
+| Brute | Heavy fighters, berserkers |
+| Rogue | Assassins, scouts, thieves |
+| Worker | Villagers, merchants, laborers |
+| Creature | Animals and beasts |
+| Draculin | Vampires and Draculin NPCs |
+| Mutant | Gloomrot experiments and mutated creatures |
+| Corrupted | Corrupted entities, undead, and twisted beings |
+
+</details>
 
 <!-- /guide -->
