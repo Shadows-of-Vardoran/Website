@@ -1940,4 +1940,291 @@ A memorable encounter is usually created through atmosphere, storytelling, and p
 
 </details>
 
+# Buffs & Boosts
+
+<details open>
+<summary>Overview</summary>
+
+<div class="marked-block-info">
+Buffs and Boosts are two different systems that modify a player's character. While they may appear similar, they serve very different purposes.
+</div>
+
+- **Buffs** apply visual effects or temporary gameplay effects to a player.
+- **Boosts** directly modify player statistics such as health, damage, movement speed, or special properties.
+
+Use Buffs when you want to create unique appearances or magical effects. Use Boosts when you need to temporarily adjust gameplay for an event.
+
+</details>
+
+---
+
+# Buffs
+
+<details open>
+<summary>.buff</summary>
+
+The **.buff** command applies a buff or visual effect to a player.
+
+Buffs are commonly used to create unique NPC appearances, magical effects, transformations, invisibility, and other roleplay visuals.
+
+### Syntax
+
+```text
+.buff BuffID PlayerName Duration Immortal
+```
+
+Example:
+
+```text
+.buff 404387047 Shimmer -1
+```
+
+Applies the specified buff to **Shimmer** indefinitely.
+
+---
+
+### Duration
+
+Determines how long the buff lasts.
+
+Example:
+
+```text
+60
+```
+
+The buff expires after 60 seconds.
+
+Example:
+
+```text
+-1
+```
+
+The buff remains indefinitely.
+
+Not every buff supports an infinite duration.
+
+---
+
+### Immortal
+
+Controls whether the buff survives death.
+
+```text
+true
+```
+
+The buff remains after the player respawns.
+
+```text
+false
+```
+
+The buff is removed upon death.
+
+The **false** parameter may be omitted if persistence is not required.
+
+<div class="marked-block-warning">
+Only use buffs that have been confirmed to be safe.
+
+Certain buffs can cause severe issues, including requiring a server rollback. If you are unsure whether a buff is safe, ask an Administrator before applying it.
+</div>
+
+</details>
+
+---
+
+## Visual Layering
+
+<details open>
+<summary>Understanding Buff Layers</summary>
+
+Many visual buffs occupy different rendering layers.
+
+Some effects stack together, while others completely replace existing visuals.
+
+For example:
+
+- Blood Moon visuals often override many other effects.
+- Weapon coatings frequently override Blood Moon visuals.
+- Certain invisibility effects still allow spell effects to remain visible.
+
+Because of this, experimentation is often required to achieve the desired appearance.
+
+<div class="marked-block-info">
+Whenever possible, test complicated visual combinations before using them during a live event.
+</div>
+
+</details>
+
+---
+
+## Example: Creating an Invisible Character
+
+<details open>
+<summary>Layering Buffs</summary>
+
+Some characters require multiple buffs to achieve a convincing appearance.
+
+For example:
+
+```text
+.buff 404387047 Shimmer -1
+```
+
+Provides an instant invisibility effect while leaving certain visuals visible.
+
+---
+
+```text
+.buff 1160901934 Shimmer -1
+```
+
+Hides the player's nameplate while maintaining compatibility with other visual effects.
+
+---
+
+These two buffs are commonly layered together so that:
+
+- The character becomes immediately invisible.
+- Spell effects remain visible.
+- The player's nameplate is hidden.
+
+Additional visual effects may then be added on top.
+
+For example:
+
+```text
+.buff -1075909278 Shimmer -1 true
+```
+
+Darkwolf DLC appearance.
+
+```text
+.buff -1882904996 Shimmer -1 true
+```
+
+Standard wolf appearance.
+
+These wolf effects occupy different visual layers and therefore stack correctly.
+
+</details>
+
+---
+
+# Boosts
+
+<details open>
+<summary>.boost</summary>
+
+Boosts directly modify a player's statistics or gameplay behavior.
+
+Unlike Buffs, Boosts affect game mechanics rather than appearance.
+
+### Syntax
+
+```text
+.boost Type Amount PlayerName
+```
+
+Example:
+
+```text
+.boost health 100 Mahalia
+```
+
+Sets Mahalia's health to **100**.
+
+---
+
+Example:
+
+```text
+.boost na Mahalia
+```
+
+Grants **No Aggro**, preventing hostile NPCs from attacking Mahalia.
+
+</details>
+
+---
+
+## Available Boost Types
+
+<details open>
+<summary>Boost Parameters</summary>
+
+The following boost types are available.
+
+| Boost | Description |
+|---------|-------------|
+| health | Sets maximum health. |
+| damage | Modifies outgoing damage. |
+| speed | Adjusts movement speed. |
+| attackspeed | Adjusts attack and animation speed. |
+| NoCooldown (nc) | Removes ability cooldowns. |
+| NoAggro (na) | Prevents NPCs from becoming hostile. |
+| NoBlooddrain (nb) | Prevents blood from draining over time. |
+| Immaterial (i) | Makes the player immaterial. |
+| Invincible (inv) | Prevents incoming damage. |
+| Suninvulnerable (suninv) | Grants immunity to sunlight. |
+| Shrouded (sh) | Applies the shrouded effect. |
+
+Most boosts also support their abbreviated form shown in parentheses.
+
+</details>
+
+---
+
+## Important Gameplay Notes
+
+<details open>
+<summary>Things to Know</summary>
+
+<div class="marked-block-warning">
+Applying any Boost overrides several normal gameplay systems.
+</div>
+
+While a player has active boosts, they no longer benefit from:
+
+- Blood bonuses
+- Armor traits
+- Weapon traits
+- Passive abilities
+
+Once boosts have been removed, players should:
+
+- Re-equip their armor.
+- Refresh their blood.
+- Re-equip any passive abilities.
+
+Failing to do so may result in incorrect character statistics.
+
+</details>
+
+---
+
+## Best Practices
+
+<details open>
+<summary>Using Buffs & Boosts Effectively</summary>
+
+A few recommendations when running events:
+
+- Use Buffs for appearance and atmosphere.
+- Use Boosts only when gameplay adjustments are necessary.
+- Test visual combinations before events begin.
+- Avoid permanent buffs unless the character is intended to persist.
+- Use conservative stat boosts whenever possible to maintain enjoyable encounters.
+- Remove temporary effects once an event has concluded.
+
+<div class="marked-block-info">
+Subtle enhancements generally create better roleplay experiences than overwhelming visual effects or excessive stat increases.
+</div>
+
+</details>
+
+---
+
 <!-- /guide -->
