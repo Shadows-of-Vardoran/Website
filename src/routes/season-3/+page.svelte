@@ -57,7 +57,9 @@
   let racesIntroHtml = $state('');
   let specsIntroHtml = $state('');
   let specsTechHtml = $state('');
-  let commandsHtml = $state('');
+  let commandSections: Record<string, string> = $state({});
+  let commandHtml: Record<string, string> = $state({});
+  let activeCommandTab = $state('onboarding');
   let worldParticularsHtml = $state('');
   let faqHtml = $state('');
 
@@ -149,7 +151,6 @@
     else if (key === 'races-intro') racesIntroHtml = await parse(md);
     else if (key === 'specialties-intro') specsIntroHtml = await parse(md);
     else if (key === 'specialties-tech-details') specsTechHtml = await parse(md);
-    else if (key === 'commands') commandsHtml = await parse(md);
     else if (key === 'world-particulars') worldParticularsHtml = await parse(md);
     else if (key === 'faq') faqHtml = await parse(md);
   }
@@ -183,7 +184,7 @@
 
   async function loadContent() {
     try {
-      const [pageRes, racesRes, racesMdRes, specsRes, specsMdRes, nationsRes, nationsMdRes, orgsRes, orgsMdRes, religionsRes, religionsMdRes] = await Promise.all([
+      const [pageRes, racesRes, racesMdRes, specsRes, specsMdRes, nationsRes, nationsMdRes, orgsRes, orgsMdRes, religionsRes, religionsMdRes, commandsMdRes] = await Promise.all([
         fetchContent('season-3/page.md'),
         fetchContent('season-3/races.json'),
         fetchContent('season-3/races.md'),
@@ -195,6 +196,7 @@
         fetchContent('season-3/organizations.md'),
         fetchContent('season-3/religions.json'),
         fetchContent('season-3/religions.md'),
+        fetchContent('season-3/commands.md'),
       ]);
       if (pageRes.ok) {
         const raw = await pageRes.text();
@@ -286,6 +288,17 @@
         );
         religionDescriptions = parsed;
       }
+      if (commandsMdRes.ok) {
+        const raw = await commandsMdRes.text();
+        commandSections = splitSections(raw);
+        const parsed: Record<string, string> = {};
+        await Promise.all(
+          Object.entries(commandSections).map(async ([key, md]) => {
+            parsed[key] = await parse(md);
+          })
+        );
+        commandHtml = parsed;
+      }
       await renderSpecHtml();
     } catch (e) {
       console.error('loadContent CAUGHT:', e);
@@ -310,7 +323,6 @@
       'mortality-contract',
       'magic-tech-ceiling',
       'world-particulars',
-      'commands',
       'faq',
     ]);
 
@@ -386,6 +398,29 @@
 
   const ORGS_MD_PATH = 'static/content/season-3/organizations.md';
   const ORGS_SECTION_ORDER = ['church-of-luminance', 'the-archivum', 'Trancendum', 'noctum', 'vampire-hunters-guild', 'farbane-bandits', 'dunley-militia', 'venomblades'];
+
+  const COMMANDS_MD_PATH = 'static/content/season-3/commands.md';
+  const COMMAND_TABS = [
+    { id: 'onboarding', label: 'Onboarding' },
+    { id: 'character', label: 'Character' },
+    { id: 'abilities', label: 'Spells' },
+    { id: 'forms', label: 'Forms' },
+    { id: 'crafting', label: 'Crafting' },
+    { id: 'vblood', label: 'VBlood' },
+    { id: 'anonymity', label: 'Anonymity' },
+    { id: 'emotes', label: 'Emotes & Misc' },
+    { id: 'mortality', label: 'Mortality' },
+    { id: 'mytt-blood', label: 'Mytt Blood' },
+    { id: 'ritualism', label: 'Ritualism' },
+    { id: 'blacksmithing', label: 'Blacksmithing' },
+    { id: 'tailoring', label: 'Tailoring' },
+    { id: 'rancher', label: 'Rancher' },
+    { id: 'architect', label: 'Architect' },
+    { id: 'doctor', label: 'Doctor' },
+    { id: 'keys', label: 'Keys' },
+    { id: 'signs', label: 'Signs' },
+  ];
+  const COMMANDS_SECTION_ORDER = COMMAND_TABS.map((t) => t.id);
 
   const RELIGIONS_MD_PATH = 'static/content/season-3/religions.md';
   const RELIGIONS_SECTION_ORDER = ['the-great-temple-of-qalidran', 'luntoll', 'the-faith-of-the-fish', 'the-drift', 'aetherian-tenets', 'faith-of-shifting-eons'];
@@ -469,6 +504,41 @@
     if (pat) {
       const msg = buildCommitMessage(SPECS_MD_PATH);
       const result = await saveContent(SPECS_MD_PATH, full, msg, pat);
+      if (result.ok) {
+        saveError = '';
+      } else {
+        saveError = result.error || 'Save failed';
+        setTimeout(() => {
+          saveError = '';
+        }, 6000);
+      }
+    }
+  }
+
+  async function onCommandSave(sectionKey: string, content: string) {
+    const key = sectionKey
+      .replace(/^cmd\./, '')
+      .toLowerCase()
+      .replace(/\s+/g, '-');
+    commandSections[key] = content;
+    commandHtml[key] = await parse(content);
+
+    const full = reconstructContent(commandSections, COMMANDS_SECTION_ORDER);
+
+    if (import.meta.env.DEV) {
+      await fetch('/__cms-save', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ filePath: COMMANDS_MD_PATH, content: full }),
+      });
+      bumpContentVersion();
+      return;
+    }
+
+    const pat = getCmsPat();
+    if (pat) {
+      const msg = buildCommitMessage(COMMANDS_MD_PATH);
+      const result = await saveContent(COMMANDS_MD_PATH, full, msg, pat);
       if (result.ok) {
         saveError = '';
       } else {
@@ -614,6 +684,26 @@
     activeSection = current;
   }
 
+  function jumpToHash() {
+    if (!browser || !scrollElement) return;
+    const hash = window.location.hash.slice(1);
+    if (!hash) return;
+    const m = hash.match(/^cmd-(.+)$/);
+    if (m) {
+      const tabId = m[1];
+      if (COMMAND_TABS.some((t) => t.id === tabId)) {
+        activeCommandTab = tabId;
+      }
+    }
+    requestAnimationFrame(() => {
+      const el = document.getElementById(hash);
+      if (el && scrollElement) {
+        scrollElement.scrollTop = el.offsetTop - scrollElement.offsetTop;
+        activeSection = hash.startsWith('cmd-') ? 'commands' : hash;
+      }
+    });
+  }
+
   $effect(() => {
     if (!loading && specialties.length > 0) {
       renderSpecHtml();
@@ -622,17 +712,15 @@
 
   $effect(() => {
     if (!loading && browser) {
-      const hash = window.location.hash.slice(1);
-      if (hash) {
-        requestAnimationFrame(() => {
-          const el = document.getElementById(hash);
-          if (el && scrollElement) {
-            scrollElement.scrollTop = el.offsetTop - scrollElement.offsetTop;
-            activeSection = hash;
-          }
-        });
-      }
+      jumpToHash();
     }
+  });
+
+  $effect(() => {
+    if (!browser) return;
+    const onHashChange = () => jumpToHash();
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
   });
 
   onMount(() => {
@@ -1112,15 +1200,40 @@
 
         <!-- Section 11: Commands -->
         <section id="commands" class="mb-12 scroll-mt-8">
-          <div class="fade-background-up p-4 rounded-lg">
+          <div class="fade-background-up px-2 py-4 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Commands</h2>
-            <EditableSection filePath={FILE_PATH} sectionKey="commands" rawContent={sections.commands || ''} onsave={onSectionSave}>
-              {#if commandsHtml}
-                <div class="marked text-[0.925rem]">{@html commandsHtml}</div>
-              {:else}
-                <div class="text-tprimary-500 italic">Commands coming soon.</div>
-              {/if}
-            </EditableSection>
+
+            <div class="grid grid-cols-1 md:grid-cols-[150px_1fr] gap-3 items-start">
+              <div class="flex md:flex-col gap-0.5 overflow-x-auto scrollbar-hidden md:overflow-visible pb-2 md:pb-0 md:border-r md:border-tprimary-900/30 md:pr-1.5">
+                {#each COMMAND_TABS as tab}
+                  <button
+                    onclick={() => (activeCommandTab = tab.id)}
+                    class="flex items-center gap-2 w-full px-2.5 py-1.5 rounded text-left whitespace-nowrap text-sm font-cinzel transition-colors cursor-pointer border-l-2 {activeCommandTab ===
+                    tab.id
+                      ? 'bg-background-700/60 text-tprimary font-bold border-tprimary-400'
+                      : 'text-tprimary-500 hover:bg-background-800/40 hover:text-tprimary-100 border-transparent'}"
+                  >
+                    {tab.label}
+                  </button>
+                {/each}
+              </div>
+
+              <div class="min-w-0">
+                {#each COMMAND_TABS as tab}
+                  {#if activeCommandTab === tab.id}
+                    <div id={'cmd-' + tab.id} class="scroll-mt-8 rounded-lg border border-tprimary-900/30 bg-background-800/40 px-2 py-3">
+                      <EditableSection filePath={COMMANDS_MD_PATH} sectionKey={'cmd.' + tab.id} rawContent={commandSections[tab.id] || ''} onsave={onCommandSave}>
+                        {#if commandHtml[tab.id]}
+                          <div class="marked text-[0.925rem]">{@html commandHtml[tab.id]}</div>
+                        {:else}
+                          <div class="text-tprimary-500 italic">Commands coming soon.</div>
+                        {/if}
+                      </EditableSection>
+                    </div>
+                  {/if}
+                {/each}
+              </div>
+            </div>
           </div>
         </section>
 

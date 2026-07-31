@@ -265,6 +265,42 @@ body {
   padding-left: 0.5rem;
 }
 
+.marked .command-row {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0.25rem 0.5rem;
+}
+
+.marked .command-row-even {
+  background: color-mix(in srgb, var(--color-background-700) 22%, transparent);
+  border-radius: 0.25rem;
+}
+
+.marked .command-row-odd {
+  background: transparent;
+}
+
+.marked .command-cmd {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.marked .command-cmd code {
+  font-size: 1em;
+  background: transparent;
+  padding: 0;
+}
+
+.marked .command-desc {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.marked .command-section-header {
+  font-size: 1rem;
+}
+
 .marked .marked-ol li {
   counter-increment: marked-ol-counter;
 }

@@ -238,7 +238,7 @@ Humans are mortal and carry no innate magic. Blood magic is entirely beyond thei
     <span class="font-cinzel text-xs uppercase tracking-wider text-tprimary-500 block mb-2">Benefits</span>
 - Immune to garlic, silver, and sunlight.
 - Passive +75 resistance to holy damage.
-- Can bottle their own blood once per day using [`.sov drawblood`](#cmd-general).
+- Can bottle their own blood once per day using [`.sov drawblood`](#cmd-mortality).
 - Can change which 2 magic schools they channel through sufficient RP.
 - Blood type starts between 30 and 39% and can be advanced through progression quests.
 - One of only two races (humans and vampires) capable of wielding necromancy/unholy magic.
