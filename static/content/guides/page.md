@@ -1693,9 +1693,9 @@ Example:
 
 <!-- /guide -->
 
-<!-- guide:ec-mod-guide-pt2 -->
-<!-- title: Ec Mod Guide Pt2 -->
-<!-- description: Guide description goes here. -->
+<!-- guide:ec-mod-guide -->
+<!-- title: Ec Mod Guide -->
+<!-- description: A complete reference guide for Event Coordinators using administrative commands during server events -->
 <!-- content -->
 
 # Event Coordinator Handbook
