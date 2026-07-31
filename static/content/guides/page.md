@@ -1695,9 +1695,152 @@ Example:
 
 <!-- guide:ec-mods-guide -->
 <!-- title: Ec Mods Guide -->
-<!-- description: Guide description goes here. -->
+<!-- description: EC and all your tools -->
 <!-- content -->
 
-Welcome to your guide! Replace this content with the actual guide information.
+# Event Coordinator Commands
+
+<details open>
+<summary>Overview</summary>
+
+<div class="marked-block-info">
+These commands are provided to Event Coordinators to help facilitate events, roleplay, and approved storylines.
+</div>
+
+Every command should be used responsibly and only for approved event purposes.
+
+When in doubt, ask an administrator before using a command you are unfamiliar with.
+
+</details>
+
+---
+
+## General Guidelines
+
+<details open>
+<summary>Before You Begin</summary>
+
+<div class="marked-block-warning">
+These commands provide powerful administrative capabilities. Improper use can negatively affect players or the server.
+</div>
+
+Before using any command:
+
+- Verify that it is appropriate for the event.
+- Double-check player names and IDs.
+- Clean up spawned NPCs and items when possible.
+- Ask an administrator if you are unsure whether something is safe.
+
+</details>
+
+## Spawning NPCs
+
+<details open>
+<summary>.spwn & .cspwn</summary>
+
+Use these commands to spawn NPCs for events.
+
+### .spwn NameOrID Quantity Level
+
+Creates one or more NPCs using their prefab name or ID.
+
+Example:
+
+.spwn CHAR_Legion_Assassin 1 99
+
+or
+
+.spwn -1076780215 1 99
+
+---
+
+### .cspwn NameOrID BloodType Quality Drinkable Duration Level
+
+Creates a customized NPC with specific blood, quality, duration, and level.
+
+Example:
+
+.cspwn CHAR_Legion_Assassin Mutant 69 true -1 420
+
+<div class="marked-block-info">
+Setting the duration to **-1** causes the NPC to remain until killed.
+
+Setting **Drinkable** to **false** prevents players from feeding on the NPC.
+</div>
+
+</details>
+
+## Buffs
+
+<details open>
+<summary>.buff</summary>
+
+Applies buffs or visual effects to players.
+
+### .buff BuffID PlayerName Duration Immortal
+
+<div class="marked-block-warning">
+Only use buffs that have been verified as safe.
+
+Certain buffs can crash or corrupt the server and require a rollback.
+</div>
+
+Useful notes:
+
+- Duration **-1** makes many buffs permanent.
+- Setting **Immortal** to **true** allows the buff to persist through death.
+- Visual effects often stack on different rendering layers.
+
+</details>
+
+## Player Boosts
+
+<details open>
+<summary>.boost</summary>
+
+Temporarily modifies player statistics.
+
+Available boosts include:
+
+- Health
+- Damage
+- Movement Speed
+- Attack Speed
+- No Cooldown
+- No Aggro
+- No Blood Drain
+- Invincible
+- Sun Immune
+- Shrouded
+
+<div class="marked-block-warning">
+Applying boosts overrides many normal gameplay systems, including blood bonuses, armor traits, weapon traits, and passive abilities.
+
+Removing boosts requires the player to re-equip their armor, passives, and blood.
+</div>
+
+Example:
+
+.boost health 100 Mahalia
+
+</details>
+
+## Helpful Resources
+
+<details open>
+<summary>Prefab References</summary>
+
+The following resources are useful when spawning NPCs, items, or abilities.
+
+- NPC & Ability Prefabs
+https://wiki.vrisingmods.com/prefabs
+
+- Item IDs
+https://wiki.vrisingmods.com/prefabs/Item.html
+
+- Ability Groups
+https://wiki.vrisingmods.com/prefabs/AB.html
+
+</details>
 
 <!-- /guide -->
