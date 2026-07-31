@@ -2227,4 +2227,791 @@ Subtle enhancements generally create better roleplay experiences than overwhelmi
 
 ---
 
+# Items & Teleportation
+
+<details open>
+<summary>Overview</summary>
+
+<div class="marked-block-info">
+Item spawning and teleportation are among the most frequently used Event Coordinator tools. They allow you to quickly prepare events, distribute approved items, and move yourself or players where they need to be.
+</div>
+
+These commands should always be used with moderation and only for approved roleplay or event purposes.
+
+</details>
+
+---
+
+# Spawning Items
+
+<details open>
+<summary>.give</summary>
+
+The **.give** command creates items directly in your inventory.
+
+Item spawning is primarily intended for:
+
+- Event props
+- Story-related rewards
+- Temporary building materials
+- Approved equipment for events
+
+Unused items should be discarded on **Admin Island** so they can safely despawn.
+
+### Syntax
+
+```text
+.give ItemID Amount
+```
+
+Example:
+
+```text
+.give Item_Ingredient_Coal 1000000
+```
+
+This gives you one million Coal.
+
+</details>
+
+---
+
+## Finding Item IDs
+
+<details open>
+<summary>Item Prefabs</summary>
+
+Every item has a unique prefab name.
+
+The complete list of item IDs can be found here:
+
+https://wiki.vrisingmods.com/prefabs/Item.html
+
+Using prefab names is generally easier than numeric IDs because they are more readable and easier to search.
+
+</details>
+
+---
+
+## Best Practices
+
+<details open>
+<summary>Responsible Item Usage</summary>
+
+<div class="marked-block-warning">
+The **.give** command comes with a high level of trust. Only create items that are necessary for approved events or staff responsibilities.
+</div>
+
+Good uses include:
+
+- Event-specific equipment.
+- Building materials for temporary event structures.
+- Quest or storyline rewards.
+- Decorative props.
+
+Avoid using this command to generate unnecessary resources or permanent player rewards unless they have been approved.
+
+<div class="marked-block-info">
+If you accidentally create excess items, dispose of them on Admin Island rather than leaving them in the world.
+</div>
+
+</details>
+
+---
+
+# Teleportation
+
+<details open>
+<summary>Overview</summary>
+
+Teleport commands allow you to quickly move yourself or other players around the world.
+
+These commands are useful for:
+
+- Event setup
+- Helping players who become stuck
+- Moving participants between scenes
+- Reaching remote locations quickly
+
+</details>
+
+---
+
+<details open>
+<summary>.sov teleport to</summary>
+
+Teleports you to a specific destination.
+
+This command supports several different targets.
+
+### Teleport to Coordinates
+
+```text
+.sov teleport to X Y Z
+```
+
+Example:
+
+```text
+.sov teleport to -2000 0 -2800
+```
+
+Teleports you to **Admin Island**.
+
+---
+
+### Teleport to a Player
+
+```text
+.sov teleport to PlayerName
+```
+
+Example:
+
+```text
+.sov teleport to Mahalia
+```
+
+Teleports you directly to Mahalia.
+
+---
+
+### Teleport to Your Map Marker
+
+```text
+.sov teleport to marker
+```
+
+Teleports you to your currently placed map marker.
+
+<div class="marked-block-info">
+Using map markers is often the fastest way to reach custom event locations without needing to remember exact coordinates.
+</div>
+
+</details>
+
+---
+
+<details open>
+<summary>.sov teleport here</summary>
+
+Moves another player to your current location.
+
+### Syntax
+
+```text
+.sov teleport here PlayerName
+```
+
+Example:
+
+```text
+.sov teleport here Mahalia
+```
+
+Teleports Mahalia directly to you.
+
+This command is useful when:
+
+- Gathering event participants.
+- Recovering players who became separated.
+- Moving players into staged encounters.
+- Correcting accidental positioning issues.
+
+<div class="marked-block-warning">
+Always communicate before teleporting another player whenever possible. Unexpected teleports can be confusing or disruptive during roleplay.
+</div>
+
+</details>
+
+---
+
+## Best Practices
+
+<details open>
+<summary>Using Teleport Commands</summary>
+
+Teleportation is a powerful administrative tool, but it should be used thoughtfully.
+
+Recommended practices:
+
+- Teleport yourself instead of players whenever practical.
+- Confirm player names before executing commands.
+- Avoid teleporting players into active combat unless required for an event.
+- Use coordinates for permanent locations such as Admin Island.
+- Use map markers when creating temporary event areas.
+
+<div class="marked-block-info">
+Teleportation should support immersion, not interrupt it. Whenever possible, use these commands behind the scenes to keep events flowing naturally.
+</div>
+
+</details>
+
+---
+
+# Clan Commands & Spectating
+
+<details open>
+<summary>Overview</summary>
+
+<div class="marked-block-info">
+Clan commands allow Event Coordinators to manage player membership within sigils, while Spectate mode provides a safe way to observe events without interfering with gameplay.
+</div>
+
+These commands should primarily be used to support approved events, roleplay, and staff responsibilities.
+
+</details>
+
+---
+
+# Clan Commands
+
+<details open>
+<summary>.clan</summary>
+
+The **.clan** command allows you to add players to a clan, remove them, or change their rank within an existing sigil.
+
+This command should generally be reserved for:
+
+- Approved Mega Sigils
+- Event-related clan management
+- Returning players to their original clan when necessary
+
+<div class="marked-block-warning">
+Whenever possible, the **Keys** system should be used instead of manually moving players between clans.
+
+The Keys system avoids several quirks of the clan command, including clan tags occasionally failing to display correctly.
+</div>
+
+</details>
+
+---
+
+<details open>
+<summary>.clan add</summary>
+
+Adds a player to the specified clan.
+
+### Syntax
+
+```text
+.clan add PlayerName "Clan Name"
+```
+
+Example:
+
+```text
+.clan add Mahalia "Cult of Nyssaraal"
+```
+
+Mahalia will immediately join the specified clan.
+
+<div class="marked-block-info">
+If a clan name contains spaces, it must be enclosed in quotation marks.
+</div>
+
+</details>
+
+---
+
+<details open>
+<summary>.clan kick</summary>
+
+Removes a player from their current clan.
+
+### Syntax
+
+```text
+.clan kick PlayerName
+```
+
+Example:
+
+```text
+.clan kick Mahalia
+```
+
+Use this command when a player needs to temporarily leave a clan for an event or administrative reason.
+
+</details>
+
+---
+
+<details open>
+<summary>.clan changerole</summary>
+
+Changes a player's role within their current clan.
+
+### Syntax
+
+```text
+.clan changerole PlayerName Role
+```
+
+Example:
+
+```text
+.clan changerole Mahalia 2
+```
+
+Promotes Mahalia to **Leader**.
+
+### Available Roles
+
+| Number | Role |
+|---------|------|
+| 2 | Leader |
+| 1 | Officer |
+| 0 | Member |
+
+<div class="marked-block-warning">
+Changing leadership can affect a clan's management. Verify that the correct player is being promoted before executing this command.
+</div>
+
+</details>
+
+---
+
+## Best Practices
+
+<details open>
+<summary>Managing Clans</summary>
+
+When using clan commands:
+
+- Prefer the Keys system whenever possible.
+- Double-check player names before making changes.
+- Confirm the correct clan before adding members.
+- Restore players to their original clan after temporary events if necessary.
+- Avoid changing leadership unless it is required for the storyline or event.
+
+<div class="marked-block-info">
+Clan commands should solve administrative problems—not replace normal player-managed organizations.
+</div>
+
+</details>
+
+---
+
+# Spectating
+
+<details open>
+<summary>.spectate</summary>
+
+Spectate mode allows you to observe events without participating in them.
+
+While spectating, you become:
+
+- Invisible
+- Immaterial
+
+This makes Spectate ideal for:
+
+- Monitoring roleplay
+- Recording events
+- Observing encounters
+- Supervising players without disrupting immersion
+
+### Syntax
+
+```text
+.spectate
+```
+
+Entering the command by itself enables Spectate mode.
+
+Running the command again returns you to normal.
+
+</details>
+
+---
+
+<details open>
+<summary>.spectate PlayerName</summary>
+
+Allows you to immediately begin spectating a specific player.
+
+### Syntax
+
+```text
+.spectate PlayerName
+```
+
+Example:
+
+```text
+.spectate Mahalia
+```
+
+You will be moved to Mahalia and begin spectating them.
+
+Running the command again exits Spectate mode and returns you to your original location.
+
+<div class="marked-block-info">
+This is particularly useful when monitoring an ongoing event without needing to manually locate participants.
+</div>
+
+</details>
+
+---
+
+## Things to Know
+
+<details open>
+<summary>Limitations</summary>
+
+While spectating:
+
+- You cannot attack.
+- You cannot cast abilities.
+- You cannot actively participate in combat.
+- You are intended to be an observer only.
+
+<div class="marked-block-warning">
+Spectate mode is designed for observation—not intervention. If you need to interact with an event, exit Spectate mode first.
+</div>
+
+</details>
+
+---
+
+## Best Practices
+
+<details open>
+<summary>Using Spectate Effectively</summary>
+
+A few recommendations:
+
+- Use Spectate when monitoring player-run events.
+- Record scenes without distracting participants.
+- Observe combat encounters before stepping in.
+- Exit Spectate before performing administrative actions that require interaction.
+- Remember that players should rarely know an EC is watching unless the situation requires it.
+
+<div class="marked-block-info">
+Good Event Coordinators make events feel seamless. Spectate mode allows you to supervise behind the scenes while preserving player immersion.
+</div>
+
+</details>
+
+---
+
+# Reviving, Player Swapping & Custom Abilities
+
+<details open>
+<summary>Overview</summary>
+
+<div class="marked-block-info">
+These commands are used less frequently than other EC tools but are invaluable during events. They allow you to revive players, swap characters between bodies, and temporarily grant custom abilities for unique encounters or storylines.
+</div>
+
+Because these commands directly affect player characters, they should always be used carefully and only for approved events.
+
+</details>
+
+---
+
+# Reviving Players
+
+<details open>
+<summary>.revive</summary>
+
+The **.revive** command revives a dead player by their character name.
+
+This is the preferred method whenever you already know who needs to be revived.
+
+### Syntax
+
+```text
+.revive PlayerName
+```
+
+Example:
+
+```text
+.revive Mahalia
+```
+
+Mahalia will immediately be revived.
+
+</details>
+
+---
+
+<details open>
+<summary>.revivetarget</summary>
+
+Instead of entering a player's name, **.revivetarget** revives whichever player is currently beneath your mouse cursor.
+
+### Syntax
+
+```text
+.revivetarget
+```
+
+This command is useful when multiple players are nearby and selecting the correct target is easier than typing their name.
+
+<div class="marked-block-info">
+Hover your cursor directly over the player before executing the command.
+</div>
+
+</details>
+
+---
+
+## Troubleshooting
+
+<details open>
+<summary>Player Won't Revive?</summary>
+
+Occasionally **.revivetarget** may report that a player is not dead even though they clearly are.
+
+If this happens:
+
+1. Note the player's name shown in the message.
+2. Use the standard revive command instead.
+
+Example:
+
+```text
+.revive Mahalia
+```
+
+This usually resolves the issue immediately.
+
+</details>
+
+---
+
+# Swapping Players
+
+<details open>
+<summary>.swapplayer</summary>
+
+The **.swapplayer** command exchanges two players between their current bodies.
+
+This is commonly used for:
+
+- Possession storylines
+- Identity swaps
+- NPC body transfers
+- Temporary character replacements
+
+### Syntax
+
+```text
+.swapplayer PlayerOne PlayerTwo
+```
+
+Example:
+
+```text
+.swapplayer Mahalia Peejamski
+```
+
+Mahalia and Peejamski will immediately exchange bodies.
+
+</details>
+
+---
+
+## Best Practices
+
+<details open>
+<summary>Managing Bodies</summary>
+
+Many events make use of spare bodies.
+
+Whenever a body is no longer being used, rename it to:
+
+```text
+Freebody#
+```
+
+This makes it easy for other Event Coordinators to locate available bodies in the future.
+
+<div class="marked-block-info">
+Keeping spare bodies clearly labeled saves time and prevents accidental reuse during future events.
+</div>
+
+</details>
+
+---
+
+# Custom Abilities
+
+<details open>
+<summary>.abilities</summary>
+
+The **.abilities** command temporarily assigns abilities to players.
+
+Abilities may be applied either:
+
+- To an entire weapon category.
+- To one specific weapon.
+
+This system is commonly used to create unique NPCs, bosses, or special event mechanics.
+
+### Standard Syntax
+
+```text
+.abilities set Slot AbilityGroup PlayerName
+```
+
+### Item-Specific Syntax
+
+```text
+.abilities item set Slot AbilityGroup PlayerName
+```
+
+If no player name is specified, the command applies to yourself.
+
+</details>
+
+---
+
+## Ability Slots
+
+<details open>
+<summary>Slot Numbers</summary>
+
+Abilities are assigned using slot numbers.
+
+| Slot | Ability |
+|------|----------|
+| 0 | Primary Attack (Left Click) |
+| 1 | Q Ability |
+| 2 | E Ability |
+| 3 | R Ability |
+| 4 | C Ability |
+| 5 | Space / Dash |
+| 6 | Ultimate (T) |
+
+Choosing the correct slot ensures the ability behaves as expected.
+
+</details>
+
+---
+
+## Setting Abilities
+
+<details open>
+<summary>Applying Abilities</summary>
+
+Example:
+
+```text
+.abilities set 1 -1298764600 Mahalia
+```
+
+This assigns Cassius' **Corrupted Skull** ability to Mahalia's **Q** slot for the weapon category she is currently using.
+
+To assign the ability only to the weapon she is currently holding:
+
+```text
+.ab ias 1 -1298764600 Mahalia
+```
+
+The assigned ability will remain on that specific weapon.
+
+<div class="marked-block-info">
+Only Ability Groups (Prefab Groups) can be assigned. Individual abilities cannot be used directly.
+</div>
+
+</details>
+
+---
+
+## Clearing Abilities
+
+<details open>
+<summary>Removing Custom Abilities</summary>
+
+When an event is over, remember to remove temporary abilities.
+
+Clear a single slot:
+
+```text
+.ab ac 6 Mahalia
+```
+
+Remove every custom ability for your current weapon category:
+
+```text
+.ab aca
+```
+
+Item-specific shortcuts are also available:
+
+| Command | Description |
+|---------|-------------|
+| .ab iac | Clears one ability from the current weapon. |
+| .ab iaca | Clears every ability from the current weapon. |
+
+<div class="marked-block-warning">
+Unless an NPC or custom weapon is intended to be permanent, temporary abilities should always be removed after the event concludes.
+</div>
+
+</details>
+
+---
+
+## Important Notes
+
+<details open>
+<summary>Things to Know</summary>
+
+Before assigning custom abilities:
+
+- Verify the ability is safe to use.
+- Test complicated ability combinations before the event.
+- Remember whether you're assigning abilities to a weapon category or a specific weapon.
+- Remove temporary abilities when finished.
+
+Ability Prefabs can be found here:
+
+https://wiki.vrisingmods.com/prefabs/AB.html
+
+<div class="marked-block-warning">
+Some abilities were never intended for player use. If you are unsure whether an ability is safe, ask an Administrator before assigning it.
+</div>
+
+</details>
+
+---
+
+## Quick Reference
+
+<details open>
+<summary>Item & Teleport Commands</summary>
+
+| Command | Description |
+|---------|-------------|
+| .spwn NameOrID Quantity Level | Spawns NPCs using default settings. |
+| .cspwn NameOrID BloodType Quality Drinkable Duration Level | Spawns a fully customized NPC. |
+| .buff BuffID PlayerName Duration Immortal | Applies a buff or visual effect to a player. |
+| .boost Type Amount PlayerName | Modifies a player's statistics or gameplay properties. |
+| .give ItemID Amount | Creates items in your inventory. |
+| .sov teleport to X Y Z | Teleports you to specific coordinates. |
+| .sov teleport to PlayerName | Teleports you to another player. |
+| .sov teleport to marker | Teleports you to your current map marker. |
+| .sov teleport here PlayerName | Teleports another player to your location. |
+| .clan add PlayerName "Clan Name" | Adds a player to a clan. |
+| .clan kick PlayerName | Removes a player from their clan. |
+| .clan changerole PlayerName Role | Changes a player's clan rank. |
+| .spectate | Enter or leave Spectate mode. |
+| .spectate PlayerName | Spectate a specific player. |
+| .revive PlayerName | Revives a player by name. |
+| .revivetarget | Revives the player under your cursor. |
+| .swapplayer PlayerOne PlayerTwo | Swaps two players between bodies. |
+| .abilities set Slot AbilityGroup Player | Assigns an ability to a weapon category. |
+| .abilities item set Slot AbilityGroup Player | Assigns an ability to one specific weapon. |
+| .ab ac Slot | Clears a single assigned ability. |
+| .ab aca | Clears every assigned ability. |
+| .ab iac | Clears one item-specific ability. |
+| .ab iaca | Clears all item-specific abilities. |
+
+
+</details>
+
 <!-- /guide -->
