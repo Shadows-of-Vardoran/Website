@@ -1746,7 +1746,9 @@ Creates one or more NPCs using their prefab name or ID.
 
 Example:
 
+```text
 .spwn CHAR_Legion_Assassin 1 99
+```
 
 or
 
