@@ -3015,3 +3015,12 @@ Some abilities were never intended for player use. If you are unsure whether an 
 </details>
 
 <!-- /guide -->
+
+<!-- guide:ec-mod-guide-pt2 -->
+<!-- title: Ec Mod Guide Pt2 -->
+<!-- description: Guide description goes here. -->
+<!-- content -->
+
+Welcome to your guide! Replace this content with the actual guide information.
+
+<!-- /guide -->
