@@ -5441,7 +5441,7 @@ Good Event Volunteers help events run smoothly by following a few simple princip
 
 ### Stay in Character
 
-Once the event begins, remain in your assigned role unless the Event Coordinator instructs otherwise.
+Once the event begins, remain in your assigned role unless the asked otherwise.
 
 ---
 
@@ -5455,13 +5455,13 @@ Allow players to make decisions, react naturally, and influence the outcome when
 
 ### Communicate
 
-If something unexpected happens, let the Event Coordinator know rather than trying to solve every problem yourself.
+If something unexpected happens, let us know rather than trying to solve every problem yourself.
 
 ---
 
 ### Keep Immersion First
 
-Administrative commands should be used quietly and only when they improve the player experience.
+Mod commands should be used quietly and only when they improve the player experience.
 
 <div class="marked-block-info">
 Players should remember the characters you portrayed—not the commands you used behind the scenes.
@@ -5476,7 +5476,7 @@ Players should remember the characters you portrayed—not the commands you used
 <details open>
 <summary>What Makes a Great EV?</summary>
 
-The best Event Volunteers are reliable, adaptable, and easy to work with.
+The best Event Volunteers are reliable and versatile.
 
 They:
 
