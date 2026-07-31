@@ -1695,7 +1695,7 @@ Example:
 
 <!-- guide:ec-mods-guide -->
 <!-- title: Ec Mods Guide -->
-<!-- description: EC and all your tools -->
+<!-- description: A complete reference guide for Event Coordinators using administrative commands during server events. -->
 <!-- content -->
 
 # Event Coordinator Commands
@@ -1704,12 +1704,12 @@ Example:
 <summary>Overview</summary>
 
 <div class="marked-block-info">
-These commands are provided to Event Coordinators to help facilitate events, roleplay, and approved storylines.
+Event Coordinator (EC) commands exist to help facilitate immersive roleplay, server events, and story-driven encounters. These tools allow you to create NPCs, teleport players, apply effects, and perform other administrative tasks that would otherwise be impossible through normal gameplay.
 </div>
 
-Every command should be used responsibly and only for approved event purposes.
+With great power comes great responsibility. Every command should have a clear roleplay or event purpose, and should only be used within the scope of approved events or staff responsibilities.
 
-When in doubt, ask an administrator before using a command you are unfamiliar with.
+If you are ever unsure whether a command or effect is appropriate, ask an Administrator before using it.
 
 </details>
 
@@ -1721,127 +1721,222 @@ When in doubt, ask an administrator before using a command you are unfamiliar wi
 <summary>Before You Begin</summary>
 
 <div class="marked-block-warning">
-These commands provide powerful administrative capabilities. Improper use can negatively affect players or the server.
+Many EC commands directly modify the game world or player characters. Incorrect usage can negatively impact an event or, in some cases, the server itself.
 </div>
 
 Before using any command:
 
-- Verify that it is appropriate for the event.
-- Double-check player names and IDs.
-- Clean up spawned NPCs and items when possible.
-- Ask an administrator if you are unsure whether something is safe.
-
-</details>
-
-## Spawning NPCs
-
-<details open>
-<summary>.spwn & .cspwn</summary>
-
-Use these commands to spawn NPCs for events.
-
-### .spwn NameOrID Quantity Level
-
-Creates one or more NPCs using their prefab name or ID.
-
-Example:
-
-```text
-.spwn CHAR_Legion_Assassin 1 99
-```
-
-or
-
-.spwn -1076780215 1 99
-
----
-
-### .cspwn NameOrID BloodType Quality Drinkable Duration Level
-
-Creates a customized NPC with specific blood, quality, duration, and level.
-
-Example:
-
-.cspwn CHAR_Legion_Assassin Mutant 69 true -1 420
+- Verify that the command is appropriate for the event.
+- Double-check player names, IDs, and command parameters.
+- Only spawn NPCs or items that are needed.
+- Remove temporary content when the event has concluded whenever possible.
+- Never experiment with unknown commands or buffs on the live server.
+- If something seems unsafe, ask an Administrator first.
 
 <div class="marked-block-info">
-Setting the duration to **-1** causes the NPC to remain until killed.
-
-Setting **Drinkable** to **false** prevents players from feeding on the NPC.
+Anything spawned for an event should have a purpose. Good event management keeps the world clean and prevents unnecessary clutter.
 </div>
 
 </details>
 
-## Buffs
-
-<details open>
-<summary>.buff</summary>
-
-Applies buffs or visual effects to players.
-
-### .buff BuffID PlayerName Duration Immortal
-
-<div class="marked-block-warning">
-Only use buffs that have been verified as safe.
-
-Certain buffs can crash or corrupt the server and require a rollback.
-</div>
-
-Useful notes:
-
-- Duration **-1** makes many buffs permanent.
-- Setting **Immortal** to **true** allows the buff to persist through death.
-- Visual effects often stack on different rendering layers.
-
-</details>
-
-## Player Boosts
-
-<details open>
-<summary>.boost</summary>
-
-Temporarily modifies player statistics.
-
-Available boosts include:
-
-- Health
-- Damage
-- Movement Speed
-- Attack Speed
-- No Cooldown
-- No Aggro
-- No Blood Drain
-- Invincible
-- Sun Immune
-- Shrouded
-
-<div class="marked-block-warning">
-Applying boosts overrides many normal gameplay systems, including blood bonuses, armor traits, weapon traits, and passive abilities.
-
-Removing boosts requires the player to re-equip their armor, passives, and blood.
-</div>
-
-Example:
-
-.boost health 100 Mahalia
-
-</details>
+---
 
 ## Helpful Resources
 
 <details open>
 <summary>Prefab References</summary>
 
-The following resources are useful when spawning NPCs, items, or abilities.
+Several EC commands require prefab names or IDs.
 
-- NPC & Ability Prefabs
+Useful reference pages:
+
+### Prefab Browser
+
 https://wiki.vrisingmods.com/prefabs
 
-- Item IDs
+Use this when looking for NPCs, abilities, buffs, or other prefab names.
+
+---
+
+### Item IDs
+
 https://wiki.vrisingmods.com/prefabs/Item.html
 
-- Ability Groups
+Used primarily with the **.give** command.
+
+---
+
+### Ability Prefabs
+
 https://wiki.vrisingmods.com/prefabs/AB.html
+
+Used with **.abilities** when assigning custom abilities.
+
+</details>
+
+---
+
+# Spawning NPCs
+
+<details open>
+<summary>.spwn</summary>
+
+The **.spwn** command creates one or more NPCs using either their prefab name or numeric ID.
+
+This is the most common spawning command used during events and should be your default choice whenever a customized NPC is not required.
+
+### Syntax
+
+```text
+.spwn NameOrID Quantity Level
+```
+
+Example using a prefab name:
+
+```text
+.spwn CHAR_Legion_Assassin 1 99
+```
+
+Example using a prefab ID:
+
+```text
+.spwn -1076780215 1 99
+```
+
+Both examples spawn a Level 99 **Noctum Exsanguinator** with its default blood type and a random blood quality.
+
+<div class="marked-block-info">
+Use prefab names whenever possible. They are much easier to read and make future edits significantly simpler.
+</div>
+
+</details>
+
+---
+
+<details open>
+<summary>.cspwn</summary>
+
+The **.cspwn** command allows you to fully customize an NPC when it is created.
+
+Unlike **.spwn**, you may define:
+
+- Blood Type
+- Blood Quality
+- Whether the NPC can be fed upon
+- Lifetime
+- Level
+
+### Syntax
+
+```text
+.cspwn NameOrID BloodType Quality Drinkable Duration Level
+```
+
+Example:
+
+```text
+.cspwn CHAR_Legion_Assassin Mutant 69 true -1 420
+```
+
+This creates a:
+
+- Level 420 Noctum Exsanguinator
+- 69% Mutant Blood
+- Feedable by players
+- Permanent until killed
+
+### Parameters
+
+#### Blood Type
+
+Determines which blood type the NPC possesses.
+
+Use whichever blood type best fits your event or encounter.
+
+---
+
+#### Quality
+
+Determines the NPC's blood quality percentage.
+
+Example:
+
+```text
+69
+```
+
+creates a creature with **69% blood quality**.
+
+---
+
+#### Drinkable
+
+Determines whether players may feed on the NPC.
+
+```text
+true
+```
+
+Players can feed.
+
+```text
+false
+```
+
+Players cannot feed.
+
+---
+
+#### Duration
+
+Controls how long the NPC remains alive.
+
+```text
+60
+```
+
+NPC despawns after 60 seconds.
+
+```text
+-1
+```
+
+NPC remains until killed.
+
+---
+
+#### Level
+
+Determines the NPC's combat level.
+
+There is no required level—choose one appropriate for your event.
+
+<div class="marked-block-warning">
+Permanent NPCs (Duration -1) should only be used when necessary. Remember to remove them once they are no longer needed.
+</div>
+
+</details>
+
+---
+
+## Best Practices
+
+<details open>
+<summary>Creating Better Events</summary>
+
+Good NPC encounters are about more than simply spawning enemies.
+
+Consider the following:
+
+- Spawn NPCs slightly before players arrive to avoid obvious pop-in.
+- Mix different enemy types instead of spawning large numbers of the same creature.
+- Adjust levels to create the intended challenge rather than relying solely on quantity.
+- Use customized blood only when it serves a narrative or gameplay purpose.
+- Remove leftover NPCs after your event has finished.
+
+<div class="marked-block-info">
+A memorable encounter is usually created through atmosphere, storytelling, and pacing—not simply spawning stronger enemies.
+</div>
 
 </details>
 
