@@ -6060,7 +6060,7 @@ Helping with the final few minutes of an event is just as valuable as helping du
 | Repair Gear | `.gear repair PlayerName` | Repair a player's equipment. |
 | Break Gear | `.gear break PlayerName` | Break a player's equipment. |
 | Stay Down | `.staydown PlayerName` | Prevent a downed player from recovering. |
-| Teleport | `.sov teleport to X Y Z` | Teleport to coordinates. |
+| Teleport | `.sov teleport to playername` | Teleport to an existing player. |
 | Teleport to Marker | `.sov teleport to marker` | Teleport to your map marker. |
 | Add Tag | `.sov tag add PlayerName Tag` | Add a server tag to a player. |
 
