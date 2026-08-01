@@ -60,6 +60,23 @@
   let commandSections: Record<string, string> = $state({});
   let commandHtml: Record<string, string> = $state({});
   let activeCommandTab = $state('onboarding');
+  let commandSearch = $state('');
+  let commandContentEl: HTMLDivElement | undefined = $state();
+  let commandMatchingTabs = $derived.by(() => {
+    if (!commandSearch.trim()) return new Set<string>();
+    const tokens = commandSearch
+      .toLowerCase()
+      .split(/\s+/)
+      .filter((t) => t.length > 0);
+    const matches = new Set<string>();
+    for (const tab of COMMAND_TABS) {
+      const haystack = ((commandSections[tab.id] || '') + ' ' + tab.label).toLowerCase();
+      if (tokens.every((t) => haystack.includes(t))) {
+        matches.add(tab.id);
+      }
+    }
+    return matches;
+  });
   let worldParticularsHtml = $state('');
   let faqHtml = $state('');
 
@@ -696,10 +713,11 @@
       }
     }
     requestAnimationFrame(() => {
-      const el = document.getElementById(hash);
+      const isCmd = hash.startsWith('cmd-');
+      const el = document.getElementById(isCmd ? 'commands' : hash);
       if (el && scrollElement) {
         scrollElement.scrollTop = el.offsetTop - scrollElement.offsetTop;
-        activeSection = hash.startsWith('cmd-') ? 'commands' : hash;
+        activeSection = isCmd ? 'commands' : hash;
       }
     });
   }
@@ -721,6 +739,76 @@
     const onHashChange = () => jumpToHash();
     window.addEventListener('hashchange', onHashChange);
     return () => window.removeEventListener('hashchange', onHashChange);
+  });
+
+  function applyCommandHighlight() {
+    const el = commandContentEl;
+    if (!el) return;
+
+    el.querySelectorAll('mark.search-highlight').forEach((mark) => {
+      const parent = mark.parentNode;
+      if (!parent) return;
+      while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
+      parent.removeChild(mark);
+    });
+
+    const query = commandSearch.trim();
+    if (!query) return;
+    const tokens = query.toLowerCase().split(/\s+/).filter(Boolean);
+    if (tokens.length === 0) return;
+
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const textNodes: Text[] = [];
+    while (walker.nextNode()) textNodes.push(walker.currentNode as Text);
+    for (const node of textNodes) {
+      wrapCommandMatches(node, tokens);
+    }
+  }
+
+  function wrapCommandMatches(node: Text, tokens: string[]) {
+    const text = node.textContent || '';
+    if (!text) return;
+    const lower = text.toLowerCase();
+    const ranges: { start: number; end: number }[] = [];
+    for (const token of tokens) {
+      let idx = lower.indexOf(token);
+      while (idx !== -1) {
+        ranges.push({ start: idx, end: idx + token.length });
+        idx = lower.indexOf(token, idx + token.length);
+      }
+    }
+    if (ranges.length === 0) return;
+
+    ranges.sort((a, b) => a.start - b.start);
+    const merged: { start: number; end: number }[] = [];
+    for (const r of ranges) {
+      const last = merged[merged.length - 1];
+      if (last && r.start <= last.end) {
+        last.end = Math.max(last.end, r.end);
+      } else {
+        merged.push({ start: r.start, end: r.end });
+      }
+    }
+
+    const parent = node.parentNode as HTMLElement;
+    if (!parent || parent.closest('mark.search-highlight')) return;
+
+    const frag = document.createDocumentFragment();
+    let cursor = 0;
+    for (const r of merged) {
+      if (r.start > cursor) frag.appendChild(document.createTextNode(text.slice(cursor, r.start)));
+      const mark = document.createElement('mark');
+      mark.className = 'search-highlight';
+      mark.textContent = text.slice(r.start, r.end);
+      frag.appendChild(mark);
+      cursor = r.end;
+    }
+    if (cursor < text.length) frag.appendChild(document.createTextNode(text.slice(cursor)));
+    parent.replaceChild(frag, node);
+  }
+
+  $effect(() => {
+    if (!loading) applyCommandHighlight();
   });
 
   onMount(() => {
@@ -1201,17 +1289,45 @@
         <!-- Section 11: Commands -->
         <section id="commands" class="mb-12 scroll-mt-8">
           <div class="fade-background-up px-2 py-4 rounded-lg">
-            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Commands</h2>
+            <div class="flex items-center justify-between gap-3 mb-3">
+              <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary">Commands</h2>
+              <div class="relative max-w-60 w-full">
+                <i class="mdi mdi-magnify absolute left-2.5 top-1/2 -translate-y-1/2 text-tprimary-600 pointer-events-none text-lg"></i>
+                <input
+                  type="text"
+                  bind:value={commandSearch}
+                  placeholder="Search commands"
+                  class="w-full pl-9 pr-8 py-1.5 rounded bg-background-800/70 border border-tprimary-900/40 text-sm text-tprimary placeholder:text-tprimary-800 focus:outline-none focus:border-tprimary-600 transition-colors"
+                />
+                {#if commandSearch}
+                  <button
+                    type="button"
+                    aria-label="Clear search"
+                    onclick={() => (commandSearch = '')}
+                    class="absolute right-2 top-1/2 -translate-y-1/2 text-tprimary-700 hover:text-tprimary cursor-pointer"
+                  >
+                    <i class="mdi mdi-close text-base"></i>
+                  </button>
+                {/if}
+              </div>
+            </div>
 
             <div class="grid grid-cols-1 md:grid-cols-[150px_1fr] gap-3 items-start">
               <div class="flex md:flex-col gap-0.5 overflow-x-auto scrollbar-hidden md:overflow-visible pb-2 md:pb-0 md:border-r md:border-tprimary-900/30 md:pr-1.5">
                 {#each COMMAND_TABS as tab}
                   <button
-                    onclick={() => (activeCommandTab = tab.id)}
+                    onclick={() => {
+                      activeCommandTab = tab.id;
+                      if (browser) window.location.hash = 'cmd-' + tab.id;
+                    }}
                     class="flex items-center gap-2 w-full px-2.5 py-1.5 rounded text-left whitespace-nowrap text-sm font-cinzel transition-colors cursor-pointer border-l-2 {activeCommandTab ===
                     tab.id
                       ? 'bg-background-700/60 text-tprimary font-bold border-tprimary-400'
-                      : 'text-tprimary-500 hover:bg-background-800/40 hover:text-tprimary-100 border-transparent'}"
+                      : 'text-tprimary-500 hover:bg-background-800/40 hover:text-tprimary-100 border-transparent'} {commandSearch.trim()
+                      ? commandMatchingTabs.has(tab.id)
+                        ? 'bg-orange-900/60! text-orange-200! font-semibold'
+                        : 'opacity-30 hover:opacity-60'
+                      : ''}"
                   >
                     {tab.label}
                   </button>
@@ -1224,7 +1340,7 @@
                     <div id={'cmd-' + tab.id} class="scroll-mt-8 rounded-lg border border-tprimary-900/30 bg-background-800/40 px-2 py-3">
                       <EditableSection filePath={COMMANDS_MD_PATH} sectionKey={'cmd.' + tab.id} rawContent={commandSections[tab.id] || ''} onsave={onCommandSave}>
                         {#if commandHtml[tab.id]}
-                          <div class="marked text-[0.925rem]">{@html commandHtml[tab.id]}</div>
+                          <div bind:this={commandContentEl} class="marked text-[0.925rem]">{@html commandHtml[tab.id]}</div>
                         {:else}
                           <div class="text-tprimary-500 italic">Commands coming soon.</div>
                         {/if}
@@ -1365,5 +1481,12 @@
   .tab-btn:hover {
     color: var(--tab-accent);
     background-color: color-mix(in srgb, var(--color-background-800) 50%, transparent);
+  }
+
+  :global(.search-highlight) {
+    background-color: color-mix(in srgb, var(--color-green-700) 35%, transparent);
+    color: inherit;
+    border-radius: 0.15rem;
+    padding: 0 0.1rem;
   }
 </style>
