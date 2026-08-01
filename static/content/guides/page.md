@@ -4069,7 +4069,7 @@ If players finish an event talking about the characters they met, the choices th
 
 <!-- guide:ev-guide-onboarding -->
 <!-- title: Ev Guide Onboarding -->
-<!-- description: What does it mean tobe an EV? -->
+<!-- description: What does it mean to be an EV? -->
 <!-- content -->
 
 # Event Volunteer Handbook
