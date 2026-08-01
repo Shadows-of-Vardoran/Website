@@ -741,10 +741,7 @@
     return () => window.removeEventListener('hashchange', onHashChange);
   });
 
-  function applyCommandHighlight() {
-    const el = commandContentEl;
-    if (!el) return;
-
+  function applyCommandHighlight(el: HTMLDivElement, query: string) {
     el.querySelectorAll('mark.search-highlight').forEach((mark) => {
       const parent = mark.parentNode;
       if (!parent) return;
@@ -752,9 +749,11 @@
       parent.removeChild(mark);
     });
 
-    const query = commandSearch.trim();
-    if (!query) return;
-    const tokens = query.toLowerCase().split(/\s+/).filter(Boolean);
+    el.normalize();
+
+    const trimmed = query.trim();
+    if (!trimmed) return;
+    const tokens = trimmed.toLowerCase().split(/\s+/).filter(Boolean);
     if (tokens.length === 0) return;
 
     const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
@@ -808,7 +807,11 @@
   }
 
   $effect(() => {
-    if (!loading) applyCommandHighlight();
+    if (loading) return;
+    const el = commandContentEl;
+    const query = commandSearch;
+    if (!el) return;
+    applyCommandHighlight(el, query);
   });
 
   onMount(() => {
@@ -1318,7 +1321,7 @@
                   <button
                     onclick={() => {
                       activeCommandTab = tab.id;
-                      if (browser) window.location.hash = 'cmd-' + tab.id;
+                      if (browser) history.replaceState(null, '', '#cmd-' + tab.id);
                     }}
                     class="flex items-center gap-2 w-full px-2.5 py-1.5 rounded text-left whitespace-nowrap text-sm font-cinzel transition-colors cursor-pointer border-l-2 {activeCommandTab ===
                     tab.id
@@ -1484,7 +1487,7 @@
   }
 
   :global(.search-highlight) {
-    background-color: color-mix(in srgb, var(--color-green-700) 35%, transparent);
+    background-color: color-mix(in srgb, var(--color-teal-700) 35%, transparent);
     color: inherit;
     border-radius: 0.15rem;
     padding: 0 0.1rem;
