@@ -250,11 +250,11 @@ Humans are mortal and carry no innate magic. Blood magic is entirely beyond thei
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Humans can survive 3 critical injuries.</p>
+    <p>Humans have 3 lives, aka 3 critical injuries.</p>
     <ul>
       <li>Medical RP must be received within 3 IRL days of a critical injury to survive it.</li>
       <li>Must be treated by a doctor specialist using <a href="#cmd-doctor"><code>.sov treat &lt;player&gt;</code></a> or <a href="#cmd-doctor"><code>.sov revive</code></a>.</li>
-      <li>Upon death (third critical injury or untreated injury), the player may choose to kill the character or turn into a vampire.</li>
+      <li>When human recieve their third critical injury or a critical injury goes untreated for longer than the 3 IRL day window, they die. Upon death the player may take the next 3 IRL days to choose to kill the character or turn into a vampire.</li>
       <li>Check your injury status at any time with <a href="#cmd-mortality"><code>.sov mortality status</code></a>.</li>
     </ul>
   </div>
