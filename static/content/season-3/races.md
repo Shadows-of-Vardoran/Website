@@ -231,7 +231,6 @@ Humans are mortal and carry no innate magic. Blood magic is entirely beyond thei
 - Blood magic is not available. Cannot use Dominate or Bloodmend.
 - Cannot shapeshift unless the druidic magic specialty is taken.
 - Limited to 2 magical schools channeled at a time.
-- Vampiric Steed is locked until a quest is completed to unlock it.
 - Expected natural skin, hair, and eye color. Brown eyes use the orange eye color option.
   </div>
   <div class="p-4 rounded bg-background-800/60 border border-tprimary-900/30">
