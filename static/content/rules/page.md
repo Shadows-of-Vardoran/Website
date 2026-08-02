@@ -145,6 +145,8 @@ For commonly used in-character terms and their meanings, see the [Glossary](http
 - You may be in the "In Game" Discord voice chat while in game. Do not discuss current plots your character is involved with in this channel. You may discuss plot events that are no longer relevant.
 - If you play music in-game or via a voice channel for in-character listening, such as at an event, the music must fit the time period, environment, and atmosphere. Limit music in-game to events.
 - We have a dice roll bot in `#dice` for RP that involves skill checks. You may also use the in-game dice rolling command, which forwards results to `#dice`. You may ask other players for a dice roll using a quick out-of-character check-in or by pinging them on Discord. Check `#mods-guide` for command info.
+- <span class="text-warm">**English is the required language for all in-game communication.**</span> This covers voice chat and text chat. A one-off word from another language is fine as flavor, but actual communication between players must be in English.
+- In the SoV Discord, you may use other languages as long as they have a text form that moderators can copy and translate as needed. If you post in another language inside an image, provide a text transcript alongside the image for moderation purposes.
 
 </details>
 
