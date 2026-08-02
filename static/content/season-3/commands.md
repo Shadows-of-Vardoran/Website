@@ -232,7 +232,7 @@ Forge abilities onto weapons, name them, set descriptions, and lock them. Requir
 | `.sov forge list <slot>` / `.sov fgl` | Lists all valid abilities that can be forged into a specific slot on your held weapon. |
 | **Weapon Customization** | |
 | `.sov forge name <name>` / `.sov fn` | Sets a custom name for your forged weapon. |
-| `.sov forge desc <description>` / `.sov fd` | Sets a custom description on your forged weapon. |
+| `.sov forge desc <description>` / `.sov fd` | Sets a custom description on your forged weapon. Use double quotes around the description, such as `.sov forge desc "A blade forged in dragonfire."`. |
 | `.sov forge lock` / `.sov flk` | Toggles whether only the original forger can modify this weapon. Locked weapons cannot be altered by others. |
 | **Inspection and Flavor** | |
 | `.sov weapon inspect` / `.sov wi` | Inspects your held weapon to view its forging status, name, description, and required materials. |
@@ -245,6 +245,7 @@ Forge abilities onto weapons, name them, set descriptions, and lock them. Requir
 |---|---|
 | `.sov forge q Firebrand` | Forge a Firebrand ability onto your weapon's Q slot. |
 | `.sov forge name Soulreaver` | Name your weapon. |
+| `.sov forge desc "A blade forged in dragonfire."` | Set a custom description on your weapon. |
 | `.sov weapon inspect` | Inspect your weapon. |
 | `.sov weapon details` | View your weapon's tier and next reinforce cost. |
 | `.sov forge reinforce` | Reinforce your weapon to the next tier. |
@@ -322,7 +323,7 @@ Use cases include:
 - **Owner.** This is who the system has registered as the owner of the clan. This is different from the Leader role in-game and is tracked separately.
 - **Keys.** Small bits of data that let you use a command to join a sigil without an invite.
 
-This feature respects the current sigil limit and will not allow you to bypass it. Admins can give keys that bypass the limit. If you are the Owner of a clan, you are automatically given the in-game Leader role when joining with a key. This is for sigil access, not castle access. Ensure you are alright with people having access to the sigil before giving them a key. Depending on server config, you may need to have your cursor hovering over a castle territory owned by the clan to use `.keys use`.
+This feature respects the current sigil limit and will not allow you to bypass it. Admins can give keys that bypass the limit. If you are the Owner of a clan, you are automatically given the in-game Leader role when joining with a key. This is for sigil access, not castle access. Ensure you are alright with people having access to the sigil before giving them a key. To use `.keys use`, you must have your mouse hovering over territory the clan owns. You do not need to be standing in that territory.
 
 | Command | Description |
 |---|---|
