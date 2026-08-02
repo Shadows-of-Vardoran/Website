@@ -163,6 +163,10 @@ We are inclined to trust the community with this framework as-is without any sig
 <!-- section:mortality-contract -->
 The mortality contract applies to all mortal player races. It governs how injuries are classified, when medical RP is required, and what happens when a character reaches the end of their mortality. The specific settings that determine how many critical injuries a race can survive, and what options are available upon death, are defined in each race's own document.
 
+<div class="p-4 rounded border border-tprimary-900/30 bg-background-800/60 text-[0.925rem]">
+Critical injuries are processed one at a time. You can never have more than one open critical injury at once. Each critical injury is resolved before the next one can occur. When a critical injury is processed and resolved, it is expended. That expenditure costs you one life. You work through your lives one at a time. Once you have worked through the number of lives set by your race, your mortality contract collapses and your character dies.
+</div>
+
 ### Definitions
 
 <div class="p-4 rounded border border-tprimary-900/30 bg-background-800/60 text-[0.925rem]">

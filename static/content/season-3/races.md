@@ -249,7 +249,7 @@ Humans are mortal and carry no innate magic. Blood magic is entirely beyond thei
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Humans have 3 lives, aka 3 critical injuries.</p>
+    <p>Humans have 3 lives, aka 3 critical injuries. Critical injuries are processed one at a time. You can never have more than one open critical injury at once. When a critical injury is processed and resolved, it is expended and costs you one life.</p>
     <ul>
       <li>Medical RP must be received within 3 IRL days of a critical injury to survive it.</li>
       <li>Must be treated by a doctor specialist using <a href="#cmd-doctor"><code>.sov treat &lt;player&gt;</code></a> or <a href="#cmd-doctor"><code>.sov revive</code></a>.</li>
@@ -401,7 +401,9 @@ Log your progress in your character's journal. When you are ready for an upgrade
 <div class="p-4 rounded bg-background-800/60 border border-orange-800/60 my-4">
 
 - Their blood pool decreases by 10% with each minor injury, before a critical injury occurs.
+- Critical injuries are processed one at a time. A werewolf can never have more than one open critical injury at once.
 - A werewolf character can sustain nine critical injuries before death.
+- When a critical injury is processed and resolved, it is expended. Each expended critical injury costs one life. Once a werewolf has gone through all nine lives, the mortality contract collapses and the character dies.
 - Unlike humans, MedRP is not required to recover from a critical injury.
 - When a werewolf sustains a critical injury, they receive a temporary debuff. This debuff lasts approximately one hour and resolves on its own.
 - A doctor may optionally provide MedRP to remove the debuff early, but this is not required for survival. See the [Doctor Commands](#cmd-doctor) section for available commands.
@@ -707,7 +709,9 @@ Players may RP helping a Mytt reconstitute by providing them magic they are comp
 <div class="p-4 rounded bg-background-800/60 border border-green-800/60 my-4">
 
 - Their blood pool decreases by 10% with each minor injury, before a critical injury occurs.
+- Critical injuries are processed one at a time. A Talam can never have more than one open critical injury at once.
 - A Talam character can sustain six critical injuries before death, in which they are reclaimed by nature.
+- When a critical injury is processed and resolved, it is expended. Each expended critical injury costs one life. Once a Talam has gone through all six lives, the mortality contract collapses and the character is reclaimed by nature.
 - Unlike humans, MedRP is not required to recover from a critical injury.
 - When a Talam sustains a critical injury, they receive a temporary debuff. This debuff lasts approximately one hour and resolves on its own.
 - A doctor may optionally provide MedRP to remove the debuff early, but this is not required for survival. See the [Doctor Commands](#cmd-doctor) section for available commands.
