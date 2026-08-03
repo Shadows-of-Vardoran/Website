@@ -65,7 +65,7 @@ View your character's race, onboarding status, and specialty information.
 | **Character Commands** | |
 | `.sov race` / `.sov r` | Shows your race information and lists any race-specific commands available to you. |
 | `.sov onboard status` | Shows your current onboarding status. |
-| `.sov specialty info [playerName]` / `.sov si` | Shows your specialty levels, or another player's if you provide their name. |
+| `.sov specialty info ["playerName"]` / `.sov si` | Shows your specialty levels, or another player's if you provide their name. |
 | `.sov specialty list [page]` / `.sov sl` | Lists all available specialty types in the system. Paginated at 10 per page. |
 
 <!-- section:abilities -->
@@ -82,10 +82,10 @@ Valid slot names are `primary`/`attack`, `q`/`secondary`, `e`/`power`, `dash`/`t
 | `.sov spell copy r` / `.sov scr` | Copies your equipped vanilla R spell to your Q slot. Not from your spell pool. |
 | `.sov spell copy c` / `.sov scc` | Copies your equipped vanilla C spell to your E slot. Not from your spell pool. |
 | **Preset Commands** | |
-| `.sov preset save <name>` / `.sov ps` | Saves your current ability setup as a preset. |
-| `.sov preset load <name>` / `.sov pl` | Loads a saved ability preset. |
+| `.sov preset save "<name>"` / `.sov ps` | Saves your current ability setup as a preset. |
+| `.sov preset load "<name>"` / `.sov pl` | Loads a saved ability preset. |
 | `.sov preset list [page]` / `.sov plist` | Lists your saved ability presets. Paginated. |
-| `.sov preset delete <name>` / `.sov pd` | Deletes a saved ability preset. |
+| `.sov preset delete "<name>"` / `.sov pd` | Deletes a saved ability preset. |
 
 ## Examples
 | Command | Description |
@@ -94,8 +94,8 @@ Valid slot names are `primary`/`attack`, `q`/`secondary`, `e`/`power`, `dash`/`t
 | `.sov spell set e FrostDash` | Assign a spell to your E slot. |
 | `.sov spell clear q` | Clear your Q slot. |
 | `.sov spell copy r` | Copy your R spell to Q. |
-| `.sov preset save pvp` | Save your current setup as a preset. |
-| `.sov preset load pvp` | Load a saved preset. |
+| `.sov preset save "pvp"` | Save your current setup as a preset. |
+| `.sov preset load "pvp"` | Load a saved preset. |
 
 <!-- section:forms -->
 Assign custom shapeshift forms to named slots for quick switching.
@@ -123,15 +123,15 @@ Browse and craft items from available recipes. Recipes may be gated by specialty
 |---|---|
 | **Crafting Commands** | |
 | `.sov craftlist` / `.sov cl` | Lists all craftable items you currently have access to based on your specialties and tags. |
-| `.sov craftinfo <recipeName>` / `.sov ci` | Shows the materials required for a specific recipe. Supports partial name matching. |
-| `.sov craft <itemName>` / `.sov c` | Crafts an item by its recipe name. Partial match is supported. Wrap multi-word names in quotes, such as `.sov c "iron sword"`. |
+| `.sov craftinfo "<recipeName>"` / `.sov ci` | Shows the materials required for a specific recipe. Supports partial name matching. |
+| `.sov craft "<itemName>"` / `.sov c` | Crafts an item by its recipe name. Partial match is supported. Wrap multi-word names in quotes, such as `.sov c "iron sword"`. |
 
 ## Examples
 | Command | Description |
 |---|---|
 | `.sov craftlist` | See what you can craft. |
-| `.sov craftinfo bone_scythe` | Check what materials a recipe needs. |
-| `.sov craft bone_scythe` | Craft an item. |
+| `.sov craftinfo "bone_scythe"` | Check what materials a recipe needs. |
+| `.sov craft "bone_scythe"` | Craft an item. |
 
 <!-- section:vblood -->
 Claim VBlood encounters to gain progression rewards by paying material costs.
@@ -153,7 +153,7 @@ Commands for managing your nameplate visibility, hood, and anonymous messaging.
 | `.sov toggle anon [anonStatus]` | Toggles anonymous messaging for your local chat messages. When enabled, your messages in local chat will not show your name. Use `true`, `false`, or leave empty to toggle. |
 | `.sov reveal` | Reveals your own nameplate. |
 | `.sov riphood` | Reveals the nameplate of the nearest player on their knees. Cannot be used in combat. Broadcasts a local message to everyone nearby. |
-| `.anon <message>` | Prefix any chat message with `.anon` to send it anonymously. Unlike `.sov toggle anon`, this works per-message without changing your settings. |
+| `.anon "<message>"` | Prefix any chat message with `.anon` to send it anonymously. Unlike `.sov toggle anon`, this works per-message without changing your settings. |
 
 <!-- section:emotes -->
 Miscellaneous utility and roleplay commands.
@@ -192,7 +192,7 @@ Mytt race players have a unique blood system to attune, focus, and consume items
 | **Mytt Blood Commands** | |
 | `.sov attune <bloodType>` / `.sov a` | Switches to one of your school's available blood types. |
 | `.sov focus <quality>` / `.sov f` | Sets your blood quality to a specific value freely, from 0 to 100. |
-| `.sov eat <item> <quantity>` / `.sov e` | Consumes items to refill your blood pool. |
+| `.sov eat "<item>" <quantity>` / `.sov e` | Consumes items to refill your blood pool. |
 | `.sov eatlist [page]` / `.sov el` | Lists items you can consume and their blood refill percentages. Paginated. |
 
 <!-- section:ritualism -->
@@ -204,18 +204,18 @@ Toggle buffs on yourself and send ritual buff consent requests to other players.
 | `.sov buff list` | Lists all toggleable buffs available to you. |
 | `.sov buff toggle <buffAlias>` | Toggles a buff on or off for yourself. |
 | **Ritual Buffs (Player-to-Player)** | |
-| `.sov buff toggle <buffAlias> <playerName>` | Sends a ritual consent request to another player to apply a buff to them. |
+| `.sov buff toggle <buffAlias> "<playerName>"` | Sends a ritual consent request to another player to apply a buff to them. |
 | `.sov buff aoe <buffAlias>` | Sends ritual buff consent requests to all nearby players at once. |
 | `.sov buff accept` | Accepts a pending ritual buff request from another player. |
 | `.sov buff decline` | Declines a pending ritual buff request. |
 | `.sov buff clear` | Removes all active ritual buffs from yourself that were applied by others. |
-| `.sov buff remove <buffAlias> <playerName>` | Removes a ritual buff that you previously applied to another player. |
+| `.sov buff remove <buffAlias> "<playerName>"` | Removes a ritual buff that you previously applied to another player. |
 
 ## Examples
 | Command | Description |
 |---|---|
 | `.sov buff toggle night_vision` | Toggle a buff on yourself. |
-| `.sov buff toggle bless Kaelen` | Send a buff request to another player. |
+| `.sov buff toggle bless "Kaelen"` | Send a buff request to another player. |
 | `.sov buff accept` | Accept an incoming buff request. |
 | `.sov buff aoe bless` | Apply a buff to everyone nearby. |
 
@@ -231,8 +231,8 @@ Forge abilities onto weapons, name them, set descriptions, and lock them. Requir
 | `.sov forge clear <slot>` / `.sov fgc` | Clears a forged ability from a specific slot on your held weapon. |
 | `.sov forge list <slot>` / `.sov fgl` | Lists all valid abilities that can be forged into a specific slot on your held weapon. |
 | **Weapon Customization** | |
-| `.sov forge name <name>` / `.sov fn` | Sets a custom name for your forged weapon. |
-| `.sov forge desc <description>` / `.sov fd` | Sets a custom description on your forged weapon. Use double quotes around the description, such as `.sov forge desc "A blade forged in dragonfire."`. |
+| `.sov forge name "<name>"` / `.sov fn` | Sets a custom name for your forged weapon. |
+| `.sov forge desc "<description>"` / `.sov fd` | Sets a custom description on your forged weapon. Use double quotes around the description, such as `.sov forge desc "A blade forged in dragonfire."`. |
 | `.sov forge lock` / `.sov flk` | Toggles whether only the original forger can modify this weapon. Locked weapons cannot be altered by others. |
 | **Inspection and Flavor** | |
 | `.sov weapon inspect` / `.sov wi` | Inspects your held weapon to view its forging status, name, description, and required materials. |
@@ -244,7 +244,7 @@ Forge abilities onto weapons, name them, set descriptions, and lock them. Requir
 | Command | Description |
 |---|---|
 | `.sov forge q Firebrand` | Forge a Firebrand ability onto your weapon's Q slot. |
-| `.sov forge name Soulreaver` | Name your weapon. |
+| `.sov forge name "Soulreaver"` | Name your weapon. |
 | `.sov forge desc "A blade forged in dragonfire."` | Set a custom description on your weapon. |
 | `.sov weapon inspect` | Inspect your weapon. |
 | `.sov weapon details` | View your weapon's tier and next reinforce cost. |
@@ -286,7 +286,7 @@ Spawn furniture and enter a specialized build mode. Requires the Architect speci
 |---|---|
 | **Architect Commands** | |
 | `.sov build list [page]` / `.sov bl` | Lists all available architect furniture you can spawn. Paginated at 10 per page. |
-| `.sov build search <searchTerm> [page]` / `.sov bse` | Searches architect furniture by name substring. Paginated. |
+| `.sov build search "<searchTerm>" [page]` / `.sov bse` | Searches architect furniture by name substring. Paginated. |
 | `.sov build spawn <prefabName>` / `.sov bs` | Spawns a furniture ghost at your location and enters architect build mode. |
 | `.sov build mode` / `.sov bm` | Toggles architect build mode on and off. |
 | `.sov build expand [count=1]` / `.sov be` | Expands your castle heart's floor limit by +5 per boost. Requires Tier 3 Architect and material costs. |
@@ -295,7 +295,7 @@ Spawn furniture and enter a specialized build mode. Requires the Architect speci
 | Command | Description |
 |---|---|
 | `.sov build list` | Browse available furniture. |
-| `.sov build search throne` | Search for a specific item. |
+| `.sov build search "throne"` | Search for a specific item. |
 | `.sov build spawn CastleThrone` | Spawn a piece of furniture. |
 
 <!-- section:doctor -->
@@ -304,7 +304,7 @@ Treatment, revival, and blood refill commands. Requires the Doctor specialty and
 | Command | Description |
 |---|---|
 | **Doctor Commands** | |
-| `.sov treat <playerName>` | Treats a player's critical injury. Requires the Doctor tag. |
+| `.sov treat "<playerName>"` | Treats a player's critical injury. Requires the Doctor tag. |
 | `.sov revive <tier>` | Revives a nearby downed player. Requires the Doctor tag and Doctor specialty at the specified tier level, from 1 to 3. |
 | `.sov refillblood <quantity>` | Refills blood in 10% increments, from 1 to 10. Requires the Doctor tag and Doctor specialty level 2+. Must be near a Blood Press. |
 
@@ -329,13 +329,13 @@ This feature respects the current sigil limit and will not allow you to bypass i
 |---|---|
 | **Key Commands** | |
 | `.keys register` | Registers your clan with the Keys feature. You must be the clan Leader to use. The player who runs it is registered as the clan Owner. |
-| `.keys give <playerName>` | Gives another player keys to the sigil you are currently in. Must be the clan Owner to use. |
-| `.keys remove <playerName>` | Removes keys from another player for the sigil you are currently in. Must be the clan Owner to use. |
+| `.keys give "<playerName>"` | Gives another player keys to the sigil you are currently in. Must be the clan Owner to use. |
+| `.keys remove "<playerName>"` | Removes keys from another player for the sigil you are currently in. Must be the clan Owner to use. |
 | `.keys remove clan` | Removes all keys from your clan. |
-| `.keys owner <playerName>` | Transfers ownership from you to the target player. Must be the clan Owner to use. |
+| `.keys owner "<playerName>"` | Transfers ownership from you to the target player. Must be the clan Owner to use. |
 | `.keys list mine` | Lists all the keys you have been given. |
 | `.keys list clan` | Lists all the keys to the current clan that have been given out. Must be the clan Owner to use. |
-| `.keys use <clanName>` | Uses a key you own to join the target clan. If the clan name has spaces, wrap it in quotes, such as `.keys use "My Clan"`. If you have multiple keys for clans with the same name, use `.keys use "ClanName #1"` or `#2` to pick. |
+| `.keys use "<clanName>"` | Uses a key you own to join the target clan. If the clan name has spaces, wrap it in quotes, such as `.keys use "My Clan"`. If you have multiple keys for clans with the same name, use `.keys use "ClanName #1"` or `#2` to pick. |
 
 <!-- section:signs -->
 Create, manage, and browse floating text signs in the world. Signs persist across server restarts.
@@ -343,12 +343,12 @@ Create, manage, and browse floating text signs in the world. Signs persist acros
 | Command | Description |
 |---|---|
 | **Player Commands** | |
-| `.sign create <text> [color] [fontSize]` | Creates a floating text sign at your current position. Default color is white, default font size is 18. |
-| `.sign move <idOrText>` | Moves a sign to the position you are aiming at. |
+| `.sign create "<text>" [color] [fontSize]` | Creates a floating text sign at your current position. Default color is white, default font size is 18. |
+| `.sign move "<idOrText>"` | Moves a sign to the position you are aiming at. |
 | `.sign list [page]` | Lists signs you own. Paginated at 6 per page. |
 | `.sign nearest` | Shows details of the nearest sign within 5 units. |
-| `.sign info [idOrText]` | Shows full info of a specific sign by ID or text match. Without arguments, shows info of the nearest sign. |
-| `.sign remove [idOrText]` | Removes the nearest sign within 5 units. Provide an ID or text to remove a specific sign instead. |
+| `.sign info ["idOrText"]` | Shows full info of a specific sign by ID or text match. Without arguments, shows info of the nearest sign. |
+| `.sign remove ["idOrText"]` | Removes the nearest sign within 5 units. Provide an ID or text to remove a specific sign instead. |
 
 <!-- section:stashes -->
 Place portable stash chests in the world to store items. You may have up to 2 stashes placed at once. Placing one costs 300 wood.
