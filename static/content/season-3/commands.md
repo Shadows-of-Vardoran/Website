@@ -349,3 +349,14 @@ Create, manage, and browse floating text signs in the world. Signs persist acros
 | `.sign nearest` | Shows details of the nearest sign within 5 units. |
 | `.sign info [idOrText]` | Shows full info of a specific sign by ID or text match. Without arguments, shows info of the nearest sign. |
 | `.sign remove [idOrText]` | Removes the nearest sign within 5 units. Provide an ID or text to remove a specific sign instead. |
+
+<!-- section:stashes -->
+Place portable stash chests in the world to store items. You may have up to 2 stashes placed at once. Placing one costs 300 wood.
+
+| Command | Description |
+|---|---|
+| **Stash Commands** | |
+| `.sov stash place` | Places a stash chest at your location. Costs 300 wood. |
+| `.sov stash remove` | Disassembles the nearest stash within 5 meters. |
+| `.sov stash bury` | Buries the nearest stash so it looks buried. |
+| `.sov stash unbury` | Unburies the nearest stash. |

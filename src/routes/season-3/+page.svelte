@@ -436,6 +436,7 @@
     { id: 'doctor', label: 'Doctor' },
     { id: 'keys', label: 'Keys' },
     { id: 'signs', label: 'Signs' },
+    { id: 'stashes', label: 'Stashes' },
   ];
   const COMMANDS_SECTION_ORDER = COMMAND_TABS.map((t) => t.id);
 
