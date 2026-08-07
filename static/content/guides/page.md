@@ -432,15 +432,15 @@ A character can have both Ritualism and a Magical School Specialty. They are not
 
 Think of it this way. Magical School Specialties can start the fire. Ritualism Specialty can add fuel to the flames. <span class="text-warm">People who only have Ritualism will not be able to do rituals by themselves.</span> They are a flex role and will need help from someone with the right Magical School Specialty.
 
-**Magical Batteries**
+**Magical Collectors**
 
 We do not want to block players from participating in rituals just because they lack a Specialty.
 
-Characters who have no magical Specialty but can still use the type of magic at hand are welcome to be magical batteries. <span class="text-accent">You channel your magic into the ritual space, and the ritual controllers use that power to help the ritual along.</span>
+Characters who have no magical Specialty but can still use the type of magic at hand are welcome to act as magical collectors. <span class="text-accent">You gather raw magic from the world around you and feed it into the ritual space. The ritual controllers take that gathered power and direct it toward the ritual's purpose.</span>
 
-Batteries can provide any magic school their character can channel. For example, a human cannot provide Blood magic because they cannot channel Blood magic. A werewolf cannot provide Chaos magic because they cannot channel Chaos magic.
+Collectors can gather any magic school their character can channel. For example, a human cannot gather Blood magic because they cannot channel Blood magic. A werewolf cannot gather Chaos magic because they cannot channel Chaos magic.
 
-How much a battery helps is not something we will share publicly.
+How much a collector helps is not something we will share publicly.
 
 </details>
 
