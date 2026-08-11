@@ -47,14 +47,10 @@
   <div class="w-3 rounded bg-gradient-to-b from-slate-800/60 to-slate-950/80 flex-shrink-0 border border-slate-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
     <p>Metagaming is when you use OOC knowledge to influence IC decisions, usually to shield your character from consequences. The following are considered meta knowledge IC:</p>
-    <ul>
-      <li>Your character does not know what is on your HUD.</li>
-      <li>You may not act IC on conversations you hear while in bat form, even though we allow hearing through walls.</li>
-      <li>You must learn character names, clan affiliations, and where someone lives through IC interactions. Reading a name on a castle does not count.</li>
-      <li>If a character is sneaking in rat form, you need visual confirmation before taking action. You must give an RP warning before striking a character in rat form, same as the RP notice required before PvP.</li>
-      <li>Permanent clanmates know the names, locations, and identities of their clanmates even in animal form, and can tell whether a clanmate is injured or logged off.</li>
-      <li>Guests joining a clan do not automatically know the names of characters they have not met IC.</li>
-    </ul>
+- Your character does not know what is on your HUD. Character nameplates, the in-game social menu, and names shown when hovering over castle territory on the map are all out-of-character UI. Your character does not have access to any of these.
+- You may not act IC on conversations you hear while in bat form, even though we allow hearing through walls.
+- You must learn character names, clan affiliations, and where someone lives through IC interactions. Reading a name on a nameplate or castle territory does not count.
+- If a character is sneaking in any form, you need visual confirmation before taking action. You must give an RP warning before striking a character in animal form, same as the RP notice required before PvP.
   </div>
 </div>
 

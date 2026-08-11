@@ -156,6 +156,24 @@ For commonly used in-character terms and their meanings, see the [Glossary](http
 
 <div class="marked-block-info">You must observe the following rules for in-game mechanics:</div>
 
+### 1. Metagaming and Game UI
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-slate-800/60 to-slate-950/80 flex-shrink-0 border border-slate-900/30"></div>
+  <div class="flex-1">
+- Character nameplates, the in-game social menu, and names shown when hovering over castle territory on the map are out-of-character UI elements. Your character does not have access to any of these.
+- Using information from these UI elements as in-character knowledge is Metagaming. You must learn character names, clan affiliations, and who owns a castle through in-character interactions only.
+- See the [Glossary](https://vardoran.com/glossary#metagaming) for more details on what is considered Metagaming.
+  </div>
+</div>
+
+### 2. Signs
+
+- Placing an antagonistic sign on or near another player's castle, regardless of whose territory it sits on, is an act of conflict. You must obtain out-of-character consent from the targeted player before doing so.
+- Antagonistic signs directed at another player fall under the same community standards as any other form of conflict. If you initiate, you own what comes back. See [Conflict](https://vardoran.com/conduct#5-conflict).
+
+### 3. General
+
 - You must remain fully in-character while in-game. The only exceptions are consent requests and check-ins.
 - You may not intentionally ash while wearing a hood or otherwise concealing your identity. Ashing means clicking the button to respawn while on your knees. <span class="text-warm">**You MUST let the revive timer time out or be finished off by another player.**</span>
 - Changing your appearance with a mirror is not valid for hiding or concealing your identity. If you want to change your appearance enough that you cannot be recognized, open a ticket to discuss the process and a name change.
