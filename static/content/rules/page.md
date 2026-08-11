@@ -158,14 +158,9 @@ For commonly used in-character terms and their meanings, see the [Glossary](http
 
 ### 1. Metagaming and Game UI
 
-<div class="flex gap-4 my-2">
-  <div class="w-3 rounded bg-gradient-to-b from-slate-800/60 to-slate-950/80 flex-shrink-0 border border-slate-900/30"></div>
-  <div class="flex-1">
 - Character nameplates, the in-game social menu, and names shown when hovering over castle territory on the map are out-of-character UI elements. Your character does not have access to any of these.
 - Using information from these UI elements as in-character knowledge is Metagaming. You must learn character names, clan affiliations, and who owns a castle through in-character interactions only.
 - See the [Glossary](https://vardoran.com/glossary#metagaming) for more details on what is considered Metagaming.
-  </div>
-</div>
 
 ### 2. Signs
 
