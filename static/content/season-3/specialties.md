@@ -1270,6 +1270,15 @@ harvest and the land gives back more for it.
 - You cannot keep more than 30 creatures per rancher.
 - No castle may hold more than 30 creatures at once, no matter how many ranchers
   live there.
+- This is not a Pokémon world. You do not keep creatures in your pocket to throw
+  out on demand.
+- The word "token" is a mod term only. In character, a creature never becomes a
+  token and never becomes a small item you carry.
+- You cannot spawn a creature out of thin air in character. Spawning a creature
+  at random is not coherent and counts as abusing the specialty.
+- In character, a capture looks like this: you beat the creature down, throw a
+  net over it, and drag it home. You then keep it in a pen or stable on your
+  land.
 
 ## Features
 
