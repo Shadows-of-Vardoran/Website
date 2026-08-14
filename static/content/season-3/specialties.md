@@ -1234,9 +1234,9 @@ profession is built on capture and stewardship, taking wild things into your
 keeping and harvesting from them over time rather than ending them in a single
 moment.
 
-Captured creatures are bound as tokens, called back, set loose, and tended at
-your pace. The same discipline carries into the soil. A rancher reads the
-harvest and the land gives back more for it.
+A captured creature is beaten down, netted, dragged home, and penned. You then
+tend it at your pace. The same discipline carries into the soil. A rancher reads
+the harvest and the land gives back more for it.
 
 ## RP Themes
 
@@ -1251,9 +1251,9 @@ harvest and the land gives back more for it.
 
 ## What You Can Do
 
-- Capture weakened wild creatures with the Trapper's Net, converting them into
-  reusable tokens you carry with you.
-- Spend a token to spawn that creature at your location, where it behaves as a
+- Capture weakened wild creatures with the Trapper's Net. The mod records the
+  creature as a token. In character, you beat it down, net it, and drag it home.
+- Spend a token to place that creature at your location, where it behaves as a
   normal wild animal would.
 - Tend the animals near you to collect resources such as hide, bone, silkworm,
   and mutant grease, far more than you would get from killing the animal.
@@ -1284,8 +1284,8 @@ harvest and the land gives back more for it.
 
 - The Trapper's Net is an ability. Use the [Abilities Commands](#cmd-abilities)
   to assign it to your spell slots.
-- Access to rancher chat commands for capturing, spawning, tending, and managing
-  your animal tokens. See the [Rancher Commands](#cmd-rancher) section for
+- Access to rancher chat commands for capturing, placing, tending, and managing
+  your animals. See the [Rancher Commands](#cmd-rancher) section for
   command syntax and usage.
 
 <!-- section:rancher-leveling -->
@@ -1303,7 +1303,7 @@ harvest and the land gives back more for it.
 - At least 3 documented RP scenes of your character using the Trapper's Net or the tending command, across at least 3 different days, now that these are actually unlocked. Each scene should include a journaled description of the creature and the process used to capture or tend it.
   - Those scenes must span at least 2 distinct creature types. Capturing one creature type and tending a different one in another scene counts. The same application repeated three times does not.
   - At least 2 of those scenes must benefit another player, a captured creature or its yield given for someone else.
-  - At least one scene must show your character exercising real stewardship judgment. Deciding when to release, exchange, or hold a creature token, or choosing what to harvest and what to leave to protect future yield, real technique rather than just repeating the command.
+  - At least one scene must show your character exercising real stewardship judgment. Deciding when to release, exchange, or keep a creature, or choosing what to harvest and what to leave to protect future yield, real technique rather than just repeating the command.
 - A short in-character journal reflection on a creature your character captured or tended and what it taught you about stewardship.
 - <span class="text-accent">Optional:</span> documented lessons with a higher-ranked Rancher specialist. This can replace one of the RP scene requirements above, though the themes must remain the same.
 
