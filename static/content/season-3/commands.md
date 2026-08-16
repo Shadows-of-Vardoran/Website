@@ -65,6 +65,7 @@ View your character's race, onboarding status, and specialty information.
 | **Character Commands** | |
 | `.sov race` / `.sov r` | Shows your race information and lists any race-specific commands available to you. |
 | `.sov onboard status` | Shows your current onboarding status. |
+| `.sov onboard info [playerName]` | Shows your onboarding info. Admins can pass a player name to view another player's info. |
 | `.sov specialty info ["playerName"]` / `.sov si` | Shows your specialty levels, or another player's if you provide their name. |
 | `.sov specialty list [page]` / `.sov sl` | Lists all available specialty types in the system. Paginated at 10 per page. |
 
@@ -109,11 +110,12 @@ Valid slots are `wolf`, `bear`, `spider`, `rat`, and `toad`.
 | `.sov form set <slot> <key>` / `.sov fs` | Assigns a custom form to a named slot for quick access. |
 | `.sov form clear <slot>` / `.sov fc` | Clears a form slot, reverting it to the default form for that slot. |
 | `.sov form info` / `.sov fi` | Shows your current form slot assignments and what is bound to each. |
+| `.sov unshift` / `.sov unshapeshift` | Exits your current shapeshift form and returns to your body. |
 
 ## Examples
 | Command | Description |
 |---|---|
-| `.sov form set 1 wolf` | Assign the wolf form to slot 1. |
+| `.sov form set spider wolf` | Assign the wolf form to the spider slot. |
 | `.sov form info` | Check your current slot setup. |
 
 <!-- section:crafting -->
@@ -140,8 +142,12 @@ Claim VBlood encounters to gain progression rewards by paying material costs.
 |---|---|
 | **VBlood Commands** | |
 | `.sov vblood claim` | Claims the VBlood you are standing near by paying the required material costs. Walk up to a VBlood and use this command. |
+| `.sov vblood share <vBloodName> <playerName>` | Teaches a nearby player a VBlood you have already unlocked. The receiver pays the 2x or 4x share cost. |
+| `.sov vblood share aoe <vBloodName> [radius]` | Teaches the VBlood to all nearby players at once. Each receiver pays the 2x or 4x share cost. |
+| `.sov vblood shareable [page] [playerName]` | Lists the VBloods you have unlocked and can share. Admins can pass a player name to view another player's list. |
+| `.sov vblood cost <vBloodName>` | Previews what a receiver would pay to learn a VBlood from you. |
 
-You must be physically near the VBlood to claim it. Material costs vary by VBlood and will be displayed when you try to use the command.
+You must be physically near the VBlood to claim it. Material costs vary by VBlood and will be displayed when you try to use the command. The receiver pays 2x the claim cost if you are affiliated with that VBlood's faction, otherwise 4x. Both players must be within 20 units and out of combat to share.
 
 <!-- section:anonymity -->
 Commands for managing your nameplate visibility, hood, and anonymous messaging.
@@ -153,6 +159,8 @@ Commands for managing your nameplate visibility, hood, and anonymous messaging.
 | `.sov toggle anon [anonStatus]` | Toggles anonymous messaging for your local chat messages. When enabled, your messages in local chat will not show your name. Use `true`, `false`, or leave empty to toggle. |
 | `.sov reveal` | Reveals your own nameplate. |
 | `.sov riphood` | Reveals the nameplate of the nearest player on their knees. Cannot be used in combat. Broadcasts a local message to everyone nearby. |
+| `.sov nameplate toggle <hat>` | Toggles whether the given hat hides your nameplate while worn. The Razer Hood hides by default, all other hats show by default. The setting applies immediately if you are wearing that hat. |
+| `.sov nameplate list` | Lists all hats that can hide your nameplate, each hat's default behavior, your current per-hat setting, and which hat you currently have equipped. |
 | `.anon "<message>"` | Prefix any chat message with `.anon` to send it anonymously. Unlike `.sov toggle anon`, this works per-message without changing your settings. |
 
 <!-- section:emotes -->
@@ -171,7 +179,8 @@ Miscellaneous utility and roleplay commands.
 | `.sov power reset` | Reverts your physical power to normal while unarmed or holding a fishing pole. Useful if gear level calculations go wrong. Power returns when you swap weapons. |
 | `.sov coords` | Prints your current world coordinates (x, y, z). Useful for sharing locations. |
 | `.sov buff refresh` | Refreshes your active buffs applied via race tags (Human, Mytt, Werewolf, etc.). |
-| `.sov trade` | Trades with the nearest custom merchant. Can only be used if you and they are not in combat. Used when a player does not or cannot use human form to trade with a merchant. |
+| `.sov combat` | Toggles combat stance of a mob you are controlling, such as while shapeshifted. |
+| `.sov trade` | Trades with the nearest Penumbra merchant (alias for `.penumbra trade`). Can only be used if you and they are not in combat. Used when a player does not or cannot use human form to trade with a merchant. |
 
 <!-- section:mortality -->
 Commands for the mortality system. Track your status and draw blood.
@@ -285,10 +294,11 @@ Spawn furniture and enter a specialized build mode. Requires the Architect speci
 | Command | Description |
 |---|---|
 | **Architect Commands** | |
-| `.sov build list [page]` / `.sov bl` | Lists all available architect furniture you can spawn. Paginated at 10 per page. |
+| `.sov build list [page]` / `.sov bl` | Lists all available architect furniture you can spawn. Paginated at 6 per page. |
 | `.sov build search "<searchTerm>" [page]` / `.sov bse` | Searches architect furniture by name substring. Paginated. |
 | `.sov build spawn <prefabName>` / `.sov bs` | Spawns a furniture ghost at your location and enters architect build mode. |
 | `.sov build mode` / `.sov bm` | Toggles architect build mode on and off. |
+| `.sov build yoffset <offset>` / `.sov byo` | Sets a vertical offset applied to objects while placing or moving them in architect build mode. Use a negative value to place below floor level. |
 | `.sov build expand [count=1]` / `.sov be` | Expands your castle heart's floor limit by +5 per boost. Requires Tier 3 Architect and material costs. |
 
 ## Examples
@@ -307,8 +317,12 @@ Treatment, revival, and blood refill commands. Requires the Doctor specialty and
 | `.sov treat "<playerName>"` | Treats a player's critical injury. Requires the Doctor tag. |
 | `.sov revive <tier>` | Revives a nearby downed player. Requires the Doctor tag and Doctor specialty at the specified tier level, from 1 to 3. |
 | `.sov refillblood <quantity>` | Refills blood in 10% increments, from 1 to 10. Requires the Doctor tag and Doctor specialty level 2+. Must be near a Blood Press. |
+| `.sov refillblood "<playerName>" <quantity>` | Refills another player's blood within range. Requires the Doctor tag and Doctor specialty level 2+. Must be near a Blood Press. |
+| `.sov doctorinfo` / `.sov di` | Shows your Doctor ability commands and their costs. |
+| `.sov revivecost` / `.sov rcv` | Shows the material cost to revive at each tier, from 1 to 3. |
+| `.sov refillcost` / `.sov rfc` | Shows the material cost to refill blood per increment. |
 
-Tier 1, 2, and 3 revives require Doctor specialty level 1, 2, or 3 respectively. Cannot revive or treat while in combat. If your mortality timer expires, your character may face consequences. Seek treatment promptly.
+Tier 1, 2, and 3 revives require Doctor specialty level 1, 2, or 3 respectively. The downed player must be within a few units to revive. Cannot revive or treat while in combat. If your mortality timer expires, your character may face consequences. Seek treatment promptly.
 
 <!-- section:keys -->
 The Keys feature allows players to give keys to their sigil to other players. If you have keys to a sigil, you can join that sigil via a chat command without needing an invite.
@@ -323,7 +337,7 @@ Use cases include:
 - **Owner.** This is who the system has registered as the owner of the clan. This is different from the Leader role in-game and is tracked separately.
 - **Keys.** Small bits of data that let you use a command to join a sigil without an invite.
 
-This feature respects the current sigil limit and will not allow you to bypass it. Admins can give keys that bypass the limit. If you are the Owner of a clan, you are automatically given the in-game Leader role when joining with a key. This is for sigil access, not castle access. Ensure you are alright with people having access to the sigil before giving them a key. To use `.keys use`, you must have your mouse hovering over territory the clan owns. You do not need to be standing in that territory.
+This feature respects the current sigil limit and will not allow you to bypass it. Admins can give keys that bypass the limit. If you are the Owner of a clan, you are automatically given the in-game Leader role when joining with a key. This is for sigil access, not castle access. Ensure you are alright with people having access to the sigil before giving them a key. Depending on server configuration, `.keys use` may require your mouse to be hovering over territory the clan owns. You do not need to be standing in that territory.
 
 | Command | Description |
 |---|---|
@@ -331,7 +345,7 @@ This feature respects the current sigil limit and will not allow you to bypass i
 | `.keys register` | Registers your clan with the Keys feature. You must be the clan Leader to use. The player who runs it is registered as the clan Owner. |
 | `.keys give "<playerName>"` | Gives another player keys to the sigil you are currently in. Must be the clan Owner to use. |
 | `.keys remove "<playerName>"` | Removes keys from another player for the sigil you are currently in. Must be the clan Owner to use. |
-| `.keys remove clan` | Removes all keys from your clan. |
+| `.keys remove clan` | Removes all keys from your clan except your own owner key. Must be the clan Owner to use. |
 | `.keys owner "<playerName>"` | Transfers ownership from you to the target player. Must be the clan Owner to use. |
 | `.keys list mine` | Lists all the keys you have been given. |
 | `.keys list clan` | Lists all the keys to the current clan that have been given out. Must be the clan Owner to use. |

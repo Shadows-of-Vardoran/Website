@@ -430,7 +430,7 @@ Ritualism Specialty is separate from Magical School Specialties. It represents k
 
 A character can have both Ritualism and a Magical School Specialty. They are not mutually exclusive.
 
-Think of it this way. Magical School Specialties can start the fire. Ritualism Specialty can add fuel to the flames. <span class="text-warm">People who only have Ritualism will not be able to do rituals by themselves.</span> They are a flex role and will need help from someone with the right Magical School Specialty.
+Think of it this way. Magical School Specialties can start the fire. Ritualism Specialty can add fuel to the flames. <span class="text-warm">People who only have Ritualism can do rituals by themselves, but only very, very small ones.</span> They are a flex role and will need help from someone with the right Magical School Specialty for any ritual that involves a specific type of magic. Ritualism is not a replacement for a magical school.
 
 **Magical Collectors**
 

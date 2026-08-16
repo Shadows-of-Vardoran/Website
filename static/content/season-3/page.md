@@ -121,7 +121,7 @@ We are inclined to trust the community with this framework as-is without any sig
     Citizenship is separate from military affiliation. Being a citizen of Brighthaven does not make you a member of the Church of Luminance. Being a citizen of Rustlock does not make you part of the Trancendum's military or advanced research teams.
   </p>
   <p class="mb-4">
-    Citizens allied with a location are expected not to harm or kill that area's V-Bloods. If you harm or kill an allied V-Blood, you lose your citizenship. To account for this, citizens have access to a custom command that unlocks a V-Blood while standing next to them, expending material requirements instead of killing them.
+    Citizens allied with a location are expected not to harm or kill that area's V-Bloods. To help you follow this rule, citizens have access to a custom command that unlocks a V-Blood while standing next to them, expending material requirements instead of killing them.
   </p>
 </div>
 
@@ -158,6 +158,30 @@ We are inclined to trust the community with this framework as-is without any sig
   <div class="text-tprimary font-cinzel text-lg mb-1">Animal Faction Ally</div>
   <p class="text-base text-tprimary-100">If you request it and it matches your character lore, we will hand out faction ally tags for normal animals (moose, deer, wolf, bear, and similar). This does not apply to cursed forest, mutant, or venom sap based animals.</p>
   <p class="text-base text-tprimary-100">Talam by default receive the bear faction tag, which makes them allied with mundane animals and stone golems.</p>
+</div>
+
+### Gaining Citizenship During the Season
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-sky-800/60 to-sky-950/80 flex-shrink-0 border border-sky-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>Most players gain citizenship at whitelist during onboarding. You can also gain it later in the season, but the process is harder. You must meet every requirement below.</p>
+- At least ten days must pass since your character was whitelisted
+- Provide three examples of helping the community. Donating supplies, clearing local pests, integrating into the community, and freeing civilians from prison camps in specific regions all count
+- Write a short reflection on why you want to be a citizen. Do it because it feels right for your character. Not everyone needs to be a citizen
+- Host one public event centered around civilians, whether they are players or NPCs
+  </div>
+</div>
+
+### Losing Citizenship
+
+<div class="flex gap-4 my-2">
+  <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
+  <div class="flex-1 text-[1.2rem]">
+    <p>You lose your citizenship if you are caught killing V-Bloods or NPCs in a manner that is malicious and unbecoming of a citizen. Now that losing citizenship is possible, we will enforce this strictly.</p>
+- If you lose your citizenship, you cannot hold citizenship in that area again
+- You may still apply for citizenship in another region
+  </div>
 </div>
 
 <!-- section:mortality-contract -->

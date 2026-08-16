@@ -990,6 +990,10 @@ to channel magical energy toward a desired goal. It is magic type agnostic. The
 ritualist may not wield the fire, but they know how to build the hearth that
 makes it burn brighter.
 
+<div class="p-4 rounded bg-background-800/60 border border-purple-800/60 my-4">
+  <span class="text-warm font-bold">Ritualism is not a replacement for a magical school.</span> Ritualism is not about channeling magic. With ritualism alone, you can perform only very, very small rituals. A ritual that involves a specific type of magic requires that magical school specialty. Ritualism by itself is not enough.
+</div>
+
 ## RP Themes
 
 - Ceremony and the weight of doing things the right way, in the right order, at
