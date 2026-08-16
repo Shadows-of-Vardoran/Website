@@ -420,6 +420,7 @@
   const COMMAND_TABS = [
     { id: 'onboarding', label: 'Onboarding' },
     { id: 'character', label: 'Character' },
+    { id: 'locate', label: 'Locate' },
     { id: 'abilities', label: 'Spells' },
     { id: 'forms', label: 'Forms' },
     { id: 'crafting', label: 'Crafting' },

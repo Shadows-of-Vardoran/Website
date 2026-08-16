@@ -69,6 +69,16 @@ View your character's race, onboarding status, and specialty information.
 | `.sov specialty info ["playerName"]` / `.sov si` | Shows your specialty levels, or another player's if you provide their name. |
 | `.sov specialty list [page]` / `.sov sl` | Lists all available specialty types in the system. Paginated at 10 per page. |
 
+<!-- section:locate -->
+Send a location request to another player, who can accept or decline it. If they accept, you receive a map marker of their location. Requests expire after 60 seconds if unanswered. Only one request can be pending on a target at a time.
+
+| Command | Description |
+|---|---|
+| **Locate Commands** | |
+| `.sov locate request "<playerName>"` | Sends a location request to the named player. The request expires after 60 seconds if unanswered. Only one request can be pending on a target at a time. |
+| `.sov locate accept` | Accepts a pending location request. The requester receives a map marker of your location. |
+| `.sov locate decline` | Declines a pending location request. The requester is notified that the request was denied. |
+
 <!-- section:abilities -->
 Manage and assign spells from your personal spell pool to your ability slots. Integrates with the CustomAbilities system.
 
