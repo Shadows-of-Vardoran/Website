@@ -105,13 +105,13 @@ We are inclined to trust the community with this framework as-is without any sig
 - See the [Specialty Leveling Guide](/guides) for the full breakdown of the requirements and submission process
 
 <!-- section:catch-up-mechanic -->
-Every 10 days, the season clock mints one Advancement Pool point for every character. That point can go toward whichever specialty you're actively working, and it's yours the moment it's minted, no requirements attached to earning it. The requirements are still there... they're just paid for with a banked point instead of a waiting period.
+Every 10 days, the season clock mints one Advancement Pool point for every character. That point can go toward whichever specialty you're actively working, but earning it doesn't rank you up by itself. You still have to complete that rank's actual RP requirements, a banked point just pays for the rank up once you have, instead of making you wait on the clock.
 
-If you started late, took a break, or dropped a specialty and started fresh, you're not locked out of the season. Spend your banked points on rank ups back to back, with no wait between them, until you've caught up to where the clock actually sits.
+If you started late, took a break, or dropped a specialty and started fresh, you're not locked out of the season. You can burn through banked points faster than the normal 10 day pace, but only one rank up total can happen per calendar day, on any specialty, so catching up is quick, not instant.
 
 - One point per character, minted every 10 days from the season's start.
-- Unspent points bank. Spend one the moment you finish a rank's requirements, on any specialty you're working.
-- No limit on how fast banked points can be spent, only on how fast new ones are earned.
+- A point is spent the moment you complete a rank's actual requirements, on whichever specialty you're working.
+- Rank ups are capped at one per day even with multiple points banked. Catching up means back to back days, not everything at once.
 - The counters below always reflect where the season clock actually stands.
 
 <!-- section:dropping-a-specialty -->
