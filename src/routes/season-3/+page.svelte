@@ -20,6 +20,7 @@
   import OrgModal from './OrgModal.svelte';
   import ReligionCard from './ReligionCard.svelte';
   import ReligionModal from './ReligionModal.svelte';
+  import AdvancementPoolCounter from './AdvancementPoolCounter.svelte';
   import type { Race, Specialty, Nation, Organization, Religion } from './types';
 
   const { parse } = useMarked();
@@ -57,6 +58,8 @@
   let racesIntroHtml = $state('');
   let specsIntroHtml = $state('');
   let specsTechHtml = $state('');
+  let catchUpHtml = $state('');
+  let dropSpecialtyHtml = $state('');
   let commandSections: Record<string, string> = $state({});
   let commandHtml: Record<string, string> = $state({});
   let activeCommandTab = $state('onboarding');
@@ -168,6 +171,8 @@
     else if (key === 'races-intro') racesIntroHtml = await parse(md);
     else if (key === 'specialties-intro') specsIntroHtml = await parse(md);
     else if (key === 'specialties-tech-details') specsTechHtml = await parse(md);
+    else if (key === 'catch-up-mechanic') catchUpHtml = await parse(md);
+    else if (key === 'dropping-a-specialty') dropSpecialtyHtml = await parse(md);
     else if (key === 'world-particulars') worldParticularsHtml = await parse(md);
     else if (key === 'faq') faqHtml = await parse(md);
   }
@@ -336,6 +341,8 @@
       'races-intro',
       'specialties-intro',
       'specialties-tech-details',
+      'catch-up-mechanic',
+      'dropping-a-specialty',
       'citizenship',
       'mortality-contract',
       'magic-tech-ceiling',
@@ -1126,13 +1133,44 @@
 
             <hr class="border-tprimary-900/30 my-6" />
 
+            <div class="p-5 rounded-lg border border-gold-700/40 bg-linear-to-br from-gold-900/15 via-background-800/40 to-background-800/40 mb-6">
+              <div class="flex items-center gap-2 mb-3">
+                <i class="mdi mdi-timer-sand text-2xl text-gold-300"></i>
+                <div class="text-lg font-cinzel uppercase tracking-wider text-gold-300">The Advancement Pool</div>
+              </div>
+              <EditableSection filePath={FILE_PATH} sectionKey="catch-up-mechanic" rawContent={sections['catch-up-mechanic'] || ''} onsave={onSectionSave}>
+                {#if catchUpHtml}
+                  <div class="marked mb-4" style="--dot-color: var(--color-gold-300)">{@html catchUpHtml}</div>
+                {:else}
+                  <div class="text-tprimary-500 italic mb-4">Catch-up mechanic details coming soon.</div>
+                {/if}
+              </EditableSection>
+              <AdvancementPoolCounter />
+            </div>
+
+            <div class="p-5 rounded-lg border border-slate-700/40 bg-linear-to-br from-slate-900/15 via-background-800/40 to-background-800/40 mb-6">
+              <div class="flex items-center gap-2 mb-3">
+                <i class="mdi mdi-restart text-2xl text-slate-400"></i>
+                <div class="text-lg font-cinzel uppercase tracking-wider text-slate-400">Dropping a Specialty</div>
+              </div>
+              <EditableSection filePath={FILE_PATH} sectionKey="dropping-a-specialty" rawContent={sections['dropping-a-specialty'] || ''} onsave={onSectionSave}>
+                {#if dropSpecialtyHtml}
+                  <div class="marked" style="--dot-color: var(--color-slate-400)">{@html dropSpecialtyHtml}</div>
+                {:else}
+                  <div class="text-tprimary-500 italic">Dropping a specialty details coming soon.</div>
+                {/if}
+              </EditableSection>
+            </div>
+
+            <hr class="border-tprimary-900/30 my-6" />
+
             {#if specialties.length > 0}
               {@const magical = specialties.filter((s) => s.category === 'magical')}
               {@const profession = specialties.filter((s) => s.category === 'profession')}
               {@const selected = specialties[selectedSpecialty]}
               {@const selectedTheme = getTheme(selected.colorKey)}
 
-              <div class="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-4">
+              <div class="grid grid-cols-1 md:grid-cols-[220px_1fr] gap-4">
                 <!-- Left: Category lists -->
                 <div class="flex flex-col gap-3">
                   <div>

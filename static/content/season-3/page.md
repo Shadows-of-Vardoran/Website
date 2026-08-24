@@ -99,12 +99,28 @@ We are inclined to trust the community with this framework as-is without any sig
 <!-- section:specialties-tech-details -->
 - 2 specialties at whitelist (level 1)
 - 3 levels per specialty
-- You may only obtain a specialty level increase once every 10 days. Requirements must be completed after achieving the previous rank in that specialty but do not need to be confined to the 10-day window
 - 3 specialties maximum at once
 - Max specialties will increase to 5+ over the story arc
-- You may swap a specialty for another once per season, unless new specialties are added mid-season
-- Swapping specialties does not retain levels. You start the new specialty at level 1 after completing the tasks to swap
+- Dropping a specialty needs a solid in character reason, reviewed case by case (see below)
 - See the [Specialty Leveling Guide](/guides) for the full breakdown of the requirements and submission process
+
+<!-- section:catch-up-mechanic -->
+Every 10 days, the season clock mints one Advancement Pool point for every character. That point can go toward whichever specialty you're actively working, and it's yours the moment it's minted, no requirements attached to earning it. The requirements are still there... they're just paid for with a banked point instead of a waiting period.
+
+If you started late, took a break, or dropped a specialty and started fresh, you're not locked out of the season. Spend your banked points on rank ups back to back, with no wait between them, until you've caught up to where the clock actually sits.
+
+- One point per character, minted every 10 days from the season's start.
+- Unspent points bank. Spend one the moment you finish a rank's requirements, on any specialty you're working.
+- No limit on how fast banked points can be spent, only on how fast new ones are earned.
+- The counters below always reflect where the season clock actually stands.
+
+<!-- section:dropping-a-specialty -->
+Dropping a specialty needs a solid in character reason, reviewed case by case by the team. A character whose story has genuinely moved past a specialty is an easy yes. Wanting to try something new with nothing behind it is not.
+
+Dropping clears the slot completely. The specialty resets to level 0, exactly as if it had never been picked, and you work through it from the beginning like any other specialty.
+
+- Reviewed case by case, on the strength of the reason given
+- Clears the slot to level 0. Levels already earned don't carry over, but Advancement Pool points already spent on it return to your balance to spend elsewhere, so you're free to catch back up right away
 
 <!-- section:citizenship -->
 <div class="text-lg leading-relaxed">
