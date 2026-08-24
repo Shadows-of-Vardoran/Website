@@ -43,9 +43,9 @@
     <div class="text-xs text-tprimary-600 mt-1.5">point{poolCount === 1 ? '' : 's'} minted per character so far</div>
   </div>
   <div class="flex flex-col items-center justify-center text-center px-3 py-4 rounded border border-gold-700/30 bg-background-900/50">
-    <div class="text-[0.7rem] font-cinzel uppercase tracking-wider text-tprimary-500 mb-1">Levels Possible</div>
+    <div class="text-[0.7rem] font-cinzel uppercase tracking-wider text-tprimary-500 mb-1">Total Levels Possible</div>
     <div class="text-3xl font-cinzel font-bold text-gold-300 leading-none">{poolCount + STARTING_LEVELS}</div>
-    <div class="text-xs text-tprimary-600 mt-1.5">the most a caught up character could have, including their 2 starting levels</div>
+    <div class="text-xs text-tprimary-600 mt-1.5">2 starting levels, plus every Advancement Pool point earned since</div>
   </div>
   <div class="flex flex-col items-center justify-center text-center px-3 py-4 rounded border border-gold-700/30 bg-background-900/50">
     <div class="text-[0.7rem] font-cinzel uppercase tracking-wider text-tprimary-500 mb-1">Next Point In</div>
