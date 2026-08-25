@@ -1307,7 +1307,7 @@ Harpies do not collect gemstones simply because they are shiny. It is because th
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-red-800/60 to-red-950/80 flex-shrink-0 border border-red-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Qalidran is both the name of the nation and its only city. It sits at the center of the island, made up of four regions: the Inner Palace, the Terrace, the Gardens, and the Slums.</p>
+    <p>Qalidran is both the name of the nation and its only city. It sits at the center of the island, made up of four regions: the Inner Palace, the Terrace, the Gardens, and the Fringes.</p>
     <p>The distance between a vampire and the Progenitor informs two things: their political power in Qalidran and their might as a vampire. The closer one is to the Progenitor, the more powerful their magic and the strain of their vampirism.</p>
     <p><em><strong>[Please note that player vampires may not be closer than 4th generation. There are at least three vampires between you and the Progenitor!]</strong></em></p>
     <p>Qalidran relies on barter systems. They trade for tools, fabric, and gold. Blood is given to all who call it home on a regular basis. The higher your social standing, the purer the blood you are supplied. However, even those at the lowest rungs of the social ladder never go hungry. Access to blood is considered a right, one guaranteed by the laws of the land.</p>
