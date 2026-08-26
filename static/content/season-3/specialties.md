@@ -100,7 +100,7 @@ speak, at least for a time.
 
 ## What You Can Do
 
-- Animate dead matter by imprinting it with magical energy saturated with basic
+- Animate non-living matter by imprinting it with magical energy saturated with basic
   instructions and intent.
 - Compel the mental fragments of the dead to manifest and interact, drawing on
   the residual imprint of their will and memory.
