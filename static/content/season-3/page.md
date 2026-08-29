@@ -129,14 +129,16 @@ have, instead of making you wait on the clock.
 
 If you started late, took a break, or dropped a specialty and started fresh,
 you're not locked out of the season. You can burn through banked points faster
-than the normal 10 day pace, but only one rank up total can happen per calendar
-day, on any specialty, so catching up is quick, not instant.
+than the normal 10 day pace, but a specialty can only rank up again after a
+minimum of 3 real days have passed since its last rank-up, so catching up is
+quick, not instant.
 
 - One point per character, minted every 10 days from the season's start.
 - A point is spent the moment you complete a rank's actual requirements, on
   whichever specialty you're working.
-- Rank ups are capped at one per day even with multiple points banked. Catching
-  up means back to back days, not everything at once.
+- A minimum of 3 real days must pass between rank-ups in the same specialty,
+  even with multiple points banked. This limit is per specialty, so different
+  specialties can still rank up on the same day.
 - The counters below always reflect where the season clock actually stands.
 
 <!-- section:dropping-a-specialty -->

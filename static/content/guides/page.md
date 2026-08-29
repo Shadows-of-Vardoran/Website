@@ -512,10 +512,10 @@ There are no separate mandatory requirements. Everything on the list is an optio
 Options are weighted by how much they generate RP for other people, not by how hard or skillful they are:
 
 - <span class="text-accent">1 point</span>: solo options. No other player's involvement or time required.
-- <span class="text-accent">2 points</span>: options that involve or generate RP with another player, without necessarily being for their direct benefit. This is also where the space requirement and cross-specialty collaboration land.
-- <span class="text-accent">3 points</span>: options that specifically create RP for someone else, a commission, a community project, work that only exists because someone else needed it.
+- <span class="text-accent">2 points</span>: options that involve or generate RP with another player, without necessarily being for their direct benefit. This is also where the space requirement, cross-specialty collaboration, and a personal commission or favor for one other person or a small group land.
+- <span class="text-accent">3 points</span>: options that specifically create RP for someone else, work that only exists because someone else needed it. For the crafting and service professions (Blacksmith, Doctor, Architect, Tailor, Alchemy, Ritualism, Engineer, Rancher), this is reserved for a community-scale project rather than a single customer's personal commission, since that already sits at 2 points. For Martial Arts, it's still a scene done specifically for one other player's direct benefit. Magic schools don't have a 3-point tier at all, their list tops out at 2 points.
 
-<span class="text-warm">Only one option, of any kind, can be completed and credited per real calendar day.</span> This applies across your whole list, not per item, you cannot log three different scenes on the same day and cash all three in at once.
+<span class="text-warm">A single RP scene or interaction can only be credited under one option</span>, even if it happens to fit more than one option's definition. If a character seeks you out because of your reputation and that same interaction is also the commission, lesson, or scene being delivered, pick whichever single option best fits and submit under that one, not both. Being sought out for reputation, receiving a lesson, teaching, and the for-another's-benefit option are all still available on their own, they just each need their own separate interaction to draw from.
 
 </details>
 
@@ -526,8 +526,10 @@ Options are weighted by how much they generate RP for other people, not by how h
 
 Documentation scales in the opposite direction of how many other people were involved, on purpose. Solo options ask for heavier journaling, since there's no other player around to corroborate what happened. Options involving another player only need light proof it happened, since the point of weighting them higher is to get people RPing together, not to hand out more paperwork for doing the social thing.
 
+Write-ups can be written out of character. You don't have to write them in your character's voice or as in-fiction prose. A plain, clear description of what happened is fine.
+
 - Solo options: a full written scene or reflection, length specified per option.
-- Options involving another player: 2 to 3 sentences describing what happened, plus proof, a screenshot, an RP log excerpt, or the other player confirming it.
+- Options involving another player: 2 to 3 sentences describing what happened, plus proof, either a screenshot or the other player commenting on your journal entry to confirm it happened.
 
 Each option on a specialty's list states its own point value and exact documentation requirement.
 
@@ -555,6 +557,8 @@ The space option that appears on every specialty's master list follows the same 
 
 Whenever you claim the teaching option or the receiving-a-lesson option, the higher-ranked party in that exchange must actually outrank the other person's current rank in that specialty. A fellow Aspiring teaching another Aspiring is peer collaboration, not instruction, and doesn't qualify for either option. This applies at every rank.
 
+A teaching scene is credited once per scene, no matter how many students attend. Teaching a class of ten players is still a single instance of the option, worth its listed points one time, not multiplied by the number of students. Repeatable means you can teach again on a separate occasion for separate credit, not that one scene pays out per attendee.
+
 </details>
 
 ## The Submission Process
@@ -581,7 +585,7 @@ A tier advancement requires a <span class="text-accent">checkpoint</span>. The m
 
 > [!EXAMPLE] You reach <span class="text-accent">Blood Magic 1</span> on day 0. That is Blood Magic's checkpoint. Any option you complete from day 0 onward can count toward Blood Magic 2's point total, no matter how much later you actually spend a banked rank-up to claim it. Once Blood Magic 2 is granted, that becomes the new checkpoint, and anything you completed before that grant, even during that same stretch, no longer counts toward Blood Magic 3. Only options completed after the new checkpoint do.
 
-Rank-ups themselves are paid for out of your <span class="text-warm">Advancement Pool</span>. See the Advancement Pool on the [Season 3 page](/season-3#specialties) for how those are earned, spent, and capped at one rank-up per day. The one-option-per-day cap above governs how fast you can earn progress toward a rank. The Advancement Pool's one-rank-up-per-day cap governs how fast you can cash in banked rank-ups once you qualify. They are separate limits.
+Rank-ups themselves are paid for out of your <span class="text-warm">Advancement Pool</span>. See the Advancement Pool on the [Season 3 page](/season-3#specialties) for how those are earned and spent. <span class="text-warm">A specialty can only rank up again after a minimum of 3 real days have passed since its last rank-up.</span> This limit is per specialty. Different specialties can rank up on the same day. It's just the same specialty that needs 3 days between its own rank-ups.
 
 </details>
 

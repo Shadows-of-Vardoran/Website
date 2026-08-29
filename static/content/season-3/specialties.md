@@ -53,7 +53,7 @@ and practice like any other school of magic.
   [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
 
 <!-- section:blood-magic-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-red-800/60 px-4 py-3">
   <div class="flex justify-between">
@@ -70,14 +70,14 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-red-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-red-800/50 to-black/80 flex-shrink-0 border border-red-800/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-red-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 3 paragraphs</div>
-    <div class="text-tprimary-100">A solo RP scene of your character manipulating the life force of another being, for an in-story reason.</div>
+    <div class="text-tprimary-100">A solo RP scene of your character using blood magic to manipulate life force, for an in-story reason.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -98,7 +98,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-red-800/50 to-black/80 flex-shrink-0 border border-red-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-red-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character manipulating the life force of another being, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character using blood magic, with another player present.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -112,7 +112,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-red-800/50 to-black/80 flex-shrink-0 border border-red-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-red-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about blood magic.</div>
+    <div class="text-tprimary-100">Teach another player about blood magic. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -126,7 +126,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-red-800/50 to-black/80 flex-shrink-0 border border-red-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-red-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where blood magic is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where blood magic is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -153,13 +153,6 @@ This is the list of options available at every rank. The same list is used for a
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-red-800/50 to-black/80 flex-shrink-0 border border-red-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
-    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-red-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character manipulating the life force of another being, specifically for another player's benefit, healing them or transferring life force to help them.</div>
-  </div>
-</div>
-<div class="flex gap-3 mb-2">
-  <div class="w-2 rounded bg-gradient-to-b from-red-800/50 to-black/80 flex-shrink-0 border border-red-800/60"></div>
-  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-red-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
     <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for blood magic.</div>
   </div>
@@ -217,7 +210,7 @@ speak, at least for a time.
   [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
 
 <!-- section:unholy-magic-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-green-800/60 px-4 py-3">
   <div class="flex justify-between">
@@ -234,14 +227,14 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-green-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 3 paragraphs</div>
-    <div class="text-tprimary-100">A solo RP scene of your character imposing their will onto raw magic, or compelling a mental fragment to manifest, for an in-story reason.</div>
+    <div class="text-tprimary-100">A solo RP scene of your character using unholy magic to compel a mental fragment to manifest, for an in-story reason.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -262,7 +255,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character imposing their will onto raw magic, or compelling a mental fragment to manifest, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character using unholy magic, with another player present.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -276,7 +269,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about unholy magic.</div>
+    <div class="text-tprimary-100">Teach another player about unholy magic. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -290,7 +283,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where unholy magic is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where unholy magic is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -317,13 +310,6 @@ This is the list of options available at every rank. The same list is used for a
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
-    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character imposing their will onto raw magic, or compelling a mental fragment to manifest, specifically for another player's benefit, compelling a fragment to answer something they need, or drawing on saturated energy for a working they need.</div>
-  </div>
-</div>
-<div class="flex gap-3 mb-2">
-  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
-  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
     <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for unholy magic.</div>
   </div>
@@ -337,6 +323,7 @@ This is the list of options available at every rank. The same list is used for a
 </div>
 
 <!-- section:storm-magic -->
+<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-yellow-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-yellow-500 block mb-1">Restriction</span><span class="text-base text-tprimary-50">Mytts may take either Storm or Frost magic, but not both.</span></div>
 
 Storm magic is the school of concentrated energy. It uses magical energy to
 manipulate mundane energy or magical energy, gathering and focusing it against
@@ -379,7 +366,7 @@ energy flows through a working is as important as the working itself.
   [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
 
 <!-- section:storm-magic-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-yellow-900/60 px-4 py-3">
   <div class="flex justify-between">
@@ -396,14 +383,14 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-yellow-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 3 paragraphs</div>
-    <div class="text-tprimary-100">A solo RP scene of your character concentrating and directing raw magical energy, for an in-story reason.</div>
+    <div class="text-tprimary-100">A solo RP scene of your character using storm magic to summon and direct lightning, for an in-story reason.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -424,7 +411,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character concentrating and directing raw magical energy, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character using storm magic, with another player present.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -438,7 +425,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about storm magic.</div>
+    <div class="text-tprimary-100">Teach another player about storm magic. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -452,7 +439,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where storm magic is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where storm magic is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -479,13 +466,6 @@ This is the list of options available at every rank. The same list is used for a
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
-    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character concentrating and directing raw magical energy, specifically for another player's benefit, powering a working they need done.</div>
-  </div>
-</div>
-<div class="flex gap-3 mb-2">
-  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
-  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
     <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for storm magic.</div>
   </div>
@@ -499,6 +479,7 @@ This is the list of options available at every rank. The same list is used for a
 </div>
 
 <!-- section:frost-magic -->
+<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-cyan-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-cyan-500 block mb-1">Restriction</span><span class="text-base text-tprimary-50">Mytts may take either Storm or Frost magic, but not both.</span></div>
 
 Frost magic is the school of energy depletion. It uses magical energy to
 manipulate mundane energy or magical energy, removing it from a target or area
@@ -544,7 +525,7 @@ energy.
   [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
 
 <!-- section:frost-magic-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-cyan-900/60 px-4 py-3">
   <div class="flex justify-between">
@@ -561,14 +542,14 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-cyan-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-cyan-800/50 to-black/80 flex-shrink-0 border border-cyan-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-cyan-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 3 paragraphs</div>
-    <div class="text-tprimary-100">A solo RP scene of your character removing energy from a target or area to create cold or ice, for an in-story reason.</div>
+    <div class="text-tprimary-100">A solo RP scene of your character using frost magic to draw heat from a target or area, creating cold or ice, for an in-story reason.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -589,7 +570,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-cyan-800/50 to-black/80 flex-shrink-0 border border-cyan-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-cyan-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character removing energy from a target or area to create cold or ice, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character using frost magic, with another player present.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -603,7 +584,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-cyan-800/50 to-black/80 flex-shrink-0 border border-cyan-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-cyan-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about frost magic.</div>
+    <div class="text-tprimary-100">Teach another player about frost magic. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -617,7 +598,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-cyan-800/50 to-black/80 flex-shrink-0 border border-cyan-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-cyan-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where frost magic is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where frost magic is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -644,13 +625,6 @@ This is the list of options available at every rank. The same list is used for a
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-cyan-800/50 to-black/80 flex-shrink-0 border border-cyan-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
-    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-cyan-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character removing energy from a target or area to create cold or ice, specifically for another player's benefit, building an ice structure or working they need.</div>
-  </div>
-</div>
-<div class="flex gap-3 mb-2">
-  <div class="w-2 rounded bg-gradient-to-b from-cyan-800/50 to-black/80 flex-shrink-0 border border-cyan-900/60"></div>
-  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-cyan-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
     <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for frost magic.</div>
   </div>
@@ -664,7 +638,7 @@ This is the list of options available at every rank. The same list is used for a
 </div>
 
 <!-- section:illusion-magic -->
-<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-teal-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-teal-500 block mb-1">Restriction</span><span class="text-base text-tprimary-50">Incompatible with Elemental and Druidic magic.</span></div>
+<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-teal-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-teal-500 block mb-1">Restriction</span><span class="text-base text-tprimary-50">Incompatible with Elemental and Druidic magic.<br>Mytts may take either Chaos or Illusion magic, but not both.</span></div>
 
 Illusion magic is the school of creation through comprehension. It manifests
 anything the practitioner truly understands, and the limit is never power but
@@ -708,7 +682,7 @@ is never exactly what it is, and that gap is always visible in the work.
   [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
 
 <!-- section:illusion-magic-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-teal-900/60 px-4 py-3">
   <div class="flex justify-between">
@@ -725,14 +699,14 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-teal-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-teal-800/50 to-black/80 flex-shrink-0 border border-teal-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-teal-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 3 paragraphs</div>
-    <div class="text-tprimary-100">A solo RP scene of your character manifesting something they comprehend, for an in-story reason.</div>
+    <div class="text-tprimary-100">A solo RP scene of your character using illusion magic to manifest something they comprehend, for an in-story reason.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -753,7 +727,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-teal-800/50 to-black/80 flex-shrink-0 border border-teal-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-teal-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character manifesting something they comprehend, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character using illusion magic, with another player present.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -767,7 +741,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-teal-800/50 to-black/80 flex-shrink-0 border border-teal-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-teal-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about illusion magic.</div>
+    <div class="text-tprimary-100">Teach another player about illusion magic. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -781,7 +755,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-teal-800/50 to-black/80 flex-shrink-0 border border-teal-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-teal-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where illusion magic is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where illusion magic is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -808,13 +782,6 @@ This is the list of options available at every rank. The same list is used for a
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-teal-800/50 to-black/80 flex-shrink-0 border border-teal-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
-    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-teal-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character manifesting something they comprehend, specifically for another player's benefit, manifesting something they need.</div>
-  </div>
-</div>
-<div class="flex gap-3 mb-2">
-  <div class="w-2 rounded bg-gradient-to-b from-teal-800/50 to-black/80 flex-shrink-0 border border-teal-900/60"></div>
-  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-teal-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
     <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for illusion magic.</div>
   </div>
@@ -828,7 +795,7 @@ This is the list of options available at every rank. The same list is used for a
 </div>
 
 <!-- section:chaos-magic -->
-<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-purple-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-purple-500 block mb-1">Restriction</span><span class="text-base text-tprimary-50">Incompatible with Elemental and Druidic magic.</span></div>
+<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-purple-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-purple-500 block mb-1">Restriction</span><span class="text-base text-tprimary-50">Incompatible with Elemental and Druidic magic.<br>Mytts may take either Chaos or Illusion magic, but not both.</span></div>
 
 Chaos magic is the school of unmaking. Its operative effect is erasure. Things
 subject to chaos magic stop existing entirely, with no residue or remnant left
@@ -869,7 +836,7 @@ accordingly.
   [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
 
 <!-- section:chaos-magic-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-chaos-700/60 px-4 py-3">
   <div class="flex justify-between">
@@ -886,14 +853,14 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-chaos-300">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-chaos-700/50 to-black/80 flex-shrink-0 border border-chaos-700/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chaos-300">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 3 paragraphs</div>
-    <div class="text-tprimary-100">A solo RP scene of your character unmaking something, for an in-story reason.</div>
+    <div class="text-tprimary-100">A solo RP scene of your character using chaos magic to unmake something, for an in-story reason.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -914,7 +881,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-chaos-700/50 to-black/80 flex-shrink-0 border border-chaos-700/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chaos-300">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character unmaking something, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character using chaos magic, with another player present.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -928,7 +895,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-chaos-700/50 to-black/80 flex-shrink-0 border border-chaos-700/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chaos-300">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about chaos magic.</div>
+    <div class="text-tprimary-100">Teach another player about chaos magic. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -942,7 +909,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-chaos-700/50 to-black/80 flex-shrink-0 border border-chaos-700/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chaos-300">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where chaos magic is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where chaos magic is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -969,13 +936,6 @@ This is the list of options available at every rank. The same list is used for a
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-chaos-700/50 to-black/80 flex-shrink-0 border border-chaos-700/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
-    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chaos-300">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character unmaking something, specifically for another player's benefit, erasing something on their behalf.</div>
-  </div>
-</div>
-<div class="flex gap-3 mb-2">
-  <div class="w-2 rounded bg-gradient-to-b from-chaos-700/50 to-black/80 flex-shrink-0 border border-chaos-700/60"></div>
-  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chaos-300">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
     <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for chaos magic.</div>
   </div>
@@ -989,7 +949,7 @@ This is the list of options available at every rank. The same list is used for a
 </div>
 
 <!-- section:light-magic -->
-<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-yellow-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-yellow-500 block mb-1">Restriction</span><span class="text-base text-tprimary-50">Incompatible with Elemental and Druidic magic.</span></div>
+<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-yellow-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-yellow-500 block mb-1">Restriction</span><span class="text-base text-tprimary-50">Incompatible with Elemental and Druidic magic.<br>Mytts may take either Light or Shadow magic, but not both.</span></div>
 
 Light magic is the school of truth. It reveals and restores the true state of
 things, and those two functions are the same thing seen from different angles.
@@ -1035,7 +995,7 @@ that natural limitation is the school's ceiling.
   [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
 
 <!-- section:light-magic-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-yellow-900/60 px-4 py-3">
   <div class="flex justify-between">
@@ -1052,14 +1012,14 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-yellow-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 3 paragraphs</div>
-    <div class="text-tprimary-100">A solo RP scene of your character revealing or restoring the true state of something, for an in-story reason.</div>
+    <div class="text-tprimary-100">A solo RP scene of your character using light magic to reveal or restore the true state of something, for an in-story reason.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1080,7 +1040,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character revealing or restoring the true state of something, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character using light magic, with another player present.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1094,7 +1054,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about light magic.</div>
+    <div class="text-tprimary-100">Teach another player about light magic. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1108,7 +1068,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where light magic is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where light magic is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1135,13 +1095,6 @@ This is the list of options available at every rank. The same list is used for a
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
-    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character revealing or restoring the true state of something, specifically for another player's benefit, healing them or revealing something hidden they need to see.</div>
-  </div>
-</div>
-<div class="flex gap-3 mb-2">
-  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
-  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
     <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for light magic.</div>
   </div>
@@ -1155,7 +1108,7 @@ This is the list of options available at every rank. The same list is used for a
 </div>
 
 <!-- section:shadow-magic -->
-<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-gray-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-gray-500 block mb-1">Restriction</span><span class="text-base text-tprimary-50">Incompatible with Elemental and Druidic magic.</span></div>
+<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-gray-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-gray-500 block mb-1">Restriction</span><span class="text-base text-tprimary-50">Incompatible with Elemental and Druidic magic.<br>Mytts may take either Light or Shadow magic, but not both.</span></div>
 
 Shadow magic is the school of concealment and corruption. It hides what
 something truly is and warps it away from its true state, and those two
@@ -1199,7 +1152,7 @@ school's natural ceiling.
   [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
 
 <!-- section:shadow-magic-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-gray-900/60 px-4 py-3">
   <div class="flex justify-between">
@@ -1216,14 +1169,14 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-gray-400">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-gray-800/50 to-black/80 flex-shrink-0 border border-gray-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-gray-400">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 3 paragraphs</div>
-    <div class="text-tprimary-100">A solo RP scene of your character concealing or corrupting the true state of something, for an in-story reason.</div>
+    <div class="text-tprimary-100">A solo RP scene of your character using shadow magic to conceal or corrupt the true state of something, for an in-story reason.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1244,7 +1197,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-gray-800/50 to-black/80 flex-shrink-0 border border-gray-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-gray-400">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character concealing or corrupting the true state of something, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character using shadow magic, with another player present.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1258,7 +1211,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-gray-800/50 to-black/80 flex-shrink-0 border border-gray-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-gray-400">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about shadow magic.</div>
+    <div class="text-tprimary-100">Teach another player about shadow magic. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1272,7 +1225,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-gray-800/50 to-black/80 flex-shrink-0 border border-gray-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-gray-400">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where shadow magic is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where shadow magic is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1299,13 +1252,6 @@ This is the list of options available at every rank. The same list is used for a
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-gray-800/50 to-black/80 flex-shrink-0 border border-gray-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
-    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-gray-400">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character concealing or corrupting the true state of something, specifically for another player's benefit, concealing something they need hidden.</div>
-  </div>
-</div>
-<div class="flex gap-3 mb-2">
-  <div class="w-2 rounded bg-gradient-to-b from-gray-800/50 to-black/80 flex-shrink-0 border border-gray-900/60"></div>
-  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-gray-400">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
     <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for shadow magic.</div>
   </div>
@@ -1366,7 +1312,7 @@ from scratch.
   [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
 
 <!-- section:elemental-magic-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-orange-800/60 px-4 py-3">
   <div class="flex justify-between">
@@ -1383,14 +1329,14 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-orange-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-orange-800/50 to-black/80 flex-shrink-0 border border-orange-800/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-orange-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 3 paragraphs</div>
-    <div class="text-tprimary-100">A solo RP scene of your character directing an elemental force, fire, water, earth, wind, or lightning, for an in-story reason.</div>
+    <div class="text-tprimary-100">A solo RP scene of your character using elemental magic to direct an elemental force, fire, water, earth, wind, or lightning, for an in-story reason.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1411,7 +1357,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-orange-800/50 to-black/80 flex-shrink-0 border border-orange-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-orange-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character directing an elemental force, fire, water, earth, wind, or lightning, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character using elemental magic, with another player present.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1425,7 +1371,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-orange-800/50 to-black/80 flex-shrink-0 border border-orange-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-orange-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about elemental magic.</div>
+    <div class="text-tprimary-100">Teach another player about elemental magic. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1439,7 +1385,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-orange-800/50 to-black/80 flex-shrink-0 border border-orange-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-orange-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where elemental magic is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where elemental magic is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1466,13 +1412,6 @@ This is the list of options available at every rank. The same list is used for a
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-orange-800/50 to-black/80 flex-shrink-0 border border-orange-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
-    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-orange-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character directing an elemental force, fire, water, earth, wind, or lightning, specifically for another player's benefit, producing an elemental effect they need.</div>
-  </div>
-</div>
-<div class="flex gap-3 mb-2">
-  <div class="w-2 rounded bg-gradient-to-b from-orange-800/50 to-black/80 flex-shrink-0 border border-orange-800/60"></div>
-  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-orange-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
     <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for elemental magic.</div>
   </div>
@@ -1535,7 +1474,7 @@ replicate.
   [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
 
 <!-- section:druidic-magic-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-green-800/60 px-4 py-3">
   <div class="flex justify-between">
@@ -1552,14 +1491,14 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-green-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 3 paragraphs</div>
-    <div class="text-tprimary-100">A solo RP scene of your character encouraging, shaping, or communing with a natural or living process, for an in-story reason.</div>
+    <div class="text-tprimary-100">A solo RP scene of your character using druidic magic to encourage, shape, or commune with a natural or living process, for an in-story reason.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1580,7 +1519,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character encouraging, shaping, or communing with a natural or living process, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character using druidic magic, with another player present.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1594,7 +1533,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about druidic magic.</div>
+    <div class="text-tprimary-100">Teach another player about druidic magic. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1608,7 +1547,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where druidic magic is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where druidic magic is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1635,13 +1574,6 @@ This is the list of options available at every rank. The same list is used for a
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
-    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character encouraging, shaping, or communing with a natural or living process, specifically for another player's benefit, tending or communing with something on their behalf.</div>
-  </div>
-</div>
-<div class="flex gap-3 mb-2">
-  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
-  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
     <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for druidic magic.</div>
   </div>
@@ -1685,7 +1617,7 @@ magics and the tools to push them beyond their ordinary limits.
   heart and stacks on top of the base heart tier limit.
 
 <!-- section:architect-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-slate-900/60 px-4 py-3">
   <div class="flex justify-between">
@@ -1702,7 +1634,7 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-slate-400">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
@@ -1730,7 +1662,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-slate-900/60 to-black/80 flex-shrink-0 border border-slate-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-slate-400">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character designing or constructing something, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character designing or constructing something, with another player present, such as a project designed or built for one other person or a small group.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1744,7 +1676,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-slate-900/60 to-black/80 flex-shrink-0 border border-slate-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-slate-400">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about architecture.</div>
+    <div class="text-tprimary-100">Teach another player about architecture. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1758,7 +1690,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-slate-900/60 to-black/80 flex-shrink-0 border border-slate-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-slate-400">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where architecture is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where architecture is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1779,7 +1711,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-slate-900/60 to-black/80 flex-shrink-0 border border-slate-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-slate-400">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character designing or constructing something, specifically for another player's benefit, a project designed or built for their character, or for community use.</div>
+    <div class="text-tprimary-100">An RP scene of your character designing or building a project for community use.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1832,7 +1764,7 @@ workplace. It is where intention meets metal.
   syntax and usage.
 
 <!-- section:blacksmith-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-amber-800/60 px-4 py-3">
   <div class="flex justify-between">
@@ -1849,7 +1781,7 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-amber-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
@@ -1877,7 +1809,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-amber-800/50 to-black/80 flex-shrink-0 border border-amber-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-amber-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character shaping raw metal into something, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character shaping raw metal into something, with another player present, such as a commission or repair made for one customer.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1891,7 +1823,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-amber-800/50 to-black/80 flex-shrink-0 border border-amber-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-amber-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about blacksmithing.</div>
+    <div class="text-tprimary-100">Teach another player about blacksmithing. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1905,7 +1837,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-amber-800/50 to-black/80 flex-shrink-0 border border-amber-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-amber-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where blacksmithing is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where blacksmithing is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1926,7 +1858,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-amber-800/50 to-black/80 flex-shrink-0 border border-amber-800/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-amber-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character shaping raw metal into something, specifically for another player's benefit, a commission or repair made for their character.</div>
+    <div class="text-tprimary-100">An RP scene of your character arming or repairing a group or community effort, not a single customer's personal commission.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1946,8 +1878,8 @@ This is the list of options available at every rank. The same list is used for a
 <div class="flex gap-3 mb-2">
   <div class="w-2 rounded bg-gradient-to-b from-amber-800/50 to-black/80 flex-shrink-0 border border-amber-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
-    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-amber-500">Worth 3 points</span> &middot; <span class="text-amber-500">Usable once</span></div>
-    <div class="text-tprimary-100">Forge a grand total of 10 custom weapons for other players across your entire blacksmithing career, each with a journaled description of the product and the process. Counts cumulatively from Novice onward rather than needing to happen after your current rank's checkpoint.</div>
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-amber-500">Worth 3 points</span> &middot; <span class="text-amber-500">Usable once</span> &middot; Write-up: a journaled description of the product and the process for each weapon, 2 to 3 sentences per weapon</div>
+    <div class="text-tprimary-100">Forge a grand total of 10 custom weapons for other players across your entire blacksmithing career. Counts cumulatively from Novice onward rather than needing to happen after your current rank's checkpoint.</div>
   </div>
 </div>
 
@@ -1979,7 +1911,7 @@ well-cut cloak.
   the [Tailoring Commands](#cmd-tailoring) section for command syntax and usage.
 
 <!-- section:tailor-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-rose-900/60 px-4 py-3">
   <div class="flex justify-between">
@@ -1996,7 +1928,7 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-rose-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
@@ -2024,7 +1956,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-rose-800/50 to-black/80 flex-shrink-0 border border-rose-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-rose-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character crafting a garment, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character crafting a garment, with another player present, such as a commission made for one customer.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2038,7 +1970,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-rose-800/50 to-black/80 flex-shrink-0 border border-rose-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-rose-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about tailoring.</div>
+    <div class="text-tprimary-100">Teach another player about tailoring. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2052,7 +1984,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-rose-800/50 to-black/80 flex-shrink-0 border border-rose-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-rose-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where tailoring is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where tailoring is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2073,7 +2005,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-rose-800/50 to-black/80 flex-shrink-0 border border-rose-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-rose-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character crafting a garment, specifically for another player's benefit, a commission made for their character.</div>
+    <div class="text-tprimary-100">An RP scene of your character outfitting a group or community effort, not a single customer's personal commission.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2119,7 +2051,7 @@ things are becomes the power to change what they do.
   [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
 
 <!-- section:alchemy-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-emerald-900/60 px-4 py-3">
   <div class="flex justify-between">
@@ -2136,7 +2068,7 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-emerald-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
@@ -2164,7 +2096,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-emerald-800/50 to-black/80 flex-shrink-0 border border-emerald-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-emerald-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character preparing a reagent or compound, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character preparing a reagent or compound, with another player present, such as a preparation made for one customer.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2178,7 +2110,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-emerald-800/50 to-black/80 flex-shrink-0 border border-emerald-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-emerald-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about alchemy.</div>
+    <div class="text-tprimary-100">Teach another player about alchemy. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2192,7 +2124,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-emerald-800/50 to-black/80 flex-shrink-0 border border-emerald-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-emerald-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where alchemy is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where alchemy is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2213,7 +2145,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-emerald-800/50 to-black/80 flex-shrink-0 border border-emerald-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-emerald-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character preparing a reagent or compound, specifically for another player's benefit, a preparation made for their character.</div>
+    <div class="text-tprimary-100">An RP scene of your character preparing a batch for a group or community need, not a single customer's personal order.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2269,7 +2201,7 @@ makes it burn brighter.
   enhance ritual scenes.
 
 <!-- section:ritualism-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-purple-900/60 px-4 py-3">
   <div class="flex justify-between">
@@ -2286,7 +2218,7 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-purple-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
@@ -2314,7 +2246,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-purple-900/60 to-black/80 flex-shrink-0 border border-purple-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-purple-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character constructing a ritual's structure, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character constructing a ritual's structure, with another player present, such as structuring or assisting a working for one person or a small group.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2328,7 +2260,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-purple-900/60 to-black/80 flex-shrink-0 border border-purple-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-purple-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about ritualism.</div>
+    <div class="text-tprimary-100">Teach another player about ritualism. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2342,7 +2274,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-purple-900/60 to-black/80 flex-shrink-0 border border-purple-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-purple-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where ritualism is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where ritualism is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2363,7 +2295,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-purple-900/60 to-black/80 flex-shrink-0 border border-purple-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-purple-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character constructing a ritual's structure, specifically for another player's benefit, structuring or assisting a working they need done.</div>
+    <div class="text-tprimary-100">An RP scene of your character structuring or assisting a working done for the community's benefit, not one person's request.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2409,7 +2341,7 @@ martial artist reaches inward.
   [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
 
 <!-- section:martial-arts-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-red-800/60 px-4 py-3">
   <div class="flex justify-between">
@@ -2426,7 +2358,7 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-red-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
@@ -2468,7 +2400,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-red-800/50 to-black/80 flex-shrink-0 border border-red-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-red-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about martial arts.</div>
+    <div class="text-tprimary-100">Teach another player about martial arts. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2482,7 +2414,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-red-800/50 to-black/80 flex-shrink-0 border border-red-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-red-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where martial arts is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where martial arts is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2503,7 +2435,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-red-800/50 to-black/80 flex-shrink-0 border border-red-800/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-red-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character training, sparring, or fighting, specifically for another player's benefit, sparring with or training them directly.</div>
+    <div class="text-tprimary-100">An RP scene of your character sparring with or training another player directly.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2559,7 +2491,7 @@ potion is not being a doctor. The specialty exists because the work demands it.
 - Expend material requirements to restore another person's blood pool amount.
 
 <!-- section:doctor-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-lime-900/60 px-4 py-3">
   <div class="flex justify-between">
@@ -2576,7 +2508,7 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-lime-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
@@ -2604,7 +2536,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-lime-800/50 to-black/80 flex-shrink-0 border border-lime-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-lime-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character providing genuine medical care, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character providing genuine medical care, with another player present, such as treating one patient's injury or illness.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2618,7 +2550,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-lime-800/50 to-black/80 flex-shrink-0 border border-lime-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-lime-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about medicine.</div>
+    <div class="text-tprimary-100">Teach another player about medicine. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2632,7 +2564,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-lime-800/50 to-black/80 flex-shrink-0 border border-lime-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-lime-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where medicine is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where medicine is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2653,7 +2585,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-lime-800/50 to-black/80 flex-shrink-0 border border-lime-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-lime-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character providing genuine medical care, specifically for another player's benefit, treating their character's injury or illness.</div>
+    <div class="text-tprimary-100">An RP scene of your character treating a group or community-wide need, such as an outbreak or mass injury event, not a single patient's case.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2704,7 +2636,7 @@ what they can build with them.
   command syntax and usage.
 
 <!-- section:engineer-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-blue-900/60 px-4 py-3">
   <div class="flex justify-between">
@@ -2721,7 +2653,7 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-blue-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
@@ -2749,7 +2681,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-blue-800/50 to-black/80 flex-shrink-0 border border-blue-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-blue-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character building or assembling a device or mechanism, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character building or assembling a device or mechanism, with another player present, such as a device or component built for one person's request.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2763,7 +2695,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-blue-800/50 to-black/80 flex-shrink-0 border border-blue-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-blue-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about engineering.</div>
+    <div class="text-tprimary-100">Teach another player about engineering. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2777,7 +2709,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-blue-800/50 to-black/80 flex-shrink-0 border border-blue-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-blue-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where engineering is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where engineering is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2798,7 +2730,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-blue-800/50 to-black/80 flex-shrink-0 border border-blue-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-blue-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character building or assembling a device or mechanism, specifically for another player's benefit, a device or component built for their use or request.</div>
+    <div class="text-tprimary-100">An RP scene of your character building a device or system for community use, not one person's personal request.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2881,7 +2813,7 @@ the harvest and the land gives back more for it.
   command syntax and usage.
 
 <!-- section:rancher-leveling -->
-This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
 
 <div class="mb-4 rounded-lg bg-background-800/60 border border-chartreuse-900/60 px-4 py-3">
   <div class="flex justify-between">
@@ -2898,7 +2830,7 @@ This is the list of options available at every rank. The same list is used for a
       <div class="text-lg font-bold text-chartreuse-500">10 points required</div>
     </div>
   </div>
-  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before.</div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
 </div>
 
 <div class="flex gap-3 mb-2">
@@ -2926,7 +2858,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-chartreuse-800/50 to-black/80 flex-shrink-0 border border-chartreuse-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chartreuse-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
-    <div class="text-tprimary-100">An RP scene of your character capturing, tending, or harvesting for your ranch, with another player present.</div>
+    <div class="text-tprimary-100">An RP scene of your character capturing, tending, or harvesting for your ranch, with another player present, such as a captured creature or its yield given to one customer.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2940,7 +2872,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-chartreuse-800/50 to-black/80 flex-shrink-0 border border-chartreuse-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chartreuse-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">Teach another player about ranching.</div>
+    <div class="text-tprimary-100">Teach another player about ranching. This is credited once per scene, no matter how many players you're teaching at once.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2954,7 +2886,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-chartreuse-800/50 to-black/80 flex-shrink-0 border border-chartreuse-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chartreuse-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
-    <div class="text-tprimary-100">A scene or activity where ranching is used alongside a genuinely different specialty, in a collaborative fashion.</div>
+    <div class="text-tprimary-100">A scene or activity where ranching is used alongside a different specialty, in a collaborative fashion.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2982,7 +2914,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-chartreuse-800/50 to-black/80 flex-shrink-0 border border-chartreuse-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chartreuse-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
-    <div class="text-tprimary-100">An RP scene of your character capturing, tending, or harvesting for your ranch, specifically for another player's benefit, a captured creature or its yield given to them.</div>
+    <div class="text-tprimary-100">An RP scene of your character giving captured stock or yield to the community at large, not a single customer's personal order.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
