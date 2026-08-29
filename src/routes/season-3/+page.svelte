@@ -35,6 +35,7 @@
     { id: 'playable-races', label: 'Playable Races' },
     { id: 'citizenship', label: 'Citizenship' },
     { id: 'specialties', label: 'Specialties' },
+    { id: 'magic', label: 'Magic' },
     { id: 'mortality-contract', label: 'Mortality Contract' },
     { id: 'magic-tech-ceiling', label: 'RP Limitations' },
     { id: 'world-particulars', label: 'World Particulars' },
@@ -60,6 +61,7 @@
   let specsTechHtml = $state('');
   let catchUpHtml = $state('');
   let dropSpecialtyHtml = $state('');
+  let magicHtml = $state('');
   let commandSections: Record<string, string> = $state({});
   let commandHtml: Record<string, string> = $state({});
   let activeCommandTab = $state('onboarding');
@@ -173,6 +175,7 @@
     else if (key === 'specialties-tech-details') specsTechHtml = await parse(md);
     else if (key === 'catch-up-mechanic') catchUpHtml = await parse(md);
     else if (key === 'dropping-a-specialty') dropSpecialtyHtml = await parse(md);
+    else if (key === 'magic') magicHtml = await parse(md);
     else if (key === 'world-particulars') worldParticularsHtml = await parse(md);
     else if (key === 'faq') faqHtml = await parse(md);
   }
@@ -343,6 +346,7 @@
       'specialties-tech-details',
       'catch-up-mechanic',
       'dropping-a-specialty',
+      'magic',
       'citizenship',
       'mortality-contract',
       'magic-tech-ceiling',
@@ -1281,7 +1285,23 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 8: Mortality Contract -->
+        <!-- Section 8: Magic -->
+        <section id="magic" class="mb-12 scroll-mt-8">
+          <div class="fade-background-up p-4 rounded-lg">
+            <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Magic</h2>
+            <EditableSection filePath={FILE_PATH} sectionKey="magic" rawContent={sections.magic || ''} onsave={onSectionSave}>
+              {#if magicHtml}
+                {@html magicHtml}
+              {:else}
+                <div class="text-tprimary-500 italic">Magic information coming soon.</div>
+              {/if}
+            </EditableSection>
+          </div>
+        </section>
+
+        <hr class="border-tprimary-900/30 my-6" />
+
+        <!-- Section 9: Mortality Contract -->
         <section id="mortality-contract" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Mortality Contract</h2>
@@ -1297,7 +1317,7 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 9: RP Limitations -->
+        <!-- Section 10: RP Limitations -->
         <section id="magic-tech-ceiling" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">RP Limitations</h2>
@@ -1313,7 +1333,7 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 10: World Particulars -->
+        <!-- Section 11: World Particulars -->
         <section id="world-particulars" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">World Particulars</h2>
@@ -1329,7 +1349,7 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 11: Commands -->
+        <!-- Section 12: Commands -->
         <section id="commands" class="mb-12 scroll-mt-8">
           <div class="fade-background-up px-2 py-4 rounded-lg">
             <div class="flex items-center justify-between gap-3 mb-3">
@@ -1398,7 +1418,7 @@
 
         <hr class="border-tprimary-900/30 my-6" />
 
-        <!-- Section 12: FAQ -->
+        <!-- Section 13: FAQ -->
         <section id="faq" class="mb-12 scroll-mt-8">
           <div class="fade-background-up p-4 rounded-lg">
             <h2 class="text-3xl max-md:text-2xl font-cinzel font-bold text-tprimary mb-3">Frequently Asked Questions</h2>
