@@ -513,7 +513,7 @@ Options are weighted by how much they generate RP for other people, not by how h
 
 - <span class="text-accent">1 point</span>: solo options. No other player's involvement or time required.
 - <span class="text-accent">2 points</span>: options that involve or generate RP with another player, without necessarily being for their direct benefit. This is also where the space requirement, cross-specialty collaboration, and a personal commission or favor for one other person or a small group land.
-- <span class="text-accent">3 points</span>: options that specifically create RP for someone else, work that only exists because someone else needed it. For the crafting and service professions (Blacksmith, Doctor, Architect, Tailor, Alchemy, Ritualism, Engineer, Rancher), this is reserved for a community-scale project rather than a single customer's personal commission, since that already sits at 2 points. For Martial Arts, it's still a scene done specifically for one other player's direct benefit. Magic schools don't have a 3-point tier at all, their list tops out at 2 points.
+- <span class="text-accent">3 points</span>: options that specifically create RP with other people or engage in RPO tickets for complex projects.
 
 <span class="text-warm">A single RP scene or interaction can only be credited under one option</span>, even if it happens to fit more than one option's definition. If a character seeks you out because of your reputation and that same interaction is also the commission, lesson, or scene being delivered, pick whichever single option best fits and submit under that one, not both. Being sought out for reputation, receiving a lesson, teaching, and the for-another's-benefit option are all still available on their own, they just each need their own separate interaction to draw from.
 
@@ -568,11 +568,9 @@ A teaching scene is credited once per scene, no matter how many students attend.
 
 1. Review your specialty's master list and pick the options you want to complete.
 2. RP the scenes, or complete the activity, and journal or otherwise document each one per its own requirements.
-3. Submit an RPO ticket containing your documented evidence, linking each option to the corresponding proof.
-4. The RPO team reviews your submission.
+3. Submit a Specialties ticket containing your documented evidence, linking each option to the corresponding proof.
+4. The Specialties team reviews your submission.
 5. Once your point total clears the threshold for the rank you're going for, and you have a banked Advancement Pool rank-up available, your specialty ranks up and the ticket is closed.
-
-Refer to the [RPO Ticket Guidelines](/guides) for details on how to write and submit RPO tickets.
 
 </details>
 
