@@ -479,7 +479,7 @@ In some cases, depending on how dangerous the ritual is, the ritual might still 
 
 <!-- guide:specialty-leveling -->
 <!-- title: Specialty Leveling Guide -->
-<!-- description: How specialty leveling works, the requirements, and the submission process. -->
+<!-- description: How specialty leveling works, the point menu system, and the submission process. -->
 <!-- content -->
 
 # Specialty Leveling
@@ -487,31 +487,73 @@ In some cases, depending on how dangerous the ritual is, the ritual might still 
 <details open>
 <summary>Click to expand or collapse</summary>
 
-Specialties have three ranks. Advancing from one rank to the next requires completing a set of published requirements and submitting them for review.
+Specialties have three ranks. Advancing from one rank to the next means picking options off that specialty's master list until you clear the point total for the rank you're going for, then submitting them for review.
 
-- **Rank 0** - No specialty. You do not have this specialty at all.
+- **Rank 0 (Novice)** - No specialty. You do not have this specialty at all.
 - **Rank 1 (Aspiring)** - Unlocks the specialty's basic features and commands.
 - **Rank 2 (Skilled)** - Expands your available tools and capabilities.
 - **Rank 3 (Expert)** - The full extent of the specialty.
 
-Each rank has its own set of requirements. You must complete all required items for a rank before you can advance to the next.
-
 </details>
 
-## Requirements
+## The Point Menu
 
 <details open>
 <summary>Click to expand or collapse</summary>
 
-Every specialty lists its rank requirements on the [Season 3 page](/season-3#specialties). Requirements vary by specialty but typically include:
+Every specialty has one master list of options on the [Season 3 page](/season-3#specialties). The same list is used whether you're going from Novice to Aspiring or Skilled to Expert, only the point total required changes:
 
-- Building or expanding a dedicated workspace of at least 2 floor tiles (rank 1), expanding to at least 4 (rank 2), then at least 8 (rank 3), submitted with screenshots and a short write-up explaining your design choices. These are individual floor tiles, not a 2x2 area. A rank 1 workspace could be two tiles placed side by side. Workspaces can be shared between players in the same sigil who hold the same specialty, but each player must provide their own description even if they did not build the space.
-- Documented RP scenes demonstrating specific applications of the specialty's core mechanics.
-- A journaled failure with reflection on what was learned (required for rank 3).
-- Cross specialty collaboration with at least 2 distinct other specialties (required for rank 3).
-- A selection of optional goals where you pick at least 1.
+- **Novice (0) to Aspiring (1):** 5 points.
+- **Aspiring (1) to Skilled (2):** 7 points.
+- **Skilled (2) to Expert (3):** 10 points.
 
-The RP scenes must be genuine scenes with narrative context. Routine gameplay actions do not count.
+There are no separate mandatory requirements. Everything on the list is an option you choose to pick up, and most options are repeatable, so you can complete the same one multiple times across the season and bank points each time. The one exception is the space requirement, which is a physical milestone tied to a specific rank's size rather than an ongoing activity, so it can only be turned in once per rank.
+
+Options are weighted by how much they generate RP for other people, not by how hard or skillful they are:
+
+- <span class="text-accent">1 point</span>: solo options. No other player's involvement or time required.
+- <span class="text-accent">2 points</span>: options that involve or generate RP with another player, without necessarily being for their direct benefit. This is also where the space requirement and cross-specialty collaboration land.
+- <span class="text-accent">3 points</span>: options that specifically create RP for someone else, a commission, a community project, work that only exists because someone else needed it.
+
+<span class="text-warm">Only one option, of any kind, can be completed and credited per real calendar day.</span> This applies across your whole list, not per item, you cannot log three different scenes on the same day and cash all three in at once.
+
+</details>
+
+## Documentation
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Documentation scales in the opposite direction of how many other people were involved, on purpose. Solo options ask for heavier journaling, since there's no other player around to corroborate what happened. Options involving another player only need light proof it happened, since the point of weighting them higher is to get people RPing together, not to hand out more paperwork for doing the social thing.
+
+- Solo options: a full written scene or reflection, length specified per option.
+- Options involving another player: 2 to 3 sentences describing what happened, plus proof, a screenshot, an RP log excerpt, or the other player confirming it.
+
+Each option on a specialty's list states its own point value and exact documentation requirement.
+
+</details>
+
+## The Space Requirement
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+The space option that appears on every specialty's master list follows the same rules regardless of specialty:
+
+- Exclusive to the specialty, can't double as a general purpose room.
+- Shareable with other players who hold the same specialty, though each player must provide their own write-up even if they did not build the space.
+- Scales in tile count by rank: at least 2 individual floor tiles for Aspiring, at least 4 for Skilled, at least 8 for Expert. These are individual floor tiles, not a 2x2 area.
+- Needs the appropriate bench or fixture nearby for that rank's commands to function.
+- Submission requires screenshots of the completed space plus a short written explanation of why it was designed the way it was.
+
+</details>
+
+## Teaching and Lessons
+
+<details open>
+<summary>Click to expand or collapse</summary>
+
+Whenever you claim the teaching option or the receiving-a-lesson option, the higher-ranked party in that exchange must actually outrank the other person's current rank in that specialty. A fellow Aspiring teaching another Aspiring is peer collaboration, not instruction, and doesn't qualify for either option. This applies at every rank.
 
 </details>
 
@@ -520,45 +562,41 @@ The RP scenes must be genuine scenes with narrative context. Routine gameplay ac
 <details open>
 <summary>Click to expand or collapse</summary>
 
-1. Review the published requirements for your specialty's next rank.
-2. RP the required scenes and journal them in character.
-3. Submit an RPO ticket containing your journaled evidence, linking each requirement to the corresponding journal entry.
+1. Review your specialty's master list and pick the options you want to complete.
+2. RP the scenes, or complete the activity, and journal or otherwise document each one per its own requirements.
+3. Submit an RPO ticket containing your documented evidence, linking each option to the corresponding proof.
 4. The RPO team reviews your submission.
-5. If approved, your specialty ranks up and the ticket is closed.
+5. Once your point total clears the threshold for the rank you're going for, and you have a banked Advancement Pool rank-up available, your specialty ranks up and the ticket is closed.
 
 Refer to the [RPO Ticket Guidelines](/guides) for details on how to write and submit RPO tickets.
 
 </details>
 
-## Timing
+## Timing and Checkpoints
 
 <details open>
 <summary>Click to expand or collapse</summary>
 
-<span class="text-warm">You may only obtain a specialty rank increase once every 10 days.</span> This is a hard minimum that applies per rank up, not per specialty. The 10 days are measured from your last specialty rank up on any specialty.
+A tier advancement requires a <span class="text-accent">checkpoint</span>. The moment a specialty reaches a given rank, that moment becomes the checkpoint for it, and only options completed after that checkpoint count toward the specialty's next rank. This exists to stop old, pre-specialty RP from being recycled as evidence.
 
-Requirements for the next rank must be completed after you achieved the previous rank in that specialty. They do not need to be confined to the 10-day window. You can complete requirements at any point after reaching the previous rank and submit them once the 10-day minimum has passed.
+> [!EXAMPLE] You reach <span class="text-accent">Blood Magic 1</span> on day 0. That is Blood Magic's checkpoint. Any option you complete from day 0 onward can count toward Blood Magic 2's point total, no matter how much later you actually spend a banked rank-up to claim it. Once Blood Magic 2 is granted, that becomes the new checkpoint, and anything you completed before that grant, even during that same stretch, no longer counts toward Blood Magic 3. Only options completed after the new checkpoint do.
 
-Each rank up creates a <span class="text-accent">checkpoint</span>. Requirements completed before reaching the previous rank do not carry forward toward the next rank.
-
-> [!EXAMPLE] You have <span class="text-accent">Storm Magic</span> at rank 1 and <span class="text-warm">Blood Magic</span> at rank 1. You start working on <span class="text-accent">Storm rank 2</span>. You must wait 10 days from your last rank up before you can get <span class="text-accent">Storm rank 2</span>.
->
-> After you get <span class="text-accent">Storm rank 2</span>, you switch to working on <span class="text-warm">Blood rank 2</span>. You must wait another 10 days before you can get <span class="text-warm">Blood rank 2</span>. By the time you can get <span class="text-warm">Blood rank 2</span>, you have been at <span class="text-warm">Blood rank 1</span> for 20 days. The requirements for <span class="text-warm">Blood rank 2</span> can be done at any point after you got <span class="text-warm">Blood rank 1</span>.
->
-> After you get <span class="text-warm">Blood rank 2</span>, if you start working on <span class="text-warm">Blood rank 3</span>, none of the things you did before <span class="text-warm">Blood rank 2</span> count toward <span class="text-warm">Blood rank 3</span>. The checkpoint resets what is eligible.
+Rank-ups themselves are paid for out of your <span class="text-warm">Advancement Pool</span>. See the Advancement Pool on the [Season 3 page](/season-3#specialties) for how those are earned, spent, and capped at one rank-up per day. The one-option-per-day cap above governs how fast you can earn progress toward a rank. The Advancement Pool's one-rank-up-per-day cap governs how fast you can cash in banked rank-ups once you qualify. They are separate limits.
 
 </details>
 
-## Swapping Specialties
+## Dropping a Specialty
 
 <details open>
 <summary>Click to expand or collapse</summary>
 
-Each player has one swap token per season. You may use it to replace one specialty with another.
+Dropping a specialty needs a solid in character reason, reviewed case by case by the admin team. A character whose story has genuinely moved past a specialty is an easy yes. Wanting to try something new with nothing behind it is not.
 
-When you swap, the slot is cleared. You start the new specialty at rank 0 and work through the requirements from the beginning. Rank progress from the dropped specialty does not carry over.
+Dropping clears the slot completely. The specialty resets to rank 0, exactly as if you had never picked it, and you work through it from the beginning like any other specialty. Rank progress from the dropped specialty does not carry over, but any Advancement Pool rank-ups you already spent getting it to its old rank return to your balance, so you're free to catch back up right away.
 
-If new specialties are added mid-season, players receive an additional swap token for each new specialty introduced.
+If new specialties are added mid-season, dropping an existing specialty to make room for one of them always counts as a solid reason on its own.
+
+See Dropping a Specialty on the [Season 3 page](/season-3#specialties) for the full mechanic.
 
 </details>
 

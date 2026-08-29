@@ -122,6 +122,249 @@ Dropping clears the slot completely. The specialty resets to level 0, exactly as
 - Reviewed case by case, on the strength of the reason given
 - Clears the slot to level 0. Levels already earned don't carry over, but Advancement Pool points already spent on it return to your balance to spend elsewhere, so you're free to catch back up right away
 
+<!-- section:magic -->
+Magic has been part of the world for several years now, and in that time the wider world has learned a fair amount about how it works. What follows is common knowledge, the kind of thing any character could say they know in character, whether or not they can cast a spell themselves, unless their background says otherwise.
+
+### Gemstones and Magical Energy Storage
+
+Each school of magic has a gemstone bound to it. A practitioner can channel magical energy into the matching stone to hold it for later use. What the stone does with that magical energy differs from gem to gem.
+
+<div class="columns-1 md:columns-2 gap-4">
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-red-600 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-red-500 flex items-center gap-1.5 mb-1"><i class="mdi mdi-water"></i>Ruby, Blood Magic</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Blood magic placed into a ruby brings the blood itself into the stone. A charged ruby that breaks will bleed.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-yellow-600 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-yellow-500 flex items-center gap-1.5 mb-1"><i class="mdi mdi-lightning-bolt"></i>Topaz, Storm Magic</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Condensed energy loops and shifts inside the stone like a small circuit. A charged topaz hums faintly.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-teal-600 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-teal-500 flex items-center gap-1.5 mb-1"><i class="mdi mdi-eye"></i>Mist Stone, Illusion Magic</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Holds raw illusory magic with no form of its own, so it reflects back whatever the holder is imagining.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-cyan-600 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-cyan-400 flex items-center gap-1.5 mb-1"><i class="mdi mdi-snowflake"></i>Sapphire, Frost Magic</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">A held pocket of vacuum, energy pulled out and kept absent, like stored potential waiting to be drawn from.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-green-600 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-green-500 flex items-center gap-1.5 mb-1"><i class="mdi mdi-skull"></i>Emerald, Unholy Magic</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Stores willpower-saturated magical energy that carries no intent or instruction until a practitioner supplies one when they use it.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-chaos-500 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-chaos-300 flex items-center gap-1.5 mb-1"><i class="mdi mdi-lightning-bolt"></i>Amethyst, Chaos Magic</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Stores destructive chaos magic without being destroyed by it. Why, even scholars are unsure.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-yellow-600 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-yellow-500 flex items-center gap-1.5 mb-1"><i class="mdi mdi-weather-sunny"></i>Quartz, Light Magic</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">A charged piece of quartz glows as light magic refracts around inside it. Common enough to be counted in bulk rather than by the flawless gem.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-gray-500 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-gray-400 flex items-center gap-1.5 mb-1"><i class="mdi mdi-owl"></i>Obsidian, Shadow Magic</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Oddly contradictory to the nature of shadow magic, a charged piece looks no different from an uncharged one.</p>
+  </div>
+</div>
+
+</div>
+
+Druidic magic and Elemental magic are the only two schools with no gemstone of their own.
+
+### Gem Tiers
+
+Charged gems come in 5 qualities. Each is worth 4 of the tier below it. Gem dust cannot be charged directly.
+
+<div class="flex items-start justify-center gap-4 bg-background-900/60 border border-background-800 rounded p-3 overflow-x-auto">
+  <div class="text-center w-24 flex-shrink-0">
+    <div class="h-9 flex items-end justify-center mb-1"><i class="mdi mdi-diamond-stone text-3xl text-gold-300"></i></div>
+    <div class="font-cinzel text-base uppercase text-tprimary-50">Perfect</div>
+    <div class="text-tprimary-500 text-base">1</div>
+  </div>
+  <div class="font-cinzel text-tprimary-600 text-base flex-shrink-0 mt-[26px]">&times;4</div>
+  <div class="text-center w-24 flex-shrink-0">
+    <div class="h-9 flex items-end justify-center mb-1"><i class="mdi mdi-diamond-stone text-2xl text-gold-400"></i></div>
+    <div class="font-cinzel text-base uppercase text-tprimary-50">Flawless</div>
+    <div class="text-tprimary-500 text-base">4</div>
+  </div>
+  <div class="font-cinzel text-tprimary-600 text-base flex-shrink-0 mt-[26px]">&times;4</div>
+  <div class="text-center w-24 flex-shrink-0">
+    <div class="h-9 flex items-end justify-center mb-1"><i class="mdi mdi-diamond-stone text-lg text-gold-500"></i></div>
+    <div class="font-cinzel text-base uppercase text-tprimary-50">Regular</div>
+    <div class="text-tprimary-500 text-base">16</div>
+  </div>
+  <div class="font-cinzel text-tprimary-600 text-base flex-shrink-0 mt-[26px]">&times;4</div>
+  <div class="text-center w-24 flex-shrink-0">
+    <div class="h-9 flex items-end justify-center mb-1"><i class="mdi mdi-diamond-stone text-base text-gold-600"></i></div>
+    <div class="font-cinzel text-base uppercase text-tprimary-50">Crude</div>
+    <div class="text-tprimary-500 text-base">64</div>
+  </div>
+</div>
+
+<div class="mt-3 p-3 bg-background-900/60 border border-background-800 border-l-4 border-l-stone-500 rounded text-tprimary-300 text-lg">
+  <span class="font-cinzel text-base uppercase tracking-wider text-stone-300 block mb-1">Quartz and Obsidian</span>
+  Quartz and obsidian skip the tier system. 256 quartz make one perfect light gem, and 256 obsidian make one perfect shadow gem, with no intermediary steps. Each can be charged individually.
+</div>
+
+### Charging Rates
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+
+<div class="bg-background-900/60 border border-background-800 border-t-2 border-t-stone-500 rounded p-3">
+  <div class="flex items-center gap-2 mb-1">
+    <i class="mdi mdi-account text-stone-300 text-xl"></i>
+    <div>
+      <div class="font-cinzel text-lg uppercase tracking-wider text-stone-300">Manual Charging</div>
+      <div class="font-cinzel font-bold text-tprimary-50 text-base">1 flawless / day / specialty level</div>
+    </div>
+  </div>
+  <p class="text-tprimary-300 text-[0.92rem] m-0">The baseline rate, gathering the ordinary amount of magical energy present anywhere and channeling it into the gem.</p>
+</div>
+
+<div class="bg-background-900/60 border border-background-800 border-t-2 border-t-amber-500 rounded p-3">
+  <div class="flex items-center gap-2 mb-1">
+    <i class="mdi mdi-map-marker text-amber-400 text-xl"></i>
+    <div>
+      <div class="font-cinzel text-lg uppercase tracking-wider text-amber-400">At a Hotspot</div>
+      <div class="font-cinzel font-bold text-tprimary-50 text-base">3&times; the rate</div>
+    </div>
+  </div>
+  <p class="text-tprimary-300 text-[0.92rem] m-0">The magical energy there is naturally concentrated, so gathering it is far less exhausting.</p>
+</div>
+
+<div class="bg-background-900/60 border border-background-800 border-t-2 border-t-cyan-500 rounded p-3">
+  <div class="flex items-center gap-2 mb-1">
+    <i class="mdi mdi-cog text-cyan-300 text-xl"></i>
+    <div>
+      <div class="font-cinzel text-lg uppercase tracking-wider text-cyan-300">Automated Charging</div>
+      <div class="font-cinzel font-bold text-tprimary-50 text-base">Free, time limited</div>
+    </div>
+  </div>
+  <p class="text-tprimary-300 text-[0.92rem] m-0">Something built to draw from a hotspot on its own would need no specialty, and would be limited by runtime instead.</p>
+</div>
+
+</div>
+
+### Magically Saturated Locations (Hotspots)
+
+<div class="columns-1 md:columns-2 gap-4">
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-green-600 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-green-500 flex items-center gap-1.5 mb-1"><i class="mdi mdi-skull"></i>Graveyards</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Generally saturated with unholy magic. Unholy magic is easier to cast here.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-red-600 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-red-500 flex items-center gap-1.5 mb-1"><i class="mdi mdi-water"></i>Dracula's Demise</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Battlefields, and this site in particular, are infused with blood magic. Blood magic is easier to cast here.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-teal-600 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-teal-500 flex items-center gap-1.5 mb-1"><i class="mdi mdi-eye"></i>The Cursed Forest</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Saturated with illusion magic. Chaos magic is harder to cast here, illusion magic is easier.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-yellow-600 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-yellow-500 flex items-center gap-1.5 mb-1"><i class="mdi mdi-weather-sunny"></i>Fortress of Light</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">A location of very strong light magic. Light magic is easier to cast here, shadow magic is harder.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-gray-500 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-gray-400 flex items-center gap-1.5 mb-1"><i class="mdi mdi-owl"></i>Dracula's Castle</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">A location of very strong shadow magic. Shadow magic is easier to cast here, light magic is harder.</p>
+  </div>
+</div>
+
+</div>
+
+### Materials
+
+<div class="columns-1 md:columns-2 gap-4">
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-slate-400 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-slate-300 flex items-center gap-1.5 mb-1"><i class="mdi mdi-shield"></i>Silver</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">The de facto anti-magic material worldwide. Magical energy that gets close to it burns away.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-gold-500 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-gold-300 flex items-center gap-1.5 mb-1"><i class="mdi mdi-flash"></i>Gold</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Known to be magically conductive.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-green-600 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-green-500 flex items-center gap-1.5 mb-1"><i class="mdi mdi-leaf"></i>Magical Plants</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Carry some magical properties, but not enough to fuel a ritual outside rare exceptions.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-stone-400 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-stone-300 flex items-center gap-1.5 mb-1"><i class="mdi mdi-close-circle-outline"></i>Water, Fire, and the Like</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Just mundane. No magical properties of their own.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-violet-500 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-violet-400 flex items-center gap-1.5 mb-1"><i class="mdi mdi-diamond-stone"></i>Sourcestone and Other Magic Materials</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Hold some amount of magical energy. How much depends on the specific material.</p>
+  </div>
+</div>
+
+</div>
+
 <!-- section:citizenship -->
 <div class="text-lg leading-relaxed">
   <p class="mb-4">
