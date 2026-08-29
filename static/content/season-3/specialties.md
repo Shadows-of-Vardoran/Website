@@ -58,15 +58,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-red-800/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-red-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-red-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-red-500">10 points required</div>
     </div>
   </div>
@@ -119,7 +119,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-red-800/50 to-black/80 flex-shrink-0 border border-red-800/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-red-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Blood Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Blood Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -215,15 +215,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-green-800/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-green-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-green-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-green-500">10 points required</div>
     </div>
   </div>
@@ -276,7 +276,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Unholy Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Unholy Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -371,15 +371,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-yellow-900/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-yellow-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-yellow-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-yellow-500">10 points required</div>
     </div>
   </div>
@@ -432,7 +432,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Storm Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Storm Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -530,15 +530,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-cyan-900/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-cyan-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-cyan-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-cyan-500">10 points required</div>
     </div>
   </div>
@@ -591,7 +591,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-cyan-800/50 to-black/80 flex-shrink-0 border border-cyan-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-cyan-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Frost Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Frost Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -687,15 +687,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-teal-900/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-teal-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-teal-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-teal-500">10 points required</div>
     </div>
   </div>
@@ -748,7 +748,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-teal-800/50 to-black/80 flex-shrink-0 border border-teal-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-teal-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Illusion Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Illusion Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -841,15 +841,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-chaos-700/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-chaos-300">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-chaos-300">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-chaos-300">10 points required</div>
     </div>
   </div>
@@ -902,7 +902,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-chaos-700/50 to-black/80 flex-shrink-0 border border-chaos-700/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chaos-300">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Chaos Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Chaos Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1000,15 +1000,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-yellow-900/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-yellow-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-yellow-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-yellow-500">10 points required</div>
     </div>
   </div>
@@ -1061,7 +1061,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Light Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Light Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1157,15 +1157,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-gray-900/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-gray-400">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-gray-400">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-gray-400">10 points required</div>
     </div>
   </div>
@@ -1218,7 +1218,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-gray-800/50 to-black/80 flex-shrink-0 border border-gray-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-gray-400">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Shadow Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Shadow Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1317,15 +1317,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-orange-800/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-orange-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-orange-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-orange-500">10 points required</div>
     </div>
   </div>
@@ -1378,7 +1378,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-orange-800/50 to-black/80 flex-shrink-0 border border-orange-800/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-orange-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Elemental Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Elemental Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1454,7 +1454,7 @@ replicate.
 - Communicate with and influence the behavior of animals.
 - Read and interpret the natural world, understanding what the behavior of
   plants, animals, and weather is telling you.
-- Shapeshift into vanilla animal forms, excluding bat form, using only vanilla shapeshifting skins. Available starting at rank 3 (Expert).
+- Shapeshift into vanilla animal forms, excluding bat form, using only vanilla shapeshifting skins. Available starting at rank 3 (Seasoned).
 - Influence natural processes such as decay, growth cycles, and the behavior of
   living ecosystems.
 
@@ -1479,15 +1479,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-green-800/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-green-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-green-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-green-500">10 points required</div>
     </div>
   </div>
@@ -1540,7 +1540,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Druidic Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Druidic Magic ritual or working space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1622,15 +1622,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-slate-900/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-slate-400">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-slate-400">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-slate-400">10 points required</div>
     </div>
   </div>
@@ -1683,7 +1683,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-slate-900/60 to-black/80 flex-shrink-0 border border-slate-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-slate-400">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Architecture workspace or design studio to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Architecture workspace or design studio to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1769,15 +1769,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-amber-800/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-amber-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-amber-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-amber-500">10 points required</div>
     </div>
   </div>
@@ -1830,7 +1830,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-amber-800/50 to-black/80 flex-shrink-0 border border-amber-800/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-amber-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Blacksmithing workshop or forge space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Blacksmithing workshop or forge space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1916,15 +1916,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-rose-900/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-rose-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-rose-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-rose-500">10 points required</div>
     </div>
   </div>
@@ -1977,7 +1977,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-rose-800/50 to-black/80 flex-shrink-0 border border-rose-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-rose-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Tailoring workshop space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Tailoring workshop space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2056,15 +2056,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-emerald-900/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-emerald-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-emerald-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-emerald-500">10 points required</div>
     </div>
   </div>
@@ -2117,7 +2117,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-emerald-800/50 to-black/80 flex-shrink-0 border border-emerald-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-emerald-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Alchemy laboratory or workspace to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Alchemy laboratory or workspace to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2206,15 +2206,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-purple-900/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-purple-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-purple-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-purple-500">10 points required</div>
     </div>
   </div>
@@ -2267,7 +2267,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-purple-900/60 to-black/80 flex-shrink-0 border border-purple-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-purple-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Ritualism workspace for study and preparation to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Ritualism workspace for study and preparation to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2346,15 +2346,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-red-800/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-red-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-red-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-red-500">10 points required</div>
     </div>
   </div>
@@ -2407,7 +2407,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-red-800/50 to-black/80 flex-shrink-0 border border-red-800/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-red-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your training space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your training space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2496,15 +2496,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-lime-900/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-lime-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-lime-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-lime-500">10 points required</div>
     </div>
   </div>
@@ -2557,7 +2557,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-lime-800/50 to-black/80 flex-shrink-0 border border-lime-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-lime-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Doctoring practice space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Doctoring practice space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2641,15 +2641,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-blue-900/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-blue-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-blue-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-blue-500">10 points required</div>
     </div>
   </div>
@@ -2702,7 +2702,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-blue-800/50 to-black/80 flex-shrink-0 border border-blue-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-blue-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your Engineering workshop or workbench space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your Engineering workshop or workbench space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2818,15 +2818,15 @@ This is the list of options available at every rank. The same list is used for a
 <div class="mb-4 rounded-lg bg-background-800/60 border border-chartreuse-900/60 px-4 py-3">
   <div class="flex justify-between">
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Aspiring (1)</div>
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
       <div class="text-lg font-bold text-chartreuse-500">5 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Aspiring (1) to Skilled (2)</div>
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
       <div class="text-lg font-bold text-chartreuse-500">7 points required</div>
     </div>
     <div class="flex-1 text-center">
-      <div class="text-base text-tprimary-200 mb-1">Skilled (2) to Expert (3)</div>
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
       <div class="text-lg font-bold text-chartreuse-500">10 points required</div>
     </div>
   </div>
@@ -2879,7 +2879,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-chartreuse-800/50 to-black/80 flex-shrink-0 border border-chartreuse-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chartreuse-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
-    <div class="text-tprimary-100">Space requirement: build or expand your ranch or animal pen space to the size required for the rank you're advancing toward, 2 tiles for Aspiring, 4 for Skilled, 8 for Expert.</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your ranch or animal pen space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">

@@ -108,7 +108,7 @@ A strong whitelist focuses on the parts of your character that actively shape ho
 - If your character has seen or assisted with advanced work, that does not mean they fully understand or can recreate it.
 
 **Level of Expertise**
-- Be realistic and clear about how skilled your character actually is.
+- Be realistic and clear about how proficient your character actually is.
 - If they worked in a controlled institution such as a Nexarcan laboratory, explain what they realistically had access to.
 - Most people only ever understand a small piece of a much larger system.
 
@@ -490,9 +490,9 @@ In some cases, depending on how dangerous the ritual is, the ritual might still 
 Specialties have three ranks. Advancing from one rank to the next means picking options off that specialty's master list until you clear the point total for the rank you're going for, then submitting them for review.
 
 - **Rank 0 (Novice)** - No specialty. You do not have this specialty at all.
-- **Rank 1 (Aspiring)** - Unlocks the specialty's basic features and commands.
-- **Rank 2 (Skilled)** - Expands your available tools and capabilities.
-- **Rank 3 (Expert)** - The full extent of the specialty.
+- **Rank 1 (Practicing)** - Unlocks the specialty's basic features and commands.
+- **Rank 2 (Proficient)** - Expands your available tools and capabilities.
+- **Rank 3 (Seasoned)** - The full extent of the specialty.
 
 </details>
 
@@ -501,11 +501,11 @@ Specialties have three ranks. Advancing from one rank to the next means picking 
 <details open>
 <summary>Click to expand or collapse</summary>
 
-Every specialty has one master list of options on the [Season 3 page](/season-3#specialties). The same list is used whether you're going from Novice to Aspiring or Skilled to Expert, only the point total required changes:
+Every specialty has one master list of options on the [Season 3 page](/season-3#specialties). The same list is used whether you're going from Novice to Practicing or Proficient to Seasoned, only the point total required changes:
 
-- **Novice (0) to Aspiring (1):** 5 points.
-- **Aspiring (1) to Skilled (2):** 7 points.
-- **Skilled (2) to Expert (3):** 10 points.
+- **Novice (0) to Practicing (1):** 5 points.
+- **Practicing (1) to Proficient (2):** 7 points.
+- **Proficient (2) to Seasoned (3):** 10 points.
 
 There are no separate mandatory requirements. Everything on the list is an option you choose to pick up, and most options are repeatable, so you can complete the same one multiple times across the season and bank points each time. The one exception is the space requirement, which is a physical milestone tied to a specific rank's size rather than an ongoing activity, so it can only be turned in once per rank.
 
@@ -544,7 +544,7 @@ The space option that appears on every specialty's master list follows the same 
 
 - Exclusive to the specialty, can't double as a general purpose room.
 - Shareable with other players who hold the same specialty, though each player must provide their own write-up even if they did not build the space.
-- Scales in tile count by rank: at least 2 individual floor tiles for Aspiring, at least 4 for Skilled, at least 8 for Expert. These are individual floor tiles, not a 2x2 area.
+- Scales in tile count by rank: at least 2 individual floor tiles for Practicing, at least 4 for Proficient, at least 8 for Seasoned. These are individual floor tiles, not a 2x2 area.
 - Needs the appropriate bench or fixture nearby for that rank's commands to function.
 - Submission requires screenshots of the completed space plus a short written explanation of why it was designed the way it was.
 
@@ -555,7 +555,7 @@ The space option that appears on every specialty's master list follows the same 
 <details open>
 <summary>Click to expand or collapse</summary>
 
-Whenever you claim the teaching option or the receiving-a-lesson option, the higher-ranked party in that exchange must actually outrank the other person's current rank in that specialty. A fellow Aspiring teaching another Aspiring is peer collaboration, not instruction, and doesn't qualify for either option. This applies at every rank.
+Whenever you claim the teaching option or the receiving-a-lesson option, the higher-ranked party in that exchange must actually outrank the other person's current rank in that specialty. A fellow Practicing teaching another Practicing is peer collaboration, not instruction, and doesn't qualify for either option. This applies at every rank.
 
 A teaching scene is credited once per scene, no matter how many students attend. Teaching a class of ten players is still a single instance of the option, worth its listed points one time, not multiplied by the number of students. Repeatable means you can teach again on a separate occasion for separate credit, not that one scene pays out per attendee.
 

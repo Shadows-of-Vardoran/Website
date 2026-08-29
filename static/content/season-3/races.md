@@ -229,7 +229,7 @@ Humans are mortal and carry no innate magic. Blood magic is entirely beyond thei
 - Blood potions have no effect. Blood type is selected at creation and does not change.
 - Limited to Scholar, Warrior, Brute, Rogue, or Worker primary blood types. Cannot use Creature, Mutant, Corrupted, or Draculin blood.
 - Blood magic is not available. Cannot use Dominate or Bloodmend.
-- Cannot shapeshift unless the druidic magic specialty is taken. With it, shapeshifting is limited to vanilla animal forms, excluding bat form, using only vanilla shapeshifting skins, from rank 3 (Expert) onward.
+- Cannot shapeshift unless the druidic magic specialty is taken. With it, shapeshifting is limited to vanilla animal forms, excluding bat form, using only vanilla shapeshifting skins, from rank 3 (Seasoned) onward.
 - Limited to 2 magical schools channeled at a time.
 - Expected natural skin, hair, and eye color. Brown eyes use the orange eye color option.
   </div>
