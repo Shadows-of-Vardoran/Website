@@ -684,6 +684,10 @@ middle of your screen. Restoring your vision requires significant advanced
 medical ritual roleplay with a notable magic component. Artificial eyes are not
 within the scope of what can be invented.
 
+### Waygates
+
+- You may not use Waygates to teleport during the season until told otherwise.
+
 <!-- section:faq -->
 
 ## Frequently Asked Questions
