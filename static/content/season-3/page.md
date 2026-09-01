@@ -11,6 +11,7 @@
   <div class="w-14 rounded bg-gradient-to-b from-tprimary-800/40 to-tprimary-900/60 flex-shrink-0 border border-tprimary-900/30"></div>
 </div>
 
+
 <div class="flex flex-row-reverse gap-6 my-4">
   <div class="flex-1 text-lg leading-relaxed">
     <p class="mb-1 font-cinzel text-tprimary-100">
@@ -22,6 +23,7 @@
   </div>
   <div class="w-14 rounded bg-gradient-to-b from-red-800/40 to-red-950/70 flex-shrink-0 border border-red-900/30"></div>
 </div>
+
 
 <div class="flex gap-6 my-4">
   <div class="flex-1 text-lg leading-relaxed">
@@ -37,6 +39,7 @@
   </div>
   <div class="w-14 rounded bg-gradient-to-b from-amber-800/40 to-amber-950/70 flex-shrink-0 border border-amber-900/30"></div>
 </div>
+
 
 <div class="flex flex-row-reverse gap-6 my-4">
   <div class="flex-1 text-lg leading-relaxed">
@@ -85,90 +88,46 @@
 </div>
 
 <!-- section:specialties-intro -->
+With the Specialties system, you are able to take Specialty in a skill. Doing so will allow you to RP more advanced topics pertaining to that skill, whether it is a magical school or a more mundane profession.
 
-With the Specialties system, you are able to take Specialty in a skill. Doing so
-will allow you to RP more advanced topics pertaining to that skill, whether it
-is a magical school or a more mundane profession.
+What you are able to do in-game is considered the floor. Combat magic is well known and well distributed, it is not special. Similarly, using castle magics to build and maintain your castle is standard practice and does not indicate specialization as an architect. Any RP themes that extend past that floor will require Specialty, and your level of Specialty will dictate what kinds of advanced RP themes and concepts you are able to achieve.
 
-What you are able to do in-game is considered the floor. Combat magic is well
-known and well distributed, it is not special. Similarly, using castle magics to
-build and maintain your castle is standard practice and does not indicate
-specialization as an architect. Any RP themes that extend past that floor will
-require Specialty, and your level of Specialty will dictate what kinds of
-advanced RP themes and concepts you are able to achieve.
+Of course, these limits are not hard rules. They are meant to be a framework for both yourself and others to tailor your collective RP and shape everyone's character progression. The RP limits we have defined per Specialty level are meant to be example guidelines so you can get a vibe on what is accomplishable.
 
-Of course, these limits are not hard rules. They are meant to be a framework for
-both yourself and others to tailor your collective RP and shape everyone's
-character progression. The RP limits we have defined per Specialty level are
-meant to be example guidelines so you can get a vibe on what is accomplishable.
-
-We are inclined to trust the community with this framework as-is without any
-significant moderating or micromanaging. But note that if we get the sense
-someone is completely ignoring it or abusing it, they will be getting a talking
-to. This is a community social contract system, and we hope everyone respects it
-in practice.
+We are inclined to trust the community with this framework as-is without any significant moderating or micromanaging. But note that if we get the sense someone is completely ignoring it or abusing it, they will be getting a talking to. This is a community social contract system, and we hope everyone respects it in practice.
 
 <!-- section:specialties-tech-details -->
-
 - 2 specialties at whitelist (level 1)
 - 3 levels per specialty
 - 3 specialties maximum at once
 - Max specialties will increase to 5+ over the story arc
-- Dropping a specialty needs a solid in character reason, reviewed case by case
-  (see below)
-- See the [Specialty Leveling Guide](/guides) for the full breakdown of the
-  requirements and submission process
+- Dropping a specialty needs a solid in character reason, reviewed case by case (see below)
+- See the [Specialty Leveling Guide](/guides) for the full breakdown of the requirements and submission process
 
 <!-- section:catch-up-mechanic -->
+Every 10 days, the season clock mints one Advancement Pool point for every character. That point can go toward whichever specialty you're actively working, but earning it doesn't rank you up by itself. You still have to complete that rank's actual RP requirements, a banked point just pays for the rank up once you have, instead of making you wait on the clock.
 
-Every 10 days, the season clock mints one Advancement Pool point for every
-character. That point can go toward whichever specialty you're actively working,
-but earning it doesn't rank you up by itself. You still have to complete that
-rank's actual RP requirements, a banked point just pays for the rank up once you
-have, instead of making you wait on the clock.
-
-If you started late, took a break, or dropped a specialty and started fresh,
-you're not locked out of the season. You can burn through banked points faster
-than the normal 10 day pace, but a specialty can only rank up again after a
-minimum of 3 real days have passed since its last rank-up, so catching up is
-quick, not instant.
+If you started late, took a break, or dropped a specialty and started fresh, you're not locked out of the season. You can burn through banked points faster than the normal 10 day pace, but only one rank up total can happen per calendar day, on any specialty, so catching up is quick, not instant.
 
 - One point per character, minted every 10 days from the season's start.
-- A point is spent the moment you complete a rank's actual requirements, on
-  whichever specialty you're working.
-- A minimum of 3 real days must pass between rank-ups in the same specialty,
-  even with multiple points banked. This limit is per specialty, so different
-  specialties can still rank up on the same day.
+- A point is spent the moment you complete a rank's actual requirements, on whichever specialty you're working.
+- Rank ups are capped at one per day even with multiple points banked. Catching up means back to back days, not everything at once.
 - The counters below always reflect where the season clock actually stands.
 
 <!-- section:dropping-a-specialty -->
+Dropping a specialty needs a solid in character reason, reviewed case by case by the team. A character whose story has genuinely moved past a specialty is an easy yes. Wanting to try something new with nothing behind it is not.
 
-Dropping a specialty needs a solid in character reason, reviewed case by case by
-the team. A character whose story has genuinely moved past a specialty is an
-easy yes. Wanting to try something new with nothing behind it is not.
-
-Dropping clears the slot completely. The specialty resets to level 0, exactly as
-if it had never been picked, and you work through it from the beginning like any
-other specialty.
+Dropping clears the slot completely. The specialty resets to level 0, exactly as if it had never been picked, and you work through it from the beginning like any other specialty.
 
 - Reviewed case by case, on the strength of the reason given
-- Clears the slot to level 0. Levels already earned don't carry over, but
-  Advancement Pool points already spent on it return to your balance to spend
-  elsewhere, so you're free to catch back up right away
+- Clears the slot to level 0. Levels already earned don't carry over, but Advancement Pool points already spent on it return to your balance to spend elsewhere, so you're free to catch back up right away
 
 <!-- section:magic -->
-
-Magic has been part of the world for several years now, and in that time the
-wider world has learned a fair amount about how it works. What follows is common
-knowledge, the kind of thing any character could say they know in character,
-whether or not they can cast a spell themselves, unless their background says
-otherwise.
+Magic has been part of the world for several years now, and in that time the wider world has learned a fair amount about how it works. What follows is common knowledge, the kind of thing any character could say they know in character, whether or not they can cast a spell themselves, unless their background says otherwise.
 
 ### Gemstones and Magical Energy Storage
 
-Each school of magic has a gemstone bound to it. A practitioner can channel
-magical energy into the matching stone to hold it for later use. What the stone
-does with that magical energy differs from gem to gem.
+Each school of magic has a gemstone bound to it. A practitioner can channel magical energy into the matching stone to hold it for later use. What the stone does with that magical energy differs from gem to gem.
 
 <div class="columns-1 md:columns-2 gap-4">
 
@@ -238,43 +197,35 @@ does with that magical energy differs from gem to gem.
 
 </div>
 
-Druidic magic and Elemental magic are the only two schools with no gemstone of
-their own.
+Druidic magic and Elemental magic are the only two schools with no gemstone of their own.
 
 ### Gem Tiers
 
-Charged gems come in 5 qualities. Each is worth 4 of the tier below it. Gem dust
-cannot be charged directly.
+Charged gems come in 4 qualities. Each is worth 4 of the tier below it. Gem dust cannot be charged directly.
 
 <div class="flex items-start justify-center gap-4 bg-background-900/60 border border-background-800 rounded p-3 overflow-x-auto">
   <div class="text-center w-24 flex-shrink-0">
     <div class="h-9 flex items-end justify-center mb-1"><i class="mdi mdi-diamond-stone text-3xl text-gold-300"></i></div>
-    <div class="font-cinzel text-base uppercase text-tprimary-50">Perfect</div>
+    <div class="font-cinzel text-base uppercase text-tprimary-50">Flawless</div>
     <div class="text-tprimary-500 text-base">1</div>
   </div>
   <div class="font-cinzel text-tprimary-600 text-base flex-shrink-0 mt-[26px]">&times;4</div>
   <div class="text-center w-24 flex-shrink-0">
     <div class="h-9 flex items-end justify-center mb-1"><i class="mdi mdi-diamond-stone text-2xl text-gold-400"></i></div>
-    <div class="font-cinzel text-base uppercase text-tprimary-50">Flawless</div>
+    <div class="font-cinzel text-base uppercase text-tprimary-50">Regular</div>
     <div class="text-tprimary-500 text-base">4</div>
   </div>
   <div class="font-cinzel text-tprimary-600 text-base flex-shrink-0 mt-[26px]">&times;4</div>
   <div class="text-center w-24 flex-shrink-0">
     <div class="h-9 flex items-end justify-center mb-1"><i class="mdi mdi-diamond-stone text-lg text-gold-500"></i></div>
-    <div class="font-cinzel text-base uppercase text-tprimary-50">Regular</div>
-    <div class="text-tprimary-500 text-base">16</div>
-  </div>
-  <div class="font-cinzel text-tprimary-600 text-base flex-shrink-0 mt-[26px]">&times;4</div>
-  <div class="text-center w-24 flex-shrink-0">
-    <div class="h-9 flex items-end justify-center mb-1"><i class="mdi mdi-diamond-stone text-base text-gold-600"></i></div>
     <div class="font-cinzel text-base uppercase text-tprimary-50">Crude</div>
-    <div class="text-tprimary-500 text-base">64</div>
+    <div class="text-tprimary-500 text-base">16</div>
   </div>
 </div>
 
 <div class="mt-3 p-3 bg-background-900/60 border border-background-800 border-l-4 border-l-stone-500 rounded text-tprimary-300 text-lg">
   <span class="font-cinzel text-base uppercase tracking-wider text-stone-300 block mb-1">Quartz and Obsidian</span>
-  Quartz and obsidian skip the tier system. 256 quartz make one perfect light gem, and 256 obsidian make one perfect shadow gem, with no intermediary steps. Each can be charged individually.
+  Quartz and obsidian skip the tier system. 64 quartz is the equivalent of one flawless light gem, and 64 obsidian is the equivalent of one flawless shadow gem. At the moment, flawless light and shadow gems do not have a phys rep.
 </div>
 
 ### Charging Rates
@@ -401,7 +352,7 @@ cannot be charged directly.
 <div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
   <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-violet-500 to-black"></div>
   <div class="flex-1 min-w-0">
-    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-violet-400 flex items-center gap-1.5 mb-1"><i class="mdi mdi-diamond-stone"></i>Scourgestone and Other Magic Materials</div>
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-violet-400 flex items-center gap-1.5 mb-1"><i class="mdi mdi-diamond-stone"></i>Sourcestone and Other Magic Materials</div>
     <p class="text-tprimary-300 text-[0.95rem] m-0">Hold some amount of magical energy. How much depends on the specific material.</p>
   </div>
 </div>
@@ -487,12 +438,7 @@ cannot be charged directly.
 </div>
 
 <!-- section:mortality-contract -->
-
-The mortality contract applies to all mortal player races. It governs how
-injuries are classified, when medical RP is required, and what happens when a
-character reaches the end of their mortality. The specific settings that
-determine how many critical injuries a race can survive, and what options are
-available upon death, are defined in each race's own document.
+The mortality contract applies to all mortal player races. It governs how injuries are classified, when medical RP is required, and what happens when a character reaches the end of their mortality. The specific settings that determine how many critical injuries a race can survive, and what options are available upon death, are defined in each race's own document.
 
 <div class="p-4 rounded border border-tprimary-900/30 bg-background-800/60 text-[0.925rem]">
 Critical injuries are processed one at a time. You can never have more than one open critical injury at once. Each critical injury is resolved before the next one can occur. When a critical injury is processed and resolved, it is expended. That expenditure costs you one life. You work through your lives one at a time. Once you have worked through the number of lives set by your race, your mortality contract collapses and your character dies.
@@ -510,8 +456,7 @@ Critical injuries are processed one at a time. You can never have more than one 
 
 ### Injury Classification
 
-Not all bag drops carry the same weight. Every bag drop is classified as either
-a critical injury or a minor injury.
+Not all bag drops carry the same weight. Every bag drop is classified as either a critical injury or a minor injury.
 
 <div class="font-cinzel font-semibold text-[1.5rem] text-red-400 mb-2">Critical Injuries</div>
 
@@ -523,7 +468,6 @@ The following bag drops are always critical injuries:
 - All PvP bag drops.
 - Any PvE bag drop that would empty your blood pool and set you to frail.
   </div>
-
 </div>
 
 <div class="font-cinzel font-semibold text-[1.5rem] text-sky-400 mb-2">Minor Injuries</div>
@@ -537,51 +481,28 @@ Any PvE bag drop that does not empty your blood pool is a minor injury. Your blo
 
 ### I Got a Critical Injury. What Do I Do?
 
-You have three IRL days to receive MedRP. MedRP must be provided by a player who
-holds the Doctoring specialty at any tier. MedRP from a player without this
-specialty does not count toward surviving a critical injury.
+You have three IRL days to receive MedRP. MedRP must be provided by a player who holds the Doctoring specialty at any tier. MedRP from a player without this specialty does not count toward surviving a critical injury.
 
-When MedRP is successfully completed, the treating doctor uses
-`.sov treat <player>` to resolve the critical injury. See the
-[Doctor Commands](#cmd-doctor) section for details.
+When MedRP is successfully completed, the treating doctor uses `.sov treat <player>` to resolve the critical injury. See the [Doctor Commands](#cmd-doctor) section for details.
 
-You can check your own injury count and treatment deadlines at any time with
-`.sov mortality status`. See the [Mortality Commands](#cmd-mortality) section
-for details.
+You can check your own injury count and treatment deadlines at any time with `.sov mortality status`. See the [Mortality Commands](#cmd-mortality) section for details.
 
-If MedRP is not received within the three day window, it counts as a proper
-death under the terms of your race's mortality settings.
+If MedRP is not received within the three day window, it counts as a proper death under the terms of your race's mortality settings.
 
 Individual race documents may define exceptions to the MedRP requirement.
 
 ### What Happens When My Character Dies?
 
-Critical injury tracking is handled automatically in-game. Players and admins
-both receive notifications when a critical injury is sustained. If your
-character exhausts their critical injuries and reaches death, open a contract
-ticket to discuss what happens to your character next.
+Critical injury tracking is handled automatically in-game. Players and admins both receive notifications when a critical injury is sustained. If your character exhausts their critical injuries and reaches death, open a contract ticket to discuss what happens to your character next.
 
 ### Bag Camping
 
-It is against the rules to camp a player characters bag. Once a character has
-been reduced to their bag, treat them as defeated and move on as is natural for
-the scene.
+It is against the rules to camp a player characters bag. Once a character has been reduced to their bag, treat them as defeated and move on as is natural for the scene.
 
-If it is natural for a character to remain in the area (for example, the bag
-dropped in their own castle or another location they have a reason to occupy)
-they are not required to leave. If a bag is dropped in a castle, the bag must
-remain accessible unless consent to restrict access has been given in a conflict
-ticket or warbat.
+If it is natural for a character to remain in the area (for example, the bag dropped in their own castle or another location they have a reason to occupy) they are not required to leave. If a bag is dropped in a castle, the bag must remain accessible unless consent to restrict access has been given in a conflict ticket or warbat.
 
 <!-- section:magic-tech-ceiling -->
-
-These are the limits of what magic can accomplish in the Season 3 setting. If
-something is not listed below, it is not prohibited. That does not mean anything
-goes. All magic operates within a consent framework. Invasive or personal magic
-directed at another player's character requires that player's consent. The team
-has final say on whether a ritual outcome is feasible within the setting. When
-in doubt, open a ticket and ask before investing in a working that might not
-land.
+These are the limits of what magic can accomplish in the Season 3 setting. If something is not listed below, it is not prohibited. That does not mean anything goes. All magic operates within a consent framework. Invasive or personal magic directed at another player's character requires that player's consent. The team has final say on whether a ritual outcome is feasible within the setting. When in doubt, open a ticket and ask before investing in a working that might not land.
 
 ### Absolute Restrictions
 
@@ -589,57 +510,14 @@ land.
   These things cannot be accomplished through magic under any circumstances, at any rank, with any level of investment. They are hard stops, not theoretical ceilings.
 </div>
 
-- <span class="text-warm">**No true resurrection.**</span> Magic cannot restore
-  someone who has truly died back to life. Combining schools does not close this
-  gap. Death is final.
-- <span class="text-warm">**No immunity to true death.**</span> A player
-  character cannot become IC genuinely unkillable through magical means. Some
-  things are extremely difficult to kill, but anything a player can play can be
-  killed one way or another within the IC world. A ritual that attempts to make
-  a character immune to death in any permanent or unconditional sense will not
-  succeed. OOCly, players choose when their characters die. There is a
-  difference between the OOC choice and the IC lore reason, and this targets the
-  IC lore reason.
-- <span class="text-warm">**No ascending to godhood or godlike status.**</span>
-  Any godlike entities in lore represent the product of incomprehensible power
-  accumulated over incomprehensible time. They are not a template that can be
-  reached through effort or ritual. A player character cannot become an ascended
-  entity or anything equivalent to one, cannot become a being that operates on
-  that scale, and cannot cease to be a playable character in the normal sense
-  through magical self-transformation. This applies regardless of how the
-  attempt is framed.
-- <span class="text-warm">**No remote viewing or remote perception
-  (scrying).**</span> Magic cannot be used to observe other players, spy on
-  private locations, or perceive things happening at a distance. This is a flat
-  ban regardless of consent between the players involved. The prohibition is on
-  the function, not the specific technique, and applies to any magical method
-  from any school.
-- <span class="text-warm">**No time magic.**</span> Time as a magical domain
-  does not exist in this setting. There is no established framework for it and
-  it will not be introduced. Magic cannot alter, reverse, or accelerate the flow
-  of time, send information or awareness backward or forward in time, or produce
-  any effect that functions as time manipulation.
-- <span class="text-warm">**No realmwalking.**</span> Players cannot
-  intentionally open a stable rift into another realm and pass through it. The
-  barrier between the physical world and other realms is not something player
-  characters can breach under normal circumstances. It is not something that can
-  be replicated through a ritual ticket. If a narrative reaches a point where
-  realmwalking becomes relevant as a story culmination, that is a team-level
-  decision.
-- <span class="text-warm">**No environmental alteration that permanently harms
-  others or the world at large.**</span> Magic can be used to enhance, decorate,
-  or build up the environment. Construction projects, monuments, and similar
-  improvements are fine. What is not permitted is using magic to obliterate
-  land, render an area permanently uninhabitable, curse a location in a way that
-  harms the people connected to it without their consent, or produce any other
-  effect whose primary purpose or outcome is environmental destruction or
-  detriment to others on a grand scale. The line is whether the effect builds
-  something up or tears something down irreparably. If a ritual looks like it is
-  aimed at wrecking a piece of the world rather than shaping it, it will not be
-  allowed.
-- <span class="text-warm">**No changing vampiric bloodlines
-  (re-siring).**</span> This is not possible in the current vampiric lore. For
-  more details, read the server lore surrounding vampires.
+- <span class="text-warm">**No true resurrection.**</span> Magic cannot restore someone who has truly died back to life. Combining schools does not close this gap. Death is final.
+- <span class="text-warm">**No immunity to true death.**</span> A player character cannot become IC genuinely unkillable through magical means. Some things are extremely difficult to kill, but anything a player can play can be killed one way or another within the IC world. A ritual that attempts to make a character immune to death in any permanent or unconditional sense will not succeed. OOCly, players choose when their characters die. There is a difference between the OOC choice and the IC lore reason, and this targets the IC lore reason.
+- <span class="text-warm">**No ascending to godhood or godlike status.**</span> Any godlike entities in lore represent the product of incomprehensible power accumulated over incomprehensible time. They are not a template that can be reached through effort or ritual. A player character cannot become an ascended entity or anything equivalent to one, cannot become a being that operates on that scale, and cannot cease to be a playable character in the normal sense through magical self-transformation. This applies regardless of how the attempt is framed.
+- <span class="text-warm">**No remote viewing or remote perception (scrying).**</span> Magic cannot be used to observe other players, spy on private locations, or perceive things happening at a distance. This is a flat ban regardless of consent between the players involved. The prohibition is on the function, not the specific technique, and applies to any magical method from any school.
+- <span class="text-warm">**No time magic.**</span> Time as a magical domain does not exist in this setting. There is no established framework for it and it will not be introduced. Magic cannot alter, reverse, or accelerate the flow of time, send information or awareness backward or forward in time, or produce any effect that functions as time manipulation.
+- <span class="text-warm">**No realmwalking.**</span> Players cannot intentionally open a stable rift into another realm and pass through it. The barrier between the physical world and other realms is not something player characters can breach under normal circumstances. It is not something that can be replicated through a ritual ticket. If a narrative reaches a point where realmwalking becomes relevant as a story culmination, that is a team-level decision.
+- <span class="text-warm">**No environmental alteration that permanently harms others or the world at large.**</span> Magic can be used to enhance, decorate, or build up the environment. Construction projects, monuments, and similar improvements are fine. What is not permitted is using magic to obliterate land, render an area permanently uninhabitable, curse a location in a way that harms the people connected to it without their consent, or produce any other effect whose primary purpose or outcome is environmental destruction or detriment to others on a grand scale. The line is whether the effect builds something up or tears something down irreparably. If a ritual looks like it is aimed at wrecking a piece of the world rather than shaping it, it will not be allowed.
+- <span class="text-warm">**No changing vampiric bloodlines (re-siring).**</span> This is not possible in the current vampiric lore. For more details, read the server lore surrounding vampires.
 
 ### Heavily Restricted Categories
 
@@ -647,49 +525,17 @@ land.
   These things are not absolutely impossible but they require team involvement before any ritual in these categories is run. If you want to pursue something in this section, discuss it with the team as a narrative project rather than submitting a standard ritual ticket.
 </div>
 
-- <span class="text-accent">**Soul magic.**</span> Magic that directly
-  influences, alters, or damages a soul is theoretically possible in this
-  setting. It is also extraordinarily difficult, practically undocumented, and
-  carries a very high risk of catastrophic failure including permanent death.
-  There is no established body of knowledge on how to do it correctly. A player
-  who wants to pursue soul magic should expect it to be a significant long-term
-  story investment with genuine risk and no guarantee of success. Raise it with
-  the team as a narrative project, not a ritual ticket.
-- <span class="text-accent">**Summoning entities of significant power.**</span>
-  Rituals that attempt to draw the attention of or make contact with powerful
-  entities are possible and represent the upper end of what the rank system
-  accommodates. What is not possible is summoning and commanding something that
-  operates far beyond mortal scale. The entity does not arrive bound and
-  obligated to comply. Attempting to summon something at the scale of the
-  ascended entities is not viable at any rank. Anything in this space should be
-  coordinated with the team before the ritual is run.
-- <span class="text-accent">**Attempting a vampirism cure.**</span> The setting
-  establishes that vampirism is theoretically reversible. A cure attempt is a
-  valid long-term story direction but it is a team-managed plotline, not a
-  standard ritual ticket.
-- <span class="text-accent">**Attempting a lycanthropy cure.**</span> Reverting
-  a werewolf back to a human is theoretically possible in the setting and is a
-  valid long-term story. But it is a team-managed plotline, not a standard
-  ritual ticket. Players attempting to do so should expect extensive research
-  and time to be required, with the possibility that success is only achievable
-  in a future season.
+- <span class="text-accent">**Soul magic.**</span> Magic that directly influences, alters, or damages a soul is theoretically possible in this setting. It is also extraordinarily difficult, practically undocumented, and carries a very high risk of catastrophic failure including permanent death. There is no established body of knowledge on how to do it correctly. A player who wants to pursue soul magic should expect it to be a significant long-term story investment with genuine risk and no guarantee of success. Raise it with the team as a narrative project, not a ritual ticket.
+- <span class="text-accent">**Summoning entities of significant power.**</span> Rituals that attempt to draw the attention of or make contact with powerful entities are possible and represent the upper end of what the rank system accommodates. What is not possible is summoning and commanding something that operates far beyond mortal scale. The entity does not arrive bound and obligated to comply. Attempting to summon something at the scale of the ascended entities is not viable at any rank. Anything in this space should be coordinated with the team before the ritual is run.
+- <span class="text-accent">**Attempting a vampirism cure.**</span> The setting establishes that vampirism is theoretically reversible. A cure attempt is a valid long-term story direction but it is a team-managed plotline, not a standard ritual ticket.
+- <span class="text-accent">**Attempting a lycanthropy cure.**</span> Reverting a werewolf back to a human is theoretically possible in the setting and is a valid long-term story. But it is a team-managed plotline, not a standard ritual ticket. Players attempting to do so should expect extensive research and time to be required, with the possibility that success is only achievable in a future season.
 
 <!-- section:world-particulars -->
-
 ### Blind Characters
 
-You may roll in as a blind character. A blind character is given a blindness
-debuff that reduces your vision range to roughly around your character, or the
-middle of your screen. Restoring your vision requires significant advanced
-medical ritual roleplay with a notable magic component. Artificial eyes are not
-within the scope of what can be invented.
-
-### Waygates
-
-- You may not use Waygates to teleport during the season until told otherwise.
+You may roll in as a blind character. A blind character is given a blindness debuff that reduces your vision range to roughly around your character, or the middle of your screen. Restoring your vision requires significant advanced medical ritual roleplay with a notable magic component. Artificial eyes are not within the scope of what can be invented.
 
 <!-- section:faq -->
-
 ## Frequently Asked Questions
 
 <div class="mb-6">
