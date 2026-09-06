@@ -334,6 +334,14 @@ Charged gems come in 4 qualities. Each is worth 4 of the tier below it. Gem dust
 </div>
 
 <div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
+  <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-orange-500 to-black"></div>
+  <div class="flex-1 min-w-0">
+    <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-orange-300 flex items-center gap-1.5 mb-1"><i class="mdi mdi-resistor"></i>Copper</div>
+    <p class="text-tprimary-300 text-[0.95rem] m-0">Like a resistor. Magical energy flows through it, but it is very resistant to magical flow.</p>
+  </div>
+</div>
+
+<div class="break-inside-avoid flex gap-3 bg-background-900/60 border border-background-800 rounded p-3 mb-3">
   <div class="w-1 rounded-full flex-shrink-0 bg-gradient-to-b from-green-600 to-black"></div>
   <div class="flex-1 min-w-0">
     <div class="font-cinzel text-sm font-bold uppercase tracking-wider text-green-500 flex items-center gap-1.5 mb-1"><i class="mdi mdi-leaf"></i>Magical Plants</div>
