@@ -214,10 +214,10 @@
     onpointermove={onPointerMove}
     onpointerup={onPointerEnd}
     onpointercancel={onPointerEnd}
-    class="relative flex overflow-auto bg-background-950 select-none {isFill ? 'flex-1 min-h-0' : ''} {dragging ? 'cursor-grabbing' : 'cursor-grab'}"
+    class="relative overflow-auto bg-background-950 select-none {isFill ? 'flex-1 min-h-0' : ''} {dragging ? 'cursor-grabbing' : 'cursor-grab'}"
     style="height: {isFill ? 'auto' : viewHeight}"
   >
-    <div class="relative m-auto" style="width: {width * scale}px; height: {height * scale}px">
+    <div class="relative" style="width: {width * scale}px; height: {height * scale}px">
       <img
         src={mapImg}
         alt="Vardoran blank release map"
