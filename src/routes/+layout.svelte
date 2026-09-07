@@ -9,12 +9,15 @@
   import separator1 from '$lib/assets/separator_1.png';
   import { goto } from '$app/navigation';
   import { resolve } from '$app/paths';
+  import { page } from '$app/state';
   import { onMount } from 'svelte';
   import { restoreSession } from '$lib/stores/admin.svelte';
   import AdminUnlock from '$lib/components/AdminUnlock.svelte';
   import MobileNav from '$lib/components/MobileNav.svelte';
 
   let mobileNav: MobileNav;
+
+  let isConsole = $derived(page.url.pathname.startsWith('/console'));
 
   onMount(() => {
     restoreSession();
@@ -31,81 +34,85 @@
 
   <!-- <img src={moon} alt="Moon" class="absolute top-0 right-0 object-cover w-48 min-w-48 max-w-48 mt-4 mr-6 black-to-red" /> -->
 
-  <!-- Mobile header bar -->
-  <div class="hidden max-md:flex items-center justify-between px-4 py-2 z-2 bg-background-900/80 backdrop-blur-sm border-b border-tprimary-900/30">
-    <button onclick={() => goto(resolve('/'))} class="cursor-pointer">
-      <img src={teethLogo} alt="Logo" class="w-12 h-12 logo-drop-shadow" />
-    </button>
-    <button onclick={() => mobileNav.toggleDrawer()} class="text-tprimary hover:text-primary transition-colors duration-150 cursor-pointer p-2" aria-label="Open navigation menu">
-      <i class="mdi mdi-menu text-2xl"></i>
-    </button>
-  </div>
-
-  <div class="flex flex-col items-center z-2 max-md:hidden">
-    <div class="min-w-38 h-fit border-testing flex flex-col gap-4 pt-10 pb-12 px-5 relative ml-5 mt-6 mr-5">
-      <!-- <img src={tower} alt="Tower" class="w-full -translate-x-4" /> -->
-      <div class="absolute inset-0 background-fade pointer-events-none"></div>
-      <img
-        src={tlBorderDecoration1}
-        alt="Top Left Border Decoration"
-        class="absolute top-0 left-0 w-24 h-24 border-decoration-color -translate-x-[11px] -translate-y-[18px] pointer-events-none"
-      />
-
-      <!-- <div class="absolute top-54 left-[80px] flex flex-col items-center gap-6 justify-center text-center w-16 mt-62"> -->
-
-      <button onclick={() => goto(resolve('/'))} class="mb-2 relative">
-        <img src={teethLogo} alt="Logo" class="w-32 mx-auto logo-drop-shadow" />
+  {#if !isConsole}
+    <!-- Mobile header bar -->
+    <div class="hidden max-md:flex items-center justify-between px-4 py-2 z-2 bg-background-900/80 backdrop-blur-sm border-b border-tprimary-900/30">
+      <button onclick={() => goto(resolve('/'))} class="cursor-pointer">
+        <img src={teethLogo} alt="Logo" class="w-12 h-12 logo-drop-shadow" />
       </button>
-      <button onclick={() => goto(resolve('/conduct'))} class="nav-tower-button">Conduct</button>
-      <button onclick={() => goto(resolve('/rules'))} class="nav-tower-button">RP Rules</button>
-      <button onclick={() => goto(resolve('/glossary'))} class="nav-tower-button">Glossary</button>
-      <button onclick={() => goto(resolve('/guides'))} class="nav-tower-button">Guides</button>
-      <button onclick={() => goto(resolve('/season-3'))} class="nav-tower-button text-gold-300! hover:text-gold-100!">Season 3</button>
-      <button onclick={() => goto(resolve('/media'))} class="nav-tower-button">Media</button>
-      <!-- </div> -->
-
-      <img
-        src={brBorderDecoration1}
-        alt="Bottom Right Border Decoration"
-        class="absolute bottom-0 right-0 w-24 h-24 border-decoration-color translate-x-[11px] translate-y-[19px] pointer-events-none"
-      />
+      <button onclick={() => mobileNav.toggleDrawer()} class="text-tprimary hover:text-primary transition-colors duration-150 cursor-pointer p-2" aria-label="Open navigation menu">
+        <i class="mdi mdi-menu text-2xl"></i>
+      </button>
     </div>
 
-    <div class="grow"></div>
+    <div class="flex flex-col items-center z-2 max-md:hidden">
+      <div class="min-w-38 h-fit border-testing flex flex-col gap-4 pt-10 pb-12 px-5 relative ml-5 mt-6 mr-5">
+        <!-- <img src={tower} alt="Tower" class="w-full -translate-x-4" /> -->
+        <div class="absolute inset-0 background-fade pointer-events-none"></div>
+        <img
+          src={tlBorderDecoration1}
+          alt="Top Left Border Decoration"
+          class="absolute top-0 left-0 w-24 h-24 border-decoration-color -translate-x-[11px] -translate-y-[18px] pointer-events-none"
+        />
 
-    <div class="flex flex-col items-center mb-6">
-      <div class="flex items-center gap-2 mb-1">
-        <a href="https://www.youtube.com/@ShadowsOfVardoran" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150 h-7">
-          <i class="mdi mdi-youtube text-2xl" aria-hidden="true"></i>
-          <span class="sr-only">Youtube</span>
-        </a>
-        <a href="https://www.tiktok.com/@shadowsofvardoran" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150 mt-1">
-          <i class="fa-brands fa-tiktok text-xl" aria-hidden="true"></i>
-          <span class="sr-only">TikTok</span>
-        </a>
-        <a href="https://www.instagram.com/shadowsofvardoran" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150 mt-1">
-          <i class="fa-brands fa-instagram text-xl" aria-hidden="true"></i>
-          <span class="sr-only">Instagram</span>
-        </a>
-        <a href="https://medal.tv/u/ShadowsOfVardoran" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150 mt-1">
-          <i class="fa-solid fa-medal text-xl" aria-hidden="true"></i>
-          <span class="sr-only">Medal</span>
-        </a>
-        <a href="https://discord.gg/shadowsofvardoran" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150 mt-1">
-          <i class="fa-brands fa-discord text-xl" aria-hidden="true"></i>
-          <span class="sr-only">Discord</span>
-        </a>
+        <!-- <div class="absolute top-54 left-[80px] flex flex-col items-center gap-6 justify-center text-center w-16 mt-62"> -->
+
+        <button onclick={() => goto(resolve('/'))} class="mb-2 relative">
+          <img src={teethLogo} alt="Logo" class="w-32 mx-auto logo-drop-shadow" />
+        </button>
+        <button onclick={() => goto(resolve('/conduct'))} class="nav-tower-button">Conduct</button>
+        <button onclick={() => goto(resolve('/rules'))} class="nav-tower-button">RP Rules</button>
+        <button onclick={() => goto(resolve('/glossary'))} class="nav-tower-button">Glossary</button>
+        <button onclick={() => goto(resolve('/guides'))} class="nav-tower-button">Guides</button>
+        <button onclick={() => goto(resolve('/season-3'))} class="nav-tower-button text-gold-300! hover:text-gold-100!">Season 3</button>
+        <button onclick={() => goto(resolve('/media'))} class="nav-tower-button">Media</button>
+        <!-- </div> -->
+
+        <img
+          src={brBorderDecoration1}
+          alt="Bottom Right Border Decoration"
+          class="absolute bottom-0 right-0 w-24 h-24 border-decoration-color translate-x-[11px] translate-y-[19px] pointer-events-none"
+        />
       </div>
-      <img src={separator1} alt="Separator" class="w-38 border-decoration-color" />
+
+      <div class="grow"></div>
+
+      <div class="flex flex-col items-center mb-6">
+        <div class="flex items-center gap-2 mb-1">
+          <a href="https://www.youtube.com/@ShadowsOfVardoran" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150 h-7">
+            <i class="mdi mdi-youtube text-2xl" aria-hidden="true"></i>
+            <span class="sr-only">Youtube</span>
+          </a>
+          <a href="https://www.tiktok.com/@shadowsofvardoran" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150 mt-1">
+            <i class="fa-brands fa-tiktok text-xl" aria-hidden="true"></i>
+            <span class="sr-only">TikTok</span>
+          </a>
+          <a href="https://www.instagram.com/shadowsofvardoran" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150 mt-1">
+            <i class="fa-brands fa-instagram text-xl" aria-hidden="true"></i>
+            <span class="sr-only">Instagram</span>
+          </a>
+          <a href="https://medal.tv/u/ShadowsOfVardoran" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150 mt-1">
+            <i class="fa-solid fa-medal text-xl" aria-hidden="true"></i>
+            <span class="sr-only">Medal</span>
+          </a>
+          <a href="https://discord.gg/shadowsofvardoran" target="_blank" rel="noopener noreferrer" class="hover:text-red-500! transition-colors duration-150 mt-1">
+            <i class="fa-brands fa-discord text-xl" aria-hidden="true"></i>
+            <span class="sr-only">Discord</span>
+          </a>
+        </div>
+        <img src={separator1} alt="Separator" class="w-38 border-decoration-color" />
+      </div>
     </div>
-  </div>
+  {/if}
 
   <div class="flex grow h-full overflow-hidden z-3 max-md:h-full">
     <slot />
   </div>
 
-  <MobileNav bind:this={mobileNav} />
-  <AdminUnlock />
+  {#if !isConsole}
+    <MobileNav bind:this={mobileNav} />
+    <AdminUnlock />
+  {/if}
 </div>
 
 <!--
