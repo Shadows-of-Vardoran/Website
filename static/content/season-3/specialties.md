@@ -154,7 +154,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-red-800/50 to-black/80 flex-shrink-0 border border-red-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-red-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for blood magic.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with blood magic or a community project calling for blood magic.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -311,7 +311,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for unholy magic.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with unholy magic or a community project calling for unholy magic.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -467,7 +467,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for storm magic.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with storm magic or a community project calling for storm magic.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -626,7 +626,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-cyan-800/50 to-black/80 flex-shrink-0 border border-cyan-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-cyan-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for frost magic.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with frost magic or a community project calling for frost magic.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -783,7 +783,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-teal-800/50 to-black/80 flex-shrink-0 border border-teal-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-teal-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for illusion magic.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with illusion magic or a community project calling for illusion magic.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -937,7 +937,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-chaos-700/50 to-black/80 flex-shrink-0 border border-chaos-700/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chaos-300">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for chaos magic.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with chaos magic or a community project calling for chaos magic.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1096,7 +1096,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for light magic.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with light magic or a community project calling for light magic.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1253,7 +1253,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-gray-800/50 to-black/80 flex-shrink-0 border border-gray-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-gray-400">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for shadow magic.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with shadow magic or a community project calling for shadow magic.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1413,7 +1413,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-orange-800/50 to-black/80 flex-shrink-0 border border-orange-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-orange-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for elemental magic.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with elemental magic or a community project calling for elemental magic.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1575,7 +1575,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for druidic magic.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with druidic magic or a community project calling for druidic magic.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1718,7 +1718,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-slate-900/60 to-black/80 flex-shrink-0 border border-slate-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-slate-400">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for architecture.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with architecture or a community project calling for architecture.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -1865,7 +1865,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-amber-800/50 to-black/80 flex-shrink-0 border border-amber-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-amber-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for blacksmithing.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with blacksmithing or a community project calling for blacksmithing.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2012,7 +2012,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-rose-800/50 to-black/80 flex-shrink-0 border border-rose-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-rose-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for tailoring.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with tailoring or a community project calling for tailoring.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2152,7 +2152,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-emerald-800/50 to-black/80 flex-shrink-0 border border-emerald-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-emerald-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for alchemy.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with alchemy or a community project calling for alchemy.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2302,7 +2302,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-purple-900/60 to-black/80 flex-shrink-0 border border-purple-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-purple-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for ritualism.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with ritualism or a community project calling for ritualism.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2442,7 +2442,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-red-800/50 to-black/80 flex-shrink-0 border border-red-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-red-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for martial arts.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with martial arts or a community project calling for martial arts.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2592,7 +2592,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-lime-800/50 to-black/80 flex-shrink-0 border border-lime-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-lime-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for medicine.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with medicine or a community project calling for medicine.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2737,7 +2737,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-blue-800/50 to-black/80 flex-shrink-0 border border-blue-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-blue-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for engineering.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with engineering or a community project calling for engineering.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -2921,7 +2921,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-chartreuse-800/50 to-black/80 flex-shrink-0 border border-chartreuse-900/60"></div>
   <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-chartreuse-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for ranching.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with ranching or a community project calling for ranching.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -3061,7 +3061,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for rangers.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with rangers or a community project calling for rangers.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -3202,7 +3202,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for mutants.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with mutants or a community project calling for mutants.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
@@ -3346,7 +3346,7 @@ This is the list of options available at every rank. The same list is used for a
   <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
   <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
     <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
-    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for the corrupted.</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket completing a project associated with the corrupted or a community project calling for the corrupted.</div>
   </div>
 </div>
 <div class="flex gap-3 mb-2">
