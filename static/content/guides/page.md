@@ -1338,6 +1338,84 @@ Both outcomes can create incredible roleplay.
 
 <!-- /guide -->
 
+<!-- guide:player-investigation-system -->
+<!-- title: Player Investigation System -->
+<!-- description: How investigation works, what makes a trail, and what you must do as an investigator. -->
+<!-- content -->
+
+# Player Investigation System
+
+<details open>
+<summary>The Concept</summary>
+
+<span class="text-accent">Investigation runs on trails, not permission.</span> If your action leaves something behind for someone to find, it can be investigated. A rumor that started spreading is a trail. A witness who is still around to talk is a trail. Physical evidence left at the scene is a trail. If your action does not leave a trail, there is nothing to investigate. Not because it was private. Because there is nothing there.
+
+A group that raids an outpost and kills every witness, with nothing spreading and nothing left pointing back to them, got away with it. But if word of the raid reaches someone on the other side of the region, or the outpost is left standing with bodies for someone to find and examine, that is a trail. A player who hears the rumor, or comes across the scene, can open an RPO ticket to investigate. The trail itself, and the admin running the ticket, determine how far it actually goes.
+
+Posting in <code>#rumors</code> or placing a sign is the most direct way to create a trail yourself. But you do not have to advertise something for a trail to exist. Acting somewhere it could plausibly be witnessed, or leaving evidence behind at the scene, does the same thing.
+
+</details>
+
+---
+
+## The Disclaimer
+
+<details open>
+<summary>Know what your actions invite</summary>
+
+<span class="text-warm">If your action leaves a trail, a rumor, a witness, or physical evidence behind, other players may investigate it and potentially trace it back to you.</span> This applies automatically, with no further step from anyone involved.
+
+Some trails always count. Anything you post in the <code>#rumors</code> channel counts as a trail. Any sign you place in the world counts as a trail. Those are non-negotiable, no matter what you intended.
+
+Everything else falls back on the description of a trail. A rumor that started spreading counts. A witness who is still around to talk counts. Physical evidence left at the scene counts. Acting somewhere your action could plausibly be witnessed counts.
+
+</details>
+
+---
+
+## Starting an Investigation
+
+<details open>
+<summary>Open an RPO ticket</summary>
+
+A player who wants to investigate one of these actions opens an RPO ticket. This is the entry point for the investigating player, the same way an RPO ticket is the entry point for any other significant story pursuit.
+
+</details>
+
+---
+
+## The RPO Side Ticket
+
+<details open>
+<summary>How the investigation is run</summary>
+
+Once the investigation ticket is open, the RPO team opens a second, separate ticket with the player who performed the original action. This side ticket exists to collect the information needed to run the investigation. That includes what actually happened, who was involved, and what evidence would realistically exist.
+
+The admin running the investigating player's ticket acts as the DM. They decide what the investigating player actually turns up, based on what the side ticket establishes and how far the trail realistically goes. This keeps the acting player's side ticket private from the investigator while still giving the admin what they need to adjudicate fairly.
+
+<span class="text-warm">**If the acting player does not cooperate**</span>
+
+Performing an action that leaves a trail means accepting that it can be investigated. <span class="text-warm">Refusing to engage in good faith with the side ticket, once one is opened, is treated as a community standards violation and results in a disciplinary strike.</span> In these cases, the admin running the ticket uses their own judgment on how much to reveal to the investigating player, since running the original ticket usually means they already know what happened.
+
+</details>
+
+---
+
+## The Rumor Requirement
+
+<details open>
+<summary>Investigation is never invisible</summary>
+
+<span class="text-warm">A player who investigates another player must post a rumor about the fact that they are investigating.</span> This is not optional and it is not a courtesy. It is a requirement of the system.
+
+The rumor will be posted in <code>#rumors</code>. That channel is how rumor and gossip spreads between characters, and anything posted there is public knowledge.
+
+This exists so investigation is never a quiet, one-sided thing happening in the background. Posting the rumor signals to the rest of the server, and specifically to the player being investigated, that someone is looking into it. That gives the original player the option to counter-investigate, cover their tracks, respond in character, or otherwise engage with it instead of finding out after the fact.
+
+</details>
+
+<!-- /guide -->
+
 <!-- guide:sov-keys-mod-guide -->
 <!-- title: Sov Keys Mod Guide -->
 <!-- description: Your resource for understanding what having the keys to the castle actually means -->

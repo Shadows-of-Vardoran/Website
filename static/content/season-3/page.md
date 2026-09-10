@@ -99,7 +99,7 @@ We are inclined to trust the community with this framework as-is without any sig
 <!-- section:specialties-tech-details -->
 - 2 specialties at whitelist (level 1)
 - 3 levels per specialty
-- 3 specialties maximum at once
+- 4 specialties maximum at once
 - Max specialties will increase to 5+ over the story arc
 - Dropping a specialty needs a solid in character reason, reviewed case by case (see below)
 - See the [Specialty Leveling Guide](/guides) for the full breakdown of the requirements and submission process

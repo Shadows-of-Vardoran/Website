@@ -19,6 +19,7 @@
   let positionsError = $state('');
   let mapRef = $state<{ panTo(x: number, z: number): void } | null>(null);
   let activeView = $state<'overview' | 'admins'>('overview');
+  let autoFetch = $state(false);
 
   let newUsername = $state('');
   let newPassword = $state('');
@@ -34,6 +35,12 @@
     void refreshOverview();
     void refreshUsers();
     const id = setInterval(() => void refreshOverview(), 15000);
+    return () => clearInterval(id);
+  });
+
+  $effect(() => {
+    if (!getDashboardAuthed() || !autoFetch) return;
+    const id = setInterval(() => void fetchPositions(), 3000);
     return () => clearInterval(id);
   });
 
@@ -155,7 +162,7 @@
     }
   }
 
-  async function handleGetPositions() {
+  async function fetchPositions() {
     loadingPositions = true;
     positionsError = '';
     try {
@@ -339,8 +346,12 @@
                   {#if positionsError}
                     <span class="text-xs text-error-0">{positionsError}</span>
                   {/if}
+                  <label class="flex items-center gap-1.5 text-xs text-tprimary-500 cursor-pointer select-none" title="Auto-update positions every 3 seconds">
+                    <input type="checkbox" bind:checked={autoFetch} class="accent-info-800 cursor-pointer" />
+                    Auto
+                  </label>
                   <button
-                    onclick={handleGetPositions}
+                    onclick={fetchPositions}
                     disabled={loadingPositions}
                     class="px-3 py-1.5 text-xs bg-info-800 hover:bg-info-700 disabled:opacity-50 text-white font-cinzel rounded cursor-pointer disabled:cursor-not-allowed"
                   >

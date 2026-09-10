@@ -134,11 +134,18 @@ You arrange consent via Discord or by a quick out-of-character check-in using th
 - Information in a personal journal is not known in-character to any other character unless the journal owner shares it. Using information from a character journal in-character without being shown it by its owner is [Metagaming](https://vardoran.com/conduct#metagaming).
 - You may open a character story thread to engage in collaborative text RP with other players outside the game. Create a thread and ping the relevant players. Once the scene ends, add an out-of-character message to indicate it is finished. Only the thread creator and pinged players may participate, and only those players have in-character knowledge of the contents. Using information from a character stories thread you did not create or were not pinged in is [Metagaming](https://vardoran.com/conduct#metagaming).
 
-### 6. In-Character Communication Terms
+### 6. Rumors
+
+<div class="marked-block-info">The <code>#rumors</code> channel is how rumor and gossip spreads between characters. Anything posted there is public knowledge, and any character who has read it may act on it in character.</div>
+
+- Posting in `#rumors` creates a trail that other players can investigate, even if you did not intend for anyone to act on it. See [Player Investigations](https://vardoran.com/guides#player-investigation-system).
+- If your character investigates another character in public, you must post a rumor about the fact that you are investigating. This applies when the investigation involves asking around, questioning NPCs, or otherwise acting in public. It is a requirement of the investigation system, not a courtesy. See [Player Investigations](https://vardoran.com/guides#player-investigation-system).
+
+### 7. In-Character Communication Terms
 
 For commonly used in-character terms and their meanings, see the [Glossary](https://vardoran.com/glossary#in-character-terms).
 
-### 7. Miscellaneous Communication Rules
+### 8. Miscellaneous Communication Rules
 
 - Do not use the whispers chat function in-game. Clan chat is acceptable for quick out-of-character uses like a check-in or asking a clan member to bring you an item.
 - If someone is not in your clan, you may use local chat for brief out-of-character check-ins. This includes seeking consent for RP topics that require it, wellness check-ins for dark or intense scenes, asking for a dice roll, or conveying urgent information like needing to leave your keyboard right away.
@@ -332,6 +339,21 @@ Invalid
 - We have a team of Event Volunteer staff available to play NPCs in your events, whether player-run or admin-assisted. If you want Event Volunteers, open an Event ticket, even if you are not requesting admin assistance.
 - If you are requesting Event Volunteers or admin assistance, you must fill out the Event Information form before we can help you. We will not provide assistance until the form is completed.
 - <span class="text-accent">**This is first and foremost a collaborative storytelling space.**</span> If your event is in the open world, expect other players to interact with it. You may try to kick people out, but they are allowed to retaliate. See [PvP Rules](https://vardoran.com/rules#1-pvp). If your event will affect the land of Vardoran or the overarching staff story, it must be an event the server as a whole can interact with.
+
+</details>
+
+## 9. *Player Investigations*
+
+<details open><summary>Click to expand/collapse Player Investigations</summary>
+
+<div class="marked-block-info">Investigation of another player's actions runs on trails, not consent. If an action leaves a trail behind, it can be investigated.</div>
+
+- The investigating player does not need the acting player's permission, and the acting player no longer has to agree before their actions can be looked into.
+- Anything posted in the `#rumors` channel counts as a trail. Any sign placed in the world counts as a trail. Those are non-negotiable, no matter what you intended.
+- Everything else falls back on the description of a trail. A rumor that started spreading, a witness who is still around to talk, physical evidence left at the scene, or acting where the action could plausibly have been witnessed all count. For a full breakdown, see the [Player Investigation System guide](https://vardoran.com/guides#player-investigation-system).
+- A player who investigates another player in public must post a rumor about the fact that they are investigating. This applies when the investigation involves asking around, questioning NPCs, or otherwise acting in public. It is not optional. See [The Rumor Requirement](https://vardoran.com/guides#player-investigation-system).
+- Once an investigation opens, the acting player must engage in good faith with the side ticket. Refusing to cooperate in good faith is a community standards violation and results in a disciplinary strike.
+- This system applies going forward only. Actions that happened before this system was published are not retroactively open to investigation.
 
 </details>
 

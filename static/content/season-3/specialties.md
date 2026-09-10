@@ -2932,3 +2932,428 @@ This is the list of options available at every rank. The same list is used for a
   </div>
 </div>
 
+<!-- section:ranger -->
+
+To be a ranger is to master distance. It is marksmanship, fieldcraft, and the
+patient discipline of the hunter, turning range into advantage and precision
+into a weapon. A ranger may also practice magic. This is not a rejection of the
+arcane. It is its own discipline, focused on the ranged and the physical,
+standing alongside magic rather than against it. Where others close to strike,
+the ranger holds ground and lets the arrow, bolt, or ranged spell do the work.
+
+## RP Themes
+
+- Marksmanship and the long road of training, repetition, and refinement.
+- Ranged combat and the art of fighting from a distance with bow, crossbow, or
+  ranged spell.
+- Fieldcraft and the patience of the hunt, reading terrain and waiting for the
+  right moment.
+- Precision and restraint, the ability to end a fight with a single shot and the
+  wisdom to know when not to take it.
+- The tools of the trade, the weapons, ammunition, and equipment a ranger
+  maintains and relies on.
+
+## Features
+
+- Access to a selection of ranged combat abilities at each specialty level,
+  focused on the physical rather than the magical. Use the
+  [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
+
+<!-- section:ranger-leveling -->
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+
+<div class="mb-4 rounded-lg bg-background-800/60 border border-green-800/60 px-4 py-3">
+  <div class="flex justify-between">
+    <div class="flex-1 text-center">
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
+      <div class="text-lg font-bold text-green-500">5 points required</div>
+    </div>
+    <div class="flex-1 text-center">
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
+      <div class="text-lg font-bold text-green-500">7 points required</div>
+    </div>
+    <div class="flex-1 text-center">
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
+      <div class="text-lg font-bold text-green-500">10 points required</div>
+    </div>
+  </div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
+</div>
+
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 3 paragraphs</div>
+    <div class="text-tprimary-100">A solo RP scene of your character training, practicing at range, or hunting, for an in-story reason.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 1 paragraph</div>
+    <div class="text-tprimary-100">A written reflection on how your character's control over ranged combat has evolved, after a real fight.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 2 paragraphs</div>
+    <div class="text-tprimary-100">Journal a documented failure involving ranged combat and what your character learned from it.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
+    <div class="text-tprimary-100">An RP scene of your character training, practicing at range, or hunting, with another player present.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
+    <div class="text-tprimary-100">Receive a documented lesson from a higher-ranked ranger specialist.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
+    <div class="text-tprimary-100">Teach another player about ranged combat. This is credited once per scene, no matter how many players you're teaching at once.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your archery range or practice grounds to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
+    <div class="text-tprimary-100">A scene or activity where ranged combat is used alongside a different specialty, in a collaborative fashion.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, noting the stakes and how it played out</div>
+    <div class="text-tprimary-100">A formal contest, duel, or competition against another player who also practices ranged combat, with a clear stake or prize on the line. Credit is for participating and documenting it, not for winning.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
+    <div class="text-tprimary-100">A documented instance of your character being sought out by another character specifically because of their reputation in ranged combat, rather than initiating themselves.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
+    <div class="text-tprimary-100">An RP scene of your character practicing with or training another player directly.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for rangers.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-green-800/50 to-black/80 flex-shrink-0 border border-green-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-green-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable in practice but rare</span></div>
+    <div class="text-tprimary-100">Invent a new technique, form, or style variation, get it reviewed and approved by the admin team, and publish it in character.</div>
+  </div>
+</div>
+
+<!-- section:mutant -->
+<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-yellow-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-yellow-500 block mb-1">Restriction</span><span class="text-base text-tprimary-50">This specialty cannot be selected at character creation. A human who takes it has their secondary blood type forced to mutant. A mytt who takes it unlocks mutant as a blood type they can attune to. Humans do not gain mutated animal shapeshifts unless they have druidic magic. Mytts never gain mutated animal shapeshifts.</span></div>
+
+To be a mutant is to study the body as something that can be rewritten. Mutagens
+are the product of Trancendum research, crafted compounds that push a living
+body past its natural limits. Where other specialties work with tools or magic,
+the mutant turns the work inward, altering their own form through science rather
+than sorcery. There is no channeling here. There is preparation, injection, and
+the gamble of what the body becomes.
+
+The abilities and shapeshifts of this specialty are drawn from the mutant
+monsters that prowl Gloomrot, the twisted forms that Trancendum research has
+already produced in the wild. A mutant does not learn these shapes. They
+recreate them in their own flesh.
+
+## RP Themes
+
+- Self-experimentation and the line between improvement and ruin.
+- The mutagenic path, preparation, dosing, and the body's unpredictable answers.
+- Irreversible change and the cost of becoming something new.
+- Discovery, mapping the limits of what Trancendum science can achieve.
+
+## Features
+
+- Access to a selection of mutant abilities and shapeshifts at each specialty
+  level, drawn from the mutant monsters of Gloomrot. Use the
+  [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
+
+<!-- section:mutant-leveling -->
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+
+<div class="mb-4 rounded-lg bg-background-800/60 border border-yellow-800/60 px-4 py-3">
+  <div class="flex justify-between">
+    <div class="flex-1 text-center">
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
+      <div class="text-lg font-bold text-yellow-500">5 points required</div>
+    </div>
+    <div class="flex-1 text-center">
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
+      <div class="text-lg font-bold text-yellow-500">7 points required</div>
+    </div>
+    <div class="flex-1 text-center">
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
+      <div class="text-lg font-bold text-yellow-500">10 points required</div>
+    </div>
+  </div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
+</div>
+
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 3 paragraphs</div>
+    <div class="text-tprimary-100">A solo RP scene of your character preparing or administering a mutagen, for an in-story reason.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 1 paragraph</div>
+    <div class="text-tprimary-100">A written reflection on how your character's control over their mutations in combat has evolved, after a real fight.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 2 paragraphs</div>
+    <div class="text-tprimary-100">Journal a documented failure involving a mutation and what your character learned from it.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
+    <div class="text-tprimary-100">An RP scene of your character using a mutation, with another player present.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
+    <div class="text-tprimary-100">Receive a documented lesson from a higher-ranked mutant specialist.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
+    <div class="text-tprimary-100">Teach another player about mutations. This is credited once per scene, no matter how many players you're teaching at once.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your laboratory or mutation space to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
+    <div class="text-tprimary-100">A scene or activity where mutations are used alongside a different specialty, in a collaborative fashion.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, noting the stakes and how it played out</div>
+    <div class="text-tprimary-100">A formal contest, duel, or competition against another player who also practices mutations, with a clear stake or prize on the line. Credit is for participating and documenting it, not for winning.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
+    <div class="text-tprimary-100">A documented instance of your character being sought out by another character specifically because of their reputation in mutations, rather than initiating themselves.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
+    <div class="text-tprimary-100">An RP scene of your character guiding another player through their own mutation directly.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for mutants.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-yellow-800/50 to-black/80 flex-shrink-0 border border-yellow-900/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-yellow-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable in practice but rare</span></div>
+    <div class="text-tprimary-100">Invent a new mutagen formula or mutation, get it reviewed and approved by the admin team, and publish it in character.</div>
+  </div>
+</div>
+
+<!-- section:corrupted -->
+<div class="mb-4 px-4 py-2.5 rounded bg-background-700/60 border border-violet-800/60"><span class="text-xl font-cinzel font-bold uppercase tracking-wider text-violet-500 block mb-1">Restriction</span><span class="text-base text-tprimary-50">This specialty cannot be selected at character creation. A human who takes it has their secondary blood type forced to corrupted. A mytt who takes it unlocks corrupted as a blood type they can attune to. Humans do not gain corrupted creature shapeshifts unless they have druidic magic. Mytts never gain corrupted creature shapeshifts. No shapeshifts are available without druidic magic.</span></div>
+
+To be corrupted is to take Venom Sap into your own body and become something the
+flesh was never meant to be. Venom Sap is the corrupted arcane substance born
+from Megara's work in Oakveil, spread and sustained by the rituals the
+Venomblades continue to perform on the trees. Venom Sap works through
+corruption, warping living tissue into twisted new forms. It is half science and
+alchemy, half magic, and the boundary between the two dissolves the moment the
+sap touches flesh.
+
+There is no clean study here. The practice is self-corruption, the slow loss of
+what you were in exchange for what Venom Sap can make you become. The abilities
+and shapeshifts of this specialty are drawn from the warped creatures of
+Oakveil, flora and fauna twisted by the corruption that bleeds out from its
+trees and into the forest around them.
+
+## RP Themes
+
+- Venom Sap and what it does to living flesh.
+- Self-corruption and the slow loss of what you were.
+- The fused craft of science, alchemy, and magic in a single corrupted practice.
+- Oakveil and the Venomblades, the corruption bleeding out from its trees.
+- Twisted life and the instincts it carries.
+
+## Features
+
+- Access to a selection of corrupted abilities and shapeshifts at each specialty
+  level, drawn from the warped creatures of Oakveil. Use the
+  [Abilities Commands](#cmd-abilities) to assign abilities to your spell slots.
+
+<!-- section:corrupted-leveling -->
+This is the list of options available at every rank. The same list is used for all three rank-ups; only the number of points required changes, and each RP scene can only be credited under one option even if it happens to fit more than one. See the [Specialty Leveling Guide](/guides) for how points, documentation, and pacing work.
+
+<div class="mb-4 rounded-lg bg-background-800/60 border border-violet-800/60 px-4 py-3">
+  <div class="flex justify-between">
+    <div class="flex-1 text-center">
+      <div class="text-base text-tprimary-200 mb-1">Novice (0) to Practicing (1)</div>
+      <div class="text-lg font-bold text-violet-500">5 points required</div>
+    </div>
+    <div class="flex-1 text-center">
+      <div class="text-base text-tprimary-200 mb-1">Practicing (1) to Proficient (2)</div>
+      <div class="text-lg font-bold text-violet-500">7 points required</div>
+    </div>
+    <div class="flex-1 text-center">
+      <div class="text-base text-tprimary-200 mb-1">Proficient (2) to Seasoned (3)</div>
+      <div class="text-lg font-bold text-violet-500">10 points required</div>
+    </div>
+  </div>
+  <div class="text-xs text-tprimary-400 mt-2 text-center">Each rank starts back at zero. Points don't carry over from the rank before. Reaching a rank sets a checkpoint. Only options completed after that checkpoint count toward the next rank.</div>
+</div>
+
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 3 paragraphs</div>
+    <div class="text-tprimary-100">A solo RP scene of your character preparing or administering Venom Sap, for an in-story reason.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 1 paragraph</div>
+    <div class="text-tprimary-100">A written reflection on how your character's control over their corruption in combat has evolved, after a real fight.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 1 point</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: at least 2 paragraphs</div>
+    <div class="text-tprimary-100">Journal a documented failure involving Venom Sap and what your character learned from it.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof it happened</div>
+    <div class="text-tprimary-100">An RP scene of your character using their corruption, with another player present.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
+    <div class="text-tprimary-100">Receive a documented lesson from a higher-ranked corrupted specialist.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
+    <div class="text-tprimary-100">Teach another player about corruption. This is credited once per scene, no matter how many players you're teaching at once.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 2 points</span> &middot; <span class="text-amber-500">Usable once per rank</span> &middot; Write-up: screenshots plus 1 paragraph on your design choices</div>
+    <div class="text-tprimary-100">Space requirement: build or expand your corrupted grove to the size required for the rank you're advancing toward, 2 tiles for Practicing, 4 for Proficient, 8 for Seasoned.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, naming the other specialty</div>
+    <div class="text-tprimary-100">A scene or activity where corruption is used alongside a different specialty, in a collaborative fashion.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof, noting the stakes and how it played out</div>
+    <div class="text-tprimary-100">A formal contest, duel, or competition against another player who also practices corruption, with a clear stake or prize on the line. Credit is for participating and documenting it, not for winning.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 2 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
+    <div class="text-tprimary-100">A documented instance of your character being sought out by another character specifically because of their reputation in corruption, rather than initiating themselves.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences plus proof</div>
+    <div class="text-tprimary-100">An RP scene of your character guiding another player through their own corruption directly.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/60 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable</span> &middot; Write-up: 2 to 3 sentences on your role plus a link or screenshot</div>
+    <div class="text-tprimary-100">Participate in an RPO ticket or community project calling for the corrupted.</div>
+  </div>
+</div>
+<div class="flex gap-3 mb-2">
+  <div class="w-2 rounded bg-gradient-to-b from-violet-800/50 to-black/80 flex-shrink-0 border border-violet-800/60"></div>
+  <div class="flex-1 rounded bg-background-800/40 px-3 py-2">
+    <div class="text-xs font-cinzel uppercase tracking-wider text-tprimary-500 mb-1"><span class="font-bold text-violet-500">Worth 3 points</span> &middot; <span class="text-emerald-500">Repeatable in practice but rare</span></div>
+    <div class="text-tprimary-100">Invent a new corruption process or ritual, get it reviewed and approved by the admin team, and publish it in character.</div>
+  </div>
+</div>
+

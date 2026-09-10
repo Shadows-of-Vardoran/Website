@@ -112,5 +112,23 @@
     "icon": "barn",
     "colorKey": "chartreuse",
     "category": "profession"
+  },
+  {
+    "name": "Ranger",
+    "icon": "bow-arrow",
+    "colorKey": "green",
+    "category": "profession"
+  },
+  {
+    "name": "Mutant",
+    "icon": "dna",
+    "colorKey": "yellow",
+    "category": "profession"
+  },
+  {
+    "name": "Corrupted",
+    "icon": "virus",
+    "colorKey": "violet",
+    "category": "profession"
   }
 ]
