@@ -3,7 +3,7 @@
 
 Blood magic is rooted in life force, the vital energy that animates living
 things. It treats that energy as a transferable resource to be drawn,
-redirected, and spent. It is the oldest school of magic, woven into the nature
+redirected, and shaped. It is the oldest school of magic, woven into the nature
 of vampirism itself. For nearly 300 years it was the only magic in the world,
 though it was not understood as a school at the time. People simply called it
 vampiric power. It belongs, fundamentally, to the undead.
@@ -25,27 +25,29 @@ and practice like any other school of magic.
 
 ## What You Can Do
 
-- Transfer life force from a living source to fuel healing, sustain the caster,
-  or power a working.
+- Transfer life force from a living source to heal, sustain the caster,
+  or shape a blood magic working.
 - Heal injuries by redirecting vitality into damaged tissue (with consent).
 - Modify and reshape living flesh and biological systems with sufficient skill.
 - Alter a living body in ways that push it beyond its natural state (RP only, no
   mechanical effects).
 - Sustain life in conditions that would otherwise be fatal, through magical life
   support.
-- Store life force in physical mediums and route it through objects and rituals,
-  even when a mortal is handling it.
+- Store life force in physical mediums and route it through blood magic objects
+  and rituals, even when a mortal is handling it.
 
 ## What You Cannot Do
 
 - Blood magic cannot generate life force from nothing. The conservation rule is
-  absolute. What is spent must come from somewhere, and without a living source,
+  absolute. What is used must come from somewhere, and without a living source,
   there is nothing to work with.
 - Blood magic cannot be channeled directly by a mortal. The barrier is
   structural, not a matter of training or talent. A mortal who attempts it
   suffers damage.
 - Blood magic cannot resurrect the dead. Life force that has left a body cannot
   be forced back into it.
+- Blood magic cannot convert life force into magical energy. Life force stays
+  within blood magic workings. It cannot feed other schools.
 
 ## Features
 
