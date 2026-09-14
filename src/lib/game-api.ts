@@ -33,6 +33,33 @@ export interface PlayersResponse {
   players: PlayerInfo[];
 }
 
+export interface MobPrefabInfo {
+  hash: number;
+  name: string;
+}
+
+export interface SpawnerInfo {
+  id: string;
+  guidHash: number;
+  prefabHash: number;
+  prefabName: string;
+  x: number;
+  y: number;
+  z: number;
+  mobs: MobPrefabInfo[];
+  faction: string | null;
+  unitLevelDelta: number | null;
+  statDeltas: Record<string, number>;
+  isDisabled: boolean;
+  hasDeltas: boolean;
+  loaded: boolean;
+}
+
+export interface SpawnersResponse {
+  spawnerCount: number;
+  spawners: SpawnerInfo[];
+}
+
 export interface WhoAmI {
   username: string;
   isMaster: boolean;
@@ -113,6 +140,46 @@ export function getHealth(): Promise<HealthResponse> {
 
 export function getPlayers(): Promise<PlayersResponse> {
   return request('GET', '/api/players');
+}
+
+export function getSpawners(): Promise<SpawnersResponse> {
+  return request('GET', '/api/spawners');
+}
+
+export function getSpawner(id: string): Promise<SpawnerInfo> {
+  return request('GET', `/api/spawners/${encodeURIComponent(id)}`);
+}
+
+export function getMobStats(): Promise<{ stats: string[] }> {
+  return request('GET', '/api/mobs/stats');
+}
+
+export function setSpawnerLevel(id: string, delta: number): Promise<SpawnerInfo> {
+  return request('POST', `/api/spawners/${encodeURIComponent(id)}/level`, { delta });
+}
+
+export function clearSpawnerLevel(id: string): Promise<SpawnerInfo> {
+  return request('DELETE', `/api/spawners/${encodeURIComponent(id)}/level`);
+}
+
+export function setSpawnerStat(id: string, stat: string, delta: number): Promise<SpawnerInfo> {
+  return request('POST', `/api/spawners/${encodeURIComponent(id)}/stat`, { stat, delta });
+}
+
+export function clearSpawnerStat(id: string, stat: string): Promise<SpawnerInfo> {
+  return request('POST', `/api/spawners/${encodeURIComponent(id)}/stat/clear`, { stat });
+}
+
+export function setSpawnerDisabled(id: string, disabled: boolean): Promise<SpawnerInfo> {
+  return request('POST', `/api/spawners/${encodeURIComponent(id)}/disable`, { disabled });
+}
+
+export function applySpawner(id: string): Promise<SpawnerInfo> {
+  return request('POST', `/api/spawners/${encodeURIComponent(id)}/apply`);
+}
+
+export function resetSpawner(id: string): Promise<SpawnerInfo> {
+  return request('POST', `/api/spawners/${encodeURIComponent(id)}/reset`);
 }
 
 export function getUsers(): Promise<AdminUserInfo[]> {

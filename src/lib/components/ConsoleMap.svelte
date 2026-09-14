@@ -8,8 +8,9 @@
     name: string;
     x: number;
     z: number;
-    level: number;
-    tags: string[];
+    level?: number;
+    tags?: string[];
+    colorClass?: string;
   }
 
   let {
@@ -18,12 +19,16 @@
     height = 6080,
     viewHeight = '520px',
     class: className = '',
+    selectedId = null,
+    onSelect = null,
   }: {
     dots: MapDot[];
     width?: number;
     height?: number;
     viewHeight?: string;
     class?: string;
+    selectedId?: string | null;
+    onSelect?: ((id: string) => void) | null;
   } = $props();
 
   const WORLD_BOUNDS = {
@@ -53,10 +58,19 @@
   let dragLast = $state<{ x: number; y: number } | null>(null);
   let showNames = $state(true);
 
+  const VIEWPORT_DOT_LIMIT = 400;
+  const VIEWPORT_MARGIN = 240;
+
+  let viewLeft = $state(0);
+  let viewTop = $state(0);
+  let viewW = $state(0);
+  let viewH = $state(0);
+
   let isFill = $derived(viewHeight === 'fill');
 
   function dotColorClass(dot: MapDot): string {
-    for (const tag of dot.tags) {
+    if (dot.colorClass) return dot.colorClass;
+    for (const tag of dot.tags ?? []) {
       const color = TAG_COLORS[tag.toLowerCase()];
       if (color) return color;
     }
@@ -69,7 +83,21 @@
     if (!el) return;
     el.scrollLeft = Math.max(0, (el.scrollWidth - el.clientWidth) / 2);
     el.scrollTop = Math.max(0, (el.scrollHeight - el.clientHeight) / 2);
+    updateViewport();
+
+    const observer = new ResizeObserver(() => updateViewport());
+    observer.observe(el);
+    return () => observer.disconnect();
   });
+
+  function updateViewport() {
+    const el = containerEl;
+    if (!el) return;
+    viewLeft = el.scrollLeft;
+    viewTop = el.scrollTop;
+    viewW = el.clientWidth;
+    viewH = el.clientHeight;
+  }
 
   function worldToPx(x: number, z: number): { px: number; py: number } {
     const px = ((x - WORLD_BOUNDS.minX) / (WORLD_BOUNDS.maxX - WORLD_BOUNDS.minX)) * width;
@@ -77,15 +105,55 @@
     return { px, py };
   }
 
+  // Drop duplicate ids. A keyed each block throws on duplicate keys and freezes
+  // the whole map, so this guards against a bad payload.
+  const uniqueDots = $derived.by(() => {
+    const seen = new Set<string>();
+    const result: MapDot[] = [];
+    for (const dot of dots) {
+      if (seen.has(dot.id)) continue;
+      seen.add(dot.id);
+      result.push(dot);
+    }
+    return result;
+  });
+
+  const positionedDots = $derived(
+    uniqueDots.map((dot) => {
+      const pos = worldToPx(dot.x, dot.z);
+      return { dot, px: pos.px * scale, py: pos.py * scale };
+    })
+  );
+
+  // Player maps have few dots, so render them all. Large sets (spawners) render
+  // only what falls inside the scroll viewport plus a margin, and re-filter on
+  // scroll, zoom, and resize.
+  const visibleDots = $derived.by(() => {
+    if (uniqueDots.length <= VIEWPORT_DOT_LIMIT || viewW === 0 || viewH === 0) return uniqueDots;
+
+    const left = viewLeft - VIEWPORT_MARGIN;
+    const right = viewLeft + viewW + VIEWPORT_MARGIN;
+    const top = viewTop - VIEWPORT_MARGIN;
+    const bottom = viewTop + viewH + VIEWPORT_MARGIN;
+
+    return positionedDots.filter((entry) => entry.px >= left && entry.px <= right && entry.py >= top && entry.py <= bottom).map((entry) => entry.dot);
+  });
+
   function onWheel(e: WheelEvent) {
     e.preventDefault();
     const el = containerEl;
     if (!el) return;
 
+    // Normalize wheel delta across devices. Firefox reports lines (mode 1) and
+    // page mode (2) instead of pixels, which would make zoom barely move.
+    let deltaY = e.deltaY;
+    if (e.deltaMode === 1) deltaY *= 16;
+    else if (e.deltaMode === 2) deltaY *= el.clientHeight;
+
     const rect = el.getBoundingClientRect();
     const mx = e.clientX - rect.left;
     const my = e.clientY - rect.top;
-    const factor = Math.exp(-e.deltaY * 0.0015);
+    const factor = Math.exp(-deltaY * 0.0015);
     const nextScale = clamp(scale * factor, MIN_SCALE, MAX_SCALE);
     if (nextScale === scale) return;
 
@@ -159,15 +227,6 @@
   function clamp(v: number, lo: number, hi: number): number {
     return Math.min(hi, Math.max(lo, v));
   }
-
-  function wheelAction(node: HTMLElement) {
-    node.addEventListener('wheel', onWheel, { passive: false });
-    return {
-      destroy() {
-        node.removeEventListener('wheel', onWheel);
-      },
-    };
-  }
 </script>
 
 <div class="flex flex-col gap-2 {isFill ? 'min-h-0' : ''} {className}">
@@ -175,8 +234,8 @@
     <div class="flex items-center gap-4 text-xs text-tprimary-500">
       <span>Scroll or drag to pan</span>
       <span>Wheel or buttons to zoom</span>
-      {#if dots.length > 0}
-        <span>{dots.length} {dots.length === 1 ? 'dot' : 'dots'}</span>
+      {#if uniqueDots.length > 0}
+        <span>{uniqueDots.length} {uniqueDots.length === 1 ? 'dot' : 'dots'}</span>
       {/if}
     </div>
     <div class="flex items-center gap-1.5">
@@ -198,37 +257,31 @@
       >
         <i class="mdi mdi-minus"></i>
       </button>
-      <button
-        onclick={reset}
-        class="px-2.5 py-1 h-7 rounded bg-background-800 hover:bg-background-700 text-tprimary text-xs cursor-pointer"
-      >
-        Reset
-      </button>
+      <button onclick={reset} class="px-2.5 py-1 h-7 rounded bg-background-800 hover:bg-background-700 text-tprimary text-xs cursor-pointer"> Reset </button>
     </div>
   </div>
 
   <div
     bind:this={containerEl}
-    use:wheelAction
+    onwheel={onWheel}
+    onscroll={updateViewport}
     onpointerdown={onPointerDown}
     onpointermove={onPointerMove}
     onpointerup={onPointerEnd}
     onpointercancel={onPointerEnd}
     class="relative overflow-auto bg-background-950 select-none {isFill ? 'flex-1 min-h-0' : ''} {dragging ? 'cursor-grabbing' : 'cursor-grab'}"
-    style="height: {isFill ? 'auto' : viewHeight}"
+    style="height: {isFill ? 'auto' : viewHeight}; overscroll-behavior: contain;"
   >
     <div class="relative" style="width: {width * scale}px; height: {height * scale}px">
-      <img
-        src={mapImg}
-        alt="Vardoran blank release map"
-        class="absolute inset-0 w-full h-full object-fill"
-        draggable="false"
-      />
+      <img src={mapImg} alt="Vardoran blank release map" class="absolute inset-0 w-full h-full object-fill" draggable="false" />
 
-      {#each dots as dot (dot.id)}
+      {#each visibleDots as dot (dot.id)}
         {@const pos = worldToPx(dot.x, dot.z)}
         <button
-          onpointerdown={(e) => e.stopPropagation()}
+          onpointerdown={(e) => {
+            e.stopPropagation();
+            onSelect?.(dot.id);
+          }}
           onpointerenter={() => (hoveredId = dot.id)}
           onpointerleave={() => hoveredId === dot.id && (hoveredId = null)}
           class="absolute -translate-x-1/2 -translate-y-1/2 group cursor-pointer"
@@ -236,10 +289,9 @@
           aria-label={dot.name}
         >
           <span
-            class="block w-3.5 h-3.5 rounded-full border-2 border-white/80 transition-transform {dotColorClass(dot)} {hoveredId ===
-            dot.id
+            class="block w-3.5 h-3.5 rounded-full border-2 border-white/80 transition-transform {dotColorClass(dot)} {hoveredId === dot.id
               ? 'scale-150'
-              : 'scale-100'}"
+              : 'scale-100'} {selectedId === dot.id ? 'ring-2 ring-white/90' : ''}"
           ></span>
 
           {#if showNames}
