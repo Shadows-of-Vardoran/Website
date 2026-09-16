@@ -109,6 +109,7 @@ You arrange consent via Discord or by a quick out-of-character check-in using th
 - Format waygates like bats. Start with a brief description of the delivery method, then the body, then a signature. If the posting is anonymous, indicate it is unsigned.
 - Do not use `#waygates` for brief, text-message-like exchanges or back-and-forth replies. Use the `#documents-doorbells` channel to pass a quick note instead.
 - Keep `#waygates` free of spam. Repeated short messages and back-and-forth exchanges count as spam. Spamming will get you timed out from posting. Repeated spamming may result in losing the ability to post there or other disciplinary action.
+- <span class="text-warm">**Do not ping another player in `#waygates`. If you want to ping someone, do that in `#documents-doorbells` or `#bats`.**</span>
 - To reply to a waygate, send a bat to the character who signed it. If the waygate was anonymous, send a bat to the player who posted it. Flavor it as being posted underneath the original posting for the anonymous character to see. Further responses must be flavored the same way while identities are obscured.
 - `#event-waygates` follows the same rules as `#waygates`, but is limited to public notices about in-character events. This keeps dates and times easy to find. If you are holding an event, post in both `#waygates` and `#event-waygates`.
 
