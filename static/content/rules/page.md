@@ -223,59 +223,24 @@ For commonly used in-character terms and their meanings, see the [Glossary](http
 
 ### 2. PvP Ability Limitations
 
-<div class="marked-block-info">These limits apply to four-spell loadouts used in spontaneous open-world PvP. They apply to the instigator of an encounter and to anyone who escalates a non-PvP situation into PvP. A defender who did not seek or provoke combat is not penalized for a PvE-oriented loadout. The same logic applies to NPC characters. If you intend to attack or engage an NPC, you must adhere to these restrictions. If an NPC attacks you, you are not penalized for a PvE-oriented loadout. Moderators determine who counts as an instigator on a case-by-case basis.</div>
-
-> [!IMPORTANT] <span class="text-warm">**These restrictions apply only to vanilla abilities (the base spell schools). Custom abilities obtained through specialties are not subject to these limits.**</span>
+<div class="marked-block-info">These limits apply to spontaneous open-world PvP and to Admin, Pop-Up, and Player events. They apply to the instigator of an encounter and to anyone who escalates a non-PvP situation into PvP. A defender who did not seek or provoke combat is not penalized for a PvE-oriented loadout. The same logic applies to NPC characters. If you intend to attack or engage an NPC, you must adhere to these restrictions. If an NPC attacks you, you are not penalized for a PvE-oriented loadout. Moderators determine who counts as an instigator on a case-by-case basis.</div>
 
 **Restrictions**
 
-- Do not use more than a total of two AoE <span class="text-warm">**and/or**</span> defensive spells across your four spell slots. AoE and defensive spells share a single two-spell limit. They are not separate restrictions.
-- Do not place Mist Trance on your Q slot.
+- Do not use 2 or more counters across your spell slots.
+- Counters include the vanilla counters and the Storm and Light specialty counters.
 
-<div class="grid md:grid-cols-2 gap-x-8 gap-y-2">
+Example. One counter plus any other spells is allowed. Two counters is not.
 
-<div>
+**Ability Behavior Reminder**
 
-**Defensive Spells**
+- Do not dash cancel a specialty ability. Some specialty abilities let you cancel the cast and gain a free dash. Do not abuse this.
+- Do not abuse a spammable first cast. Some specialty abilities have two casts, and only the second cast has a cooldown. Do not spam the first cast.
+- If an ability is interrupted and comes off cooldown, that is fine. Do not abuse it on purpose.
 
-- Blood: Blood Rite
-- Chaos: Chaos Barrier
-- Unholy: Ward of the Damned
-- Illusion: Phantom Aegis, Mist Trance
-- Frost: Cold Snap, Frost Barrier
-- Storm: Discharge, Lightning Curtain
+<div class="marked-block-info">A strong build is allowed. A build that makes you untouchable is not. Staff will reach out about builds that are toxic, unfun to fight, or unfit for the RP space. Staff may ask you to swap a spell or drop a blood combo. Every case is different. This is an RP-first space. If you are unsure about a build, test it in duels, ask other players, or open a ticket and ask staff.</div>
 
-</div>
-
-<div>
-
-**AoE Spells**
-
-- Blood: Blood Fountain
-- Chaos: Void, Aftershock, Rain of Chaos
-- Unholy: Bone Explosion, Soul Burn
-- Illusion: Mosquito
-- Frost: Ice Nova
-- Storm: Lightning Ball
-
-</div>
-
-</div>
-
-**Examples**
-
-Valid
-
-- Blood Rite (defensive) + Blood Fountain (AoE) + 2 spells that are neither defensive or AoE.
-- Void (AoE) + Aftershock (AoE) + 2 spells that are neither defensive or AoE.
-- Blood Rite (defensive) + Ward of the Damned (defensive) + 2 spells that are neither defensive or AoE.
-
-Invalid
-
-- Blood Rite (defensive) + Ward of the Damned (defensive) + Blood Fountain (AoE). That is three restricted spells, which exceeds the two-spell limit.
-- Void (AoE) + Aftershock (AoE) + Ice Nova (AoE). That is three AoE spells, which exceeds the two-spell limit.
-
-> [!NOTE] These limits do not apply to formal duels, tournaments, sparring, warbats, or any mutually agreed scenario where participants choose different terms. They are primarily enforced in spontaneous open-world conflict.
+> [!NOTE] These limits do not apply to formal duels, tournaments, sparring, warbats, or any mutually agreed scenario where participants choose different terms. They apply in spontaneous open-world conflict and in Admin, Pop-Up, and Player events.
 
 > [!WARNING] Violations are handled through a disciplinary ticket. The first violation results in a warning. Repeated violations result in disciplinary strikes.
 
