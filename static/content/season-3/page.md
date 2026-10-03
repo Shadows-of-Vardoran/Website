@@ -386,11 +386,6 @@ Charged gems come in 4 qualities. Each is worth 4 of the tier below it. Gem dust
   </p>
 </div>
 
-<div class="px-4 py-2.5 rounded bg-background-700/60 border border-violet-800/60 mb-4">
-  <span class="text-base font-cinzel font-bold uppercase tracking-wider text-violet-500">Mytts</span>
-  <span class="text-base text-tprimary-50">Mytts are able to pass as human. A Mytt feigning humanity may hold citizenship in Brighthaven, Dunley, or Rustlock under the same terms as a human.</span>
-</div>
-
 <p class="mb-4 text-base text-tprimary-100">
   The RP team is open to facilitating a character gaining citizenship in a location during the season. This is a difficult process given the state of the world and the apprehension surrounding newcomers. Open a contract ticket to pursue this.
 </p>
@@ -399,13 +394,12 @@ Charged gems come in 4 qualities. Each is worth 4 of the tier below it. Gem dust
   <div class="p-4 rounded border border-white/15 bg-white/5">
     <div class="text-tprimary font-cinzel text-lg mb-1">Brighthaven</div>
     <p class="text-base text-tprimary-100">Citizens of Brighthaven are typical residents of a Luminance-aligned city. You may also hold citizenship here if your backstory places you in a primarily Luminance nation.</p>
-    <p class="text-base text-tprimary-100">Vampires, werewolves, and Talam cannot start as citizens of Brighthaven.</p>
+    <p class="text-base text-tprimary-100">Vampires and werewolves cannot start as citizens of Brighthaven.</p>
   </div>
   <div class="p-4 rounded border border-sky-900/30 bg-sky-900/15">
     <div class="text-tprimary font-cinzel text-lg mb-1">Dunley</div>
     <p class="text-base text-tprimary-100">Loosely under Luminance control, but the Militia runs Dunley day to day. It is relaxed enough that some races can feign being human.</p>
     <p class="text-base text-tprimary-100">Werewolves and vampires may be citizens of Dunley, as long as the Dunley Militia does not discover what they truly are.</p>
-    <p class="text-base text-tprimary-100">Talam cannot start as citizens of Dunley.</p>
   </div>
   <div class="p-4 rounded border border-yellow-900/30 bg-yellow-900/15">
     <div class="text-tprimary font-cinzel text-lg mb-1">Rustlock</div>
