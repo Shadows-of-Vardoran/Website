@@ -424,7 +424,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Werewolves, much like vampires, must bite their victim to turn them into a werewolf. This has three possible endings, all of which have an <strong>equal</strong> chance of occurring: death, becoming a werewolf, or mortal endurance.</p>
+    <p>Werewolves, much like vampires, must bite their victim to turn them into a werewolf. This has three possible endings, all of which have an <strong>equal</strong> chance of occurring: death, becoming a werewolf, or mortal endurance. If you have survived the Bite Sickness in the past, you are unlikely to get it again.</p>
     <p>Immediately following the bite the area around it will become inflamed. The bite cannot be treated beyond stitches or in any real meaningful way. Doctors do not have an understanding about <em>how</em> a bitten human transforms; why some survive unscathed while others perish or become infected themselves.</p>
     <p>The bite wound is <em>persistent.</em> It aches and burns no matter what the bitten human does. The wound seeps a vile, yellow puss, and is always accompanied by a fever. Bite Sickness is intense, and should be RP'd as such. It is akin to a severe flu. Fever, cough, body aches, shakes, etc. The Bite Sickness lasts around 3 in-game days (e.g. 3 irl hours).</p>
     <p>A third of the people bitten by werewolves will die of this sickness.</p>
@@ -438,7 +438,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Newly transformed werewolves often have difficulty fighting their instincts, particularly at night. Something about the moon itself sets your teeth on edge. The fuller it is, the more intensely you feel your affliction. The urge to rip and tear at strangers, protect your pack/territory, and kill animals is very strong.</p>
+    <p>Newly transformed werewolves often have difficulty fighting their instincts, particularly at night. Something about the moon itself sets your teeth on edge. The fuller it is, the more intensely you feel your affliction. The urge to be with your packmates, to protect your pack/territory, and kill animals is very strong.</p>
     <p>The first several blood moons are generally very difficult to navigate. However, werewolf culture puts a big emphasis on sticking together. There is a fundamental <em>need</em> to be by/around other werewolves. Building packs is important to every werewolf, and a fundamental driving force in how they conduct themselves in our world.</p>
   </div>
 </div>
@@ -514,7 +514,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
 <div class="flex gap-4 my-2">
   <div class="w-3 rounded bg-gradient-to-b from-orange-800/60 to-orange-950/80 flex-shrink-0 border border-orange-900/30"></div>
   <div class="flex-1 text-[1.2rem]">
-    <p>Werewolves who are closer to the 'origin' of it tend to have harsher, more intense instincts. Some prefer their shifted form so much they never go out on two legs. Others are always hungry, grappling with a viscous desire to rip and tear and <em>own.</em> The more bites between a Werewolf and whatever started the species, the weaker those instincts are. The first few werewolves' territorialism is what led to the slaughter of whole villages and communities. Newer werewolves have an easier time managing the symptoms of their condition, but it is not <em>easy</em> for any of them.</p>
+    <p>Werewolves who are closer to the 'origin' of it tend to have harsher, more intense instincts. Some prefer their shifted form so much they never go out on two legs. Others are always hungry, grappling with a viscous desire hunt game and <em>own.</em> The more bites between a Werewolf and whatever started the species, the weaker those instincts are. The first few werewolves' territorialism is what led to the slaughter of whole villages and communities. Newer werewolves have an easier time managing the symptoms of their condition, but it is not <em>easy</em> for any of them.</p>
   </div>
 </div>
 
