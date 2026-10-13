@@ -440,6 +440,7 @@ Log your progress in your character's journal. When you are ready for an upgrade
   <div class="flex-1 text-[1.2rem]">
     <p>Newly transformed werewolves often have difficulty fighting their instincts, particularly at night. Something about the moon itself sets your teeth on edge. The fuller it is, the more intensely you feel your affliction. The urge to be with your packmates, to protect your pack/territory, and kill animals is very strong.</p>
     <p>The first several blood moons are generally very difficult to navigate. However, werewolf culture puts a big emphasis on sticking together. There is a fundamental <em>need</em> to be by/around other werewolves. Building packs is important to every werewolf, and a fundamental driving force in how they conduct themselves in our world.</p>
+    </p>Adult werewolves who have been turned for more than a year develop a firm grip on their instincts. Hiding what they are is pivotal to their survival, afterall.</p>
   </div>
 </div>
 
