@@ -1,0 +1,401 @@
+{
+  "params": {
+    "placementId": {
+      "description": "The ability slot. Use a friendly name. Also accepts the alias names and slot numbers.",
+      "values": ["primary", "q", "e", "dash", "r", "c", "t"]
+    },
+    "weaponCategory": {
+      "description": "Weapon category. Case-insensitive. Defaults to your equipped weapon.",
+      "values": ["Unarmed", "Axe", "Claws", "Crossbow", "Daggers", "FishingPole", "GreatSword", "Longbow", "Mace", "Pistols", "Reaper", "Slashers", "Spear", "Sword", "TwinBlades", "Whip", "All"]
+    },
+    "color": {
+      "description": "A Unity rich text color name or a hex code like #FF8800.",
+      "values": ["white", "red", "orange", "yellow", "green", "blue", "cyan", "purple", "magenta", "black", "grey"]
+    },
+    "fontSize": {
+      "description": "Font size for the sign text. Defaults to 18."
+    },
+    "idOrText": {
+      "description": "A sign id (number), or a piece of sign text to match."
+    }
+  },
+  "commands": {
+    "customabilities:abilities:set": {
+      "params": {
+        "prefabGuid": { "description": "Ability prefab GUID (integer)." }
+      }
+    },
+    "customabilities:abilities:cast": {
+      "params": {
+        "prefabGuid": { "description": "Ability prefab GUID (integer)." }
+      }
+    },
+    "customabilities:abilities:item set": {
+      "params": {
+        "prefabGUID": { "description": "Ability prefab GUID (integer)." }
+      }
+    },
+    "customabilities:abilities:spell assign": {
+      "params": {
+        "spellIdentifier": { "description": "Spell GUID, name, alias, or a fuzzy match." }
+      }
+    },
+    "keys:keys:list": {
+      "params": {
+        "target": {
+          "description": "What to list. Use mine, clan, all, or a clan name. The all option and a clan name require admin.",
+          "values": ["mine", "clan", "all"]
+        }
+      }
+    },
+    "keys:keys:remove": {
+      "params": {
+        "target": {
+          "description": "Use clan to remove your clan's keys, or a player name to remove one player's key."
+        }
+      }
+    },
+    "keys:keys:give": {
+      "params": {
+        "bypassKeyword": {
+          "description": "Type bypass to skip ownership checks.",
+          "values": ["bypass"]
+        }
+      }
+    },
+    "keys:keys:giveall": {
+      "params": {
+        "bypassKeyword": {
+          "description": "Type bypass to skip ownership checks.",
+          "values": ["bypass"]
+        }
+      }
+    },
+    "keys:keys:giveradius": {
+      "params": {
+        "radius": {
+          "description": "Radius in world units. Defaults to 10."
+        },
+        "bypassKeyword": {
+          "description": "Type bypass to skip ownership checks.",
+          "values": ["bypass"]
+        }
+      }
+    },
+    "sovutilities:sov:onboardrace": {
+      "description": "Onboard your character as a specific race. This is a one-time setup.",
+      "examples": [".sov onboardrace human warrior brighthaven"],
+      "params": {
+        "race": {
+          "description": "The race to onboard as. Each race takes different extra arguments.",
+          "values": ["human", "vampire", "werewolf", "mytt", "talam"]
+        },
+        "arg1": {
+          "description": "First race option. For human this is the blood type. For mytt this is school 1. For talam this is the subrace."
+        },
+        "arg2": {
+          "description": "Second race option. For human this is the optional faction. For mytt this is school 2. For talam this is the blood type."
+        },
+        "arg3": {
+          "description": "Third race option. For mytt this is school 3. For talam this is the optional faction."
+        },
+        "arg4": {
+          "description": "Fourth race option. For mytt this is the faction."
+        }
+      }
+    },
+    "sovutilities:sov:onboardspecialties": {
+      "description": "Choose your starting specialties. Pick up to two.",
+      "examples": [".sov onboardspecialties blacksmithing tailoring"],
+      "params": {
+        "specialtyId1": {
+          "description": "First specialty id.",
+          "values": [
+            "bloodmagic",
+            "chaosmagic",
+            "stormmagic",
+            "shadowmagic",
+            "unholymagic",
+            "illusionmagic",
+            "frostmagic",
+            "lightmagic",
+            "elementalmagic",
+            "druidicmagic",
+            "martialarts",
+            "blacksmithing",
+            "tailoring",
+            "ritualism",
+            "architect",
+            "doctor",
+            "alchemy",
+            "engineering",
+            "rancher",
+            "ranger",
+            "mutant",
+            "corruption"
+          ]
+        },
+        "specialtyId2": {
+          "description": "Optional second specialty id.",
+          "values": [
+            "bloodmagic",
+            "chaosmagic",
+            "stormmagic",
+            "shadowmagic",
+            "unholymagic",
+            "illusionmagic",
+            "frostmagic",
+            "lightmagic",
+            "elementalmagic",
+            "druidicmagic",
+            "martialarts",
+            "blacksmithing",
+            "tailoring",
+            "ritualism",
+            "architect",
+            "doctor",
+            "alchemy",
+            "engineering",
+            "rancher",
+            "ranger",
+            "mutant",
+            "corruption"
+          ]
+        }
+      }
+    },
+    "sovutilities:sov:specialty set": {
+      "params": {
+        "specialtyId": {
+          "description": "The specialty id to assign.",
+          "values": [
+            "bloodmagic",
+            "chaosmagic",
+            "stormmagic",
+            "shadowmagic",
+            "unholymagic",
+            "illusionmagic",
+            "frostmagic",
+            "lightmagic",
+            "elementalmagic",
+            "druidicmagic",
+            "martialarts",
+            "blacksmithing",
+            "tailoring",
+            "ritualism",
+            "architect",
+            "doctor",
+            "alchemy",
+            "engineering",
+            "rancher",
+            "ranger",
+            "mutant",
+            "corruption"
+          ]
+        },
+        "level": {
+          "description": "The specialty level to assign."
+        }
+      }
+    },
+    "sovutilities:sov:specialty remove": {
+      "params": {
+        "specialtyId": {
+          "description": "The specialty id to remove.",
+          "values": [
+            "bloodmagic",
+            "chaosmagic",
+            "stormmagic",
+            "shadowmagic",
+            "unholymagic",
+            "illusionmagic",
+            "frostmagic",
+            "lightmagic",
+            "elementalmagic",
+            "druidicmagic",
+            "martialarts",
+            "blacksmithing",
+            "tailoring",
+            "ritualism",
+            "architect",
+            "doctor",
+            "alchemy",
+            "engineering",
+            "rancher",
+            "ranger",
+            "mutant",
+            "corruption"
+          ]
+        }
+      }
+    },
+    "sovutilities:sov:blood set": {
+      "examples": [".sov blood set PlayerName warrior 100"],
+      "params": {
+        "bloodType": {
+          "description": "The primary blood type.",
+          "values": ["rogue", "warrior", "worker", "scholar", "brute", "creature", "mutant", "draculin", "corruption"]
+        },
+        "quality": {
+          "description": "Primary blood quality, 0 to 100."
+        },
+        "secondaryBloodType": {
+          "description": "Optional secondary blood type.",
+          "values": ["rogue", "warrior", "worker", "scholar", "brute", "creature", "mutant", "draculin", "corruption"]
+        },
+        "secondaryQuality": {
+          "description": "Secondary blood quality, 0 to 100. Use -1 to clear."
+        },
+        "secondaryTrait": {
+          "description": "Secondary blood trait index. Defaults to 1."
+        }
+      }
+    },
+    "sovutilities:sov:attune": {
+      "params": {
+        "bloodType": {
+          "description": "The primary blood type.",
+          "values": ["rogue", "warrior", "worker", "scholar", "brute", "creature", "mutant", "draculin", "corruption"]
+        },
+        "secondaryType": {
+          "description": "Optional secondary blood type.",
+          "values": ["rogue", "warrior", "worker", "scholar", "brute", "creature", "mutant", "draculin", "corruption"]
+        }
+      }
+    },
+    "sovutilities:sov:hideweapons": {
+      "params": {
+        "weaponSide": {
+          "description": "Which weapons to hide.",
+          "values": ["left", "right", "both"]
+        }
+      }
+    },
+    "sovutilities:sov:token grant": {
+      "params": {
+        "tokenId": {
+          "description": "The token id to grant.",
+          "values": [
+            "ritual_spawn",
+            "militia_cull",
+            "rancher_sheep",
+            "rancher_pig",
+            "rancher_cow",
+            "rancher_ram",
+            "rancher_deer",
+            "rancher_wolf",
+            "rancher_giantrat",
+            "rancher_bear",
+            "rancher_angrymoose",
+            "rancher_moose",
+            "rancher_frostwolf",
+            "rancher_arcticbear",
+            "rancher_mutateddeer",
+            "rancher_mutatedmoose",
+            "rancher_mutatedwolf",
+            "rancher_mutatedbear",
+            "rancher_mutantspitter",
+            "rancher_rathorror",
+            "rancher_cursedbear",
+            "rancher_cursedwolf",
+            "rancher_nightlurker",
+            "rancher_wormterror",
+            "rancher_cursedmosquito",
+            "rancher_cursedspittertoad",
+            "rancher_cursedslimetoad",
+            "rancher_corrupteddeer",
+            "rancher_corruptedwolf",
+            "rancher_corruptedbear",
+            "rancher_spiderling",
+            "rancher_crawler",
+            "rancher_weaver"
+          ]
+        }
+      }
+    },
+    "sovutilities:sov:token revoke": {
+      "params": {
+        "tokenId": {
+          "description": "The token id to revoke.",
+          "values": [
+            "ritual_spawn",
+            "militia_cull",
+            "rancher_sheep",
+            "rancher_pig",
+            "rancher_cow",
+            "rancher_ram",
+            "rancher_deer",
+            "rancher_wolf",
+            "rancher_giantrat",
+            "rancher_bear",
+            "rancher_angrymoose",
+            "rancher_moose",
+            "rancher_frostwolf",
+            "rancher_arcticbear",
+            "rancher_mutateddeer",
+            "rancher_mutatedmoose",
+            "rancher_mutatedwolf",
+            "rancher_mutatedbear",
+            "rancher_mutantspitter",
+            "rancher_rathorror",
+            "rancher_cursedbear",
+            "rancher_cursedwolf",
+            "rancher_nightlurker",
+            "rancher_wormterror",
+            "rancher_cursedmosquito",
+            "rancher_cursedspittertoad",
+            "rancher_cursedslimetoad",
+            "rancher_corrupteddeer",
+            "rancher_corruptedwolf",
+            "rancher_corruptedbear",
+            "rancher_spiderling",
+            "rancher_crawler",
+            "rancher_weaver"
+          ]
+        }
+      }
+    },
+    "sovutilities:sov:token spend": {
+      "params": {
+        "tokenId": {
+          "description": "The token id to spend.",
+          "values": [
+            "ritual_spawn",
+            "militia_cull",
+            "rancher_sheep",
+            "rancher_pig",
+            "rancher_cow",
+            "rancher_ram",
+            "rancher_deer",
+            "rancher_wolf",
+            "rancher_giantrat",
+            "rancher_bear",
+            "rancher_angrymoose",
+            "rancher_moose",
+            "rancher_frostwolf",
+            "rancher_arcticbear",
+            "rancher_mutateddeer",
+            "rancher_mutatedmoose",
+            "rancher_mutatedwolf",
+            "rancher_mutatedbear",
+            "rancher_mutantspitter",
+            "rancher_rathorror",
+            "rancher_cursedbear",
+            "rancher_cursedwolf",
+            "rancher_nightlurker",
+            "rancher_wormterror",
+            "rancher_cursedmosquito",
+            "rancher_cursedspittertoad",
+            "rancher_cursedslimetoad",
+            "rancher_corrupteddeer",
+            "rancher_corruptedwolf",
+            "rancher_corruptedbear",
+            "rancher_spiderling",
+            "rancher_crawler",
+            "rancher_weaver"
+          ]
+        }
+      }
+    }
+  }
+}
